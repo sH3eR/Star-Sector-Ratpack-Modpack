@@ -1,0 +1,116 @@
+{
+  "hullName": "GM Sniper",
+  "hullId": "gundam_gm_sniper",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/gm_sniper/gundam_gm_sniper_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 34,
+  "width": 29,
+  "center": [14, 18.5],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInMods": [
+    "gundam_sniper",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gm_sniper_gun",
+    "HEAD": "gundam_gm_sniper_head",
+    "L_LEG": "gundam_gm_sniper_leg",
+    "GUN_2": "gundam_gm_sniper_aim",
+    "HAND": "gundam_gm_sniper_hand",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 9.5,
+      "locations": [7, 5.5]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-10, 0]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-8, -10.5]
+    },
+    {
+      "id": "GUN_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-8, -10.5]
+    },
+    {
+      "id": "HAND",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-6.5, 10]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-14, 8]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-13, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 8],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-13, -8],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -7.5, 7.5,
+    6.5, 7.5,
+    6.5, -7.5,
+    -7.5, -7.5
+  ]
+}

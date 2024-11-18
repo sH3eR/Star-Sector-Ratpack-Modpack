@@ -1,0 +1,39 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_guncannon_massproduce",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_guncannon_massproduce_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_CANNON": "gundam_guncannon_massproduce_cannon",
+        "R_CANNON": "gundam_guncannon_massproduce_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	    "HAND": "gundam_guncannon_massproduce_hand",
+        "HEAD": "gundam_guncannon_massproduce_head",
+        "GUN": "gundam_guncannon_massproduce_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_LEG": "gundam_guncannon_massproduce_leg"
+      }
+    }
+  ],
+  "wings": []
+}

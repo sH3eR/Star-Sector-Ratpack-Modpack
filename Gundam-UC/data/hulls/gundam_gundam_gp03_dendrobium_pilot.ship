@@ -1,0 +1,138 @@
+{
+  "hullName": "GP-03 Dendrobium",
+  "hullId": "gundam_gundam_gp03_dendrobium_pilot",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/gundam_gp03/gundam_gundam_gp03_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 36,
+  "width": 30,
+  "center": [16, 20.5],
+  "collisionRadius": 17.5,
+  "shieldCenter": [-14, 6.5],
+  "shieldRadius": 35.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "strikeCraft",
+    "armaa_wingCommander",
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gundam_gp03_gun",
+    "HEAD": "gundam_gundam_gp03_head",
+    "L_BAZOOKA": "gundam_bazooka",
+    "MELEE": "gundam_saber_purple",
+    "R_BAZOOKA": "gundam_bazooka",
+    "SHIELD": "gundam_gundam_gp03_shield",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "ARMOUR_MODULE",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-26.5, 0]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-10.5, 1]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-2.5, -11]
+    },
+    {
+      "id": "R_BAZOOKA",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-3.5, -10]
+    },
+    {
+      "id": "L_BAZOOKA",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-7.5, 15]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-4, 13.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [11.5, -18]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-15.5, 9.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-15.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, 10],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    },
+    {
+      "location": [-16.5, -4.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    }
+  ],
+  "bounds": [
+    -10.5, 9,
+    4.5, 9,
+    4.5, -7.5,
+    -10.5, -7.5
+  ]
+}

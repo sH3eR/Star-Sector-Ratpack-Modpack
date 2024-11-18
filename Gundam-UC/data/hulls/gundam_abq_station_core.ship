@@ -1,0 +1,236 @@
+{
+  "hullName": "A Baoa Qu",
+  "hullId": "gundam_abq_station_core",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/station/gundam_abq_station_core.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 654,
+  "width": 652,
+  "center": [326, 327],
+  "collisionRadius": 313.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 750,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "builtInWeapons": {
+    "GUIDE_1": "gundam_launch_bay_guide",
+    "GUIDE_2": "gundam_launch_bay_guide",
+    "GUIDE_3": "gundam_launch_bay_guide",
+    "GUIDE_4": "gundam_launch_bay_guide"
+  },
+  "weaponSlots": [
+    {
+      "id": "GUIDE_1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [17.5, 111.5]
+    },
+    {
+      "id": "GUIDE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [46.5, 111.5]
+    },
+    {
+      "id": "GUIDE_3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-113.5, 26.5]
+    },
+    {
+      "id": "GUIDE_4",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-113.5, 13.5]
+    },
+    {
+      "id": "MODULE_1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [200, 0]
+    },
+    {
+      "id": "MODULE_2",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -200]
+    },
+    {
+      "id": "MODULE_3",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-200, 0]
+    },
+    {
+      "id": "MODULE_4",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 200]
+    },
+    {
+      "id": "MODULE_5",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [125, 162.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [43, -166.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-72, 163.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [-26, -180.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-154.5, 122]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -180,
+      "locations": [-154.5, -122]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [158.5, -110]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [197.5, 62]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -126.5,
+      "locations": [-90, -144.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        104.5, -50.5,
+        -99, 23.5,
+        19.5, 93.5,
+        44, 96.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        108.5, -42.5,
+        -99, 16.5,
+        35.5, 98.5,
+        27.5, 97.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -193, 122,
+    -180, 208,
+    -73.5, 309.5,
+    44.5, 277.5,
+    196, 236,
+    240, 44,
+    191, -8.5,
+    212, -124.5,
+    130.5, -221.5,
+    20.5, -195.5,
+    -75, -230,
+    -193.5, -174,
+    -219.5, -68.5,
+    -162, -12,
+    -202, 46.5
+  ]
+}

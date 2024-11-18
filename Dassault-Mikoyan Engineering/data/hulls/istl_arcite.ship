@@ -1,0 +1,120 @@
+{
+  "bounds": [
+    -8,
+    5.5,
+    -8,
+    -5.5,
+    4,
+    -21.5,
+    11,
+    -21.5,
+    4.5,
+    -6.5,
+    9,
+    -0,
+    4.5,
+    6.5,
+    8.5,
+    14.5,
+    -1,
+    14.5
+  ],
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_fragtorp_ftr",
+    "WS0003": "blinker_red"
+  },
+  "center": [
+    17.5,
+    12.5
+  ],
+  "collisionRadius": 32,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 22.5,
+      "location": [
+        -5,
+        -0
+      ],
+      "style": "BBHTQuadFlare",
+      "width": 5
+    },
+    {
+      "angle": -177.5,
+      "contrailSize": 3,
+      "length": 17.5,
+      "location": [
+        -5,
+        3.5
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    },
+    {
+      "angle": 177.5,
+      "contrailSize": 3,
+      "length": 17.5,
+      "location": [
+        -5,
+        -3.5
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    }
+  ],
+  "height": 26,
+  "hullId": "istl_arcite",
+  "hullName": "Arcite",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 30,
+  "spriteName": "graphics/ISTL/ships/istl_arcite.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        7,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -150,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -1,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        7.5,
+        -12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 41
+}

@@ -1,0 +1,49 @@
+{
+    #non blood related monarchy
+    "illegalCommodities":[
+        "hmi_crystal",
+	],
+     "portraits":{
+		"standard_male":[
+                "graphics/portraits/sind/male/portrait_sind_m (1).png",
+                "graphics/portraits/sind/male/portrait_sind_m (2).png",
+                "graphics/portraits/sind/male/portrait_sind_m (3).png",
+                "graphics/portraits/sind/male/portrait_sind_m (4).png",
+                "graphics/portraits/sind/male/portrait_sind_m (5).png",
+                "graphics/portraits/sind/male/portrait_sind_m (6).png",
+                "graphics/portraits/sind/male/portrait_sind_m (7).png",
+                "graphics/portraits/sind/male/portrait_sind_m (8).png",
+                "graphics/portraits/sind/male/portrait_sind_m (9).png",
+                "graphics/portraits/sind/male/portrait_sind_m (10).png",
+                "graphics/portraits/sind/male/portrait_sind_m (11).png",
+                "graphics/portraits/sind/male/portrait_sind_m (12).png",
+		],
+		"standard_female":[
+                "graphics/portraits/sind/female/portrait_sind_f (1).png",
+                "graphics/portraits/sind/female/portrait_sind_f (2).png",
+                "graphics/portraits/sind/female/portrait_sind_f (3).png",
+                "graphics/portraits/sind/female/portrait_sind_f (4).png",
+                "graphics/portraits/sind/female/portrait_sind_f (5).png",
+                "graphics/portraits/sind/female/portrait_sind_f (6).png",
+                "graphics/portraits/sind/female/portrait_sind_f (7).png",
+                "graphics/portraits/sind/female/portrait_sind_f (8).png",
+                "graphics/portraits/sind/female/portrait_sind_f (9).png",
+                "graphics/portraits/sind/female/portrait_sind_f (10).png",
+                "graphics/portraits/sind/female/portrait_sind_f (11).png",
+                "graphics/portraits/sind/female/portrait_sind_f (12).png",
+                "graphics/portraits/sind/female/portrait_sind_f (13).png",
+                "graphics/portraits/sind/female/portrait_sind_f (14).png",
+                "graphics/portraits/sind/female/portrait_sind_f (15).png",
+		],
+	},
+        "music": 
+	{
+        	"Combat": "Custom_music_diktat_combat",
+	"Custom_market_neutral":"Custom_music_diktat_market_neutral",
+	"Custom_market_hostile":"Custom_music_diktat_market_hostile",
+	"Custom_market_friendly":"Custom_music_diktat_market_friendly",
+	"Custom_encounter_neutral":"Custom_music_diktat_encounter_neutral",
+	"Custom_encounter_hostile":"Custom_music_diktat_encounter_hostile",
+	"Custom_encounter_friendly":"Custom_music_diktat_encounter_friendly",
+    	}
+},

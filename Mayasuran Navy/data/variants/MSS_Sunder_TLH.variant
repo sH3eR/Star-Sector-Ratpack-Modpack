@@ -1,0 +1,54 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "MSS_Sunder_TLH",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "MSS_Sunder_TLH",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "reaper",
+        "WS 005": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gravitonbeam",
+        "WS 004": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "railgun",
+        "WS 007": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

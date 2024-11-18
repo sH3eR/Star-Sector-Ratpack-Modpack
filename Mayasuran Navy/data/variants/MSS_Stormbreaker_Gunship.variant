@@ -1,0 +1,22 @@
+{
+  "displayName": "Gunship",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "MSS_Stormbreaker",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Stormbreaker_Gunship",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MSS_mauler_fighter"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "MSS_LaserCannon",
+  "specClass": "projectile",
+  "projectileSpecId": "MSS_lasercannon_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/mayasura/weapons/MSS_medium_energycannon_turret_base.png",
+  "turretGunSprite": "graphics/mayasura/weapons/MSS_medium_energycannon_turret_barrel.png",
+  "turretUnderSprite": "graphics/mayasura/weapons/MSS_medium_energycannon_turret_under.png",
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_medium_energycannon_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/mayasura/weapons/MSS_medium_energycannon_hardpoint_barrel.png",
+  "hardpointUnderSprite": "graphics/mayasura/weapons/MSS_medium_energycannon_hardpoint_under.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 10,
+  "turretOffsets": [
+    16,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    21,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 10,
+    "particleSizeMin": 15,
+    "particleSizeRange": 25,
+    "particleDuration": 0.2,
+    "particleCount": 20,
+    "particleColor": [
+      214,
+      6,
+      214,
+      120
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "MSS_lasercannon_fire"
+}

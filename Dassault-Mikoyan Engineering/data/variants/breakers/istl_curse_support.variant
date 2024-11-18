@@ -1,0 +1,37 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "hullId": "istl_curse",
+    "hullMods": ["istl_bbsupport"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_curse_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_marteau_esm_pod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_shellback",
+                "WS0003": "istl_shellback"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_bbheavymg",
+                "WS0005": "istl_bbheavymg"
+            }
+        }
+    ],
+    "wings": [
+        "istl_firespray_wing",
+        "istl_firespray_wing"
+    ]
+}

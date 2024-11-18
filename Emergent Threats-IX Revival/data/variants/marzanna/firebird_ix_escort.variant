@@ -1,0 +1,57 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 1,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "firebird_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "advancedoptics",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "modules": [{"SM 1": "ix_active_flare_module"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "firebird_ix_escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "dawnstar_lcpb_ix",
+                "WS 008": "dawnstar_lcpb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "starfall_rocket_ix",
+                "WS 002": "starfall_rocket_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "orthrus_s_ix",
+                "WS 010": "orthrus_s_ix",
+                "WS 011": "orthrus_s_ix",
+                "WS 012": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "daythorn_mapb_ix",
+                "WS 004": "daythorn_mapb_ix",
+                "WS 005": "daythorn_mapb_ix",
+                "WS 006": "daythorn_mapb_ix"
+            }
+        }
+    ]
+}

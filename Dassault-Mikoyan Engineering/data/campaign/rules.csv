@@ -1,0 +1,204 @@
+id,trigger,conditions,script,text,options,notes
+#Breaker Salvage dialogue,,,,,,
+sal_breakersDefault,OpenInteractionDialog,"$tag:salvageable
+$faction.id == blade_breakers","SalvageGenFromSeed
+FireBest ShowSalvageEntityDetails
+FireBest SalvageCheckHostile",Your $shipOrFleet approaches a $nameInText that appears to have been abandoned only a few cycles ago.,,
+,,,,,,
+#Warning Beacon dialogue,,,,,,
+beaconOpenDialogLenze,OpenInteractionDialog,"$tag:istl_hardened_warning_beacon
+$istl_lenzewarn","ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""","This autonomous warning beacon emits a looping message. The static crackle underlying the heavily distorted voice is sharp and unsettling.
+
+""This Sigma World is interdicted by the Blade Breakers under the rightful authority of the Council of Five. Your presence here is unwelcome.
+
+All unauthorized vermin are instructed to avoid landing on pain of death.""",beaconLeave:Leave,
+beaconOpenDialogBladeBreakersDestroyed,OpenInteractionDialog,"$tag:istl_hardened_warning_beacon
+$breakerDestroyed","ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""","This autonomous warning beacon emits a looping message. The static crackle underlying the heavily distorted voice is sharp and unsettling.
+
+""DANGER: This star system is claimed by the Blade Breakers, operating under the rightful authority of the Council of Five. Any intrusion by outsiders will be logged.""",beaconLeave:Leave,
+beaconOpenDialogBladeBreakersSuppressed,OpenInteractionDialog,"$tag:istl_hardened_warning_beacon
+$breakerSuppressed","ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""","This autonomous warning beacon emits a looping message. The static crackle underlying the heavily distorted voice is sharp and unsettling.
+
+""DANGER: This star system is interdicted by an Active Service Unit of the Blade Breakers, operating under the rightful authority of the Council of Five. Entry is forbidden to unauthorized fleets under Council Law.""",beaconLeave:Leave,
+beaconOpenDialogBladeBreakersResurgent,OpenInteractionDialog,"$tag:istl_hardened_warning_beacon
+$breakerResurgent","ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""","This autonomous warning beacon emits a looping message. The static crackle underlying the heavily distorted voice is sharp and unsettling.
+
+""DANGER: This star system is controlled by Active Service Units of the Blade Breakers, operating under the rightful authority of the Council of Five. Entry is forbidden to all fleets under Council Law.""",beaconLeave:Leave,
+,,,,,,
+#Cousteau Base dialogue,,,,,,
+istl_researchOpenDialog,OpenInteractionDialog,$tag:istl_researchBase,"PrintDescription 1
+AddText ""The landing bay is sparsely populated - mostly tour groups, a few grad students in xenological studies, looking lost next to their piled belongings. A cheerful-looking receptionist subtly guides you towards the station map and hands you a guidebook for the areas open to visitors.""
+ShowDefaultVisual
+FireBest istl_researchMainOptions",,,Landing Dialogue
+istl_researchMainOptions,istl_researchMainOptions,,"SetShortcut istl_researchLeave ""ESCAPE""",,"0:istl_researchVisit:Visit exhibits
+10:istl_researchLeave:Leave","Menu Options, starting with 0"
+istl_researchVisit,DialogOptionSelected,$option == istl_researchVisit,"SetShortcut istl_researchLeave ""ESCAPE""","The main section of Cousteau Base’s ring is a massive promenade; and you stroll aimlessly through the exhibits on theoretical models of herd-cetacean intelligence and sociology, the dusty, grandiose old plans for an agricultural colony floating on the Odessan ocean.
+
+Small kiosks around the ring sell flash-fried fish- and squidlike creatures, native to Odessa but tank-grown on station, with an assortment of spicy-sweet sauces. You wonder, as you suck the last greasy traces off your fingers, what the aboriginal cetaceans would make of this canned overview of their existence.
+
+All in all, though, not a bad way to spend some time and a few spare credits, you think as you return to your ship.",istl_researchLeave:Leave,Visit Dialogue
+istl_researchLeave,DialogOptionSelected,$option == istl_researchLeave,DismissDialog,,,Leave Dialogue
+,,,,,,
+#Greetings and commission dialogue,,,,,,
+Greeting DMEFriendly,OpenCommLink,"$faction.id == dassault_mikoyan
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Good to see you, commander. Business before pleasure, please; one tries to keep a schedule.""
+OR
+The screen flickers, and $personName smiles at you broadly as the comm channel stabilizes.
+
+""I don't suppose you'd have time to pull alongside and help me down the rest of this bottle - it's an excellent vintage.""
+OR
+""An unexpected pleasure, certainly, commander, but I have business. Is there something you need?""
+OR
+The channel stabilizes and $personName breaks into a sly grin. 
+""My, my, commander, you do look rather... dashing, but I'm afraid I'm on company time right now.""",,
+GreetingDMEHostileWeaker,OpenCommLink,"$faction.id == dassault_mikoyan
+$entity.isHostile
+$entity.relativeStrength <0","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""I recommend you find easier prey, commander - I have no intention of giving in without a fight.""
+OR
+""The longer you push other spacers around, the more likely you'll find someone who pushes back.""
+OR
+""I have no doubt your fleet could destroy mine, but I promise you, commander- you'll know you've been in a fight.""",cutCommLink:Cut the comm link,
+GreetingDMEHostileWeakerDefiant,OpenCommLink,"$faction.id == dassault_mikoyan
+$entity.isHostile
+$entity.relativeStrength <0
+$entity.weakerThanPlayerbutHolding",$ignorePlayerCommRequests = true 1,"""So it has come to this. Very well - the High Guard may die; but it does not surrender.""
+
+The comm channel closes.
+OR
+""So be it. May the victory go to the better strategist.""
+
+The comm link cuts out.
+OR
+""I expect one of us will live to regret this. Forgive me for hoping that it won't be you.""
+
+The channel snaps off abruptly.",cutCommLink:Cut the comm link,
+GreetingDMEHostileStronger,OpenCommLink,"$faction.id == dassault_mikoyan
+$entity.isHostile
+$entity.relativeStrength >=0",$ignorePlayerCommRequests = true 1,"""You have been identified as an enemy of the Dassault-Mikoyan corporation. No quarter is expected, and certainly none will be given.""
+OR
+""There are only two powers in the sector - the sword, and the mind.""
+
+The enemy $personRank pauses theatrically.
+
+""And in the long run, the sword always falls to the mind. You've been living by the sword for... quite some time, commander. Time we put an end to that.""
+OR
+""You didn't think this through, commander; you and your crew will pay a terrible price for that.""",cutCommLink:Cut the comm link,
+GreetingDMENeutral,OpenCommLink,"$faction.id == dassault_mikoyan
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You're speaking to a representative of Dassault-Mikoyan Engineering.""
+OR
+""Greetings from Dassault-Mikoyan Engineering.""",,
+,,,,,,
+CMSNTextRejectHostile_dassault,CMSNTextRejectHostile,$faction.id == dassault_mikoyan,,"""I don't think you understand the gravity of your position, captain. You're on the Company's wanted list; I suggest you find some other volume of space to play in, before you get hurt.""",,
+CMSNTextHasOther_dassault,CMSNTextHasOther,$faction.id == dassault_mikoyan,,"""It seems you're already commissioned by $theOtherCommissionFaction. I'm afraid we don't allow our licensed hunter-warriors to moonlight; you'll have to resign that commission before we can accept your application.""",,
+CMSNTextUnsuited_dassault,CMSNTextUnsuited,$faction.id == dassault_mikoyan,,"""I'm sorry, but it says here that you don't meet our criteria. We only commission hunter-warriors with clean records in Dassault-Mikoyan space.""",,
+CMSNTextSuitedPart1_dassault,CMSNTextSuitedPart1,$faction.id == dassault_mikoyan,,"""Hmm, yes, you are in good standing and none of our databases have tagged you as a troublemaker.
+
+Accepting a commission from Dassault-Mikoyan is a serious matter. You will be called on to guard our trade and defend our worlds; to uphold the rule of law and the Declaration of Values as laid down by the Nikolaev System Authority, and finally, to fight the Blade Breakers and bring their Council to justice as an auxiliary of the Sixth Bureau.
+
+You have the right to resign your commission as an independent hunter-warrior at any time. After resignation, you may no longer call on our legal or diplomatic protection from any enemies you may have made in our service.""",,
+CMSNTextSuitedPart2_dassault,CMSNTextSuitedPart2,$faction.id == dassault_mikoyan,,"""If you wish to continue, please be aware that hunter-warrior annual fatality rates have in the past reached as high as 78%. Here is your contract. Do you accept?""",,
+CMSNTextWelcomePart1_dassault,CMSNTextWelcomePart1,$faction.id == dassault_mikoyan,,"""Very well. On behalf of the Nikolaev System Authority and the Dassault-Mikoyan corporation, your comissioned hunter-warrior license has been granted. Welcome, starfarer.""",,
+CMSNTextWelcomePart2_dassault,CMSNTextWelcomePart2,$faction.id == dassault_mikoyan,,"""Anything else I can do for you?""",,
+CMSNTextChangeMind_dassault,CMSNTextChangeMind,$faction.id == dassault_mikoyan,,"""Yes, I understand. It is dangerous work, and it requires great skill, and a certain... élan, you might say, to face off against our enemies. Certainly no one would blame you for turning down the deadly risks as well as the rewards, captain.
+
+Is there anything else I can do for you?""",,
+CMSNResignAskToConfirm_dassault,CMSNResignAskToConfirm,$faction.id == dassault_mikoyan,,"""Are you certain? A hunter-warrior license is rarely granted to fully independent captains such as yourself; no few of them would kill for it.""",,
+CMSNResignConfirmed_dassault,CMSNResignConfirmed,$faction.id == dassault_mikoyan,,"""I can see there's no changing your mind. On behalf of the Company, you have our sincere thanks for your services to date.
+
+Your retinal patterns will be deregistered from our database, and your legal immunity has been revoked.""",,
+CMSNResignCancelled_dassault,CMSNResignCancelled,$faction.id == dassault_mikoyan,,"""I'm glad to hear you've changed your mind. We can always use a few good pilots to keep the spacelanes clear for honest trade.""",,
+,,,,,,
+Greeting BBFriendly,OpenCommLink,"$faction.id == blade_breakers
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""My unit is at your disposal.""
+OR
+""A pleasure to speak with an ally. What is your business?""
+OR
+""I've been authorized to offer you assistance in accordance with general orders. State your request.""
+",,
+GreetingBBHostileWeaker,OpenCommLink,"$faction.id == blade_breakers
+$entity.isHostile
+$entity.relativeStrength <0","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""There will be no surrender, tyrant. We are not in the habit of giving up without a fight.""
+OR
+""Kill us all, if you must, but we'll never tolerate your corrupted and decadent sector.""",cutCommLink:Cut the comm link,
+GreetingBBHostileWeakerDefiant,OpenCommLink,"$faction.id == blade_breakers
+$entity.isHostile
+$entity.relativeStrength <0
+$entity.weakerThanPlayerbutHolding",$ignorePlayerCommRequests = true 1,"""So be it, we fight. Allegiance or death - Blade Breakers!""
+OR
+""Forward to victory, or forward to death! For the Blade Breakers!""
+OR
+""We are permitted to die, not to surrender.""",cutCommLink:Cut the comm link,
+GreetingBBHostileStronger,OpenCommLink,"$faction.id == blade_breakers
+$entity.isHostile
+$entity.relativeStrength >=0",$ignorePlayerCommRequests = true 1,"""You have been identified as a threat to the aims and ideals of the Blade Breakers. Make whatever rituals are necessary; you will be exterminated.""
+OR
+""Very well. If you will not surrender your ships, prepare to be expunged from the face of the universe.""",cutCommLink:Cut the comm link,
+GreetingBBNeutral,OpenCommLink,"$faction.id == blade_breakers
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""I command an Active Service Unit of the Blade Breakers. Be brief.""
+OR
+""What is your reason for contacting the Blade Breakers?""
+OR
+""Your presence here is premature. We battle the Sixth Bureau for possession of the Substance and supremacy of doctrine.""",,
+breakerStationFleetOpenDefault,BeginFleetEncounter,"$isStation
+$faction.id == blade_breakers
+!$printedDesc",$printedDesc = true 0,"The grim, armored shapes of the Blade Breaker bastion fill your viewscreen. A bridge officer re-scales the tactical target display so that its entire mass can be seen at once. 
+
+External pickups indicate no known shipyard in the sector could have produced such an object, but nonetheless it exists, and appears to be fully armed and operational.
+
+The combat analysis system churns for a few seconds and then beeps angrily instead of producing the usual range of tactical recommendations.",,
+breakerStationFleetOpenDamaged,BeginFleetEncounter,"$isStation
+$damagedStation
+$faction.id == blade_breakers
+!$printedDesc",$printedDesc = true 0,"The grim, armored shapes of the Blade Breaker bastion fill your viewscreen. A bridge officer re-scales the tactical target display so that its entire mass can be seen at once. 
+
+External pickups indicate no known shipyard in the sector could have produced such an object, but nonetheless it exists. Despite the empty sockets where some of its weapons platforms were once present, it remains armed and operational.
+
+The combat analysis system churns for a few seconds and then beeps angrily instead of producing the usual range of tactical recommendations.",,
+,,,,,,
+#Market text,,,,,,
+flavorTextMarketDMEStd,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == dassault_mikoyan","AddText ""Smartly-uniformed men and women in regulation DME blue patrol the market district with high-powered shock batons - holstered, for now. Incoming crews are thoroughly searched; the protests of the unlucky few who fail a scan drowned out by background noise of official video broadcasts."" textGrayColor",,,
+flavorTextMarketDMEPeremohy,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == dassault_mikoyan
+$market.id == istl_planet_peremohy","AddText ""The cavernous marketplace is an ocean of crowd noise, underlaid by traffic direction and the bass roar of landing thrusters. Security is uniformed, armed, and unpleasantly alert, but no one else seems to be taking any notice. Even the poorest beggars and hawkers are licensed; they display their up-to-date credentials prominently."" textGrayColor",,,
+,,,,,,
+#Bar descriptions,,,,,,
+bar_descDME,BarPrintDesc,$faction.id == dassault_mikoyan,ShowImageVisual space_bar,"This dockside cafe is decorated in quiet good taste; a quick glance at the menu reveals that all the money has gone into the food and drinks, which range from very good to the highest-quality semi-synthetic charcuterie and pastries made with real wheat flour. A number of spacers are gathered towards the back, munching cautiously on unfamiliar, natural foods and watching news or graviball matches on personal devices.",,
+,,,,,,
+#AI Core dialogue,,,,,,
+aiCores_turnInOptionSelDMEPeremohy,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == dassault_mikoyan
+$market.id == istl_planet_peremohy",FireAll PopulateCoresTurnInOptions,"""You trade in dangerous goods. I should have expected as much, from an explorer of your… boldness. You must know where these come from, why they can’t be allowed to float around on the open market. I’m sure my colleagues in the Sixth Bureau will be overjoyed, however. And of course, it’s tremendously valuable to us.""",,
+aiCores_turnInOptionSelDMENotPeremohy,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == dassault_mikoyan
+$market.id != istl_planet_peremohy",FireAll PopulateCoresTurnInOptions,"""You trade in dangerous goods. I should have expected as much, from an explorer of your… boldness. You’ll be compensated amply for the risks you took, of course.""",,
+,,,,,,
+#Sigma Matter turn-in at DME markets - based on AI Core turn-ins,,,,,,
+sigmaMatter_turnInOption,PopulateOptions,"$isPerson
+istl_SigmaMatterDataRecovery personCanAcceptSMatter",FireBest DisableTurnInSMatterOptionIfNeeded,,"10:sigmaMatter_startTurnIn:""I'd like to turn in this 'Sigma matter' I found...""",
+sigmaMatter_disableTurnInOption,DisableTurnInSMatterOptionIfNeeded,!istl_SigmaMatterDataRecovery playerHasSMatter,"SetTooltip sigmaMatter_startTurnIn ""You do not have any Sigma matter in your possession.""
+SetEnabled sigmaMatter_startTurnIn false",,,
+sigmaMatter_turnInOptionSelGeneric,DialogOptionSelected,$option == sigmaMatter_startTurnIn,FireAll PopulateSMatterTurnInOptions,"""A fascinating offer. Why, if one of the major factions caught you with these, they might just seize them outright. Tell you what - I'll do you a favour and give you a good price.""",,
+sigmaMatter_turnInOptionSelDME,DialogOptionSelected,"$option == sigmaMatter_startTurnIn
+$faction.id == dassault_mikoyan",FireAll PopulateSMatterTurnInOptions,"""We don't generally like the public to be aware that these materials exist, but I'm legally bound to take possession of any I come across and ensure that it's properly contained. A runaway excursion could be incredibly destructive.""",,
+,,,,,,
+sigmaMatter_playerHasOption,PopulateSMatterTurnInOptions,,,,0:sigmaMatter_selectSMatter:Select Sigma matter to turn in,
+sigmaMatter_neverMindOption,PopulateSMatterTurnInOptions,,,,"100:sigmaMatter_neverMind:""Never mind, I don't actually have any.""",
+sigmaMatter_neverMindOptionSelected,DialogOptionSelected,$option == sigmaMatter_neverMind,FireAll PopulateOptions,,,
+sigmaMatter_turnInOptionSelected,DialogOptionSelected,$option == sigmaMatter_selectSMatter,istl_SigmaMatterDataRecovery selectSMatter,,,
+sigmaMatter_turnInResponseDefault,SMatterTurnedIn,,FireAll PopulateOptions,$PersonRank $personLastName thanks you and the conversation moves on to other matters.,,
+sigmaMatter_turnInResponseDME,SMatterTurnedIn,$faction.id == dassault_mikoyan,FireAll PopulateOptions,"$PersonRank $personLastName thanks you on behalf of the Sixth Bureau's research arm, and the conversation moves on to other matters.",,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

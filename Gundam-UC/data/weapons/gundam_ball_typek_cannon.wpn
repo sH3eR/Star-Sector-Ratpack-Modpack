@@ -1,0 +1,53 @@
+{
+  "id": "gundam_ball_typek_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_light_machine_gun_bullet",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/ms/ball_typek/gundam_ball_typek_cannon.png",
+  "turretGunSprite": "graphics/ms/ball_typek/gundam_ball_typek_cannon_recoil.png",
+  "hardpointSprite": "graphics/ms/ball_typek/gundam_ball_typek_cannon.png",
+  "hardpointGunSprite": "graphics/ms/ball_typek/gundam_ball_typek_cannon_recoil.png",
+  "visualRecoil": 5,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    32,
+    5.5,
+    32,
+    -5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    49,
+    5.5,
+    49,
+    -5.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 15,
+    "spread": 15,
+    "particleSizeMin": 3,
+    "particleSizeRange": 5,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      200,
+      100,
+      50,
+      200
+    ]
+  },
+  "fireSoundTwo": "gundam_main_cannon_blast"
+}

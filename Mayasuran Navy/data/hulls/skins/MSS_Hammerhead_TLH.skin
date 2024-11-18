@@ -1,0 +1,26 @@
+{
+	"baseHullId":"MSS_Hammerhead",
+	"skinHullId":"MSS_Hammerhead_TLH",
+	"hullName":"Hammerhead (U)",
+	"descriptionId":"hammerhead",
+	"tech":"Midline",
+	"descriptionPrefix":"One of the prototype Hammerheads used in the Battle for Mairaath, this variant features a more robust rear facing point defense.",
+	"fleetPoints":10,
+	"ordnancePoints":95,
+	"baseValue":50000,
+	"addHints":[HIDE_IN_CODEX],
+	"spriteName":"graphics/mayasura/ships/MSS_Hammerhead_TLH.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["MSS_Prime"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"engineSlotChanges":{
+		"0":{"style":"MIDLINE"},
+		"1":{"style":"MIDLINE"},
+		"2":{"style":"MIDLINE"},
+		"3":{"style":"MIDLINE"},
+		"4":{"style":"MIDLINE"},
+		"5":{"style":"MIDLINE"},
+		}
+}

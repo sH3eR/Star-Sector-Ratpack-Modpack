@@ -1,0 +1,20 @@
+{
+	"id":"istl_artillery_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_ShockArtyOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":25.0,
+	"width":20.0,
+	"fadeTime":0.2,
+	"fringeColor":[75,100,255,200],
+	"coreColor":[235,175,245,255],
+	"glowColor":[125,85,255,75],
+	"glowRadius":20,
+	"hitGlowRadius":20,
+	"passThroughMissiles":true,
+	"textureType":"MEDIUM",  # only needed for BEAM spawnType
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+}

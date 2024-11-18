@@ -1,0 +1,58 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 24,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "istl_blacklancer",
+    "hullMods": [
+        "istl_bbsupport",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_blacklancer_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_marteau_esm_pod"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "istl_electronrocket",
+                "WS0010": "istl_electronrocket"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_electronfan"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_shellhead",
+                "WS0004": "istl_shellhead"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_thermalpd",
+                "WS0008": "istl_thermalpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_bbheavymg",
+                "WS0006": "istl_bbheavymg"
+            }
+        }
+    ]
+}

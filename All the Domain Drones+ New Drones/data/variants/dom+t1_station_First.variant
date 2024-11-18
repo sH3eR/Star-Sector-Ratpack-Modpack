@@ -1,0 +1,66 @@
+{
+  "variantId": "dom+t1_station_First",
+  "hullId": "dom+t1_station",
+  "displayName": "Fortress",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "flak",
+        "WS0010": "flak",
+        "WS0011": "flak",
+        "WS0012": "flak"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0005": "dom+t1_station_north_North"
+    },
+    {
+      "WS0006": "dom+t1_station_north_North"
+    },
+    {
+      "WS0007": "dom+t1_station_north_North"
+    },
+    {
+      "WS0008": "dom+t1_station_north_North"
+    }
+  ],
+  "wings": []
+}

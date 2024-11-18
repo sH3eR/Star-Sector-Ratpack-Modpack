@@ -1,0 +1,38 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_dra_c",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_dra_c_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "GUN": "gundam_dra_c_gun",
+		"SHIELD": "gundam_dra_c_shield",
+        "HEAD": "gundam_dra_c_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_saber_yellow"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+		"GRANADE": "gundam_sturm_faust"
+      }
+    }
+  ],
+  "wings": []
+}

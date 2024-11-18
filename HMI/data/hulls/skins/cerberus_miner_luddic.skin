@@ -1,0 +1,19 @@
+{
+	"baseHullId":"cerberus_miner",
+	"skinHullId":"cerberus_miner_luddic",
+	"hullName":"Khorkoi (LC)",
+	"hullDesignation":"Frigate",
+	"descriptionId":"cerberus_miner",  # optional
+	"descriptionPrefix":"This vessel has been refitted with the sanction of the Luddic Church. Changes are largely cosmetic, however some systems have been replaced with less-heretical versions.",
+	"tags":["LC_bp"],
+	"tech":"Luddic Church",
+	"spriteName":"graphics/ships/cerberus_hmi_lc.png",
+	"baseValueMult":1.0,
+	"addHints":[],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{},
+}

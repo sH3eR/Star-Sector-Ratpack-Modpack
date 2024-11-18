@@ -1,0 +1,21 @@
+{
+	"id":"MSS_thumper_grenade",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.MSS_grenadelauncheronhit",
+	"sprite":"graphics/mayasura/missiles/MSS_thumper_nade.png",
+	"size":[34,34],	
+	"center":[17,17],	
+	"collisionRadius":10,
+	#"armingTime":400,
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+# fadeout blink is handled by the prox fuse script
+	#"flameoutTime":0.5, # total time from flameout to full fadeout
+	#"fadeTime":0.5, # fadeout duration
+	"engineSpec":{"turnAcc":5,
+				  "turnRate":10,
+				  "acc":0,
+				  "dec":0},	
+}
+

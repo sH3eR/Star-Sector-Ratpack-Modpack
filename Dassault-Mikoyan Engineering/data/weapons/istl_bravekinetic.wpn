@@ -1,0 +1,29 @@
+{
+	"id":"istl_bravekinetic",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":800,
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_bravekinetic_glow.png",
+	"glowColor":[125,175,255,255],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":32.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":150.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.3,
+					   "particleCount":60,
+					   "particleColor":[125,175,255,155]},
+	"projectileSpecId":"istl_bravekinetic_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge",
+	"fireSoundTwo":"istl_plasmamortar_fire",
+}

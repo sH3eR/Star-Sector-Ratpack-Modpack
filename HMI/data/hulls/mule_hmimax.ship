@@ -1,0 +1,195 @@
+{
+  "hullName": "Mule (MS)",
+  "hullId": "mule_hmimax",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mule/mule_hmimax.png",
+  "style": "HIGH_TECH",
+  "height": 192,
+  "width": 128,
+  "center": [64, 91],
+  "collisionRadius": 130,
+  "shieldCenter": [4, 0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, 39]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, -39]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [60, 0]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-2, 40]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-56, 0]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-2, -40]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, 31],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-82, 23],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-82, 17],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, 0],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-82, -16],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-82, -22],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-82, -30],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, 53],
+      "length": 16,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, 46],
+      "length": 8,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, -46],
+      "length": 8,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, -53],
+      "length": 16,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -22, 56,
+    19, 47,
+    21, 32,
+    32, 24,
+    35, 32,
+    74, 31,
+    77, 16,
+    92, 6,
+    92, -6,
+    76, -18,
+    72, -32,
+    34, -33,
+    31, -22,
+    20, -32,
+    19, -48,
+    -22, -54,
+    -22, -39,
+    -33, -38,
+    -36, -47,
+    -57, -46,
+    -70, -32,
+    -80, -32,
+    -72, -1,
+    -79, 33,
+    -69, 33,
+    -57, 47,
+    -35, 48,
+    -31, 38,
+    -22, 40
+  ]
+}

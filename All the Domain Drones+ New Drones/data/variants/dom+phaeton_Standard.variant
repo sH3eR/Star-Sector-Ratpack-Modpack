@@ -1,0 +1,36 @@
+{
+  "variantId": "dom+phaeton_Standard",
+  "hullId": "dom+phaeton",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightmg",
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightdualac",
+        "WS 003": "lightdualac",
+        "WS 004": "lightdualac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

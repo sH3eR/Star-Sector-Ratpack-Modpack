@@ -1,0 +1,22 @@
+{
+  "variantId": "de_miningpod_Interceptor",
+  "hullId": "de_miningpod",
+  "displayName": "Interceptor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "de_mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,377 @@
+#-------------------------------------------------------------------------------------#
+# Open referenceStarSystem.json for a reference guide on making a custom star system  #
+# (It also includes some tips and warnings about making your own custom star systems) #
+# Open presetStarSystems.json for some preset custom systems to copy, paste, and edit #
+#-------------------------------------------------------------------------------------#
+
+# This JSON file is reloaded during new game creation.
+# Thus, it can be edited without needing to restart your Starsector application,
+# as any changes here will apply on the next new game creation.
+# Any customStarSystems.json in the data/config folder of other mods will merge together with this one
+
+{
+	# An uninhabited star system with desirable planets
+	"css_default": {
+		"isEnabled": true,
+		"setLocation": 0,
+		"hasSystemwideNebula": true,
+		"addCoronalHypershunt": false,
+		"addDomainCryosleeper": false,
+		"teleportUponGeneration": false,
+		"entities": [
+			{
+				"entity": "star",
+				"type": [
+					"star_blue_giant",
+					"star_blue_supergiant",
+					"star_orange_giant",
+					"star_red_supergiant",
+					"star_red_giant"
+				]
+			},
+			{
+				"entity": "planet",
+				"type": "gas_giant",
+				"orbitRadius": 3825,
+				"radius": 325,
+				"conditions": [
+					"hot",
+					"high_gravity",
+					"volatiles_abundant"
+				]
+			},
+			{
+				"entity": "planet",
+				"type": "terran",
+				"orbitRadius": 4625,
+				"radius": 175,
+				"conditions": [
+					"habitable",
+					"ore_moderate",
+					"organics_common",
+					"farmland_adequate",
+					"ruins_extensive"
+				]
+			},
+			{
+				"entity": "planet",
+				"type": "toxic",
+				"orbitRadius": 5850,
+				"radius": 150,
+				"conditions": [
+					"toxic_atmosphere",
+					"ore_rich",
+					"rare_ore_moderate",
+					"organics_common",
+					"volatiles_diffuse"
+				]
+			},
+			{
+				"entity": "planet",
+				"type": [
+					"barren",
+					"barren2",
+					"barren3"
+				],
+				"orbitRadius": 6420,
+				"radius": 120,
+				"conditions": [
+					"no_atmosphere",
+					"ore_sparse",
+					"rare_ore_sparse"
+				]
+			},
+			{
+				"entity": "jump_point",
+				"orbitRadius": 3200,
+				"name": "Inner System Jump-point"
+			},
+			{
+				"entity": "inactive_gate",
+				"orbitRadius": 9900
+			},
+			{
+				"entity": "jump_point",
+				"orbitRadius": 6840,
+				"name": "Fringe Jump-point"
+			},
+			{
+				"entity": "magnetic_field",
+				"orbitRadius": 325,
+				"size": 525,
+				"middleRadius": 263,
+				"outerRadius": 575,
+				"focus": 1
+			},
+			{
+				"entity": "stable_location",
+				"focus": [
+					1,
+					4
+				]
+			},
+			{
+				"entity": "stable_location",
+				"focus": [
+					1,
+					5
+				]
+			},
+			{
+				"entity": "comm_relay",
+				"focus": [
+					2,
+					4
+				]
+			}
+		]
+	},
+	"Center": {
+		"isEnabled": true,
+		"setLocation": [
+			-8000,
+			4500
+		],
+		"hasSystemwideNebula": true,
+		"addCoronalHypershunt": true,
+		"addDomainCryosleeper": true,
+		"teleportUponGeneration": false,
+		"isCoreWorldSystem": true,
+		"systemBackground": "US_background161n.jpg",
+		"systemMusic": "center",
+		"systemLightColor": [
+			250,
+			202,
+			140,
+			255
+		],
+		"systemTags": [
+			"theme_core_populated",
+			"theme_unsafe",
+			"theme_hidden",
+			"theme_special",
+			"theme_remnant_main",
+			"theme_derelict",
+			"theme_core",
+			"has_coronal_tap",
+			"theme_derelict_cryosleeper",
+			"theme_derelict_mothership",
+			"system_cut_off_from_hyper",
+		],
+		"entities": [
+			{
+				"entity": "star",
+				"name": "Persia",
+				"type": [
+					"rp_center_br"
+				],
+			},
+			{
+				"entity": "jump_point",
+				"orbitRadius": 6500,
+				"orbitDays": 150,
+				"orbitClockwise": true,
+				"name": "Inner System Jump-point"
+			},
+			{
+				"entity": "jump_point",
+				"orbitRadius": 9700,
+				"orbitClockwise": false,
+				"name": "Outer System Jump-point"
+			},
+			{
+				"entity": "inactive_gate",
+				"orbitRadius": 8000
+			},
+			{
+				"entity": "station_research",
+				"orbitRadius": 5200
+			},
+			{
+				"entity": "station_research",
+				"orbitRadius": 5800
+			},
+			{
+				"entity": "station_research",
+				"orbitRadius": 5900
+			},
+			{
+				"entity": "rat_military_outpost",
+				"orbitRadius": 8500
+			},
+			{
+				"entity": "rat_military_outpost",
+				"orbitRadius": 8200
+			},
+			{
+				"entity": "station_mining_remnant",
+				"orbitRadius": 9000
+			},
+			{
+				"entity": "asteroid_belt",
+				"focus": 0,
+				"orbitRadius": 3550,
+				"orbitDays": 0,
+				"memoryKeys": {},
+				"innerBandIndex": 0,
+				"outerBandIndex": 0,
+				"size": 256,
+				"numAsteroids": 250
+			},
+			{
+				"entity": "asteroid_belt",
+				"focus": 0,
+				"orbitRadius": 9000,
+				"orbitDays": 200,
+				"memoryKeys": {},
+				"innerBandIndex": 0,
+				"outerBandIndex": 0,
+				"size": 256,
+				"numAsteroids": 250
+			},
+			{
+				"entity": "stable_location",
+				"orbitRadius": 8000
+			},
+			{
+				"entity": "stable_location",
+				"orbitRadius": 7700
+			},
+			{
+				"entity": "stable_location",
+				"orbitRadius": 7000
+			},
+			{
+				"entity": "IndEvo_arsenalStation",
+				"orbitRadius": 7500
+			},
+			{
+				"entity": "ring",
+				"orbitRadius": 9900,
+				"type": "rings_special0"
+			},
+			{
+				"entity": "IndEvo_abandonedPetCenter",
+				"orbitRadius": 9900
+			},
+			{
+				"entity": "IndEvo_GachaStation",
+				"orbitRadius": 9850
+			},
+			{
+				"entity": "MPC_corrupted_weapons_cache_high",
+				"orbitRadius": 4950
+			},
+			{
+				"entity": "MPC_corrupted_weapons_cache_high",
+				"orbitRadius": 6950
+			},
+			{
+				"entity": "MPC_corrupted_weapons_cache_high",
+				"orbitRadius": 8950
+			},
+			{
+				"entity": "magnetic_field",
+				"focus": 0,
+				"orbitRadius": 2450,
+				"memoryKeys": {},
+				"size": 8000,
+				"middleRadius": 4000,
+				"outerRadius": 8000,
+				"baseColor": [
+					250,
+					235,
+					215,
+					150
+				],
+				"auroraFrequency": 0.1,
+				"auroraColors": [
+					[
+						250,
+						235,
+						215,
+						200
+					],
+					[
+						138,
+						20,
+						255,
+						250
+					],
+					[
+						45,
+						250,
+						52,
+						250
+					],
+					[
+						0,
+						0,
+						0,
+						255
+					],
+				],
+			},
+			{
+				"entity": "accretion_disk",
+				"focus": 0,
+				"orbitRadius": 10000,
+				"memoryKeys": {},
+			},
+			{
+				"entity": "remnant_station",
+				"focus": 0,
+				"orbitRadius": 6300,
+				"orbitAngle": -1,
+				"orbitDays": 0,
+				"orbitClockwise": true,
+				"memoryKeys": {},
+				"isDamaged": false,
+			},
+			{
+				"entity": "remnant_station",
+				"focus": 0,
+				"orbitRadius": 6400,
+				"orbitAngle": -1,
+				"orbitDays": 60,
+				"orbitClockwise": false,
+				"memoryKeys": {},
+				"isDamaged": true,
+			},
+			{
+				"entity": "remnant_station",
+				"focus": 0,
+				"orbitRadius": 6200,
+				"orbitAngle": -1,
+				"orbitDays": 100,
+				"orbitClockwise": true,
+				"memoryKeys": {},
+				"isDamaged": false,
+			},
+			{
+				"entity": "remnant_station",
+				"focus": 0,
+				"orbitRadius": 6900,
+				"orbitAngle": -1,
+				"orbitDays": 100,
+				"orbitClockwise": true,
+				"memoryKeys": {},
+				"isDamaged": false,
+			},
+			{
+				"entity": "asteroid_belt",
+				"focus": 0,
+				"orbitRadius": 8000,
+				"orbitDays": 0,
+				"memoryKeys": {},
+				"innerBandIndex": 0,
+				"outerBandIndex": 0,
+				"size": 600,
+				"numAsteroids": 500,
+			},
+		],
+	},
+	#--------------------------------------#
+	# Can add more star systems below here #
+	#--------------------------------------#
+}

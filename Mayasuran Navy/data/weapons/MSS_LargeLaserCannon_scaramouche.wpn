@@ -1,0 +1,48 @@
+{
+  "id": "MSS_LargeLaserCannon_scaramouche",
+  "specClass": "projectile",
+  "projectileSpecId": "MSS_lasercannon_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/mayasura/weapons/laser_rotary/MSS_large_energycannon_turret00.png",
+  "hardpointSprite": "graphics/mayasura/weapons/laser_rotary/MSS_large_energycannon_scaramouche00.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    31,
+    1
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    18.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 30,
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 10,
+    "particleSizeMin": 15,
+    "particleSizeRange": 25,
+    "particleDuration": 0.2,
+    "particleCount": 20,
+    "particleColor": [
+      214,
+      6,
+      214,
+      120
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "MSS_rotary_lasercannon_fire"
+}

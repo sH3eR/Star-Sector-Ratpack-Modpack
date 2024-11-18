@@ -1,0 +1,11 @@
+{
+    #oh god....CLaSSiFiED DOMAIN spec ops residual forces...RUN....
+    "music":{
+            "market_neutral":"theme_legio_full",
+            "market_hostile":"theme_legio_full",
+            "market_friendly":"theme_legio_full",
+            "encounter_neutral":"theme_legio_ai",
+            "encounter_hostile":"theme_legio_ai",
+            "encounter_friendly":"theme_legio_ai",
+    },
+},

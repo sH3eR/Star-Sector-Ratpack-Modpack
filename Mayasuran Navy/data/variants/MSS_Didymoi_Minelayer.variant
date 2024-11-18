@@ -1,0 +1,22 @@
+{
+  "displayName": "Minelayer",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "MSS_Didymoi",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Didymoi_Minelayer",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "szsp_minelayer_fighter",
+        "WS0002": "szsp_minelayer_fighter"
+      }
+    }
+  ],
+  "wings": []
+}

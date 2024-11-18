@@ -1,0 +1,11 @@
+{
+    "id": "timid_admins",
+    "name": "Better Colonies",
+    "author": "Timid",
+    "utility": "false",
+    "version": "1.88",
+    "description": "QoL for Late Game Colony Management. Simple as.",
+    "gameVersion": "0.97a-RC10",
+	"jars":["jar/Bettercolonies.jar"],
+	"modPlugin": "data.scripts.GDModPlugin",
+}

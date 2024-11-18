@@ -1,0 +1,27 @@
+{
+	"id":"istl_thermalheavy",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/ISTL/weapons/istl_thermalpd_turret_base.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_thermalpd_turret_glow.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_thermalpd_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_thermalpd_hardpoint_glow.png",
+	"glowColor":[175,75,255,255],
+	"turretOffsets":[6, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[6, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":15.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.07,
+					   "particleCount":8,
+					   "particleColor":[125,75,255,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"istl_thermalpd_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_thermoburst_fire",
+}

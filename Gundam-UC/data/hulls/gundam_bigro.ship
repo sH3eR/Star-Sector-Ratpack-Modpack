@@ -1,0 +1,138 @@
+{
+  "hullName": "Bigro",
+  "hullId": "gundam_bigro",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ma/bigro/gundam_bigro_body.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 87,
+  "width": 82,
+  "center": [40, 45],
+  "collisionRadius": 36.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "L_ARM": "gundam_bigro_lefthand",
+    "M_BEAM": "gundam_builtin_yellow_mega_beam",
+    "R_ARM": "gundam_bigro_righthand",
+    "THRUST_1": "gundam_thruster_tiny_red",
+    "THRUST_2": "gundam_thruster_tiny_red",
+    "WS0001": "gundam_missile",
+    "WS0002": "gundam_missile",
+    "WS0003": "gundam_missile",
+    "WS0004": "gundam_missile"
+  },
+  "weaponSlots": [
+    {
+      "id": "M_BEAM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [29.5, 0.5]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 10.5,
+      "locations": [21.5, 19]
+    },
+    {
+      "id": "R_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -15.5,
+      "locations": [22, -19.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [17, 10.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [17.5, -11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [3.5, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5, -13]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-42, 10]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-42, -10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-42, 10],
+      "length": 33,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42, -10],
+      "length": 33,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    40, 0.5,
+    -1.5, -38,
+    -27.5, -38,
+    -27.5, 39,
+    -1.5, 39
+  ]
+}

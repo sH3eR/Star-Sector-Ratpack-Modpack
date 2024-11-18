@@ -1,0 +1,57 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ionos_tw",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ionos_tw_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "cte_tw",
+                "WS 009": "cte_tw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "starfall_rocket_ix",
+                "WS 003": "starfall_rocket_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "spearwall_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "cutting_beam_tw",
+                "WS 007": "cutting_beam_tw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "morningstar_ciws_ix",
+                "WS 005": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

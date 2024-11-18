@@ -1,0 +1,149 @@
+{
+	"abolisher_tw_fire":[
+		{"file": "sounds/weapons/abolisher_tw_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"antecedent_ix_explode":[
+		{"file": "sounds/weapons/antecedent_ix_explode.ogg", "pitch": 1, "volume": 0.6}
+	],
+	"antecedent_ix_fire":[
+		{"file": "sounds/weapons/antecedent_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"bereaver_ix_fire":[
+		{"file": "sounds/weapons/bereaver_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"conversion_lance_ix_fire":[
+		{"file": "sounds/weapons/conversion_lance_ix_fire.ogg", "pitch": 1, "volume": 1.5}
+	],
+	"conversion_lance_ix_hit":[
+		{"file": "sounds/weapons/conversion_lance_ix_hit.ogg", "pitch": 1, "volume": 1.5}
+	],
+	"cte_tw_fire":[
+		{"file": "sounds/weapons/cte_tw_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"cte_tw_hit":[
+		{"file": "sounds/weapons/cte_tw_hit.ogg", "pitch": 1, "volume": 1}
+	],
+	"cte_tw_pulse":[
+		{"file": "sounds/weapons/cte_tw_pulse.ogg", "pitch": 1, "volume": 1}
+	],
+	"cte_tw_spinup":[
+		{"file": "sounds/weapons/cte_tw_spinup.ogg", "pitch": 1, "volume": 1}
+	],
+	"cutting_beam_ix_loop":[
+		{"file": "sounds/weapons/cutting_beam_ix_loop.ogg", "pitch": 1, "volume": 1}
+	],
+	"dawnstar_hcpb_ix_loop":[
+		{"file": "sounds/weapons/dawnstar_hcpb_ix_loop.ogg", "pitch": 1, "volume": 1}
+	],
+	"dawnstar_lcpb_ix_loop":[
+		{"file": "sounds/weapons/dawnstar_lcpb_ix_loop.ogg", "pitch": 1, "volume":1}
+	],
+	"dawnstar_cpb_ix_spinup":[
+		{"file": "sounds/weapons/thundermark_ix_spinup.ogg", "pitch": 1.4, "volume": 0.5}
+	],
+	"daythorn_apb_ix_loop":[
+		{"file": "sounds/weapons/daythorn_apb_ix_loop.ogg", "pitch": 1, "volume": 1}
+	],
+	"es_projector_ix_fire":[
+		{"file": "sounds/weapons/es_projector_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"es_projector_ix_hit":{
+		"sounds":[
+			{"file":"sounds/weapons/es_projector_ix_hit_01.ogg","pitch":1,"volume":1.5},
+			{"file":"sounds/weapons/es_projector_ix_hit_02.ogg","pitch":1,"volume":1.5},
+			{"file":"sounds/weapons/es_projector_ix_hit_03.ogg","pitch":1,"volume":1.5},
+			{"file":"sounds/weapons/es_projector_ix_hit_04.ogg","pitch":1,"volume":1.5},
+			{"file":"sounds/weapons/es_projector_ix_hit_05.ogg","pitch":1,"volume":1.5},
+			{"file":"sounds/weapons/es_projector_ix_hit_06.ogg","pitch":1,"volume":1.5},
+			{"file":"sounds/weapons/es_projector_ix_hit_07.ogg","pitch":1,"volume":1.5},
+		],
+	},
+	"ifc_ix_fire":[
+		{"file": "sounds/weapons/ifc_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"ifc_ix_hit":[
+		{"file": "sounds/weapons/ifc_ix_hit.ogg", "pitch": 1, "volume": 1}
+	],
+	"immanence_engine_ix_activate":[
+		{"file": "sounds/systems/immanence_engine_ix_activate.ogg", "pitch": 1, "volume": 1}
+	],
+	"interceptor_pd_tw_fire":[
+		{"file": "sounds/weapons/interceptor_pd_tw_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"interdictor_ix_fire":[
+		{"file": "sounds/weapons/interdictor_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"morningstar_ix_fire":[
+		{"file": "sounds/weapons/morningstar_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"morningstar_fighter_ix_fire":[
+		{"file": "sounds/weapons/morningstar_ix_fire.ogg", "pitch": 1, "volume": 0.6}
+	],
+	"muon_autolance_ix_loop":[
+		{"file": "sounds/weapons/muon_autolance_ix_loop.ogg", "pitch": 1, "volume": 1}
+	],
+	"muon_siege_lance_ix_fire":[
+		{"file": "sounds/weapons/muon_siege_lance_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"muon_streamer_ix_fire":[
+		{"file": "sounds/weapons/muon_streamer_ix_fire.ogg", "pitch": 1, "volume": 0.6}
+	],
+	"orthrus_ix_fire":[
+		{"file": "sounds/weapons/orthrus_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"photon_hammer_ix_loop":[
+		{"file": "sounds/weapons/photon_hammer_ix_loop.ogg", "pitch": 1, "volume": 1}
+	],
+	"plasma_dart_ix_fire":[
+		{"file": "sounds/weapons/plasma_dart_ix_fire.ogg", "pitch": 1, "volume": 0.4}
+	],
+	"sbe_ix_fire":[
+		{"file": "sounds/weapons/sbe_ix_fire.ogg", "pitch": 1, "volume": 0.7}
+	],
+	"sbe_ix_rift":[
+		{"file": "sounds/weapons/sbe_ix_rift.ogg", "pitch": 1, "volume": 1.8}
+	],
+	"spearwall_tw_fire":[
+		{"file": "sounds/weapons/spearwall_tw_fire.ogg", "pitch": 1, "volume": 0.3}
+	],
+	"starfall_mlrs_ix_fire":[
+		{"file": "sounds/weapons/starfall_mlrs_ix_fire.ogg", "pitch": 1, "volume": 1}
+	],
+	"starfall_mlrs_ix_hit":[
+		{"file": "sounds/sfx_systems/disabled_small.ogg", "pitch":0.6, "volume":0.5}
+	],
+	"stormlight_graser_ix_fire":[
+		{"file": "sounds/weapons/stormlight_graser_ix.ogg", "pitch": 1, "volume": 1.6}
+	],
+	"thundermark_ix_fire":[
+		{"file": "sounds/weapons/thundermark_ix_fire.ogg", "pitch": 1, "volume": 0.6}
+	],
+	"thundermark_ix_spinup":[
+		{"file": "sounds/weapons/thundermark_ix_spinup.ogg", "pitch": 1, "volume": 0.8}
+	],
+	"vampyr_ix_emp":[
+		{"file": "sounds/weapons/vampyr_ix_emp.ogg", "pitch": 1, "volume": 1}
+	],
+	"music":{
+		"ix_encounter_theme":[
+			{
+				"source":"sounds/music",
+				"volume":0.6,
+				"files":[
+					"ix_encounter_theme.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+		"ix_colony_theme":[
+			{
+				"source":"sounds/music",
+				"volume":0.6,
+				"files":[
+					"ix_colony_theme.ogg",
+				],
+				"randomStart":false, 
+			},
+		]
+	}
+}

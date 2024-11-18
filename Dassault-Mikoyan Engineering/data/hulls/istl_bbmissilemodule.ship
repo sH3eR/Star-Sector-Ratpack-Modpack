@@ -1,0 +1,133 @@
+{
+  "bounds": [
+    -43,
+    10.5,
+    -51.5,
+    1,
+    -51.5,
+    -9.5,
+    -42,
+    -19,
+    -29.5,
+    -19,
+    -19,
+    -27,
+    -8.5,
+    -19,
+    8.5,
+    -19,
+    19,
+    -27,
+    29.5,
+    -19,
+    41.5,
+    -19,
+    53,
+    -7.5,
+    68.5,
+    -5.5,
+    57,
+    -4,
+    55,
+    -1,
+    63.5,
+    -0,
+    51.5,
+    1.5,
+    43.5,
+    10.5
+  ],
+  "builtInMods": [
+	"istl_bbengineering",
+    "supercomputer",
+    "no_weapon_flux",
+    "missile_reload",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0003": "istl_blinkerA_blue"
+  },
+  "center": [
+    14,
+    54
+  ],
+  "collisionRadius": 80,
+  "engineSlots": [],
+  "height": 124,
+  "hullId": "istl_bbmissilemodule",
+  "hullName": "Missile Module",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 76,
+  "spriteName": "graphics/ISTL/ships/superheavy/istl_bbmissilemodule.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -19,
+        -13
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        19,
+        -13
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -45,
+      "arc": 120,
+      "id": "WS0003t",
+      "locations": [
+        41,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -105,
+      "arc": 75,
+      "id": "WS0004",
+      "locations": [
+        -41,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        68,
+        -5.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 43
+}

@@ -1,0 +1,68 @@
+{
+  "variantId": "radiant_hmiai_cs",
+  "hullId": "radiant_hmiai",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 26,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "tachyonlance",
+        "WS 001": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hil",
+        "WS 004": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "gravitonbeam",
+        "WS 006": "gravitonbeam",
+        "WS 007": "gravitonbeam",
+        "WS 008": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "taclaser",
+        "WS 013": "taclaser",
+        "WS 014": "taclaser",
+        "WS 015": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "guardian",
+        "WS 009": "pdlaser",
+        "WS 010": "pdlaser",
+        "WS 011": "pdlaser",
+        "WS 016": "pdlaser",
+        "WS 017": "pdlaser",
+        "WS 018": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,3 @@
+id,name,faction,desc,script,icon,order
+ix_honor_guard_market,Honor Guard Armory,ix_battlegroup,Requisition equipment from the IX Battlegroup Honor Guard.,data.scripts.ix.submarkets.IXHonorGuardMarket,,101
+tw_arms_bazaar_market,Arms Bazaar,pirates,"Purchase starship fuel and advanced energy weapons on the arms bazaar. The weapons are no doubt being supplied by the Trinity Worlds, but are being offered to anyone who can make their way onto Bodach Freehold, no questions asked.",data.scripts.ix.submarkets.TWArmsBazaarMarket,,101

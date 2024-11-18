@@ -1,0 +1,32 @@
+{
+	"id":"player",
+
+	"flags":[
+		{
+			"logo":"graphics/ISTL/factions/custom/player_dawn_flag.png",
+			"crest":"graphics/ISTL/factions/custom/player_dawn_crest.png"
+		},
+		{
+			"logo":"graphics/ISTL/factions/custom/player_imperial_flag.png",
+			"crest":"graphics/ISTL/factions/custom/player_imperial_crest.png"
+		},
+		{
+			"logo":"graphics/ISTL/factions/custom/player_hex_flag.png",
+			"crest":"graphics/ISTL/factions/custom/player_hex_crest.png"
+		},
+		{
+			"logo":"graphics/ISTL/factions/custom/player_fleet_flag.png",
+			"crest":"graphics/ISTL/factions/custom/player_fleet_crest.png"
+		},
+		{
+			"logo":"graphics/ISTL/factions/custom/player_blackhorse_flag.png",
+			"crest":"graphics/ISTL/factions/custom/player_blackhorse_crest.png"
+		},
+		{
+			"logo":"graphics/ISTL/factions/custom/player_diamond_flag.png",
+			"crest":"graphics/ISTL/factions/custom/player_diamond_crest.png"
+		},
+	],
+}
+
+

@@ -1,0 +1,61 @@
+{
+  "id": "gundam_big_gun",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/gundam_big_gun_gun.png",
+  "turretGlowSprite": "graphics/weapons/gundam_big_gun_glow.png",
+  "hardpointSprite": "graphics/weapons/gundam_big_gun_gun.png",
+  "hardpointGlowSprite": "graphics/weapons/gundam_big_gun_glow.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "hitGlowRadius": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    72.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    227.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    15,
+    90,
+    255,
+    150
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "width": 20,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 50,
+  "pixelsPerTexel": 2,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "tachyon_lance_fire"
+}

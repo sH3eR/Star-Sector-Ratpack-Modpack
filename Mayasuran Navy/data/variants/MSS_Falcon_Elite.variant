@@ -1,0 +1,58 @@
+{
+  "variantId": "MSS_Falcon_Elite",
+  "hullId": "MSS_Falcon_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 22,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "heavymauler",
+        "WS 008": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "sabot",
+        "WS 002": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "railgun",
+        "WS 010": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "vulcan",
+        "WS 004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "heavyburst",
+        "WS 006": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,27 @@
+{
+  "variantId": "dom+mite_Escort_Drone",
+  "hullId": "dom+mite",
+  "displayName": "Escort Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0002": "lightac",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

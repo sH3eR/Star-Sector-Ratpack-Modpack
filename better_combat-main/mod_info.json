@@ -1,0 +1,12 @@
+{
+"id":"bcom",
+"name":"Better Combat",
+"author":"willthefunperson",
+"version":"0.3.10",
+"description":"Tweaks that makes combat better",
+"gameVersion":"0.97a-RC9",
+"totalConversion":false,
+"utility": "true",
+"modPlugin":"bcom.ModPlugin",
+"jars":["bcom.jar"],
+}

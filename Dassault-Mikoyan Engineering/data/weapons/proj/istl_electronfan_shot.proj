@@ -1,0 +1,21 @@
+{
+	"id":"istl_electronfan_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_ShellshockerOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	#"spawnType":"BALLISTIC_AS_BEAM",
+	#"collisionClass":"RAY",
+	#"collisionClassByFighter":"RAY_FIGHTER",
+	"length":120.0,
+	"width":12.0,
+	"fadeTime":0.2,
+	"fringeColor":[100,115,255,255],
+	"coreColor":[235,255,255,255],
+	"hitGlowRadius":80,
+	"passThroughMissiles":true,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+}

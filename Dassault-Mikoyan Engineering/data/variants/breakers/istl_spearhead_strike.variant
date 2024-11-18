@@ -1,0 +1,51 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "hullId": "istl_spearhead",
+    "hullMods": ["istl_bbsupport"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_spearhead_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_plasmadriver"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "istl_lens_hdem_rack",
+                "WS0005": "istl_lens_hdem_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_pulseripper",
+                "WS0003": "istl_pulseripper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_impulsor",
+                "WS0009": "istl_impulsor",
+                "WS0010": "istl_impulsor",
+                "WS0011": "istl_impulsor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_thermalpd",
+                "WS0007": "istl_thermalpd"
+            }
+        }
+    ]
+}

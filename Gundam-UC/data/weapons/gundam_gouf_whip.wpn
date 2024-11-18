@@ -1,0 +1,61 @@
+{
+  "id": "gundam_gouf_whip",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "glowColor": [
+    0,
+    0,
+    0,
+    255
+  ],
+  "hitGlowRadius": 10,
+  "turretOffsets": [
+    8.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    125,
+    74,
+    10,
+    255
+  ],
+  "coreColor": [
+    255,
+    100,
+    0,
+    255
+  ],
+  "width": 10,
+  "textureType": [
+    "graphics/fx/gundam_whip_fx.png",
+    "graphics/fx/gundam_whip_fx.png"
+  ],
+  "textureScrollSpeed": 0,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "tachyon_lance_fire"
+}

@@ -1,0 +1,2 @@
+name,id,tier,rarity,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Static Station,TAR_station,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.TAR_station,Static structure that serves in weapon testing ranges of target practice.,graphics/TAR/hullmods/TAR_station.png,

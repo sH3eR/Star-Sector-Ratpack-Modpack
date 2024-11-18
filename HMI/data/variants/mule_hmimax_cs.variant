@@ -1,0 +1,43 @@
+{
+  "variantId": "mule_hmimax_cs",
+  "hullId": "mule_hmimax",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "breach",
+        "WS 002": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "vulcan",
+        "WS 005": "vulcan",
+        "WS 006": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "longbow_wing"
+  ]
+}

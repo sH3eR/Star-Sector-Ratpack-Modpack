@@ -1,0 +1,61 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 700,
+  "fireSoundTwo": "MSS_big_autocannon_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/mayasura/weapons/MSS_big_arbalest_hardpoint_syl.png",
+  "hardpointOffsets": [
+    34.5,
+    0,
+    34.5,
+    -10,
+    34.5,
+    10
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_big_arbalest_hardpoint_base_syl.png",
+  "id": "MSS_big_arbalest",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [
+      255,
+      225,
+      225,
+      235
+    ],
+    "particleCount": 20,
+    "particleDuration": 0.5,
+    "particleSizeMin": 16,
+    "particleSizeRange": 18,
+    "spread": 20
+  },
+  "projectileSpecId": "arbalest_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/mayasura/weapons/MSS_big_arbalest_turret_recoil_syl2.png",
+  "turretOffsets": [
+    31,
+    0,
+    31,
+    -10,
+    31,
+    10
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_big_arbalest_turret_base_syl.png",
+  "turretUnderSprite": "graphics/mayasura/weapons/MSS_big_arbalest_turret_under.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 6
+}

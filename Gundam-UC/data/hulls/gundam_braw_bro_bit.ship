@@ -1,0 +1,62 @@
+{
+  "hullName": "Wired Mega Particle Gun",
+  "hullId": "gundam_braw_bro_bit",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ma/braw_bro/gundam_braw_bro_bit.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 38,
+  "width": 20,
+  "center": [10, 13.5],
+  "collisionRadius": 16.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "gundam_builtin_yellow_particle_beam",
+    "WS0002": "gundam_builtin_yellow_particle_beam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14, 4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [14, -4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, 4],
+      "length": 15,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-13.5, -4],
+      "length": 15,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    10.5, -10,
+    -13.5, -10,
+    -13.5, 10,
+    10.5, 10
+  ]
+}

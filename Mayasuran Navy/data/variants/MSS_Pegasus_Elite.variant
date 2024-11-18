@@ -1,0 +1,67 @@
+{
+  "variantId": "MSS_Pegasus_Elite",
+  "hullId": "MSS_Pegasus_Elite",
+  "displayName": "Eite",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "heavyac",
+        "WS 009": "heavyac",
+        "WS 010": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "dragonpod",
+        "WS 001": "dragonpod",
+        "WS 012": "dragonpod",
+        "WS 013": "dragonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "MSS_LaserCannon",
+        "WS 003": "MSS_LaserCannon",
+        "WS 006": "MSS_LaserCannon",
+        "WS 007": "MSS_LaserCannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "MSS_Orchard",
+        "WS 005": "MSS_Orchard"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "flak",
+        "WS 014": "pdlaser",
+        "WS 015": "pdlaser",
+        "WS 016": "pdlaser",
+        "WS 017": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

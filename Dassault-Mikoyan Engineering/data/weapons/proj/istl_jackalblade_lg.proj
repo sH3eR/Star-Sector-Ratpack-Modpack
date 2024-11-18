@@ -1,0 +1,49 @@
+{
+	"id":"istl_jackalblade_lg",
+	"specClass":"missile",	
+	"onHitEffect":"data.scripts.weapons.istl_JackalLgSparks",
+	"missileType":"ROCKET",
+	"sprite":"graphics/ISTL/missiles/istl_slicerblade_lg.png",
+	"size":[15,20],	
+	"center":[7.5,10],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,155,75,135],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	#"alwaysAccelerate":true,
+	#"reduceDamageWhileFading":true,
+	"noCollisionWhileFading":true,
+	"useHitGlowWhenDealingDamage":false, # using the scripted rift explosion instead
+	"useHitGlowWhenDestroyed":true, # instead of the default explosion
+	"dudProbabilityOnFlameout":0,
+	"fizzleOnReachingWeaponRange":true,					 
+	"armingTime":0,
+	"flameoutTime":0.2, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.1, # fadeout duration
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":480,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[1, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[1,1,1,1],
+						"contrailDuration":0.4,
+						"contrailWidthMult":10.0,
+						"contrailWidthAddedFractionAtEnd":-0.2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[255,155,75,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1,
+				    "length":1,
+				    "angle":180.0},
+				    ]
+}

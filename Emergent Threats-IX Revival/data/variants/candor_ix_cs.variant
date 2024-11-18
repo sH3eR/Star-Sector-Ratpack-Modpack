@@ -1,0 +1,26 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "candor_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "safetyoverrides",
+        "hardened_subsystems",
+        "ix_reactive_combat_shields",
+        "stabilizedshieldemitter"
+    ],
+    "modules": [{"SM 1": "ix_emp_module"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "candor_ix_cs",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "es_projector_ix",
+            "WS 002": "es_projector_ix"
+        }
+    }]
+}

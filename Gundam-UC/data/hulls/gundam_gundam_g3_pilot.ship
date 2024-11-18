@@ -1,0 +1,119 @@
+{
+  "hullName": "Gundam RX78-3 G3",
+  "hullId": "gundam_gundam_g3_pilot",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/gundam_g3/gundam_gundam_g3_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 39,
+  "width": 32,
+  "center": [16.5, 18.5],
+  "collisionRadius": 22,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "strikeCraft",
+    "armaa_wingCommander",
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gundam_g3_gun",
+    "HEAD": "gundam_gundam_g3_head",
+    "L_BAZOOKA": "gundam_gundam_g3_leftbazooka",
+    "MELEE": "gundam_beam_javelin",
+    "R_BAZOOKA": "gundam_bazooka",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-7, 0]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-1, -11]
+    },
+    {
+      "id": "R_BAZOOKA",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-1, -11]
+    },
+    {
+      "id": "L_BAZOOKA",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-2, 13]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [0, -7.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-12.5, 7]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-12.5, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 7],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    },
+    {
+      "location": [-12.5, -6.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    }
+  ],
+  "bounds": [
+    -6.5, 8.5,
+    8.5, 8.5,
+    8.5, -8,
+    -6.5, -8
+  ]
+}

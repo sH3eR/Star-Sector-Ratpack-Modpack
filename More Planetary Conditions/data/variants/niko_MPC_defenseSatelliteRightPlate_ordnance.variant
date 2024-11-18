@@ -1,0 +1,84 @@
+{
+  "variantId": "niko_MPC_defenseSatelliteRightPlate_ordnance",
+  "hullId": "niko_MPC_defenseSatelliteRightPlate",
+  "displayName": "Ordnance",
+  "goalVariant": false,
+  "fluxCapacitors": 13,
+  "fluxVents": 36,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "missleracks",
+    "reinforcedhull",
+    "autorepair",
+    "armoredweapons",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0015": "shredder",
+        "WS0003": "jackhammer",
+        "WS0016": "hammerrack",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0009": "dualflak",
+        "WS0013": "dualflak",
+		"WS0006": "dualflak",
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightag",
+        "WS0012": "lightag",
+        "WS0019": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "breachpod",
+		"WS0010": "harpoonpod",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0008": "vulcan",
+        "WS0017": "lightdualmg",
+        "WS0018": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0020": "swarmer",
+		"WS0005": "swarmer",
+		"WS0007": "swarmer",
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0014": "niko_MPC_LR_heavyburst",
+		"WS0004": "niko_MPC_LR_pdburst",
+	  }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

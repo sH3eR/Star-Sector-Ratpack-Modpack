@@ -1,0 +1,39 @@
+{
+	"id":"MSS_bomb_KE",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/bomb_bay_turret_base.png",
+	"hardpointSprite":"graphics/weapons/bomb_bay_hardpoint_base.png",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    10,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    7,
+    0
+  ],
+	"barrelMode":"LINKED",
+	"animationType":"NONE",
+	#"renderHints":[RENDER_LOADED_MISSILES],
+	"interruptibleBurst":false,
+	"displayArcRadius":20,
+	"smokeSpec":{"particleSizeMin":20.0,
+                     "particleSizeRange":14.0,
+                     "cloudParticleCount":3,
+                     "cloudDuration":1.5,
+                     "cloudRadius":12.0;
+                     "blowbackParticleCount":3,
+                     "blowbackDuration":0.45,
+                     "blowbackLength":20.0,
+                     "blowbackSpread":6.0,
+                     "particleColor":[190,180,160,95]},
+	"projectileSpecId":"MSS_bomb_KE_proj",
+	#"fireSoundTwo":"bomb_bay_fire",
+}

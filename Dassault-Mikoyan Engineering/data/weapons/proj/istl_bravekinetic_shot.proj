@@ -1,0 +1,20 @@
+{
+	"id":"istl_bravekinetic_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_BraveKineticSparks",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":40.0,
+	"width":8.0,
+	"fadeTime":0.3,
+	"fringeColor":[75,125,200,155],
+	"coreColor":[75,125,200,255],
+	"glowColor":[25,175,255,35],
+	"glowRadius":40,
+	"hitGlowRadius":60,
+	"passThroughMissiles":true,
+	"textureType":MEDIUM,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":1.0
+}

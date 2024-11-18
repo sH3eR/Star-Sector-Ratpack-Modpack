@@ -1,0 +1,29 @@
+{
+	# Reserved engine style ids (can not be used):
+	# "CUSTOM"
+	"TERMINUS_DRONE":{
+		"engineColor":[100,255,100,255],
+		"contrailParticleSizeMult":8,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[100,255,100,25],
+		"glowSizeMult":3.5,
+		"glowAlternateColor":[0,255,0,255],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"IX_TRINITY":{
+		"engineColor":[100,200,100,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[100,200,100,25],
+		"contrailCampaignColor":[100,200,100,50],
+		"glowAlternateColor":[100,200,100,255],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+}
+

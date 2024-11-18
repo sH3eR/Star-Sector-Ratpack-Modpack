@@ -1,0 +1,92 @@
+{
+  "bounds": [
+    8.5,
+    -0,
+    17,
+    -4,
+    -0.5,
+    -12.5,
+    -13,
+    -4,
+    -13,
+    4,
+    -0.5,
+    12.5,
+    17,
+    4
+  ],
+  "builtInMods": [
+    "no_weapon_flux",
+    "istl_bbengineering"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_lens_hdem_fighter"
+  },
+  "center": [
+    14,
+    15
+  ],
+  "collisionRadius": 32,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 22.5,
+      "location": [
+        -9,
+        -0
+      ],
+      "style": "BBHTQuadFlare",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 22.5,
+      "location": [
+        -9,
+        2.5
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": -180,
+      "contrailSize": 2,
+      "length": 22.5,
+      "location": [
+        -9,
+        -2.5
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    }
+  ],
+  "height": 34,
+  "hullId": "istl_focuser",
+  "hullName": "Focuser",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 30,
+  "spriteName": "graphics/ISTL/ships/istl_focuser.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        13,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 28
+}

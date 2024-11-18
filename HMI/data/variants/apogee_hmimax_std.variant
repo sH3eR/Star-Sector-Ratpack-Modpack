@@ -1,0 +1,58 @@
+{
+  "variantId": "apogee_hmimax_std",
+  "hullId": "apogee_hmimax",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 21,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "stabilizedshieldemitter",
+    "targetingunit",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "ionbeam",
+        "WS 007": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavyburst",
+        "WS 002": "heavyburst",
+        "WS 003": "pdburst",
+        "WS 004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

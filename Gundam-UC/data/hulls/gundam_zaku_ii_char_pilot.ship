@@ -1,0 +1,136 @@
+{
+  "hullName": "Zaku II",
+  "hullId": "gundam_zaku_ii_char_pilot",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/zaku_ii_char/gundam_zaku_ii_char_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 30,
+  "width": 33,
+  "center": [13.5, 7.5],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInMods": [
+    "strikeCraft",
+    "armaa_wingCommander",
+    "reduced_explosion",
+    "gundam_zaku_ii_char_weaponswap"
+  ],
+  "builtInWeapons": {
+    "GRANADE_ARM": "gundam_zaku_ii_char_hand",
+    "GUN_2": "gundam_bazooka",
+    "HEAD": "gundam_zaku_ii_char_head",
+    "L_LEG": "gundam_zaku_ii_char_leg",
+    "MELEE": "gundam_axe_slash",
+    "THRUST_1": "gundam_thruster_tiny_red",
+    "THRUST_2": "gundam_thruster_tiny_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [14.5, 5.5]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [0.5, -5]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [3.5, -18.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": -11,
+      "locations": [26.5, 2.5]
+    },
+    {
+      "id": "GRANADE_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -7,
+      "locations": [2.5, 9.5]
+    },
+    {
+      "id": "GRANADE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -7,
+      "locations": [5, 8]
+    },
+    {
+      "id": "GUN_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [2, -15]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-2.5, 4.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-3.5, -10.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-2.5, 4.5],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "RED_TAIL"
+    },
+    {
+      "location": [-3.5, -10.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "RED_TAIL"
+    }
+  ],
+  "bounds": [
+    18.5, -5,
+    32.5, -5,
+    32.5, -20,
+    18.5, -20
+  ]
+}

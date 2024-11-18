@@ -1,0 +1,61 @@
+{
+  "starSystem": "askonia",
+  "markets": [
+    {
+      "entities": [
+        "salus_siphon_plat"
+      ],
+      "faction": "sindrian_diktat",
+      "size": 4,
+      "startingConditions": [
+        "volatiles_diffuse",
+        "population_4"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "grounddefenses",
+        "fuelprod",
+        [
+          "mining",
+          "plasma_dynamo"
+        ],
+        "orbitalstation_high"
+      ]
+    },
+    {
+      "entities": [
+        "opis_mining_plat"
+      ],
+      "faction": "sindrian_diktat",
+      "size": 6,
+      "startingConditions": [
+        "ore_rich",
+        "rare_ore_rich",
+        "volatiles_trace",
+        "ruins_vast",
+        "no_atmosphere",
+        "population_6",
+#        "outpost",
+        "large_refugee_population"
+      ],
+      "industries": [
+        "population",
+        "megaport",
+        "mining",
+        "techmining",
+        [
+          "refining",
+          "catalytic_core"
+        ],
+        "militarybase",
+        "battlestation",
+        "heavybatteries",
+        "waystation"
+      ]
+    },
+  ]
+}
+
+
+

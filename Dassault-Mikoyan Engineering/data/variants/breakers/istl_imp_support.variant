@@ -1,0 +1,30 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "hullId": "istl_imp",
+    "hullMods": ["istl_bbsupport"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_imp_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_bbheavymg",
+                "WS0002": "istl_bbheavymg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_marteau_esm_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_thermalpd"}
+        }
+    ]
+}

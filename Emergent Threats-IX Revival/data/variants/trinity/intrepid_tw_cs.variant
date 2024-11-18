@@ -1,0 +1,76 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "intrepid_tw",
+    "hullMods": [
+        "extendedshieldemitter",
+        "fluxdistributor",
+        "targetingunit",
+        "ix_reactive_combat_shields",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "intrepid_tw_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS CB1": "cutting_beam_tw_er",
+                "WS CB2": "cutting_beam_tw_er"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "abolisher_tw",
+                "WS 018": "abolisher_tw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "orthrus_m_ix",
+                "WS 006": "orthrus_m_ix",
+                "WS 007": "orthrus_m_ix",
+                "WS 008": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "cutting_beam_tw",
+                "WS 004": "cutting_beam_tw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "plasma_dart_ix",
+                "WS 002": "plasma_dart_ix",
+                "WS 016": "thundermark_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "morningstar_ciws_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix",
+                "WS 019": "morningstar_ciws_ix",
+                "WS 020": "es_projector_ix"
+            }
+        }
+    ]
+}

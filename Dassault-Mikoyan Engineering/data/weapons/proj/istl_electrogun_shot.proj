@@ -1,0 +1,21 @@
+{
+	"id":"istl_electrogun_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_ElectroEMPOnHit",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_NO_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":40.0,
+	"width":9.0,
+	"fadeTime":0.1,
+	"fringeColor":[100,110,255,255],
+	"coreColor":[155,175,255,255],
+	"glowColor":[10,11,155,155],
+	"glowRadius":40,
+	"hitGlowRadius":80,
+	"passThroughMissiles":true,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+}

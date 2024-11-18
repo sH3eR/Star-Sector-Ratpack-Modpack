@@ -1,0 +1,29 @@
+{
+	"baseHullId":"istl_snowgoose",
+	"skinHullId":"istl_wildgoose",
+	"hullName":"Wild Goose",
+	"descriptionId":"istl_snowgoose",
+	"descriptionPrefix":"Heavily-upgraded and stylishly marked, this ship is employed by the fearsome, shadowy Sixth Bureau to hunt down the enemies of the Dassault-Mikoyan corporation.",
+	"tags":["no_sell", "no_dealer", "restricted", "always_recoverable"],
+    "fleetPoints":22,
+    "ordnancePoints":100,
+    "baseValueMult":1.1,
+	"addHints":[UNBOARDABLE, HIDE_IN_CODEX],
+	"spriteName":"graphics/ISTL/ships/6e/istl_wildgoose.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":["WS0019", "WS0020", "WS0021", "WS0022"], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS0001":{
+      		"type": "HYBRID",
+    	},
+    },
+	"builtInMods":[],
+	"builtInWeapons":{
+		"WS0019": "istl_tireuratm_tube",
+    	"WS0020": "istl_tireuratm_tube",
+    	"WS0021": "istl_tireuratm_tube",
+    	"WS0022": "istl_tireuratm_tube",
+    },
+}

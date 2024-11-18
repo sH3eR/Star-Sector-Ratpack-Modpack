@@ -1,0 +1,21 @@
+{
+	"id":"gundam_main_cannon_bullet",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":400.0,
+	"hitGlowRadius":150,
+	"width":7.0,
+	"fadeTime":0.6,
+	"fringeColor":[255,125,25,200],
+	#"coreColor":[255,225,175,225],
+	"coreColor":[255,125,25,200],
+	"glowColor":[255,125,25,100],
+	"glowRadius":60,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":1.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/gundam_mega_3cannon_bullet.png"
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

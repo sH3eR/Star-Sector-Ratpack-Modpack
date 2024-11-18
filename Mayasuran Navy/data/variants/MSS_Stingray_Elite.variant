@@ -1,0 +1,46 @@
+{
+  "variantId": "MSS_Stingray_Elite",
+  "hullId": "MSS_Stingray_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MSS_LaserCannon",
+        "WS0002": "MSS_LaserCannon",
+        "WS0003": "MSS_LaserCannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "reaper",
+        "WS0005": "reaper",
+        "WS0006": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan",
+        "WS0008": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MSS_Khopesh"
+  ]
+}

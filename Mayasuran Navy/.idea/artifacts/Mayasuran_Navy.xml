@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Mayasuran Navy">
+    <output-path>$PROJECT_DIR$/out/Mayasuran_Navy_jar</output-path>
+    <root id="archive" name="Mayasuran Navy.jar">
+      <element id="module-output" name="Mayasuran" />
+    </root>
+  </artifact>
+</component>

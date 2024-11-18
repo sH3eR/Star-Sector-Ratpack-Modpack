@@ -1,0 +1,35 @@
+{
+  "RansomMethod": {
+    "ButtonText": "Ransom",
+    "OutputText": "You were paid ${credits} credits for the release."
+  },
+  "ExecuteMethod": {
+    "ButtonText": "Execute",
+    "OutputText": "The officer has been executed."
+  },
+  "ReleaseMethod": {
+    "ButtonText": "Release",
+    "OutputText": "The officer has been released."
+  },
+  "TalkMethod": {
+    "ButtonText": "Talk"
+  },
+  "HireMethod": {
+    "ButtonText": "Hire",
+    "OutputText": "You hired the officer."
+  },
+  "BribeMethod": {
+    "ButtonText": "Bribe",
+    "OutputText": "You gave ${credits} credits to hire the officer."
+  },
+  "PrisonerUI": {
+    "AbilityDesc": "Decide how to handle captured officers.",
+    "Title": "Prisoners",
+    "LevelText": "Level ${level}, ${personality}",
+    "FactionText": "${factionName} ${rank}",
+    "EliteSkill": "Elite"
+  },
+  "VengeanceFleet": {
+    "NotificationText": "Your crimes against ${factionId} have not gone unnoticed."
+  }
+}

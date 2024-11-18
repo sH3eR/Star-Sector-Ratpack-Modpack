@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://github.com/wispborne/takenoprisoners/raw/main/takenoprisoners.version",
+  "modName": "TakeNoPrisoners",
+  "modThreadId": 30039,
+  "modVersion":
+    {
+      "major": 0,
+      "minor": 17,
+      "patch": 0
+    },
+  "directDownloadURL": "https://github.com/wispborne/takenoprisoners/releases/latest/download/TakeNoPrisoners.zip",
+}

@@ -1,0 +1,68 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_intrepid_ex",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_intrepid_ex_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "vice_neutron_autolance",
+                "WS 021": "vice_neutron_autolance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "vice_atropos_mirv",
+                "WS 019": "vice_atropos_mirv"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "annihilatorpod",
+                "WS 006": "annihilatorpod",
+                "WS 007": "annihilatorpod",
+                "WS 008": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "gravitonbeam",
+                "WS 004": "gravitonbeam",
+                "WS 012": "vice_ionstreamer",
+                "WS 013": "vice_ionstreamer",
+                "WS 017": "vice_siege_burst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 002": "heavyburst",
+                "WS 009": "heavyburst",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdburst"
+            }
+        }
+    ]
+}

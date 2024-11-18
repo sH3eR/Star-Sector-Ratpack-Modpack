@@ -1,0 +1,35 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_pizarro",
+  "hullMods": [
+    "auxiliary_fuel_tanks",
+	"expanded_cargo_holds",
+    "expanded_deck_crew"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_pizarro_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_pd_2mg",
+				"WS0002": "gundam_pd_2mg"
+            }
+        }
+    ],
+    "wings": [
+        "gundam_gm_early_wing",
+		"gundam_gm_wing",
+        "gundam_gm_typec_wing"
+    ]
+}
+
+
+
+

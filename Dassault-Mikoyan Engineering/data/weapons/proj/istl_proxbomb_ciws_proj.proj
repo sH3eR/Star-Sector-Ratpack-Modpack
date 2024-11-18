@@ -1,0 +1,51 @@
+{
+	"id":"istl_proxbomb_ciws_proj",
+	"specClass":"missile",
+	"onFireEffect":"data.scripts.weapons.istl_GrenadeBehaviorPlugin",
+	"missileType":"BOMB_WITH_SLOW",
+	"sprite":"graphics/ISTL/missiles/istl_lightbomb.png",
+	"size":[7,10],	
+	"center":[3.5,5],
+	"collisionRadius":9,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,155,75,225],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"flameoutTime":0.05, # total time from flameout to full fadeout
+	"armingTime":0.15,
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"fadeTime":0.05, # fadeout duration		
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":50,
+					 "coreRadius":30, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+	"dudProbabilityOnFlameout":0.3,
+	"fizzleOnReachingWeaponRange":true,
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"slowToMaxSpeed":true,
+					"range":25,
+					"explosionSpec":{"duration":0.2f,
+									 "radius":50,
+									 "coreRadius":30, # full damage within core radius
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":4.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":0.8,
+									 "particleCount":15,
+									 "particleColor":[255,155,75,255],
+									 "explosionColor":[255,125,75,225],
+									 "useDetailedExplosion":true,
+									 "useDetailedExplosionColorAlpha":true,
+									 "detailedExplosionRadius":40,
+									 "detailedExplosionFlashRadius":120,
+									 "detailedExplosionFlashDuration":0.3,
+									 "detailedExplosionFlashColorFringe":[255,155,75,155],
+									 "detailedExplosionFlashColorCore":[255,155,75,255],
+									 "sound":"system_canister_flak_explosion"},
+					},
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":10,
+				  "acc":100,
+				  "dec":50}
+}

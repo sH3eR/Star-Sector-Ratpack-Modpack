@@ -1,0 +1,23 @@
+{
+    "displayName": "Drone",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "maquech_tw",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "maquech_tw_drone",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "morningstar_ciws_ix",
+            "WS 002": "lightbringer_ciws_ix"
+        }
+    }],
+    "wings": [
+        "nimbus_tw_wing_c",
+        "nimbus_tw_wing_c"
+    ]
+}

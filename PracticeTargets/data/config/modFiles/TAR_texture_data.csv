@@ -1,0 +1,7 @@
+id,type,frame,magnitude,map,path
+
+TAR_meatshipLT,ship,,1,normal,graphics/TAR/ships/TAR_meatship_Normal.png
+TAR_meatshipMT,ship,,1,normal,graphics/TAR/ships/TAR_meatship_Normal.png
+TAR_meatshipHT,ship,,1,normal,graphics/TAR/ships/TAR_meatship_Normal.png
+TAR_meatshipMT_H,ship,,1,normal,graphics/TAR/ships/TAR_meatship_Normal.png
+TAR_missileDrone,ship,,1,normal,graphics/TAR/ships/TAR_missileDrone_Normal.png

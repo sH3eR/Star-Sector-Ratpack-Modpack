@@ -1,0 +1,11 @@
+{
+	"id":"sun_perilous_expanse",
+	"name":"Perilous Expanse",
+    "utility":"false",
+	"author":"Sundog",
+	"version":"1.4.0",
+	"description":"Overhauls the way exploration works to make it much more dangerous and dynamic.\n\nINCOMPATIBLE MODS:\n  - Nomadic Survival\n  - Fuel Siphoning",
+    "gameVersion":"0.97a-RC6",
+	"jars":["jars/NomadicSurvival.jar"],
+    "modPlugin":"nomadic_survival.ModPlugin",
+}

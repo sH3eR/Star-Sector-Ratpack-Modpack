@@ -1,0 +1,103 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "goalVariant": true,
+  "hullId": "gundam_gray_phantom",
+  "hullMods": [
+    "autorepair",
+    "fluxcoil",
+	"fluxdistributor",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_gray_phantom_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_blaster_cannon"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0002": "gundam_mega_3cannon",
+                "WS0003": "gundam_mega_3cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0004": "gundam_2mega_particle_beam",
+				"WS0005": "gundam_2mega_particle_beam"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "gundam_antims_1cannon_pd_m",
+				"WS0007": "gundam_antims_1cannon_pd_m"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "gundam_builtin_front_spmissile",
+                "WS0009": "gundam_builtin_front_spmissile",
+                "WS0010": "gundam_builtin_front_spmissile",
+                "WS0011": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "gundam_builtin_rear_swamp_missile",
+				"WS0013": "gundam_builtin_rear_swamp_missile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0014": "gundam_pd_2bc",
+				"WS0015": "gundam_pd_2bc",
+				"WS0016": "gundam_pd_2bc",
+				"WS0017": "gundam_pd_2bc",
+				"WS0018": "gundam_pd_2bc",
+				"WS0019": "gundam_pd_2bc",
+				"WS0020": "gundam_pd_2bc",
+				"WS0021": "gundam_pd_2bc",
+				"WS0022": "gundam_pd_2bc",
+				"WS0023": "gundam_pd_2bc",
+				"WS0024": "gundam_pd_2bc",
+                "WS0025": "gundam_pd_2bc",
+                "WS0026": "gundam_pd_2bc",
+                "WS0027": "gundam_pd_2bc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide",
+                "GUIDE_3": "gundam_launch_bay_guide",
+                "GUIDE_4": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_gm_sniper_ii_wing",
+		"gundam_gm_wing",
+		"gundam_guncannon_massproduce_wing"
+    ]
+}

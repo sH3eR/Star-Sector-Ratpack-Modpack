@@ -1,0 +1,33 @@
+id,trigger,conditions,script,text,options,notes
+sun_ns_show,PopulateOptions,"$market.isPlanetConditionMarketOnly
+$market.isSurveyed
+SUN_NS_PlanetHasOperations","SetShortcut sun_ns_marketConsiderOps ""O""
+FireBest SUN_NS_PrintHarassed
+SUN_NS_ShowAvailablePlanetaryOperations",,8:sun_ns_marketConsiderOps:Consider planetary operations,
+sun_ns_showRefitOption,PopulateOptions,"$market.isPlanetConditionMarketOnly
+$market.isSurveyed
+SUN_NS_PlanetHasRefitOperation","SUN_NS_MakeOptionOpenRefitScreen sun_ns_openRefitScreen
+SetShortcut sun_ns_openRefitScreen ""R""",,9:sun_ns_openRefitScreen:Use the abandoned shipyard to freely refit ships,
+sun_ns_marketOptShow,PopulateOptions,"$hasMarket
+$menuState == main
+#$faction.id == player
+SUN_NS_PlanetHasOperations","SetShortcut sun_ns_marketConsiderOps ""O""
+FireBest SUN_NS_PrintHarassed
+SUN_NS_ShowAvailablePlanetaryOperations",,20:sun_ns_marketConsiderOps:Consider planetary operations,
+#sun_ns_marketHostileShow,DialogOptionSelected,"$option == marketConsiderHostile
+SUN_NS_PlanetHasOperations","SetShortcut sun_ns_marketConsiderOps ""O""
+FireBest SUN_NS_PrintHarassed
+SUN_NS_ShowAvailablePlanetaryOperations",,8:sun_ns_marketConsiderOps:Consider planetary operations,
+sun_ns_showHarassed,SUN_NS_PrintHarassed,HostileFleetNearbyAndAware,"SetEnabled sun_ns_marketConsiderOps false
+SetEnabled sun_ns_openRefitScreen false
+SetTooltip sun_ns_marketConsiderOps ""A nearby hostile fleet is tracking your movements, making it impossible to perform planetary operations.""
+SetTooltip sun_ns_openRefitScreen ""A nearby hostile fleet is tracking your movements, making it impossible to use the abandoned shipyard at this time.""",,,
+sun_ns_marketConsiderOps,DialogOptionSelected,$option == sun_ns_marketConsiderOps,SUN_NS_ConsiderPlanetaryOperations,You consider what you've learned about the opportunities for operations on $name and assess your options.,,
+sun_ns_back,DialogOptionSelected,$option == sun_ns_considerOpsBack,FireAll PopulateOptions,,,
+#sun_ns_marketHostileBack,DialogOptionSelected,$option == sun_ns_considerOpsBack,MarketCMD showDefenses,,,
+sun_ns_exploitOption0,DialogOptionSelected,$option == sun_ns_exploitPerform0,SUN_NS_ExploitPlanetDialogPlugin 0,,,
+sun_ns_exploitOption1,DialogOptionSelected,$option == sun_ns_exploitPerform1,SUN_NS_ExploitPlanetDialogPlugin 1,,,
+sun_ns_exploitOption2,DialogOptionSelected,$option == sun_ns_exploitPerform2,SUN_NS_ExploitPlanetDialogPlugin 2,,,
+sun_ns_exploitOption3,DialogOptionSelected,$option == sun_ns_exploitPerform3,SUN_NS_ExploitPlanetDialogPlugin 3,,,
+sun_ns_exploitOption4,DialogOptionSelected,$option == sun_ns_exploitPerform4,SUN_NS_ExploitPlanetDialogPlugin 4,,,
+sun_ns_exploitOption5,DialogOptionSelected,$option == sun_ns_exploitPerform5,SUN_NS_ExploitPlanetDialogPlugin 5,,,

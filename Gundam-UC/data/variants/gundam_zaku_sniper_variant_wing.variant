@@ -1,0 +1,31 @@
+{
+  "displayName": "Limited Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_zaku_sniper",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_zaku_sniper_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_zaku_sniper_gun",
+		"GUN_2": "gundam_zaku_sniper_aim",
+		"HEAD": "gundam_zaku_sniper_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_LEG": "gundam_zaku_sniper_leg"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,78 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 6,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "intrepid_tw",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "tw_drone_control_node",
+        "extendedshieldemitter",
+        "fluxdistributor",
+        "targetingunit",
+        "tw_modernized_rangefinder",
+        "ix_reactive_combat_shields",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_proton",
+        "ix_dawnstar_proton_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "intrepid_tw_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS CB1": "cutting_beam_tw_er",
+                "WS CB2": "cutting_beam_tw_er"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "spatial_charge_launcher_ix",
+                "WS 006": "spatial_charge_launcher_ix",
+                "WS 007": "spatial_charge_launcher_ix",
+                "WS 008": "spatial_charge_launcher_ix",
+                "WS 017": "spearwall_tw",
+                "WS 018": "spearwall_tw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 016": "cte_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 020": "dawnstar_lcpb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "daythorn_mapb_ix",
+                "WS 011": "daythorn_mapb_ix",
+                "WS 012": "daythorn_mapb_ix",
+                "WS 013": "daythorn_mapb_ix",
+                "WS 019": "daythorn_mapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "plasma_dart_ix",
+                "WS 002": "plasma_dart_ix",
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": ["nimbus_tw_wing_l"]
+}

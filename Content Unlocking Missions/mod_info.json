@@ -1,0 +1,12 @@
+{
+    "id": "timid_cum",
+    "name": "Content Unlocking Missions",
+    "author": "Timid",
+    "utility": "false",
+    "version": "1.14",
+    "description": "Complete those main menu missions and unlock campaign content!",
+    "gameVersion": "0.97a-RC10",
+	#"dependencies": [],
+	"jars":["jars/ContentUnlockingMissions.jar"],
+	"modPlugin":"data.scripts.cum_modPlugin",
+}

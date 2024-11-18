@@ -1,0 +1,119 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+gundam_core_fighter_wing,gundam_core_fighter_variant_wing,"interceptor1,interceptor,low,efsf_fighter_0_bp,rd_force_extra_craft,rapid_reform,leader_no_swarm,wingmen_no_swarm,match_leader_facing,attack_at_an_angle",0,0,3,4,V,4000,500,,5,INTERCEPTOR,Transformable Core System Support Craft,10,6000,,,,,,,,,,,,,1
+gundam_jet_core_booster_wing,gundam_jet_core_booster_variant_wing,"fighter1,fighter,low,efsf_fighter_0_bp,rare_bp,rd_force_extra_craft,rapid_reform,leader_no_swarm,wingmen_no_swarm,match_leader_facing,attack_at_an_angle",1,0,4,10,V,4000,500,,3,FIGHTER,Support Fighter,13,7000,,,,,,,,,,,,,2
+gundam_core_booster_wing,gundam_core_booster_variant_wing,"fighter1,fighter,low,efsf_fighter_0_bp",0,0,4,8,V,4000,500,,2,FIGHTER,Support Fighter,13,8000,,,,,,,,,,,,,3
+gundam_pablic_wing,gundam_pablic_variant_wing,"bomber2,bomber,high,efsf_fighter_0_bp,rare_bp",2,0,5,15,BOX,4000,2000,600,2,BOMBER,Assault Space Ship,14,10000,,,,,,,,,,,,,4
+gundam_ball_wing,gundam_ball_variant_wing,"fighter1,fighter,low,efsf_ms_0_bp,rd_force_extra_craft,rapid_reform,leader_no_swarm,wingmen_no_swarm,match_leader_facing,attack_at_an_angle",0,0,3,6,CLAW,4000,1000,900,5,FIGHTER,Support Space Mobile Pod,10,7000,,,,,,,,,,,,,5
+gundam_ball_typek_wing,gundam_ball_typek_variant_wing,"interceptor1,interceptor,low,efsf_ms_0_bp,rd_force_extra_craft,rapid_reform,leader_no_swarm,wingmen_no_swarm,match_leader_facing,attack_at_an_angle",0,0,3,6,CLAW,4000,1000,900,5,INTERCEPTOR,Space Mobile Pod,10,8000,,,,,,,,,,,,,6
+gundam_gm_early_wing,gundam_gm_early_variant_wing,"interceptor2,interceptor,low,efsf_ms_0_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0,5,12,DIAMOND,4500,500,-100,4,INTERCEPTOR,General-Purpose Mobile Suit,20,9000,,,,,,,,,,,,,7
+gundam_gm_wing,gundam_gm_variant_wing,"fighter2,fighter,mid,efsf_ms_0_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.1,5,15,DIAMOND,5000,500,-100,4,FIGHTER,General-Purpose Mobile Suit,20,10000,,,,,,,,,,,,,8
+gundam_gm_thunderbolt_wing,gundam_gm_thunderbolt_variant_wing,"fighter2,fighter,mid,efsf_ms_0_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle,rare_bp",1,0.15,5,16,DIAMOND,5000,500,-100,4,FIGHTER,General-Purpose Mobile Suit,20,11000,,,,,,,,,,,,,8
+gundam_gm_typec_wing,gundam_gm_typec_variant_wing,"interceptor2,interceptor,mid,efsf_ms_0_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.15,5,15,DIAMOND,5000,500,-100,4,INTERCEPTOR,General-Purpose Mobile Suit,20,10000,,,,,,,,,,,,,9
+gundam_gm_cs_wing,gundam_gm_cs_variant_wing,"interceptor3,interceptor,mid,efsf_ms_1_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,5,16,DIAMOND,5000,500,-100,4,INTERCEPTOR,General-Purpose Space Mobile Suit,20,12000,,,,,,,,,,,,,10
+gundam_gm_custom_wing,gundam_gm_custom_variant_wing,"interceptor3,interceptor,mid,efsf_ms_1_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,5,18,DIAMOND,5000,500,-100,3,INTERCEPTOR,General-Purpose Space Mobile Suit,20,13000,,,,,,,,,,,,,10
+gundam_gm_powered_wing,gundam_gm_powered_variant_wing,"interceptor4,interceptor,mid,efsf_ms_1_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,5,15,DIAMOND,5000,500,-100,2,INTERCEPTOR, Test-use Mobile Suit,20,13500,,,,,,,,,,,,,10
+gundam_gm_quel_wing,gundam_gm_quel_variant_wing,"interceptor4,interceptor,mid,efsf_ms_1_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,5,18,DIAMOND,5000,500,-100,3,INTERCEPTOR,General-Purpose Space Mobile Suit,20,13000,,,,,,,,,,,,,10
+gundam_gm_cannon_wing,gundam_gm_cannon_variant_wing,"fighter2,fighter,mid,efsf_ms_0_bp,rare_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,6,16,BOX,5000,1000,900,4,FIGHTER,Artillery Mobile Suit,23,12000,,,,,,,,,,,,,13
+gundam_gm_cannon_ii_wing,gundam_gm_cannon_ii_variant_wing,"fighter2,fighter,mid,efsf_ms_0_bp,rare_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,6,18,BOX,5000,1000,900,4,FIGHTER,Artillery Mobile Suit,25,13500,,,,,,,,,,,,,13
+gundam_gm_gundamhead_wing,gundam_gm_gundamhead_variant_wing,"fighter2,fighter,mid,efsf_ms_0_bp,rare_bp",2,0.3,6,19,BOX,5000,1000,900,3,FIGHTER,General-Purpose Space Mobile Suit,25,15000,,,,,,,,,,,,,13
+gundam_gm_sniper_wing,gundam_gm_sniper_variant_wing,"support2, support,mid,efsf_ms_0_bp",1,0.1,5,8,V,5000,1000,900,1,SUPPORT,Long-Range Sniper Mobile Suit,20,11000,,,,,,,,,,,,,11
+gundam_gm_sniper_ii_wing,gundam_gm_sniper_ii_variant_wing,"support3, support,mid,efsf_ms_1_bp",1,0.15,5,12,V,5000,1000,900,2,SUPPORT,Sniper Mobile Suit,20,13000,,,,,,,,,,,,,12
+gundam_guncannon_wing,gundam_guncannon_variant_wing,"fighter2,fighter,mid,efsf_ms_0_bp,rare_bp",2,0.25,6,17,BOX,5000,1000,900,2,FIGHTER,Middle Range Support Mobile Suit,23,12000,,,,,,,,,,,,,13
+gundam_guncannon_massproduce_wing,gundam_guncannon_massproduce_variant_wing,"fighter2,fighter,mid,efsf_ms_0_bp,rare_bp,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",2,0.2,6,15,BOX,5000,1000,900,3,FIGHTER,Middle Range Support Mobile Suit,20,14000,,,,,,,,,,,,,14
+gundam_guntank_wing,gundam_guntank_variant_wing,"support2,support,mid,efsf_ms_0_bp,rare_bp",2,0.2,6,15,BOX,5000,1000,900,2,SUPPORT,Long-Range Support Mobile Suit,23,11000,,,,,,,,,,,,,15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gundam_dopp_wing,gundam_dopp_variant_wing,"fighter1,fighter,low,zeon_fighter_0_bp,rd_force_extra_craft,rapid_reform,leader_no_swarm,wingmen_no_swarm,match_leader_facing,attack_at_an_angle",0,0,3,4,V,4000,500,,5,FIGHTER,Support Atmospheric Aircraft,10,6000,,,,,,,,,,,,,16
+gundam_orange_dopp_wing,gundam_orange_dopp_variant_wing,"fighter2,fighter,mid,zeon_fighter_0_bp,rare_bp,rd_force_extra_craft,rapid_reform,leader_no_swarm,wingmen_no_swarm,match_leader_facing,attack_at_an_angle",1,0,3,4,V,4000,500,,3,FIGHTER,Support Atmospheric Aircraft,10,7000,,,,,,,,,,,,,17
+gundam_gattle_wing,gundam_gattle_variant_wing,"bomber2,bomber,mid,zeon_fighter_0_bp",2,0,4,10,V,4000,500,300,3,BOMBER,Fighter-bomber Space Vehicle,13,10000,,,,,,,,,,,,,18
+gundam_zaku_i_wing,gundam_zaku_i_variant_wing,"interceptor2,interceptor,mid,zeon_ms_0_bp",1,0,4,12,BOX,5000,500,-100,3,INTERCEPTOR,General-Purpose Mobile Suit,18,11000,,,,,,,,,,,,,19
+gundam_zaku_sniper_wing,gundam_zaku_sniper_variant_wing,"support2, support, mid,zeon_ms_0_bp,rare_bp",1,0.15,5,8,V,5000,1000,900,1,SUPPORT,Long-Range Sniper Mobile Suit,20,11000,,,,,,,,,,,,,20
+gundam_zaku_ii_wing,gundam_zaku_ii_variant_wing,"bomber2,bomber,mid,zeon_ms_0_bp",1,0.1,5,18,BOX,5000,700,500,3,BOMBER,General-Purpose Mobile Suit,20,11000,,,,,,,,,,,,,22
+gundam_zaku_ii_thunderbolt_wing,gundam_zaku_ii_thunderbolt_variant_wing,"bomber2,bomber,mid,zeon_ms_0_bp,rare_bp",1,0.15,5,19,BOX,5000,700,500,3,BOMBER,General-Purpose Mobile Suit,20,11000,,,,,,,,,,,,,22
+gundam_zaku_ii_rifle_wing,gundam_zaku_ii_rifle_variant_wing,"support2, support, mid,zeon_ms_0_bp",1,0.1,5,16,BOX,5000,1000,1000,2,SUPPORT,General-Purpose Mobile Suit,20,11000,,,,,,,,,,,,,23
+gundam_zaku_ii_hm_wing,gundam_zaku_ii_hm_variant_wing,"interceptor3,interceptor,mid,zeon_ms_0_bp,rare_bp",1,0.2,5,17,BOX,5000,500,-100,3,INTERCEPTOR,General-Purpose Mobile Suit,20,11000,,,,,,,,,,,,,24
+gundam_zaku_ii_rd4_wing,gundam_zaku_ii_rd4_variant_wing,"interceptor3,interceptor,mid,zeon_ms_0_bp,rare_bp",2,0.2,5,14,BOX,5000,500,-100,2,INTERCEPTOR,High Mobility Space Mobile Suit,20,13000,,,,,,,,,,,,,25
+gundam_zaku_ii_fz_wing,gundam_zaku_ii_fz_variant_wing,"interceptor4,interceptor,mid,zeon_ms_1_bp,rare_bp",2,0.2,5,18,BOX,5000,500,-100,3,INTERCEPTOR,General-Purpose Mobile Suit,20,15000,,,,,,,,,,,,,26
+gundam_zaku_ii_f2_wing,gundam_zaku_ii_f2_variant_wing,"bomber2,bomber,mid,zeon_ms_0_bp",1,0.1,5,19,BOX,5000,700,500,3,BOMBER,General-Purpose Mobile Suit,20,12500,,,,,,,,,,,,,22
+gundam_rick_dom_wing,gundam_rick_dom_variant_wing,"bomber2,bomber,mid,zeon_ms_0_bp,rapid_reform,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.1,6,20,DIAMOND,5000,500,-100,3,BOMBER,General-Purpose Mobile Suit,23,11000,,,,,,,,,,,,,27
+gundam_rick_dom_thunderbolt_wing,gundam_rick_dom_thunderbolt_variant_wing,"bomber2,bomber,mid,zeon_ms_0_bp,rare_bp,rapid_reform,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,6,22,DIAMOND,5000,500,-100,3,BOMBER,General-Purpose Mobile Suit,23,12500,,,,,,,,,,,,,27
+gundam_rick_dom_ii_wing,gundam_rick_dom_ii_variant_wing,"bomber3,bomber,mid,zeon_ms_1_bp,rapid_reform,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,6,20,DIAMOND,5000,500,-100,3,BOMBER,Space Mobile Suit,23,13000,,,,,,,,,,,,,28
+gundam_dom_tropen_wing,gundam_dom_tropen_variant_wing,"bomber3,bomber,mid,zeon_ms_1_bp,rapid_reform,leader_no_swarm,wingmen_no_swarm,attack_at_an_angle",1,0.2,6,20,DIAMOND,5000,500,-100,3,BOMBER,Space Mobile Suit,23,12500,,,,,,,,,,,,,28
+gundam_gelgoog_wing,gundam_gelgoog_variant_wing,"fighter3,fighter,mid,zeon_ms_0_bp,",1,0.2,6,16,BOX,5000,500,-100,3,FIGHTER,General-Purpose Mobile Suit,23,11000,,,,,,,,,,,,,29
+gundam_gelgoog_thunderbolt_wing,gundam_gelgoog_thunderbolt_variant_wing,"fighter3,fighter,mid,zeon_ms_0_bp,rare_bp",1,0.25,6,18,BOX,5000,500,-100,3,FIGHTER,General-Purpose Mobile Suit,24,13000,,,,,,,,,,,,,29
+gundam_gelgoog_j_wing,gundam_gelgoog_j_variant_wing,"fighter4,fighter,mid,zeon_ms_1_bp,rare_bp",2,0.25,6,18,BOX,5000,1000,600,3,FIGHTER,General-Purpose Mobile Suit,23,11000,,,,,,,,,,,,,30
+gundam_dra_c_wing,gundam_dra_c_variant_wing,"fighter4,fighter,high,zeon_ms_1_bp,rare_bp",2,0.25,6,20,DIAMOND,5000,500,100,3,FIGHTER,Assault Mobile Suit,22,11000,,,,,,,,,,,,,31
+gundam_kampfer_wing,gundam_kampfer_variant_wing,"fighter4,fighter,high,zeon_ms_1_bp,rare_bp",2,0.3,6,22,DIAMOND,5000,500,-100,3,FIGHTER,Heavy Assault Mobile Suit,25,13000,,,,,,,,,,,,,31
+gundam_oggo_wing,gundam_oggo_variant_wing,"fighter1,fighter,mid,no_bp_drop",1,1,1,1,CLAW,3000,1000,800,6,FIGHTER,Assault Space Mobile Pod,10,99999,,,,,,,,,,,,,32
+gundam_elmeth_bit_wing,gundam_elmeth_bit_variant_wing,"interceptor2,interceptor,mid,no_bp_drop",1,1,1,1,CLAW,3000,1000,450,6,INTERCEPTOR,Psycommu Remote Weapon,10,99999,,,,,,,,,,,,,33
+gundam_gouf_wing,gundam_gouf_variant_wing,"fighter3,fighter,mid,zeon_ms_1_bp,rare_bp",2,0.4,7,13,BOX,3000,500,-100,2,FIGHTER,Close Quarters Combat Mobile Suit,25,15000,,,,,,,,,,,,,34
+gundam_gyan_wing,gundam_gyan_variant_wing,"bomber3,bomber,mid,zeon_ms_1_bp,rare_bp,rd_no_extra_craft",2,0.4,7,12,V,3000,500,-100,1,BOMBER,Close Quarters Combat Mobile Suit,25,20000,,,,,,,,,,,,,35
+gundam_gerbera_tetra_wing,gundam_gerbera_tetra_variant_wing,"fighter4,fighter,high,zeon_ms_1_bp,rare_bp",3,0.4,7,25,DIAMOND,5000,500,-100,2,FIGHTER,Assault Mobile Suit,28,16000,,,,,,,,,,,,,31
+gundam_zock_wing,gundam_zock_variant_wing,"fighter4,fighter,high,zeon_ms_1_bp,no_bp_drop,rd_no_extra_craft,no_sell,independent_of_carrier",3,0.5,10,20,V,5000,500,0,1,FIGHTER,Assault Amphibious Mobile Suit,45,40000,,,,,,,,,,,,,36
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter0,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter1,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter2,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter3,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter4,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter5,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter6,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"fighter,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor0,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor1,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor2,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor3,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor4,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor5,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor6,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"interceptor,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber0,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber1,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber2,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber3,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber4,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber5,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber6,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"bomber,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support0,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support1,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support2,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support3,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support4,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support5,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support6,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"support,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"low,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"mid,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"high,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,efsf_ms_0_bp,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,efsf_ms_1_bp,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,zeon_ms_0_bp,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,zeon_ms_1_bp,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"rare_bp ,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"no_drop,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"no_sell,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"rd_no_extra_craft,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"rd_force_extra_craft,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"rapid_reform,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"leader_no_swarm,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"wingmen_no_swarm,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"match_leader_facing,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"attack_at_an_angle,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"independent_of_carrier,",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,V,"leader, plane",,,,,,,,,,,,,,,,,,,,,,,,,
+,,DIAMOND,close formation,,,,,,,,,,,,,,,,,,,,,,,,,
+,,BOX,loose formation,,,,,,,,,,,,,,,,,,,,,,,,,
+,,CLAW,more number with captain,,,,,,,,,,,,,,,,,,,,,,,,,

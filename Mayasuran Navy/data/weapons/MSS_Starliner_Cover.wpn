@@ -1,0 +1,35 @@
+{
+  "id": "MSS_Starliner_Cover",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/mayasura/weapons/MSS_Starliner_Cover.png",
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_Starliner_Cover.png",
+  "renderBelowAllWeapons": false,
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+  ],
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+  "width": 1,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 1,
+  "pixelsPerTexel": 1
+}

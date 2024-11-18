@@ -1,0 +1,17 @@
+{
+	"id":"gundam_yellow_laser",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",	
+	"length":75.0,
+	"hitGlowRadius":30,
+	"width":20.0,
+	"fadeTime":0.3,
+	"fringeColor":[255,255,100,130],
+	"coreColor":[255,255,255,230],
+	"glowColor":[220,110,220,130],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

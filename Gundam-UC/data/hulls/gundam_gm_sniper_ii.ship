@@ -1,0 +1,126 @@
+{
+  "hullName": "GM Sniper II",
+  "hullId": "gundam_gm_sniper_ii",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/gm_sniper_ii/gundam_gm_sniper_ii_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 41,
+  "width": 39,
+  "center": [25, 21],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInMods": [
+    "gundam_sniper",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gm_sniper_ii_gun",
+    "GUN_2": "gundam_gm_sniper_ii_aim",
+    "GUN_3": "gundam_gm_sniper_ii_sniper",
+    "HEAD": "gundam_gm_sniper_ii_head",
+    "MELEE": "gundam_saber_purple",
+    "SHIELD": "gundam_gm_sniper_ii_shield",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-8, -0.5]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-6, -11]
+    },
+    {
+      "id": "GUN_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-6, -11]
+    },
+    {
+      "id": "GUN_3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-6, -11]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-7, 10]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [13, -18]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-12, 7.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-11, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 7.5],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-11, -8.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -8, 7.5,
+    6, 7.5,
+    6, -7.5,
+    -8, -7.5
+  ]
+}

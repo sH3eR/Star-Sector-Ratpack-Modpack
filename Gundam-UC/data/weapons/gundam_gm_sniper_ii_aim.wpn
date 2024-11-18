@@ -1,0 +1,39 @@
+{
+  "id": "gundam_gm_sniper_ii_aim",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "glowColor": [
+    165,
+    100,
+    255,
+    235
+  ],
+  "hitGlowRadius": 0,
+	"turretOffsets":[34.5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[34.5, 0],
+	"hardpointAngleOffsets":[0],
+  "fringeColor": [
+    255,
+    50,
+    50,
+    255
+  ],
+  "coreColor": [
+    15,
+    0,
+    0,
+    255
+  ],
+  "width": 2,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+}

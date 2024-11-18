@@ -1,0 +1,16 @@
+{
+	#elite mayasuran guard
+    "illegalCommodities":[
+        "red_water",
+        "mess_nano",
+        "hmi_crystal",
+	],
+    "music":{
+        "market_neutral":"music_mayasuran_market_neutral",
+        "market_hostile":"music_mayasuran_market_hostile",
+        "market_friendly":"music_mayasuran_market_friendly",
+        "encounter_neutral":"music_mayasuran_encounter_neutral",
+        "encounter_hostile":"music_mayasuran_encounter_hostile",
+        "encounter_friendly":"music_mayasuran_encounter_friendly",
+    },    
+},

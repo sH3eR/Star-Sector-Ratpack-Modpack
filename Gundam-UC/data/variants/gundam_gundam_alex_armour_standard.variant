@@ -1,0 +1,21 @@
+{
+  "displayName": "Armour",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_gundam_alex_armour",
+  "hullMods": [always_detaches],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_gundam_alex_armour_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+      }
+    }
+  ],
+  "wings": []
+}

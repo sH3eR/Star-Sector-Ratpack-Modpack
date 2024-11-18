@@ -1,0 +1,73 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 48,
+    "hullId": "istl_warlock",
+    "hullMods": ["istl_bbsupport"],
+    "modules": [{"WS0015": "istl_bbLRMmodule_std"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_warlock_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_thermalmortar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_pulseripper"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_electrogun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_electrogun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "istl_shellback",
+                "WS0010": "istl_shellback",
+                "WS0013": "istl_shellback",
+                "WS0014": "istl_shellback"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_proxbomb_ciws",
+                "WS0008": "istl_proxbomb_ciws"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "istl_thermalpd",
+                "WS0012": "istl_thermalpd",
+                "WS0037": "istl_impulsor",
+                "WS0038": "istl_impulsor",
+                "WS0039": "istl_impulsor",
+                "WS0040": "istl_impulsor",
+                "WS0041": "istl_impulsor",
+                "WS0042": "istl_impulsor",
+                "WS0043": "istl_impulsor",
+                "WS0044": "istl_impulsor"
+            }
+        }
+    ],
+    "wings": [
+        "istl_focuser_wing",
+        "istl_focuser_wing",
+        "istl_focuser_wing",
+        "istl_lycosid_wing"
+    ]
+}

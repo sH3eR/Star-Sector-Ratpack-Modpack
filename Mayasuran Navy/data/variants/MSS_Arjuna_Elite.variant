@@ -1,0 +1,66 @@
+{
+  "variantId": "MSS_Arjuna_Elite",
+  "hullId": "MSS_Arjuna_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 36,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015g": "MSS_Gandiva"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0029": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun",
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ionbeam",
+        "WS0012": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "dualflak",
+        "WS0006": "dualflak",
+        "WS0008": "devastator",
+        "WS0009": "devastator",
+        "WS0010": "pdburst",
+        "WS0011": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MSS_Sipahi",
+    "MSS_Sipahi",
+    "MSS_Crow",
+    "MSS_Tachi"
+  ]
+}

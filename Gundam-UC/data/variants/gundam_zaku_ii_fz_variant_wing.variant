@@ -1,0 +1,58 @@
+{
+  "displayName": "Limited Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_zaku_ii_fz",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_zaku_ii_fz_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_zaku_ii_fz_gun",
+        "HEAD": "gundam_zaku_ii_fz_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_ARM": "gundam_zaku_ii_fz_hand"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_dual_handed_axe"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN_2": "gundam_bazooka"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GRANADE": "gundam_sturm_faust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_LEG": "gundam_zaku_ii_fz_leg"
+      }
+    }
+  ],
+  "wings": []
+}

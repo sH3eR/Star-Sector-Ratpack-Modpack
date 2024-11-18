@@ -1,0 +1,35 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "istl_maskirovka",
+    "hullMods": ["hardened_subsystems"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_maskirovka_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_hellspear"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_12cmrailgun",
+                "WS0003": "istl_12cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_multipdnode",
+                "WS0005": "istl_multipdnode",
+                "WS0006": "istl_multipdnode"
+            }
+        }
+    ]
+}

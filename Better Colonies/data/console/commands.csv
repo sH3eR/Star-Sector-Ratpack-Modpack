@@ -1,0 +1,3 @@
+command,class,tags,syntax,help
+AddAdminBC,data.console.commands.AddAdminBC,"BetterColonies,campaign",addadminBC [optionalTier] [optionalFaction] [optionalName],"Adds an administrator to your fleet. You can optionally specify his or her tier (0-3), and faction (currently only affects name/portrait). If all of these are left empty, a tier 0 administrator of the player faction will be created."
+innovateBC,data.console.commands.AgeOfInnovateBC,"BetterColonies,campaign",innovateBC [optionalFloatChance],"Will attempt to force an innovation, put 1 to guarantee an innovation. Put 0 to never have an innovation. The default will be used at BCAgeOfInnovation's setting.json value  then"

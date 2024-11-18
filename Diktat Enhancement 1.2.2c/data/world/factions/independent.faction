@@ -1,0 +1,9 @@
+{
+	"knownWeapons":{
+		"tags":["base_bp", "hightech_bp", "midline_bp", "independent"],
+		"weapons":[
+			"de_tacsuperlaser",
+			"de_scatter",
+		],
+	},
+},	

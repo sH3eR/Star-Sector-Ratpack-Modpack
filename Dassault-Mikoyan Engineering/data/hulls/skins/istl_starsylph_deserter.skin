@@ -1,0 +1,47 @@
+{
+    "baseHullId":"istl_starsylph",
+    "skinHullId":"istl_starsylph_deserter",
+    "hullName":"Star Sylph (refit)",
+    "descriptionId":"istl_starsylph",  # optional
+    "descriptionPrefix":"This ship has been extensively modified, most notably by the (near-miraculous) successful removal of the original Skipspace Reaction Furnace, and the integral Voltigeur missile tubes. In return, it's been brought up to Blade Breaker specs in other areas.",
+	"tags":["ship_can_not_scuttle", "always_recoverable", "no_sell", "no_dealer"],
+	"tech":"Deserter",
+    "spriteName":"graphics/ISTL/ships/istl_starsylph_deserter.png",
+    "baseValueMult":0.8,
+	"addHints":[HIDE_IN_CODEX],
+	"systemId":"istl_bravejets",
+    "removeWeaponSlots":["WS0009", "WS0010"], 		# ids
+    "removeEngineSlots":["4", "5", "6", "7"], 		# indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":["istl_reactionfurnace"], 		# hullmod ids
+    "removeBuiltInWeapons":["WS0009", "WS0010", "WS0011"], # weapon slot ids
+    "builtInMods":["istl_bbengineering"],
+    "builtInWeapons":{"WS0011": "istl_matador"},
+    "weaponSlotChanges":{
+		"WS0001":{
+			"type":UNIVERSAL
+		},
+		"WS0002":{
+			"type":SYNERGY
+		},
+		"WS0003":{
+			"type":HYBRID
+		},
+		"WS0004":{
+			"type":HYBRID
+		},
+    },
+	"engineSlotChanges":{
+		"0":{"length": 40,
+			"style":"BBHTQuadFlare"},
+		"1":{"length": 40,
+			"style":"BBHTQuadFlare"},
+		"2":{"length": 9,
+			"style":"BBHTFlare"},
+		"3":{"length": 9,
+			"style":"BBHTFlare"},
+	},    
+}
+
+
+
+

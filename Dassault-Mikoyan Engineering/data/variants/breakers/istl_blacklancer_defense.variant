@@ -1,0 +1,49 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 29,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "istl_blacklancer",
+    "hullMods": ["istl_bbdefense"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_blacklancer_defense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_twinjack"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_thermalmortar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_shellback",
+                "WS0006": "istl_shellback"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_electrogun",
+                "WS0004": "istl_electrogun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_thermalpd",
+                "WS0008": "istl_thermalpd",
+                "WS0009": "istl_thermalpd",
+                "WS0010": "istl_thermalpd"
+            }
+        }
+    ]
+}

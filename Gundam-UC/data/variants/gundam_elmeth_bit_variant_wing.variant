@@ -1,0 +1,22 @@
+{
+  "displayName": "New-Type MS",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_elmeth_bit",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_elmeth_bit_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gundam_elmeth_bit_gun"
+      }
+    }
+  ],
+  "wings": []
+}

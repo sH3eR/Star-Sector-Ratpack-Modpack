@@ -1,0 +1,39 @@
+{
+    "displayName": "Patrol",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "istl_vesper",
+    "hullMods": [
+        "hardened_subsystems",
+        "targetingunit",
+        "extendedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_vesper_patrol",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0002": "istl_perforator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_heavylinear_autogun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_erpulsebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_microflak",
+                "WS0005": "istl_microflak"
+            }
+        }
+    ]
+}

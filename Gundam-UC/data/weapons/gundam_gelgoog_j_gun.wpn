@@ -1,0 +1,54 @@
+{
+  "id": "gundam_gelgoog_j_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_heavy_machine_gun_yellow_bullet",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "",
+  "turretGunSprite": "graphics/ms/gelgoog_j/gundam_gelgoog_j_gun_recoil.png",
+  "hardpointSprite": "",
+  "hardpointGunSprite": "graphics/ms/gelgoog_j/gundam_gelgoog_j_gun_recoil.png",
+  "glowColor": [
+    220,
+    230,
+    120,
+    255
+  ],
+  "visualRecoil": 3,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    42,
+    1
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    42,
+    1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 30,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.75,
+    "particleCount": 20,
+    "particleColor": [
+      220,
+      230,
+      120,
+      255
+    ]
+  },
+  "fireSoundTwo": "gundam_gelgoog_gun_beam"
+}

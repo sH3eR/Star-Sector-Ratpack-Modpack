@@ -1,0 +1,56 @@
+{
+  "id": "MSS_TigerGL",
+  "specClass": "projectile",
+  "projectileSpecId": "MSS_TigerGL_Grenade_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+    "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/mayasura/weapons/grenade_rotary_big/MSS_grenade_rotary_big00.png",
+  "turretGunSprite": "graphics/mayasura/weapons/grenade_rotary_big/MSS_grenade_rotary_big_recoil.png",
+  "hardpointSprite": "graphics/mayasura/weapons/grenade_rotary_big/MSS_grenade_rotary_big00.png",
+  "hardpointGunSprite": "graphics/mayasura/weapons/grenade_rotary_big/MSS_grenade_rotary_big_recoil.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 8,
+  "turretOffsets": [
+    46,
+    -4.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    81,
+    -4.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "numFrames": 4,
+  "frameRate": 30,
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 25,
+    "cloudParticleCount": 5,
+    "cloudDuration": 0.5,
+    "cloudRadius": 20,
+    "blowbackParticleCount": 8,
+    "blowbackDuration": 1.5,
+    "blowbackLength": -40,
+    "blowbackSpread": 6,
+    "particleColor": [
+      190,
+      180,
+      160,
+      30
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "MSS_TigerGL_fire"
+}

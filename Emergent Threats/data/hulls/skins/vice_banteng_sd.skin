@@ -1,0 +1,13 @@
+{
+	"baseHullId":"vice_banteng",
+	"skinHullId":"vice_banteng_sd",
+	"hullName":"Banteng (SD)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"vice_banteng",
+	"ordnancePoints":36,
+	"descriptionPrefix":"This Banteng-class freighter has been modified to operate under the harsh solar radiation of Askonia, and is equipped with enlarged fuel tanks to better carry the primary export of the Sindrian Diktat. The upgrades take up considerable space inside the hull, leaving the ship far less customizable than its base variant.",
+	"spriteName":"graphics/vice/ships/banteng_sd.png",
+	"tags":["rare_bp", "sindrian_diktat"],
+	"tech":"Sindrian Diktat",
+	"builtInMods":["solar_shielding", "auxiliary_fuel_tanks"],
+}

@@ -1,0 +1,57 @@
+{
+  "id": "gundam_gundam_fa78_pack_gun",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack_gun.png",
+  "turretGlowSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack_gun_glow.png",
+  "turretGunSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack_gun_recoil.png",
+  "hardpointSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack_gun.png",
+  "hardpointGlowSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack_gun_glow.png",
+  "hardpointGunSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack_gun_recoil.png",
+  "glowColor": [
+    194,
+    152,
+    207,
+    255
+  ],
+  "visualRecoil": 3,
+  "hitGlowRadius": 5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    21.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    39,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor":[255,255,255,200],
+  "coreColor":[255,255,255,255],
+  "width": 30,
+  "textureType": [
+    "graphics/fx/gundam_beam_fx_j2.png",
+    "graphics/fx/gundam_beam_fx_f2.png"
+  ],
+  "textureScrollSpeed": 300,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne":"gundam_rifle_beam",
+  "fireSoundTwo":"gundam_rifle_beam",
+}

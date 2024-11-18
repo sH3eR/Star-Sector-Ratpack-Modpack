@@ -1,0 +1,29 @@
+{
+	"id":"istl_revanche",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"everyFrameEffect": "data.scripts.weapons.istl_RipperFX",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":800,
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_lg.png",
+	"turretSprite":"graphics/ISTL/weapons/revanche/istl_revanche_turret_00.png",
+	"hardpointSprite":"graphics/ISTL/weapons/revanche/istl_revanche_hardpoint_00.png",
+	"numFrames":6,	
+	"frameRate":60,
+	"turretOffsets":[38, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[38, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, GLOW_AND_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":4.0,
+					   "particleSizeRange":16.0,
+					   "particleDuration":0.05,
+					   "particleCount":40,
+					   "particleColor":[255,155,75,225]},
+	"projectileSpecId":"istl_revanche_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_ripper_fire",	
+}

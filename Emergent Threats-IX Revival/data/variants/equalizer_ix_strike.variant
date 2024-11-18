@@ -1,0 +1,61 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 49,
+    "goalVariant": true,
+    "hullId": "equalizer_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "equalizer_ix_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "muon_siege_lance_ix",
+                "WS 004": "muon_siege_lance_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "orthrus_m_ix",
+                "WS 012": "orthrus_m_ix",
+                "WS 013": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "plasma_dart_ix",
+                "WS 006": "plasma_dart_ix",
+                "WS 007": "plasma_dart_ix",
+                "WS 008": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightbringer_ciws_ix",
+                "WS 002": "lightbringer_ciws_ix",
+                "WS 009": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": [
+        "maxim_ix_wing",
+        "maxim_ix_wing",
+        "maxim_ix_wing",
+        "maxim_ix_wing"
+    ]
+}

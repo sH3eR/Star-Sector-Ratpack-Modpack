@@ -1,0 +1,34 @@
+{
+	"id":"istl_revanche_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":60.0,
+	"hitGlowRadius":12,
+	"width":8.0,
+	"fadeTime":0.25,
+	"fringeColor":[215,150,75,255],
+	"coreColor":[255,225,200,255],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-24.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_miniblaster_long_bolt.png",
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"shotRangeVariance":0.15,
+					"range":0, #set to 0 for 0.9.1
+				    "vsMissileRange":5, #missile-only prox fuze
+					"explosionSpec":{"duration":0.1f,
+									 "radius":20,
+									 "coreRadius":12, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":9.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":0.5,
+									 "particleCount":12,
+									 "particleColor":[255,155,75,225],
+									 "explosionColor":[255,155,75,135],
+									 "sound":"istl_explosion_flak_small"},
+					}
+}

@@ -1,0 +1,58 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 1,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "radiant_tw",
+    "hullMods": [
+        "advancedoptics",
+        "targetingunit",
+        "tw_modernized_rangefinder",
+        "ix_reactive_combat_shields",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "radiant_tw_heavy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "cutting_beam_tw",
+                "WS 006": "muon_autolance_ix",
+                "WS 007": "muon_autolance_ix",
+                "WS 008": "cutting_beam_tw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "spearwall_tw",
+                "WS 004": "spearwall_tw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "morningstar_ciws_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix",
+                "WS 016": "morningstar_ciws_ix",
+                "WS 018": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": [
+        "nimbus_tw_wing_r",
+        "nimbus_tw_wing_r",
+        "nimbus_tw_wing_r",
+        "nimbus_tw_wing_r"
+    ]
+}

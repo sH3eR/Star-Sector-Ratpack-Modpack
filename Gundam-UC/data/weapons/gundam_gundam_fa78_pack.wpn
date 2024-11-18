@@ -1,0 +1,62 @@
+{
+  "id": "gundam_gundam_fa78_pack",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_ms_missile_blue",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack.png",
+  "hardpointSprite": "graphics/ms/gundam_fa78/gundam_gundam_fa78_pack.png",
+  "turretOffsets": [
+    -1.5,
+    10.5,
+    -1.5,
+    8.5,
+    -1.5,
+    9.5,
+    -1.5,
+    7.5
+  ],
+  "turretAngleOffsets": [
+    20,
+    10,
+    -10,
+    -20
+  ],
+  "hardpointOffsets": [
+    15.5,
+    10.5,
+    15.5,
+    9.5,
+    15.5,
+    8.5,
+    15.5,
+    7.5
+  ],
+  "hardpointAngleOffsets": [
+    20,
+    10,
+    -10,
+    -20
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "gundam_front_missile"
+}

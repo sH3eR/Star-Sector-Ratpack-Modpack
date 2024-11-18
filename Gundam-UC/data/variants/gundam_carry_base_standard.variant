@@ -1,0 +1,59 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 18,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "gundam_carry_base",
+  "hullMods": [
+	"advancedoptics",
+	"fluxbreakers",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_carry_base_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gundam_mega_2bcannon_m",
+                "WS0004": "gundam_mega_2bcannon_m_efsf"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_builtin_front_spmissile",
+                "WS0002": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "gundam_pd_2mg",
+				"WS0006": "gundam_pd_2mg",
+				"WS0007": "gundam_pd_2mg",
+				"WS0008": "gundam_pd_2mg",
+				"WS0009": "gundam_pd_2mg",
+                "WS0010": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": []
+}
+
+
+
+

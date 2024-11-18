@@ -1,0 +1,91 @@
+{
+  "bounds": [
+    14,
+    -4,
+    -1,
+    -17,
+    -11,
+    -8,
+    -3,
+    -0,
+    -11,
+    8,
+    -1,
+    17,
+    14,
+    4,
+    2.5,
+    -0
+  ],
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "center": [
+    19,
+    13.5
+  ],
+  "collisionRadius": 30,
+  "engineSlots": [
+    {
+      "angle": 177.5,
+      "contrailSize": 7,
+      "length": 28,
+      "location": [
+        -12.5,
+        8
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    },
+    {
+      "angle": -177.5,
+      "contrailSize": 7,
+      "length": 28,
+      "location": [
+        -12.5,
+        -8
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    }
+  ],
+  "height": 30,
+  "hullId": "istl_rafale",
+  "hullName": "Rafale",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1.5,
+    -0
+  ],
+  "shieldRadius": 26.5,
+  "spriteName": "graphics/ISTL/ships/istl_rafale.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        7.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        -3,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 38
+}

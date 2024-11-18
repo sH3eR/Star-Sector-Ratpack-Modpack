@@ -1,0 +1,85 @@
+{
+  "hullName": "Babirusa(LG)",
+  "hullId": "de_babirusa_LG",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DE/ships/babirusa_LG.png",
+  "style": "MIDLINE",
+  "height": 41,
+  "width": 42,
+  "center": [21, 20.5],
+  "collisionRadius": 40.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [15.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-0.5, 11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-0.5, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 9],
+      "length": 17,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-20, -9],
+      "length": 17,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-20.5, 2],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-20.5, -2],
+      "length": 10,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -19.5, -13.5,
+    -12, -22,
+    19.5, -7,
+    19.5, 7,
+    -12, 22,
+    -19.5, 13.5
+  ]
+}

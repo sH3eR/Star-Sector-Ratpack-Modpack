@@ -1,0 +1,185 @@
+{
+  "hullName": "Stingray",
+  "hullId": "MSS_Stingray",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/mayasura/ships/MSS_Stingray.png",
+  "style": "MIDLINE",
+  "height": 176,
+  "width": 110,
+  "center": [55, 76],
+  "collisionRadius": 147.5,
+  "shieldCenter": [13, -0],
+  "shieldRadius": 123.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 60,
+      "locations": [17, 27]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -60,
+      "locations": [17, -27]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [65, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [70, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [70, -28]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [94, 0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -34, 2.5,
+        -34, -2,
+        -37, -5,
+        -37, 5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -36, 4,
+        -35.5, -3.5,
+        -38, 6.5,
+        -38.5, -7
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-22, 42]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-22, -42]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61, 19.5],
+      "length": 42,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-61, -19.5],
+      "length": 42,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-62, 29.5],
+      "length": 62,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-62, -29.5],
+      "length": 62,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-42.5, 49.5],
+      "length": 18.514196,
+      "width": 6.395166,
+      "angle": 145,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-42.5, -49.5],
+      "length": 18.514196,
+      "width": 6.395166,
+      "angle": -145,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -70.5, -9,
+    -58.5, -10,
+    -60.5, -35.5,
+    -54, -44,
+    -45, -43.5,
+    -38.5, -53.5,
+    12, -48.5,
+    97.5, -13.5,
+    95, 0,
+    97.5, 13.5,
+    12, 48.5,
+    -38.5, 53.5,
+    -45, 43.5,
+    -54, 44,
+    -60.5, 35.5,
+    -58.5, 10,
+    -70.5, 9
+  ]
+}

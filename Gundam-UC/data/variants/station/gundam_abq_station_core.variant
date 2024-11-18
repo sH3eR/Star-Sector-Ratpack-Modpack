@@ -1,0 +1,46 @@
+{
+  "variantId": "gundam_abq_station_core_standard",
+  "hullId": "gundam_abq_station_core",
+  "displayName": "Side Fortress",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_pd_2bc",
+                "WS0002": "gundam_pd_2bc",
+                "WS0003": "gundam_pd_2bc",
+				"WS0004": "gundam_pd_2bc",
+                "WS0005": "gundam_pd_2bc",
+				"WS0006": "gundam_pd_2bc",
+				"WS0007": "gundam_pd_2bc",
+                "WS0008": "gundam_pd_2bc"
+		  }
+		},
+		{
+		    "autofire": true,
+		    "mode": "LINKED",
+		    "weapons": {
+                "WS0009": "gundam_big_gun"
+            }
+        }
+    ],
+  "modules": [
+		{"MODULE_1": "gundam_abq_module_north_standard"},
+		{"MODULE_2": "gundam_abq_module_east_standard"},
+		{"MODULE_3": "gundam_abq_module_south_standard"},
+		{"MODULE_4": "gundam_abq_module_west_standard"},
+		{"MODULE_5": "gundam_abq_module_shield_standard"},
+	],
+    "wings": [
+		"gundam_gelgoog_j_wing",
+		"gundam_zock_wing",
+		"gundam_kampfer_wing"
+    ]
+}

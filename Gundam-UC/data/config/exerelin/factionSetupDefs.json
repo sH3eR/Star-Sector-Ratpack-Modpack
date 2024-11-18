@@ -1,0 +1,10 @@
+{
+	"blueprint_cost_overrides":{
+		"zeon_fighter_0_package":10,
+		"zeon_ms_0_package":15,
+		"zeon_hull_0_package":25,
+		"efsf_fighter_0_package":10,
+		"efsf_ms_0_package":15,
+		"efsf_hull_0_package":25
+	}
+}

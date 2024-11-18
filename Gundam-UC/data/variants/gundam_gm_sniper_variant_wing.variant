@@ -1,0 +1,32 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_gm_sniper",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_gm_sniper_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_gm_sniper_gun",
+		"GUN_2": "gundam_gm_sniper_aim",
+		"HAND": "gundam_gm_sniper_hand",
+		"HEAD": "gundam_gm_sniper_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_LEG": "gundam_gm_sniper_leg"
+      }
+    }
+  ],
+  "wings": []
+}

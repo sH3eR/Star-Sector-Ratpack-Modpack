@@ -1,0 +1,35 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "istl_reef",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "istl_reef_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_6cmrailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_calliope"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_matador",
+                "WS0004": "istl_matador",
+                "WS0005": "istl_matador"
+            }
+        }
+    ],
+    "wings": [
+        "istl_dropper_wing",
+        "istl_bantam_wing"
+    ]
+}

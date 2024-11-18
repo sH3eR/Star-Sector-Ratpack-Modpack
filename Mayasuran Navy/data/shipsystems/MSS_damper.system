@@ -1,0 +1,40 @@
+{
+	"id":"MSS_damper",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.shieldwallstats",
+	
+	"jitterUnderColor":[64,122,228,150],
+	"jitterUnderCopies":10,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":5,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[64,122,228,150],
+	"jitterCopies":1,
+	"jitterMinRange":0,	
+	"jitterRange":1,
+	"jitterRangeRadiusFraction":0,
+	
+	#"weaponGlowColor":[255,165,90,0],
+	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	#"engineGlowColor":[255,90,255,255],
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

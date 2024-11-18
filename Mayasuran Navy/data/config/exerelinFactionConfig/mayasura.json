@@ -1,0 +1,79 @@
+{
+    "playableFaction":true,
+	"freeStart":false,	# don't spawn markets in random mode
+	
+    "corvusCompatible":true,
+	"difficultyString":"hard",
+	"ngcTooltip":"Can you restore Mayasura's legacy? It's time for revenge, for what the Luddic Path did to your homeworld, for what the Hegemony did to wipe you out of the sector.",
+	"noSyncRelations":"false",
+
+	"maxRelationships":{
+		"hegemony": -1.00,
+		"tritachyon": 0.0,
+		"luddic_church": -0.50,
+		"luddic_path": -1.00,
+	},
+	
+	"morality":"good",
+
+    "alignments":{
+        "diplomatic":1,
+        "ideological":0.5
+    },
+	"diplomacyTraits":["helps_allies", "stalwart", "lowprofile"],
+	
+    "startShipsSolo":[
+	["MSS_Perryi_F_Standard"],
+	["MSS_Mako_Standard"],
+	["MSS_Nailer_Standard"],
+	["MSS_vigilance_m_elite"],
+	],
+    "startShipsCombatSmall":[
+	["MSS_Hammerhead_TLH", "MSS_Nailer_Standard", "brawler_Starting"],
+	["MSS_Argentavis_Standard", "MSS_Nailer_Standard", "MSS_Perryi_F_Standard"],
+	["MSS_Hammerhead_Elite", "MSS_Nailer_Elite", "MSS_vigilance_m_elite"],
+	["MSS_Sunder_Elite", "MSS_Mako_Elite", "MSS_Nailer_Elite"],
+    ],
+    "startShipsTradeSmall":["gemini_Standard", "wayfarer_Standard", "mercury_PD"],
+    "startShipsCombatLarge":[
+	["MSS_Winghead_Standard", "MSS_Sunder_TLH", "MSS_Nailer_Standard"],
+	["MSS_Patriot_Standard", "MSS_Argentavis_Standard", "brawler_Elite"],
+	["MSS_Moa_Standard", "MSS_Stingray_Escort", "centurion_Starting"],
+	["MSS_Excalibur_Standard", "MSS_Stingray_Escort", "centurion_Starting"],
+	["MSS_Falcon_Elite", "MSS_Stingray_Escort", "centurion_Starting"],
+	["MSS_Falcon_Elite", "MSS_Sunder_Elite", "MSS_vigilance_m_elite"],
+	],
+    "startShipsTradeLarge":["MSS_Pilgrim_Standard", "gemini_Standard", "wayfarer_Standard"],
+    "startShipsCarrierSmall":[
+	["MSS_Stingray_Elite", "MSS_Nailer_Standard", "MSS_Nailer_Standard"],
+	["MSS_Shikra_Standard", "MSS_Nailer_Standard", "MSS_Mako_Standard"],
+	],
+    "startShipsCarrierLarge":[
+	["MSS_Sarissa_Standard", "hammerhead_Balanced", "vigilance_Starting"],
+	["MSS_Sarissa_Elite", "MSS_Argentavis_Elite", "MSS_vigilance_m_elite"],
+	],
+	"startShipsSuper":[
+	["MSS_Nightingale_Prototype"],
+	["MSS_Moa_Elite"],
+    ],
+	"startShipsGrandFleet":[
+	["conquest_Standard", "eagle_Assault", "falcon_CS", "falcon_CS", "heron_Strike", "heron_Strike", "hammerhead_Balanced", "sunder_CS", "gemini_Standard", "vigilance_FS", "vigilance_FS", "vigilance_FS"],
+	["MSS_Pelican_Standard", "MSS_Pilgrim_Standard", "gemini_Standard", "wayfarer_Standard"],
+	["MSS_Victory_Elite"],
+	["MSS_Vishnu_Elite"],
+	["MSS_Skyrend_EliteVice"],
+	],
+	
+	"startSpecialItems":[
+        [["mayasura_package", ""]],
+		[["mayasura_w_package", ""]],
+		[["mayasura_c_package", ""]],
+		[["mayasura_e_package", ""]],
+		[["mayasura_wp_package", ""]],
+    ],
+	
+		#rarely colonize and only nearby systems
+	"colonyExpeditionChance":1,
+	"colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    "maxColonyDistance": 25,
+}

@@ -1,0 +1,52 @@
+{
+  "hullName": "Explorium Defense Pod",
+  "hullId": "dom+defense_pod_Autocannon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/Explorium Defense Pod.png",
+  "style": "LOW_TECH",
+  "height": 19,
+  "width": 22,
+  "center": [11, 9.5],
+  "collisionRadius": 19.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "turretgyros"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, -5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8.5, 5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -6, 11.5,
+    -6, -11.5,
+    10.5, -0.5
+  ]
+}

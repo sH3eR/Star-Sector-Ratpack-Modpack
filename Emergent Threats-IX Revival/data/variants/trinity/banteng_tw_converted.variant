@@ -1,0 +1,21 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "banteng_tw",
+    "hullMods": [
+        "militarized_subsystems",
+        "ix_ground_invasion_conversion",
+        "extendedshieldemitter",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "banteng_tw_converted",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "lightbringer_ciws_ix"}
+    }]
+}

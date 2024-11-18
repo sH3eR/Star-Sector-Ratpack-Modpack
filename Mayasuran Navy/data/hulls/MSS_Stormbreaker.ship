@@ -1,0 +1,68 @@
+{
+  "bounds": [
+    -10.5,
+    -20,
+    -19,
+    -0,
+    -10.5,
+    20,
+    25.5,
+    -0
+  ],
+  "center": [
+    23,
+    22
+  ],
+  "collisionRadius": 31,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 23.5,
+      "location": [
+        -19.5,
+        5.5
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 23.5,
+      "location": [
+        -19.5,
+        -5.5
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    }
+  ],
+  "height": 58,
+  "hullId": "MSS_Stormbreaker",
+  "hullName": "Stormbreaker",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 31,
+  "spriteName": "graphics/mayasura/ships/MSS_Stormbreaker.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        12.5,
+        0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 45
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Lion's Patience",
+    "fluxCapacitors": 1,
+    "fluxVents": 20,
+    "goalVariant": false,
+    "hullId": "sunder",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "fluxdistributor",
+        "targetingunit"
+    ],
+    "permaMods": ["solar_shielding"],
+    "sMods": [],
+    "variantId": "sunder_LPatience",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "hil"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "ionbeam",
+                "WS 004": "ionbeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "vulcan",
+                "WS 007": "vulcan"
+            }
+        },
+    ]
+}

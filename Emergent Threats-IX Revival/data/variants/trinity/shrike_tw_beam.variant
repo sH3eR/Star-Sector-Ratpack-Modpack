@@ -1,0 +1,46 @@
+{
+    "displayName": "Beam",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "shrike_tw",
+    "hullMods": [
+        "tw_drone_control_node",
+        "extendedshieldemitter",
+        "targetingunit",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "shrike_tw_beam",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "cutting_beam_tw_er"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "diffraction_laser_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "plasma_dart_ix",
+                "WS 002": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 006": "morningstar_ciws_ix",
+                "WS 007": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": ["nimbus_tw_wing_s"]
+}

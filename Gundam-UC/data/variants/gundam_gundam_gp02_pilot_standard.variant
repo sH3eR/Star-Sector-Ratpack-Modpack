@@ -1,0 +1,50 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_gundam_gp02_pilot",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_gundam_gp02_pilot_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_gundam_gp02_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN_2": "gundam_gundam_gp02_bazooka"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "gundam_gundam_gp02_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "SHIELD": "gundam_gundam_gp02_shield"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_saber_green"
+      }
+    }
+  ],
+  "wings": []
+}

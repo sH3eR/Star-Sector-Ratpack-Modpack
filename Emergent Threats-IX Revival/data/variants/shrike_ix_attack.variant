@@ -1,0 +1,45 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "shrike_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_proton",
+        "ix_dawnstar_proton_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "shrike_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "dawnstar_lcpb_ix"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "spatial_charge_launcher_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "daythorn_mapb_ix",
+                "WS 002": "daythorn_mapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "morningstar_ciws_ix"}
+        }
+    ]
+}

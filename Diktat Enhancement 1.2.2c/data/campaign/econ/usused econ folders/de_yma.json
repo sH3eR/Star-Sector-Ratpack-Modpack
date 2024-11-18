@@ -1,0 +1,28 @@
+{
+  "starSystem": "yma",
+  "markets": [
+    {
+      "entities": [
+        "khuno"
+      ],
+      "faction": "tritachyon",
+      "size": 4,
+      "startingConditions": [
+        "no_atmosphere",
+        "very_cold",
+        "volatiles_abundant",
+        "population_4",
+        "outpost",
+        "frontier"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "grounddefenses",
+        "orbitalstation_high",
+        "mining",
+        "patrolhq"
+      ]
+    }
+  ]
+}

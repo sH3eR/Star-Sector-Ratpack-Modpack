@@ -1,0 +1,28 @@
+Hi, and thanks for downloading Secrets of the Frontier! I hope you enjoy the content within.
+
+Since Prerelease 9, the files of his indev build contain spoilers. Have a spoiler warning:
+
+If you go deeper into the mod's files, you're almost certain to spoil the content of this mod, which naturally works best if you experience it yourself. If you don't care about this, go ahead.
+
+CREDITS:
+Inventor Raccoon
+
+A big thank-you to everyone who contributed artwork to SotF:
+Nia - Vow, Covenant, Memoir
+Selkie - Respite, Anamnesis, vector engines 
+Lortus - Siegeworks emplacements
+Quacken - Warhorn portrait
+Gwyvern - mystery unimplemented sprite
+SnazzyPantsMcGee - another mystery unimplemented sprite
+Nes - paintjob sprites and some phase glows
+Pyrophage - Siegeworks hangar concept
+AxleMC131 - Parapet/Peon
+
+And to these fine folks as well:
+Estudio Cafofo - music and other sound
+Dark.Revenant - some battle creation code
+Everyone who played back when some of this content was part of Arsenal Expansion, and anyone who plays it here
+
+LICENSE STUFF:
+Please don't use art assets from this mod.
+Feel free to look at this mod's code to help make your own quests and other campaign content. Obviously, please don't directly lift any narrative elements from Secrets of the Frontier.

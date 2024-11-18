@@ -1,0 +1,66 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "istl_stormkestrel_proto",
+    "hullMods": [
+        "istl_bbsupport",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_stormkestrel_proto_test",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_gravmissiletube",
+                "WS0004": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_howler",
+                "WS0002": "istl_heavylinear_autogun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_6cmrailgun",
+                "WS0008": "istl_6cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_matador",
+                "WS0006": "istl_matador"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "istl_matador",
+                "WS0010": "istl_matador",
+                "WS0011": "istl_impulsor_proto",
+                "WS0012": "istl_impulsor_proto",
+                "WS0013": "istl_impulsor_proto",
+                "WS0014": "istl_impulsor_proto",
+                "WS0015": "istl_impulsor_proto",
+                "WS0016": "istl_impulsor_proto"
+            }
+        }
+    ],
+    "wings": [
+        "istl_firebeetle_wing",
+        "istl_skink_wing"
+    ]
+}

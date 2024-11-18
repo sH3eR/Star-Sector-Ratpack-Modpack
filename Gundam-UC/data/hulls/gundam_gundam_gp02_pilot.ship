@@ -1,0 +1,119 @@
+{
+  "hullName": "RX-78GP02A Gundam Physalis",
+  "hullId": "gundam_gundam_gp02_pilot",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/gundam_gp02/gundam_gundam_gp02_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 34,
+  "width": 35,
+  "center": [19, 14.5],
+  "collisionRadius": 27,
+  "shieldCenter": [-3, 6],
+  "shieldRadius": 38,
+  "viewOffset": 0,
+  "builtInMods": [
+    "strikeCraft",
+    "armaa_wingCommander",
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gundam_gp02_gun",
+    "GUN_2": "gundam_gundam_gp02_bazooka",
+    "HEAD": "gundam_gundam_gp02_head",
+    "MELEE": "gundam_saber_green",
+    "SHIELD": "gundam_gundam_gp02_shield",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-11.5, 1]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-6.5, -13.5]
+    },
+    {
+      "id": "GUN_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-6.5, -13.5]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [2, 10.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [19, -18]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-18.5, 10.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-18.5, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, 10],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    },
+    {
+      "location": [-19, -2.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    }
+  ],
+  "bounds": [
+    -1.5, 13,
+    13.5, 13,
+    13.5, -3.5,
+    -1.5, -3.5
+  ]
+}

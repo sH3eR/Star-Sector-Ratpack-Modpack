@@ -1,0 +1,118 @@
+{
+  "hullName": "Tiburo",
+  "hullId": "MSS_Tiburo",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/mayasura/ships/MSS_Tiburo.png",
+  "style": "MIDLINE",
+  "height": 116,
+  "width": 92,
+  "center": [46, 58],
+  "collisionRadius": 84,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [47, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [47, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [50, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 80,
+      "locations": [-13, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -80,
+      "locations": [-13, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50.5, 16.5],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-50.5, -16.5],
+      "length": 40,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-53.5, 28],
+      "length": 52,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-53.5, -28],
+      "length": 52,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -39.5, -4.5,
+    -47, -33.5,
+    -13.5, -38,
+    15, -15.5,
+    22, -36,
+    46.5, -8,
+    46.5, 8,
+    22, 36,
+    15, 15.5,
+    -13.5, 38,
+    -47, 33.5,
+    -39.5, 4.5
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 3,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "iris_ix",
+    "hullMods": [
+        "pointdefenseai",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "iris_ix_escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS ARR": "brightburn_ciws_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "spatial_charge_launcher_ix",
+                "WS 004": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "morningstar_ciws_ix",
+                "WS 002": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

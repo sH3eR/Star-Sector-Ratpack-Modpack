@@ -1,0 +1,36 @@
+{
+	"graphics":{
+
+		"rendering":{
+			"nanoforge_glow_2":"graphics/fx/aotd_aura_item.png",
+				"nanoforge_glow_1":"graphics/fx/aotd_aura_item_2.png",
+				"particle_0":"graphics/fx/aotd_cloud_1.png",
+				"particle_1":"graphics/fx/aotd_cloud_2.png",
+				"particle_2":"graphics/fx/aotd_cloud_3.png",
+				"particle_3":"graphics/fx/aotd_cloud_4.png",
+				"particle_4":"graphics/fx/aotd_cloud_5.png",
+				"particle_5":"graphics/fx/aotd_cloud_6.png",
+				"particle_6":"graphics/fx/aotd_cloud_7.png",
+				"particle_7":"graphics/fx/aotd_cloud_8.png",
+				"particle_8":"graphics/fx/aotd_cloud_9.png",
+				"particle_9":"graphics/fx/aotd_cloud_10.png",
+				"particle_10":"graphics/fx/aotd_cloud_11.png",
+				"particle_11":"graphics/fx/aotd_cloud_12.png",
+				"lightning_bolt":"graphics/fx/emp_arcs.png",
+		
+				"tap_glow":"graphics/fx/shunttapglow.png",
+				"plasma_1":"graphics/fx/aotd_aura_segment_1_plasma_dynamo.png",
+				"plasma_2":"graphics/fx/aotd_aura_segment_2_plasma_dynamo.png",
+				"plasma_3":"graphics/fx/aotd_aura_segment_3_plasma_dynamo.png",
+				"lamp":"graphics/fx/lampglow.png",
+				"synchotron":"graphics/fx/aotd_aura_synchrotron_core.png",
+				"catalytic_1":"graphics/fx/aotd_aura_catalytic_core_1.png",
+				"catalytic_2":"graphics/fx/aotd_aura_catalytic_core_2.png",
+				"combat_1":"graphics/fx/combat_drone_replicator2l.png",
+				"combat_2":"graphics/fx/combat_drone_replicator2ld.png",
+				"shimmer":"graphics/fx/solid_square.png",
+		}
+	}
+	
+}
+

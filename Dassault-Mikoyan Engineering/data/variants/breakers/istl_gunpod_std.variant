@@ -1,0 +1,33 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_gunpod",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "istl_gunpod_std",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_electrogun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "istl_thermalheavy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "istl_impulsor",
+        "WS0004": "istl_impulsor"
+      }
+    }
+  ]
+}

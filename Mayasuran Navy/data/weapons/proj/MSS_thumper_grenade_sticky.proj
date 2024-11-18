@@ -1,0 +1,30 @@
+{
+	"id":"MSS_thumper_grenade_sticky",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/mayasura/missiles/MSS_thumper_nade.png",
+	"size":[34,34],	
+	"center":[17,17],	
+	"collisionRadius":20,
+	"collisionClass":"NONE",
+	"explosionColor":[124,232,115,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":225, # purely visual	
+	"explosionSpec":{"duration":0.1f,
+		"radius":225,
+		"coreRadius":175, # full damage within core radius
+		"collisionClass":MISSILE_FF,
+		"collisionClassByFighter":MISSILE_FF,
+		"particleSizeMin":3.0,
+		"particleSizeRange":3.0,
+		"particleDuration":0.1,
+		"particleCount":100,
+		"particleColor":[146,91,255,200],
+		"explosionColor":[46,91,255,150],
+		"useDetailedExplosion":true,
+		"sound":"MSS_thumper_explosion"},
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0},
+}
+

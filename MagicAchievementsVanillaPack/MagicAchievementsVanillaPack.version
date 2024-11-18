@@ -1,0 +1,14 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/MagicLibStarsector/MagicAchievementsVanillaPack/main/MagicAchievementsVanillaPack.version",
+  "modName": "Magic Achievements: Vanilla Pack",
+
+  "modThreadId": 28545,
+  "directDownloadURL": "https://github.com/MagicLibStarsector/MagicAchievementsVanillaPack/releases/latest/download/MagicAchievementsVanillaPack.zip",
+  "changelogURL": "https://raw.githubusercontent.com/MagicLibStarsector/MagicAchievementsVanillaPack/main/changelog.md",
+  "modVersion":
+    {
+      "major": 1,
+      "minor": 2,
+      "patch": 4
+    },
+}

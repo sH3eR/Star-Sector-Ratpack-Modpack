@@ -1,0 +1,14 @@
+{
+	"industrySuccessMods":{
+		"ix_panopticon":-1,
+		"ix_panopticon_node":-1,
+		"ix_panopticon_player_core":-1,
+		"ix_panopticon_player_node":-1,
+	},
+	"industryDetectionMods":{
+		"ix_panopticon":4,
+		"ix_panopticon_node":4,
+		"ix_panopticon_player_core":4,
+		"ix_panopticon_player_node":4,
+	},
+}

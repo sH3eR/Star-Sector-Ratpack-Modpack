@@ -1,0 +1,32 @@
+{
+  "displayName": "Gunship",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_spooky",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "istl_spooky_Gunship",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "istl_slapper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_matadorheavy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "istl_multipdnode"
+      }
+    }
+  ]
+}

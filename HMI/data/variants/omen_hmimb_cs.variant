@@ -1,0 +1,34 @@
+{
+  "variantId": "omen_hmimb_cs",
+  "hullId": "omen",
+  "displayName": "High as a Kite",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "taclaser",
+        "WS 002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "seth_sml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,27 @@
+{
+  "variantId": "dom+defender_Bomber",
+  "hullId": "dom+defender",
+  "displayName": "Bomber Carrier",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightmg",
+        "WS 002": "lightmg",
+        "WS 003": "lightmg",
+        "WS 004": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+fencer_wing_Bomber_wing"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"baseHullId":"MSS_Victory",
+	"skinHullId":"MSS_VictoryC",
+	"hullName":"Victory (M)",
+	"descriptionId":"MSS_Victory",
+	"spriteName":"graphics/mayasura/ships/MSS_Victory_EliteC.png",
+	"addHints":[HIDE_IN_CODEX],
+	"descriptionPrefix":"With the addition of a novel Reactor Enhancement Mechanism, this Victory (M) variant not only bristles with power but also supercharges the already formidable Avenger weaponry system, truly showcasing the Mayasuran Navy's audacity and flair.",
+	"systemId":"highenergyfocus",
+	     "weaponSlotChanges":{
+     },
+}

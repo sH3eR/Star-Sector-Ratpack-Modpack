@@ -1,0 +1,26 @@
+ {
+  "variantId": "gundam_station_core_t1_efsf_standard",
+  "hullId": "gundam_station_core_t1_efsf",
+  "displayName": "Side Station",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+		{"SOLAR_1": "gundam_module_solar_standard"},
+		{"SOLAR_2": "gundam_module_solar_standard"},
+		{"SOLAR_3": "gundam_module_solar_standard"},
+  
+		{"MODULE_1": "gundam_module_attack_efsf_standard"},
+		{"MODULE_2": "gundam_module_lightattack_efsf_standard"},
+		{"MODULE_3": "gundam_module_smalldefense_efsf_standard"},
+	],
+    "wings": [
+		"gundam_gm_early_wing",
+		"gundam_ball_typek_wing",
+		"gundam_core_fighter_wing"
+    ]
+}

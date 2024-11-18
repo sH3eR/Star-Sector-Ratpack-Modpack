@@ -1,0 +1,2 @@
+listenerId,listenerClass,priority
+sun_ns_surveyListener,nomadic_survival.commands.SurveyListener,1

@@ -1,0 +1,23 @@
+{
+    "hullFrequency":{
+		"tags":{
+            "kazeron_PL_bp":0.2,
+		},
+		"hulls":{
+
+        },
+    },
+    "knownShips":{
+        "tags":["kazeron_PL_bp"],
+    },
+    "priorityShips":{
+        "hulls":[
+        ],
+    },
+	"knownWeapons":{
+		"weapons":[
+			"lightneedler",
+			"harpoonpod"
+		],
+	},
+},

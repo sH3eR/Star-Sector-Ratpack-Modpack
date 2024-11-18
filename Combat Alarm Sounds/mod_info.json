@@ -1,0 +1,8 @@
+{
+  "id":"CAS",
+  "name":"Combat Alarm Sounds",
+  "author":"jamplier",
+  "version":"1.4",
+  "description":"This mod gives the player audio cues about their ship's state.",
+  "gameVersion":"0.97a-RC11",
+}

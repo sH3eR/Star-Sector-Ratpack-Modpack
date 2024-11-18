@@ -1,0 +1,28 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "istl_demon",
+    "hullMods": [
+        "hardened_subsystems",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "istl_demon_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "istl_miniphaserail",
+                "WS0003": "istl_miniphaserail"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_perforatorpod"}
+        }
+    ]
+}

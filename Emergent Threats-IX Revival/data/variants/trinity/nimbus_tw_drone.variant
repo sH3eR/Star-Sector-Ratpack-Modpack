@@ -1,0 +1,21 @@
+{
+	"quality":1,
+	"displayName":"Combat Drone",
+	"hullId":"nimbus_tw",
+	"hullMods":["no_weapon_flux"],
+	"variantId":"nimbus_tw_drone",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"ion_micropulser_tw_fighter",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 002":"pilum_tw_fighter",
+		 		   },
+		},
+	],
+}

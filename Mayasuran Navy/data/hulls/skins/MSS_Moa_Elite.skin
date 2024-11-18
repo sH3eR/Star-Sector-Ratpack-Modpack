@@ -1,0 +1,63 @@
+{
+	"baseHullId":"MSS_Moa",
+	"skinHullId":"MSS_Moa_Elite",
+	"hullName":"Moa (M)",
+	"descriptionId":"MSS_Moa",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"The Moa's major weakness in weak armor has been strengthened, making this flightless bird a strong immmovable wall.",
+	"ordnancePoints":200,
+	"baseValueMult":1.50,
+	"spriteName":"graphics/mayasura/ships/MSS_Moa_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[ 
+    "WS0017",
+    "WS0018",
+    "WS0019",
+    "WS0020",], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"builtInWeapons":{    "WS0017": "MSS_ZthrusterBalwayson",
+    "WS0018": "MSS_ZthrusterBalwayson",
+    "WS0019": "MSS_ZthrusterBalwayson",
+    "WS0020": "MSS_ZthrusterBalwayson",
+     },
+	      "weaponSlotChanges":{
+     	"WS0003":{
+     		#"angle": 0,
+            #"arc": 150,
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "HYBRID",
+     	 },
+		      	"WS0004":{
+     		#"angle": 0,
+            #"arc": 150,
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "HYBRID",
+     	 }
+     },
+	 "engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranSilverFlare"},
+		"7":{"style":"MayasuranSilverFlare"},
+		"8":{"style":"MayasuranSilverFlare"},
+		"9":{"style":"MayasuranSilverFlare"},
+		"10":{"style":"MayasuranFlare"},
+		"11":{"style":"MayasuranFlare"},
+		"12":{"style":"MayasuranFlare"},
+		"13":{"style":"MayasuranFlare"},
+		"14":{"style":"MayasuranFlare"},
+		"15":{"style":"MayasuranFlare"},
+								
+	},
+}
+
+
+

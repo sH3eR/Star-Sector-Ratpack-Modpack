@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istlx_alauda",
+    "hullMods": [
+        "missleracks",
+        "hardened_subsystems",
+        "fluxbreakers"
+    ],
+    "modules": [{"WS0006": "istlx_alaudatailbinder_std"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istlx_alauda_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_alaudapulse",
+                "WS0002": "istl_alaudapulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_alaudamissile"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_NTKcannon",
+                "WS0005": "istl_NTKcannon"
+            }
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+  "hullName": "Zaku II High Mobility Type",
+  "hullId": "gundam_zaku_ii_hm",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/zaku_ii_hm/gundam_zaku_ii_hm_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 37,
+  "width": 31,
+  "center": [15.5, 19],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "HEAD": "gundam_zaku_ii_hm_head",
+    "L_ARM": "gundam_zaku_ii_hm_hand",
+    "L_LEG": "gundam_zaku_ii_hm_leg",
+    "MELEE": "gundam_axe_slash",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 9.5,
+      "locations": [8.5, 10]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-8.5, -1]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-9.5, -10]
+    },
+    {
+      "id": "GUN_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-9.5, -10]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": -8,
+      "locations": [21, 4]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -7,
+      "locations": [-5.5, 14.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-12, 8.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-12, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 8.5],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -8.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -7.5, 6,
+    6.5, 6,
+    6.5, -9,
+    -7.5, -9
+  ]
+}

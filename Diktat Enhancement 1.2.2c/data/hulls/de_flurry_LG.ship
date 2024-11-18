@@ -1,0 +1,96 @@
+{
+  "hullName": "Flurry(LG)",
+  "hullId": "de_flurry_LG",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DE/ships/flurry_LG.png",
+  "style": "MIDLINE",
+  "height": 32,
+  "width": 46,
+  "center": [23, 14.5],
+  "collisionRadius": 34.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 28.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, 16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6.5, 7],
+      "length": 7,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-6.5, -7],
+      "length": 7,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-4.5, 4],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-4.5, -4],
+      "length": 7.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-8.5, 0],
+      "length": 10.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-8.5, 0],
+      "length": 10.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -7.5, -8.5,
+    -14.5, -22,
+    -4, -22,
+    13.5, 0,
+    -4, 22,
+    -14.5, 22,
+    -7.5, 8.5
+  ]
+}

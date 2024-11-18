@@ -1,0 +1,39 @@
+{
+    "displayName": "Export",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "hullId": "istl_tereshkova_exp",
+    "hullMods": ["autorepair"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_tereshkova_export",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_linearcannonlight",
+                "WS0004": "istl_linearcannonlight"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_blazedriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_revanche"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_linearvulcan",
+                "WS0006": "istl_linearvulcan",
+                "WS0007": "istl_linearvulcan"
+            }
+        }
+    ]
+}

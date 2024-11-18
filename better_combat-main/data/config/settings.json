@@ -1,0 +1,6 @@
+{
+    "plugins": {
+	"BcomZfbPlugin":"bcom.ZfbPlugin",
+	"BcomAsteroidPlugin":"bcom.ExtraAsteroidPlugin"
+    }
+}

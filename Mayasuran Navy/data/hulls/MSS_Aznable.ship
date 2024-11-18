@@ -1,0 +1,101 @@
+{
+  "hullName": "Aznable",
+  "hullId": "MSS_Aznable",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/mayasura/ships/Aznable/MSS_Aznable_Body.png",
+  "style": "MIDLINE",
+  "height": 37,
+  "width": 24,
+  "center": [12, 18.5],
+  "collisionRadius": 35,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "MSS_Aznable_LeftArm",
+    "WS0002": "MSS_Aznable_RightShoulder",
+    "WS0003": "MSS_Aznable_Head",
+    "WS0004": "MSS_Aznable_RightArmTBC",
+    "WS0005": "MSS_Aznable_LeftShoulder"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 26.5,
+      "locations": [-4.5, 16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -26.5,
+      "locations": [-4.5, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [-3, -15.5],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -0,
+      "locations": [-3, 15.5],
+      "renderOrderMod": 400
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, 6],
+      "length": 8.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-17.5, -6],
+      "length": 8.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -16.5, -10.5,
+    -6.5, -11,
+    18, -3,
+    18, 3,
+    -6.5, 11,
+    -16.5, 10.5,
+    -13, -0,
+    -13, 0
+  ]
+}

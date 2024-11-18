@@ -1,0 +1,72 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "gundam_abq_module_south",
+    "hullMods": [always_detaches],
+    "permaMods": [],
+    "variantId": "gundam_abq_module_south_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_3cannon",
+                "WS0002": "gundam_mega_3cannon"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gundam_mega_1cannon_m",
+				"WS0004": "gundam_mega_1cannon_m",
+                "WS0005": "gundam_mega_1cannon_m"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0006": "gundam_antims_1cannon_pd_m",
+				"WS0007": "gundam_antims_1cannon_pd_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "gundam_2mega_particle",
+				"WS0009": "gundam_2mega_particle"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0010": "gundam_pd_2bc",
+				"WS0011": "gundam_pd_2bc",
+				"WS0012": "gundam_pd_2bc",
+				"WS0013": "gundam_pd_2bc",
+				"WS0014": "gundam_pd_2bc",
+                "WS0015": "gundam_pd_2bc",
+                "WS0016": "gundam_pd_2bc"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0017": "gundam_builtin_rear_spmissile",
+				"WS0018": "gundam_builtin_rear_spmissile",
+                "WS0019": "gundam_builtin_rear_farspmissile",
+				"WS0020": "gundam_builtin_rear_farspmissile"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_zaku_ii_rd4_wing",
+		"gundam_rick_dom_wing",
+		"gundam_zaku_ii_fz_wing"
+    ]
+}

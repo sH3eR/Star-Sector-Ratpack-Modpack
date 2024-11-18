@@ -1,0 +1,45 @@
+{
+	"id":"istl_BBdreadgunpod",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"istl_gunpod_std",
+	
+	"allowFreeRoam":false,
+	
+	"launchSpeed":300,
+	"launchDelay":0.5,
+	"maxDrones":6,
+	"droneBehavior":[
+		{"droneIndex":[0,2,4,6,8],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[MISSILE, FIGHTER, SHIP],
+		 "initialOrbitAngle":0,
+		 "orbitRadius":150, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":120, 				# pixels/second
+		},
+		{"droneIndex":[1,3,5,7,9],
+		 "defaultFacing":"MATCH_SHIP_FACING",
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[MISSILE, FIGHTER, SHIP],
+		 "initialOrbitAngle":0,
+		 "orbitRadius":300,
+		 "orbitDir":-1,
+		 "orbitSpeed":135,
+		},
+	],
+	
+	"useSound":"istl_DME_dronelaunch",
+	"outOfUsesSound":"istl_midtech_arm_sm",
+	
+	"aiHints":{
+
+	}
+}
+

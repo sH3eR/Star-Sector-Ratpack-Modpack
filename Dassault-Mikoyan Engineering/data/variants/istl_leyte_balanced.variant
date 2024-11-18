@@ -1,0 +1,39 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "hullId": "istl_leyte",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_leyte_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_autolaser_small",
+                "WS0004": "istl_autolaser_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_gravmissiletube"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_NTKcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_micropd"}
+        }
+    ],
+    "wings": [
+        "istl_damselfly_wing",
+        "istl_dard_wing"
+    ]
+}

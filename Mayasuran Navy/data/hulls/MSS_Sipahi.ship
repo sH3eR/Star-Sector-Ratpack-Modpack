@@ -1,0 +1,158 @@
+{
+  "bounds": [
+    -13,
+    -13,
+    18.5,
+    0,
+    -13,
+    13,
+    -10.5,
+    3,
+    -19,
+    6.5,
+    -19,
+    -6.5,
+    -10.5,
+    -3
+  ],
+  "builtInWeapons": {
+    "WS0004": "MSS_Sipahi_tail"
+  },
+  "builtInWings": [],
+  "center": [
+    14,
+    20
+  ],
+  "collisionRadius": 25.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 22,
+      "location": [
+        -14.5,
+        4.5
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 22,
+      "location": [
+        -14.5,
+        -4.5
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    },
+    {
+      "angle": 148,
+      "contrailSize": 128,
+      "length": 7.261135,
+      "location": [
+        -15,
+        6
+      ],
+      "style": "MIDLINE",
+      "width": 3.178629
+    },
+    {
+      "angle": -148,
+      "contrailSize": 128,
+      "length": 7.261135,
+      "location": [
+        -15,
+        -6
+      ],
+      "style": "MIDLINE",
+      "width": 3.178629
+    },
+    {
+      "angle": 145.5,
+      "contrailSize": 128,
+      "length": 5.665506,
+      "location": [
+        -14,
+        6.5
+      ],
+      "style": "MIDLINE",
+      "width": 2.933964
+    },
+    {
+      "angle": -145.5,
+      "contrailSize": 128,
+      "length": 5.665506,
+      "location": [
+        -14,
+        -6.5
+      ],
+      "style": "MIDLINE",
+      "width": 2.933964
+    }
+  ],
+  "height": 39,
+  "hullId": "MSS_Sipahi",
+  "hullName": "Sipahi",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 25,
+  "spriteName": "graphics/mayasura/ships/Sipahi/MSS_Sipahi_B.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -0.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        -4,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        17,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -0.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 28
+}

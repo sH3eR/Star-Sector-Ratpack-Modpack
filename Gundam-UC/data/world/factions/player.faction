@@ -1,0 +1,26 @@
+{
+	"id":"player",
+	
+	"portraits":{
+		"standard_male":[
+            "graphics/portraits/gundam_efsf_portrait_m1.png",
+            "graphics/portraits/gundam_efsf_portrait_m2.png",
+            "graphics/portraits/gundam_efsf_portrait_m3.png",
+            "graphics/portraits/gundam_efsf_portrait_m4.png",
+            "graphics/portraits/gundam_efsf_portrait_m5.png",
+            "graphics/portraits/gundam_efsf_portrait_m6.png",
+			"graphics/portraits/gundam_zeon_portrait_m1.png",
+            "graphics/portraits/gundam_zeon_portrait_m2.png",
+            "graphics/portraits/gundam_zeon_portrait_m3.png",
+            "graphics/portraits/gundam_zeon_portrait_m4.png",
+            "graphics/portraits/gundam_zeon_portrait_m5.png",
+            "graphics/portraits/gundam_zeon_portrait_m6.png",
+            "graphics/portraits/gundam_zeon_portrait_m7.png",
+		],
+		"standard_female":[
+            "graphics/portraits/gundam_efsf_portrait_f1.png",
+			"graphics/portraits/gundam_zeon_portrait_f1.png",
+            "graphics/portraits/gundam_zeon_portrait_f2.png",
+		],
+	},
+}

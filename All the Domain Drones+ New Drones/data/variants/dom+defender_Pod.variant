@@ -1,0 +1,29 @@
+{
+  "variantId": "dom+defender_Pod",
+  "hullId": "dom+defender",
+  "displayName": "Pod Carrier",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 2,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightac",
+        "WS 002": "lightac",
+        "WS 003": "lightac",
+        "WS 004": "lightac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+defense_pod_Autocannon"
+  ]
+}

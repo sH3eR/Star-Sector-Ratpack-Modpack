@@ -1,0 +1,332 @@
+{
+  "hullName": "Zygaena",
+  "hullId": "MSS_Zygaena",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/mayasura/ships/MSS_Zygaena.png",
+  "style": "HIGH_TECH",
+  "height": 353,
+  "width": 190,
+  "center": [95, 123.5],
+  "collisionRadius": 274.5,
+  "shieldCenter": [52.5, -0],
+  "shieldRadius": 225,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "high_maintenance"
+  ],
+  "builtInWings": [
+    "MSS_Owstoni"
+  ],
+  "builtInWeapons": {
+    "WS0008": "MSS_quicksilverSystem"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 75,
+      "locations": [187.5, 67]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -75,
+      "locations": [187.5, -67]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 135,
+      "locations": [170.5, 53]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -135,
+      "locations": [170.5, -53]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 40,
+      "locations": [0.5, 53]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -40,
+      "locations": [0.5, -53]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-76.5, -75]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-76.5, 75]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [216, 29]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [216, -29]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [215, 46]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [215, -46]
+    },
+    {
+      "id": "WS0022",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [208.5, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [209.5, 70]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [209, -69.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [144.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-12.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-113.5, -0],
+      "length": 55.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-111.5, 28],
+      "length": 95,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-111.5, -28],
+      "length": 95,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-120, 40.5],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-120, -41.5],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-120, 47],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-120, -48],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-120, 54.5],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-120, -56],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-120, 61],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-119.5, -62.5],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-116.5, 70],
+      "length": 72,
+      "width": 20,
+      "angle": 173.5,
+      "contrailSize": 20,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-116.5, -73],
+      "length": 72,
+      "width": 20,
+      "angle": -173.5,
+      "contrailSize": 20,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-113.5, 14],
+      "length": 55.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-113.5, -14],
+      "length": 55.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MayasuranFlare"
+    }
+  ],
+  "bounds": [
+    -111, -32,
+    -120, -41,
+    -119.5, -65,
+    -114, -75,
+    -2, -73.5,
+    74, -26.5,
+    146, -28,
+    156, -45.5,
+    156, -66.5,
+    173.5, -91,
+    195, -89.5,
+    206, -80,
+    213, -54.5,
+    221, -31,
+    221, 31,
+    213, 54.5,
+    206, 80,
+    195, 89.5,
+    173.5, 91,
+    156, 66.5,
+    156, 45.5,
+    146, 28,
+    74, 26.5,
+    -2, 73.5,
+    -114, 75,
+    -119.5, 65,
+    -120, 41,
+    -111, 32
+  ]
+}

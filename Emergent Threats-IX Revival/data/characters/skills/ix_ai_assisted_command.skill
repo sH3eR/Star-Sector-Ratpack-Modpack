@@ -1,0 +1,16 @@
+{
+	"id":"ix_ai_assisted_command",
+	"governingAptitude":"technology",
+	"compressHullmods":false,
+	"scope":"GOVERNED_OUTPOST",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"GOVERNED_OUTPOST", "script":"data.scripts.ix.skills.AssistedCommand$Level1"},
+				{"type":"GOVERNED_OUTPOST", "script":"data.scripts.ix.skills.AssistedCommand$Level2"},
+			]
+		},
+	],
+}

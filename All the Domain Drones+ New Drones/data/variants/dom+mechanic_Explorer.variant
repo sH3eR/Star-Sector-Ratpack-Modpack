@@ -1,0 +1,24 @@
+{
+  "variantId": "dom+mechanic_Explorer",
+  "hullId": "dom+mechanic",
+  "displayName": "Explorer",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "miningblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

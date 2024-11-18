@@ -1,0 +1,30 @@
+{
+	"baseHullId":"MSS_Pelican",
+	"skinHullId":"MSS_Pelican_MM",
+	"hullName":"Mithuna (MM)",
+	"descriptionId":"MSS_Pelican",
+	"tech":"Merchant Marine",
+	"tags":["mercantile"], # The elite of the elite.
+	"descriptionPrefix":"This ship has been overhauled for fleet use by the Rimward Venture Trading Company, with a focus on bulk efficiency and little regard for optional features such as 'crew comfort'.",
+	"ordnancePoints":280,
+	"spriteName":"graphics/mayasura/ships/MSS_Pelican_MM.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+		"builtInWeapons":{
+     },
+     "weaponSlotChanges":{
+     	"WS0018":{
+     		#"angle": 0,
+            #"arc": 240,
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+     	 }
+     },
+}
+
+
+

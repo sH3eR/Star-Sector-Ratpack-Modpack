@@ -1,0 +1,301 @@
+{
+  "hullName": "Fighter Module",
+  "hullId": "gundam_module_fighter_zeon",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/station/gundam_module_fighter.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 169,
+  "width": 398,
+  "center": [199, 57],
+  "collisionRadius": 192,
+  "shieldCenter": [-131, -0],
+  "shieldRadius": 310,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    0,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "always_detaches",
+    "do_not_fire_through",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "GUIDE_1": "gundam_launch_bay_guide",
+    "GUIDE_2": "gundam_launch_bay_guide",
+    "GUIDE_3": "gundam_launch_bay_guide",
+    "GUIDE_4": "gundam_launch_bay_guide",
+    "GUIDE_5": "gundam_launch_bay_guide",
+    "GUIDE_6": "gundam_launch_bay_guide"
+	
+  },
+  "weaponSlots": [
+    {
+      "id": "GUIDE_1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [50, 123.5]
+    },
+    {
+      "id": "GUIDE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [91.5, 19.5]
+    },
+    {
+      "id": "GUIDE_3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [91.5, -19.5]
+    },
+    {
+      "id": "GUIDE_4",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [50, -123.5]
+    },
+    {
+      "id": "GUIDE_5",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [66.5, 94]
+    },
+    {
+      "id": "GUIDE_6",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [66.5, -94]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        37.5, 84.5,
+        14.5, 84.5,
+        41.5, 113.5,
+        53.5, 91.5,
+        17.5, 101.5,
+        34.5, 101.5,
+        27.5, 74.5,
+        24.5, 74.5,
+        27.5, 98.5,
+        24.5, 98.5,
+        27.5, 122.5,
+        24.5, 122.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        14.5, -84.5,
+        37.5, -84.5,
+        53, -91.5,
+        41.5, -113.5,
+        27.5, -98.5,
+        24.5, -98.5,
+        34.5, -101.5,
+        17.5, -101.5,
+        27.5, -122.5,
+        24.5, -122.5,
+        24.5, -74.5,
+        27.5, -74.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        75.5, -14.5,
+        75.5, 14.5,
+        86.5, 27.5,
+        86.5, -27.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        5.5, 8.5,
+        5.5, -8.5,
+        -6.5, 1.5,
+        -6.5, -1.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [60, 52.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [60, -52.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [-6.5, 127]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-6.5, -127]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [45.5, 42]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [45.5, -42]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -15,
+      "locations": [4.5, -66]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 15,
+      "locations": [4.5, 66]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [63.5, 29]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [63.5, -29]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [94.5, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 0,
+      "locations": [71, 78]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -0,
+      "locations": [71, -78]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -26.5, -23.5,
+    -39.5, -72,
+    -27, -150.5,
+    2.5, -179.5,
+    23, -172.5,
+    55.5, -133,
+    83.5, -84.5,
+    95, -54.5,
+    104.5, -22,
+    113.5, -11.5,
+    113.5, 11.5,
+    104.5, 22,
+    95, 54.5,
+    83.5, 84.5,
+    55.5, 133,
+    23, 172.5,
+    2.5, 179.5,
+    -27, 150.5,
+    -39.5, 72,
+    -26.5, 23.5
+  ]
+}

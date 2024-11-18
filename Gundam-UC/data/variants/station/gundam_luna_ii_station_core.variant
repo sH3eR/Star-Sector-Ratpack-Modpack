@@ -1,0 +1,38 @@
+{
+  "variantId": "gundam_luna_ii_station_core_standard",
+  "hullId": "gundam_luna_ii_station_core",
+  "displayName": "Lunar II Fortress",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "modules": [
+		{"MODULE_1": "gundam_luna_ii_module_north_standard"},
+		{"MODULE_2": "gundam_luna_ii_module_east_standard"},
+		{"MODULE_3": "gundam_luna_ii_module_south_standard"},
+		{"MODULE_4": "gundam_luna_ii_module_west_standard"},
+	],
+  "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_pd_2bc",
+				"WS0002": "gundam_pd_2bc",
+				"WS0003": "gundam_pd_2bc",
+				"WS0004": "gundam_pd_2bc",
+                "WS0005": "gundam_pd_2bc",
+				"WS0006": "gundam_pd_2bc",
+				"WS0007": "gundam_pd_2bc",
+				"WS0008": "gundam_pd_2bc"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_guncannon_wing",
+		"gundam_gm_sniper_ii_wing",
+		"gundam_gm_cs_wing"
+    ]
+}

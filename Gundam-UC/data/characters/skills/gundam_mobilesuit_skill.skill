@@ -1,0 +1,17 @@
+{
+	"id":"gundam_mobilesuit_skill",
+	"governingAptitude":"combat",
+	"compressHullmods":false,
+	"scopeStr":"all ships carrying mobile suit",
+	"scope":"CUSTOM",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":0,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"data.hullmods.Gundam_MobileSuit$Level1"},
+			]
+		},
+
+	],
+}

@@ -1,0 +1,29 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "candor_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "advancedoptics",
+        "extendedshieldemitter",
+        "hardened_subsystems",
+        "ix_reactive_combat_shields",
+        "safetyoverrides",
+        "ix_dawnstar_neutron",
+        "ix_dawnstar_neutron_handler"
+    ],
+    "modules": [{"SM 1": "ix_emp_module"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "candor_ix_attack",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "dawnstar_lcpb_ix",
+            "WS 002": "dawnstar_lcpb_ix"
+        }
+    }]
+}

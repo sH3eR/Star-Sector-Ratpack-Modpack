@@ -1,0 +1,48 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "gundam_module_fighter_efsf",
+    "hullMods": [always_detaches],
+    "permaMods": [],
+    "variantId": "gundam_module_fighter_efsf_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_2bcannon_m_efsf",
+                "WS0002": "gundam_mega_2bcannon_m_efsf"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gundam_pd_2mg",
+				"WS0004": "gundam_pd_2mg",
+				"WS0005": "gundam_pd_2mg",
+				"WS0006": "gundam_pd_2mg",
+				"WS0007": "gundam_pd_2bc",
+                "WS0008": "gundam_pd_2bc",
+				"WS0009": "gundam_pd_2bc",
+				"WS0010": "gundam_pd_2bc",
+				"WS0011": "gundam_pd_2bc"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "gundam_builtin_rear_swamp_missile",
+                "WS0013": "gundam_builtin_rear_swamp_missile"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_ball_typek_wing",
+		"gundam_core_booster_wing",
+		"gundam_guncannon_wing",
+		"gundam_gm_cs_wing"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+	"baseHullId":"MSS_Victory",
+	"skinHullId":"MSS_VictoryB",
+	"hullName":"Victory (M)",
+	"descriptionId":"MSS_Victory",
+	"spriteName":"graphics/mayasura/ships/MSS_Victory_EliteB.png",
+	"addHints":[HIDE_IN_CODEX],
+	"descriptionPrefix":"Employing a cutting-edge Plasma-induced reaction upgrade to the Victory's Burn Drive, this elite variant of the Victory (M) showcases unmatched agility and peerless maneuverability, heralding a new era of dominance for the Mayasuran Navy.",
+	"systemId":"plasmajets",
+	     "weaponSlotChanges":{
+     },
+}

@@ -1,0 +1,53 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ionos_tw",
+    "hullMods": [
+        "tw_drone_control_node",
+        "targetingunit",
+        "ix_reactive_combat_shields",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ionos_tw_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "thundermark_ix",
+                "WS 009": "thundermark_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "spatial_charge_launcher_ix",
+                "WS 003": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "abolisher_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "plasma_dart_ix",
+                "WS 005": "plasma_dart_ix",
+                "WS 006": "lightbringer_ciws_ix",
+                "WS 007": "lightbringer_ciws_ix",
+                "WS 010": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": ["nimbus_tw_wing_l"]
+}

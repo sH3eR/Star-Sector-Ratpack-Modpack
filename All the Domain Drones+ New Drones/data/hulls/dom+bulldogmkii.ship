@@ -1,0 +1,196 @@
+{
+  "hullName": "Bulldog Protector MKII",
+  "hullId": "dom+bulldogmkii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Destroyers/Bulldog Protector MKII.png",
+  "style": "LOW_TECH",
+  "height": 119,
+  "width": 160,
+  "center": [78, 64.5],
+  "collisionRadius": 107.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 102,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "ballistic_rangefinder",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 158,
+      "angle": -48,
+      "locations": [21, -32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 268,
+      "angle": -121,
+      "locations": [-28, -68]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 207,
+      "angle": 145.5,
+      "locations": [-25.5, 56]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 247,
+      "angle": 67,
+      "locations": [17.5, 70]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35.5, -61.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35.5, -52]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35, -42]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35.5, -31]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35.5, -21.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [29, 29]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [29, 54.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-64.5, -2],
+      "length": 40,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, -66],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, -45],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48, -24],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, 21],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48, 41.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48, 63],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    42, -17.5,
+    53.5, -16,
+    54, 12,
+    47.5, 15.5,
+    46, 66,
+    36, 77.5,
+    -29, 78.5,
+    -45.5, 71,
+    -56, 34.5,
+    -63.5, 11,
+    -63, -11,
+    -57, -34.5,
+    -48.5, -72.5,
+    -31, -81.5,
+    23, -82.5,
+    40, -66
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 24,
+  "fluxVents": 50,
+  "goalVariant": true,
+  "hullId": "MSS_Javanicus_B",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Javanicus_B_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "cyclone",
+        "WS0002": "pilum",
+        "WS0003": "pilum",
+        "WS0022": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun",
+        "WS0006": "railgun",
+        "WS0008": "gravitonbeam",
+        "WS0010": "gauss",
+        "WS0012": "lightag",
+        "WS0014": "lightdualac",
+        "WS0016": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "railgun",
+        "WS0007": "railgun",
+        "WS0009": "gravitonbeam",
+        "WS0011": "gauss",
+        "WS0013": "lightag",
+        "WS0015": "lightdualac",
+        "WS0017": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "MSS_tribeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "lrpdlaser",
+        "WS0019": "lrpdlaser",
+        "WS0020": "lrpdlaser",
+        "WS0021": "lrpdlaser",
+        "WS0024": "gravitonbeam"
+      }
+    }
+  ],
+  "wings": []
+}

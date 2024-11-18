@@ -1,0 +1,18 @@
+{
+	"id":"istl_thermalmortar_base_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":15.0,
+	"width":8.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,65,50,255],
+	"coreColor":[255,120,100,255],
+	"glowColor":[155,35,25,75],
+	"glowRadius":25,
+	"hitGlowRadius":45,
+	"textureType":"SMOOTH",
+	"textureScrollSpeed":-48.0,
+	"pixelsPerTexel":1.0,
+}

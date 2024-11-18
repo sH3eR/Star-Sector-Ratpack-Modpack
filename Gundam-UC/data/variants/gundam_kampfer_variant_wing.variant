@@ -1,0 +1,55 @@
+{
+  "displayName": "Limited Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_kampfer",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_kampfer_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "GUN": "gundam_kampfer_gun",
+		"GRANADE": "gundam_sturm_faust",
+        "HEAD": "gundam_kampfer_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN_2": "gundam_bazooka_2",
+        "GUN_3": "gundam_bazooka_2",
+        "GRANADE_2": "gundam_sturm_faust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_saber_yellow",
+        "MELEE_2": "gundam_saber_yellow"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+		"L_ARM": "gundam_kampfer_hand"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "L_LEG": "gundam_kampfer_leg"
+      }
+    }
+  ],
+  "wings": []
+}

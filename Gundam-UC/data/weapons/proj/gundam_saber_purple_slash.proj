@@ -1,0 +1,17 @@
+{
+	"id":"gundam_saber_purple_slash",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":36,
+	"width":15,
+	"fadeTime":1,
+	"fringeColor":[219,113,223,0],
+	"coreColor":[219,113,223,0],
+	"glowColor":[150,100,255,0],
+	"glowRadius":75,
+	"textureScrollSpeed":0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/empty.png"
+}

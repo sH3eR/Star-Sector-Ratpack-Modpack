@@ -1,0 +1,282 @@
+{
+  "bounds": [
+    34,
+    -1.5,
+    14,
+    -8.5,
+    24.5,
+    -11,
+    7.5,
+    -29,
+    -14,
+    -36,
+    -8,
+    -26,
+    -27.5,
+    -31,
+    -19.5,
+    -26,
+    -24.5,
+    -24.5,
+    -24.5,
+    -16.5,
+    -4,
+    -12.5,
+    -40.5,
+    -8.5,
+    -10.5,
+    -7.5,
+    -10.5,
+    7.5,
+    -40.5,
+    8.5,
+    -4,
+    12.5,
+    -24.5,
+    16.5,
+    -24.5,
+    24.5,
+    -19.5,
+    26,
+    -27.5,
+    31,
+    -8,
+    26,
+    -14,
+    36,
+    7.5,
+    29,
+    24.5,
+    11,
+    14,
+    8.5,
+    34,
+    1.5,
+    53,
+    -0
+  ],
+  "builtInMods": [
+    "istl_monobloc",
+    "solar_shielding",
+    "neural_interface"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_alaudapulse",
+    "WS0002": "istl_alaudapulse",
+    "WS0003": "istl_alaudamissile",
+    "WS0007": "istl_blinkerB_blue",
+    "WS0008": "istl_blinkerB_blue",
+    "WS0009": "blinker_red",
+    "WS0010": "blinker_red",
+    "WS0011": "blinker_red"
+  },
+  "center": [
+    38,
+    42
+  ],
+  "collisionRadius": 72,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 32.5,
+      "location": [
+        -17,
+        -0
+      ],
+      "style": "DMEFlare",
+      "width": 6
+    },
+    {
+      "angle": 175,
+      "contrailSize": 9,
+      "length": 60,
+      "location": [
+        -25,
+        20
+      ],
+      "style": "DMESuperFlare",
+      "width": 9
+    },
+    {
+      "angle": -175,
+      "contrailSize": 9,
+      "length": 60,
+      "location": [
+        -25,
+        -20
+      ],
+      "style": "DMESuperFlare",
+      "width": 9
+    },
+    {
+      "angle": 154,
+      "contrailSize": 3,
+      "length": 32,
+      "location": [
+        -13,
+        29.5
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    },
+    {
+      "angle": -154,
+      "contrailSize": 3,
+      "length": 32,
+      "location": [
+        -13,
+        -29.5
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    }
+  ],
+  "height": 96,
+  "hullId": "istlx_alauda",
+  "hullName": "Alauda",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 70,
+  "spriteName": "graphics/ISTL/ships/istl_alauda.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        27,
+        11
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        27,
+        -11
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -1.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0004",
+      "locations": [
+        6,
+        17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 30,
+      "id": "WS0005",
+      "locations": [
+        6,
+        -17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -4,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        22.5,
+        17.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        22.5,
+        -17.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        36.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -27.5,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -180,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        -27.5,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 76
+}

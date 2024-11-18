@@ -1,0 +1,67 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "gundam_luna_ii_module_north",
+    "hullMods": [always_detaches],
+    "permaMods": [],
+    "variantId": "gundam_luna_ii_module_north_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_3cannon",
+                "WS0002": "gundam_mega_3cannon"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gundam_mega_1cannon_m",
+				"WS0004": "gundam_mega_1cannon_m",
+                "WS0005": "gundam_mega_1cannon_m"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0006": "gundam_mega_2bcannon_m_efsf",
+				"WS0007": "gundam_mega_2bcannon_m_efsf",
+                "WS0008": "gundam_mega_2bcannon_m_efsf"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0009": "gundam_pd_2bc",
+				"WS0010": "gundam_pd_2bc",
+				"WS0011": "gundam_pd_2bc",
+				"WS0012": "gundam_pd_2bc",
+				"WS0013": "gundam_pd_2bc",
+				"WS0014": "gundam_pd_2bc",
+                "WS0015": "gundam_pd_2bc",
+                "WS0016": "gundam_pd_2bc",
+				"WS0017": "gundam_pd_2bc"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0018": "gundam_builtin_rear_spmissile",
+                "WS0019": "gundam_builtin_rear_spmissile",
+				"WS0020": "gundam_builtin_rear_farspmissile",
+				"WS0021": "gundam_builtin_rear_farspmissile"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_ball_typek_wing",
+		"gundam_jet_core_booster_wing",
+		"gundam_gm_typec_wing"
+    ]
+}

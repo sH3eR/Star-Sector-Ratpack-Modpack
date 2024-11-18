@@ -1,0 +1,45 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_zudah_pilot",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_zudah_pilot_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_zudah_gun",
+        "HEAD": "gundam_zudah_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_ARM": "gundam_zudah_hand"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_axe_slash"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN_2": "gundam_bazooka_2",
+        "L_LEG": "gundam_zudah_leg"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,30 @@
+{
+	"id":"istl_bravepulse",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"everyFrameEffect": "data.scripts.weapons.istl_SigmaPulserFX",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":600,
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_bravepulse_hardpoint_glow.png",
+	"glowColor":[25,200,125,215],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":18.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":16.0,
+					   "particleDuration":0.06,
+					   "particleCount":27,
+					   "particleColor":[25,200,125,215]},
+	"projectileSpecId":"istl_bravepulse_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge_small",
+	"fireSoundTwo":"istl_brigadorfire",	
+}

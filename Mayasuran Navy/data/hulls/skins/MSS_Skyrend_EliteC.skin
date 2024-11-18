@@ -1,0 +1,10 @@
+{
+	"baseHullId":"MSS_Skyrend_Elite",
+	"skinHullId":"MSS_Skyrend_EliteC",
+	"hullName":"Skysplitter (M)",
+	"descriptionId":"MSS_Skyrend_Elite",
+	"addHints":[HIDE_IN_CODEX],
+	"spriteName":"graphics/mayasura/ships/MSS_Skyrend_EliteC.png",
+	"descriptionPrefix":"This Skysplitter variant features the removal of many systems designed to regulate its power grid. The extra speed and maneuverability make it a favourite among aggressive Mayasuran officers.",
+	"systemId":"MSS_safetiesCapital",
+}

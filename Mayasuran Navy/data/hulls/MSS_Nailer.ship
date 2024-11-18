@@ -1,0 +1,118 @@
+{
+  "hullName": "Nailer",
+  "hullId": "MSS_Nailer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/mayasura/ships/MSS_Nailer.png",
+  "style": "MIDLINE",
+  "height": 117,
+  "width": 66,
+  "center": [33, 50.5],
+  "collisionRadius": 78.5,
+  "shieldCenter": [6.5, -0],
+  "shieldRadius": 71.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0003": "MSS_blinker_blue",
+    "WS0004": "MSS_blinker_amber",
+    "WS0005": "MSS_NailCannon",
+    "WS0006": "MSS_NailCannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [25, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [48, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [58, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [58, -13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [65.5, 6]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [65.5, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48.5, -0],
+      "length": 54,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [8.5, 25],
+      "length": 18.27638,
+      "width": 6.992534,
+      "angle": 163,
+      "contrailSize": 6.992534,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [8.5, -25],
+      "length": 18.27638,
+      "width": 6.992534,
+      "angle": -163,
+      "contrailSize": 6.992534,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -47, -5.5,
+    -40.5, -7,
+    -25, -11,
+    -9, -23,
+    6.5, -22,
+    18.5, -28,
+    61, -12.5,
+    61, 12.5,
+    18.5, 28,
+    6.5, 22,
+    -9, 23,
+    -25, 11,
+    -40.5, 7,
+    -47, 5.5
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_guardian_tplate",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "istl_bbdefense",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_guardian_tplate_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_shellhead"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_thermalpd",
+                "WS0003": "istl_thermalpd"
+            }
+        }
+    ]
+}

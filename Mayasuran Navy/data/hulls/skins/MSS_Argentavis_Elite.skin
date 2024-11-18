@@ -1,0 +1,25 @@
+{
+	"baseHullId":"MSS_Argentavis",
+	"skinHullId":"MSS_Argentavis_Elite",
+	"hullName":"Argentavis (M)",
+	"descriptionId":"MSS_Argentavis",
+	"tech":"Mayasuran",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"With power to rival any destroyer, this uparmored version of the Argentavis represents the peak power a Teratorn can achieve.",
+	"ordnancePoints":110,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/mayasura/ships/MSS_Argentavis_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		},
+}
+

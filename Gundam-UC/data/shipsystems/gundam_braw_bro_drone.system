@@ -1,0 +1,62 @@
+{
+	"id":"gundam_braw_bro_drone_system",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_STANDARD",
+	
+	"droneVariant":"gundam_braw_bro_bit_variant_wing",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":100,
+	"launchDelay":0.1,
+	"maxDrones":4,
+	"droneBehavior":[
+		{"droneIndex":[0],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":50,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+		 "initialOrbitAngle":0,
+		 "orbitRadius":-5, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":0, 				# pixels/second
+		},
+		{"droneIndex":[1],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":50,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+		 "initialOrbitAngle":180,
+		 "orbitRadius":-30, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":0, 				# pixels/second
+		},
+		{"droneIndex":[2],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":50,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+		 "initialOrbitAngle":65,
+		 "orbitRadius":10, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":0, 				# pixels/second
+		},
+		{"droneIndex":[3],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":50,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+		 "initialOrbitAngle":-65,
+		 "orbitRadius":10, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":0, 				# pixels/second
+		},
+	],
+	
+	"useSound":"missile_heavy",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

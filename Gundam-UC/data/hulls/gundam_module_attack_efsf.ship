@@ -1,0 +1,195 @@
+{
+  "hullName": "Attack Module",
+  "hullId": "gundam_module_attack_efsf",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/station/gundam_module_attack.png",
+  "style": "GUNDAM_EFSF_SHIELD",
+  "height": 191,
+  "width": 406,
+  "center": [203, 57],
+  "collisionRadius": 208,
+  "shieldCenter": [-131, -0],
+  "shieldRadius": 310,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    0,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "autorepair",
+    "always_detaches",
+    "do_not_fire_through",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [76, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [63, 67]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [63, -67]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [11, 109.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [11, -109.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30.5,
+      "locations": [26.5, 66.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -30.5,
+      "locations": [26.5, -66.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [43.5, 145]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [43.5, -145]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [88.5, 44]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [88.5, -44]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 0,
+      "locations": [62.5, 118.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -0,
+      "locations": [62.5, -118.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        44.5, 94.5,
+        29, 95.5,
+        35.5, 99.5,
+        32.5, 99.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        28, -98,
+        44.5, -94.5,
+        32.5, -99.5,
+        35.5, -99.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    134, -1.5,
+    116, -7,
+    103.5, -31,
+    87.5, -57,
+    58.5, -129.5,
+    39.5, -154,
+    18.5, -181,
+    -15.5, -200.5,
+    -47.5, -84.5,
+    -18.5, -27,
+    -18.5, 27,
+    -47.5, 84.5,
+    -15.5, 200.5,
+    18.5, 181,
+    39.5, 154,
+    58.5, 129.5,
+    87.5, 57,
+    103.5, 31,
+    116, 7,
+    134, 1.5
+  ]
+}

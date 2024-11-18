@@ -1,0 +1,20 @@
+{
+	"id":"gundam_melee",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":1.0,
+	"hitGlowRadius":0,
+	"width":1.0,
+	"fadeTime":1,
+	"fringeColor":[0,0,0,0],
+	#"coreColor":[0,0,0,0],
+	"coreColor":[0,0,0,0],
+	"glowColor":[0,0,0,0],
+	"glowRadius":0,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/empty.png"
+}

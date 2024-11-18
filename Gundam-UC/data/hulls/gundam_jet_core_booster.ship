@@ -1,0 +1,76 @@
+{
+  "hullName": "Bst Jet Core Booster",
+  "hullId": "gundam_jet_core_booster",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/gundam_jet_core_booster.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 27,
+  "width": 25,
+  "center": [12.5, 13.5],
+  "collisionRadius": 18,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, -3.5],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-8.5, 3],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-8, -0.5],
+      "length": 12.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -9.5, -5.5,
+    -6.5, -13,
+    -3, -7,
+    1, -6.5,
+    2.5, -11.5,
+    5, -2.5,
+    13.5, -1.5,
+    13.5, 1.5,
+    5, 2.5,
+    2.5, 11.5,
+    1, 6.5,
+    -3, 7,
+    -6.5, 13,
+    -9.5, 5.5
+  ]
+}

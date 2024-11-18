@@ -1,0 +1,129 @@
+{
+  "hullName": "Mynah(LG)",
+  "hullId": "de_mynah_lg",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DE/ships/lg_mynah_new.png",
+  "style": "MIDLINE",
+  "height": 100,
+  "width": 46,
+  "center": [23, 40],
+  "collisionRadius": 96,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 79,
+  "viewOffset": 0,
+  "builtInMods": [
+    "andrada_mods",
+    "solar_shielding"
+  ],
+  "builtInWeapons": {
+    "WS0004": "de_flaregun",
+    "WS0005": "de_flaregun",
+    "WS0006": "de_flaregun",
+    "WS0007": "de_flaregun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [23, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 45,
+      "locations": [-10.5, 17.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -45,
+      "locations": [-10.5, -18.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 45,
+      "locations": [32.5, 14]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -45,
+      "locations": [32.5, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38.5, 0],
+      "length": 58.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26.5, 17.5],
+      "length": 24.4,
+      "width": 6.36,
+      "angle": 135,
+      "contrailSize": 6.36,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26.5, -17.5],
+      "length": 24.4,
+      "width": 6.36,
+      "angle": -135,
+      "contrailSize": 6.36,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-22.5, -20.5],
+      "length": 16.970562,
+      "width": 5.656854,
+      "angle": -135,
+      "contrailSize": 5.656854,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-22.5, 20.5],
+      "length": 16.970562,
+      "width": 5.656854,
+      "angle": 135,
+      "contrailSize": 5.656854,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -37.5, -7.5,
+    -22.5, -11.5,
+    -26.5, -16,
+    -19, -23.5,
+    0.5, -12.5,
+    9.5, -20,
+    59, -6,
+    59, 6,
+    9.5, 20,
+    0.5, 12.5,
+    -19, 23.5,
+    -26.5, 16,
+    -22.5, 11.5,
+    -37.5, 7.5
+  ]
+}

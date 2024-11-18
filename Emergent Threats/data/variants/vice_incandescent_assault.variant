@@ -1,0 +1,69 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 11,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_incandescent",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_pulse_resonator"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_incandescent_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "vice_hmc",
+                "WS 021": "vice_hmc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "cyclone",
+                "WS 019": "cyclone"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "annihilatorpod",
+                "WS 006": "annihilatorpod",
+                "WS 007": "annihilatorpod",
+                "WS 008": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "ionpulser",
+                "WS 004": "ionpulser",
+                "WS 009": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 002": "heavyburst",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 017": "guardian"
+            }
+        }
+    ]
+}

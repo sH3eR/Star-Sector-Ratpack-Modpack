@@ -1,0 +1,38 @@
+{
+	"id":"istl_alaudadash",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.istl_AlaudaDash",
+	
+	"engineGlowColor":[75,115,255,225],
+	"engineGlowContrailColor":[75,115,255,105],
+	"engineGlowLengthMult":1.2,
+	"engineGlowWidthMult":0.8,
+	"engineGlowGlowMult":1.2,
+	
+	"jitterColor":[75,115,255,75],
+	"jitterCopies":2,
+	"jitterRange":0.5,
+	"jitterRangeRadiusFraction":0.1,
+		
+	"jitterUnderColor":[75,115,255,225],
+	"jitterUnderCopies":16,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":5,
+	"jitterUnderRangeRadiusFraction":0,
+		
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+
+	"useSound":"istl_stutterwarp",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+		#"activeSpeedIncrease":0,
+		"burstMovementPotential":500,
+		"averageSpeedIncrease":150,
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"plugins":{
+		"DMEBlockedHullmodDisplayScript":"data.hullmods.DMEBlockedHullmodDisplayScript",
+		"DME_LightInjector":"data.scripts.plugins.istl_lightInjector",
+		#"DME_ModuleRetreat":"data.scripts.plugins.istl_ModuleRetreatCleaner",
+		#"DME_ProjectileTrailHandlerPlugin":"data.scripts.plugins.istl_ProjectileTrailHandlerPlugin",
+	},
+	
+	"designTypeColors":{
+		"Dassault-Mikoyan":[76,113,175,255],
+		"SNRI Labs":[96,133,200,255],
+		"Blade Breakers":[155,155,190,255],
+		"Deserter":[105,105,120,255],
+		"Sigma Tech":[75,255,175,255],
+		"DME Export":[240,160,40,255],
+		"DME Refit":[200,160,40,255],
+	},
+	
+	"graphics":{
+		"blueprint_packages":{
+			"istl_dmecivil_package":"graphics/ISTL/icons/cargo/istl_bp_civ.png",
+			"istl_dmecore_package":"graphics/ISTL/icons/cargo/istl_bp_core.png",
+			"istl_dmeadv_package":"graphics/ISTL/icons/cargo/istl_bp_adv.png",
+			"istl_dmeballistic_package":"graphics/ISTL/icons/cargo/istl_bp_bal.png",
+			"istl_dmeenergy_package":"graphics/ISTL/icons/cargo/istl_bp_eng.png",
+			"istl_dmemissile_package":"graphics/ISTL/icons/cargo/istl_bp_mis.png",
+			
+			"istl_bureau_package":"graphics/ISTL/icons/cargo/istl_bp_6eme.png",
+			"istl_deserter_package":"graphics/ISTL/icons/cargo/istl_bp_deserter.png",
+			"istl_bladewood_package":"graphics/ISTL/icons/cargo/istl_bp_bladewood.png",
+			"istl_sigmatech_package":"graphics/ISTL/icons/cargo/istl_bp_sigma.png",
+			"istl_dmerefit_package":"graphics/ISTL/icons/cargo/istl_bp_ref.png",
+		},
+		"industry":{
+			"istl_shield_texture":"graphics/ISTL/planets/istl_sigma_shield.png",
+			"istl_dysonshell":"graphics/ISTL/planets/istl_toposphere.png",
+			"istl_dysonshield":"graphics/ISTL/planets/istl_toposhield.png",
+		},
+		"campaignEntities":{
+			"istl_breaker_beacon":"graphics/ISTL/stations/istl_breakerbuoy00.png",
+			"istl_breaker_beacon_glow":"graphics/ISTL/stations/istl_breakerbuoy00glow.png",
+		},
+		"intel":{
+		"istl_hardenedbeacon_high":"graphics/ISTL/icons/intel/istl_hardenedbeacon_high.png",
+		"istl_hardenedbeacon_medium":"graphics/ISTL/icons/intel/istl_hardenedbeacon_medium.png",
+		"istl_hardenedbeacon_low":"graphics/ISTL/icons/intel/istl_hardenedbeacon_low.png",
+    	},
+		"characters":{
+			"DME_ari":"graphics/ISTL/portraits/characters/ariane.png",
+			"DME_niko":"graphics/ISTL/portraits/characters/niko.png",
+			"DME_emile":"graphics/ISTL/portraits/characters/emile.png",
+			"DME_maya":"graphics/ISTL/portraits/characters/maya.png",
+			"volta":"graphics/portraits/characters/volta.png",
+		},
+		"misc":{
+			"istl_blankring":"graphics/ISTL/planets/istl_blankring.png",
+		},
+		"terrain":{
+			"istl_nebula_sigma":"graphics/ISTL/terrain/istl_sigma_cloud.png",
+			"istl_nebula_sigma_glow":"graphics/ISTL/terrain/istl_sigma_cloud_glow.png",
+			"istl_nebula_sigma_map":"graphics/ISTL/terrain/istl_sigma_cloud_map.png",
+		},
+		"fx":{
+			"projectile_trail_standard":"graphics/ISTL/fx/istl_projectile_contrail.png",
+			"projectile_trail_fuzzy":"graphics/ISTL/fx/istl_projectile_contrail_fuzzy.png",
+			"projectile_trail_smooth":"graphics/ISTL/fx/istl_projectile_contrail_smooth.png",
+			#mine
+			"projectile_trail_arrow":"graphics/ISTL/fx/istl_projectile_contrail_arrow.png",
+			"projectile_trail_cel":"graphics/ISTL/fx/istl_projectile_contrail_cel.png",
+			"projectile_trail_helix":"graphics/ISTL/fx/istl_projectile_contrail_helix.png",
+			"projectile_trail_ring":"graphics/ISTL/fx/istl_projectile_contrail_ring.png",
+			"projectile_trail_electric":"graphics/ISTL/fx/istl_projectile_contrail_electric.png",
+			"projectile_trail_rail":"graphics/ISTL/fx/istl_projectile_contrail_electricrail.png",
+			"projectile_trail_jackal":"graphics/ISTL/fx/istl_projectile_contrail_jackal.png",
+		},
+		"ui":{
+            "istl_hullmod_incompatible":"graphics/ISTL/icons/tooltip/hullmod_incompatible.png",
+            "istl_hullmod_defense":"graphics/ISTL/icons/tooltip/istl_hullmod_defense.png",
+            "istl_hullmod_fighter":"graphics/ISTL/icons/tooltip/istl_hullmod_fighter.png",
+            "istl_hullmod_movement":"graphics/ISTL/icons/tooltip/istl_hullmod_movement.png",
+            "istl_hullmod_sensor":"graphics/ISTL/icons/tooltip/istl_hullmod_sensor.png",
+        },
+	}
+}

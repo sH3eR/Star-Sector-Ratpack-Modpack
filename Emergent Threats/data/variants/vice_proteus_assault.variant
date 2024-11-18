@@ -1,0 +1,63 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 42,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_proteus",
+    "hullMods": [
+        "magazines",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_proteus_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavymauler",
+                "WS 005": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "hydra",
+                "WS 001": "hydra"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "irautolance",
+                "WS 003": "irautolance",
+                "WS 006": "irautolance",
+                "WS 007": "irautolance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "heavymg",
+                "WS 009": "heavymg",
+                "WS 010": "heavymg",
+                "WS 014": "pdburst",
+                "WS 015": "pdburst",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "claw_wing",
+        "claw_wing",
+        "claw_wing",
+        "claw_wing"
+    ]
+}

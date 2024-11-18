@@ -1,0 +1,66 @@
+{
+  "bounds": [
+    0,
+    -11.5,
+    -3,
+    -9.5,
+    -3,
+    9.5,
+    0,
+    11.5,
+    7,
+    0
+  ],
+  "builtInMods": [
+    "istl_monobloc",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_micropd"
+  },
+  "center": [
+    12.5,
+    5
+  ],
+  "collisionRadius": 32,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [
+        -1.5,
+        0
+      ],
+      "style": "DMEFlare",
+      "width": 6
+    }
+  ],
+  "height": 13,
+  "hullId": "istlx_platedrone",
+  "hullName": "Plate",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    -12,
+    0.5
+  ],
+  "shieldRadius": 30,
+  "spriteName": "graphics/ISTL/ships/istl_platedrone.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        2.5,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 25
+}

@@ -1,0 +1,18 @@
+{
+	"id":"gundam_main_machine_bullet",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":70,
+	"width":3.5,
+	"hitGlowRadius":25,
+	"fadeTime":0.15,
+	#"fringeColor":[255,155,125,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[255,220,50,255],
+	"coreColor":[255,220,200,200],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/flechette_sml.png"
+}

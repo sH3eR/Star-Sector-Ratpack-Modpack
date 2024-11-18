@@ -1,0 +1,35 @@
+{
+  "displayName": "Heavy Interceptor Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "MSS_Tachi",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Tachi_interceptor",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fragbomb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "swarmer_fighter"
+      }
+    }
+  ],
+  "wings": []
+}

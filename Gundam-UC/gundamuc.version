@@ -1,0 +1,10 @@
+{
+    "masterVersionFile": "https://raw.githubusercontent.com/AustereUK/Gundam-UC/master/gundamuc.version",
+    "modName": "Gundam UC",
+    "modThreadId": 24162,
+    "modVersion": {
+        "major": 0,
+        "minor": 3,
+        "patch": 2
+    }
+}

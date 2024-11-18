@@ -1,0 +1,79 @@
+{
+  "bounds": [
+    -18.5,
+    -4.5,
+    -10.5,
+    -13,
+    8,
+    -11,
+    19.5,
+    -4.5,
+    19.5,
+    4.5,
+    8,
+    11,
+    -10.5,
+    13,
+    -18.5,
+    4.5
+  ],
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "center": [
+    14,
+    20.5
+  ],
+  "collisionRadius": 23,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -19.5,
+        3.5
+      ],
+      "style": "MayasuranFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -19.5,
+        -3.5
+      ],
+      "style": "MayasuranFlare",
+      "width": 10
+    }
+  ],
+  "height": 41,
+  "hullId": "MSS_Ferox",
+  "hullName": "Ferox",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 22.5,
+  "spriteName": "graphics/mayasura/ships/MSS_Ferox.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -9,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 28
+}

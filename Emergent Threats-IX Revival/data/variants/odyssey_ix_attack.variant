@@ -1,0 +1,64 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 8,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "odyssey_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_terminus_relay",
+        "ix_dawnstar_proton",
+        "ix_dawnstar_proton_handler"
+    ],
+    "modules": [{"SM 1": "odyssey_drone_bay_ix"}],
+    "permaMods": ["hiressensors"],
+    "sMods": [],
+    "variantId": "odyssey_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dawnstar_hcpb_ix",
+                "WS 005": "dawnstar_lcpb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS TORP": "vampyr_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_l_ix",
+                "WS 003": "orthrus_l_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "es_projector_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightbringer_ciws_ix",
+                "WS 007": "daythorn_mapb_ix",
+                "WS 008": "daythorn_mapb_ix",
+                "WS 009": "daythorn_mapb_ix",
+                "WS 010": "daythorn_mapb_ix",
+                "WS 011": "daythorn_mapb_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 014": "daythorn_mapb_ix"
+            }
+        }
+    ],
+    "wings": []
+}

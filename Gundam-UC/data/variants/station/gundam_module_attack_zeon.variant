@@ -1,0 +1,64 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "gundam_module_attack_zeon",
+    "hullMods": [always_detaches],
+    "permaMods": [],
+    "variantId": "gundam_module_attack_zeon_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_blaster_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "gundam_mega_3cannon",
+                "WS0003": "gundam_mega_3cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "gundam_mega_2cannon",
+                "WS0005": "gundam_mega_2cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "gundam_mega_3cannon_m",
+                "WS0007": "gundam_mega_3cannon_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "gundam_pd_2bc",
+				"WS0009": "gundam_pd_2bc",
+				"WS0010": "gundam_pd_2bc",
+				"WS0011": "gundam_pd_2bc"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "gundam_builtin_rear_spmissile",
+                "WS0013": "gundam_builtin_rear_spmissile"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_zaku_ii_rifle_wing",
+		"gundam_zaku_sniper_wing"
+    ]
+}

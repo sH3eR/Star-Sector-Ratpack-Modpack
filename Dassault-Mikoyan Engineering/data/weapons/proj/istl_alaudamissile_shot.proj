@@ -1,0 +1,48 @@
+{
+	"id":"istl_alaudamissile_shot",
+	"specClass":"missile",
+	"onHitEffect":"data.scripts.weapons.istl_VoleurOnHit",
+	"missileType":"MISSILE",
+	"sprite":"graphics/ISTL/missiles/istl_calliope_stage1.png",
+	"size":[9,20],	
+	"center":[4.5,10],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[70,100,225,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":50,
+					 "coreRadius":35, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":4.0,
+					 "particleSizeRange":2.0,
+					 "particleDuration":9.0,
+					 "particleCount":9,
+					 "particleColor":[115,145,255,255]},
+	"engineSpec":{"turnAcc":1800,
+				  "turnRate":360,
+				  "acc":9000,
+				  "dec":0.02},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-9, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[70,100,225,255],
+						"contrailDuration":0.24,
+						"contrailWidthMult":1.2,
+						"contrailWidthAddedFractionAtEnd":-0.6,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.1f,
+						"contrailAngularVelocityMult":-0.1f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[70,100,225,155],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":24.0,
+				    "angle":180.0}]
+}
+
+			

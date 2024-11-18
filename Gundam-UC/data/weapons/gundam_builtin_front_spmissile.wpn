@@ -1,0 +1,68 @@
+{
+  "id": "gundam_builtin_front_spmissile",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_builtin_front_spmissile_bullet",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "visualRecoil": 3,
+  "turretSprite": "graphics/weapons/gundam_builtin_front_spmissile_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/gundam_builtin_front_spmissile_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/gundam_builtin_front_spmissile_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/gundam_builtin_front_spmissile_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/gundam_builtin_front_spmissile_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/gundam_builtin_front_spmissile_hardpoint_recoil.png",
+  "glowColor": [
+    220,
+    230,
+    120,
+    255
+  ],
+  "turretOffsets": [
+    2.5,
+    0,
+    3.5,
+    3.5,
+    3.5,
+    -3.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    0,
+    9,
+    3.5,
+    9,
+    -3.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "renderHints":[RENDER_ADDITIVE],
+  "interruptibleBurst":false,
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1.5,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackSpread": 6,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "gundam_front_missile"
+}

@@ -1,0 +1,84 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 10,
+    "fluxVents": 50,
+    "hullId": "odyssey_ix",
+    "hullMods": [
+        "ix_antecedent",
+        "ix_reactive_combat_shields",
+        "ix_terminus_relay",
+        "ix_smod_handler",
+        "ix_dawnstar_controller",
+        "fluxdistributor",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "modules": [{"SM 1": "odyssey_drone_bay_ix"}],
+    "permaMods": [
+        "ix_antecedent",
+        "ix_reactive_combat_shields",
+        "ix_terminus_relay",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "ix_antecedent",
+        "ix_reactive_combat_shields",
+        "ix_terminus_relay"
+    ],
+    "variantId": "odyssey_ix_honor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "conversion_lance_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS TORP": "antecedent_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "bereaver_dem_launcher_ix",
+                "WS 003": "bereaver_dem_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "dawnstar_lcpb_ix",
+                "WS 005": "dawnstar_lcpb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "plasma_dart_ix",
+                "WS 012": "plasma_dart_ix",
+                "WS 013": "plasma_dart_ix",
+                "WS 014": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightbringer_ciws_ix",
+                "WS 007": "daythorn_mapb_ix",
+                "WS 008": "daythorn_mapb_ix",
+                "WS 009": "daythorn_mapb_ix",
+                "WS 010": "daythorn_mapb_ix",
+                "WS 015": "morningstar_ciws_ix",
+                "WS 016": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": []
+}

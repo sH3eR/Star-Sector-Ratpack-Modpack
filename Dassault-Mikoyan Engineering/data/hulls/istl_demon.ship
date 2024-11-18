@@ -1,0 +1,221 @@
+{
+  "bounds": [
+    37.5,
+    -18,
+    42,
+    -27.5,
+    10.5,
+    -36,
+    -1.5,
+    -23.5,
+    -16,
+    -23.5,
+    -31,
+    -32.5,
+    -45,
+    -27,
+    -45,
+    -23,
+    -39.5,
+    -20.5,
+    -52,
+    -17,
+    -52,
+    -10,
+    -43.5,
+    -4,
+    -43.5,
+    4,
+    -52,
+    10,
+    -52,
+    17,
+    -39.5,
+    20.5,
+    -45,
+    23,
+    -45,
+    27,
+    -31,
+    32.5,
+    -16,
+    23.5,
+    -1.5,
+    23.5,
+    10.5,
+    36,
+    42,
+    27.5,
+    37.5,
+    18
+  ],
+  "builtInMods": [
+    "istl_bbengineering",
+    "phasefield"
+  ],
+  "builtInWeapons": {
+    "WS0004": "istl_bbdecovent_sm"
+  },
+  "center": [
+    38,
+    54
+  ],
+  "collisionRadius": 72,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 48,
+      "location": [
+        -53,
+        13
+      ],
+      "style": "BBHTFlare",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 48,
+      "location": [
+        -53,
+        -13
+      ],
+      "style": "BBHTFlare",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 32,
+      "location": [
+        -46,
+        25
+      ],
+      "style": "BBHTFlare",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 32,
+      "location": [
+        -46,
+        -25
+      ],
+      "style": "BBHTFlare",
+      "width": 4
+    }
+  ],
+  "height": 98,
+  "hullId": "istl_demon",
+  "hullName": "Demon",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -5,
+    0
+  ],
+  "shieldRadius": 69,
+  "spriteName": "graphics/ISTL/ships/phase/istl_demon.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        33,
+        0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 45,
+      "arc": 150,
+      "id": "WS0002",
+      "locations": [
+        19,
+        21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 150,
+      "id": "WS0003",
+      "locations": [
+        19,
+        -21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -12,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 15,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        36,
+        18
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -15,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        36,
+        -18
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 75,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        17,
+        36
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -75,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        17,
+        -36
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 76
+}

@@ -1,0 +1,105 @@
+fieldID,fieldName,fieldType,defaultValue,fieldDescription,minValue,maxValue,tab
+,,,,,,,
+sun_rs_HEADER_STIPENDS,,Header,Stipends and Bounty Pay,,,,Money & XP
+sun_rs_galatianStipendDuration,Galatian Stipend Duration,Int,385,"How long the Galatian Academy will pay you at the start of each game, in days. In Vanilla, it is 1115.",0,10000,Money & XP
+sun_rs_galatianStipendPay,Galatian Stipend Pay,Int,1500,"How many credits the Galatian Academy will pay you per month at the start of each game. In Vanilla, it is 15,000.",0,1000000,Money & XP
+sun_rs_factionCommissionBountyMult,Commission Bounty Multiplier,Double,2,,0,10,Money & XP
+sun_rs_factionCommissionStipendBaseMult,Commission Stipend Base Pay Multiplier,Double,0.1,,0,10,Money & XP
+sun_rs_factionCommissionStipendPerLevelMult,Commission Stipend Pay Per Level Multiplier,Double,0.1,,0,10,Money & XP
+,,,,,,,
+sun_rs_HEADER_XP_OPTS,,Header,Expericence Gain,,,,Money & XP
+sun_rs_scaleXpGainBasedOnBattleDifficulty,Scale XP Gain Based on Battle Difficulty,Boolean,TRUE,"If true, xp gained in battls will be adjusted based on estimated difficulty.
+
+The XP Multiplier for each battle is calculated as follows:
+(enemyStrength / playerStrength - min) * mult, where:
+      enemyStrength = Total estimated strength of all enemy ships
+      playerStrength = Total estimated strength of ships you deploy
+      min = ""Minimum Difficulty to Earn XP"" setting
+      mult = ""XP Multiplier After Reduction"" setting",,,Money & XP
+sun_rs_minDifficultyToEarnXp,Minimum Difficulty to Earn XP,Double,0.5,,0,5,Money & XP
+sun_rs_xpMultiplierAfterReduction,XP Multiplier After Reduction,Double,3,,1,10,Money & XP
+sun_rs_disableVanillaDifficultyBonus,Disable Vanilla Difficulty Bonus,Boolean,TRUE,"The vanilla bonus stacks with the ruthless sector adjustment.
+Vanilla caclulates difficulty based on all of the ships in your fleet, while ruthless sector only considers the ones you deploy.",,,Money & XP
+sun_rs_loseProgressTowardNextLevelOnDeath,Lose Progress Toward Next Level On Death,Boolean,TRUE,"If true, you will lose any XP you have gained toward the next level, but will not lose any levels.",,,Money & XP
+,,,,,,,
+sun_rs_HEADER_PENALTY,,Header,Reload Penalty,,,,Money & XP
+sun_rs_DESC_PENALTY,,Text,These options allow you to control how much the XP from the next battle will be reduced each time you reload after engaging with a hostile fleet.,,,,Money & XP
+sun_rs_reloadPenaltyPerReload,Penalty Per Reload,Double,0.2,"A value of 0.1 means that each reload will reduce XP for the next battle by 10%%, while 0.5 would mean a 50%% reduction. Set to 0 to disable this feature.",0,1,Money & XP
+sun_rs_reloadPenaltyLimit,Penalty Limit,Double,0.8,,0,1,Money & XP
+sun_rs_reloadPenaltyReductionPerResolvedBattle,Reduction Per Resolved Battle,Double,1,,0,1,Money & XP
+sun_rs_reloadPenaltyReductionPerDay,Reduction Per Day,Double,0.02,,0,1,Money & XP
+,,,,,,,
+sun_rs_HEADER_STRENGTH_ENEMY,,Header,Enemy Ship Strength Estimation,,,,Money & XP
+sun_rs_STRENGTH_ENEMY,,Text,"Enemy Ship Strength  = fp * (1 + (fp - 5) / 25) * dModMult * sModMult * skillMult, where:
+       fp = Fleet points, a basic estimate of strength defined for every ship in data\hulls\ship_data.csv
+       dModMult = (1 - dModFactor) to the power of the number of D-Mods (permanent damage hullmods)
+       sModMult = (1 + sModFactor) to the power of the number of S-Mods (green ""built-in"" hullmods)
+       skillMult = (1 + skillFactor) to the power of the number of combat skills",,,,Money & XP
+sun_rs_dModFactorForEnemyShips,dModFactor,Double,0.1,,0,1,Money & XP
+sun_rs_sModFactorForEnemyShips,sModFactor,Double,0.1,,0,1,Money & XP
+sun_rs_skillFactorForEnemyShips,skillFactor,Double,0.1,,0,1,Money & XP
+,,,,,,,
+sun_rs_HEADER_STRENGTH_PLAYER,,Header,Player Ship Strength Estimation,,,,Money & XP
+sun_rs_STRENGTH_PLAYER,,Text,"Player Ship Strength = fp * (1 + (fp - 5) / 25) * dModMult * sModMult * skillMult * playerStrengthMult, where:
+       fp = Fleet points, a basic estimate of strength defined for every ship in data\hulls\ship_data.csv
+       dModMult = (1 - dModFactor) to the power of the number of D-Mods (permanent damage hullmods)
+       sModMult = (1 + sModFactor) to the power of the number of S-Mods (green ""built-in"" hullmods)
+       skillMult = (1 + skillFactor) to the power of the number of combat skills
+       playerStrengthMult = 1 + strengthIncreasePerPlayerLevel * playerLevel",,,,Money & XP
+sun_rs_dModFactorForPlayerShips,dModFactor,Double,0.1,,0,1,Money & XP
+sun_rs_sModFactorForPlayerShips,sModFactor,Double,0,,0,1,Money & XP
+sun_rs_skillFactorForPlayerShips,skillFactor,Double,0,,0,1,Money & XP
+sun_rs_strengthIncreasePerPlayerLevel,strengthIncreasePerPlayerLevel,Double,0.1,,0,1,Money & XP
+,,,,,,,
+sun_rs_HEADER_REMNANTS,,Header,Hyperspace Remnants,,,,Factions
+sun_rs_enableRemnantEncountersInHyperspace,Add Remnants to Hyperspace,Boolean,TRUE,"If true, you will occasionally run into remnant fleets in hyperspace.",,,Factions
+sun_rs_averageLightyearsBetweenRemnantEncounters,Average Lightyears Between Encounters,Int,16,,0,100,Factions
+sun_rs_maxHyperspaceRemnantStrength,Maximum Strength,Int,30,Roughly based on frigates-worth of power.,1,1000,Factions
+sun_rs_chanceOfAdditionalHyperspaceRemnantFleets,Chance of Additional Fleets,Double,0.4,,0,1,Factions
+sun_rs_maxHyperspaceRemnantFleetsToSpawnAtOnce,Maximum Fleets to Spawn at Once,Int,3,,1,10,Factions
+,,,,,,,
+sun_rs_HEADER_AUTOMATED,,Header,Automated Defense Bonuses,,,,Factions
+sun_rs_DESC_PENALTY,,Text,"These options allow you to buff the automated defenses that guard Domain artifacts, such as Domain Survey Probes.",,,,Factions
+sun_rs_rangeMultForAutomatedDefenses,Range Multiplier,Double,1.5,,0.1,10,Factions
+sun_rs_maxEcmRatingForAutomatedDefenses,Maximum ECM Rating Bonus,Int,25,,0,100,Factions
+sun_rs_flatEcmBonusForAutomatedDefenses,Flat ECM Rating Bonus,Int,15,,0,100,Factions
+,,,,,,,
+sun_rs_HEADER_REPUTATION,,Header,Reputation Decay,,,,Factions
+sun_rs_loseReputationForBeingFriendlyWithEnemies,Lose Rep for Being Friendly With Enemies,Boolean,TRUE,"If true, you may lose reputation with a random faction once per month due to having high reputation with one of their enemies.",,,Factions
+sun_rs_allowReputationLossEvenIfAlreadyNegative,Allow Rep Loss Even If Already Negative,Boolean,TRUE,,,,Factions
+sun_rs_maxRepLoss,Maximum Reputation Loss,Int,10,,1,100,Factions
+,,,,,,,
+sun_rs_HEADER_REP_GAIN,,Header,Reputation Gain,,,,Factions
+sun_rs_gainReputationForImpressiveVictories,Gain Reputation For Impressive Victories,Boolean,TRUE,"If true, reputation may be gained with a random faction for winning a difficult battle against one of their enemies.",,,Factions
+sun_rs_maxRepGain,Maximum Reputation Gain,Int,5,,1,100,Factions
+,,,,,,,
+sun_rs_HEADER_REP_OVERRIDE,,Header,Starting Reputation Overrides,,,,Factions
+sun_rs_enableStartingReputationOverrides,Enable Starting Reputation Overrides,Boolean,TRUE,"If true, faction relationships will be overriden at the beginning of each game, according to the settings below.",,,Factions
+sun_rs_startingReputationOverride,Starting Reputation Override,Int,-65,,-100,100,Factions
+sun_rs_overrideStartingFactionReputationAtStart,Override Reputation with Starting Faction,Boolean,FALSE,"Your starting faction is determined by the colony you are closest to at the start of the game, or your commission, if applicable.",,,Factions
+sun_rs_overrideIndependentsReputationAtStart,Override Reputation with Independents,Boolean,FALSE,,,,Factions
+sun_rs_overridePiratesReputationAtStart,Override Reputation with Pirates,Boolean,FALSE,,,,Factions
+sun_rs_percentOfOtherKnownFactionReputationsToOverrideAtStart,Percent of Other Faction Reputations to Override,Int,50,,,,Factions
+sun_rs_alignReputationOverridesWithStartingFaction,Align with Relations of Starting Faction,Boolean,TRUE,"If true, factions will be chosen semi-randomly in a way that aligns your reputation with your starting faction, instead of in a completely random way.",,,Factions
+sun_rs_maxAccessibilityLossFromHostility,Max Accessibility Loss from Faction Hostilities,Int,50,Set to 100 for the full penalty (as in vanilla). Set to 0 for no penalty.,0,500,Factions
+,,,,,,,
+sun_rs_HEADER_REP_CHANGE_RESTRICTIONS,,Header,Reputation Change Restrictions,,,,Factions
+sun_rs_restrictRepChangesToWhitelistedFactions,Only Adjust Reputations for Whitelisted Factions,Boolean,FALSE,Restricts all reputation changes made by this mod to factions that explicityly allow it. Blacklist will still apply. This only affects modded factions with an unknown preference.,,,Factions
+,,,,,,,
+sun_rs_HEADER_START_LOCATION,,Header,Starting Location and Faction,,,,Other
+sun_rs_DESC_START_LOCATION,,Text,"These options allow you to change the location of your fleet at the beginning of new games.
+They do not apply to games started with the tutorial or Nexerelin.",,,,Other
+sun_rs_nameOrIdOfStartingFaction,Name or ID of Starting Faction,String,,"If this matches a faction, you will start near one of their colonies.
+Vanilla faction IDs: independent, hegemony, tritachyon, sindrian_diktat, luddic_church, persean, luddic_path, pirates",,,Other
+sun_rs_randomizedStartingLocationAndFaction,Randomized Starting Location and Faction,Boolean,TRUE,Ignored if a starting faction is specified above.,,,Other
+,,,,,,,
+sun_rs_HEADER_NOTIFICATIONS,,Header,Notifications,,,,Other
+sun_rs_showBattleDifficultyNotification,Show Battle Difficulty Notifications,Boolean,TRUE,,,,Other
+sun_rs_showXpLossNotification,Show XP Loss Notifications,Boolean,TRUE,,,,Other
+sun_rs_overrideDangerIndicatorsToShowBattleDifficulty,Override Fleet Danger Indication Stars,Boolean,TRUE,,,,Other
+sun_rs_showBattleDifficultyStarsOnDeploymentScreen,Show Danger Stars on Deployment Screen,Boolean,TRUE,,,,Other
+,,,,,,,
+sun_rs_HEADER_LOOT,,Header,Battle Loot Adjustments,,,,Other
+sun_rs_lootedCreditsMultiplier,Credits Multiplier,Double,1,,0,10,Other
+sun_rs_lootedSalvageMultiplier,Salvage Multiplier,Double,1,,0,10,Other
+sun_rs_lootedSalvageFromRemnantsMultiplier,Salvage from Remnants Multiplier,Double,0.5,Does not affect AI core drop rate. Stacks with Salvage Multiplier setting.,0,10,Other

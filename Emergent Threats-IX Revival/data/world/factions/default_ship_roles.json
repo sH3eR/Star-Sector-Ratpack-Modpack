@@ -1,0 +1,167 @@
+{
+	"combatSmallForSmallFleet":{
+        "brawler_tw_attack":5,
+		"brawler_tw_cs":5,
+		
+		"casimir_ix_aux":2,
+		
+		"flourish_attack":5,
+		"flourish_cs":5,
+		"flourish_ix_attack":5,
+		"flourish_ix_cs":5,
+		"flourish_tw_attack":5,
+		"flourish_tw_cs":5,
+		
+		"temblor_ix_attack":4,
+		"temblor_ix_cs":4,
+		
+		"wolf_ix_attack":5,
+		"wolf_ix_cs":5,
+	},
+	"combatSmall":{
+        "brawler_tw_attack":5,
+		"brawler_tw_cs":5,
+		
+		"candor_ix_attack":4,
+		"candor_ix_cs":4,
+		"candor_tw_assault":5,
+		"candor_tw_escort":5,
+		
+		"flourish_attack":5,
+		"flourish_cs":5,		
+		"flourish_ix_attack":5,
+		"flourish_ix_cs":5,
+		"flourish_tw_attack":5,
+		"flourish_tw_cs":5,
+
+		"temblor_ix_attack":4,
+		"temblor_ix_cs":4,
+		
+		"wolf_ix_attack":5,
+		"wolf_ix_cs":5,		
+		
+		"hyperion_ix_custom":0,
+		"hyperion_ix_elite":3,
+		"hyperion_ix_honor":3,
+		"temblor_ix_custom":0,
+		"temblor_ix_honor":4,
+		
+		"casimir_ix_aux":2,
+	},
+	"combatMedium":{
+		"iris_ix_escort":2,
+		"iris_tw_escort":3,
+		
+		"mandrake_ix_attack":3,
+		"mandrake_ix_cs":4,
+		"mandrake_ix_strike":4,
+		
+		"medusa_ix_attack":5,
+		"medusa_ix_cs":5,
+		
+		"shrike_ix_attack":5,
+		"shrike_ix_cs":5,
+		"shrike_tw_beam":10,
+	},
+	"combatLarge":{
+		"aurora_ix_attack":10,
+		"aurora_ix_cs":10,
+		
+		"firebird_ix_assault":1,
+		"firebird_ix_escort":1,
+		
+		"firebird_tw_assault":4,
+		"firebird_tw_escort":4,
+		
+		"flamebreaker_tw_attack":4,
+		"flamebreaker_tw_cs":4,
+		
+		"fury_ix_attack":10,
+		"fury_ix_cs":10,
+		
+		"glycon_tw_artillery":3,
+		"glycon_tw_support":5,
+		
+		"tigershark_tw_artillery":5,
+		
+		"tigershark_ix_attack":2,
+		"tigershark_ix_missile":2,
+		"tigershark_ix_custom":0,
+		"tigershark_ix_honor":3,
+	},
+	"combatCapital":{
+		"aquilon_ix_attack":5,
+		"aquilon_ix_cs":5,
+		"aquilon_ix_strike":5,
+		"aquilon_tw_attack":5,
+		"aquilon_tw_cs":5,
+		
+		"equalizer_ix_attack":5,
+		"equalizer_ix_cs":5,
+		"equalizer_ix_strike":5,
+		"equalizer_tw_attack":5,
+		"equalizer_tw_cs":5,
+		
+		"ionos_tw_attack":7,
+		"ionos_tw_cs":7,
+
+		"intrepid_ix_attack":10,
+		"intrepid_ix_cs":10,
+		"intrepid_ix_strike":5,
+		"intrepid_tw_attack":8,
+		"intrepid_tw_cs":8,
+		
+		"odyssey_ix_attack":3,
+		"odyssey_ix_cs":3,
+		"odyssey_ix_custom":0,
+		"odyssey_ix_honor":3,
+		
+		"paragon_ix_attack":10,
+		"paragon_ix_cs":10,
+		"paragon_ix_strike":10,
+		"paragon_ix_custom":0,		#paragon_hg
+		"paragon_ix_honor":2,		#paragon_hg
+		"paragon_ix_custom_2":0,	#paragon_hg
+		"paragon_ix_honor_2":2,		#paragon_hg
+
+		"radiant_ix_custom":0,
+		"radiant_ix_honor":3,
+		"radiant_ix_custom_2":0,
+		"radiant_ix_honor_2":3,
+		
+		"radiant_tw_elite":2,
+		"radiant_tw_heavy":2,
+	},
+	"carrierSmall":{
+		"hetman_ix_aux":2,
+		
+		"iconoclast_ix_attack":5,
+		"iconoclast_ix_cs":5,
+		
+		"maquech_tw_drone":5,
+	},
+	"carrierMedium":{
+		"flamebreaker_ix_attack":5,
+		"flamebreaker_ix_cs":5,
+	},
+	"freighterSmall":{
+		"buffalo_ix_standard":3,
+		"buffalo_tw_standard":3,
+	},
+	"freighterMedium":{
+		"banteng_ix_standard":3,
+		"banteng_tw_standard":3,
+	},
+	"personnelSmall":{
+		"buffalo_ix_converted":3,
+		"buffalo_tw_converted":3,
+	},
+	"personnelMedium":{
+		"banteng_ix_converted":3,
+		"banteng_tw_converted":3,
+	},
+	"tankerMedium":{
+		"banteng_ix_standard":3,
+		"banteng_tw_standard":3,
+	},
+}

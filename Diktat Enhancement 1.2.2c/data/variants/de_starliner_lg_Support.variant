@@ -1,0 +1,35 @@
+{
+  "variantId": "de_starliner_lg_Support",
+  "hullId": "de_starliner_lg",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "hardenedshieldemitter",
+    "pointdefenseai",
+    "advancedshieldemitter",
+    "stabilizedshieldemitter",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "talon_wing"
+  ]
+}

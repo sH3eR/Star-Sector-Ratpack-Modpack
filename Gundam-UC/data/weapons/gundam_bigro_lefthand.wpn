@@ -1,0 +1,44 @@
+{
+  "id": "gundam_bigro_lefthand",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_yellow_small_laser",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/ma/bigro/gundam_bigro_lefthand_00.png",
+  "hardpointSprite": "graphics/ma/bigro/gundam_bigro_lefthand_00.png",
+  "turretOffsets": [
+    34,
+    36
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    70,
+    37
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 5,
+  "frameRate": 10,
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 20,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.75,
+    "particleCount": 20,
+    "particleColor": [
+      255,
+      220,
+      50,
+      175
+    ]
+  },
+  "fireSoundTwo": "gundam_bit_beam"
+}

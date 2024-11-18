@@ -1,0 +1,507 @@
+{
+    id: "gundam_efsf",
+    "color": [
+        253,
+        208,
+        0,
+        255
+    ],
+    "baseUIColor": [
+        77,
+        85,
+        140,
+        255
+    ],
+    "darkUIColor": [
+        32,
+        42,
+        111,
+        100
+    ],
+    "gridUIColor": [
+        32,
+        42,
+        111,
+        100
+    ],
+    "secondaryUIColor": [
+        32,
+        42,
+        111,
+        255
+    ],
+    "secondarySegments": 4,
+    "displayName": "EFSF",
+    "displayNameWithArticle": "the Earth Federation",
+    "displayNameLong": "Earth Federation Space Force",
+    "displayNameLongWithArticle": "the Earth Federation Force",
+    "personNamePrefixAOrAn": "a",
+    "displayNameIsOrAre": "is",
+    "logo": "graphics/factions/gundam_efsf_flag.png",
+    "crest": "graphics/factions/gundam_efsf_crest.png",
+    "shipNamePrefix": "EFSF",
+    "shipNameSources": {
+        "gundam": 1,
+    },
+    "names": {
+        "modern": 1,
+        "world": 1,
+        "future": 1,
+    },
+
+    # multiplier for how often hulls show up in the faction's fleets
+    "hullFrequency": {
+        "tags": {
+            "gundam_efsf_ship_bp": 1,
+        },
+        "hulls": {
+            "gundam_carry_base": 1,
+            "gundam_sts": 1,
+            "gundam_columbus": 1,
+            "gundam_columbus_beehive": 1,
+            "gundam_pizarro": 1,
+			"gundam_als": 1,
+            "gundam_lepanto": 1,
+            "gundam_salamis": 1,
+			"gundam_salamis_modified": 1,
+            "gundam_magellan": 0.5,
+            "gundam_pegasus": 0.1,
+			"gundam_spartan": 0.1,
+            "gundam_blanc_rival": 0.1,
+            "gundam_gray_phantom": 0.1,
+			"gundam_albion": 0.1,
+			"gundam_birmingham": 0.1,
+			
+            "gundam_gundam_rx78_2_pilot": 0.1,
+            "gundam_gundam_g3_pilot": 0.1,
+			"gundam_gundam_alex_pilot": 0.1,
+			"gundam_gundam_fa78_pilot": 0.1,
+			"gundam_gundam_gp01_pilot": 0.1,
+            "gundam_gundam_gp01_fb_pilot": 0.1,
+			"gundam_gundam_gp02_pilot": 0.1,
+			"gundam_gundam_gp03_pilot": 0.1,
+			"gundam_gundam_gp03_dendrobium_pilot": 0.1,
+        },
+    },
+
+    # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting": {
+        "tags": [
+            "base_bp",
+            "gundam_efsf_ship_bp"
+        ],
+        "hulls": [
+            "gundam_carry_base",
+            "gundam_sts",
+            "gundam_columbus",
+			"gundam_columbus_beehive",
+            "gundam_pizarro",
+			"gundam_als",
+            "gundam_lepanto",
+            "gundam_salamis",
+			"gundam_salamis_modified",
+            "gundam_magellan",
+            "gundam_pegasus",
+			"gundam_spartan",
+            "gundam_blanc_rival",
+            "gundam_gray_phantom",
+			"gundam_albion",
+            "gundam_birmingham",
+			
+            "gundam_gundam_rx78_2_pilot",
+            "gundam_gundam_g3_pilot",
+			"gundam_gundam_alex_pilot",
+			"gundam_gundam_fa78_pilot",
+            "gundam_gundam_gp01_pilot",
+            "gundam_gundam_gp01_fb_pilot",
+			"gundam_gundam_gp02_pilot",
+			"gundam_gundam_gp03_pilot",
+			"gundam_gundam_gp03_dendrobium_pilot",
+        ],
+    },
+    "knownShips": {
+        "tags": [
+            "gundam_efsf_ship_bp"
+        ],
+        "hulls": [
+            "gundam_carry_base",
+            "gundam_sts",
+            "gundam_columbus",
+			"gundam_columbus_beehive",
+            "gundam_pizarro",
+			"gundam_als",
+            "gundam_lepanto",
+            "gundam_salamis",
+			"gundam_salamis_modified",
+            "gundam_magellan",
+            "gundam_pegasus",
+			"gundam_spartan",
+            "gundam_blanc_rival",
+            "gundam_gray_phantom",
+			"gundam_albion",
+            "gundam_birmingham",
+			
+            "gundam_gundam_rx78_2_pilot",
+            "gundam_gundam_g3_pilot",
+			"gundam_gundam_alex_pilot",
+			"gundam_gundam_fa78_pilot",
+            "gundam_gundam_gp01_pilot",
+            "gundam_gundam_gp01_fb_pilot",
+			"gundam_gundam_gp02_pilot",
+			"gundam_gundam_gp03_pilot",
+			"gundam_gundam_gp03_dendrobium_pilot",
+        ],
+    },
+
+    # listing ships here will make the faction mostly use them even if other hulls become available
+    "priorityShips": {
+        "tags": [
+            "gundam_efsf_ship_bp"
+        ],
+        "hulls": [
+            "gundam_carry_base",
+            "gundam_sts",
+            "gundam_columbus",
+			"gundam_columbus_beehive",
+            "gundam_pizarro",
+			"gundam_als",
+            "gundam_lepanto",
+            "gundam_salamis",
+			"gundam_salamis_modified",
+            "gundam_magellan",
+            "gundam_pegasus",
+			"gundam_spartan",
+            "gundam_blanc_rival",
+            "gundam_gray_phantom",
+			"gundam_albion",
+            "gundam_birmingham",
+			
+            "gundam_gundam_rx78_2_pilot",
+            "gundam_gundam_g3_pilot",
+			"gundam_gundam_alex_pilot",
+			"gundam_gundam_fa78_pilot",
+            "gundam_gundam_gp01_pilot",
+            "gundam_gundam_gp01_fb_pilot",
+			"gundam_gundam_gp02_pilot",
+			"gundam_gundam_gp03_pilot",
+			"gundam_gundam_gp03_dendrobium_pilot",
+        ],
+    },
+    "knownFighters": {
+        "tags": [
+            "gundam_efsf_ms_bp"
+        ],
+        "fighters": [
+            "gundam_core_fighter_wing",
+            "gundam_jet_core_booster_wing",
+            "gundam_core_booster_wing",
+            "gundam_pablic_wing",
+            "gundam_ball_wing",
+            "gundam_ball_typek_wing",
+            "gundam_gm_early_wing",
+            "gundam_gm_wing",
+			"gundam_gm_thunderbolt_wing",
+            "gundam_gm_typec_wing",
+			"gundam_gm_cs_wing",
+			"gundam_gm_custom_wing",
+			"gundam_gm_powered_wing",
+			"gundam_gm_quel_wing",
+			"gundam_gm_cannon_wing",
+			"gundam_gm_cannon_ii_wing",
+			"gundam_gm_gundamhead_wing",
+            "gundam_gm_sniper_wing",
+			"gundam_gm_sniper_ii_wing",
+            "gundam_guncannon_wing",
+			"gundam_guncannon_massproduce_wing",
+            "gundam_guntank_wing",
+        ],
+    },
+    "priorityFighters": {
+        "tags": [
+            "gundam_efsf_ms_bp"
+        ],
+        "fighters": [
+            "gundam_core_fighter_wing",
+            "gundam_jet_core_booster_wing",
+            "gundam_core_booster_wing",
+            "gundam_pablic_wing",
+            "gundam_ball_wing",
+            "gundam_ball_typek_wing",
+            "gundam_gm_early_wing",
+            "gundam_gm_wing",
+			"gundam_gm_thunderbolt_wing",
+            "gundam_gm_typec_wing",
+			"gundam_gm_cs_wing",
+			"gundam_gm_custom_wing",
+			"gundam_gm_powered_wing",
+			"gundam_gm_quel_wing",
+			"gundam_gm_cannon_wing",
+			"gundam_gm_cannon_ii_wing",
+			"gundam_gm_gundamhead_wing",
+            "gundam_gm_sniper_wing",
+			"gundam_gm_sniper_ii_wing",
+            "gundam_guncannon_wing",
+			"gundam_guncannon_massproduce_wing",
+            "gundam_guntank_wing",
+        ],
+    },
+    "knownWeapons": {
+        "tags": [
+            "gundam_weapon_bp",
+            "base_bp",
+            "hightech_bp",
+            "missile_bp"
+        ],
+        "weapons": [
+            "gundam_pd_2mg",
+            "gundam_pd_2bc",
+            "gundam_antims_1cannon_pd_m",
+            "gundam_chaingun",
+            "gundam_2chaingun",
+            "gundam_2mega_particle_beam",
+            "gundam_mega_1cannon_m",
+            "gundam_mega_2bcannon_m_efsf",
+            "gundam_mega_3cannon_m",
+            "gundam_mega_2cannon",
+            "gundam_mega_3cannon",
+            "gundam_blaster_cannon",
+            "gundam_builtin_front_spmissile",
+            "gundam_builtin_rear_spmissile",
+            "gundam_builtin_rear_apmissile",
+            "gundam_builtin_rear_swamp_missile",
+			"gundam_builtin_rear_farspmissile",
+			"gundam_builtin_rear_flare",
+        ],
+    },
+    "priorityWeapons": {
+        "tags": [
+            "gundam_efsf_weapon_bp"
+        ],
+        "weapons": [
+            "gundam_pd_2mg",
+            "gundam_pd_2bc",
+            "gundam_antims_1cannon_pd_m",
+            "gundam_chaingun",
+            "gundam_2chaingun",
+            "gundam_2mega_particle_beam",
+            "gundam_mega_1cannon_m",
+            "gundam_mega_2bcannon_m_efsf",
+            "gundam_mega_3cannon_m",
+            "gundam_mega_2cannon",
+            "gundam_mega_3cannon",
+            "gundam_blaster_cannon",
+            "gundam_builtin_front_spmissile",
+            "gundam_builtin_rear_spmissile",
+            "gundam_builtin_rear_apmissile",
+            "gundam_builtin_rear_swamp_missile",
+			"gundam_builtin_rear_farspmissile",
+			"gundam_builtin_rear_flare",
+        ],
+    },
+    "knownHullMods": {
+        "tags": [
+            "base_bp",
+            "tritachyon"
+        ],
+        "hullMods": [
+            "converted_hangar",
+            "expanded_deck_crew",
+            "advancedshieldemitter",
+            "armoredweapons",
+            "augmentedengines",
+            "autorepair",
+            "auxiliarythrusters",
+            "blast_doors",
+            "eccm",
+            "magazines",
+            "missleracks",
+            "extendedshieldemitter",
+            "fluxcoil",
+            "fluxdistributor",
+            "hardenedshieldemitter",
+            "hardened_subsystems",
+            "heavyarmor",
+            "insulatedengine",
+            "pointdefenseai",
+            "targetingunit",
+            "adaptiveshields",
+            "reinforcedhull",
+            "fluxbreakers",
+            "stabilizedshieldemitter",
+            "unstable_injector",
+            "shielded_holds",
+            "recovery_shuttles",
+            "ecm",
+        ],
+    },
+    "factionDoctrine": {
+        "warships": 5,
+        "carriers": 5,
+        "phaseShips": 1,
+        "officerQuality": 3,
+        "shipQuality": 3,
+        "numShips": 5,
+        "shipSize": 5,
+        "aggression": 3,
+        "combatFreighterProbability": 0.2,     				# instead of some portion of the freighters in a fleet
+        "combatFreighterCombatUseFraction": 0.2,  				# as part of the normal combat lineup
+        "combatFreighterCombatUseFractionWhenPriority": 0.33,# as part of normal combat lineup, when marked as priority ship
+        "autofitRandomizeProbability": 0.1,
+        "commanderSkillsShuffleProbability": 0.5,
+        "commanderSkills": [
+            "coordinated_maneuvers",
+            "crew_training",
+            "electronic_warfare",
+            "fighter_uplink",
+            "carrier_group",
+            "flux_regulation",
+        ],
+    },
+    "illegalCommodities": [
+        "drugs",
+        "organs",
+        "ai_cores",
+    ],
+    "music": {
+        "theme": "music_efsf_theme",
+        "battle": "music_efsf_battle",
+        "market_neutral": "music_efsf_neutral",
+        "market_hostile": "music_efsf_hostile",
+        "market_friendly": "music_efsf_friendly",
+        "encounter_neutral": "music_efsf_neutral",
+        "encounter_hostile": "music_efsf_hostile",
+        "encounter_friendly": "music_efsf_friendly",
+    },
+    "internalComms": "gundam_efsf_internal",	
+
+    #"tariffFraction": 0.13,
+    #"tollFraction": 0,
+    #"fineFraction": 0.5,
+    "portraits": {
+        "standard_male": [
+            "graphics/portraits/gundam_efsf_portrait_m1.png",
+            "graphics/portraits/gundam_efsf_portrait_m2.png",
+            "graphics/portraits/gundam_efsf_portrait_m3.png",
+            "graphics/portraits/gundam_efsf_portrait_m4.png",
+            "graphics/portraits/gundam_efsf_portrait_m5.png",
+            "graphics/portraits/gundam_efsf_portrait_m6.png",
+        ],
+        "standard_female": [
+            "graphics/portraits/gundam_efsf_portrait_f1.png",
+            "graphics/portraits/gundam_efsf_portrait_f2.png",
+            "graphics/portraits/gundam_efsf_portrait_f3.png",
+            "graphics/portraits/gundam_efsf_portrait_f4.png",
+            "graphics/portraits/gundam_efsf_portrait_f5.png",
+        ],
+    },
+    "ranks": {
+        "ranks": {
+            "spaceSailor": {
+                "name": "Crewman",
+            },
+            "spaceChief": {
+                "name": "Chief Petty Officer",
+            },
+            "spaceEnsign": {
+                "name": "Ensign",
+            },
+            "spaceLieutenant": {
+                "name": "Lieutenant",
+            },
+            "spaceCommander": {
+                "name": "Commander",
+            },
+            "spaceCaptain": {
+                "name": "Captain",
+            },
+            "spaceAdmiral": {
+                "name": "Rear Admiral",
+            },
+            "spaceMarshal": {
+                "name": "Vice Admiral",
+            },
+            "factionLeader": {
+                "name": "Admiral",
+            },
+        },
+        "posts": {
+            "patrolCommander": {
+                "name": "Patrol Lieutenant",
+            },
+            "fleetCommander": {
+                "name": "Fleet Commander",
+            },
+            "baseCommander": {
+                "name": "Base Commander",
+            },
+            "stationCommander": {
+                "name": "Station Commander",
+            },
+            "outpostCommander": {
+                "name": "Outpost Commander",
+            },
+            "portmaster": {
+                "name": "Port Officer",
+            },
+            "supplyOfficer": {
+                "name": "Quartermaster",
+            },
+            "supplyManager": {
+                "name": "Supply Officer",
+            },
+            "medicalSupplier": {
+                "name": "Medic Officer",
+            },
+            "administrator": {
+                "name": "Administrator",
+            },
+            "factionLeader": {
+                "name": "Admiral",
+            },
+        },
+    },
+    "voices": {
+        "LOW": {
+            "soldier": 10,
+            "faithful": 5,
+            "spacer": 5,
+        },
+        "MEDIUM": {
+            "soldier": 10,
+            "official": 5,
+        },
+        "HIGH": {
+            "soldier": 5,
+            "official": 10,
+            "aristo": 3,
+        },
+    },
+    "custom": {
+        "offersCommissions": true,
+        "engagesInHostilities": true,
+        "buysAICores": true,
+        "AICoreValueMult": 2,
+        "AICoreRepMult": 3,
+        "buysSurveyData": false,
+        "hostilityImpactOnGrowth": true,
+        "caresAboutAtrocities": false,
+        "punitiveExpeditionData": {
+            "vsCompetitors": true,
+            "vsFreePort": false,
+            "canBombard": true,
+            "territorial": true,
+        },
+    },
+    "fleetTypeNames": {
+        "trade": "Supply Convoy",
+        "tradeLiner": "Supply Liner",
+        "tradeSmuggler": "Operative",
+        "smallTrader": "Distribution Convoy",
+        "patrolSmall": "Patrol Division",
+        "patrolMedium": "Border Squadron",
+        "patrolLarge": "Amphibious Group",
+        "inspectionFleet": "Oversight Fleet",
+        "taskForce": "Invasion Battle Group",
+        "foodReliefFleet": "Relief Convoy",
+    },
+}

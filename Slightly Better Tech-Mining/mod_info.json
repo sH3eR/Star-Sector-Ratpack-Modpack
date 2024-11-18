@@ -1,0 +1,15 @@
+{
+    "id": "SBTM",
+    "name": " Slightly Better Tech-Mining",
+    "author": "Yunru",
+    "version": "2023-10-22b",
+    "description": "Makes Tech-Mining not suck.",
+    "gameVersion": "0.97a-11",
+	"jars":["jars/SBTM.jar"],
+	"dependencies": [
+		{
+			"id": "lunalib",
+			"name": "LunaLib",
+		}
+    ]
+}

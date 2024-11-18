@@ -1,0 +1,188 @@
+{
+  "hullName": "Garuda",
+  "hullId": "MSS_Garuda",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mayasura/ships/MSS_Garuda.png",
+  "style": "MIDLINE",
+  "height": 294,
+  "width": 152,
+  "center": [76, 147],
+  "collisionRadius": 177,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 177,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [70, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -35,
+      "locations": [70, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [79, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [49, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [19, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-98, 44]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-98, -44]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [120, 30]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [120, -30]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [122, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -23, 52,
+        -21, 49,
+        -18, 46.5,
+        -13, 43.5,
+        -10.5, 40.5,
+        -8.5, 39.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -8.5, -39.5,
+        -10.5, -41,
+        -12.5, -43.5,
+        -19, -46.5,
+        -21, -48.5,
+        -23, -51
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-141, 22.5],
+      "length": 90,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-141, -22.5],
+      "length": 90,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -118, -11,
+    -140, -16.5,
+    -142, -42.5,
+    -38, -64.5,
+    -23.5, -64.5,
+    -11, -56,
+    27.5, -55,
+    32.5, -49.5,
+    34, -38.5,
+    62.5, -33,
+    66, -38.5,
+    74, -39.5,
+    81, -33,
+    87, -48,
+    134, -37,
+    134, 37,
+    87, 48,
+    81, 33,
+    74, 39.5,
+    66, 38.5,
+    62.5, 33,
+    34, 38.5,
+    32.5, 49.5,
+    27.5, 55,
+    -11, 56,
+    -23.5, 64.5,
+    -38, 64.5,
+    -142, 42.5,
+    -140, 16.5,
+    -118, 11
+  ]
+}

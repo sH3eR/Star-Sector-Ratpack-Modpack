@@ -1,0 +1,78 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 15,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "gundam_papua",
+  "hullMods": [
+    "expanded_deck_crew",
+	"recovery_shuttles"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_papua_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0003": "dualflak",
+                "WS0004": "dualflak"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "gundam_builtin_front_spmissile",
+                "WS0008": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "gundam_builtin_rear_swamp_missile",
+				"WS0010": "gundam_builtin_rear_swamp_missile"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0011": "gundam_builtin_rear_farspmissile",
+                "WS0012": "gundam_builtin_rear_farspmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0013": "gundam_pd_2bc",
+				"WS0014": "gundam_pd_2bc",
+                "WS0015": "gundam_pd_2bc",
+				"WS0016": "gundam_pd_2bc",
+				"WS0017": "gundam_pd_2bc",
+				"WS0018": "gundam_pd_2bc",
+				"WS0019": "gundam_pd_2bc",
+				"WS0020": "gundam_pd_2bc",
+				"WS0021": "gundam_pd_2bc",
+				"WS0022": "gundam_pd_2bc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_zaku_i_wing",
+		"gundam_gattle_wing",
+		"gundam_rick_dom_wing"
+    ]
+}

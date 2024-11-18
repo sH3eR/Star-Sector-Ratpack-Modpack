@@ -1,0 +1,9 @@
+{
+	"ranks":{
+		"vice_smuggler":{"name":"Smuggler Contact"},
+	},
+	"posts":{
+		"vice_AI":{"name":"Artificial Intelligence"},
+		"executive_officer_xo_andrada": {"name":"Executive Officer (Andradanism)"},"executive_officer_xo_synthesis": {"name":"Executive Officer (Synthesis)"},
+	},
+}

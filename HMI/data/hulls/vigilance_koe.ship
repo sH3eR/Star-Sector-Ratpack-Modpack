@@ -1,0 +1,89 @@
+{
+  "hullName": "Vigilance (KoE)",
+  "hullId": "vigilance_koe",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/vigilance/vigilance_knightsofeva.png",
+  "style": "HIGH_TECH",
+  "height": 101,
+  "width": 63,
+  "center": [33, 46],
+  "collisionRadius": 80,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 80,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_scatter_amp",
+    "safetyoverrides"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 60,
+      "locations": [13, 14]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [41, -13]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 30,
+      "locations": [-20, 21]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -30,
+      "locations": [-20, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, 1],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-45, 11],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-45, -8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    17, 27,
+    42, 9,
+    40, -24,
+    -41, -13,
+    -41, 13
+  ]
+}

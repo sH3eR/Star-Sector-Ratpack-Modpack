@@ -1,0 +1,34 @@
+{
+  "starSystem": "andor",
+  "markets": [
+    {
+      "entities": [
+        "ryzan_supercomplex"
+      ],
+      "faction": "sindrian_diktat",
+      "size": 6,
+      "startingConditions": [
+        "no_atmosphere",
+        "hot",
+        "volatiles_plentiful",
+        "population_6",
+        "urbanized_polity",
+        "frontier"
+      ],
+      "industries": [
+        "population",
+        "megaport",
+        "heavybatteries",
+        "starfortress",
+        "waystation",
+        "mining",
+        "refining",
+        "highcommand",
+        "fuelprod"
+      ]
+    }
+  ]
+}
+
+
+

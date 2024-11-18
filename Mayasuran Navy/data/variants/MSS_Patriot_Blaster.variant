@@ -1,0 +1,57 @@
+{
+  "displayName": "Blaster",
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "goalVariant": true,
+  "hullId": "MSS_Patriot",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Patriot_Blaster",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyblaster",
+        "WS0002": "heavyblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "sabot",
+        "WS0011": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "amblaster",
+        "WS0012": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ioncannon",
+        "WS0008": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0009": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

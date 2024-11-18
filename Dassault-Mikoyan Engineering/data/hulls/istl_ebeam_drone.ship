@@ -1,0 +1,92 @@
+{
+  "bounds": [
+    10,
+    -5,
+    18.5,
+    -8,
+    -4.5,
+    -11.5,
+    -15.5,
+    -5.5,
+    -15.5,
+    5.5,
+    -4.5,
+    11.5,
+    18.5,
+    8,
+    10,
+    5,
+    15.5,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_drone_electronbeam"
+  },
+  "center": [
+    13,
+    19
+  ],
+  "collisionRadius": 38,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 17.5,
+      "location": [
+        -16,
+        -0
+      ],
+      "style": "BBHTFlare",
+      "width": 6
+    },
+    {
+      "angle": 168,
+      "contrailSize": 3,
+      "length": 7.5,
+      "location": [
+        -10,
+        9
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    },
+    {
+      "angle": -168,
+      "contrailSize": 3,
+      "length": 7.5,
+      "location": [
+        -10,
+        -9
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    }
+  ],
+  "height": 40,
+  "hullId": "istl_ebeam_drone",
+  "hullName": "Beam Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 36,
+  "spriteName": "graphics/ISTL/ships/istl_ebeam_drone.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        6,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 26
+}

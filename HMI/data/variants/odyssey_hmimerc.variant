@@ -1,0 +1,71 @@
+{
+  "variantId": "odyssey_hmimerc",
+  "hullId": "odyssey",
+  "displayName": "Coherer",
+  "goalVariant": false,
+  "fluxCapacitors": 18,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [
+    "coherer",
+	"advancedshieldemitter",
+    "damaged_deck",
+    "faulty_grid",
+    "comp_structure",
+  ],
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "plasma",
+        "WS 003": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "pdburst",
+        "WS 014": "pdburst",
+        "WS 017": "pdburst",
+        "WS 018": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "irpulse",
+        "WS 010": "irpulse",
+        "WS 011": "irpulse",
+        "WS 013": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "pilum",
+        "WS 005": "pilum",
+        "WS 006": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sarissa_wing",
+    "sarissa_wing"
+  ]
+}

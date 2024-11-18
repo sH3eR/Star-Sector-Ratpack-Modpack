@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+#Luddic Shrine,bc_luddicfaith,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LuddicFaith,$market holds a shrine established under the guidance of the Church of Galactic Redemption.,graphics/icons/markets/luddic_majority.png,142

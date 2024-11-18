@@ -1,0 +1,39 @@
+{
+  "displayName": "Limited Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_guncannon",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_guncannon_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "L_CANNON": "gundam_guncannon_cannon",
+        "R_CANNON": "gundam_guncannon_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	    "HAND": "gundam_guncannon_hand",
+        "HEAD": "gundam_guncannon_head",
+        "GUN": "gundam_guncannon_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_LEG": "gundam_guncannon_leg"
+      }
+    }
+  ],
+  "wings": []
+}

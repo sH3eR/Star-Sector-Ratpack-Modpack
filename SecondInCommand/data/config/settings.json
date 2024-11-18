@@ -1,0 +1,31 @@
+ {
+	 
+	 "plugins":{		
+		#"SCSkillPanelReplacerTitle":"second_in_command.scripts.SkillPanelReplacerScriptTitlescreen",
+		"SCCombatHandler":"second_in_command.scripts.CombatHandler",
+	},	
+	
+	
+	"ruleCommandPackages":[
+		"second_in_command.interactions.rules",
+	],
+
+
+	#Boosted Elites
+	"officerMaxEliteSkills":2,
+	 
+	#Essentially Disable vanilla admiral skills if not added manualy. 
+	#An additional script removes any vanilla skills if they still appear somehow
+	"commanderLevelForTwoSkills":99,
+	"commanderLevelForOneSkill":98,
+	 
+	"graphics":{
+		"sc_ui":{
+			"skillBorderInactive":"graphics/secondInCommand/skillBorderInactive.png",
+			"skillBorderActive":"graphics/secondInCommand/skillBorderActive.png",
+			"no_officer":"graphics/secondInCommand/no_officer.png",
+			"seperator":"graphics/secondInCommand/seperator.png",
+			"arrow":"graphics/secondInCommand/arrow.png",
+		},
+ 	}
+ }

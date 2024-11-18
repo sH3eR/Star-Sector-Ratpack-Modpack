@@ -1,0 +1,227 @@
+{
+  "hullName": "Rhea",
+  "hullId": "MSS_Rhea",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mayasura/ships/MSS_Rhea.png",
+  "style": "MIDLINE",
+  "height": 344,
+  "width": 208,
+  "center": [104, 132.5],
+  "collisionRadius": 233.5,
+  "shieldCenter": [36.5, -0],
+  "shieldRadius": 196.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [44.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -130,
+      "locations": [-75.5, -45]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 130,
+      "locations": [-75.5, 45]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-76.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0.5, 53]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [0.5, -53]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 50,
+      "locations": [167.5, 18]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -50,
+      "locations": [167.5, -18]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [120.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [191.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [79.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 50,
+      "locations": [143.5, 27]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -50,
+      "locations": [143.5, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-125.5, 7],
+      "length": 90,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-125.5, -7],
+      "length": 90,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-127.5, 28],
+      "length": 60,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-127.5, -28],
+      "length": 60,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-127.5, 35],
+      "length": 60,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-127.5, -35],
+      "length": 60,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -126.5, -41,
+    -119.5, -46.5,
+    -111, -46,
+    -104.5, -51.5,
+    -46, -56,
+    -39.5, -70,
+    -18, -70.5,
+    -5, -63,
+    8.5, -40,
+    13, -50,
+    39, -50,
+    64.5, -41,
+    74, -36,
+    83.5, -41.5,
+    114.5, -41.5,
+    121.5, -49,
+    156, -41,
+    191, -27,
+    202.5, -14,
+    199, -8.5,
+    199, 8.5,
+    202.5, 14,
+    191, 27,
+    156, 41,
+    121.5, 49,
+    114.5, 41.5,
+    83.5, 41.5,
+    74, 36,
+    64.5, 41,
+    39, 50,
+    13, 50,
+    8.5, 40,
+    -5, 63,
+    -18, 70.5,
+    -39.5, 70,
+    -46, 56,
+    -104.5, 51.5,
+    -111, 46,
+    -119.5, 46.5,
+    -126.5, 41,
+    -124.5, 17,
+    -124.5, -17
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gundam_guncannon_massproduce_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_main_machine_bullet",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "",
+  "turretGunSprite": "graphics/ms/guncannon_massproduce/gundam_guncannon_massproduce_gun_recoil.png",
+  "hardpointSprite": "",
+  "hardpointGunSprite": "graphics/ms/guncannon_massproduce/gundam_guncannon_massproduce_gun_recoil.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    22.5,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    22.5,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 15,
+    "spread": 20,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.75,
+    "particleCount": 20,
+    "particleColor": [
+      200,
+      100,
+      50,
+      200
+    ]
+  },
+  "fireSoundTwo": "gundam_machine_gun"
+}

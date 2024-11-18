@@ -1,0 +1,38 @@
+{
+	"id":"istl_AMM",
+	"specClass":"missile",
+	"onHitEffect":"data.scripts.weapons.istl_AMMOnHit",
+	"missileType":"MISSILE",
+	"sprite":"graphics/ISTL/missiles/istl_AMM.png",
+	"size":[5,10],	
+	"center":[2.5,5],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,175,125,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":20, # purely visual
+	"engineSpec":{"turnAcc":1080,
+				  "turnRate":480,
+				  "acc":3000,
+				  "dec":150},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-3.5, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,175,125,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":3,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[255,150,100,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":2.5,
+				    "length":15.0,
+				    "angle":180.0},
+				    ]
+}

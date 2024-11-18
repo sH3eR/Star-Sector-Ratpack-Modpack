@@ -1,0 +1,107 @@
+{
+  "hullName": "Campaigner Transport",
+  "hullId": "dom+campaigner",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Cruisers/Campaigner Transport.png",
+  "style": "LOW_TECH",
+  "height": 234,
+  "width": 130,
+  "center": [65, 117],
+  "collisionRadius": 142,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 129.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "civgrade",
+    "rugged",
+    "solar_shielding",
+    "tow_cable",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": 45,
+      "locations": [101.5, 32.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": -90,
+      "locations": [-50.5, -57.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": 90,
+      "locations": [-50.5, 58.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": -131,
+      "locations": [-94.5, -55]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": 131,
+      "locations": [-94, 55.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": -45,
+      "locations": [102, -33.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-16, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-116.5, -0.5],
+      "length": 40,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    116, 31,
+    87.5, 61.5,
+    -98, 60.5,
+    -115, 9,
+    -115, -9,
+    -98, -60.5,
+    87.5, -61.5,
+    116, -31
+  ]
+}

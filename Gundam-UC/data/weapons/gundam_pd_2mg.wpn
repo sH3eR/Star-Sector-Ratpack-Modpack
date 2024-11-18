@@ -1,0 +1,56 @@
+{
+  "id": "gundam_pd_2mg",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_light_machine_gun_bullet",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/gundam_pd_2mg_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/gundam_pd_2mg_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/gundam_pd_2mg_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/gundam_pd_2mg_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/gundam_pd_2mg_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/gundam_pd_2mg_hardpoint_recoil.png",
+  "glowColor":[255,255,255,255],
+  "visualRecoil": 2,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    12,
+    -3,
+    12,
+    3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    18,
+    -2.5,
+    18,
+    2.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 10,
+    "particleSizeMin": 3,
+    "particleSizeRange": 5,
+    "particleDuration": 0.5,
+    "particleCount": 7,
+    "particleColor": [
+      200,
+      220,
+      50,
+      150
+    ]
+  },
+  "fireSoundTwo": "gundam_pd_2mg"
+}

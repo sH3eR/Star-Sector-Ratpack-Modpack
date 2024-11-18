@@ -1,0 +1,24 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "istl_bbpdmodule",
+    "hullMods": [
+        "ecm",
+        "fluxbreakers",
+        "armoredweapons",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_bbpdmodule_std",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "istl_proxbomb_ciws",
+            "WS0002": "istl_thermalpd",
+            "WS0003": "istl_thermalpd"
+        }
+    }]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gundam_gm_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_purple_laser",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "",
+  "turretGunSprite": "graphics/ms/gm/gundam_gm_gun_recoil.png",
+  "hardpointSprite": "",
+  "hardpointGunSprite": "graphics/ms/gm/gundam_gm_gun_recoil.png",
+  "glowColor": [
+    194,
+    152,
+    207,
+    255
+  ],
+  "visualRecoil": 3,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    20,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    24.5,
+    3.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 20,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.75,
+    "particleCount": 20,
+    "particleColor": [
+      219,
+      113,
+      223,
+      255
+    ]
+  },
+  "fireSoundTwo": "gundam_gm_beam"
+}

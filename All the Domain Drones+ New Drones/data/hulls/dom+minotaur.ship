@@ -1,0 +1,222 @@
+{
+  "hullName": "Osiron Minotaur",
+  "hullId": "dom+minotaur",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Cruisers/Osiron Minotaur.png",
+  "style": "LOW_TECH",
+  "height": 221,
+  "width": 187,
+  "center": [91.5, 134],
+  "collisionRadius": 124,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 115.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm",
+    "repair_gantry",
+    "rugged",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": -92.5,
+      "locations": [0, -53.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": 92.5,
+      "locations": [1, 50.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-17, -51.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-18.5, 48.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -90,
+      "locations": [34, -61.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -90,
+      "locations": [48, -62]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 90,
+      "locations": [36, 55.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 90,
+      "locations": [50, 55.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": -59,
+      "locations": [4, -28.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": 59,
+      "locations": [4, 22]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": 140,
+      "locations": [-41, 30.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": -140,
+      "locations": [-41, -33.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        22, -5.5,
+        21.5, 8,
+        23, -17
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -54.5, -1.5,
+        -53.5, -18,
+        -53.5, 13
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73.5, -56.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, -36],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, 35],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73, 55.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78.5, 10],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78.5, -12],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -79, 44,
+    -66.5, 71,
+    -33.5, 73,
+    20, 74.5,
+    58, 69.5,
+    69.5, 49,
+    69.5, 23,
+    62.5, 18.5,
+    84, -25.5,
+    70.5, -33.5,
+    66, -69,
+    55, -81,
+    -64, -76,
+    -80, -43.5
+  ]
+}

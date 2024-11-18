@@ -1,0 +1,38 @@
+{
+	"baseHullId":"istl_sevastopol",
+	"skinHullId":"istl_sevastopol_mk1",
+	"hullName":"Sevastopol Mk.1",
+	"descriptionId":"istl_sevastopol",
+	"descriptionPrefix":"An older model that has been kept flying by any means necessary. Proprietary or high-maintenance systems have been swapped for cheaper, more readily available components.",
+	"tech":"DME Refit",
+	"tags":["dmerefit_bp"],
+    "ordnancePoints":40,
+    "baseValueMult":0.8,	
+    "removeHints":[CIVILIAN],
+	"spriteName":"graphics/ISTL/ships/istl_sevastopol_mk1.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["istl_monobloc", "civgrade"], 		# hullmod ids
+	"removeBuiltInWeapons":["WS0001", "WS0002"], 		# weapon slot ids
+	"systemId":"istl_heavyburn",
+	"weaponSlotChanges":{
+    },
+	"builtInMods":["istl_refurbframe", "converted_hangar"],
+	"builtInWeapons":{
+    	"WS0001": "istl_buzzgun",
+    	"WS0002": "istl_buzzgun",
+    },
+	"engineSlotChanges":{
+		"0":{
+			#"width": 0,
+          	#"length": 210,
+          	#"angle": 210,
+          	"style": "LOW_TECH",
+		},
+		"1":{"style":"LOW_TECH"},
+		"2":{"style":"LOW_TECH"},
+		"3":{"style":"LOW_TECH"},
+		"4":{"style":"LOW_TECH"},
+		"5":{"style":"LOW_TECH"},
+	},
+}

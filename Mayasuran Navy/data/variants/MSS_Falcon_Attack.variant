@@ -1,0 +1,51 @@
+{
+  "displayName": "Attack",
+  "fluxCapacitors": 9,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "MSS_Falcon_Elite",
+  "hullMods": [
+    "targetingunit",
+    "unstable_injector"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "MSS_Falcon_Attack",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "heavymg",
+        "WS 008": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "heatseeker",
+        "WS 002": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "pulselaser",
+        "WS 006": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "pdlaser",
+        "WS 004": "pdlaser",
+        "WS 009": "pdlaser",
+        "WS 010": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

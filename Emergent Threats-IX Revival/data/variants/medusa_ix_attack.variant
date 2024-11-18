@@ -1,0 +1,50 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 3,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "medusa_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_controller",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "medusa_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "dawnstar_lcpb_ix",
+                "WS 007": "dawnstar_lcpb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "spatial_charge_launcher_ix",
+                "WS 009": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "plasma_dart_ix",
+                "WS 003": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "morningstar_ciws_ix"}
+        }
+    ]
+}

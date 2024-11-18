@@ -1,0 +1,57 @@
+{
+	"bettercolonies":{
+		#"LuddicFaith1":"Pilgrimages are made to this shrine, contributing %s to this market's income.", # the %s is credits
+		#"LuddicFaith1b":"Pilgrimages are made to this shrine by many Luddic sects.", #used for non-player since they don't show income anyway
+		#"LuddicFaith2":"%s stability (based on Church reputation)", # +3 stability (based on Church reputation)
+		#"LuddicFaith2b":"Relaxed local port authorities has created distrust as questionable characters and unregulated cargo flows in.", #having free port on disables stability and pop growth bonus
+		#"LuddicFaith3":"%s population growth (based on colony size and Church reputation)", # +1 population growth (based on colony size and Church reputation)
+		#"LuddicFaith4":"A %s garrison have been assigned to patrol %s.", # A Knight of Ludd garrison has been assigned to patrol $marketname
+		#"LuddicFaith4b":"Knight of Ludd", #
+		#"LuddicFaith5":"The shrine of %s has been defiled by the servants of Moloch.", # The shrine of $marketname has been defiled by the servants of Moloch.
+		#"LuddicFaith5b":"%s has fallen out of grace with the Church.", # $marketname has fallen out of grace with the Church.
+		#"LuddicFaith6":"%s ground defenses (based on Church reputation)", # -15% ground defenses (based on Church reputation)
+		#"LuddicFaith7":"%s Pather intrigue", # -7 Pather intrigue
+		#"LuddicFaith7b":"Whether pollution or a free port, something has caused the shrine to fail to deter the Path.", # When polluted or free port, the shrine will stop reducing pather intrigue.
+		#"LuddicFaith8":"Luddic shrine",
+		#"LuddicFaith9":"Luddic unrest",
+		#"LuddicFaith10":"With the Church of Galactic Redemption no longer active, the shrine is essentially defunct.",
+		
+		"Sleeper":"Personality: %s, level: %s", #Personality: Reckless, level: 1
+		
+		"SPTitle":"Age of Innovation - %s", #• Age of Innovation - Month Year
+		"SPDescription":"• %s has improved %s!", #• $marketname has improved $industryname!
+		"SPNotificationReminder":"Not all modded factions will support the Age of Innovation. You have BCIgnoreFactionWhiteflag set to false! You can request your faction mod author to whitelist this feature or enable the flag in setting.json of this mod folder!",
+		
+		"Techmine1":"Crew & machinery: required (available)", #option to tech-strip
+		"Techmine2":"Marines: required (available)", #used to fight decivilization subpopulation when tech-stripping
+		
+		#"LuddicPatrol1":"patroling ", #patroling $name
+		#"LuddicPatrol2":"standing down",
+		
+		"TechMining1":"Requires ruins",
+		"TechMining2":"In addition to extracting basic resources, there's also a chance to find blueprints and other rare items. Anything found will be delivered to the designated production gathering point.",
+		"TechMining3":"The vast ruins here offer incredible potential for valuable finds.",
+		"TechMining4":"The extensive ruins here offer the opportunity for valuable finds.",
+		"TechMining5":"The widespread ruins here offer a solid chance of finding something valuable, given time.",
+		"TechMining6":"The scattered ruins here offer only a slight chance of finding something valuable, though one never knows what might be located given enough time.",
+		"TechMining7":"These ruins are largely untapped.",
+		"TechMining8":"These ruins have been stripped of easy pickings, but the more difficult areas remain, filled with promise.",
+		"TechMining9":"These ruins have been combed through, though the chance for a few new finds still remains.",
+		"TechMining10":"These ruins have been comprehensively combed over multiple times, and there is little chance of a new valuable find.",
+		"TechMining11":"%s%% of salvage in ruins still remains.", # 90% of salvage in ruins still remain
+		"TechMining12":"Around %s%% of salvage will remain for recovery at the beginning of the next month.", #around 85.5% of salvage will remain for recovery
+		"TechMining13":"Alpha core",
+		"TechMining14":"Alpha-level AI core currently assigned. ", #space intentional
+		"TechMining15":"Alpha-level AI core. ", #space intentional
+		"TechMining16":"Reduces upkeep cost by %s. Reduces demand by %s unit. Increases finds by %s.",
+		"TechMining17":"Finds increased by %s.",
+		"TechMining18":"Increases finds by %s.",
+		
+		#"LuddicContactTitle":"Donated Ship",
+		#"LuddicContactTitle2":"Luddic Redemption",
+		
+		#"Text":"This option will forcefully remove the Luddic Shrine and will bring resistance. The repercussions will be many. Your subordinates only await your final confirmation.",
+		#"Yes":"Yes",
+		#"Nevermind":"Never mind",
+	},
+}

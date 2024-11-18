@@ -1,0 +1,54 @@
+{
+    "displayName": "Lion's Mane",
+    "fluxCapacitors": 8,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "eagle",
+    "hullMods": ["targetingunit"],
+    "permaMods": ["solar_shielding"],
+    "sMods": [],
+    "variantId": "eagle_LMane",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "hveldriver",
+                "WS 008": "hveldriver",
+                "WS 013": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "harpoon",
+                "WS 002": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "gravitonbeam",
+                "WS 006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 012": "pdburst"
+            }
+        }
+    ]
+}

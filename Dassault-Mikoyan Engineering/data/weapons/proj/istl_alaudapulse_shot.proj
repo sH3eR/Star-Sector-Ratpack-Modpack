@@ -1,0 +1,17 @@
+{
+	"id":"istl_alaudapulse_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.AutolaserSmallSparks",
+	"hitGlowRadius":15,
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":60.0,
+	"width":6.0,
+	"fadeTime":0.1,
+	"fringeColor":[5,135,175,255],
+	"coreColor":[200,225,255,255],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-48.0,
+	"pixelsPerTexel":1.0,
+}

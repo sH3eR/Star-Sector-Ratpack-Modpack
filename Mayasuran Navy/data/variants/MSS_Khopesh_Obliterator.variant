@@ -1,0 +1,21 @@
+{
+  "displayName": "Rocket Bomber",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "MSS_Khopesh",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Khopesh_Obliterator",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "MSS_obliterator_fighter"
+      }
+    }
+  ],
+  "wings": []
+}

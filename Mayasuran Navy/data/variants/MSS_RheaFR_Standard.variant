@@ -1,0 +1,14 @@
+{
+  "variantId": "MSS_RheaFR_Standard",
+  "hullId": "MSS_RheaFR",
+  "displayName": "Armor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

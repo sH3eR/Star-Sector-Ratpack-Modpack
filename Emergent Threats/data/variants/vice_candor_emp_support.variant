@@ -1,0 +1,36 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "vice_candor_emp",
+    "hullMods": [
+        "vice_module_handler",
+        "hardenedshieldemitter",
+        "pointdefenseai",
+        "stabilizedshieldemitter",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "modules": [{"SM 1": "vice_emp_module"}],
+    "permaMods": ["vice_module_handler"],
+    "sMods": [],
+    "variantId": "vice_candor_emp_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "gravitonbeam",
+                "WS 002": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst"
+            }
+        }
+    ]
+}

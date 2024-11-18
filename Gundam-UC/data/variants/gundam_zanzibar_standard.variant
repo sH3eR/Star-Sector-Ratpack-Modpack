@@ -1,0 +1,80 @@
+{
+  "displayName": "Limited",
+  "fluxCapacitors": 5,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "gundam_zanzibar",
+  "hullMods": [
+    "autorepair",
+    "fluxcoil",
+	"hardenedshieldemitter",
+	"fluxdistributor",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_zanzibar_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_2cannon",
+				"WS0002": "gundam_mega_2cannon",
+				"WS0003": "gundam_mega_2cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "gundam_mega_2bcannon_m"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "gundam_builtin_front_spmissile",
+                "WS0006": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "gundam_builtin_rear_swamp_missile",
+                "WS0008": "gundam_builtin_rear_swamp_missile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0009": "gundam_pd_2bc",
+				"WS0010": "gundam_pd_2bc",
+				"WS0011": "gundam_pd_2bc",
+                "WS0012": "gundam_pd_2bc",
+				"WS0013": "gundam_pd_2bc",
+				"WS0014": "gundam_pd_2bc",
+                "WS0015": "gundam_pd_2bc",
+				"WS0016": "gundam_pd_2bc",
+				"WS0017": "gundam_pd_2bc",
+				"WS0018": "gundam_pd_2bc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_zaku_ii_wing",
+		"gundam_rick_dom_wing"
+    ]
+}

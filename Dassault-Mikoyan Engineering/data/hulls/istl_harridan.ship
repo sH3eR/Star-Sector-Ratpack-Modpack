@@ -1,0 +1,152 @@
+{
+  "bounds": [
+    17.5,
+    -3.5,
+    8,
+    -4,
+    3,
+    -10,
+    -6.5,
+    -13.5,
+    -12.5,
+    -7.5,
+    -6,
+    -2.5,
+    -18.5,
+    -0,
+    -6,
+    2.5,
+    -12.5,
+    7.5,
+    -6.5,
+    13.5,
+    3,
+    10,
+    8,
+    4,
+    17.5,
+    3.5,
+    22.5,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_ammftr",
+    "WS0002": "istl_ammftr",
+    "WS0003": "istl_magdisruptor",
+    "WS0004": "istl_multipdnode"
+  },
+  "center": [
+    16,
+    20
+  ],
+  "collisionRadius": 24,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 24,
+      "location": [
+        -13,
+        6
+      ],
+      "style": "DMESuperFlare",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 24,
+      "location": [
+        -13,
+        -6
+      ],
+      "style": "DMESuperFlare",
+      "width": 7
+    },
+    {
+      "angle": 157.5,
+      "contrailSize": 128,
+      "length": 13.5,
+      "location": [
+        -10,
+        10.5
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    },
+    {
+      "angle": -157.5,
+      "contrailSize": 128,
+      "length": 13.5,
+      "location": [
+        -10,
+        -10.5
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    }
+  ],
+  "height": 44,
+  "hullId": "istl_harridan",
+  "hullName": "Harridan",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 26,
+  "spriteName": "graphics/ISTL/ships/istl_harridan.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 60,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        2,
+        8
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -60,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        2,
+        -8
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 150,
+      "id": "WS0003",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 32
+}

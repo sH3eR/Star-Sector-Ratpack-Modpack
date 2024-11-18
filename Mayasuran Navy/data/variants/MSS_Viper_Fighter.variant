@@ -1,0 +1,25 @@
+{
+  "variantId": "MSS_Viper_Fighter",
+  "hullId": "MSS_Viper",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "irpulse_fighter",
+        "WS0002": "irpulse_fighter",
+        "WS0003": "irpulse_fighter",
+        "WS0004": "irpulse_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

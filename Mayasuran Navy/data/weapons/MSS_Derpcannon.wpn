@@ -1,0 +1,51 @@
+{
+  "id": "MSS_Derpcannon",
+  "specClass": "projectile",
+  "projectileSpecId": "MSS_derpcannon_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/mayasura/weapons/derpcannon/MSS_Derpcannon_T.png",
+  "turretGlowSprite": "graphics/mayasura/weapons/derpcannon/MSS_Derpcannon_T_glow.png",
+  "hardpointSprite": "graphics/mayasura/weapons/derpcannon/MSS_Derpcannon.png",
+  "hardpointGlowSprite": "graphics/mayasura/weapons/derpcannon/MSS_Derpcannon_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    29,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    43,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "fireSoundTwo":"MSS_Charged_UV_Pulse_Cannon_Fire",
+  "fireSoundOne":"MSS_Charged_UV_Pulse_Cannon_Charge",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      249,
+      255,
+      255,
+      255
+    ]
+  },
+  "textureType": ROUGH
+}

@@ -1,0 +1,130 @@
+{
+  "bounds": [
+    14.5,
+    -5,
+    5,
+    -16.5,
+    3.5,
+    -10,
+    -16,
+    -19,
+    -14,
+    -13,
+    -18,
+    -8,
+    -12,
+    -0,
+    -18,
+    8,
+    -14,
+    13,
+    -16,
+    19,
+    3.5,
+    10,
+    5,
+    16.5,
+    14.5,
+    5,
+    22.5,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_perforator_ftr",
+    "WS0002": "istl_perforator_ftr",
+    "WS0003": "istl_linearvulcan"
+  },
+  "center": [
+    22,
+    22
+  ],
+  "collisionRadius": 30,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 32,
+      "location": [
+        -15,
+        -0
+      ],
+      "style": "DMESuperFlare",
+      "width": 10
+    }
+  ],
+  "height": 48,
+  "hullId": "istl_damselfly",
+  "hullName": "Damselfly",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 32,
+  "spriteName": "graphics/ISTL/ships/istl_damselfly.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 1,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        11.5,
+        10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -1,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        11.5,
+        -10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 150,
+      "id": "WS0003",
+      "locations": [
+        2,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 160,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        -14,
+        9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -160,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        -14,
+        -9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 44
+}

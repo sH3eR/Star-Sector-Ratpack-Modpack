@@ -1,0 +1,311 @@
+{
+#Feature controls
+#for changes from this file, a restart or F8 in dev mode is required.
+#copy file contents and insert into bcomSettings.json to use
+#combat map features
+	"mapFeature":true, #Disabling will cause vanilla asteroids to appear.
+    	"deploymentFeature":true,
+    	"afterDeploymentFeature":true,
+    	"combatCameraZoomFeature":true,#overwrites settings.json
+    	"sightFeature":true, #how far ships can see into the fog of war
+    	"asteroidFeature":true, #refers to the starting asteroids. Restart not required
+	"flyinAsteroidFeature":true, #refers to asteroids flying into the map. Restart not
+	"asteroidSplittingFeature":true,
+
+#weapon features
+    	"weaponRangeFeature":true,
+    	"weaponRangeThresholdFeature":true, #refers to weapon range changes by things like safety overrides. Will multiply the range the range dropoff starts
+	"projectileCoastFeature":false, #increases how long projectiles take to fade out but not weapon range
+    	"projectileSpeedFeature":false,
+    	"recoilFeature":true,
+    	"weaponDamageFeature":true, #effects all missiles, beams, projectiles, submunitions. Will not include special effects
+    	"beamDamageDropoffFeature":false,
+    	"instantBeamFeature":false,
+	"missileRangeFeature":true,
+    	"missileSpeedFeature":true,
+    	"submunitionFeature":true, #for sabots, MIRV, etc
+    	"fighterRangeFeature":true,
+    	"fighterSpeedBoostFeature":true,
+    	
+#ship features
+    	"shipSpeedFeature":false,
+    	"shipAccelerationFeature":true,
+	"shipDefenceFeature":true,
+	"shipShieldAndPhaseFeature":true,
+	"shipFluxFeature":true,
+	"opFeature":false,
+	"shipExplosionFeature":false,
+	"shipBreakFeature":true,
+	"shipFragmentSpeedFeature":true,
+    	"shipBoundsFeature":false,
+	"autofireAccuracyFeature":true,
+	"phaseConstantsFeature":false,
+	"pptFeature":true, #peak performance time
+	"crReductionOnDamageFeature":true,
+	"retreatAtLowCrFeature":false,
+	"noFluxBurnSystemsFeature":true, #modifies certain systems to not give flux, such as burn drive, causing it to not disable ZFSB when active, meaning that you don't have to hold forward to go back to top speed, unfortunately, this does not work on the orion device
+	"zeroFluxBoostFeature":true,
+	
+#misc features
+	"arbitrarySettingFeature":true,#overwrites settings.json
+	"customValuesFeature":true,#allows modification of many values based on particular ship or weapon
+	
+#Value controls
+
+#combat map features
+    #mapFeature. This is the same as realistic combat
+    	"mapSizeFactor":3,#Factor by which to multiply the length and width of the combat map
+    	"mapSizeFactorNoObjectives":3,#Factor to multiply the map size when there are no objectaves.
+    	"standOffFactorWithObjectives":0.75,#Factor by which to multiply the standoff between fleets on a combat map having objectives
+	"standOffFactorWithoutObjectives":0.75,#Factor by which to multiply fleet standoff on a combat map lacking objectives
+	
+    #deploymentFeature
+	"deploymentXDist":1000, #how far away the ships will deploy from each other
+	"deploymentYDist":-1000,
+	"deploymentSpaceUsed":0.05, #amount of the space that is taken up by the deployment zone
+	"initialDeploymentYOffset":2000,
+	"deploymentYOffset":0,
+	
+    #afterDeploymentFeature
+    	"slowdownAfterDeploymentAmount":0.85, # factor speed is reduced by each second after travel drive shuts off
+    	"slowdownAfterDeploymentTime":0.0, #set to 0 to disable
+	"deploymentImmunityTime":2.0, # makes ships take zero hull and armor damage when they are deploying. set to 0 to disable. Time is measured after travel drive shuts off
+    #combatCameraZoomFeature
+	"combatCameraMaxZoom":4,
+	
+    #sightFeature
+	"sightMult":3.0,
+	
+    #asteroidFeature
+    	#also used by flyin asteroid feature
+    	"useAdditionalAsteroidSprites":true, # uses asteroids.csv to load more asteroid sprites
+    	"asteroidScaleFactor":3,#serves as the ceiling
+    	"asteroidMinimumSizeFactor":0.5,#serves as the floor
+    	"asteroidDensity":0.000000004, #in square map units per asteroid.
+    	"forceAsteroids":false, #forces there to be asteroids when there should be none on the map
+    	"maxAsteroids":1500,
+    	"asteroidMassFactor":7.5,
+    	"asteroidHpFactor":200,#in map units radius per HP
+    	"asteroidHpExponentFactor":1.1, #exponent of asteroid size, also in map units radius per HP
+    	"asteroidsMoveWithFlyinAsteroids":false,
+
+    #flyinAsteroidFeature
+    	"flyinAstoidNumberMultiplier":0.4,     #in asteroids/second average per border size of a 10,000 map size
+    	"flyinAsteroidSpeedMultiplier":0.2,
+    	"asteroidRandomMovementFactor":0.2,#based on speed. Should be less than 1
+	"numNearbyAsteroidsForMaxSpawn":0,#asteroids within 300 units of player fleet
+	"asteroidSizeSlowdownFactor":10,#multiplied with the asteroid size.
+
+    #asteroidSplittingFeature
+	"asteroidSplittingMinSize":0.0, #size is not in ordinary units. It is turning radius of the asteroid into a size multiplier
+	"asteroidSplittingMaxSize":0.01,
+	"asteroidSplittingMinNumber":0.01,#also not in ordinary units.
+	"asteroidSplittingMaxNumber":0.5,
+	"asteroidSplittingMax":20, # maximum number of fragments
+	"asteroidSplittingMinSpeed":1,
+	"asteroidSplittingMaxSpeed":500,
+
+#weapon features
+    #weaponRangeFeature
+	"weaponRangeExponent":1,#calculated in the order they appear. For all non-missile weapons
+	"weaponRangeMultiplier":2,
+	"weaponRangeAddition":0,
+	
+    #weaponRangeThresholdFeature
+	"weaponRangeThresholdMult":2,
+
+    #projectileCoastFeature
+    	"ballisticCoastMultiplier":1,
+    	
+    #projectileSpeedFeature
+	"projectileSpeedMult":1,
+	
+    #recoilFeature
+	"spreadBuildupMult":1,
+	"spreadDecayMult":1,
+	"maxSpreadMult":1,
+	
+    #weaponDamageFeature
+    	"weaponDamageMult":1, #effects all missiles, beams, projectiles, submunitions. Will not include special effects
+    	
+    #beamDamageDropoffFeature
+	"beamDropoffOffset":0.0, #proportion of the beam that no dropoff happens
+	"beamDropoffExp":1, #calculated before mult. Higher number is a steeper dropoff
+	"beamDropoffMult":1.0, #1 means if offset is 0 then it will be at 0 damage at max range, if lower, the beam will not reach zero. If dropoff is 0.5 then it needs to be 2 to get to zero damage at max range
+	
+    #missileRangeFeature
+    	"missileRangeMultiplier":3,
+    	
+    #missileSpeedFeature
+	"missileSpeedMult":1.3, #this does effect the range, giving the missile effectively more range
+	"missileAccelerationMult":1.0,
+	"missileDecelerationMult":2.0,
+	"missileTurnAccelerationMult":1.0,
+	"missileMaxTurnRateMult":1.3,
+	
+    #submunitionFeature
+	"submunitionSplitRangeMult":1.0,
+	"submunitionSplitRangeRangeMult":2.0, #only for projectiles. Missiles use the missile modification
+	"submunitionSpeedMult":1.0,
+	"submunitionSpreadSpeedMult":1.0,
+	"submunitionProjectileRangeMult":2.0,
+	"submunitionArcMult":0.5,
+	
+    #fighterRangeFeature
+    	"fighterRangeMultiplier":4,
+
+    #fighterSpeedBoostFeature
+        "fighterTargetSpeed":600,
+    	"fighterSpeedBoostFactor":0.75, #moves the fighter speed to target value. 0.5 means the final speed will be the average between the base and target speed
+    	
+#ship features
+    #shipSpeedFeature
+        "shipTargetSpeed":600,
+	"shipSpeedFactor":0.5,#moves the ship speed to target value. 0.5 means the final speed will be the average between the base and target speed
+
+    #shipAccelerationFeature
+    	"shipAccelerationMultiplier":0.5,
+    	"shipAccelerationAddition":0,
+    	"shipDecelerationMultiplier":1.2,
+    	"shipDecelerationAddition":0,
+    	"turnAccelerationMult":1,
+    	"turnAccelerationAddition":0,
+    	"maxTurnRateMult":1,
+    	"maxTurnRateAddition":0,
+    	
+    #shipDefenceFeature
+	"armorMult":1,
+	"armorAddition":0,
+	"shipHpMult":1,
+	"shipHpAddition":0,
+	
+    #shipShieldAndPhaseFeature
+	"shieldUpkeepMult":1,
+	"shieldUpkeepAddition":0,
+	"shieldEfficiencyMult":1,
+	"shieldEfficiencyAddition":0,
+	"shieldArcMult":1,
+	"shieldArcAddition":0,
+	"shieldRadiusMult":1,
+	"shieldRadiusAddition":0,
+	"phaseCostMult":1,
+	"phaseCostAddition":0,
+	"phaseUpkeepMult":1,
+	"phaseUpkeepAddition":0,
+	
+    #phaseConstantsFeature
+	"phaseMinimumSlowdown":0.33,  #default is 0.33
+	"phaseFluxLevelForMinSpeed":0.5, #default is 0.5
+	"PhaseTimeMult":3, #default is 3
+	
+    #shipFluxFeature
+    	"fluxCapacityMult":1,
+	"fluxCapacityAddition":0,
+	"fluxDissipationMult":1,
+	"fluxDissipationAddition":0,
+
+    #opFeature
+	"shipOpMult":1,
+	"shipOpAddition":0,
+	
+    #shipExplosionFeature
+    	"explosionNegatedByReducedExplosionHullmod":true,
+    	"explosionRadiusMult":1,
+    	"explosionDamageMult":1,
+    	
+    #shipBreakFeature
+    	"breakProbabilityMult":1.0,
+    	"minPiecesMult":1.0,
+    	"minPiecesAddition":0,
+    	"maxPiecesMult":1.0,
+    	"maxPiecesAddition":0,
+    	"piecesLimit":10000,
+    	
+    #shipFragmentSpeedFeature
+    	"shipFragmentMaxSpeedFactor":600,
+    	"shipFragmentMinSpeedFactor":200,
+    	"shipFragmentSlowdownByMass":0.001,
+    	
+    #shipBoundsFeature
+	"shipBoundsMultiplier":1.5,	
+	
+    #autofireAccuracyFeature
+	"autofireAccuracy":5,
+	
+    #pptFeature 
+        "pptMult":1,
+        "pptAddition":0,
+        "crDecayMult":1,
+        
+    #crReductionOnDamageFeature
+	"crOffset":0.2, #fraction of hull that needs to go down before CR damage
+	"pptPerHullDamage":500,#ppt takes damage before CR. Seconds of PPT per hull proportion
+	"crReduction":1.75, #CR per hull proportion
+
+    #retreatAtLowCrFeature
+    	"crRetreatReckless":0.1,
+    	"crRetreatAggressive":0.2,
+    	"crRetreatSteady":0.3,
+    	"crRetreatCautious":0.4,
+    	"crRetreatTimid":0.5,
+	
+    #zeroFluxBoostFeature
+    	"zeroFluxBoostSpeedLimit":350,
+    	"zeroFluxBoostFeatureFixDeploy":false, #this fixes deployment yeeting the ships at max
+    	"zeroFluxMinimumSpeed":0, #The minimum zero flux speed boost if the limit is set below the zero flux speed of ships.
+    	"zeroFluxSpeedBoostMinimumFlux":0, #normally at 0. This increases the minimum flux needed for ZFSB. 1 = max flux
+
+    
+#misc features	
+    #arbitrarySettingFeature
+	#this replaces the settings in settings.json. The perpose of this is to make and share settings, rather than sending two files.
+	#requires the following values in the object inside the array
+	#key is the value in settings.json
+	#type is one of int, double, boolean
+	#value is the value
+	"arbitrarySetting":[
+    	{"key":"maxArmorDamageReduction", "type":"double","value":0.9},
+    	{"key":"minArmorFraction", "type":"double","value":0.7},
+    	{"key":"dpsToHitStrengthMult", "type":"double","value":0.5},
+	],
+	
+    #customValuesFeature
+        
+        #reference sheet
+    
+    	#weapon sizes
+	#SMALL
+	#MEDIUM
+	#LARGE
+	
+	#weapon types
+	#BALLISTIC
+	#ENERGY
+	#MISSILE
+	#UNIVERSAL
+	#HYBRID
+	#SYNERGY
+	#COMPOSITE
+	
+	#hull sizes
+	#FIGHTER
+	#FRIGATE
+	#DESTROYER
+	#CRUISER
+	#CAPITAL_SHIP
+	
+    #this WILL NOT turn features on for you. i.e. if one of these settings modifies range, and range is disabled above, this will not modify the range.
+    #search within group is always OR, across groups is always AND
+    #for example, "BALLISTIC", "ENERGY" will match either balistic or energy, but "SMALL", ... , "BALLISTIC" will match only for small ballistic weapons
+    #all values are floats. Settings that are int will be truncated.
+    #weapons and ships in the same object isn't a problem because the effects are only applicable to either ships or weapons
+    "customValues":[
+    ],
+    
+    
+    
+	#Currently unused
+	"ringAsteroidNumber":5,
+	"ringAsteroidSpeed":0.3,
+    	"asteroidCollisionFactor":1,
+}

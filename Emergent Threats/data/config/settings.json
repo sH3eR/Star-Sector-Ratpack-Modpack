@@ -1,0 +1,35 @@
+{
+	"designTypeColors":{
+        "Sindrian Diktat":[180,0,120,255],
+	},
+	"graphics":{
+		"blueprint_packages":{
+			"vice_ex_bp":"graphics/factions/custom/player_logo05_flag.png",
+			"LG_bp_package":"graphics/factions/sindrian_diktat.png",
+        },
+		"vice_ships":{
+			"resplendent_adaptive_flight_command":"graphics/vice/ships/hidden/resplendent_adaptive_flight_command.png",
+			"resplendent_adaptive_gravity_drive":"graphics/vice/ships/hidden/resplendent_adaptive_gravity_drive.png",
+			"resplendent_base":"graphics/vice/ships/hidden/resplendent.png",
+			
+			"equalizer_ex":"graphics/vice/ships/ex/equalizer_ex.png",
+			"equalizer_ex_classic":"graphics/vice/ships/ex/classic/equalizer_ex.png",
+			"flamebreaker_ex":"graphics/vice/ships/ex/flamebreaker_ex.png",
+			"flamebreaker_ex_classic":"graphics/vice/ships/ex/classic/flamebreaker_ex.png",
+			"hyperion_ex":"graphics/vice/ships/ex/hyperion_ex.png",
+			"hyperion_ex_classic":"graphics/vice/ships/ex/classic/hyperion_ex.png",
+			"intrepid_ex":"graphics/vice/ships/ex/intrepid_ex.png",
+			"intrepid_ex_classic":"graphics/vice/ships/ex/classic/intrepid_ex.png",
+			"iris_ex":"graphics/vice/ships/ex/iris_ex.png",
+			"iris_ex_classic":"graphics/vice/ships/ex/classic/iris_ex.png",
+			"mandrake_ex":"graphics/vice/ships/ex/mandrake_ex.png",
+			"mandrake_ex_classic":"graphics/vice/ships/ex/classic/mandrake_ex.png",
+			"tigershark_ex":"graphics/vice/ships/ex/tigershark_ex.png",
+			"tigershark_ex_classic":"graphics/vice/ships/ex/classic/tigershark_ex.png",
+		},
+		"portraits":{
+			"xo_command_subroutine":"graphics/vice/portraits/xo_command_subroutine.png",
+		},
+	},
+}
+

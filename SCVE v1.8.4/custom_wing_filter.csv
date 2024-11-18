@@ -1,0 +1,51 @@
+parameter,operator,value,notes
+"# change ""operator"" and ""value"" according to String/Array/Float",,,
+"# String Operators: startsWith/endsWith/contains/in/equals/matches. Prefix with ""!"" to negate. cAsE SeNSiTiVe (except ""equals""). ""matches"" is in regex format.",,,
+"# Array Operators: containsAll/containsAny/allIn. Prefix with ""!"" to negate. ",,,
+"# Float Operators: </>/=/<=/>=/!=/()/[]/[)/(]. Uses modified values when possible. Interval values should be of the form ""a,b""",,,
+"# Values: String (cAsE SeNSiTiVe) / Array (comma separated (""a,b,c,..."")) / Float",,,
+,,,
+showRestricted,,FALSE,"# If true, will also include restricted weapons if applicable"
+,,,
+### Strings ###,,,"# Operators: startsWith/endsWith/contains/in/equals/matches. Prefix with ""!"" to negate. cAsE SeNSiTiVe (except ""equals""). ""matches"" is in regex format."
+id,,,
+name,,,
+tech/manufacturer,,,"FYI no manufacturer entry returns ""Common"""
+formation,,,
+role,,,
+role desc,,,
+defense type,,,
+,,,
+### Other ###,,,"# Operators: Always ""*"""
+knownWings,*,,Should be a faction id
+priorityWings,*,,Should be a faction id
+,,,
+### Arrays ###,,,"# Operators: containsAll/containsAny/allIn. Prefix with ""!"" to negate. "
+tags,,,
+hints,,,
+hullmods,,,
+autofitCategoriesInPriorityOrder,,,
+,,,
+### Floats ###,,,"# Operators: </>/=/<=/>=/!=/()/[]/[)/(]. Uses modified values when possible. Interval values should be of the form ""a,b"""
+tier,,,
+rarity,,,
+fleet pts,,,
+op cost,,,
+num,,,
+refit,,,
+base value,,,
+hit points,,,
+armor rating,,,
+max flux,,,
+flux dissipation,,,
+max speed,,,
+acceleration,,,
+deceleration,,,
+max turn rate,,,
+turn acceleration,,,
+shield arc,,,
+shield upkeep,,,
+shield efficiency,,,
+phase cost,,,
+phase upkeep,,,
+crew,,,

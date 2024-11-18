@@ -1,0 +1,136 @@
+{
+  "bounds": [
+    14,
+    -5.5,
+    0.5,
+    -9,
+    12,
+    -12.5,
+    -4.5,
+    -19.5,
+    -7.5,
+    -15,
+    -14.5,
+    -13.5,
+    -14.5,
+    -6.5,
+    -4,
+    -3.5,
+    -18.5,
+    -0,
+    -4,
+    3.5,
+    -14.5,
+    6.5,
+    -14.5,
+    13.5,
+    -7.5,
+    15,
+    -4.5,
+    19.5,
+    12,
+    12.5,
+    0.5,
+    9,
+    14,
+    5.5,
+    15,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_hedgehog_bay",
+    "WS0002": "istl_hedgehog_bay"
+  },
+  "center": [
+    21,
+    20
+  ],
+  "collisionRadius": 30,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 27.5,
+      "location": [
+        -15,
+        10
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 27.5,
+      "location": [
+        -15,
+        -10
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    }
+  ],
+  "height": 38,
+  "hullId": "istl_rafale2",
+  "hullName": "Rafale II",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    -1,
+    0
+  ],
+  "shieldRadius": 29,
+  "spriteName": "graphics/ISTL/ships/istl_rafale2.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        6,
+        9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        6,
+        -9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 165,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -3,
+        9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -165,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -3,
+        -9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 42
+}

@@ -1,0 +1,86 @@
+{
+  "hullName": "Pablic",
+  "hullId": "gundam_pablic",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/gundam_pablic.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 47,
+  "width": 40,
+  "center": [20, 23],
+  "collisionRadius": 24,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, 7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, -7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, -4],
+      "length": 12,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21.5, 4],
+      "length": 12.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -19, -6.5,
+    -17.5, -16.5,
+    -5, -19,
+    -0.5, -11.5,
+    9, -9.5,
+    19.5, -4,
+    24, 0,
+    24, -0,
+    19.5, 4,
+    9, 9.5,
+    -0.5, 11.5,
+    -5, 19,
+    -17.5, 16.5,
+    -19, 6.5
+  ]
+}

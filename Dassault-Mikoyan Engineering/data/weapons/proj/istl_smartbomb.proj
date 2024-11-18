@@ -1,0 +1,49 @@
+{
+	"id":"istl_smartbomb",
+	"specClass":"missile",
+	"onHitEffect":"data.scripts.weapons.istl_GravmissileOnHit",
+	"missileType":"MISSILE",
+	"sprite":"graphics/ISTL/missiles/istl_bomblet.png",
+	"size":[11,18],	
+	"center":[5.5,9],
+	"collisionRadius":13,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,235,135,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"armingTime":0.1,	
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":25, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":4.0,
+					 "particleSizeRange":2.0,
+					 "particleDuration":3.0,
+					 "particleCount":25,
+					 "particleColor":[255,235,135,255]},				  
+	"engineSpec":{"turnAcc":240,
+				  "turnRate":120,
+				  "acc":600,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-9, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[215,215,200,255],
+						"contrailDuration":2.0,
+						"contrailWidthMult":4.0,
+						"contrailWidthAddedFractionAtEnd":-0.15,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[175,175,155,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1.0,
+				    "length":12.0,
+				    "angle":180.0},
+				    ]
+}

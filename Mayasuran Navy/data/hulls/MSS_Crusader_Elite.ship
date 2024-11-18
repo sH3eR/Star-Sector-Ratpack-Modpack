@@ -1,0 +1,231 @@
+{
+  "hullName": "Crusader (M)",
+  "hullId": "MSS_Crusader_Elite",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mayasura/ships/MSS_Crusader_Elite.png",
+  "style": "MIDLINE",
+  "height": 344,
+  "width": 208,
+  "center": [104, 132.5],
+  "collisionRadius": 233.5,
+  "shieldCenter": [36.5, -0],
+  "shieldRadius": 196.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "MSS_LastStand",
+    "MSS_Prime"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -130,
+      "locations": [-75.5, -45]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 130,
+      "locations": [-75.5, 45]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0.5, 53]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [0.5, -53]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-76.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 50,
+      "locations": [143.5, 27]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -50,
+      "locations": [143.5, -27]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        29, 10,
+        26.5, 7,
+        24.5, 3
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        24.5, -1,
+        25, -5,
+        27.5, -8.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        165.5, 22,
+        163, 18,
+        163, 13,
+        162.5, 7
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        162.5, -6.5,
+        162.5, -11,
+        163, -16.5,
+        164.5, -21
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-125.5, 7],
+      "length": 90,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-125.5, -7],
+      "length": 90,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-127.5, 28],
+      "length": 60,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-127.5, -28],
+      "length": 60,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-127.5, 35],
+      "length": 60,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-127.5, -35],
+      "length": 60,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MayasuranFlare"
+    }
+  ],
+  "bounds": [
+    -126.5, -41,
+    -119.5, -46.5,
+    -111, -46,
+    -104.5, -51.5,
+    -46, -56,
+    -39.5, -70,
+    -18, -70.5,
+    -5, -63,
+    6.5, -40,
+    13.5, -50,
+    34, -47.5,
+    40.5, -50.5,
+    74, -36,
+    83.5, -41.5,
+    114.5, -41,
+    122.5, -49.5,
+    156, -41,
+    191, -27,
+    196.5, -16,
+    196, -8.5,
+    196, 8.5,
+    196.5, 16,
+    191, 27,
+    156, 41,
+    122.5, 49.5,
+    114.5, 41,
+    83.5, 41.5,
+    74, 36,
+    40.5, 50.5,
+    34, 47.5,
+    13.5, 50,
+    6.5, 40,
+    -5, 63,
+    -18, 70.5,
+    -39.5, 70,
+    -46, 56,
+    -104.5, 51.5,
+    -111, 46,
+    -119.5, 46.5,
+    -126.5, 41,
+    -124.5, 17,
+    -124.5, -17
+  ]
+}

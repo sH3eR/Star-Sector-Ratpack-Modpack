@@ -1,0 +1,11 @@
+{
+	"id":"MSS_variableammo",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MSS_AmmoSwapSystemAI",
+	
+	"statsScript":"data.shipsystems.scripts.MSS_AmmoSwapSystem",
+	
+	"useSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",	
+}

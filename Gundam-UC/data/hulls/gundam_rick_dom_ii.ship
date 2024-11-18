@@ -1,0 +1,146 @@
+{
+  "hullName": "Rick Dom II",
+  "hullId": "gundam_rick_dom_ii",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/rick_dom_ii/gundam_rick_dom_ii_body.png",
+  "style": "GUNDAM_RED_MSSHIELD",
+  "height": 42,
+  "width": 34,
+  "center": [17, 23.5],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "gundam_dom_truster"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_rick_dom_ii_gun",
+    "GUN_2": "gundam_bazooka_2",
+    "HEAD": "gundam_rick_dom_ii_head",
+    "L_ARM": "gundam_rick_dom_ii_hand",
+    "L_LEG": "gundam_rick_dom_ii_leg",
+    "L_WING": "gundam_rick_dom_ii_wing",
+    "MELEE": "gundam_saber_cyan",
+    "R_WING": "gundam_rick_dom_ii_wing",
+    "THRUST_1": "gundam_thruster_tiny_red",
+    "THRUST_2": "gundam_thruster_tiny_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [7.5, 11.5]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-4.5, -2]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-7.5, -13.5]
+    },
+    {
+      "id": "GUN_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -22.5,
+      "locations": [-6, -10]
+    },
+    {
+      "id": "L_WING",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 149.5,
+      "locations": [-15.5, 8.5]
+    },
+    {
+      "id": "R_WING",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -151.5,
+      "locations": [-15, -6.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": -8,
+      "locations": [13.5, -6]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 7.5,
+      "locations": [-6, 8.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-14, 7]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-14, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 7],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-14, -6],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -8, 7,
+    6, 7,
+    6, -9,
+    -8, -9
+  ]
+}

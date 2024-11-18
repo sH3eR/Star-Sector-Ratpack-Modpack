@@ -1,0 +1,8 @@
+id,entity,faction,desc id,default
+# this should be a unique string,,,,
+jangala_independent,jangala,mayasura,planet_jangala_mayasura,
+asharu_hegemony,asharu,mayasura,planet_asharu_mayasura,
+garnir_hegemony,corvus_IIIa,mayasura,planet_garnir_mayasura,
+mairaath_mayasura,mairaath,mayasura,planet_mairaath_mayasura,
+mairaath_station2_mayasura,mairaath_abandoned_station2,mayasura,mairaath_station2_mayasura,
+station_tse_enterprise_mayasura,port_tse,mayasura,station_tse_enterprise_mayasura,

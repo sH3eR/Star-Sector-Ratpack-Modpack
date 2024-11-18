@@ -1,0 +1,54 @@
+{
+  "variantId": "de_exult_Support",
+  "hullId": "de_exult",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst",
+        "WS0002": "pdburst",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ionbeam",
+        "WS0007": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "pilum",
+        "WS0009": "pilum"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0010": "exult_shield_module_Shield"
+    }
+  ],
+  "wings": [
+    "talon_wing",
+    "talon_wing",
+    "talon_wing",
+    "talon_wing"
+  ]
+}

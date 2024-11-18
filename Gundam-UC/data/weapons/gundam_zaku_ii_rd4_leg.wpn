@@ -1,0 +1,48 @@
+{
+  "id": "gundam_zaku_ii_rd4_leg",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ms/zaku_ii_rd4/gundam_zaku_ii_rd4_leg.png",
+  "hardpointSprite": "",
+  "showDamageWhenDecorative": true,
+  "glowColor": [
+    255,
+    255,
+    255,
+    0
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    11,
+    10
+  ],
+  "turretAngleOffsets": [
+    45
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    0
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    0
+  ],
+  "width": 1,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 1,
+  "pixelsPerTexel": 1
+}

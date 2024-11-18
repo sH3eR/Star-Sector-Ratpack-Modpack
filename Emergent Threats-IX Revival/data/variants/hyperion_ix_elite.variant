@@ -1,0 +1,35 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "hyperion_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "advancedoptics",
+        "missleracks",
+        "extendedshieldemitter",
+        "ix_reactive_combat_shields",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "hyperion_ix_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dawnstar_lcpb_ix",
+                "WS 002": "dawnstar_lcpb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "orthrus_m_ix"}
+        }
+    ]
+}

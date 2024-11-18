@@ -1,0 +1,51 @@
+{
+  "id": "MSS_MuleDerpcannon",
+  "specClass": "projectile",
+  "projectileSpecId": "MSS_derpcannon_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/mayasura/weapons/derpcannon/MSS_MuleDerpcannon_T.png",
+  "turretGlowSprite": "graphics/mayasura/weapons/derpcannon/MSS_MuleDerpcannon_T_glow.png",
+  "hardpointSprite": "graphics/mayasura/weapons/derpcannon/MSS_MuleDerpcannon.png",
+  "hardpointGlowSprite": "graphics/mayasura/weapons/derpcannon/MSS_MuleDerpcannon_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    38,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    53.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      249,
+      255,
+      255,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundOne": "MSS_Charged_UV_Pulse_Cannon_Charge",
+  "fireSoundTwo": "MSS_Charged_UV_Pulse_Cannon_Fire"
+}

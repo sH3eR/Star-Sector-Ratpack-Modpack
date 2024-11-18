@@ -1,0 +1,34 @@
+{
+	"MSS":{
+
+		"%":"%",
+		su:"su",
+
+		sstm_lion0:"% shield damage absorption",
+		sstm_lion1:"% flux dissipation",
+		sstm_ping:"% sensor range",
+		sstm_switch0:"weapons output +",
+		sstm_switch1:"weapons flux use -",
+		sstm_switch2:"range reduced to ",
+		sstm_thrust0:"% maneuverability",
+		sstm_thrust1:" top speed",
+		sstm_stasis:"% damage absorbtion",
+		sstm_shell:"Loaded and ready",
+		sstm_shield0:"% shield damage reduction",
+		sstm_shield1:"% shield arc",
+		
+		tgt_balanced:"NORMAL",
+		tgt_heavy:"ARTILLERY",
+		tgt_pd:"DEFENSE",
+		
+		tgt_heavyBonus:"Offensive weapons range +",
+		tgt_heavyMalus:"PD weapons range -",
+		tgt_pdBonus:"PD weapons range +",
+		tgt_pdMalus:"Offensive weapons range -",
+
+		swap_systemname:"Variable Ammo",
+		swap_kinetic_modename:"Hypervelocity Slug",
+		swap_he_modename:"Antimatter Shell",
+		swap_cluster_modename:"Iruiru Cluster Charge",
+	}
+}

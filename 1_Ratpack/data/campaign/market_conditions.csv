@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Planetary Moon,lout_planetary_moon,TRUE,,campaign.econ.lout_PlanetaryMoon,This moon can barely support a human population in the tens of thousands.,graphics/icons/markets/planetary_moon.png,100

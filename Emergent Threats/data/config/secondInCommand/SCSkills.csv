@@ -1,0 +1,23 @@
+id,name,iconPath,npcSpawnWeight,plugin
+xo_andrada_supreme_leadership,Supreme Leadership,graphics/xo_andrada/0_supreme_leadership.png,1,data.scripts.xo.andradanism.SupremeLeadership
+xo_andrada_battlefield_persistence,Battlefield Persistence,graphics/xo_andrada/1_battlefield_persistence.png,1,data.scripts.xo.andradanism.BattlefieldPersistence
+xo_andrada_forward_to_victory,Forward To Victory,graphics/xo_andrada/1_forward_to_victory.png,1,data.scripts.xo.andradanism.ForwardToVictory
+xo_andrada_priority_requisition,Priority Requisition,graphics/xo_andrada/1_priority_requisition.png,1,data.scripts.xo.andradanism.PriorityRequisition
+xo_andrada_unbreakable_defense,Unbreakable Defense,graphics/xo_andrada/1_unbreakable_defense.png,1,data.scripts.xo.andradanism.UnbreakableDefense
+xo_andrada_unstoppable_offense,Unstoppable Offense,graphics/xo_andrada/1_unstoppable_offense.png,1,data.scripts.xo.andradanism.UnstoppableOffense
+xo_andrada_doctrinal_purity,Doctrinal Purity,graphics/xo_andrada/2_doctrinal_purity.png,1,data.scripts.xo.andradanism.DoctrinalPurity
+xo_andrada_energy_focus_mastery,Energy Focus Mastery,graphics/xo_andrada/2_energy_focus_mastery.png,1,data.scripts.xo.andradanism.EnergyFocusMastery
+xo_andrada_mass_mobilization,Mass Mobilization,graphics/xo_andrada/3_mass_mobilization.png,1,data.scripts.xo.andradanism.MassMobilization
+xo_andrada_unwavering_conviction,Unwavering Conviction,graphics/xo_andrada/3_unwavering_conviction.png,1,data.scripts.xo.andradanism.UnwaveringConviction
+,,,,
+xo_synthesis_subsystem_integration,Subsystem Integration,graphics/xo_synthesis/0_subsystem_integration.png,1,data.scripts.xo.synthesis.SubsystemIntegration
+xo_synthesis_command_subroutine,Command Subroutine,graphics/xo_synthesis/1_command_subroutine.png,,data.scripts.xo.synthesis.CommandSubroutine
+xo_synthesis_drone_tactics,Drone Tactics,graphics/xo_synthesis/1_drone_tactics.png,1,data.scripts.xo.synthesis.DroneTactics
+xo_synthesis_dynamic_shields,Dynamic Shields,graphics/xo_synthesis/1_dynamic_shields.png,1,data.scripts.xo.synthesis.DynamicShields
+xo_synthesis_mind_machine_interface,Mind-Machine Interface,graphics/xo_synthesis/1_mind_machine_interface.png,0.5,data.scripts.xo.synthesis.MindMachineInterface
+xo_synthesis_reactor_monitoring,Reactor Monitoring,graphics/xo_synthesis/1_reactor_monitoring.png,1,data.scripts.xo.synthesis.ReactorMonitoring
+xo_synthesis_spacetime_analytics,Spacetime Analytics,graphics/xo_synthesis/1_spacetime_analytics.png,0.5,data.scripts.xo.synthesis.SpacetimeAnalytics
+xo_synthesis_compact_automation,Compact Automation,graphics/xo_synthesis/2_compact_automation.png,,data.scripts.xo.synthesis.CompactAutomation
+xo_synthesis_predictive_targeting,Predictive Targeting,graphics/xo_synthesis/2_predictive_targeting.png,1,data.scripts.xo.synthesis.PredictiveTargeting
+xo_synthesis_temporal_accelerator,Temporal Accelerator,graphics/xo_synthesis/3_temporal_accelerator.png,1,data.scripts.xo.synthesis.TemporalAccelerator
+xo_synthesis_total_integration,Total Integration,graphics/xo_synthesis/3_total_integration.png,,data.scripts.xo.synthesis.TotalIntegration

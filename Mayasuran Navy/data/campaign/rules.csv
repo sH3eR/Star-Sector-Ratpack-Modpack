@@ -1,0 +1,328 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME MAYASURA",,,,,,
+,,,,,,
+# mayasuran faction text,,,,,,
+relLevelNeutralMayasura,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == mayasura","FireAll RelLevelMoreDescription","The people of Mayasura view you neither positively or negatively, just as another spacer passing through.",,
+relLevelFavorableMayasura,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == mayasura","FireAll RelLevelMoreDescription","You have officially made yourself known to $faction officials in a positive way, though this has little in the way of implications. At least the people of Mayasura see you as someone who may be willing to work with them and their goals.",,
+relLevelWelcomingMayasura,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == mayasura","FireAll RelLevelMoreDescription","Your continued deeds have made a name for you in $theFaction. $faction patrols salute you and your efforts for their cause.",,
+relLevelFriendlyMayasura,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == mayasura","FireAll RelLevelMoreDescription","You're well-known within $theFaction, with the people of Mayasura considering you one of their own. Both military and civilians treat you with respect.",,
+relLevelCooperativeMayasura,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == mayasura","FireAll RelLevelMoreDescription","The Grand Navarch of the $faction personally knows of you, with your deeds and efforts inspiring countless others to follow your example. You represent a shining beacon and hope to rise once more from the ashes and for the people of Mayasura to once more claim greatness. ",,
+relLevelSuspiciousMayasura,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == mayasura","FireAll RelLevelMoreDescription","Though nothing has been proven (yet), $faction officials tend to view you with distrust. The people of Mayasura eye you and your fleet warily, uncertain what further to make of you.",,
+relLevelInhospitableMayasura,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == mayasura","FireAll RelLevelMoreDescription","Having tolerated your misdeeds for long enough, $theFaction has officially barred you from planetary space. Though you may not be officially labelled an enemy of Mairaath, $faction patrols eye you with disdain and disgust.",,
+relLevelHostileMayasura,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == mayasura","FireAll RelLevelMoreDescription","$theFaction has officially declared you enemy of the nation, with a shoot-on-sight order now in effect. Though you may regain standing with $theFaction through concentrated effort, the people of Mayasura aren't going to make it easy.",,
+relLevelVengefulMayasura,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == mayasura","FireAll RelLevelMoreDescription","The Grand Navach of $theFaction has officially declared a kill order on your fleet, with $faction patrols tracking you down the moment you enter their space. The people of Mayasura view you as no better than the Hegemony and the Luddic Path, another enemy seeking their destruction",,
+"#END mayasuran faction text",,,,,,
+,,,,,,
+# mayasuran commission dialog,,,,,,
+CMSNTextRejectHostile_mayasura,CMSNTextRejectHostile,"$faction.id == mayasura",,"""You dare...! The Grand Navarch has personally declared you an enemy of the people of Mairaath! Such an intrusion will not be forgotten!""
+",,
+CMSNTextHasOther_mayasura,CMSNTextHasOther,"$faction.id == mayasura",,"""It seems you're already commissioned by $theOtherCommissionFaction. The people of Mayasura are loyal only to their beliefs, and not to any other. You'll have to resign that commission before signing on with the Mayasuran Navy.""",,
+CMSNTextUnsuited_mayasura,CMSNTextUnsuited,"$faction.id == mayasura",,"""Though your eagerness to join is admirable, the Mayasuran Navy does not fully trust those who have not taken the steps to prove their goals align with us.""",,
+CMSNTextSuitedPart1_mayasura,CMSNTextSuitedPart1,"$faction.id == mayasura",,"""So, you wish to help restore Mairaathi honor and join our cause?
+
+Accepting a commission from the Mayasuran Navy is a serious matter. Our enemies are many, and those who wish to tear us down are ceaseless in their desires. But we will persevere, ensuring a future for our people no matter the cost.
+
+Though it pains for me to say this, you may resign your commission at any time. But understand doing so will be an indelible stain on your honor and will not be forgotten easily by the people of Mayasura.""",,
+CMSNTextSuitedPart2_mayasura,CMSNTextSuitedPart2,"$faction.id == mayasura",,"""So, are you ready to join? Though the people of Mairaath may have gone through much, we have only been made stronger for you. Will you share in our burdens, and share in our triumphs?""",,
+CMSNTextWelcomePart1_mayasura,CMSNTextWelcomePart1,"$faction.id == mayasura",,"""Glorious! On behalf of the Grand Navarch, I welcome to the Mayasuran Navy.""",,
+CMSNTextWelcomePart2_mayasura,CMSNTextWelcomePart2,"$faction.id == mayasura",,"""Anything else I can do for you?""",,
+CMSNTextChangeMind_mayasura,CMSNTextChangeMind,"$faction.id == mayasura",,"""Unfortunate, but I will not judge you. Many find it difficult supporting what might be considered a lost cause, but know this; from the ashes of Mairaath, we will rise once more.
+
+Now, is there anything else I can do for you?""",,
+CMSNResignAskToConfirm_mayasura,CMSNResignAskToConfirm,"$faction.id == mayasura",,"""Resigning? Are the trials we face becoming too much for you? Though I understand the difficulty of our situation, we are in need of every able body that we can get. To abandon us here... well that wouldn't be viewed well in the eyes of the people.""",,
+CMSNResignConfirmed_mayasura,CMSNResignConfirmed,"$faction.id == mayasura",,"""I see. Seeing as I cannot change your mind, I shall formally accept your resignation. But remember, we are still willing to take you back if you reconsider.""",,
+CMSNResignCancelled_mayasura,CMSNResignCancelled,"$faction.id == mayasura",,"""Thank you for reconsidering your resignation. We need every person here helping us out.""",,
+"#END mayasuran commission dialog",,,,,,
+,,,,,,
+# mayasura trade panel,,,,,,
+mnflavorTextMarketMayasuraMairaathVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 0
+$faction.id == mayasura
+$market.id == mairaath score:100","AddText ""The port concourse is nearly deserted, with only warships belonging to the Mayasuran Navy currently docked. Armed guards eye you carefully as you deboard your shuttle. The entire structure has been heavily fortified, as if preparing for another attack."" marketFlavorTextColor",,,
+mnflavorTextMarketMayasuraMairaathSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$player.transponderOn == false
+$faction.id == mayasura
+$market.id == mairaath score:100","AddText ""Your shuttle lands out in the desert outskirts of a nearby still standing settlement. After securing a landing site sturdy enough to handle the weight, you wait to meet a contact willing to take you and your entourage to civilization. Your contact grimly reminds you to not stray too far, else you are swallowed up by the endless sand dunes and storms."" marketFlavorTextColor
+AddText ""Finally reaching civilization, you and your group are greeted by the bombed out remnants of a city. People make their home in refurbished shells of former structures, doing their best to avoid being out in the desert sun for too long."" marketFlavorTextColor",,,
+mnflavorTextMarketMayasuraMairaath,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == mayasura
+$market.id == mairaath score:100","AddText ""The port concourse is a mixed open air and enclosed structure with a layer of sand covering much of the exterior of the structure. A mix of civilian and military ships dock among each other as they under go refits or repairs. Robed figured move about to avoid lingering too long in the sun as the Desert Guard make their patrols and inspections of any suspicious figures."" marketFlavorTextColor",,,
+mnflavorTextMarketMayasuraGeneric,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == mayasura","AddText ""The port concourse is a mixed open air and enclosed structure with a layer of sand covering much of the exterior of the structure. The blue, white and black warships of the Elite Mayasuran Navy dock next to more mundane vessels. Cargo is unloaded and loaded as desert robed civilians scurry along to their destinations."" marketFlavorTextColor",,,
+"#END mayasura trade panel",,,,,,
+,,,,,,
+# mayasura bar stuff,,,,,,
+mnbar_descMayasura,BarPrintDesc,"$faction.id == mayasura","ShowImageVisual space_bar","The bar is a busy place, with a mix of desert robed civilians and navy officials mingling with each other swapping stories of trade, war, and other sorts of gossip. In one corner, a particularly heated lecture is occurring about the storied history of the people of Mairaath. Exotic looking servers go around with drinks for the various patrons.",,
+"#END mayasura bar stuff",,,,,,
+,,,,,,
+# mayasura fleet greetings,,,,,,
+mngreetingMayasuraFriendly,OpenCommLink,"$faction.id == mayasura
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Comm link request accepted, it's good to see a friendly face around here.""
+OR
+""Greetings, Captain. May you be blessed with cool nights and mild summers.""
+OR
+""The people of Mairaath acknowledge you, Captain. May we continue to find support in you.""",,
+mngreetingMayasuraHostileWeaker,OpenCommLink,"$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength < 0","$entity.ignorePlayerCommRequests = true 1","""The people of Mairaath will never forget the transgressions against us! To attack one of us is to attack all of us!""
+OR
+""The people of Mairaath will gladly surrender our lives to ensure a future for our descendants!"" $HeOrShe pauses for a moment as if to say something more, then cuts the comm.
+OR
+""Hostile contact, be warned! To attack us is to invoke the wrath of all of the people of Mairaath!"" The Mayasuran $personRank glares at you. ""Your name will forever live in infamy!""","cutCommLink:Cut the comm link",
+mngreetingMayasuraHostileWeakerDefiant,OpenCommLink,"$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding","$entity.ignorePlayerCommRequests = true 1","The Mayasuran $personRank takes a deep breath before giving you a defiant glare. ""I will gladly lay down my life for Mairaath to ensure people like you will never threaten it ever again,"" $heOrShe says before the comm-line cuts out.
+OR
+""We may die but our blood shall nourish a stronger future for our people!""","cutCommLink:Cut the comm link",
+mngreetingMayasuraHostileStronger,OpenCommLink,"$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength >= 0","$entity.ignorePlayerCommRequests = true 1","""You have threatened the future for the people of Mairaath long enough! Your death shall be another stepping stone to a greater future!""
+OR
+""All who dare threaten the future of Mairaath shall be made an example of! We will never allow ourselves to be defeated ever again!""","cutCommLink:Cut the comm link",
+mngreetingMayasuraNeutral,OpenCommLink,"$faction.id == mayasura
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Keep a steady distance, and don't try anything funny. The people of Mairaath will not suffer for those who will not stand by our side.""
+OR
+The Mayasuran $personRank glares at you. ""Doing nothing suspicious, I hope?""",,
+"#END mayasura fleet greetings",,,,,,
+,,,,,,
+# npcs,,,,,,
+,,,,,,
+# pyotr,,,,,,
+greetingspyotrfirst,OpenCommLink,"!$player.metmsspyotr
+$id == msspyotr score:200
+$faction.id == mayasura
+!$entity.isHostile","$player.metmsspyotr = true
+AddText ""Your commlink is accepted after a few minutes of waiting.""
+AddTextSmall ""Navarch Pyotr Shahin, first of his name, is the current admiral in charge of the defense of Mairaath. A veteran of many years, Pyotr dreams of seeing his nation rise once more and flourish, even if he may not live to see it."" highlight
+AddText ""\""I am Pyotr Shahin, Navarch of the Mayasuran Navy and defender of Mairaath. Have you come to Mairaath as friend, or as foe?\""""
+FireAll PopulateOptions
+",,,
+greetingspyotrfriendlycomm,OpenCommLink,"Commission hasFactionCommission
+$id == msspyotr score:100
+$faction.id == mayasura
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","A small smile forms on $personName's face. ""I greet you, fellow Captain. May Mayasura's light guide your fleet.""
+OR
+$personName gives you a salute as $heOrShe appears. ""Though our people may struggle, we shall rise once more to glory.""
+OR
+$personName salutes you. ""Greetings, Captain $playerName. May our enemies tremble before your wake.""",,
+greetingspyotrfriendly,OpenCommLink,"$id == msspyotr score:100
+$faction.id == mayasura
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""The people of Mairaath may struggle, but we shall not fall.""
+OR
+""Our enemies are many, but the people of Mairaath shall stand tall against them.""
+OR
+""Friend of Mairaath, I welcome you here.""","cutCommLink:Cut the comm link",
+greetingspyotrhostileweaker,OpenCommLink,"$id == msspyotr score:100
+$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength < 0","$entity.ignorePlayerCommRequests = true 1","""Have you come to finish the job, you vulture?""
+OR
+""How brave you must be, to be willing to strangle a crippled nation.""","cutCommLink:Cut the comm link",
+greetingspyotrhostileweakerdefiant,OpenCommLink,"$id == msspyotr score:100
+$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding","$entity.ignorePlayerCommRequests = true 1","The $post scowls as comms open. ""You may eclipse our people, but we will never submit to you!""
+OR
+$post $personName's glares at you with hostility. ""The people of Mairaath shall never bend the knee to tyrants!""
+OR
+$personName silently mutters some words before turning $hisOrHer attention to you. ""If I must give my life to defend my nation, then so be it!""","cutCommLink:Cut the comm link",
+greetingspyotrhostilestronger,OpenCommLink,"$id == msspyotr score:100
+$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength >= 0","$entity.ignorePlayerCommRequests = true 1","""No more will the people of Mairaath suffer you vultures!""
+OR
+""Your time is at an end, vulture!""
+OR
+""We are arisen! And you shall feel our wrath!""","cutCommLink:Cut the comm link",
+greetingspyotrneutralcomm,OpenCommLink,"Commission hasFactionCommission
+$id == msspyotr score:100
+$faction.id == mayasura
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Your wavering loyalty to the people of Mairaath concerns me, $playerName.""
+OR
+""Is your true colors now showing, $playerName?""
+OR
+""A nation divided cannot stand, $playerName. Where do your loyalties truly lie?""",,
+greetingspyotrneutral,OpenCommLink,"$id == msspyotr score:100
+$faction.id == mayasura
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""May the enemies of Mairaath know the wrath of its people.""
+OR
+""Be calm, for only those who oppose Mairaath should fear us.""
+OR
+""Have you come to aid us? Or hurt us?""",,
+"#END pyotr",,,,,,
+,,,,,,
+# grand navarch,,,,,,
+,,,,,,
+# secretary,,,,,,
+MN_salemskiSecretaryStart,PickGreeting,"$id == mssduke score:10","FireAll PopulateDukeSecretaryOptions","After an indeterminate time waiting for a response, the comm-link connects you with what appears to be a junior officer. You suspect they have only recently graduated from the academy.
+
+""Greetings,"" the officer speaks calmly, ""You've reached the office of the Grand Navarch. The Grand Navarch is currently busy at this moment, but if you have any inquiries, I will be happy to answer them.""",,
+MN_salemskiSecretaryInquiry,PopulateDukeSecretaryOptions,"$id == mssduke
+!$askedToMeetDuke",,,"mn_salemskiInquiry:Ask if you can meet the Grand Navarch",
+MN_salemskiSecretaryExit,PopulateDukeSecretaryOptions,"$id == mssduke",,,"cutCommLinkPolite:Cut the comm link",
+MN_salemskiSecretaryInquiryResponse,DialogOptionSelected,"$option == mn_salemskiInquiry","$askedToMeetDuke = true 0
+FireAll PopulateDukeSecretaryOptions","""I'm sorry, but the Grand Navarch is currently not meeting with people,"" the officer replies sternly.",,
+"#END secretary",,,,,,
+,,,,,,
+# navarch greetings,,,,,,
+"#END navarch greetings",,,,,,
+"#END grand navarch",,,,,,
+,,,,,,
+# rat pirate,,,,,,
+,,,,,,
+# pirate greetings,,,,,,
+#MN_pirateGreetingFirstPirate,PickGreeting,"!$player.metMNPirate
+$id == msspirate score:200
+$faction.id == pirate","$player.metMNPirate = true
+AddText ""Your commlink is accepted after a few minutes of waiting.""
+AddTextSmall ""Vincent 'The Rat' Ritatoni is considered by many to be ."" highlight
+AddTextSmall ""Navarch Pyotr Shahin, first of his name, is the current admiral in charge of the defense of Mairaath. A veteran of many years, Pyotr dreams of seeing his nation rise once more and flourish, even if he may not live to see it."" highlight
+AddText ""\""I am Pyotr Shahin, Navarch of the Mayasuran Navy and defender of Mairaath. Have you come to Mairaath as friend, or as foe?\""""
+FireAll PopulateOptions
+",,,
+"#END pirate greetings",,,,,,
+"#END rat pirate",,,,,,
+,,,,,,
+# tritach scientist,,,,,,
+,,,,,,
+# scientist greetings,,,,,,
+"#END scientist greetings",,,,,,
+"#END tritach scientist",,,,,,
+,,,,,,
+# vice admiral,,,,,,
+,,,,,,
+# vice admiral greetings,,,,,,
+,,,,,,
+# fleet greetings,,,,,,
+greetingsvicefirst,OpenCommLink,"!$player.metmssvice
+$id == mssvice score:200
+$faction.id == mayasura
+!$entity.isHostile","$player.metmsspyotr = true
+AddText ""Your commlink is accepted after a few minutes of waiting.""
+AddTextSmall ""Deputy Navarch Savina Mireille is an officer of stern demeanor and grim determination. A veteran of countless battles against both Pathers and the Hegemony, the Deputy Navarch maintains a solemn watch over Mayasura, determined to prevent a repeat of history happening again."" highlight
+AddText ""\""This is Deputy Navarch Mireille speaking. Stand clear and allow this fleet to continue its course.\""""
+FireAll PopulateOptions
+",,,
+greetingsvicefriendlycomm,OpenCommLink,"Commission hasFactionCommission
+$id == mssvice score:100
+$faction.id == mayasura
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","A small smile forms on $personName's face. ""I greet you, fellow Captain. May Mayasura's light guide your fleet.""
+OR
+$personName gives you a salute as $heOrShe appears. ""Though our people may struggle, we shall rise once more to glory.""
+OR
+$personName salutes you. ""Greetings, Captain $playerName. May our enemies tremble before your wake.""",,
+greetingsvicefriendly,OpenCommLink,"$id == mssvice score:100
+$faction.id == mayasura
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""The people of Mairaath may struggle, but we shall not fall.""
+OR
+""Our enemies are many, but the people of Mairaath shall stand tall against them.""
+OR
+""Friend of Mairaath, I welcome you here.""","cutCommLink:Cut the comm link",
+greetingsvicehostileweaker,OpenCommLink,"$id == mssvice score:100
+$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength < 0","$entity.ignorePlayerCommRequests = true 1","""Have you come to finish the job, you vulture?""
+OR
+""How brave you must be, to be willing to strangle a crippled nation.""","cutCommLink:Cut the comm link",
+greetingsvicehostileweakerdefiant,OpenCommLink,"$id == mssvice score:100
+$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding","$entity.ignorePlayerCommRequests = true 1","The $post scowls as comms open. ""You may eclipse our people, but we will never submit to you!""
+OR
+$post $personName's glares at you with hostility. ""The people of Mairaath shall never bend the knee to tyrants!""
+OR
+$personName silently mutters some words before turning $hisOrHer attention to you. ""If I must give my life to defend my nation, then so be it!""","cutCommLink:Cut the comm link",
+greetingsvicehostilestronger,OpenCommLink,"$id == mssvice score:100
+$faction.id == mayasura
+$entity.isHostile
+$entity.relativeStrength >= 0","$entity.ignorePlayerCommRequests = true 1","""No more will the people of Mairaath suffer you vultures!""
+OR
+""Your time is at an end, vulture!""
+OR
+""We are arisen! And you shall feel our wrath!""","cutCommLink:Cut the comm link",
+greetingsviceneutralcomm,OpenCommLink,"Commission hasFactionCommission
+$id == mssvice score:100
+$faction.id == mayasura
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Your wavering loyalty to the people of Mairaath concerns me, $playerName.""
+OR
+""Is your true colors now showing, $playerName?""
+OR
+""A nation divided cannot stand, $playerName. Where do your loyalties truly lie?""",,
+greetingsviceneutral,OpenCommLink,"$id == mssvice score:100
+$faction.id == mayasura
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""May the enemies of Mairaath know the wrath of its people.""
+OR
+""Be calm, for only those who oppose Mairaath should fear us.""
+OR
+""Have you come to aid us? Or hurt us?""",,
+"#END fleet greetings",,,,,,
+"#END vice admiral greetings",,,,,,
+"#END vice admiral",,,,,,
+"#END npcs",,,,,,
+,,,,,,
+# mayasura retake missions,,,,,,
+ChaseBridgeBunnies,PopulateOptions,"$Rank == Navarch
+$faction.id == mayasura
+$market.id == mairaath
+Commission hasFactionCommission
+!$global.ChaseAttackBridgeBunnies
+ChaseAstropolis2",,,"10:ChaseBridgeBunnies1:Discuss about an invasion of the Port Tse Franchise Station.",
+ChaseBridgeBunnies2,PopulateOptions,"$Rank == Navarch
+$faction.id == mayasura
+$market.id == mairaath
+Commission hasFactionCommission
+!$global.ChaseAttackRadiation
+ChaseAstropolis",,,"11:ChaseBridgeBunnies2:Discuss about a reclamation of the Lost Astropolis.",
+ChasePortTse,DialogOptionSelected,"$option == ChaseBridgeBunnies1",,"""Unsavory elements of scums live in our precious system. They do not have a valid claim to such a station. They have evicted innocent people such as of our Mayasuran blood. They will pay back with their blood. No matter the cost! Let us wage war! For Mairaath! For Mayasura!""","0:ChaseBridgeBunniesYPTFS:""For Mairaath! For Mayasura!""
+1:ChaseBridgeBunniesNo:""Unfortunately, it is not time right now. We must wait.""",
+ChasePortTseReply,DialogOptionSelected,"$option == ChaseBridgeBunniesYPTFS","$global.ChaseAttackBridgeBunnies = true
+ChaseAttackAstropolis2
+FireAll PopulationOptions
+EndConversation","""It will be done then, I expect you to be at the station when we arrive!""",,
+ChaseLostAstropolis,DialogOptionSelected,"$option == ChaseBridgeBunnies2",,"""Formerly one of our astropoli of our home, some of our refugees still live amongst this staiton against the unruly bandits. It is time we reclaim it in Mairaath's name, our glory must show that we are not a dying faction. For Mairaath! For Mayasura!""","0:ChaseBridgeBunniesYLA:""For Mairaath! For Mayasura!""
+1:ChaseBridgeBunniesNo:""Unfortunately, it is not time right now. We must wait.""",
+ChaseLostAstropolisReply,DialogOptionSelected,"$option == ChaseBridgeBunniesYLA","$global.ChaseAttackRadiation = true
+ChaseAttackAstropolis
+FireAll PopulationOptions
+EndConversation
+","""It will be done then, I expect you to be at the station when we arrive!""",,
+ChaseBridgeBunniesNo,DialogOptionSelected,"$option == ChaseBridgeBunniesNo","FireAll PopulationOptions
+EndConversation","""As you wish, we will be ready when the time comes.""",,
+"#END mayasura retake missions",,,,,,
+,,,,,,
+# mayasura nex,,,,,,
+Chase_nex_NGCPickStartingShips,ExerelinNGCStep3,"$playerFaction == mayasura
+!$mayasura_ChangeMind","AddText ""I see you have made it unscathed, your grace. Death has surrounded us! The enemy is on the horizon. The mighty navy only awaits for your words to wreck havoc upon our enemies.""
+AddText ""You have been given direct governorship of our dear planet of Mairaath. Give the navarch orders and we can finally restore Mayasura to her former glory.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights Mairaath Mayasura
+$mayasura_ChangeMind = true 0",,,
+Chase_nex_NGCPickStartingShips2,ExerelinNGCStep3,"$playerFaction == mayasura
+Chase_HasModId timid_commissioned_hull_mods
+!$mayasura_ChangeMind","AddText ""Commissioned Crews Bonus: Ships start with increased max combat readiness.""
+SetTextHighlights Commissioned Crews Bonus
+$mayasura_ChangeMind = true 0",,,
+"#END mayasura nex",,,,,,
+

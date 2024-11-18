@@ -1,0 +1,59 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_zaku_ii_psycho_pilot",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_zaku_ii_psycho_pilot_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_zaku_ii_psycho_gun",
+        "HEAD": "gundam_zaku_ii_psycho_head",
+		"L_LEG": "gundam_zaku_ii_psycho_leg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GRANADE_ARM": "gundam_zaku_ii_psycho_hand"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN_2": "gundam_left_subarm_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN_3": "gundam_right_subarm_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "PACK": "gundam_zaku_ii_psycho_pack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_axe_slash"
+      }
+    }
+  ],
+  "wings": []
+}

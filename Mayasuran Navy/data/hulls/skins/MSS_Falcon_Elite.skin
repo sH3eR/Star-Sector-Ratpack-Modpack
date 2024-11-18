@@ -1,0 +1,65 @@
+{
+	"baseHullId":"falcon",
+	"skinHullId":"MSS_Falcon_Elite",
+	"hullName":"Falcon (M)",
+	"descriptionId":"falcon",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"tech":"Mayasuran",
+	"descriptionPrefix":"Boisterous and menacing, the Mayasuran Falcon hunts its prey with deadly efficiency. With upgraded hybrid turret mounts, more effort was given to increasing the versatility of this bird.",
+	"ordnancePoints":135,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/mayasura/ships/MSS_Falcon_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+	      	"WS 009":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "HYBRID",
+     	 },
+		 	      	"WS 010":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "HYBRID",
+     	 },
+		 	      	"WS 003":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "HYBRID",
+     	 },
+		      	"WS 004":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "HYBRID",
+     	 }
+     },
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranSilverFlare"},
+		"7":{"style":"MayasuranSilverFlare"},
+		"8":{"style":"MayasuranSilverFlare"},
+		"9":{"style":"MayasuranSilverFlare"},
+		"10":{"style":"MayasuranSilverFlare"},
+		"11":{"style":"MayasuranSilverFlare"},
+		
+		
+
+		},
+}
+

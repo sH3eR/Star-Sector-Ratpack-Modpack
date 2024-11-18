@@ -1,0 +1,114 @@
+{
+  "hullName": "Zaku II",
+  "hullId": "gundam_zaku_ii_shield",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/zaku_ii/gundam_zaku_ii_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 35,
+  "width": 38,
+  "center": [22, 16],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "HEAD": "gundam_zaku_ii_head",
+    "MELEE": "gundam_axe_slash",
+    "L_LEG": "gundam_zaku_ii_leg",
+    "L_ARM": "gundam_zaku_ii_hand",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -5.5,
+      "locations": [-12.5, -9.5]
+    },
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 9.5,
+      "locations": [11, 10.5]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-9, 1]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": -8,
+      "locations": [22, 9.5]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -7,
+      "locations": [-4.5, 15]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-12, 10]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-12, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 10],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -5.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -9, 8.5,
+    5, 8.5,
+    5, -6.5,
+    -9, -6.5
+  ]
+}

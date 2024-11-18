@@ -1,0 +1,49 @@
+{
+  "id": "gundam_gundam_gp03_dendrobium_leftleg",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.Gundam_wingPlugin",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ma/gundam_gp03_dendrobium/gundam_gundam_gp03_dendrobium_leftleg.png",
+  "hardpointSprite": "",
+  "showDamageWhenDecorative": true,
+  "glowColor": [
+    255,
+    255,
+    255,
+    0
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    22,
+    -6
+  ],
+  "turretAngleOffsets": [
+    -45
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    0
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    0
+  ],
+  "width": 1,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 1,
+  "pixelsPerTexel": 1
+}

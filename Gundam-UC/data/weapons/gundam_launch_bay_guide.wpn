@@ -1,0 +1,57 @@
+{
+  "id": "gundam_launch_bay_guide",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "graphics/weapons/gundam_launch_bay_guide_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/gundam_launch_bay_guide_glow.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    120
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    245,
+    60,
+    200,
+    0
+  ],
+  "coreColor": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "width": 4,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 0,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "tachyon_lance_fire"
+}

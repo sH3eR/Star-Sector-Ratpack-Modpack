@@ -1,0 +1,324 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+bcom_features_2,Toggle Features,Header,Toggle Features,,"Depending on the feature, game restart may be required",,,Features
+bcom_features,IMPORTANT,Header,IMPORTANT,,,,,Features
+LUNALIB_SETTINGS_ENABLED,Lunalib Settings Enabled,Boolean,FALSE,,[MUST BE ENABLED FOR ANY LUNALIB SETTINGS TO WORK],,,Features
+bcom_features_3,Combat Map Features,Header,Combat Map Features,,,,,Features
+ENABLE_MAP,mapFeature,Boolean,TRUE,,Disabling will cause vanilla asteroids to appear.,,,Features
+ENABLE_DEPLOYMENT,deploymentFeature,Boolean,TRUE,,Restart not required,,,Features
+ENABLE_AFTER_DEPLOYMENT,afterDeploymentFeature,Boolean,TRUE,,Restart not required,,,Features
+ENABLE_COMBAT_ZOOM,combatCameraZoomFeature,Boolean,TRUE,,overwrites settings.json,,,Features
+ENABLE_SIGHT,sightFeature,Boolean,TRUE,,sight is how much a ship will reveal fog of war. Restart not required,,,Features
+ENABLE_ASTEROIDS,asteroidFeature,Boolean,TRUE,,Restart not required,,,Features
+ENABLE_FLYIN_ASTEROIDS,flyinAsteroidFeature,Boolean,TRUE,,refers to asteroids flying into the map. Restart not required,,,Features
+ENABLE_SPLIT_ASTEROIDS,asteroidSplittingFeature,Boolean,TRUE,,Restart not required,,,Features
+bcom_features_4,Weapon Features,Header,Weapon Features,,,,,Features
+ENABLE_WEAPON_RANGE,weaponRangeFeature,Boolean,TRUE,,,,,Features
+ENABLE_WEAPON_RANGE_THRESHOLD,weaponRangeThresholdFeature,Boolean,TRUE,,refers to weapon range changes by things like safety overrides. Will multiply the range the range dropoff starts,,,Features
+ENABLE_PROJECTILE_COAST,projectileCoastFeature,Boolean,FALSE,,increases how long projectiles take to fade out but not weapon range,,,Features
+ENABLE_PROJECTILE_SPEED,projectileSpeedFeature,Boolean,TRUE,,,,,Features
+ENABLE_RECOIL,recoilFeature,Boolean,TRUE,,,,,Features
+ENABLE_DAMAGE,weaponDamageFeature,Boolean,TRUE,,"effects all missiles, beams, projectiles, submunitions. Will not include special effects",,,Features
+ENABLE_BEAM_DROPOFF,beamDamageDropoffFeature,Boolean,TRUE,,Restart not required,,,Features
+ENABLE_INSTANT_BEAMS,instantBeamFeature,Boolean,TRUE,,,,,Features
+ENABLE_MISSILE_RANGE,missileRangeFeature,Boolean,TRUE,,,,,Features
+ENABLE_MISSILE_SPEED,missileSpeedFeature,Boolean,TRUE,,,,,Features
+ENABLE_SUBMUNITION,submunitionFeature,Boolean,TRUE,,"for sabots, MIRV, etc",,,Features
+ENABLE_FIGHTER_RANGE_BOOST,fighterRangeFeature,Boolean,TRUE,,,,,Features
+ENABLE_FIGHTER_SPEED_BOOST,fighterSpeedBoostFeature,Boolean,FALSE,,,,,Features
+bcom_features_5,Ship Features,Header,Ship Features,,,,,Features
+ENABLE_SHIP_SPEED,shipSpeedFeature,Boolean,TRUE,,,,,Features
+ENABLE_SHIP_ACCELERATION,shipAccelerationFeature,Boolean,TRUE,,,,,Features
+ENABLE_SHIP_DEFENCE,shipDefenceFeature,Boolean,TRUE,,modifies hull and armor,,,Features
+ENABLE_SHIP_SHIELD_AND_PHASE,shipShieldAndPhaseFeature,Boolean,TRUE,,,,,Features
+ENABLE_SHIP_FLUX,shipFluxFeature,Boolean,TRUE,,,,,Features
+ENABLE_OP,opFeature,Boolean,TRUE,,,,,Features
+ENABLE_SHIP_EXPLOSION,shipExplosionFeature,Boolean,FALSE,,Restart not required,,,Features
+ENABLE_SHIP_BREAK,shipBreakFeature,Boolean,TRUE,,,,,Features
+ENABLE_SHIP_FRAGMENTS,shipFragmentSpeedFeature,Boolean,TRUE,,Restart not required,,,Features
+ENABLE_BOUNDS,shipBoundsFeature,Boolean,TRUE,,"Restart not required. High value can cause sabots to separate early. To fix, edit submunitionFeature",,,Features
+ENABLE_LEADING_TARGET_ACCURACY,autofireAccuracyFeature,Boolean,TRUE,,Restart not required,,,Features
+ENABLE_PHASE_CONSTANTS,phaseConstantsFeature,Boolean,TRUE,,,,,Features
+ENABLE_PPT,pptFeature,Boolean,TRUE,,peak performance time,,,Features
+ENABLE_CR_REDUCTION,crReductionOnDamageFeature,Boolean,FALSE,,Restart not required,,,Features
+ENABLE_RETREAT_AT_LOW_CR,retreatAtLowCrFeature,Boolean,FALSE,,Restart not required,,,Features
+ENABLE_NO_FLUX_BURN_SYSTEMS,noFluxBurnSystemsFeature,Boolean,TRUE,,"Restart not required. Modifies certain systems to not give flux, such as burn drive, causing it to not disable ZFSB when active, meaning that you don't have to hold forward to go back to top speed after use, unfortunately, this does not work on the orion device",,,Features
+ENABLE_ZERO_FLUX_BOOST,zeroFluxBoostFeature,Boolean,FALSE,,Restart not required,,,Features
+bcom_features_6,Misc Features,Header,Misc Features,,,,,Features
+ENABLE_ARBITRARY_SETTING,arbitrarySettingFeature,Boolean,TRUE,,overwrites settings.json,,,Features
+ENABLE_CUSTOM_VALUES,customValuesFeature,Boolean,TRUE,,allows modification of many values based on particular ship or weapon,,,Features
+bcom_value_16,Map Feature,Header,Map Feature,,,,,Map Values
+MAP_SIZE_FACTOR,mapSizeFactor,Double,3,,Factor by which to multiply the length and width of the combat map,,,Map Values
+MAP_SIZE_MULT_NO_OBJECTIVES,mapSizeFactorNoObjectives,Double,1,,Factor to multiply the map size when there are no objectaves.,,,Map Values
+STANDOFF_FACTOR_WITH_OBJECTIVES,standOffFactorWithObjectives,Double,0.75,,Factor by which to multiply the standoff between fleets on a combat map having objectives,,,Map Values
+STANDOFF_FACTOR_WITHOUT_OBJECTIVES,standOffFactorWithoutObjectives,Double,0.75,,Factor by which to multiply fleet standoff on a combat map lacking objectives,,,Map Values
+bcom_value_18,deploymentFeature,Header,Deployment Feature,,Restart not required,,,Map Values
+DEPLOY_X_DIST,deploymentXDist,Double,500,,how far away the ships will deploy from each other,0,100000,Map Values
+DEPLOY_Y_DIST,deploymentYDist,Double,500,,how far away the ships will deploy from each other,-100000,100000,Map Values
+DEPLOY_SPACE_USED,deploymentSpaceUsed,Double,0.05,,amount of the space that is taken up by the deployment zone,0,1,Map Values
+INITIAL_DEPLOYMENT_Y_OFFSET,initialDeploymentYOffset,Double,2000,,,-10000,10000,Map Values
+DEPLOYMENT_Y_OFFSET,deploymentYOffset,Double,0,,,-10000,10000,Map Values
+bcom_value_afterDeploymentFeature,afterDeploymentFeature,Header,afterDeploymentFeature,,restart not required,,,Map Values
+DEPLOYMENT_SLOWDOWN_AMOUNT,slowdownAfterDeploymentAmount,Double,0.85,,factor speed is reduced by each second after travel drive shuts off,0,100,Map Values
+DEPLOYMENT_SLOWDOWN_TIME,slowdownAfterDeploymentTime,Double,0,,set to 0 to disable,0,100,Map Values
+DEPLOYMENT_IMMUNITY_TIME,deploymentImmunityTime,Double,2,,makes ships take zero hull and armor damage when they are deploying. Set to 0 to disable. Time is measured after travel drive shuts off.,0,100,Map Values
+bcom_value_22,combatCameraZoomFeature,Header,Combat Camera Zoom Feature,,,,,Map Values
+COMBAT_CAMERA_MAX_ZOOM,combatCameraMaxZoom,Double,5,,,0,100,Map Values
+bcom_value_17,Sight Feature,Header,Sight Feature,,Restart not required,,,Map Values
+SIGHT_MULT,sightMult,Double,3,,,,,Map Values
+bcom_value_5,asteroidFeature,Header,asteroidFeature,,also used by flyin asteroid feature. Restart not required,,,Map Values
+USE_ADDITIONAL_ASTEROID_SPRITES,useAdditionalAsteroidSprites,Boolean,TRUE,,uses asteroids.csv to load more asteroid sprites. Restart required,,,Map Values
+ASTEROID_SCALE_FACTOR,asteroidScaleFactor,Double,3,,serves as the ceiling,,,Map Values
+ASTEROID_MINIMUM_SCALE_FACTOR,asteroidMinimumSizeFactor,Double,0.5,,serves as the floor,,,Map Values
+ASTEROID_DENSITY,asteroidDensity,Double,0.00000004,,in square map units per asteroid,0,0.01,Map Values
+FORCE_ASTEROIDS,forceAsteroids,Boolean,FALSE,,forces there to be asteroids when there should be none on the map,,,Map Values
+MAX_ASTEROIDS,maxAsteroids,Int,1500,,,0,100000,Map Values
+ASTEROID_MASS,asteroidMassFactor,Double,7.5,,,,,Map Values
+ASTEROID_HP,asteroidHpFactor,Double,200,,,,,Map Values
+ASTEROID_HP_EXPONENT,asteroidHpExponentFactor,Double,1.1,,,,,Map Values
+STARTING_ASTEROIDS_MOVE,asteroidsMoveWithFlyinAsteroids,Boolean,TRUE,,,,,Map Values
+bcom_value_6,flyinAsteroidFeature,Header,flyinAsteroidFeature,,Restart not required,,,Map Values
+FLYIN_ASTEROID_NUMBER,flyinAstoidNumberMultiplier,Double,0.1,,"in asteroids/second average per border size of a 10,000 map size",,,Map Values
+FLYIN_ASTEROID_SPEED,flyinAsteroidSpeedMultiplier,Double,400,,,0,10000,Map Values
+ASTEROID_RANDOM_MOVEMENT_FACTOR,asteroidRandomMovementFactor,Double,0.2,,based on speed. Should be less than 1,0,1,Map Values
+ASTEROIDS_FOR_MAX_SPAWN,numNearbyAsteroidsForMaxSpawn,Int,0,,asteroids within 300 units of player fleet,,,Map Values
+ASTEROID_SIZE_SLOWDOWN_FACTOR,asteroidSizeSlowdownFactor,Double,10,,multiplied with the asteroid size,,,Map Values
+bcom_value_12,asteroidSplittingFeature,Header,asteroidSplittingFeature,,"be careful setting these values, it can easily lead to a runaway effect. Restart not required",,,Map Values
+SPLIT_ASTEROIDS_MIN_SIZE,asteroidSplittingMinSize,Double,0.001,,size is not in ordinary units. It is turning radius of the asteroid into a size multiplier,,,Map Values
+SPLIT_ASTEROIDS_MAX_SIZE,asteroidSplittingMaxSize,Double,0.015,,,,,Map Values
+SPLIT_ASTEROIDS_MIN_NUMBER,asteroidSplittingMinNumber,Double,0.01,,also not in ordinary units,,,Map Values
+SPLIT_ASTEROIDS_MAX_NUMBER,asteroidSplittingMaxNumber,Double,0.5,,,,,Map Values
+SPLIT_ASTEROIDS_ABSOLUTE_MAX,asteroidSplittingMax,Integer,20,,maximum number of fragments,,,Map Values
+SPLIT_ASTEROIDS_MIN_SPEED,asteroidSplittingMinSpeed,Double,1,,,0,1000000,Map Values
+SPLIT_ASTEROIDS_MAX_SPEED,asteroidSplittingMaxSpeed,Double,500,,,0,1000000,Map Values
+bcom_value_7,weaponRangeFeature,Header,weaponRangeFeature,,,,,Weapon Values
+WEAPON_RANGE_EXP,weaponRangeExponent,Double,1,,Calculated from the top down,0,100,Weapon Values
+WEAPON_RANGE_MULT,weaponRangeMultiplier,Double,1.5,,,0,10000,Weapon Values
+WEAPON_RANGE_ADDITON,weaponRangeAddition,Double,1500,,,-1000000,1000000,Weapon Values
+bcom_value_11,weaponRangeThresholdFeature,Header,weaponRangeThresholdFeature,,Restart not required,,,Weapon Values
+WEAPON_RANGE_THRESHOLD_MULT,weaponRangeThresholdMult,Double,2,,,,,Weapon Values
+bcom_value_25,projectileCoastFeature,Header,projectileCoastFeature,,,,,Weapon Values
+PROJECTILE_COAST_MULT,ballisticCoastMultiplier,Double,1,,,,,Weapon Values
+bcom_value_13,projectileSpeedFeature,Header,projectileSpeedFeature,,,,,Weapon Values
+PROJECTILE_SPEED_MULT,projectileSpeedMult,Double,1.5,,,,,Weapon Values
+bcom_value_14,recoilFeature,Header,recoilFeature,,,,,Weapon Values
+SPREAD_BUILDUP_MULT,spreadBuildupMult,Double,0.2,,,,,Weapon Values
+SPREAD_DECAY_MULT,spreadDecayMult,Double,0.5,,,,,Weapon Values
+MAX_SPREAD_MULT,maxSpreadMult,Double,0.2,,,,,Weapon Values
+bcom_value_weaponDamageFeature,weaponDamageFeature,Header,weaponDamageFeature,,,,,Weapon Values
+WEAPON_DAMAGE_MULT,weaponDamageMult,Double,1,,"effects all missiles, beams, projectiles, submunitions. Will not include special effects",,,Weapon Values
+bcom_value_beamDamageDropoffFeature,beamDamageDropoffFeature,Header,beamDamageDropoffFeature,,Restart not required,,,Weapon Values
+BEAM_DROPOFF_OFFSET,beamDropoffOffset,Double,0.3,,proportion of the beam that no dropoff happens,,,Weapon Values
+BEAM_DROPOFF_EXP,beamDropoffExp,Double,1.2,,calculated before mult. Higher number is a steeper dropoff,,,Weapon Values
+BEAM_DROPOFF_MULT,beamDropoffMult,Double,1,,"1 means if offset is 0 then it will be at 0 damage at max range, if lower, the beam will not reach zero. If dropoff is 0.5 then it needs to be 2 to get to zero damage at max range",,,Weapon Values
+bcom_value_0,missileRangeFeature,Header,missileRangeFeature,,"Depending on the feature, game restart may be required",,,Weapon Values
+MISSILE_RANGE_MULT,missileRangeMultiplier,Double,3,,,,,Weapon Values
+bcom_value_15,missileSpeedFeature,Header,missileSpeedFeature,,,,,Weapon Values
+MISSILE_SPEED_MULT,missileSpeedMult,Double,4,,"this does effect the range, giving the missile effectively more range",,,Weapon Values
+MISSILE_ACCELERATION_MULT,missileAccelerationMult,Double,1.5,,,,,Weapon Values
+MISSILE_DECELERATION_MULT,missileDecelerationMult,Double,4,,,,,Weapon Values
+MISSILE_TURN_ACCELERATION_MULT,missileTurnAccelerationMult,Double,2,,,,,Weapon Values
+MISSILE_MAX_TURN_RATE_MULT,missileMaxTurnRateMult,Double,1,,,,,Weapon Values
+bcom_value_21,submunitionFeature,Header,Submunition Feature,,,,,Weapon Values
+SUBMUNITION_SPLIT_RANGE,submunitionSplitRangeMult,Double,1,,,0,100,Weapon Values
+SUBMUNITION_SPLIT_RANGE_RANGE,submunitionSplitRangeRangeMult,Double,1,,only for projectiles. Missiles use the missile modification,0,100,Weapon Values
+SUBMUNITION_SPREAD_SPEED,submunitionSpeedMult,Double,1,,,0,100,Weapon Values
+SUBMUNITION_SPREAD_SPEED_RANGE,submunitionSpreadSpeedMult,Double,1,,,0,100,Weapon Values
+SUBMUNITION_PROJECTILE_RANGE,submunitionProjectileRangeMult,Double,2,,,0,100,Weapon Values
+SUBMUNITION_ARC,submunitionArcMult,Double,1,,,0,100,Weapon Values
+bcom_value_2,fighterRangeFeature,Header,fighterRangeFeature,,,,,Weapon Values
+FIGHTER_RANGE_MULT,fighterRangeMultiplier,Double,5,,,,,Weapon Values
+bcom_value_4,fighterSpeedBoostFeature,Header,fighterSpeedBoostFeature,,,,,Weapon Values
+FIGHTER_BASE_SPEED,fighterTargetSpeed,Double,600,,,0,600,Weapon Values
+FIGHTER_SPEED_BOOST_FACTOR,fighterSpeedBoostFactor,Double,0.4,,moves the ship speed to target value. 0.5 means the final speed will be the average between the base and target speed,0,1,Weapon Values
+bcom_value_8,shipSpeedFeature,Header,shipSpeedFeature,,,,,Ship Values
+SHIP_BASE_SPEED,shipTargetSpeed,Double,600,,,0,600,Ship Values
+SHIP_SPEED,shipSpeedFactor,Double,0.4,,"moves the ship speed to target value. 0.5 means the final speed will be the average between the base and target speed
+",0,1,Ship Values
+bcom_value_9,shipAccelerationFeature,Header,shipAccelerationFeature,,,,,Ship Values
+SHIP_ACCELERATION_MULT,shipAccelerationMultiplier,Double,1.1,,,,,Ship Values
+SHIP_ACCELERATION_ADDITION,shipAccelerationAddition,Double,0,,,-1000,1000,Ship Values
+SHIP_DECELERATION_MULT,shipDecelerationMultiplier,Double,0.8,,,0,1000,Ship Values
+SHIP_DECELERATION_ADDITION,shipDecelerationAddition,Double,5,,,-1000,1000,Ship Values
+TURN_ACCELERATION_MULT,turnAccelerationMult,Double,1,,,0,1000,Ship Values
+TURN_ACCELERATION_ADDITION,turnAccelerationAddition,Double,0,,,-1000,1000,Ship Values
+MAX_TURN_RATE_MULT,maxTurnRateMult,Double,1,,,0,1000,Ship Values
+MAX_TURN_RATE_ADDITION,maxTurnRateAddition,Double,0,,,-1000,1000,Ship Values
+bcom_value_26,shipDefenceFeature,Header,shipDefenceFeature,,,,,Ship Values
+ARMOR_MULT,armorMult,Double,1,,,0,1000,Ship Values
+ARMOR_ADDITION,armorAddition,Double,0,,,-1000,1000,Ship Values
+SHIP_HP_MULT,shipHpMult,Double,1,,,0,1000,Ship Values
+SHIP_HP_ADDITION,shipHpAddition,Double,0,,,-1000,1000,Ship Values
+bcom_value_27,shipShieldAndPhaseFeature,Header,shipShieldAndPhaseFeature,,,,,Ship Values
+SHIELD_UPKEEP_MULT,shieldUpkeepMult,Double,1,,,0,1000,Ship Values
+SHIELD_UPKEEP_ADDITION,shieldUpkeepAddition,Double,0,,,-1000,1000,Ship Values
+SHIELD_EFFICIENCY_MULT,shieldEfficiencyMult,Double,1,,,0,1000,Ship Values
+SHIELD_EFFICIENCY_ADDITION,shieldEfficiencyAddition,Double,0,,,-1000,1000,Ship Values
+SHIELD_ARC_MULT,shieldArcMult,Double,1,,,0,1000,Ship Values
+SHIELD_ARC_ADDITION,shieldArcAddition,Double,0,,,-1000,1000,Ship Values
+SHIELD_RADIUS_MULT,shieldRadiusMult,Double,1,,,0,1000,Ship Values
+SHIELD_RADIUS_ADDITION,shieldRadiusAddition,Double,0,,,-1000,1000,Ship Values
+PHASE_COST_MULT,phaseCostMult,Double,1,,,0,1000,Ship Values
+PHASE_COST_ADDITION,phaseCostAddition,Double,0,,,-1000,1000,Ship Values
+PHASE_UPKEEP_MULT,phaseUpkeepMult,Double,1,,,0,1000,Ship Values
+PHASE_UPKEEP_ADDITION,phaseUpkeepAddition,Double,0,,,-1000,1000,Ship Values
+bcom_value_phaseConstantsFeature,phaseConstantsFeature,Header,phaseConstantsFeature,,,,,Ship Values
+PHASE_MINIMUM_SLOWDOWN,phaseMinimumSlowdown,Double,0.5,,default is 0.33,0,1,Ship Values
+PHASE_FLUX_LEVEL_FOR_MIN_SPEED,phaseFluxLevelForMinSpeed,Double,0.5,,default is 0.5,0,1,Ship Values
+PHASE_TIME_MULT,PhaseTimeMult,Double,3,,default is 3,0,1000,Ship Values
+bcom_value_28,shipFluxFeature,Header,shipFluxFeature,,,,,Ship Values
+FLUX_DISSIPATION_MULT,fluxDissipationMult,Double,1,,,0,1000,Ship Values
+FLUX_DISSIPATION_ADDITION,fluxDissipationAddition,Double,0,,,-1000,1000,Ship Values
+FLUX_CAPACITY_MULT,fluxCapacityMult,Double,1,,,0,1000,Ship Values
+FLUX_CAPACITY_ADDITION,fluxCapacityAddition,Double,0,,,-1000,1000,Ship Values
+bcom_values_opFeature,opFeature,Header,opFeature,,,,,Ship Values
+OP_MULT,shipOpMult,Double,1,,,,,Ship Values
+OP_ADDITION,shipOpAddition,Int,0,,,-1000,1000,Ship Values
+bcom_values_shipExplosionFeature,shipExplosionFeature,Header,shipExplosionFeature,,Restart not required,,,Ship Values
+EXCLUDE_REDUCED_EXPLOSION,explosionNegatedByReducedExplosionHullmod,Boolean,TRUE,,,,,Ship Values
+EXPLOSION_RADIUS_MULT,explosionRadiusMult,Double,2,,,0,1000,Ship Values
+EXPLOSION_DAMAGE_MULT,explosionDamageMult,Double,0.5,,,0,1000,Ship Values
+bcom_values_shipBreakFeature,shipBreakFeature,Header,shipBreakFeature,,,,,Ship Values
+BREAK_PROB_MULT,breakProbabilityMult,Double,2,,,0,1000,Ship Values
+MIN_PIECES_MULT,minPiecesMult,Double,1,,,0,100,Ship Values
+MIN_PIECES_ADDITION,minPiecesAddition,Int,0,,,0,100,Ship Values
+MAX_PIECES_MULT,maxPiecesMult,Double,1,,,0,100,Ship Values
+MAX_PIECES_ADDITION,maxPiecesAddition,Int,0,,,0,100,Ship Values
+PIECES_LIMIT,piecesLimit,Int,10000,,,0,10000,Ship Values
+bcom_value_shipFragmentSpeedFeature,shipFragmentSpeedFeature,Header,shipFragmentSpeedFeature,,Restart not required,,,Ship Values
+SHIP_FRAGMENT_MAX_FACTOR,shipFragmentMaxSpeedFactor,Double,600,,,0,10000,Ship Values
+SHIP_FRAGMENT_MIN_FACTOR,shipFragmentMinSpeedFactor,Double,200,,,0,10000,Ship Values
+SHIP_FRAGMENT_SLOWDOWN_FACTOR,shipFragmentSlowdownByMass,Double,0.001,,,0,1,Ship Values
+bcom_value_10,shipBoundsFeature,Header,shipBoundsFeature,,Restart not required,,,Ship Values
+BOUNDS_MULT,shipBoundsMultiplier,Double,3.5,,,,,Ship Values
+bcom_value_20,autofireAccuracyFeature,Header,,,,,,Ship Values
+AUTOFIRE_ACCURACY,autofireAccuracy,Double,5,,,0,100,Ship Values
+bcom_value_pptFeature,pptFeature,Header,pptFeature,,,,,Ship Values
+PPT_MULT,pptMult,Double,1,,,0,1000,Ship Values
+PPT_ADDITION,pptAddition,Double,0,,,-1000,1000,Ship Values
+CR_DECAY_MULT,crDecayMult,Double,1,,,0,1000,Ship Values
+bcom_value_19,crReductionOnDamageFeature,Header,CR Feature,,Restart not required,,,Ship Values
+CR_REDUCTION_HULL_OFFSET,crOffset,Double,0.2,,fraction of hull that needs to go down before CR damage,0,1,Ship Values
+PPT_PER_HULL_DAMAGE,pptPerHullDamage,Double,500,,ppt takes damage before CR. Seconds of PPT per hull proportion,0,1000000,Ship Values
+CR_REDUCTION,crReduction,Double,1.75,,CR per hull proportion,0,100,Ship Values
+bcom_value_retreatAtLowCrFeature,retreatAtLowCrFeature,Header,retreatAtLowCrFeature,,Restart not required,,,Ship Values
+RETREAT_CR_RECKLESS,crRetreatReckless,Double,0.1,,,0,1,Ship Values
+RETREAT_CR_AGGRESSIVE,crRetreatAggressive,Double,0.2,,,0,1,Ship Values
+RETREAT_CR_STEADY,crRetreatSteady,Double,0.3,,,0,1,Ship Values
+RETREAT_CR_CAUTIOUS,crRetreatCautious,Double,0.4,,,0,1,Ship Values
+RETREAT_CR_TIMID,crRetreatTimid,Double,0.5,,,0,1,Ship Values
+bcom_value_3,zeroFluxBoostFeature,Header,zeroFluxBoostFeature,,Restart not required,,,Ship Values
+ZERO_FLUX_BOOST_LIMIT,zeroFluxBoostSpeedLimit,Int,300,,,0,600,Ship Values
+ENABLE_ZERO_FLUX_FIX_DEPLOY,zeroFluxBoostFeatureFixDeploy,Boolean,FALSE,,this fixes deployment yeeting the ships at max zero flux speed,,,Ship Values
+MINIMUM_ZERO_FLUX_SPEED_BOOST_MULT,zeroFluxMinimumSpeed,Double,50,,The minimum zero flux speed boost if the limit is set below the zero flux speed of ships,0,600,Ship Values
+ZERO_FLUX_SPEED_BOOST_MINIMUM_FLUX,zeroFluxSpeedBoostMinimumFlux,Double,0,,#normally at 0. This increases the minimum flux needed for ZFSB. 1 = max flux,0,1,Ship Values
+bcom_value_23,arbitrarySettingFeature,Header,Arbitrary Setting Feature,,,,,Misc Values
+bcom_value_24,arbitrarySettingValue,Text,"Arbitrary settings uses JSON, and the lunalib text field is inadequate for this. Even when use lunalib is enabled, this setting will still use the settings file. Edit this value at the bottom of the better combat setting file at:
+[better_combat/data/config/bcomSettings.json]",,,,,Misc Values
+bcom_value_customValuesFeature,customValuesFeature,Header,Custom Values Feature,,,,,Misc Values
+customValuesFeatureBlurb,CustomValuesBlurb 1,Text,"Allows modification of many values based on particular ship or weapon.
+
+This [will not] turn features on for you. i.e. if one of these settings modifies range, and range is disabled, this will not modify the range.
+
+Ships and weapons must meet all selected criteria to be modified.
+
+All values are floats. Settings that are integers will be truncated.",,,,,Misc Values
+INCLUDE_SETTINGS_CUSTOM_FEATURES,includeSettingsCustomFeatures,Boolean,FALSE,,Include settings found in the bcom settings file along with these ones.,,,Misc Values
+bcom_value_customValuesFeature_block_1,customValuesFeature,Header,Custom Values Feature Weapon Block 1,,,,,Misc Values
+customValuesId1,id,String,bcom_none,,"ex. flak
+bcom_none to not select anything",,,Misc Values
+customValuesWeaponProjectile1,projectileId,String,bcom_none,,"ex. reaper_torp
+bcom_none to not select anything",,,Misc Values
+customValuesWeaponSize1,weapon size,Radio,None,"None, SMALL, MEDIUM, LARGE",,,,Misc Values
+customValuesWeaponType1,weapon type,Radio,None,"None, BALLISTIC, ENERGY, MISSILE, UNIVERSAL, HYBRID, SYNERGY, COMPOSITE",,,,Misc Values
+customValuesTechStyle1,techstyle,String,bcom_none,,"ex. Low Tech, High Tech, Midline
+bcom_none to not select anything",,,Misc Values
+customValuesTag1,tag,String,bcom_none,,"ex. PD
+bcom_none to not select anything",,,Misc Values
+customValuesHint1,hint,String,bcom_none,,ex. SYSTEM,,,Misc Values
+customValuesEffectFirst1,value to modify 1,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorFirst1,Value 1,Double,0,,,-10000,10000,Misc Values
+customValuesEffectSecond1,value to modify 2,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorSecond1,Value 2,Double,0,,,-10000,10000,Misc Values
+customValuesEffectThird1,value to modify 3,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorThird1,Value 3,Double,0,,,-10000,10000,Misc Values
+bcom_value_customValuesFeature_block_2,customValuesFeature,Header,Custom Values Feature Weapon Block 2,,,,,Misc Values
+customValuesId2,id,String,bcom_none,,"ex. flak
+bcom_none to not select anything",,,Misc Values
+customValuesWeaponProjectile2,projectileId,String,bcom_none,,"ex. reaper_torp
+bcom_none to not select anything",,,Misc Values
+customValuesWeaponSize2,weapon size,Radio,None,"None, SMALL, MEDIUM, LARGE",,,,Misc Values
+customValuesWeaponType2,weapon type,Radio,None,"None, BALLISTIC, ENERGY, MISSILE, UNIVERSAL, HYBRID, SYNERGY, COMPOSITE",,,,Misc Values
+customValuesTechStyle2,techstyle,String,bcom_none,,"ex. Low Tech, High Tech, Midline
+bcom_none to not select anything",,,Misc Values
+customValuesTag2,tag,String,bcom_none,,"ex. PD,
+bcom_none to not select anything",,,Misc Values
+customValuesHint2,hint,String,bcom_none,,ex. SYSTEM,,,Misc Values
+customValuesEffectFirst2,value to modify 1,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorFirst2,Value 1,Double,0,,,-10000,10000,Misc Values
+customValuesEffectSecond2,value to modify 2,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorSecond2,Value 2,Double,0,,,-10000,10000,Misc Values
+customValuesEffectThird2,value to modify 3,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorThird2,Value 3,Double,0,,,-10000,10000,Misc Values
+bcom_value_customValuesFeature_block_3,customValuesFeature,Header,Custom Values Feature Weapon Block 3,,,,,Misc Values
+customValuesId3,id,String,bcom_none,,"ex. flak
+bcom_none to not select anything",,,Misc Values
+customValuesWeaponProjectile3,projectileId,String,bcom_none,,"ex. reaper_torp
+bcom_none to not select anything",,,Misc Values
+customValuesWeaponSize3,weapon size,Radio,None,"None, SMALL, MEDIUM, LARGE",,,,Misc Values
+customValuesWeaponType3,weapon type,Radio,None,"None, BALLISTIC, ENERGY, MISSILE, UNIVERSAL, HYBRID, SYNERGY, COMPOSITE",,,,Misc Values
+customValuesTechStyle3,techstyle,String,bcom_none,,"ex. Low Tech, High Tech, Midline
+bcom_none to not select anything",,,Misc Values
+customValuesTag3,tag,String,bcom_none,,"ex. PD
+bcom_none to not select anything",,,Misc Values
+customValuesHint3,hint,String,bcom_none,,ex. SYSTEM,,,Misc Values
+customValuesEffectFirst3,value to modify 1,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorFirst3,Value 1,Double,0,,,-10000,10000,Misc Values
+customValuesEffectSecond3,value to modify 2,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorSecond3,Value 2,Double,0,,,-10000,10000,Misc Values
+customValuesEffectThird3,value to modify 3,Radio,none,"none, weaponRangeExponent, weaponRangeMultiplier, weaponRangeAddition, ballisticCoastMultiplier, projectileSpeedMult, spreadBuildupMult, spreadDecayMult, maxSpreadMult, weaponDamageMult, beamDropoffOffset, beamDropoffExp, beamDropoffMult, missileRangeMultiplier, missileSpeedMult, missileAccelerationMult, missileDecelerationMult, missileTurnAccelerationMult, missileMaxTurnRateMult, submunitionSplitRangeMult, submunitionSplitRangeRangeMult, submunitionSpeedMult, submunitionSpreadSpeedMult, submunitionProjectileRangeMult, submunitionArcMult",,,,Misc Values
+customValuesFactorThird3,Value 3,Double,0,,,-10000,10000,Misc Values
+bcom_value_customValuesFeature_block_4,customValuesFeature,Header,Custom Values Feature Ship Block 1,,,,,Misc Values
+customValuesId4,id,String,bcom_none,,"ex. hound
+bcom_none to not select anything",,,Misc Values
+customValuesShipSize4,hull size,Radio,None,"None, FIGHTER, FRIGATE, DESTROYER, CRUISER, CAPITAL_SHIP",,,,Misc Values
+customValuesTechStyle4,techstyle,String,bcom_none,,"ex. Low Tech, High Tech, Midline
+bcom_none to not select anything",,,Misc Values
+customValuesTag4,tag,String,bcom_none,,"ex. rare_bp
+bcom_none to not select anything",,,Misc Values
+customValuesHint4,hint,String,bcom_none,,ex. TANKER,,,Misc Values
+customValuesEffectFirst4,value to modify 1,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorFirst4,Value 1,Double,0,,,-10000,10000,Misc Values
+customValuesEffectSecond4,value to modify 2,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorSecond4,Value 2,Double,0,,,-10000,10000,Misc Values
+customValuesEffectThird4,value to modify 3,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorThird4,Value 3,Double,0,,,-10000,10000,Misc Values
+bcom_value_customValuesFeature_block_5,customValuesFeature,Header,Custom Values Feature Ship Block 2,,,,,Misc Values
+customValuesId5,id,String,bcom_none,,"ex. hound
+bcom_none to not select anything",,,Misc Values
+customValuesShipSize5,hull size,Radio,None,"None, FIGHTER, FRIGATE, DESTROYER, CRUISER, CAPITAL_SHIP",,,,Misc Values
+customValuesTechStyle5,techstyle,String,bcom_none,,"ex. Low Tech, High Tech, Midline
+bcom_none to not select anything",,,Misc Values
+customValuesTag5,tag,String,bcom_none,,"ex. rare_bp
+bcom_none to not select anything",,,Misc Values
+customValuesHint5,hint,String,bcom_none,,ex. TANKER,,,Misc Values
+customValuesEffectFirst5,value to modify 1,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorFirst5,Value 1,Double,0,,,-10000,10000,Misc Values
+customValuesEffectSecond5,value to modify 2,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorSecond5,Value 2,Double,0,,,-10000,10000,Misc Values
+customValuesEffectThird5,value to modify 3,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorThird5,Value 3,Double,0,,,-10000,10000,Misc Values
+bcom_value_customValuesFeature_block_6,customValuesFeature,Header,Custom Values Feature Ship Block 3,,,,,Misc Values
+customValuesId6,id,String,bcom_none,,"ex. hound
+bcom_none to not select anything",,,Misc Values
+customValuesShipSize6,hull size,Radio,None,"None, FIGHTER, FRIGATE, DESTROYER, CRUISER, CAPITAL_SHIP",,,,Misc Values
+customValuesTechStyle6,techstyle,String,bcom_none,,"ex. Low Tech, High Tech, Midline
+bcom_none to not select anything",,,Misc Values
+customValuesTag6,tag,String,bcom_none,,"ex. rare_bp
+bcom_none to not select anything",,,Misc Values
+customValuesHint6,hint,String,bcom_none,,ex. TANKER,,,Misc Values
+customValuesEffectFirst6,value to modify 1,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorFirst6,Value 1,Double,0,,,-10000,10000,Misc Values
+customValuesEffectSecond6,value to modify 2,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorSecond6,Value 2,Double,0,,,-10000,10000,Misc Values
+customValuesEffectThird6,value to modify 3,Radio,none,"none, sightMult, weaponRangeThresholdMult ,fighterRangeMultiplier, fighterTargetSpeed, fighterSpeedBoostFactor, shipTargetSpeed, shipSpeedFactor, shipAccelerationMultiplier, shipAccelerationAddition, shipDecelerationMultiplier, shipDecelerationAddition, turnAccelerationMult, turnAccelerationAddition, maxTurnRateMult, maxTurnRateAddition, armorMult, armorAddition, shipHpMult, shipHpAddition, shieldUpkeepMult, shieldUpkeepAddition, shieldEfficiencyMult, shieldEfficiencyAddition, shieldArcMult, shieldArcAddition, shieldRadiusMult, shieldRadiusAddition, phaseCostMult, phaseCostAddition, phaseUpkeepMult, phaseUpkeepAddition, fluxDissipationMult, fluxDissipationAddition, fluxCapacityMult, fluxCapacityAddition, shipOpMult, shipOpAddition, explosionRadiusMult, explosionDamageMult, shipFragmentMaxSpeedFactor, shipFragmentMinSpeedFactor, shipFragmentSlowdownByMass, shipBoundsMultiplier, autofireAccuracy, pptMult, pptAddition, crDecayMult, crOffset, pptPerHullDamage, crReduction, crRetreatReckless, crRetreatAggressive, crRetreatSteady, crRetreatCautious, crRetreatTimid, zeroFluxBoostSpeedLimit, zeroFluxMinimumSpeed, zeroFluxSpeedBoostMinimumFlux",,,,Misc Values
+customValuesFactorThird6,Value 3,Double,0,,,-10000,10000,Misc Values

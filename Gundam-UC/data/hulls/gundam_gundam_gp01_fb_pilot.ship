@@ -1,0 +1,129 @@
+{
+  "hullName": "Gundam RX-78GP01 Zephyranthes",
+  "hullId": "gundam_gundam_gp01_fb_pilot",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/gundam_gp01_fb/gundam_gundam_gp01_fb_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 38,
+  "width": 29,
+  "center": [15, 21],
+  "collisionRadius": 17.5,
+  "shieldCenter": [-14.5, 5.5],
+  "shieldRadius": 35.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "strikeCraft",
+    "armaa_wingCommander",
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gundam_gp01_fb_gun",
+    "HEAD": "gundam_gundam_gp01_fb_head",
+    "L_PACK": "gundam_gundam_gp01_fb_leftpack",
+    "MELEE": "gundam_saber_purple",
+    "R_PACK": "gundam_gundam_gp01_fb_rightpack",
+    "SHIELD": "gundam_gundam_gp01_fb_shield",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-9.5, 0.5]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-2.5, -10]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-4, 11.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [13, -18.5]
+    },
+    {
+      "id": "L_PACK",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 145,
+      "locations": [-12, 7.5]
+    },
+    {
+      "id": "R_PACK",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -145,
+      "locations": [-12, -7.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 145,
+      "locations": [-12, 7.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -145,
+      "locations": [-12, -7.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 6],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    },
+    {
+      "location": [-15, -6],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    }
+  ],
+  "bounds": [
+    -8, 8.5,
+    7, 8.5,
+    7, -8,
+    -8, -8
+  ]
+}

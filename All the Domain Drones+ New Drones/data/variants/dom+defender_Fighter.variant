@@ -1,0 +1,27 @@
+{
+  "variantId": "dom+defender_Fighter",
+  "hullId": "dom+defender",
+  "displayName": "Fighter Carrier",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightmg",
+        "WS 002": "lightmg",
+        "WS 003": "lightmg",
+        "WS 004": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+fencer_wing_Fighter_wing"
+  ]
+}

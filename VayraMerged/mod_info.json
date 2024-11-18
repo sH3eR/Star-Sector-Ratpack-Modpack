@@ -1,0 +1,11 @@
+{
+	"id":"vayramerged",
+	"name":"RP Bootleg Vayra Merged",
+	"author":"Sheer, Vayra and Shark",
+	"version":"3.3.12", # GO UPDATE YOUR VERSION FILE (as the last thing you do before uploadin cuz otherwise... heh)		# update README.md, mod_info.json, vayramerged.version
+	"description":"Remember to edit VAYRA_SETTINGS.ini in the mod directory to enable/disable features. Requires LazyLib. Suck it vayra",
+	#"gameVersion":"0.9.1a-RC8",
+	"gameVersion": "0.97a-RC11",
+	"jars":["jars/VayraMerged.jar"],
+	"modPlugin":"data.scripts.VayraMergedModPlugin",
+}

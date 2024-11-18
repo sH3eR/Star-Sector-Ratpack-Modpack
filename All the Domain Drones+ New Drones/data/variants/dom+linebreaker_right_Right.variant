@@ -1,0 +1,49 @@
+{
+  "variantId": "dom+linebreaker_right_Right",
+  "hullId": "dom+linebreaker_right",
+  "displayName": "Right Module",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightmg",
+        "WS0004": "lightmg",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0006": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoonpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

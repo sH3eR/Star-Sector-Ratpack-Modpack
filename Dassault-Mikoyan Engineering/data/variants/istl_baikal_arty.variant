@@ -1,0 +1,39 @@
+{
+    "displayName": "Artillery",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "hullId": "istl_baikal",
+    "hullMods": ["hardenedshieldemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_baikal_arty",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_ruptureasm_med",
+                "WS0008": "istl_marteau_esm_barrage",
+                "WS0009": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_hellspear",
+                "WS0002": "istl_shockartillery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_micropd",
+                "WS0005": "istl_micropd",
+                "WS0006": "istl_micropd",
+                "WS0007": "istl_microflak"
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "gundam_blaster_cannon",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/blaster_cannon/gundam_blaster_cannon_turret_base00.png",
+  "turretGlowSprite": "graphics/weapons/blaster_cannon/gundam_blaster_cannon_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/blaster_cannon/gundam_blaster_cannon_hardpoint_base00.png",
+  "hardpointGlowSprite": "graphics/weapons/blaster_cannon/gundam_blaster_cannon_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "hitGlowRadius": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    9.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 45,
+  "frameRate": 7,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      200,
+      100,
+      50,
+      200
+    ]
+  },
+  "fringeColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    150
+  ],
+  "width": 45,
+  "textureType": [
+    "graphics/fx/gundam_beam_fx_i1.png",
+    "graphics/fx/gundam_beam_fx_f1.png"
+  ],
+  "textureScrollSpeed": 300,
+  "pixelsPerTexel": 2,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne":"gundam_minovski_charge",
+  "fireSoundTwo":"gundam_minovski_beam",
+}

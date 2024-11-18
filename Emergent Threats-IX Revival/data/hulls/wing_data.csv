@@ -1,0 +1,12 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+axiom_ix_wing,axiom_ix_fighter,"interceptor5, interceptor, high, ixbattlegroup",2,,6,12,V,4000,500,,3,INTERCEPTOR,Interceptor,12,9000,,,,,,,,,,,,,23.1
+dictum_ix_wing,dictum_ix_fighter,"fighter6, fighter, high, ixbattlegroup",2,,7,18,V,4000,600,300,2,FIGHTER,Heavy Fighter,20,12000,,,,,,,,,,,,,1.1
+maxim_ix_wing,maxim_ix_fighter,"bomber6, bomber, high, ixbattlegroup",3,,6,20,BOX,4000,800,300,1,BOMBER,Assault Gunship,20,14000,,,,,,,,,,,,,1.2
+terminus_ix_wing,terminus_ix_drone,"no_drop, no_sell, high",3,,6,0,BOX,0,200,,2,SUPPORT,Point Defense,15,0,,,,,,,,,,,,,19.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nimbus_tw_wing,nimbus_tw_fighter,"fighter6, fighter, high, ix_trinity",3,,6,12,V,4000,1200,,2,FIGHTER,Heavy Fighter,15,7000,,,,,,,,,,,,,19.5
+nimbus_tw_wing_c,nimbus_tw_drone,"auto_fighter, fighter6, fighter, no_drop, no_drop_salvage, no_sell, restricted",3,,6,10,V,4000,1200,,2,FIGHTER,Combat Drone,12,0,,,,,,,,,,,,,19.5
+nimbus_tw_wing_r,nimbus_tw_drone,"auto_fighter, fighter6, fighter, no_drop, no_drop_salvage, no_sell, restricted",3,,7,10,V,4000,1200,,3,FIGHTER,Combat Drone,12,0,,,,,,,,,,,,,19.5
+nimbus_tw_wing_s,nimbus_tw_drone,"auto_fighter, fighter6, fighter, no_drop, no_drop_salvage, no_sell, restricted",3,,5,0,V,4000,1200,,1,FIGHTER,Combat Drone,12,0,,,,,,,,,,,,,19.5
+nimbus_tw_wing_m,nimbus_tw_drone,"auto_fighter, fighter6, fighter, no_drop, no_drop_salvage, no_sell, restricted",3,,6,0,V,4000,1200,,2,FIGHTER,Combat Drone,12,0,,,,,,,,,,,,,19.5
+nimbus_tw_wing_l,nimbus_tw_drone,"auto_fighter, fighter6, fighter, no_drop, no_drop_salvage, no_sell, restricted",3,,7,0,V,4000,1200,,3,FIGHTER,Combat Drone,12,0,,,,,,,,,,,,,19.5

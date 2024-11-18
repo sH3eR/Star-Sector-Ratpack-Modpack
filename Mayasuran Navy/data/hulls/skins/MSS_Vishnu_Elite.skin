@@ -1,0 +1,43 @@
+{
+	"baseHullId":"MSS_Vishnu",
+	"skinHullId":"MSS_Vishnu_Elite",
+	"hullName":"Vishnu (M)",
+	"descriptionId":"MSS_Vishnu",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"tech":"Mayasuran",
+	"descriptionPrefix":"The absolute limit of Mayasuran shipmaking, the Vishnu represents every prototype capital ship refined into a beautiful machine.",
+	"ordnancePoints":610,
+	"baseValueMult":1.50,
+	"spriteName":"graphics/mayasura/ships/MSS_Iowa_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[
+	"WS0051",
+	"WS0052", 
+    "WS0053",
+	"WS0019",
+	"WS0020",
+	], 		# weapon slot ids
+	"builtInWeapons":{
+	"WS0051": "MSS_Iowa_Turret_B",
+	"WS0052": "MSS_Iowa_Turret_B",
+	"WS0053": "MSS_Iowa_Turret_B",
+	"WS0019": "MSS_ArmoredBL_B",
+	"WS0020": "MSS_ArmoredBL_B",
+	},
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	 "engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranFlare"},
+
+	},
+}
+
+
+

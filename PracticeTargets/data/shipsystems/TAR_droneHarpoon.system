@@ -1,0 +1,38 @@
+{
+	"id":"TAR_droneHarpoon",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"TAR_missileDrone_harpoon",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":10,
+	"launchDelay":0.5,
+	"maxDrones":4,
+	"droneBehavior":[
+		{"droneIndex":[0,1,2,3],
+		 "defaultFacing":"MATCH_DRONE_HEADING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":200,
+		 "freeRoamRange":500,
+		 "targetPriority":[SHIP_TARGET,SHIP,FIGHTER,MISSILE],
+		 "initialOrbitAngle":0,
+		 "orbitRadius":-20, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":20, 				# pixels/second
+		},
+	],
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"weaponAssignmentSuitability":{
+			"LIGHT_ESCORT":{"mult":1, "flat":5},
+			"DESTROYER_ESCORT":{"mult":1, "flat":5},
+			"FULL_ESCORT":{"mult":1, "flat":5},
+		}
+	}
+}
+

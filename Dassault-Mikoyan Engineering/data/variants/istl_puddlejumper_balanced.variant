@@ -1,0 +1,26 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "hullId": "istl_puddlejumper",
+    "hullMods": ["extendedshieldemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_puddlejumper_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_autolaser_small"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_microflak",
+                "WS0003": "istl_micropd"
+            }
+        }
+    ],
+    "wings": []
+}

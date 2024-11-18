@@ -1,0 +1,66 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "hullId": "tigershark_ix_hvb",
+    "hullMods": [
+        "eccm",
+        "hardenedshieldemitter",
+        "frontemitter",
+        "ix_smod_handler",
+        "ix_panoptic_automated",
+        "ix_panoptic_checker",
+        "ix_hvb_handler",
+        "extendedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "ix_vampyr_retrofit"
+    ],
+    "permaMods": [
+        "eccm",
+        "hardenedshieldemitter",
+        "frontemitter",
+        "ix_panoptic_automated",
+        "ix_panoptic_checker",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "eccm",
+        "hardenedshieldemitter",
+        "frontemitter"
+    ],
+    "variantId": "tigershark_ix_hvb",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "plasma_dart_ix",
+                "WS 006": "plasma_dart_ix",
+                "WS 007": "plasma_dart_ix",
+                "WS 008": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "vampyr_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "bereaver_dem_pod_ix",
+                "WS 002": "bereaver_dem_pod_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 009": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

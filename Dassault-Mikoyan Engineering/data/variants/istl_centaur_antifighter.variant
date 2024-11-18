@@ -1,0 +1,38 @@
+{
+    "displayName": "Anti-Fighter",
+    "fluxCapacitors": 16,
+    "fluxVents": 30,
+    "hullId": "istl_centaur",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_centaur_antifighter",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_erpulsebeam",
+                "WS0006": "istl_erpulsebeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_clusterlauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_micropd",
+                "WS0004": "istl_micropd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_microflak"}
+        }
+    ]
+}

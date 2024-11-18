@@ -1,0 +1,18 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Shield,gundam_shield_system,,,,,,,,1,0,0,,0,0,,,,,,,,,,,,,graphics/ms/gm/gundam_gm_shield.png
+Ball Support,gundam_ball_drone_system,,,,,,,,4,0,0,,0,0,,,,,,,,,,,,,graphics/ms/ball/gundam_ball_body.png
+Ball Type K Support,gundam_ball_typek_drone_system,,,,,,,,4,0,0,,0,0,,,,,,,,,,,,,graphics/ms/ball_typek/gundam_ball_typek_body.png
+GM Support,gundam_gm_drone_system,,,,,,,,2,0,0,,0,0,,,,,,,,,,,,,graphics/ms/gm/gundam_gm_body.png
+Guntank Support,gundam_guntank_drone_system,,,,,,,,2,0,0,,0,0,,,,,,,,,,,,,graphics/ms/guntank/gundam_guntank_body.png
+Zaku II Support,gundam_zaku_ii_drone_system,,,,,,,,2,0,0,,0,0,,,,,,,,,,,,,graphics/ms/zaku_ii/gundam_zaku_ii_body.png
+Zaku II Shield Support,gundam_zaku_ii_shield_drone_system,,,,,,,,1,0,0,,0,0,,,,,,,,,,,,,graphics/ms/zaku_ii/gundam_zaku_ii_body.png
+Zeong Hands,gundam_zeong_drone_system,,,,,,,,2,0,0,,0,0,,,,,,,,,,,,,graphics/ms/zeong/gundam_zeong_hand.png
+Neue Ziel Hands,gundam_neue_ziel_drone_system,,,,,,,,2,0,0,,0,0,,,,,,,,,,,,,graphics/ma/neue_ziel/gundam_neue_ziel_bit.png
+Elmeth Bits,gundam_elmeth_drone_system,,,,,,,,9,0,0,,0,0,,,,,,,,,,,,,graphics/ma/elmeth/gundam_elmeth_bit.png
+Wired Mega Particle Gun,gundam_braw_bro_drone_system,,,,,,,,9,0,0,,0,0,,,,,,,,,,,,,graphics/ma/braw_bro/gundam_braw_bro_bit.png
+Evasion,gundam_evasion_system,,,,,,,,,,0.5,3,0.5,2,TRUE,,,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Elite Evasion,gundam_elite_evasion_system,,,,,,,,,,0.5,3,0.5,1.5,TRUE,,,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Overburn,gundam_elite_blue_speed,100,,,,,,,3,0.1,1,3,0.5,,,,,,,,TRUE,TRUE,,,,restricted,graphics/icons/hullsys/burn_drive.png
+Overburn,gundam_elite_red_speed,100,,,,,,,3,0.1,1,3,0.5,,,,,,,,TRUE,TRUE,,,,restricted,graphics/icons/hullsys/burn_drive.png
+System Overcloak,gundam_blue_overcloak_system,,,,,,,,,,0.25,,0.5,0.25,TRUE,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+System Overcloak,gundam_red_overcloak_system,,,,,,,,,,0.25,,0.5,0.25,TRUE,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png

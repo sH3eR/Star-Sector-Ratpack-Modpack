@@ -1,0 +1,75 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "directoryUseShortName":true,
+    "rebelFleetSuffix":"Deserters",
+    
+	"invasionPointMult": 1,
+	"patrolSizeMult": 1,
+    "marketSpawnWeight":1,
+	"noRandomizeRelations":true,
+	
+	#"hostileToAll":2,
+	
+	"difficultyString":"hard",
+
+    "startRelationships":{ "pirates":0, "independent":0, "magellan_theherd":0, "ix_core":1, "ix_marzanna":1, "rat_exotech":0, "ix_battlegroup":1},
+	"maxRelationships":{ "player": 1, "pirates":1, "independent":0, "magellan_theherd":0, "ix_core":1, "ix_marzanna":1, "rat_exotech":0, "tahlan_legioelite":1, "ix_battlegroup":1 },
+	"diplomacyPositiveChance":{ "default":0 },
+    "diplomacyNegativeChance":{ "default":0 },
+	"morality":"amoral",
+	
+	"raidsFromBases":true,
+	
+	"responseFleetName":"Rapid Reaction Force",
+	
+    "alignments":{
+		"technocratic":1,
+        "hierarchical":1,
+        "militarist":1,
+        "diplomatic":-1.0,
+        "ideological":0.5,
+    },
+    "diplomacyTraits":["foreverwar", "irredentist", "lowprofile"],
+    
+    "colonyExpeditionChance":0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "groundBattleSettings":{
+        "moraleDamageTakenMult":1,
+    },
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    "specialForcesFlagshipVariants":{"aquilon_tw_attack":0.4, "intrepid_tw_attack":0.3, "equalizer_tw_attack":0.3 },
+    
+    "startShipsSolo":[["flourish_tw_attack"], ["brawler_tw_attack"]],
+    "startShipsCombatSmall":[["shrike_tw_beam", "flourish_tw_attack", "brawler_tw_attack"]],
+    "startShipsCombatLarge":[["flamebreaker_tw_attack", "iris_tw_escort"], ["glycon_tw_support", "iris_tw_escort"]],
+	"startShipsCarrierSmall":[["maquech_tw_drone", "maquech_tw_drone", "iris_tw_escort"]],
+	"startShipsTradeSmall":[["buffalo_tw_standard", "flourish_tw_attack"]],
+	"startShipsTradeLarge":[["banteng_tw_standard", "iris_tw_escort", "brawler_tw_attack"]],
+    "startShipsSuper":[["candor_tw_assault"], ["tigershark_tw_artillery"]],
+	
+    "startSpecialItems":[
+        [["ix_trinity_package", ""]],
+    ],
+	
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+	"miningVariantsOrWings":[
+		"buffalo_tw_standard",
+		"banteng_tw_standard",
+	],
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_military", "mult":0.5},
+        {"id":"aiCore_heavyindustry", "mult":0.5},
+        {"id":"aiCore_any", "mult":1.5},
+		],
+	},
+}

@@ -1,0 +1,77 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 4,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "gundam_big_rang",
+  "hullMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt",
+    "fluxcoil",
+	"fluxdistributor",
+	"converted_hangar"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_big_rang_standard",
+    "weaponGroups": [
+	{
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"M_BEAM": "gundam_builtin_yellow_mega_beam"
+		}
+	},
+	{
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0003": "gundam_missile",
+		"WS0004": "gundam_missile",
+		"WS0005": "gundam_missile",
+		"WS0006": "gundam_missile"
+		}
+	},
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"L_ARM": "gundam_big_rang_lefthand"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"R_ARM": "gundam_big_rang_righthand"
+		}
+	},
+	{
+		"autofire": true,
+		"mode": "ALTERNATING",
+		"weapons": {
+		"WS0007": "gundam_builtin_front_spmissile",
+		"WS0008": "gundam_builtin_front_spmissile",
+		"WS0009": "gundam_builtin_rear_spmissile",
+        "WS0010": "gundam_builtin_rear_spmissile"
+      }
+    },
+    {
+		"autofire": true,
+		"mode": "ALTERNATING",
+		"weapons": {
+			"WS0011": "gundam_light_machine_gun",
+			"WS0012": "gundam_light_machine_gun"
+		}
+	}
+],
+    "wings": [
+        "gundam_oggo_wing"
+    ]
+}
+
+
+
+

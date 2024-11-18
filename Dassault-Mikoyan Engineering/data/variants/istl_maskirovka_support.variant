@@ -1,0 +1,34 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "hullId": "istl_maskirovka",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_maskirovka_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_linearcannonheavy"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_shockartillery",
+                "WS0003": "istl_shockartillery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_multipdnode",
+                "WS0005": "istl_multipdnode",
+                "WS0006": "istl_multipdnode"
+            }
+        }
+    ]
+}

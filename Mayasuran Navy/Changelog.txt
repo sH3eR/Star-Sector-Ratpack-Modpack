@@ -1,0 +1,964 @@
+11.0.0 RC3
+-Changed Charged UV Pulse Cannon chargeup from 5 seconds to 1 second.
+-Changed Superheavy Ion/Plasma Cannon on Godsplitter (M) charge up from 5/6 seconds to 1 second.
+-Changed all of above weapons projectile speed from 300 to 500.
+-Added Winghead system swap.
+-Added Charged UV Pulse Cannon to Mule (M)
+-Added Garuda/Garuda (M)
+The Garuda (M) is the ULTRA (ULTRA) ULTRA Cruiser. It can do literally anything.
+
+
+11.0.0 RC2
+-Changed Tiger Grenade Launcher reload count from 10 to 1 per second
+-Added Harpoon MRM Array
+Large missile mount Harpoon
+-Changed Mark IX Rotary's stats to be more like the Avengers, adjusted ammo to 60.
+Double the ammo count and no charge up should make it very reliable when switching from the Avenger to the Mark IX(R) 
+-Changed Tiger Grenade Launcher to 0.16 refire rate, reload size to 20 for total reload time of 11 seconds
+This should give you more sustainability at the cost of a longer but bigger reload.
+-Changed Aurora (M) shield efficiency from 0.6 to 1.2
+big nerf, lol
+-Changed Paladin (M)'s ship system from reserve deployment to high energy focus.
+-Removed Crusader (M)'s built-in heavy armor, set armor value to 800 from 1000.
+-Changed Crusader (M)'s amount of fighter bays from 4 to 3
+-Changed Crusader (M)'s DP to 35 from 30
+-Changed Crusader (M)'s speed from 45 to 40
+big nerf, lol
+-Changed Rhea's speed from 45 to 30, base dissipation from 1200 to 900, armor from 1500 to 1200, removed built-in heavy armor, DP changed to 35 from 32.
+big nerf, lol
+-Added ammo to Armored Box Launchers on Vishnu, removed ammo regeneration
+-Changed Vishnu's Mark VII refire rate from 12 seconds to 20 seconds
+big nerf, lol
+-Winghead DP to 25 from 30
+big buff???
+
+11.0.0 RC1
+-Added in the Paladin (M)
+This is the Cruiser Champion made by my friend Zyrithithrall!
+Adjusted the frontal medium synergy hardpoint on the Aurora (M) to be Built-in
+-Changed it to the Avenger
+lmao, hahahaha
+-Adjusted the Winghead system to be Accelerated Ammo Feeder
+-Adjusted Winghead's Speed to 70 from 50
+SPEED
+-Adjusted the Mokarran system to be Accelerated Ammo Feeder
+-Adjusted Mokarran's shields to be 1.0 efficiency and 270 shield arc from 210.
+-Adjusted Mokarran's frontal medium energy turrets to Hybrid.
+BUFF
+-Removed active flare module 
+-Removed Peltast-Class frigate
+-Adjusted Crusader (M)'s armor from 1200 to 1000 base.
+-Adjusted Crusader  (M)'s base dissipation from 1000 to 800
+-Adjusted Crusader (M)'s DP from 25 to 30
+-Removed National-Class Battlecruiser
+-Removed Nebulosa-Class Battlecruiser
+They'll be back maybe?????
+-Removed 6 small frontal mounts from the Excalibur, replaced it with a singular medium ballistic 360 mount at the rear
+This should help immensely with the AI
+-Changed Excalibur's medium missile mounts to composite
+This will also help the Excalibur stay at range like it was meant to.
+
+
+10.0.2 RC1
+-Added Vice Admiral and Vice Admiral's Godsplitter (M) plus unique weapon(s)
+-Fixed Iapetus-Class being part of the Mayasuran Navy bluprint package
+-Added Vishnu-class to blue print package for Mayasura
+-Changed Rhea-class six medium ballistic mounts to three ballistic mounts
+-Adjusted Rhea's  dissipation from 600 to 1000.
+-Adjusted Rhea's flux/shield from 1.2 to 1.0
+-Adjusted Rhea's max speed from  35 to 45
+-Changed Crusader (M) to a Rhea-class conversion
+-Starliner (M) shield converted to Omni from Front
+-Added a couple of other NPCs too
+
+
+
+10.0.1 RC1
+-No more shadow on Vishnu's Mark VII guns
+-Added Victory M and Vishnu M to buildables for Mayasura.
+This basically means you should  be able to build the Vishnu and Victory M successfully now
+-Added in System swap to Victory (M)
+So, I've added plasma jets, high energy focus and mine strike as variants of the Victory (M), each with their own unique paint job. I look forward to seeing your builds!
+
+
+10.0.0 RC2
+-Fixed Didymoi Minelayer
+New missile behavior means it activates as soon as it gets in range rather than a timer. While unfortunate, I can't change this I think.
+-Added pass through to the Mark VII projectiles, Caliburnus Railgun projectiles, Charged UV Pulse Cannon Projectiles.
+These are all big projectiles with a lot of damage. So have fun sniping multiple fighters at once!
+-Increased refire time of Mark VII to 12 seconds.
+-Increased refire time of Armored Box Launcher to 12 seconds.
+Both of these weapons will be keeping their massive alpha damage, however, you will have to be more deliberate with your shots.
+-Increased the damage of the Orbital Howitzer from 1200 to 2000.
+With how unwieldy this gun is, it deserves MORE damage.
+ 
+
+
+10.0.0 RC1
+-New Conquest Sprite
+-New Heron Sprite
+-Fixed Pyotr for 0.96a
+-Added Pegasus (M)
+-Added Crusader (M)
+this is a battlecarrier version of the Champion-class.
+
+
+9.00 RC5
+Moved civilian tag from Skysplitter (M) to Iapetus-Class
+extreme woopsie, it's fixed now.
+
+9.0.0 RC4
+-Added Rhea for realsies
+I forgot to add it in to the blueprint pile for mayasura 
+-Added Rhea (M)
+My first MODULAR armor ship
+-Added Gryphon (M)
+This Gryphon has +250 dissipation, +2000 flux capacity and +10 OP points in exchange for -0.2 shield efficiency.
+Also the frontal missile mounts have been converted to synergy mounts, so have fun with that.
+-Added Mule (M)
+not in for real yet
+-Added Charged UV Pulse Cannon
+not in for real yet
+-Added PORTRAITS
+surprise lmao
+
+9.0.0 RC3
+-Fixed Armored Box Launcher being found as a droppable, sorry
+
+
+9.0.0 RC2
+-FIXED SKYSPLITTER (M) BUG FINALLY
+Okay so if you get a D-modded Skysplitter, it will lack the swap hullmod for the system. However, if you restore the Skysplitter, you will gain access to the base Skysplitter hull and be able to swap systems again. I hope this fixes it for those that have problems!
+-Adjusted volume for Mark VII cannons to 25%
+I've noticed it was a bit loud! I have turned it down, haha.
+
+9.0.0
+-Added new Sprite for Tiger Grenade Launcher
+-Added new weapons for Aznable Mech
+These are gonna be the vulcan head and the triple beam cannon condensed into a pistol for the Aznable's arm
+-Buffed Manta (M)
+I've added a medium hybrid hardpoint to the front center of this thing. I've also changed the small energy hardpoints up front to be missile mounts. All of the small turrets have been turned into hybrid plus I've given this thing more OP, 95 from 75.
+-Changed Nailer/Nailer (M)
+I've  changed the Nailer to be a medium-light frigate like the Perryi with twin 'Nail' Cannons that are basically miniatuarized triple beam cannons. You'll find its ability to pursue its enemies with built-in firepower and especially if you install high scatter amplifier, it is a force to be reckoned with.
+These changes represent myself wanting to see people use some of my under utilized ships.
+-Added Vishnu-class Battleship
+This is one of the largest capital ships I have ever made. It outscales all of my current ships and can serve as the ULTIMATE fleet anchor. However, it is slow and equipped with capital jets limiting your mobility. One thing to note is that the Vishnu has an Advanced Targeting Core, you'll be able to provide support from quite a distance.
+-Changed back flag to old flag
+people seem to like the old flag more it seems
+-Switched Neutral theme to Friendly theme
+
+
+8.3.9 RC2
+-Renamed Mammoth in files to Onbu Railgun, this makes it so that when you select the Onbu Railgun in the hullmod thing, it shows you bright yellow texture
+-Adjusted Onbu Railgun sound lower to half volume
+might still be loud, haha
+-Changed Spartan filename to MSS_Spartan.png and elite Version to MSS_Spartan_Elite.png
+this should fix the linux version, I apologize!
+
+
+8.3.9
+-Added in weapon swapping to Skysplitter (M)
+Base Weapon for the Skysplitter is the Avenger
+Secondary Weapon is the Mark IX Rotary Autocannon, which is the Avenger but kinetic.
+Tertiary Weapon is the Tiger Grenade Launcher which fires high explosive grenades that explode on proximity or max range. Use with ballistic configuration or ITU to maximize range and firepower.
+Quaternary Weapon is the Onbu Railgun, which is a massive double barreled fragmentation railgun that shoots really fast and destroys hull on impact.
+
+-Added in system swapping to Skysplitter (M)
+Base Version of the Skysplitter is the SPEED CONFIGURATION, with Infernium Burn as its main system.
+Version B of the Skysplitter is the ENERGY CONFIGURATION, which swaps out the system to High Energy Focus and swaps the medium mounts out for energy mounts. (Do note you'll have to click on and off of the ship for it to work in the refitting screen.
+Version C of the Skysplitter is the OVERDRIVEN CONFIGURATION, which swaps out the system to Safeties Switch and gives it a COOL paintjob.
+Version D of the Skysplitter is the BALLISTIC CONFIGURATION, which swaps out the system to Accelerated Ammo Feeder.
+
+-Added in new fighter wing, Aznable.
+
+8.3.8 RC3
+-Changed Moa's large energy arcs from 185 to 210.
+This should make the Moa more reliable in converging all of its weapons.
+-Fixed Heavy Ion Lance builtins on the Scaramouche.
+Now they should have the same damage as the modular version.
+-Added Rhea-Class Superheavy Cruiser
+This is the penultimate Mayasuran cruiser,  capable of huge broadsides typical of your average playstyle along with a sizable missile array.
+
+
+8.3.8 RC2
+-Changed rear large mounts of Victory (M) to composite.
+*Someone* wanted semibreves.
+-Fixed capitalization problem for the Spartan (M).
+This should fix the linux problem.
+-Updated dialogue for Pyotr
+
+8.3.8
+-Changed Avenger damage type from FRAGMENTATION TO ENERGY.
+-Lowered Avenger damage from 250 to 200.
+-Added ammo system to the Avenger.
+This basically makes the Avenger feel like a bigger auto pulse laser. Use with expanded mags for full effect and 6.5 seconds of nonstop firing.
+
+-Removed two medium missile mounts from Skysplitter (M)
+-Added two decks to Skysplitter (M)
+So this setup reflects the Mayasuran doctrine better with a focus on battlecarriers. Also, new sprite.
+
+-Added Loyalist (M)
+-Added Carnwennan (M)
+-Added Spartan (M)
+-Added Victory (M)
+
+-Added in new Fleet Commander.
+
+-Added 11 NEW SHIPGIRL portraits
+Big thanks to Auxilia Genome for the art!
+
+-Fixed Hammerhead left hardpoint position by 2 pixels.
+-Fixed some descriptions
+-Removed rare_bp from heavy mauler (fighter)
+
+-Raised DPS of the Triple Beam Cannon to 1000 (From 750)
+-Raised damage of the Triple Beam Cannon to 533 (From 400)
+-Flux effiency of Triple Beam Cannon to 1.0 (From 1.37)
+
+-Raised damage/sec of Heavy Ion Lance to 1000 (From 450)
+This will let the Heavy Ion Lance compete with the Tachyon Lance in terms of soft flux damage for shields.
+
+8.3.7
+-Added Iapetus-Class Supertanker
+Big thanks to WMGreywind and Yunru for finally giving me a logistics fuel tanker!
+-Added Carnwennan-Class Railgun Frigate
+-Added Spartan-Class Super Destroyerca
+-Added Ballistic Rangefinder as a built-in to the Javanicus
+-Returned Nebulosa (M) to its Railgun form
+Haha, it just feels better to use than the Avenger. Sorry for taking so long!
+-Removed Active time on Safeties Switch
+So this means you can have it on FOREVER.
+-Fixed Zygaena and Nightingale phase cloaks to normal vanilla phase cloak.
+Temporary fix until I can figure out the custom visuals.
+-Changed Avenger firerate from 0.18 to 0.1 refire time.
+-Lowered Avenger range from 900 to 800
+-Changed Avenger damage type from ENERGY to FRAGMENTATION.
+-Lowered Plasma Bomb Launcher damage from 200 to 100.
+This should lower the Mako (M)'s damage significantly; but still give plenty of damage to hurt bigger ships.
+
+
+8.3.6
+-Changed Gyrfalcon from midline BP to Mayasura_W BP
+-Finally fixed PL Revanchist claim on Mairaath
+-Buffed Mithuna cargo capacity from 550 to 1200
+-Lowered Avenger's range to 900 from 1000
+-Lowered Avenger's firerate to 0.18 refire from 0.15
+-Lowered Caliburnus firerate to 5 seconds from 3.5
+-Lowered Caliburnus range to 1300 from 1600
+-Lowered Caliburnus damage to 2000 from 2250
+
+8.3.5 RC2
+-Changed Skybreak's name to Skysplitter
+-Changed Nebulosa (M)'s frontal large railgun to a deck, added Mega Ultraviolet Pulselaser.
+This significant change in role will definitely change how you build the Nebulosa (M) along with giving it a very hefty gun and fighters to match.
+-Changed Skysplitter's two front large mounts to the Avenger.
+So, this change removes the modulars in exchange for the new gun, I hope you have fun with it!
+-Added Invasion Mission that can be taken while under commission to take over the Lost Astropolis and Port Tse Station in the Mayasura system.
+-Finally fixed relation bug in Nex, so you will be hostile to almost everyone and have allies with the persean league.
+
+
+8.3.5 
+-Returned the Mokarran's frontal composite medium hardpoint mounts
+This how the Mokarran originally was like, it's fitting to be returned back to normal.
+-Added Skybreak (M)
+A Nia special, but you'll enjoy my rendition with its Infernium Burn!
+
+
+8.3.4 RC3
+-Updated Zygaena sprite
+-Changed Starliner (M)'s ship system from shuttlepod escort to infernium burn
+This is a huge buff, this now encourages a short range albeit extremely dangerous playstyle involving the Starliner (M). With assault chainguns blazing, you can now get in range of most ships and alpha strike them with the Orbital Howitzer.
+-Removed Starliner (MMA), Nebula (MMA), Mudskipper (MMA)/Shuttlepods
+Didn't really use them.
+
+This is gonna break saves a bit, but if you're using the new Starsector version, I hope you've started a new save.
+
+8.3.4 RC2
+-Adjusted Gyrfalcon's arcs to be more AI friendly
+So, I changed up the medium's arcs to be more restricted along with the frontal energy no longer directly facing forward; which should influence the AI to broadside 100% of the time rather than 50 or even 20% of the time.
+
+8.3.4
+-Added OFFICIAL music made by Hanawub
+This is HUGE, now when you encounter Mayasura in hostile, neutral or friendly terms, you'll get an absolute banger. I hope you enjoy it!
+-Fixed Graphicslib issues that made you CTD
+-Fixed Excalibur (M) crashing by firing on unshielded ships.
+
+8.3.3
+-Added Iruiru Plasma Grenade Launcher
+This is a very new concept for me, this is my answer for a medium energy HE weapon. If you've played a certain spartan game, you will be VERY familiar with how it works.
+IT IS ALSO A SYNERGY WEAPON THANKS TO 0.95
+-Added Gyrfalcon Medium Cruiser
+This is what you've all been waiting for, my refit version of the falcon that does... broadsides.
+-Added AI to Phase Gateway
+So, this is a big gamechanger for the Arjuna (M), especially if you use it in your fleets. They now have the power to TELEPORT bombers on demand, which they could always do but not without an AI.
+-Added National (M)
+The National gets a hefty upgrade with its secondary energy turret being able to fire missiles now.
+-Added Gyrfalcon (M)
+In the SAME update, the Gyrfalcon is also getting an (M) version, with the same upgraded hybrid smalls just like the regular Elite Falcon.
+-Added Scaramouche (M)
+For those wanting an upgraded Interceptor, the Scaramouche upgrades its medium synergy to a large synergy, amazing for a late game fleet when you need a fast ship!
+-Added Tiburo (M)
+The Tiburo (M) has gone from a superfighter to a superfrigate, this upgrade gives it two small hybrids in the rear, negating weaknesses to salamanders by giving you more PD options.
+-Added Excalibur (M)
+You will be very interested in the Excalibur now with its AMMO switching system that can't be beat!
+-Added Champion (M)
+I'VE BEEN WAITING FOR THIS
+-Added Mako (M) Plasma MIRV bombs. 	
+You've all waited for this, it's finally here.
+-Buffed Sentinel PD System on Javanicus (M)
+So, if you didn't think the Paladin was strong enough, I've added the frag AOE from the Paladin.
+-Removed Graphicslib stuff
+Very much deprecated.
+
+8.3.2 RC2
+-Blocked Ops center from being installed twice on the National/Loyalist
+-Fixed center left turret on the Loyalist to be 150 arc and match existing arcs.
+-Returned the frontal small missile slots to the Mokarran.
+-Changed Loyalist's sprite a bit.
+-Buffed Argentavis' armor to 800 (From 700)
+This change is due to the Enforcer getting a defensive bonus and I plan on keeping up with such changes!
+-Buffed Stingray Dissipation to 450 (From 350)
+-Buffed Stingray Capacity to 5500 (From 4500)
+-Buffed Stingray to 95 OP (From 85)
+These changes will let the Stingray excel in a more combat focused role. With focus on its three energy mediums, more spicy loadouts can be made. 
+-Added back in ammo system to UV pulse laser. It simply had way too good sustained DPS, this will curve it back a bit!
+
+8.3.2
+-Added National-Class Squadron Leader
+This is my newest capital, capable of ruinous firepower with its three large energy turrets! You will find its firepower satisfactory for anything you mount on it!
+-Added Loyalist-Class Command Frigate
+This is my new frigate designed for those who like commanding from a frigate, using safety overrides and enjoying small weapons from a very... interesting chassis. 
+It has increased PPT of almost 7 minutes, however its toggle safety overrides' system will drain that extremely quickly.
+-Added Safeties Switch System!
+Toggle your safety overrides with one simple button!
+-Buffed Phase Gateway Range from 800 to 1600 units.
+-Updated Cjuicy's portrait with a custom made one by Gwyvern!
+-Added Reinforced Bulkheads to Scaramouche (CJ)
+
+8.3.1 RC3
+-Added Heavy Ultraviolet Pulselaser
+This is my FIRST Rotary gun that I've made!
+-Added Scaramouche (CJ)
+This one honors Cjuicy, for asking me about an HVB! I simply fulfilled his request. It doesn't have a standard portrait for now, that is in the works.
+
+8.3.1 RC2
+-Buffed Javanicus armor to 1500 (From 1400)
+This is a small incremental buff to the Javanicus' armor.
+-Buffed Nebulosa DP to 35 (From 38)
+The Nebulosa is meant to be the cheapest capital you can field and doesn't have the full complement of decks + weapons that my other capitals have.
+-Buffed Excalibur's Deceleration to 25 (From 10)
+This should make the Excalibur better in terms of AI. I would say this improves the efficiency by 1000%!
+-Buffed Caliburnus Railgun's range to 1600 (From 1500)
+This will also help the Excalibur's AI, since it likes to keep short range despite having a 1500 range gun.
+-Changed Excalibur's Price to 90000 (From 100000)
+-Changed Moa DP to 25 (From 22)
+-Changed Moa Price to 140000 From (120000)
+-Changed Sarissa DP to 22 (From 25)
+-Changed Sarissa Price to 120000 (From 140000)
+This change in price/DP should reflect their roles better. The Moa is quite the strong defensive cruiser in my line up, while the Sarissa should be equal to the Eagle's DP/Price range
+
+8.3.1
+-Added Shikra Escort Carrier
+-Added Shikra (M)
+-Switched out the Drover for the Shikra if you choose Carrier Small (2) in Nexerelin.
+The Shikra is Mayasura's new two deck carrier, it will be replacing the Stingray in the two decker role. 
+-Added Scaramouche Interdictor
+The Scaramouche is a very fast destroyer with twin heavy ion lances.
+-Added Starliner (M)
+-Added Orbital Howitzer
+The Starliner (M) is a heavy troop transport with a very dangerous chin cannon.
+I've repurposed the Starliner Mk. II, so your saves won't break.
+
+-Added Mokarran (K) High Value Bounty.
+This one goes out to you, Kart!
+
+-Changed Abandoned Astropolis description.
+-Changed color of Onocrotalus projectiles/trail to green.
+I will fluff this ingame as 'uranium' rounds!
+-Stingray max flux to 4500 (From 3500)
+-Made Shield Bubble Bigger
+-Dissipation to 350 (From 240)
+-Fighter Bays to 1 (From 2)
+-Maintenance/DP to 11 (From 14)
+-switched central missile to composite
+-Added two smalls to the side.
+-OP to 85 (From 90)
+-Removed Combat/Carrier tags
+The Stingray has now been changed to be more combat focused, with the addition of two smalls, its firepower has been significantly buffed with better flux handling and cheaper maintenance/DP for its new role.
+
+8.3.0 RC2
+-Javanicus PPT to 720 seconds (From 600)
+-Javanicus Dissipation to 1300 (From 1200)
+-These are the pre tournament stats that I'm putting back. Since the Javanicus should be Mayasura's last line of defense.
+-Changed Mokarran's system back to Maneuvering Jets
+These are the pre tournament stats
+-Mokarran Shield Arc to 210 (From 270)
+This should make the Mokarran more easily flanked, letting you use the PD weapons more.
+-Mokarran OP to 300 (From 315)
+Originally the Mokarran was at +130 OP, this should make it balanced at +115
+-Changed Mokarran's frontal medium turrets to energy, frontal medium hardpoints to ballistics only, and the return of the large composite
+This change will allow a greater variety of weapons to be used by the Mokarran.
+-Removed two small energies next to the large turret, removed two small missiles.
+In order for the large composite to come back to the Mokarran, other parts of the ship will have to be sacrificed.
+-Sarissa OP to 145 (From 130)
+-Sarissa (M) OP to 155 (From 145)
+Originally the +30 OP was meant for a Heron, the +	45 from baseline is in between the Eagle and Heron, letting the Sarissa perform better.
+-Fixed sunder's sprite floaters
+-Moved Argentavis' central engine plume
+-Removed Strike/Use vs frigates tag from the Gandiva
+Hopefully this will fix some targeting issues
+-Changed Patriot's default loadout to Ultraviolet Pulse Lasers
+-Centered shield position for hammerhead/excalibur/sarissa
+-moved stingray shield position
+-Triple Beam Cannon turnrate to 10 (From 5)
+This should help the TBC in firing continously on a target.
+-Added Low Profile trait to Mayasura
+This may make the Mayasura start *easier* but, hopefully Mayasura will not die during the first year. Still very possible with all its enemies!
+
+8.3.0 
+-Multiple Sprite Changes
+-Sprite Changes on most (M) ships.
+In particular, the Winghead (M) has a fresh new coat of paint.
+-Argentavis bound points change
+-Joker bound points change
+-Viper weapon mounts change/sprite change
+-Sarissa price to 140000 (From 160000)
+-Winghead price to 145000 (From 155000)
+-Nightingale price to 24000 (From 50000)
+-Tiburo price to 15000 (From 25000)
+-Tiburo DP/Maintenance to 5 (From 7)
+-Changed Heavy Ion Lance arc frequency to 0.2/0.3
+This basically means it arcs faster, up to 5 arcs compared to the Tachyon Lance's 3.
+
+-Added Arjuna (M)
+
+
+
+8.2.9 RC6
+-Nebulosa sprite changes
+-Arjuna Flux Capacity to 14000 (From 18000)
+-Arjuna Flux Dissipation to 900 (From 1000)
+Did some testing, was a bit strong in over all flux. This should curtail the Arjuna, but still make it relatively good for its price/DP.
+-Arjuna OP to 250 (From 260)
+So, with the rearmost center medium turret removed, this left over an extra 10 OP; this should fix that.
+-Changed Mokarran's system to Infernium Jets
+Now, it has an effect of regular MJ, however it loses 25 of that speed in reverse.
+
+
+8.29 RC5
+-Buffed Gandiva DPS to 1050 (From 652)
+-Changed to interruptible burst
+This will allow you to shoot 1-2 shots by releasing your mouse button midburst.
+-Gandiva Flux/shot to 1000 (From 1200)
+-Removed Ammo from Twin Sagir Autolasers
+This lets the Crossbow Bomber return to carrier as soon as its done dropping off its payload.
+-Changed Arjuna's Flux Capacity to 18000 (from 12000)
+-Changed Arjuna's Flux Dissipation to 1000 (From 800)
+-Changed Arjuna's side turrets to mediums/removed center rear medium turret.
+-Changed Arjuna's OP to 260 (From 240)
+This is a very big buff and will let the Arjuna go toe to toe as a mainline battlecarrier now.
+-Removed Carrier/combat tag from Arjuna
+-Changed Arjuna Designation to Heavy Battlecarrier (From Siege Carrier)
+-Mokarran Sprite Changes
+-Arjuna Sprite Changes
+-Gandiva Sprite Changes
+-Excalibur Sprite Changes
+
+8.2.9 RC4
+-Arjuna sprite changes
+-Added script to let you keep governorship of Mairaath even after losing it.
+However, this only works if Mayasura as a faction has another planet/station besides Mairaath, otherwise you lose governorship forever.
+-Changed Onocrotalus/Orchard projectile color
+-Changed Gorgon SRM to mayasura_wp_bp (from base_bp)
+-Changed Arbalest Battery to mayasura_wp_bp (from base_bp)
+-Added Mayasuran Weapon Blueprint Package
+-Changed Arjuna's universal mounts to ballistics.
+-Added new ship system, capital jets
+-Adjusted Javanicus' Acceleration stats to be lower, and thus slower.
+-Adjusted Javanicus' Dissipation to 1200 (From 1300)
+-Adjusted Javanicus' PPT to 600 seconds (From 720)
+-Switched Javanicus' ship system from maneuevering jets to capital jets
+These changes will bring the Javanicus more in line and less nimble.
+
+-Raised Nebulosa's price to 300000 (From 230k)
+-Raised Nebulosa's DP to 38 (From 36)
+-Raised Javanicus' Price to 420000 (From 350k)
+-Raised Mokarran's Price to 330000 (From 300k)
+-Raised Mokarran's DP/maintenance to 45 (From 42)
+This will match the Oddyssey in terms of pricing/DP
+-Raised Arjuna's Price to 380000 (From 330k)
+This is inbetween the Astral and Legion in terms of pricing.
+
+-Raised Price of Sipahi to 8000 (From 7000)
+-Raised Didymoi Price to 14000 (From 11000)
+-Raised Khopesh (M) Price to 11000 (From 9000)
+-Lowered Stormbreaker Price to 8000 (From 10000)
+
+8.2.9 RC3
+-Viper and Khopesh (M) easier to find in market now. (Previously unimplemented.)
+-Adjusted Gorgon SRM damage to 900 (From 600)
+This should buff the crossbow bomber to have a potential of 3600 damage now rather than 2400 HE damage.
+-Switched Perryi (M)'s role from fighter to bomber on the Javanicus (M)
+This will make it act like a bomber now.
+-Added Governorship to Mayasura start. 
+This will allow you to build industries/station on Mairaath.
+-Added all blueprint packages to Mayasura start.
+-Added all droppable fighters to mayasura_bp.
+This will let you build everything in Mayasura's roster now.
+-Removed Javanicus (SR) from mayasura_c_package, added warhawk, vayra_warhawk_modular tags.
+-Fixed floater on the Moa (SR) sprite.
+
+8.2.9 RC2
+-Cropped Excalibur sprite
+-Cropped Stingray sprite
+-New Javanicus (SR) Sprite, switched from .skin to new hull
+
+8.2.9
+-Added Ultraviolet Pulse Laser
+-Added Heavy Weapons integration to Sarissa
+READ THIS READ THIS READ THIS READ THIS
+SAVEBREAKER
+-Removed Raseri, Reiter, Gaffel
+
+8.2.8 RC4
+-Adjusted Nebulosa DP/maintenance cost to 36 (From 30)
+-Adjusted Mithuna's DP/maintenance cost to 35 (From 36)
+-Adjusted Gaffel's DP/maintenance cost to 27 (From 30)
+-Changed Javanicus Armor to 1400 (From 1600)
+-Changed Javanicus Shield Efficiency to 1.0 (From 0.8)
+-Changed Mithuna's Flux Capacity to 12000 (From 17000), Dissipation to 850 (From 1050)
+-Changed Reiter's OP to 100 (From 80)
+-Changed Stingray's frontal medium energy mount to synergy.
+-Changed Peltast' converted hangar hullmod to the vanilla version, doubling cost for bombers and increasing cost for regular fighters.
+-Added Stormhawk Design Types to (SR) ships.
+-Added Mithuna (MM)
+
+
+8.2.8 RC3
+-Arjuna Dissipation to 800 (From 600), DP to 50 (From 45)
+-Added Design Tech to the .skin files for the Conquest and other various vanilla ships with (M) skins.
+-Added Javanicus (SR)
+-Switched Heavy Ion Lance damage to Kinetic
+-Added Viper-Class Fighter
+-Changed shield flux/dam for Didymoi and Ferox to 1 (From 0)
+Please forgive me, I had forgotten setting the shield flux/dam for this, as such they will be more balanced now and not invincible.
+
+
+
+8.2.8 RC2
+-New Paintjob for Patriot (M)
+-Added design type to Mayasuran hullmods
+-Fixed Elite Mayasuran Guard from showing in the intel screen.
+
+8.2.8
+-New Arjuna Sprite
+Changed weapon layout, now has two large universals instead of the two medium universals. And an extra medium hardpoint missile.
+OP to 240 (From 230)
+-Removed Deck from Excalibur-Class
+Raised OP to 105
+Added two medium missile mounts.
+Caliburnus Range to 1500
+Refire time to 3.5 seconds (This means DPS goes up to 643 from 346)
+-Added Caliburnus to Nebulosa (M)
+This should make the difference between the base, elite and stormhawk version more unique and get people to stop complaining about the prongs being useless.
+-Added Elite Mayasuran Guard to Mairaath.
+- Changed Mairaath's Planet Description
+- Port Tse and Lost Astropoli will now have a different planet description under the ownership of the Mayasurans.
+
+
+8.2.7 RC3
+-Added Deck to Excalibur-Class
+Changed frontal most small turret mounts to hybrid, changed rear most small mount to universal.
+Raised OP to 100
+
+8.2.7 RC2
+-Changed Nebulosa from Cruiser to Capital
+-Adjusted Nebulosa OP to 275 (From 215)
+-Adjusted Nebulosa DP to 30 (From 26)
+-Adjusted Nebulosa Armor to 1300 (From 1500)
+-Adjusted Nebulosa Flux Capacity to 12000 (From 15000)
+-Adjusted Nebulosa Burn Speed to 8 (From 7)
+-Adjusted Nebulosa Fuel/LY to 8
+-Adjusted Nebulosa Fuel to 300 (From 200)
+-Added Nebulosa (M)
+-Added Nebulosa (SR)
+-Added Moa (SR)
+-Added Battlecarrier Conversion Hullmod
+
+8.2.7 
+-Removed Old Nebulosa/Javanicus
+-Added New Nebulosa sprite/variants
+**SAVE BREAKER**
+-Changed Mayasuran faction to have more elite ships for its blueprint.
+
+8.2.6
+-Changed Moa's rear medium energy mount to hybrid, changed frontal small energys to hybrid for the (M) version.
+-Moved Raseri's rear medium ballistics mount a bit further back.
+-Changed Javanicus' bridge.
+-Halved Caravan's mining strength for Nexerelin.
+-Added Tiburo-Class Heavy Frigate
+-Added Excalibur-Class Railgun Cruiser
+-Added Caliburnus Railgun
+
+
+8.2.5
+-Added Custom phase cloak.
+-Changed Engine/phase style for the Zygaena, Nightingale, Owstoni.
+-Adjusted Raseri Sprite
+-Updated Commissioned Crews for Mayasura.
+-Added Moa-Class Cruiser
+-Added Moa (M)
+
+8.2.4
+-Adjusted Winghead back to 30 DP. (From 25)
+-Adjusted Javanicus maintenance/DP to 50. (From 60)
+**SAVE BREAKER
+-Converted Falcon (M) into skin. **
+**SAVE BREAKER
+-Changed (M) Bonus from increased maintenance/recovery to slower maneuverability.
+-Changed Stormbreaker's Light Mauler into Heavy Mauler (Fighter), now uses no ammo.
+-Redesignated Stormbreaker to Fighter (From Bomber)
+-Made Single/Twin Sagir Autolasers ammo to 200 (From 300).
+This will let the Crossbow/Sipahi loiter less and return to carrier quicker.
+-Changed Mairaath's administrators from Persean League to Mayasuran.
+-Changed Mayasura to be able to make Mayasura spawn in random sector
+-Added Nightingale Phase Frigate
+
+
+8.2.3 RC2
+-Adjusted Javanicus maintenance/DP to 60. (From 48)
+-Adjusted Nailer maintenance/DP to 6. (From 7)
+-New Heavy Ion Lance sprite courtesy of Nia.
+-Adjusted Javanicus medium energy mounts to be able to fire slightly forward.
+-Adjusted Nailer's mounts, side small energies swapped out for synergy mounts to be more like the Argentavis, center small and medium mounts swapped to hybrids to give it more variety in weapons.
+These will let the Nailer be more versatile.
+-Adjusted Nailer's system to be Infernium Injector for Shield wall, this makes the Nailer extremely aggressive.
+
+
+8.2.3
+-Added Guided Weapon Script.
+-Added Reiter-Class Destroyer Heavy Carrier.
+-Sarissa changed to 25 DP from 28.
+-Winghead changed to 25 DP from 30.
+-Gaffel changed to 25 DP from 30.
+These match the Dominator's DP of being heavy cruisers.
+
+8.2.2 RC3
+-Added Javanicus (M) and Mokarran (M) Blue Zthrusters instead of normal ones.
+
+8.2.2 RC2 Quick Patch
+-Quick Javanicus sprite change and added bigger vectored thrusters.
+-Quick Raseri sprite change
+
+8.2.2
+-Javanicus layout and sprite changed and added vectored thrusters.
+-Raseri layout and sprite changed and added vectored thrusters.
+-Mokarran sprite changes and added vectored thrusters.
+-Nebulosa sprite changes.
+-Added Onocrotalus, Arbalest Battery and Triple Beam Cannon to the Joker drone's list of weapons.
+-Fixed Onocrotalus Hardpoint's barrels floating.
+-Changed UI color from blue to silver for the Mayasura faction.
+-Added basic mayasuran blueprint package to Mayasuran start.
+-Added Nexerelin profile to Mayasura.
+
+8.2.1 RC3
+-Changed light Mauler to system only weapon.
+-Adjusted Argentavis' right frontal medium hardpoint to 5 degrees to match.
+-Added built-in surveying equipment to the Mithuna.
+-Updated Manta (M) Sprite.
+-Updated Raseri Sprite.
+-Added in Commissioned Crew compatiblity for the Mayasuran Faction.
+This gives you 10% CR if you're commissioned with Mayasura if you have Techpriest's Commissioned Crews mod.
+-Added in heavy industry, military base and ground defenses to Mairaath.
+-Changed Mayasura to show up on the intel screen, added description.
+
+8.2.1 RC2
+-Changed Orchard Autocannon Chargedown from 2 seconds to 1.25, max spread from 20 to 10, spread/shot from 3 to 1, spread decay/sec from 10 to 5, projectile velocity to 800, turn rate to 20 from 5, flux to 1:1 a shot.
+-Added Onocrotalus Autocannon back into the game as a modular weapon. Essentially a larger version of the Orchard.
+-Buffed the Ferox Heavy Bomber by upping shot count from 1 to 2 and adding a shield. Max flux from 2000 to 500, however no weapon flux hullmod was added.
+This buffs the damage potential from 2000 energy damage to 4000, bringing it in line with stuff around the same OP level like the Trident.
+
+8.2.1 
+-Added in the Mayasuran faction, switched Mairaath to Mayasuran control.
+-Nex start changed from Persean league to Mayasura.
+-Changed Midline BP to Rare BP for the Sipahi, Crow and Tachi
+-Updated sprite for Arbalest battery courtesy of Sylva.
+-Added Light Mauler, fighter exclusive weapon
+-Added Stormbreaker Gunship
+-Redone Arjuna-class, changed sprite, weapon mounts, OP lowered to 220 from 260.
+-Gaffel sprite changes, new bridge in front.
+-Adjusted influence minelayer's visuals, lowering particle count to 25
+explosion radius to 50 from 250
+-Sunder (M) Cargo capacity to 80 from 50, fuel capacity to 50 from 30, hull integrity to 4000 from 3500, shield upkeep from 250 to 200, shield flux/dam to 1.2 from 1.1, top speed to 90 from 95
+-Removal of built-in heavy armor from Hammerhead (U) and Sunder (TLH), reduced OP to base levels. This means the TLH skin versions are equal to the base ships.
+-Mokarran and (M) version sprite changes. New stripes for the (M) version.
+-Obliterator Rockets damage changed to 300 from 400
+-Khopesh (M) burst size changed from 3 to 5. This means 15 300 damage rockets from each bombing run for a total of 4500 damage. This buffs the Khopesh (M) total damage from 3600 to 4500 if all of the shots land along with giving it more saturation akin to the regular Khopesh.
+
+8.2.0 RC5
+-Fixed empty arrays in the .faction files
+
+8.2.0 RC4
+-Orchard Cannon changes, this should let you burst more often with the first two barrages, however firing for the third burst will have great innaccuruacy.
+Removed ammo system completely
+Spread shot 5->3
+Flux shot 160->140
+-Javanicus M sprite change
+
+8.2.0 RC3
+-Winghead was maybe a bit overtuned with AAF, this change will tone it down
+DP and supplies per month 24->30
+Accelerated ammo feeder -> infernium burn
+
+8.2.0 RC2
+-Mokarran buffs to speed and manuverability, firepower, defense.
+Top speed 40->50
+Acceleration 20->25
+Max turn rate 6->8
+Turn acceleration 4->6
+Shield Arc 90->270
+Shield efficiency 1.2->1.1
+Frontal medium energy turrets -> frontal medium ballistic turrets
+frontal energy small turrets -> frontal hybrid small trurets
+frontal medium ballistic hardpoints -> frontal medium composite hardpoints
+-Winghead mounts change
+Frontal synergy hardpoints changed to composite.
+Rear large turret changed to 360 arc.
+Rear large turret changed to energy from hybrid.
+-Orchard Cannon changes
+Damage 220->100
+Flux Cost 270->160
+OP 12->10
+Added experimental trails, requires magiclib.
+
+8.2.0
+-Removed Spoonbill, save breaker
+-Added Heron (M)
+-Added Orchard Autocannon, Medium High Explosive Ballistic.
+-Added Heavy Ion Lance, Large Energy Beam.
+-Adjusted Conquest (M)'s frontal medium energy turrets to hybrids.
+-Adjusted Launch Speed of Gorgon SRM to 180 from 100, Hitpoints to 230 from 150. Made overall flight characteristics faster: Turn acceleration to 550 from 210. Turn rate to 140 from 70.
+-Adjusted Winghead's hybrid mounts to energy for the smalls, rearmost small turrets adjusted to face rearwards and the composite medium mounts adjusted to synergy.
+-Adjusted Mokarran's frontal turrets on its head to be energy, adjusted arcs to be more versatile instead of just frontal facing. Frontal medium hardpoints adjusted to ballistic only.
+-Adjusted Bomber refit times.
+
+
+8.1.9
+-Removed ability for Triple Beam Cannon to fire over friendlies, adjusted flux efficency to 1.3 per damage/shot, reduced range by 100, reduced price from 30000 to 7500.
+-New Mokarran Sprite
+-Adjusted Mokarran shield arc to 90 degrees.
+-Adjusted Javanicus shield arc to 150 degrees.
+-Gave the Gorgon SRM 5 seconds lifetime from 2.5 seconds, equivalent to the Swarmer SRM.
+-Adjusted Obliterator Rocket HP from 200 to 250.
+-Adjusted Raseri's TPC turret to be dual barreled/Adjusted arcs to 45 degrees.
+-Added Conquest (M)
+-Added Mithuna (M)
+-Added Perryi (M)
+-Added Perryi (M) to Javanicus (M)
+-Adjusted Prime Hullmod to just +100 armor for capitals.
+-Switched Mokarran (M)'s system back to Manuevering Jets.
+-Switched Sarissa (M)'s system back to Maneuvering Jets.
+	
+8.1.8
+-Fixed Rear Gaffel mounts to be symmetrical 
+-Moved Mokarran (D) to old sprites
+-Removed Mokarran (D) .skin file
+-Changed Frontal Mokarran hardpoint to ballistic, dropped speed to 40, changed rear turret arcs. Adjusted mobility to 40 speed from 55, dropped agility to conquest levels. Adjusted shield efficiency from 1.0 to 1.2
+-Removed Tiburo Superfighter, removed from Mokarran. **SAVE BREAKER**
+-Switched Zygaena system to Mine Strike.
+-Removed midline_bp tag from Manta (M), added rare_bp and mayasura_e_bp tags. Added it to Persean League spawns.
+-Added several normal maps.
+-Changed Shield Wall mechanics to add more armor for bigger ships.
+-Added Nitro Canisters to the Raseri.
+-Removed four of the TPCs on the Raseri, switched to ballistic mounts. Adjusted OP from 255 to 300. 
+-Adjusted Micro TPC charges from 5 to 10/Ammo sec from 0.5 to 1
+
+8.1.7
+-Mako, Nailer, Stingray, Argentavis, Patriot and Javanicus sprite changes along with bounding box change.
+-Standardized Winghead sprite.
+-Added no weapon flux to Tiburo, flux dissipation to 150, max flux to 1500, armor to 150, hull to 850
+-Added Raseri-Class Battlecruiser
+-Added Micro TPC
+-Added Nitro Burn system
+-Namechange of Crane to Spoonbill
+-Added Stingray (M)
+-Added Manta (M) from Disassemble Reassemble by AxleMC131
+-Adjustment of the (M) hullmod to 4% flux boost, adjustment of supply cost to 25% above base instead of 50%.
+-Added Custom Triple Beam Cannon texture.
+
+8.1.6
+-Adjusted Argentavis hardpoints to 5 degrees, also adjusted bounding box.
+-Adjusted Didymoi's bomb hardpoints to 10 degree angle.
+-Added Didymoi to Persean League spawning.
+-Added Gaffel-Class Heavy Carrier
+-Added Gaffel to Hegemony Spawning
+-Adjusted Sarissa spawning rate for Persean League.
+
+8.1.5 RC4
+-Adjusted Persean League spawning rate again
+
+8.1.5 RC3
+-Added Didymoi Minelayer Bomber.
+-Added Influence Minelayer (Fighter) weapon.
+
+8.1.5 RC2
+-Changed Pelican's large mounts to modular ballistic mounts.
+-Adjusted OP of the Pelican from 220 to 260.
+-Adjusted Normal mapping of the Pelican
+-Changed name of Pelican to Mithuna
+
+8.1.5
+-Perryi Deceleration from 90 to 100, Speed from 165 to 200, switched side missile slots to universal, flux dissipation to 150 from 200
+-Added Khopesh (M)
+-Added Obliterator Rocket Pod
+-Added 2 OP discount to bombers for (M) carriers.
+-Changed Pilgrim to the Caravan-Class, too many changes to list. Sprite from Sylva!
+-Javanicus (M) Sprite change
+-Added Pelican-Class Exploration Battlecruiser. Sprite from Sylva!
+-Added Onocrotalus, quad barrel built-in large ballistic gun for the Pelican.
+-Added new Nexerelin starts.
+-Adjusted Persean League spawnrates for Mayasuran ships.
+
+8.1.4
+-Removed Tiburo from modular status, now exclusive to the Mokarran and Mokarran (M)
+-Added every (M) ship to rare_bp status.
+-Added GRAPHICSLIB support.. for just the Mokarran.
+-Renamed cruiser Javanicus to the Nebulosa-Class Pocket Battleship
+-Removal of the Capital Javanicus (S)
+-Adjusted Gorgon Missile HP from 0 to 150.
+-Adjusted Obliterator Rockets HP from 75 to 200.
+-Added Patriot-Class Flotilla Leader, sprite from RandomKnight!
+-Several sprite changes to (M) ships.
+
+8.1.3 RC2
+Adjusted the Annihilator Barrage to the Obliterator Rocket Launcher, burst size to 8, damage/shot to 400, hitpoints from 50 to 75. Added custom sound, changed description, changed engine trail.
+
+8.1.3
+-Removed Mayasuran fighters from priority on persean league. This will give the PL an even balance of normal vanilla fighters and mayasuran fighters.
+-Joker switched to targeting supercomputer from ITU.
+-Added Infernium Jets and Infernium Burn system
+-Switched Mokarran (M) and Sarissa (M) systems to Infernium Jets
+-Added Crane-Class Fast Siege Cruiser and Crane (M)
+-Edited Mayasura's faction file to not show up on the intel screen.
+-Added Crane to Rise of the Phoenix and Crane (M) to the Mayasura Prime mission.
+-Added the ability for the Triple Beam Cannon to shoot over friendly ships.
+-Added Annihilator Rocket Launcher, Large slot saturation/pressure missile weapon.
+
+
+8.1.2
+-Adjusted blueprints to have icons setup.
+-Fixed the pilgrim from not being able to be built from a blueprint.
+-Added the no_drop tag to the (M) Blueprint package.
+-Redone sprite for the Cruiser Javanicus, added back into fleets.
+8.1.1
+-Switched Damper field on the Crow to Shield wall to fix game breaking crash to desktop bug.
+-Fixed ships spawning for the persean league.
+
+8.1.0
+-New Mokarran/Arjuna/Javanicus sprites
+-New Heavy Bomber, Crossbow-Class armed with two Gorgon short range missiles and two Sagir autolasers.
+-Sipahi flux dissipation to 75 from 100.
+-New small modular missile, Gorgon and Gorgon (Single)
+-Joker Flux capacity to 2000 from 1500, dissipation to 250 from 150. 
+-Added Falcon (M)
+-Mayasuran Prime hullmod adjusted armor for cruisers from +200 to +100.
+-Sunder (M) speed to 95 from 100. Shield Efficiency from 1.0 to 1.1. Shield upkeep from 0.4 to 0.5. Hull to 3500 from 4000. Cargo to 50 from 80, fuel to 30 from 50.
+-Added 1.5 supply cost to the Prime hullmod.
+-Removed Brawlerhead from files completely. Note, this might break saves.
+Updated for 0.9
+-Removal of Siege Mode from Joker
+-Removal of the Kontos-Class
+-Removal of two medium missile slots from the Arjuna.
+-Added Blueprints for ships
+
+8.0.9
+-Adjusted Javanicus OP to 330, Jav (M) OP to 340
+-Adjusted Sunder (M) price from 24k to 30k
+-Added Nexerelin start.
+-Added Perryi-Class Corvette to frigates.
+-Adjusted Perryi to be a bit more maneuverable
+-Added Triple Beam Cannon, a large energy weapon.
+-Added Heavy Weapons Integration to the Winghead.
+-Added Medium Hybrid turret to the rear of the Winghead, increased OP by 10
+8.0.8
+-Added Sunder (M)
+-Added Stingray, replacing the Kontos-Class Carrier.
+-Made Sipahi's tail hidden from market.
+8.0.7
+-Adjusted Javanicus hull to 18000, armor to 1600. Changed system to maneuvering jets. adjusted several turret arcs, changed mount slots on frontal hardpoints to missile, new sprite. Ordnance points to 370.
+-Added Javanicus (M)
+-Added Sentinel PD System to Javanicus (M)
+-Added shield to Joker drone, 270 arc.
+-New system, Siege mode for the Joker. Buffs range, extends shield, lowers weapon flux cost.
+-New Sipahi sprite.
+-Slightly New Mokarran sprite.
+-Added two turret slots to the Perryi. 270 degree rear turret switched out for 360 degree one. Swarmers added to middle turrets.
+-New Weapon, Arbalest Battery
+-Beefier weapon sound on the Gandiva.
+-Gandiva damage from 700x3 to 750x3
+-Organized ship.csv
+8.0.6
+-Adjusted Sarissa back to 10000 flux capacity, 525 dissipation.
+-Added Mako (M), changed regular Mako's sprite.
+-New Secret hullmod, acquire an (M) ship to find out.
+-Added visible wepaons to the Akinci.
+-Made unstable optics hidden
+-Added Joker Artillery Drone, randomized large weapons.
+-Switched Arjuna's system from targeting feed to Joker Protocol.
+-Starliner Mk. II added, along with new shuttlepod escort system. Limited to testing mission.
+-New Javanicus, the final iteration of your favorite defensive battlecruiser.
+-Switched Javanicus system to burn drive, removed ATC. Adjusted OP to 330, hull to 15000, armor to 1500.
+8.0.5
+-Adjusted fighter wings to be more available at lower rep levels.
+-Adjusted Hammerhead (M)'s price to 30k
+-Adjusted Vigilance (M)'s price to 15k
+-Removed Flarelauncher from Tachi, reduced wing size to 3, reduced speed to 275
+-Adjusted Javanicus DP to 45, maintenance each month to 45
+-Added STRIKE and USE_VS_FRIGATES tag to the Gandiva
+-Adjusted Javanicus speed to 30, was a bit too fast for how much armor/range it had, reduced non PD beam range by 40% through new hullmod.
+-Changed Arjuna system back to Targeting Feed
+-New Bomber, Ferox-Class Heavy Bomber
+-New Weapon, Plasma Cannon (Fighter). Used by the Ferox.
+-Adjusted Mokarran (M)'s OP to 340, armor to 1400, flux stats improved by 10 percent, Tiburo switched to Tiburo (M), Rear universal turret added.
+-Adjusted Sarissa to 800 armor, 8000 flux capacity, 420 dissipation
+-Adjusted Sarissa (M) to have the noncarrier prime hullmod
+8.0.4.1
+_Redone Hammerhead (M)
+Adjusted turret mounts/sprite
+Hammerhead (U) now named in rise of the phoenix
+8.0.4
+-new nailer sprite/stat changes
+-added jar file for advanced scripts
+-New Capital, Javanicus-Class Armored Battlecruiser
+Removed regular Javanicus from campaign spawning
+-New Built-in Fighter, Perryi-Class Corvette
+-New (M) ships, Hammerhead (M) and Nailer (M)
+-Replaced Brawlerhead in campaign with Hammerhead (M)
+-Raised spawnrates for all ships in Campaign.
+8.0.3
+-Changed Arjuna's system to manuevering jets
+-adjusted weapon mounts on Argentavis
+-thickened Mokarran's sprite near the hips
+-changed winghead's weapons and sprite, now has four forward facing mediums and a small in the head, sprite upgraded generously by myself and HELMUT
+-reduced winghead's OP from 155 to 145, still plenty of OP left to spare
+-changed Sipahi's sprite
+-added light mortar to the nose of the Sipahi
+-new skins
+Mokarran (M), Winghead (M), Sarissa (M), Argentavis (M)
+These new skins have the Mayasuran Prime hullmod. The standard version of the Mokarran no longer has the Prime Warship hullmod now.
+-new mission to test out the Prime variants
+-added vigilance (M) to persean league fleets
+8.0.2
+-Changed Kilij Bomb Bay offsets to 1, adjusted chargedown to 0.75, burst size to 1
+This makes the Sipahi way more accurate, along with letting it sustain and stick around the target like a normal fighter if it doesn't drop all its bombs in one go.
+-Changed offsets of Gandiva to match, was offcenter before.
+-Changed Brawlerhead system to Shield Wall
+Shield wall is a damper shield system that lasts for 5 seconds, while giving you a free 200+ armor for the duration. If used when you have no more armor remaining, this will let you tank a few more hits, since you can use your weapons while its active.
+-Added cosmetic rear armor piece to the Mokarran. Purely Aesthetic!
+-Expanded Arjuna's hips near the side missile mounts. Redone engine array/sprite changes.
+-Added Custom Drone, The Akinci Drone Gunship
+The Akinci carries a turreted assault chaingun in its nose. Extremely lethal, it serves at the Argentavis' fifth gun.
+-Changed Argentavis system from damper field to new drone system.
+-Adjusted Brawlerhead's armor from 600 to 500, shield effiency from 0.8 to 1
+-Fighter Assault Chaingun now has built in point defense AI. This affects the Tiburo and Akinci.
+-Added codex entries for the Sagir Autolaser and Kilij Bomb bay

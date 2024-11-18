@@ -1,0 +1,85 @@
+{
+  "hullName": "Langusta",
+  "hullId": "de_langusta",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DE/ships/langusta.png",
+  "style": "LOW_TECH",
+  "height": 45,
+  "width": 40,
+  "center": [20, 25.5],
+  "collisionRadius": 31,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 107,
+      "angle": 30,
+      "locations": [10, 15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 107,
+      "angle": -32.5,
+      "locations": [10, -15.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4, 7.5],
+      "length": 9.76,
+      "width": 3.27,
+      "angle": 125.5,
+      "contrailSize": 3.27,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-4, -7.5],
+      "length": 9.76,
+      "width": 3.27,
+      "angle": -125.5,
+      "contrailSize": 3.27,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-24, 0],
+      "length": 14,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -25, 0,
+    -25.5, -7.5,
+    -19.5, -7.5,
+    -15, -2.5,
+    -2, -8.5,
+    7, -19.5,
+    13, -19.5,
+    13, -12.5,
+    7, -6,
+    15.5, 0,
+    15.5, 0,
+    7, 6,
+    13, 12.5,
+    13, 19.5,
+    7, 19.5,
+    -2, 8.5,
+    -15, 2.5,
+    -19.5, 7.5,
+    -25.5, 7.5,
+    -25, 0
+  ]
+}

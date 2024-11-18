@@ -1,0 +1,18 @@
+{
+	"id":"gundam_rifle_bullet",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":750.0,
+	"width":5.0,
+	"fadeTime":0.3,
+	"fringeColor":[150,150,150,50],
+	"coreColor":[255,125,25,50],
+	"glowColor":[255,125,25,50],
+	"hitGlowRadius":150,
+	"glowRadius":20,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/gundam_mega_3cannon_bullet.png"
+}

@@ -1,0 +1,27 @@
+{
+	"baseHullId":"istlx_bravebit",
+	"skinHullId":"istlx_bravebit_noshield",
+	"hullName":"Bolt",
+	"descriptionId":"istlx_bravebit_noshield",
+	"tech":"Deserter",
+    "fleetPoints":0,
+    "ordnancePoints":0,
+    "baseValueMult":0.75,
+    "removeHints":[],
+	"spriteName":"graphics/ISTL/ships/istl_bravebit.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["no_weapon_flux"], 		# hullmod ids
+	"removeBuiltInWeapons":[
+		"WS0001",
+		], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS0001":{
+      		"arc": 45,
+    	},   
+    },
+    "builtInMods":["shield_shunt"],
+    "builtInWeapons":{
+		"WS0001": "istl_micro_electronbeam",
+    	},
+}

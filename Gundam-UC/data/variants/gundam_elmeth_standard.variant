@@ -1,0 +1,30 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_elmeth",
+  "hullMods": [
+    "fluxdistributor",
+	"hardenedshieldemitter",
+	"stabilizedshieldemitter",
+	"converted_hangar"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_elmeth_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_CANNON": "gundam_elmeth_cannon",
+        "R_CANNON": "gundam_elmeth_cannon"
+      }
+    }
+  ],
+    "wings": [
+		"gundam_elmeth_bit_wing"
+    ]
+}

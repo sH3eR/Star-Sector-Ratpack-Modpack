@@ -1,0 +1,137 @@
+{
+  "hullName": "GM",
+  "hullId": "gundam_gm_gundamhead",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/gm_gundamhead/gundam_gm_gundamhead_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 44,
+  "width": 34,
+  "center": [17.5, 22.5],
+  "collisionRadius": 13,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gm_gundamhead_gun",
+    "HEAD": "gundam_gm_gundamhead_head",
+    "MELEE": "gundam_beam_javelin",
+    "PACK": "gundam_efsf_thunderbolt_pack",
+    "SHIELD": "gundam_gm_gundamhead_shield",
+    "SHIELD_2": "gundam_efsf_ex_left_blue_shield",
+    "SHIELD_3": "gundam_efsf_ex_right_blue_shield",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-11, -0.5]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-5.5, 11.5]
+    },
+    {
+      "id": "SHIELD_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 80,
+      "locations": [-24, 8.5]
+    },
+    {
+      "id": "SHIELD_3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -80,
+      "locations": [-24, -8.5]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-4, -13]
+    },
+    {
+      "id": "PACK",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-15, -0]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [1, -9]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-30.5, -6.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-31.5, 5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30.5, -6.5],
+      "length": 15,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31.5, 5.5],
+      "length": 15,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -11.5, 10,
+    4.5, 9.5,
+    4.5, -8,
+    -10.5, -8
+  ]
+}

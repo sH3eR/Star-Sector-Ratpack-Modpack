@@ -1,0 +1,47 @@
+{
+  "displayName": "Overdriven",
+  "fluxCapacitors": 0,
+  "fluxVents": 19,
+  "goalVariant": true,
+  "hullId": "MSS_Argentavis",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Argentavis_Overdriven",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "sabot",
+        "WS0006": "sabot",
+        "WS0007": "sabot",
+        "WS0008": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "chaingun",
+        "WS0004": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

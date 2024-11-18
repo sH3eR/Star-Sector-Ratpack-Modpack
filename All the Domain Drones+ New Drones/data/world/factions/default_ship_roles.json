@@ -1,0 +1,87 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"dom+defender_Bomber":3,
+		"dom+defender_Fighter":3,
+		"dom+defender_Mner":3,
+		"dom+defender_Interceptor":3,
+		"dom+bulldog_Mortarboat":10,
+		"dom+mechbulldog_wardrone":1,
+	},
+	"combatSmall":{
+		"dom+defender_Bomber":3,
+		"dom+defender_Fighter":3,
+		"dom+defender_Mner":3,
+		"dom+defender_Interceptor":3,
+		"dom+bulldog_Mortarboat":10,
+		"dom+bulldogmkii_Mortarboat":1,
+		"dom+mechbulldog_wardrone":1,
+		"dom+spirant_standard":2,
+		"dom+evander_standard":1,
+		"dom+mite_Escort_Drone":5,
+		"dom+mite_Escort_Drone_PD":5,
+		"dom+yack_standard":1,
+	},
+	
+	"freighterSmall":{
+		"dom+mechanic_Explorer":25,
+		
+	},
+
+	"freighterMedium":{
+		"dom+loader_Hauler":10,
+		"dom+campaigner_Miner":2,
+		"dom+campaigner_Miner_2":2,
+		"dom+harvester_Miner":15,
+
+	},
+	"freighterLarge":{
+		"dom+mega_hauler_Heavy":5,
+		"dom+atlas_Hauler":10,
+		
+	},
+	"combatMedium":{
+		"dom+bulldogmkii_Mortarboat":11,
+		"dom+minotaur_basic":3,
+		"dom+minotaur_basic_2":3,
+		"dom+bulldogmkiii_Siege":4,
+		"dom+atlas_Carrier":3,
+		"dom+surveyprobe_Standard":1,
+		"dom+surveyprobe_Energy":1,
+		"dom+theseus_standard":5,
+		"dom+iris_standard":7,
+		"dom+spirant_standard":8,
+		"dom+evander_standard":11,
+		"dom+porcupine_standard":5,
+		"dom+harvester_Miner":4,
+		"dom+ward_mutant":2,
+		"dom+yack_standard":6,
+
+	},
+	"combatLarge":{
+		"dom+dreadnought_Heavy":6,
+		"dom+domainsend_abomination":2,
+		"dom+devourer_destroyer":1,
+		"dom+linebreaker_Hammer":4,
+		"dom+surveyship_Standard":1,
+		"dom+surveyship_Artillery":1,
+	},
+	"carrierLarge":{
+		"dom+dreadnought_Heavy":4,
+	},
+	"tankerSmall":{
+		"dom+dram_Drone":10,
+		"dom+mechanic_Explorer":25,
+	},
+	"tankerMedium":{
+		"dom+phaeton_Standard":10,
+		"dom+harvester_Miner":15,
+	},
+	"tankerLarge":{
+		"dom+prometheus_Drone":10,
+	},
+	"tug":{
+		"dom+campaigner_Miner":5,
+	},
+}

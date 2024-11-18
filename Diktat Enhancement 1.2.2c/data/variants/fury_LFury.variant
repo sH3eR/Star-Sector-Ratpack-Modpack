@@ -1,0 +1,41 @@
+{
+    "displayName": "Lion's Fury",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": false,
+    "hullId": "fury",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "safetyoverrides"
+    ],
+    "permaMods": ["solar_shielding"],
+    "sMods": [],
+    "variantId": "fury_LFury",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 000": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "pdlaser",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser"
+            }
+        }
+    ]
+}

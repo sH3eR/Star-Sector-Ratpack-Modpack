@@ -1,0 +1,58 @@
+{
+  "hullName": "Labourer",
+  "hullId": "dom+labourer_miner",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/Derelict mining_drone.png",
+  "style": "LOW_TECH",
+  "height": 42,
+  "width": 50,
+  "center": [25, 21],
+  "collisionRadius": 40,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [13.5, -15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8, 14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, -13.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18.5, 14.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -17, -23,
+    20, -23.5,
+    20, 20,
+    -17, 20
+  ]
+}

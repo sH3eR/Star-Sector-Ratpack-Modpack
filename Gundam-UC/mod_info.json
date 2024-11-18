@@ -1,0 +1,10 @@
+	{
+	"id": "gundam_uc",
+	"name": "RP Bootleg Gundam UC",
+	"author": "Created by Shher & Austere, Helped by Laroustine, Credited to Bandai",
+	"version": "0.5.1",
+	"description": "War between Earth Federation and Principality of Zeon",
+	"gameVersion": "0.97a-RC11",
+	"modPlugin":"data.scripts.plugin.GundamUCPlugin",
+	"jars":["jars/Gundam_UC.jar"]
+}

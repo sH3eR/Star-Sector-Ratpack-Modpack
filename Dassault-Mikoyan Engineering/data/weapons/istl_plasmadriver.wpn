@@ -1,0 +1,31 @@
+{
+	"id":"istl_plasmadriver",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"everyFrameEffect":"data.scripts.weapons.istl_PlasDriverFX",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_lg.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_plasmadriver_turret_base.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_plasmadriver_turret_glow.png",
+	"hardpointUnderSprite":"graphics/ISTL/weapons/istl_socket_hardpoint_med.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_plasmadriver_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_plasmadriver_hardpoint_glow.png",
+	"glowColor":[175,75,255,255],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[10, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":72.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":9,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.3,
+					   "particleCount":40,
+					   "particleColor":[125,75,255,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"istl_plasmadriver_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge",
+	"fireSoundTwo":"istl_plasmadriver_fire",
+}

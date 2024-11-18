@@ -1,0 +1,11 @@
+{
+	"id":"MSS_vibecheck",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"MSS_thumper",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

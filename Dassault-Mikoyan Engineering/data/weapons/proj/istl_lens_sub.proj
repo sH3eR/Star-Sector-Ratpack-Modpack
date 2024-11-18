@@ -1,0 +1,21 @@
+{
+	"id":"istl_lens_sub",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_LensHDEMOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":20.0,
+	"width":8.0,
+	"fadeTime":0.1,
+	"fringeColor":[25,200,135,225],
+	"coreColor":[155,255,135,255],
+	"glowColor":[25,200,135,90],
+	"glowRadius":40,
+	"hitGlowRadius":25,
+	"passThroughMissiles":true,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-48.0,
+	"pixelsPerTexel":1.0,
+	#"bulletSprite":"graphics/ISTL/missiles/istl_matador_bolt.png",	
+}

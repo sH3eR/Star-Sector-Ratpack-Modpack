@@ -1,0 +1,19 @@
+{
+	"id":"MSS_lasercannon_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":110.0,
+	"width":20.0,
+	"fadeTime":0.25,
+	"fringeColor":[99,30,99,255],
+	"coreColor":[204,184,204,200],
+	#"coreColor":[175,175,175,255],
+	"glowColor":[99,30,99,40],
+	"glowRadius":45,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0	
+}

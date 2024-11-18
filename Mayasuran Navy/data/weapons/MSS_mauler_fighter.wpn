@@ -1,0 +1,47 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "heavy_mauler_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/mayasura/weapons/MSS_lightmauler_hardpoint_barrel.png",
+  "hardpointOffsets": [
+    18.5,
+    0
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_lightmauler_hardpoint_base.png",
+  "id": "MSS_mauler_fighter",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.5,
+    "particleSizeMin": 12,
+    "particleSizeRange": 14,
+    "spread": 5
+  },
+  "projectileSpecId": "heavymauler_shot",
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/assault_chaingun_turret_recoil.png",
+  "turretOffsets": [
+    16,
+    0
+  ],
+  "turretSprite": "graphics/weapons/assault_chaingun_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

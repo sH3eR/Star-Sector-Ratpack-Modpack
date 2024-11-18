@@ -1,0 +1,26 @@
+{
+  "variantId": "gundam_station_core_t3_efsf_standard",
+  "hullId": "gundam_station_core_t3_efsf",
+  "displayName": "Side Fortress",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+		{"SOLAR_1": "gundam_module_solar_standard"},
+		{"SOLAR_2": "gundam_module_solar_standard"},
+		{"SOLAR_3": "gundam_module_solar_standard"},
+  
+		{"MODULE_1": "gundam_module_attack_efsf_standard"},
+		{"MODULE_2": "gundam_module_balance_efsf_standard"},
+		{"MODULE_3": "gundam_module_fighter_efsf_standard"},
+	],
+    "wings": [
+		"gundam_gm_cs_wing",
+		"gundam_guncannon_wing",
+		"gundam_gm_sniper_ii_wing"
+    ]
+}

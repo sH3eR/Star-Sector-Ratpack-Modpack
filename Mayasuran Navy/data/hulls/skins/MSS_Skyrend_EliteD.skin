@@ -1,0 +1,10 @@
+{
+	"baseHullId":"MSS_Skyrend_Elite",
+	"skinHullId":"MSS_Skyrend_EliteD",
+	"hullName":"Skysplitter (M)",
+	"descriptionId":"MSS_Skyrend_Elite",
+	"addHints":[HIDE_IN_CODEX],
+	"spriteName":"graphics/mayasura/ships/MSS_Skyrend_EliteD.png",
+	"descriptionPrefix":"With the spinal energy systems replaced with massive ammo loaders and shell handling equipment, this Skysplitter features enough ballistic firepower to stand in the Hegemony battleline, if not for its Mayasuran livery.",
+	"systemId":"ammofeed",
+}

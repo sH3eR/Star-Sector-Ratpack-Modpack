@@ -1,0 +1,71 @@
+{
+  "variantId": "MSS_Mokarran_Elite",
+  "hullId": "MSS_Mokarran_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "reaper",
+        "WS0007": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0022": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyblaster",
+        "WS0002": "heavyblaster",
+        "WS0005": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler",
+        "WS0012": "lightneedler",
+        "WS0018": "heavyneedler",
+        "WS0019": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0010": "dualflak",
+        "WS0011": "dualflak",
+        "WS0013": "lrpdlaser",
+        "WS0014": "lrpdlaser",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MSS_Khopesh",
+    "MSS_Khopesh"
+  ]
+}

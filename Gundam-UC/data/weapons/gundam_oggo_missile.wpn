@@ -1,0 +1,56 @@
+{
+  "id": "gundam_oggo_missile",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_missile_bullet",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/ma/big_rang/gundam_oggo_missile.png",
+  "hardpointSprite": "graphics/ma/big_rang/gundam_oggo_missile.png",
+  "turretOffsets": [
+    8.5,
+    -2.5,
+    8.5,
+    -0.5,
+    8.5,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    -2.5,
+    13,
+    -0.5,
+    13,
+    1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "gundam_front_missile"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cte_tw",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/trinity/cte_turret_base.png",
+  "hardpointSprite": "graphics/weapons/trinity/cte_hardpoint_base.png",
+  "glowColor": [220,50,255,255],
+  "turretOffsets": [17, 0],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [20, 0],
+  "hardpointAngleOffsets": [0],
+  "barrelMode": "LINKED",
+  "animationType": "NONE",
+  "autocharge": true,
+  "projectileSpecId": "cte_tw_shot",
+  "noImpactSounds":true,
+  #"fireSoundOne": "cte_tw_spinup",
+  "fireSoundTwo": "cte_tw_fire"
+}

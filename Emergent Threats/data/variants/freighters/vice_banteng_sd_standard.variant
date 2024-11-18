@@ -1,0 +1,19 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "vice_banteng_sd",
+    "hullMods": [
+        "expanded_cargo_holds",
+        "militarized_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_banteng_sd_standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "gravitonbeam"}
+    }]
+}

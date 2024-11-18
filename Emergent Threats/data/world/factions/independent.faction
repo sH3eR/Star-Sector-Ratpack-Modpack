@@ -1,0 +1,12 @@
+{
+	"knownShips":{
+		"hulls":[
+			"odyssey",
+		],
+	},
+	"hullFrequency":{
+		"hulls":{
+			"odyssey":1,
+		},
+	},
+}

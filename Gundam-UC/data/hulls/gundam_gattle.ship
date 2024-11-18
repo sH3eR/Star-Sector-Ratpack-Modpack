@@ -1,0 +1,83 @@
+{
+  "hullName": "Gattle",
+  "hullId": "gundam_gattle",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/gundam_gattle.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 37,
+  "width": 62,
+  "center": [31, 20.5],
+  "collisionRadius": 21.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 6.5],
+      "length": 8.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, 0.5],
+      "length": 12,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15.5, -6],
+      "length": 8.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -16, -11.5,
+    -9, -11.5,
+    -12.5, -18,
+    11, -18,
+    14, -15.5,
+    10.5, -11,
+    10.5, 11,
+    14, 15.5,
+    11, 18,
+    -12.5, 18,
+    -9, 11.5,
+    -16, 11.5
+  ]
+}

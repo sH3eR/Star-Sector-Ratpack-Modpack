@@ -1,0 +1,40 @@
+{
+	"id":"gundam_elmeth_drone_system",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_STANDARD",
+	
+	"droneVariant":"gundam_elmeth_bit_variant_wing",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":100,
+	"launchDelay":0.1,
+	"maxDrones":6,
+	"droneBehavior":[
+		{"droneIndex":[0,2,4,6,8,10],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":50,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+		 "initialOrbitAngle":-45,
+		 "orbitRadius":1, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":30, 				# pixels/second
+		},
+		{"droneIndex":[1,3,5,7,9],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":50,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+		 "initialOrbitAngle":45,
+		 "orbitRadius":1, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":30, 				# pixels/second
+		},
+	],
+	
+	"useSound":"missile_heavy",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,73 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "gundam_salamis_modified",
+  "hullMods": [
+    "autorepair",
+    "fluxcoil",
+	"fluxdistributor",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_salamis_modified_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_2bcannon_m_efsf",
+                "WS0002": "gundam_mega_2bcannon_m_efsf"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gundam_pd_2mg",
+				"WS0004": "gundam_pd_2mg",
+				"WS0005": "gundam_pd_2mg",
+				"WS0006": "gundam_pd_2mg",
+				"WS0007": "gundam_pd_2mg",
+				"WS0008": "gundam_pd_2mg",
+				"WS0009": "gundam_pd_2mg",
+				"WS0011": "gundam_pd_2mg",
+				"WS0012": "gundam_pd_2mg",
+				"WS0013": "gundam_pd_2mg",
+				"WS0014": "gundam_pd_2mg",
+				"WS0015": "gundam_pd_2mg"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "gundam_builtin_front_spmissile",
+                "WS0017": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "gundam_builtin_rear_swamp_missile",
+                "WS0019": "gundam_builtin_rear_swamp_missile"
+			 }
+        },
+        {
+			"autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "SIDE_1": "gundam_side_mega_cannon",
+				"SIDE_2": "gundam_side_mega_cannon",
+                "SIDE_3": "gundam_side_mega_cannon",
+				"SIDE_4": "gundam_side_mega_cannon"
+            }
+        }
+    ],
+  "wings": []
+}
+

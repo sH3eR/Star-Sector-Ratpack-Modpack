@@ -1,0 +1,84 @@
+{
+  "hullName": "Viper",
+  "hullId": "MSS_Viper",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/mayasura/ships/MSS_Viper.png",
+  "style": "MIDLINE",
+  "height": 45,
+  "width": 40,
+  "center": [20, 22.5],
+  "collisionRadius": 28.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 28.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [0.5, 15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [0.5, -15.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [1.5, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [1.5, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, 5.5],
+      "length": 17,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-21.5, -5.5],
+      "length": 17,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -21, -6.5,
+    -8.5, -13,
+    -5, -6.5,
+    21, -1.5,
+    21, 1.5,
+    -5, 6.5,
+    -8.5, 13,
+    -21, 6.5,
+    -14.5, -0
+  ]
+}

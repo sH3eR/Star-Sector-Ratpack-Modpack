@@ -1,0 +1,46 @@
+{
+    "displayName": "Artillery",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "glycon_tw",
+    "hullMods": [
+        "targetingunit",
+        "tw_modernized_rangefinder",
+        "ix_reactive_combat_shields",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "glycon_tw_artillery",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "abolisher_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "spatial_charge_launcher_ix",
+                "WS 003": "spatial_charge_launcher_ix",
+                "WS 004": "spatial_charge_launcher_ix",
+                "WS 005": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "morningstar_ciws_ix",
+                "WS 007": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix",
+                "WS 009": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

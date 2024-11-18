@@ -1,0 +1,48 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "flourish_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "modules": [{"WS 010": "flourish_ix_undershield"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flourish_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "plasma_dart_ix",
+                "WS 003": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "orthrus_s_ix",
+                "WS 004": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "daythorn_mapb_ix",
+                "WS 006": "daythorn_mapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "morningstar_ciws_ix"}
+        }
+    ]
+}

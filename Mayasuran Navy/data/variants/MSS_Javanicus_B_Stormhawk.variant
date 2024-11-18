@@ -1,0 +1,71 @@
+{
+  "variantId": "MSS_Javanicus_B_Stormhawk",
+  "hullId": "MSS_Javanicus_B_Warhawk",
+  "displayName": "Stormhawk",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun",
+        "WS0008": "gravitonbeam",
+        "WS0010": "gauss",
+        "WS0012": "lightag",
+        "WS0014": "lightdualac",
+        "WS0016": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "railgun",
+        "WS0009": "gravitonbeam",
+        "WS0011": "gauss",
+        "WS0013": "lightag",
+        "WS0015": "lightdualac",
+        "WS0017": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "MSS_tribeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0006": "vulcan",
+        "WS0020": "lrpdlaser",
+        "WS0021": "lrpdlaser",
+        "WS0024": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MSS_Khopesh",
+    "MSS_Khopesh",
+    "MSS_Khopesh"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "bounds": [
+    5,
+    -2.5,
+    -1,
+    -5.5,
+    -5.5,
+    -4.5,
+    -5.5,
+    4.5,
+    -1,
+    5.5,
+    5,
+    2.5
+  ],
+  "builtInMods": [
+    "no_weapon_flux",
+    "fluxbreakers"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_braveion"
+  },
+  "center": [
+    7,
+    8
+  ],
+  "collisionRadius": 28,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 12.5,
+      "location": [
+        -6,
+        -0
+      ],
+      "style": "BBHTFlare",
+      "width": 5
+    }
+  ],
+  "height": 15,
+  "hullId": "istlx_bravebit",
+  "hullName": "Bolt",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24,
+  "spriteName": "graphics/ISTL/ships/istl_bravebit.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0001",
+      "locations": [
+        2,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 14
+}

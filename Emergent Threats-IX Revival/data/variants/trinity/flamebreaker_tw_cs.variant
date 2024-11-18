@@ -1,0 +1,55 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 26,
+    "goalVariant": true,
+    "hullId": "flamebreaker_tw",
+    "hullMods": [
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flamebreaker_tw_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "thundermark_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 014": "spearwall_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "spatial_charge_launcher_ix",
+                "WS 010": "spatial_charge_launcher_ix",
+                "WS 011": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "cutting_beam_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 005": "morningstar_ciws_ix",
+                "WS 006": "morningstar_ciws_ix",
+                "WS 007": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix",
+                "WS 012": "plasma_dart_ix",
+                "WS 013": "plasma_dart_ix"
+            }
+        }
+    ]
+}

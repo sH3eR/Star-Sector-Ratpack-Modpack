@@ -1,0 +1,315 @@
+{
+  "bounds": [
+    112,
+    -66,
+    92.5,
+    -64,
+    100.5,
+    -21.5,
+    50.5,
+    -21.5,
+    31.5,
+    -40.5,
+    -10,
+    -60.5,
+    -67.5,
+    -69,
+    -69.5,
+    -33,
+    -87,
+    -21,
+    -43,
+    -1,
+    -87,
+    21,
+    -69.5,
+    33,
+    -67.5,
+    69,
+    -10,
+    60.5,
+    31.5,
+    40.5,
+    50.5,
+    21.5,
+    100.5,
+    21.5,
+    92.5,
+    64,
+    112,
+    66,
+    130,
+    44,
+    141,
+    0.5,
+    130,
+    -44
+  ],
+  "builtInMods": [
+    "MSS_hwi"
+  ],
+  "center": [
+    70,
+    90.5
+  ],
+  "collisionRadius": 202.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 72,
+      "location": [
+        -87,
+        21
+      ],
+      "style": "MIDLINE",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 72,
+      "location": [
+        -87,
+        -21
+      ],
+      "style": "MIDLINE",
+      "width": 20
+    },
+    {
+      "angle": 174,
+      "contrailSize": 12.704713,
+      "length": 46.088478,
+      "location": [
+        -71,
+        55.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.704713
+    },
+    {
+      "angle": -174,
+      "contrailSize": 12.704713,
+      "length": 46.088478,
+      "location": [
+        -71,
+        -55.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.704713
+    },
+    {
+      "angle": 170.5,
+      "contrailSize": 12.221522,
+      "length": 42.575329,
+      "location": [
+        -69,
+        35.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.221522
+    },
+    {
+      "angle": -170.5,
+      "contrailSize": 12.221522,
+      "length": 42.575329,
+      "location": [
+        -69,
+        -35.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.221522
+    },
+    {
+      "angle": 171.5,
+      "contrailSize": 12.563801,
+      "length": 42.033176,
+      "location": [
+        -71,
+        45.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.563801
+    },
+    {
+      "angle": -171.5,
+      "contrailSize": 12.563801,
+      "length": 42.033176,
+      "location": [
+        -71,
+        -45.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.563801
+    },
+    {
+      "angle": 163.5,
+      "contrailSize": 12.887465,
+      "length": 19.993208,
+      "location": [
+        92.5,
+        60.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.887465
+    },
+    {
+      "angle": -163.5,
+      "contrailSize": 12.887465,
+      "length": 19.993208,
+      "location": [
+        92.5,
+        -60.5
+      ],
+      "style": "MIDLINE",
+      "width": 12.887465
+    }
+  ],
+  "height": 242,
+  "hullId": "MSS_Winghead",
+  "hullName": "Winghead",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    30.5,
+    0
+  ],
+  "shieldRadius": 171,
+  "spriteName": "graphics/mayasura/ships/MSS_Winghead.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 210,
+      "id": "WS0001",
+      "locations": [
+        116.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [
+        123,
+        53
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0003",
+      "locations": [
+        123,
+        -53
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0004",
+      "locations": [
+        130.5,
+        26
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0005",
+      "locations": [
+        130.5,
+        -26
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 60,
+      "arc": 180,
+      "id": "WS0008",
+      "locations": [
+        2.5,
+        48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 180,
+      "id": "WS0009",
+      "locations": [
+        2.5,
+        -48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 155,
+      "arc": 190,
+      "id": "WS0010",
+      "locations": [
+        -37.5,
+        60
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -155,
+      "arc": 190,
+      "id": "WS0011",
+      "locations": [
+        -37.5,
+        -60
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0006",
+      "locations": [
+        -1.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 250,
+      "id": "WS0007",
+      "locations": [
+        -41.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 140
+}

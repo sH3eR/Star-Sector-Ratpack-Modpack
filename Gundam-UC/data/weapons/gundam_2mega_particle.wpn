@@ -1,0 +1,59 @@
+{
+  "id": "gundam_2mega_particle",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_green_mega_laser",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "displayArcRadius": 900,
+  "turretSprite": "graphics/weapons/2mega_particle/gundam_2mega_particle_turret_base00.png",
+  "turretGlowSprite": "graphics/weapons/2mega_particle/gundam_2mega_particle_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/2mega_particle/gundam_2mega_particle_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/2mega_particle/gundam_2mega_particle_hardpoint_base00.png",
+  "hardpointGlowSprite": "graphics/weapons/2mega_particle/gundam_2mega_particle_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/2mega_particle/gundam_2mega_particle_hardpoint_recoil.png",
+  "numFrames": 25,
+  "frameRate": 7,
+  "visualRecoil": 3,
+  "glowColor":[255,255,255,200],
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    15.5,
+    7,
+    15.5,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20.5,
+    7,
+    21,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      85,
+      255,
+      155,
+      200
+    ]
+  },
+  "fireSoundTwo":"gundam_minovski_beam",
+}

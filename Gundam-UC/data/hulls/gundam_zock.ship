@@ -1,0 +1,131 @@
+{
+  "hullName": "Zock",
+  "hullId": "gundam_zock",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/zock/gundam_zock_body.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 48,
+  "width": 70,
+  "center": [35.5, 22.5],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0, -2],
+  "shieldRadius": 43.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "WS0001": "gundam_zock_body_beam",
+    "WS0002": "gundam_zock_body_beam",
+    "WS0003": "gundam_zock_body_beam",
+    "WS0004": "gundam_zock_body_beam",
+    "WS0005": "gundam_zock_body_beam",
+    "WS0006": "gundam_zock_body_beam",
+    "R_ARM": "gundam_zock_hand",
+    "L_ARM": "gundam_zock_hand",
+    "BATTERY": "gundam_battery"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [1.5, -18.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [2, 12]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [8, 6]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8, -12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-17, 15]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -180,
+      "locations": [-16.5, -17.5]
+    },
+    {
+      "id": "R_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [1.5, -26]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-0.5, 22]
+    },
+    {
+      "id": "BATTERY",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0]
+
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, -0],
+      "length": 50,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -16.5, 18,
+    6, 18.5,
+    24, -0,
+    6.5, -19,
+    -16.5, -19
+  ]
+}

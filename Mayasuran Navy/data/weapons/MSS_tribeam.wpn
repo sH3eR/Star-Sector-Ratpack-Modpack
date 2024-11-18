@@ -1,0 +1,62 @@
+{
+  "beamEffect": "data.scripts.weapons.MSS_fastbeamEffect",
+  "beamFireOnlyOnFullCharge": true,
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    215,
+    225,
+    255,
+    255
+  ],
+  "everyFrameEffect": "data.scripts.weapons.MSS_AlternatingBeamScript",
+  "fringeColor": [
+    25,
+    75,
+    155,
+    255
+  ],
+  "glowColor": [
+    40,
+    90,
+    255,
+    235
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/mayasura/weapons/MSS_tribeam_hardpoint_glow.png",
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_tribeam_hardpoint_base.png",
+  "hitGlowRadius": 0,
+  "id": "MSS_tribeam",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 5,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 292,
+  "textureType": [
+    "graphics/mayasura/fx/MSS_beamcannon_fringe.png",
+    "graphics/mayasura/fx/MSS_beamcannon_core.png"
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_tribeam_turret_glow.png",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_tribeam_turret_base.png",
+  "type": "ENERGY",
+  "width": 12
+}

@@ -1,0 +1,61 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 8,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "aquilon_tw",
+    "hullMods": [
+        "tw_drone_control_node",
+        "targetingunit",
+        "ix_reactive_combat_shields",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_controller",
+        "ix_aquilon_sr",
+        "ix_aquilon_sr_handler",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aquilon_tw_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "dawnstar_hcpb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "abolisher_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_m_ix",
+                "WS 003": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "daythorn_mapb_ix",
+                "WS 008": "daythorn_mapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 005": "lightbringer_ciws_ix",
+                "WS 009": "plasma_dart_ix",
+                "WS 010": "plasma_dart_ix"
+            }
+        }
+    ],
+    "wings": ["nimbus_tw_wing_l"]
+}

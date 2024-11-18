@@ -1,0 +1,155 @@
+{
+  "bounds": [
+    13,
+    -38.5,
+    30,
+    -26.5,
+    39.5,
+    -24.5,
+    41,
+    -15.5,
+    26.5,
+    -0,
+    41,
+    15.5,
+    39.5,
+    24.5,
+    30,
+    26.5,
+    13,
+    38.5,
+    -11,
+    27,
+    -37,
+    38.5,
+    -46.5,
+    18,
+    -37.5,
+    -0,
+    -46.5,
+    -18,
+    -37,
+    -38.5,
+    -11,
+    -27
+  ],
+  "builtInWeapons": {
+    "WS0002": "MSS_bomb_frigate",
+    "WS0003": "MSS_bomb_frigate"
+  },
+  "builtInWings": [],
+  "center": [
+    41,
+    49
+  ],
+  "collisionRadius": 74,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 34,
+      "location": [
+        -48.5,
+        17
+      ],
+      "style": "MIDLINE",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 34,
+      "location": [
+        -48.5,
+        -17
+      ],
+      "style": "MIDLINE",
+      "width": 19
+    },
+    {
+      "angle": -170.5,
+      "contrailSize": 8.684,
+      "length": 22.525522,
+      "location": [
+        -42.5,
+        -32.5
+      ],
+      "style": "MIDLINE",
+      "width": 8.683523
+    },
+    {
+      "angle": 170.5,
+      "contrailSize": 8.684,
+      "length": 22.525522,
+      "location": [
+        -42.5,
+        32.5
+      ],
+      "style": "MIDLINE",
+      "width": 8.683523
+    }
+  ],
+  "height": 98,
+  "hullId": "MSS_Mako",
+  "hullName": "Mako",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 71,
+  "spriteName": "graphics/mayasura/ships/MSS_Mako.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        21,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        18,
+        33
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        18,
+        -33
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        -30.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 82
+}

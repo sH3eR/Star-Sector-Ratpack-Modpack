@@ -1,0 +1,3 @@
+command,class,tags,syntax,help
+ShowResearch,data.scripts.console.ShowResearch,"gundam_uc,campaign,market",showresearch (no arguments),This display your current research stats and other simple stuff.
+SetResearchTier,data.scripts.console.SetResearchTier,"gundam_uc,campaign,market",setresearchtier <tier>,This allows you to set your research Tier

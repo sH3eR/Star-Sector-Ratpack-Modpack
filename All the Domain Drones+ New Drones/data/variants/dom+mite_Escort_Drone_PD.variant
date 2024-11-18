@@ -1,0 +1,33 @@
+{
+  "variantId": "dom+mite_Escort_Drone_PD",
+  "hullId": "dom+mite",
+  "displayName": "Escort Drone PD",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

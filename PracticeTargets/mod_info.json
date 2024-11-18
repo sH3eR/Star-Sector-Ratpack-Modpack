@@ -1,0 +1,11 @@
+{
+    "id":"TAR",
+    "name":"RP Bootleg Practice Targets",
+    "author":"Created by Sheer & Tartiflette. Based on an idea from Foxer360.",
+    "utility":"true",
+    "version":"1.41rc2",
+    "description":"Test your weapons and ships with these passive practice targets.",
+    "gameVersion": "0.97a-RC11",
+    "modPlugin":"data.scripts.TAR_modPlugin",
+    "jars":["jars/PracticeTargets.jar"],
+}

@@ -1,0 +1,18 @@
+{
+	"id":"istl_pulseripper_large_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_PulseripperLargeOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":18.0,
+	"width":6.0,
+	"fadeTime":0.2,
+	"fringeColor":[183,65,13,200],
+	"coreColor":[233,115,63,255],
+	"glowColor":[183,65,13,75],
+	"glowRadius":13,
+	"hitGlowRadius":15,	
+	"textureScrollSpeed":256.0,
+	"pixelsPerTexel":1.0,
+}

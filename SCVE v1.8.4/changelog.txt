@@ -1,0 +1,35 @@
+Version 1.8.4
+- removed some testing junk
+
+Version 1.8.3
+- updated for 0.97a
+- code improvements
+
+Version 1.8.2
+
+- strict weapon options in custom_weapon.csv (i think i forgor to update the csv)
+- fixed Save Variant working bad with modules. added some description stuff.
+- Fix for invalid file name characters
+- code cleanup
+
+Version 1.8.1
+
+- should fix the save variant hullmod showing up in enemy fleets as well as cleaning it of any current saves
+- slight improvements to save variant hullmod - fixes when the variant name includes a space and improvements to module handling
+
+Version 1.8.0
+
+- added hullmod filter
+- added new hullmod to save variants to common folder. works in campaign
+- fixed bug with add officer missing one skill
+
+Version 1.7.5
+
+-added ability to check knownShips and priorityShips in custom mission
+-added options for known/priority weapons/wings for custom filters
+-added showRestricted to custom_wing_filter.csv
+-added LunaLib version checker support (as in the changelog. i'll figure the rest out later eventually :tm:)
+
+-fixed issue with Officer Details hullmod crashing. Thanks to Helmut Kohl!
+-fixed invalid weapons being restricted instead of set to unavailable
+-fixed issues with logging that were present in v1.7.4.1

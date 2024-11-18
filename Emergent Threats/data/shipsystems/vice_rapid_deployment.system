@@ -1,0 +1,15 @@
+{
+	"id":"vice_rapid_deployment",
+	"type":"STAT_MOD",
+	#"aiType":"RESERVE_DEPLOYMENT",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.vice.ai.RapidDeploymentAI",
+	
+	"statsScript":"data.scripts.vice.shipsystems.RapidDeployment",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

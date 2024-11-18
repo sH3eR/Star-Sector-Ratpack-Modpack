@@ -1,0 +1,19 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "istlx_alaudatailbinder",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "istlx_alaudatailbinder_std",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "istl_micropd",
+            "WS0002": "istl_micropd",
+            "WS0003": "istl_micropd",
+            "WS0004": "istl_micropd"
+        }
+    }]
+}

@@ -1,0 +1,70 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "hullId": "istl_stormkestrel",
+    "hullMods": ["istl_bbassault"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_stormkestrel_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_lens_hdem_single",
+                "WS0004": "istl_lens_hdem_single"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_plasrocket_pod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_pulseripper"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_plasmadisruptor",
+                "WS0008": "istl_plasmadisruptor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "istl_proxbomb_rack",
+                "WS0010": "istl_proxbomb_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_bbheavymg",
+                "WS0006": "istl_bbheavymg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "istl_impulsor",
+                "WS0012": "istl_impulsor",
+                "WS0013": "istl_impulsor",
+                "WS0014": "istl_impulsor",
+                "WS0015": "istl_impulsor",
+                "WS0016": "istl_impulsor"
+            }
+        }
+    ],
+    "wings": [
+        "istl_focuser_wing",
+        "istl_firespray_wing"
+    ]
+}

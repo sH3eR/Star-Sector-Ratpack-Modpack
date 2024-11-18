@@ -1,0 +1,9 @@
+{
+	"id":"UGH",
+	"name":"Unusually Gullible Hullmods",
+	"author":"Protonus and special credits to whoever discovered that armor-cell script",
+	"version":"0.5.0-RC2",
+	"description":"Unusual engineering practices are being uncovered within and outside the Persean sector. They're absolutely terrible and mercenaries will tend to use these.",
+	"gameVersion":"0.97a-RC7",
+	"jars":["jars/UGH.jar"],
+}

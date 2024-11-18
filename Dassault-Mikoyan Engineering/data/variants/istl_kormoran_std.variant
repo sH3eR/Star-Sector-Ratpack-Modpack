@@ -1,0 +1,61 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "istl_kormoran",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_kormoran_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_autohybridblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "istl_mirvtorpedo_rack",
+                "WS0016": "istl_mirvtorpedo_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_tacbeamer",
+                "WS0008": "istl_tacbeamer",
+                "WS0009": "istl_tacbeamer",
+                "WS0010": "istl_tacbeamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_linearcannontwin",
+                "WS0003": "istl_linearcannontwin"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_micropd",
+                "WS0006": "istl_micropd",
+                "WS0011": "istl_micropd",
+                "WS0012": "istl_micropd",
+                "WS0013": "istl_micropd",
+                "WS0014": "istl_micropd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "istl_linearflak_single"}
+        }
+    ]
+}

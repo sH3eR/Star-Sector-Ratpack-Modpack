@@ -1,0 +1,18 @@
+{
+  "displayName": "Attack Bit",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istlx_bravebit_noshield",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "istlx_bravebit_noshield_std",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_micro_electronbeam"
+      }
+    }
+  ]
+}

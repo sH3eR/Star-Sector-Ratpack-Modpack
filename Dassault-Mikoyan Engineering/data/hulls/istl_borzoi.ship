@@ -1,0 +1,307 @@
+{
+  "bounds": [
+    51.5,
+    -4.5,
+    25.5,
+    -7,
+    22,
+    -22,
+    12.5,
+    -22,
+    -11,
+    -33.5,
+    -22.5,
+    -26,
+    -14,
+    -22,
+    -38,
+    -18.5,
+    -38,
+    -9.5,
+    -12.5,
+    -5,
+    -45,
+    -0,
+    -12.5,
+    5,
+    -38,
+    9.5,
+    -38,
+    18.5,
+    -14,
+    22,
+    -22.5,
+    26,
+    -11,
+    33.5,
+    12.5,
+    22,
+    22,
+    22,
+    25.5,
+    7,
+    51.5,
+    4.5,
+    54.5,
+    -0
+  ],
+  "builtInMods": [
+    "istl_monobloc",
+    "phasefield",
+    "delicate"
+  ],
+  "builtInWeapons": {
+    "WS0003": "istl_blinkerB_blue",
+    "WS0004": "istl_blinkerB_blue",
+    "WS0006": "istl_blinkerA_blue",
+    "WS0007": "istl_blinkerA_blue",
+    "WS0008": "istl_blinkerA_blue",
+    "WS0010": "istl_AMMblistertube",
+    "WS0011": "istl_AMMblistertube",
+    "WS0016": "istl_blinkerB_blue"
+  },
+  "center": [
+    35,
+    47
+  ],
+  "collisionRadius": 64,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 60.5,
+      "location": [
+        -41,
+        14
+      ],
+      "style": "DMEFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 60.5,
+      "location": [
+        -41,
+        -14
+      ],
+      "style": "DMEFlare",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 22.5,
+      "location": [
+        -24,
+        26
+      ],
+      "style": "DMEFlare",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 22.5,
+      "location": [
+        -24,
+        -26
+      ],
+      "style": "DMEFlare",
+      "width": 5
+    },
+    {
+      "angle": 135,
+      "contrailSize": 3.5,
+      "length": 6,
+      "location": [
+        40,
+        8
+      ],
+      "style": "DMEFlare",
+      "width": 3.5
+    },
+    {
+      "angle": -135,
+      "contrailSize": 3.5,
+      "length": 6,
+      "location": [
+        40,
+        -8
+      ],
+      "style": "DMEFlare",
+      "width": 3.5
+    }
+  ],
+  "height": 104,
+  "hullId": "istl_borzoi",
+  "hullName": "Borzoi",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    3,
+    -0
+  ],
+  "shieldRadius": 65,
+  "spriteName": "graphics/ISTL/ships/phase/istl_borzoi.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        21,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        21,
+        18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -10,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -10,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0005",
+      "locations": [
+        20,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -46,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -6.5,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -6.5,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 57.5,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        2.5,
+        25.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -57.5,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        2.5,
+        -25.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 135,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        -12.5,
+        19.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -135,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        -12.5,
+        -19.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0016",
+      "locations": [
+        56.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 70
+}

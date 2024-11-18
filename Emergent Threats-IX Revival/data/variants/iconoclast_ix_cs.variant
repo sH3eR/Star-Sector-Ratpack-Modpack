@@ -1,0 +1,34 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "iconoclast_ix",
+    "hullMods": [
+        "advancedoptics",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "iconoclast_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS ARR": "interdictor_iris_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "daythorn_mapb_ix",
+                "WS 002": "daythorn_mapb_ix"
+            }
+        }
+    ],
+    "wings": [
+        "dictum_ix_wing",
+        "dictum_ix_wing"
+    ]
+}

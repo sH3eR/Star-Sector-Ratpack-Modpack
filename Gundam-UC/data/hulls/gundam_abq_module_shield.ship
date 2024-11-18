@@ -1,0 +1,22 @@
+{
+  "hullName": "Shield Module",
+  "hullId": "gundam_abq_module_shield",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/empty.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 49,
+  "width": 53,
+  "center": [26.5, 24.5],
+  "collisionRadius": 313.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 680,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -4, 9.5,
+    -20.5, -2,
+    -35, 10.5,
+    -20.5, 30.5
+  ]
+}

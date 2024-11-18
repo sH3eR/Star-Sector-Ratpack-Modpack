@@ -1,0 +1,191 @@
+{
+  "hullName": "Starliner(LG)",
+  "hullId": "de_starliner_lg",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/DE/ships/lg_starliner.png",
+  "style": "LOW_TECH",
+  "height": 276,
+  "width": 138,
+  "center": [69, 138],
+  "collisionRadius": 153,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 146,
+  "viewOffset": 0,
+  "builtInMods": [
+    "andrada_mods",
+    "solar_shielding"
+  ],
+  "builtInWings": [
+    "de_miningpod_wing",
+    "de_miningpod_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-22, -46]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-22, 46]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-83, -37]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-83, 37]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        68.5, -29.5,
+        15, -29.5,
+        -48, -38,
+        -48, 38,
+        68, 35,
+        15, 35
+      ]
+    }
+  ],
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 96,
+            "length": 64,
+            "location": [
+                -108,
+                19
+            ],
+            "style": "MIDLINE",
+            "width": 24
+        },
+        {
+            "angle": 180,
+            "contrailSize": 96,
+            "length": 96,
+            "location": [
+                -108,
+                0
+            ],
+            "style": "MIDLINE",
+            "width": 32
+        },
+        {
+            "angle": 180,
+            "contrailSize": 96,
+            "length": 64,
+            "location": [
+                -108,
+                -18
+            ],
+            "style": "MIDLINE",
+            "width": 24
+        },
+        {
+            "angle": 180,
+            "contrailSize": 32,
+            "length": 24,
+            "location": [
+                -85,
+                39
+            ],
+            "style": "MIDLINE",
+            "width": 6
+        },
+        {
+            "angle": 180,
+            "contrailSize": 32,
+            "length": 24,
+            "location": [
+                -85,
+                -38
+            ],
+            "style": "MIDLINE",
+            "width": 6
+        },
+        {
+            "angle": 170,
+            "contrailSize": 32,
+            "length": 24,
+            "location": [
+                -106,
+                26
+            ],
+            "style": "MIDLINE",
+            "width": 6
+        },
+        {
+            "angle": 190,
+            "contrailSize": 32,
+            "length": 24,
+            "location": [
+                -106,
+                -25
+            ],
+            "style": "MIDLINE",
+            "width": 6
+        }
+    ],
+  "bounds": [
+    -138, -29,
+    -120.5, -33,
+    -110, -51.5,
+    -78, -51.5,
+    -70, -45.5,
+    -39, -45.5,
+    -25, -55.5,
+    -8.5, -55.5,
+    -1, -52,
+    37.5, -52,
+    48.5, -50,
+    57, -43.5,
+    82, -43.5,
+    104.5, -51.5,
+    111, -30,
+    119, -32.5,
+    139, 0,
+    139, -0,
+    119, 32.5,
+    111, 30,
+    104.5, 51.5,
+    82, 43.5,
+    57, 43.5,
+    48.5, 50,
+    37.5, 52,
+    -1, 52,
+    -8.5, 55.5,
+    -25, 55.5,
+    -39, 45.5,
+    -70, 45.5,
+    -78, 51.5,
+    -110, 51.5,
+    -120.5, 33,
+    -138, 29
+  ]
+}

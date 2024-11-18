@@ -1,0 +1,2 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+DE_Unpropaganda,De-Radicalisation Hub,60,90,,14,,,structure,,graphics/DE/icons/industry/depropaganda.png,DE.industries.DE_Unpropaganda,"A hub for a planet-wide de-radicalisation campaign, aimed at scrubbing away the deep-rooted propaganda planted by the Diktat in its citizens.",,

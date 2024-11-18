@@ -1,0 +1,9 @@
+{
+    "niko_stationAugments":{
+        "MarketsWithAugments": {
+            "culann": [
+                "MCTE_stormDispersal",
+            ],
+        },
+    },
+}

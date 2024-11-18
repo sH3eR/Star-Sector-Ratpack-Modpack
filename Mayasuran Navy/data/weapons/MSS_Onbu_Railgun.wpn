@@ -1,0 +1,63 @@
+{
+  "id": "MSS_Onbu_Railgun",
+  "specClass": "projectile",
+  "projectileSpecId": "MSS_onbu_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/mayasura/weapons/big_frag_railgun/MSS_big_frag_hardpoint_base.png",
+  "turretGlowSprite": "graphics/mayasura/weapons/big_frag_railgun/MSS_big_frag_hardpoint_glow.png",
+  "turretGunSprite": "graphics/mayasura/weapons/big_frag_railgun/MSS_big_frag_hardpoint_barrel.png",
+  "hardpointSprite": "graphics/mayasura/weapons/big_frag_railgun/MSS_big_frag_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/mayasura/weapons/big_frag_railgun/MSS_big_frag_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/mayasura/weapons/big_frag_railgun/MSS_big_frag_hardpoint_barrel.png",
+  "renderAboveAllWeapons": 0,
+    "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "visualRecoil": 18,
+  "turretOffsets": [
+    49,
+    5,
+    49,
+    -5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    84,
+    5,
+    84,
+    -5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 10,
+    "particleSizeMin": 60,
+    "particleSizeRange": 24,
+    "particleDuration": 0.12,
+    "particleCount": 18,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "MSS_fragrailgun_fire"
+}

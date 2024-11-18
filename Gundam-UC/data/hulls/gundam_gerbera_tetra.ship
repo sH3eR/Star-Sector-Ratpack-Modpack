@@ -1,0 +1,137 @@
+{
+  "hullName": "Gerbera Tetra",
+  "hullId": "gundam_gerbera_tetra",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/gerbera_tetra/gundam_gerbera_tetra_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 42,
+  "width": 33,
+  "center": [16.5, 22],
+  "collisionRadius": 12,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GRANADE": "gundam_sturm_faust",
+    "GRANADE_2": "gundam_sturm_faust",
+    "GUN": "gundam_gerbera_tetra_gun",
+    "HEAD": "gundam_gerbera_tetra_head",
+    "L_ARM": "gundam_gerbera_tetra_armgun",
+    "L_LEG": "gundam_gerbera_tetra_leg",
+    "MELEE": "gundam_saber_yellow",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-2.5, -0]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-4, -9.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [17.5, -9.5]
+    },
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [8.5, 5]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-4.5, 10]
+    },
+    {
+      "id": "GRANADE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [4.5, -7]
+    },
+    {
+      "id": "GRANADE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [5, 5.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -160,
+      "locations": [-9.5, -8.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 160,
+      "locations": [-9.5, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -8],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10, 8],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -9.5, 8.5,
+    5.5, 8.5,
+    5.5, -8,
+    -9.5, -8
+  ]
+}

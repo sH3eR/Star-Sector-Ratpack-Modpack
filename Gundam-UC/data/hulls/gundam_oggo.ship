@@ -1,0 +1,62 @@
+{
+  "hullName": "Oggo",
+  "hullId": "gundam_oggo",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ma/big_rang/gundam_oggo_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 18,
+  "width": 26,
+  "center": [13, 8.5],
+  "collisionRadius": 13,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 16.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "gundam_oggo_gun",
+    "WS0002": "gundam_oggo_missile"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0.5, -12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-1, 16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5.5, -9.5],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-5.5, 8.5],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -7, -13,
+    7.5, -13,
+    7.5, 13,
+    -7, 13
+  ]
+}

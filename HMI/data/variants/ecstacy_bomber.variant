@@ -1,0 +1,66 @@
+{
+  "variantId": "ecstacy_bomber",
+  "hullId": "ecstacy",
+  "displayName": "Bombardment",
+  "goalVariant": false,
+  "fluxCapacitors": 19,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam_rem",
+        "WS0002": "gravitonbeam_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "messengerpod_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "messengerpod_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "messenger_rem",
+        "WS0012": "messenger_rem",
+        "WS0013": "messenger_rem",
+        "WS0014": "messenger_rem",
+        "WS0015": "messengerpod_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_auctor_wing",
+    "hmi_auctor_wing"
+  ]
+}

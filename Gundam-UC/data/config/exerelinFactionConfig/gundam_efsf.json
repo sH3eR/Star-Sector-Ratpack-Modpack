@@ -1,0 +1,158 @@
+{
+    "playableFaction": true,
+    "corvusCompatible": true,
+    "rebelFleetSuffix": "Deserter",
+    "directoryUseShortName": true,
+    "startRelationships": {
+        "hegemony": 0.2,
+        "tritachyon": 0.3,
+        "pirates": -0.2,
+        "independent": 0.1,
+        "luddic_church": -0.2,
+        "luddic_path": -0.6,
+        "sindrian_diktat": -0.2,
+        "persean": 0.1,
+        "lions_guard": 0,
+        "remnant": -1,
+        "gundam_zeon": -0.5,
+        "diableavionics": 0.3,
+    },
+    "morality": "evil",
+    "diplomacyTraits": [
+        "stalwart",
+        "temperamental",
+        "envious",
+        "lowprofile"
+    ],
+    "alignments": {
+        "corporate": 1,
+        "technocratic": -0.2,
+        "militarist": -0.6,
+        "diplomatic": 0.6,
+        "ideological": -1
+    },
+    "isPirateNeutral": true,
+    "vengeanceLevelNames": [
+        "Retribution",
+        "Deposition",
+        "Decimations"
+    ],
+    "vengeanceFleetNames": [
+        "Retribution",
+        "Deposition",
+        "Decimations"
+    ],
+    "vengeanceFleetNamesSingle": [
+        "a Retribution Division",
+        "a Deposition Squadron",
+        "a Decimations Force"
+    ],
+    "startShipsSolo": [
+        [
+            "gundam_carry_base_standard"
+        ],
+    ],
+    "startShipsCombatSmall": [
+        [
+            "gundam_lepanto_standard",
+            "gundam_pizarro_standard",
+            "gundam_carry_base_standard"
+        ],
+    ],
+    "startShipsCombatLarge": [
+        [
+            "gundam_salamis_standard",
+            "gundam_lepanto_standard",
+            "gundam_pizarro_standard"
+        ],
+    ],
+    "startShipsTradeSmall": [
+        [
+            "gundam_carry_base_standard",
+            "gundam_columbus_standard"
+        ],
+    ],
+    "startShipsCarrierSmall": [
+        [
+            "gundam_carry_base_standard",
+            "gundam_pizarro_standard"
+        ],
+    ],
+    "startShipsSuper": [
+        [
+            "gundam_pegasus_standard",
+            "gundam_gundam_rx78_2_pilot_standard"
+        ],
+        [
+            "gundam_blanc_rival_standard",
+            "gundam_gundam_g3_pilot_standard"
+        ],
+    ],
+    "defenceStations": [
+        {
+            "ids": [
+                "gundam_side_efsf_station",
+                "gundam_side_efsf_battlestation",
+                "gundam_side_efsf_fortress",
+                "gundam_luna_ii_fortress"
+            ]
+        },
+    ],
+    "startSpecialItems": [
+        [
+            [
+                "efsf_fighter_0_package",
+                ""
+            ]
+        ],
+        [
+            [
+                "efsf_hull_0_package",
+                ""
+            ]
+        ],
+        [
+            [
+                "efsf_ms_0_package",
+                ""
+            ]
+        ],
+    ],
+    "industrySeeds": [
+        {
+            "id": "orbitalworks",
+            "mult": 0.1
+        },
+        {
+            "id": "militarybase",
+            "mult": 0.2
+        },
+        {
+            "id": "fuelprod",
+            "mult": 0.05
+        },
+    ],
+    "bonusSeeds": [
+        {
+            "id": "population_upsize",
+            "count": 1
+        },
+        {
+            "id": "aiCore_station",
+            "count": 2,
+            "mult": 0.2
+        },
+        {
+            "id": "aiCore_military",
+            "mult": 1.5
+        },
+        {
+            "id": "aiCore_heavyindustry",
+            "count": 1
+        },
+        {
+            "id": "aiCore_any",
+            "mult": 1.5
+        },
+    ],
+}

@@ -1,0 +1,36 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "MSS_Perryi_F",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Perryi_F_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "harpoon",
+        "WS0004": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "railgun"
+      }
+    }
+  ],
+  "wings": []
+}

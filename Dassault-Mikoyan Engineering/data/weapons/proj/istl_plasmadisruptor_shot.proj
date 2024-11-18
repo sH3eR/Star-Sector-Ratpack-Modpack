@@ -1,0 +1,19 @@
+{
+	"id":"istl_plasmadisruptor_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_PlasmaGunOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":45.0,
+	#"length":75.0,
+	"width":6.0,
+	"fadeTime":0.15,
+	"fringeColor":[155,100,255,235],
+	"coreColor":[175,125,255,255],
+	"hitGlowRadius":16,
+	"passThroughMissiles":true,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-450.0,
+	"pixelsPerTexel":1.0,	
+}

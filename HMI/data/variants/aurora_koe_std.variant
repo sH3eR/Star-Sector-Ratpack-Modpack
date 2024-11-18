@@ -1,0 +1,62 @@
+{
+  "variantId": "aurora_koe_std",
+  "hullId": "aurora_koe",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "unstable_injector",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 009": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 010": "hammer",
+        "WS 011": "hammer",
+        "WS 012": "hammer",
+        "WS 013": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "taclaser",
+        "WS 004": "taclaser",
+        "WS 005": "taclaser",
+        "WS 007": "ionbeam",
+        "WS 008": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdlaser",
+        "WS 002": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

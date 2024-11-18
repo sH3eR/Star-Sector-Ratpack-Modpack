@@ -1,0 +1,66 @@
+{
+	"id":"istl_TBM",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/ISTL/missiles/istl_TBM.png",
+	"size":[13,29],	
+	"center":[6.5,14.5],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,175,125,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":150,
+				  "acc":180,
+				  "dec":180},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,175,125,255],
+						"contrailDuration":3.0,
+						"contrailWidthMult":2.0,
+						"contrailWidthAddedFractionAtEnd":0.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[255,150,100,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":24.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":500,
+					"splitRangeRange":100,
+					"minTimeToSplit":1,
+					"canSplitEarly":true,
+					"splitSound":"devastator_explosion",
+					"numShots":4,
+					"damage":200,
+					"emp":0,
+					"damageType":HIGH_EXPLOSIVE,
+					"hitpoints":150,
+					"arc":20,
+					"spreadInaccuracy":4,
+					"evenSpread":true,
+					"spreadSpeed":250,
+					"spreadSpeedRange":400,
+					"projectileRange":750, # only needed if not a missile
+					"projectileSpec":"istl_TBM_submunition",
+					#"projectileSpec":"istl_TBM_dummysub",
+					"smokeSpec":{"particleSizeMin":16.0,
+								 "particleSizeRange":20.0,
+								 "cloudParticleCount":16,
+								 "cloudDuration":0.4,
+								 "cloudRadius":32.0,
+								 "blowbackParticleCount":12,
+								 "blowbackDuration":0.25,
+								 "blowbackLength":16.0,
+								 "blowbackSpread":4.0,
+								 "particleColor":[255,150,100,175]}
+					}				    
+}

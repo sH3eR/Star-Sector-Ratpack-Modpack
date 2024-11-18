@@ -1,0 +1,8 @@
+{
+#uaf ai spec ops fleet
+"illegalCommodities":[
+    "ai_cores",
+	"organs",
+    "red_water",
+	],
+},

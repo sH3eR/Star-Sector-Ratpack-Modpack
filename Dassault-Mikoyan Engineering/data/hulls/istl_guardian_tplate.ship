@@ -1,0 +1,91 @@
+{
+  "bounds": [
+    -8,
+    -14,
+    -34,
+    -58,
+    -20,
+    -72,
+    -12,
+    -72,
+    31,
+    0,
+    -12,
+    72,
+    -20,
+    72,
+    -34,
+    58,
+    -8,
+    14,
+    -19,
+    -0
+  ],
+  "builtInMods": [
+    "istl_bbengineering",
+    "automated",
+    "supercomputer",
+    "reduced_explosion",
+    "always_detaches",
+    "shared_flux_sink",
+  ],
+  "builtInWeapons": {
+  },
+  "center": [
+    76,
+    38
+  ],
+  "collisionRadius": 92,
+  "engineSlots": [],
+  "height": 76,
+  "hullId": "istl_guardian_tplate",
+  "hullName": "Armor",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -120,
+    -0
+  ],
+  "shieldRadius": 320,
+  "spriteName": "graphics/ISTL/ships/stations/istl_guardian_tplate.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 210,
+      "id": "WS0001",
+      "locations": [
+        6,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 30,
+      "arc": 120,
+      "id": "WS0002",
+      "locations": [
+        -9,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -30,
+      "arc": 120,
+      "id": "WS0003",
+      "locations": [
+        -9,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 152
+}

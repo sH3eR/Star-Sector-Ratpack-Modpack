@@ -1,0 +1,18 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			"mulligan":0,
+			"mulligan_lp":0.1,
+		},
+	},
+	"knownShips":{
+		"hulls":[
+		"mulligan_lp",
+		],
+	},
+	"illegalCommodities":[
+		"red_water",
+		"mess_nano",
+		"hmi_crystal",
+	],
+},

@@ -1,0 +1,38 @@
+{
+	"id": "hmi_prendergast_right",
+	"specClass":"beam",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"type": "ENERGY",
+	"size": "SMALL",
+	"turretSprite": "graphics/weapons/prendergast_right.png",
+	"turretGlowSprite": "graphics/weapons/prendergast_right_glow.png",
+	"hardpointSprite": "graphics/weapons/prendergast_right.png",
+	"hardpointGlowSprite": "graphics/weapons/prendergast_right_glow.png",
+	"fringeColor":[155,0,0,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,100,100,255],
+	"turretOffsets": [
+    20,
+    2.5
+	],
+	"turretAngleOffsets": [
+    0
+	],
+	"hardpointOffsets": [
+    34,
+    2.5
+	],
+	"hardpointAngleOffsets": [
+    0
+	],
+	"skipIdleFrameIfZeroBurstDelay":true,
+	"hitGlowBrightenDuration":0.25,
+	"width":17.0,
+	"textureType":LASER,
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	#"fireSoundOne":"heavy_burst_laser_fire",
+	"fireSoundTwo":"ir_autolance_loop",
+}

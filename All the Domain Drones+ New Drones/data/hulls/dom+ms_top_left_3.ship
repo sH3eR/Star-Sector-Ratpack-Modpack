@@ -1,0 +1,115 @@
+{
+  "hullName": "Module",
+  "hullId": "dom+ms_top_left_3",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mothership+/MS Top Left Module 3.png",
+  "style": "LOW_TECH",
+  "height": 83,
+  "width": 219,
+  "center": [58, 111],
+  "collisionRadius": 116,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 113.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "automated",
+    "turretgyros",
+    "solar_shielding",
+    "supercomputer"
+  ],
+  "builtInWings": [
+    "dom+defense_pod_Autocannon",
+    "dom+defense_pod_Autocannon"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-58.5, -150]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-60, -51.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-67.5, 21]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-46.5, 45.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-55, 28]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-68.5, -123]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-56.5, -132]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -84, -50.5,
+        -84.5, -67,
+        -86, -32
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -25.5, -158,
+    -26.5, 58,
+    -62.5, 58,
+    -81, 10,
+    -107, -23,
+    -111, -80.5,
+    -79, -98.5,
+    -78.5, -124.5,
+    -69.5, -157
+  ]
+}

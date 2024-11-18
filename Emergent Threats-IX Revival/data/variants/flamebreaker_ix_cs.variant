@@ -1,0 +1,65 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 3,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "flamebreaker_ix",
+    "hullMods": [
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_point_defense_small",
+        "ix_point_defense_small_handler",
+        "ix_dawnstar_controller",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flamebreaker_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "thundermark_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "orthrus_s_ix",
+                "WS 010": "orthrus_s_ix",
+                "WS 011": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "dawnstar_lcpb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "daythorn_mapb_ix",
+                "WS 004": "daythorn_mapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "plasma_dart_ix",
+                "WS 006": "plasma_dart_ix",
+                "WS 007": "plasma_dart_ix",
+                "WS 008": "plasma_dart_ix",
+                "WS 012": "plasma_dart_ix",
+                "WS 013": "plasma_dart_ix"
+            }
+        }
+    ],
+    "wings": [
+        "axiom_ix_wing",
+        "axiom_ix_wing"
+    ]
+}

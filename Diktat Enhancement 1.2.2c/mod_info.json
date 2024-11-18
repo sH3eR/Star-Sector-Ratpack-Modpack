@@ -1,0 +1,16 @@
+{
+  "id": "Diktat Enhancement",
+  "name": "Diktat Enhancement",
+  "author": "JAL28",
+  "version": "1.2.2c",
+  "description": "Buffs the Sindrian Diktat by adding loads of content to it(mostly campaign-related like markets, systems, industries etc). Aimed to give the Diktat an actual fighting chance in Nexerelin rounds. Intended to be used with Nexerelin. Now compatible with PAGSM.",
+  "gameVersion": "0.97a-RC11",
+  "jars": [
+    "jars/DE.jar"
+  ],
+  "dependencies": [
+        {"id": "lw_lazylib", "name": "LazyLib"},
+        {"id": "MagicLib", "name": "MagicLib"},
+    ],
+  "modPlugin": "DE.scripts.DE_ModPlugin"
+}

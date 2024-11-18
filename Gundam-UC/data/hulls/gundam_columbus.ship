@@ -1,0 +1,204 @@
+{
+  "hullName": "Columbus",
+  "hullId": "gundam_columbus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/gundam_columbus.png",
+  "style": "GUNDAM_EFSF_SHIELD",
+  "height": 142,
+  "width": 164,
+  "center": [82, 59],
+  "collisionRadius": 92.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 105,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "GUIDE_1": "gundam_launch_bay_guide",
+    "GUIDE_2": "gundam_launch_bay_guide",
+    "GUIDE_3": "gundam_launch_bay_guide",
+    "GUIDE_4": "gundam_launch_bay_guide"
+  },
+  "weaponSlots": [
+    {
+      "id": "GUIDE_1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [63, 40]
+    },
+    {
+      "id": "GUIDE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [63, -40]
+    },
+    {
+      "id": "GUIDE_3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [63, 55.5]
+    },
+    {
+      "id": "GUIDE_4",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [63, -55.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [21, 43.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [21, -43.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [47, 39.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -30,
+      "locations": [47, -39.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        63, 50,
+        63.5, 40.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        63.5, -40,
+        63.5, -52
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51.5, 44],
+      "length": 73.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-51.5, -44],
+      "length": 73.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-58.5, 54.5],
+      "length": 48.5,
+      "width": 16,
+      "angle": 175.5,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-58.5, -54.5],
+      "length": 48.5,
+      "width": 16,
+      "angle": -175.5,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-54, 65],
+      "length": 34,
+      "width": 11,
+      "angle": 174.5,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-54, -65],
+      "length": 34,
+      "width": 11,
+      "angle": -174.5,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59.5, -34],
+      "length": 52,
+      "width": 12,
+      "angle": 176.5,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59.5, 34],
+      "length": 52,
+      "width": 12,
+      "angle": -176.5,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    82.5, -4.5,
+    66.5, -30,
+    63, -59,
+    41, -70.5,
+    -11.5, -79,
+    -45, -82.5,
+    -59, -70,
+    -59, -24.5,
+    -51.5, -24,
+    -51.5, 24,
+    -59, 24.5,
+    -59, 70,
+    -45, 82.5,
+    -11.5, 79,
+    41, 70.5,
+    63, 59,
+    66.5, 30,
+    82.5, 4.5
+  ]
+}

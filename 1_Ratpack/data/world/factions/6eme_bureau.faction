@@ -1,0 +1,11 @@
+{
+	#rouge DME corpos
+				"music":{
+            "market_neutral":"music_DME_market_neutral",
+            "market_hostile":"music_DME_market_hostile",
+            "market_friendly":"music_DME_market_friendly",
+            "encounter_neutral":"music_DME_encounter_neutral",
+            "encounter_hostile":"music_DME_encounter_hostile",
+            "encounter_friendly":"music_DME_encounter_friendly",
+    },
+},

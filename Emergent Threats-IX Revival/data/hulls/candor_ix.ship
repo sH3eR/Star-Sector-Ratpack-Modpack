@@ -1,0 +1,117 @@
+{
+  "hullName": "Candor",
+  "hullId": "candor_ix",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ix/candor_ix.png",
+  "style": "HIGH_TECH",
+  "height": 75,
+  "width": 106,
+  "center": [53, 40],
+  "collisionRadius": 70,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "builtInMods":["ix_ninth", "ix_emp_emitter", "ix_semi_automated"],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18, 33]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18, -33]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-19, 23]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-19, -23]
+    },
+    {
+      "id": "SM 1",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [24, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, -38],
+      "length": 30,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, 38],
+      "length": 30,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34, 7],
+      "length": 31,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34, -7],
+      "length": 31,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35, -0],
+      "length": 56,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    14, 44,
+    32, -0,
+    14, -44,
+    -7, -50,
+    -35, -18,
+    -27, -10,
+    -34, -4,
+    -34, 4,
+    -27, 10,
+    -35, 18,
+    -7, 50
+  ]
+}

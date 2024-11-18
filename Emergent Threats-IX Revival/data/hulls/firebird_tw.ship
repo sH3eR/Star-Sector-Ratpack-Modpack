@@ -1,0 +1,229 @@
+{
+  "hullName": "Firebird",
+  "hullId": "firebird_tw",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/trinity/firebird_tw.png",
+  "style": "HIGH_TECH",
+  "height": 220,
+  "width": 196,
+  "center": [98, 109],
+  "collisionRadius": 150,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 150,
+  "viewOffset": 0,
+  "coversColor": "210,230,210,255",
+  "builtInMods":["ix_active_flare_launcher", "tw_trinity_retrofit"],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [95, 21]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [95, -21]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [60, 30]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [60, -30]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [37, 39]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [37, -39]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 60,
+      "locations": [11, 39]
+    },
+    {
+      "id": "WS 008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -60,
+      "locations": [11, -39]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 50,
+      "locations": [-37, 74]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -50,
+      "locations": [-37, -74]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 50,
+      "locations": [-50, 86]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -50,
+      "locations": [-50, -86]
+    },
+    {
+      "id": "SM 1",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-101, 35],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "IX_TRINITY"
+    },
+    {
+      "location": [-101, -35],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "IX_TRINITY"
+    },
+    {
+      "location": [-105, 20],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "IX_TRINITY"
+    },
+    {
+      "location": [-105, -20],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "IX_TRINITY"
+    },
+    {
+      "location": [-105, 28],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "IX_TRINITY"
+    },
+    {
+      "location": [-105, -28],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "IX_TRINITY"
+    },
+    {
+      "location": [-84, 0],
+      "length": 47,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "IX_TRINITY"
+    }
+  ],
+  "bounds": [
+    -83, -7,
+    -104, -16,
+    -104, -31,
+    -95, -43,
+    -107, -50,
+    -104, -55,
+    -70, -47,
+    -86, -65,
+    -74, -65,
+    -54, -91,
+    -25, -66,
+    -20, -71,
+    25, -48,
+    44, -56,
+    100, -32,
+    104, -8,
+    5, -12,
+    5, 12,
+    104, 8,
+    100, 32,
+    44, 56,
+    25, 48,
+    -20, 71,
+    -25, 66,
+    -54, 91,
+    -74, 65,
+    -86, 65,
+    -70, 47,
+    -104, 55,
+    -107, 50,
+    -95, 43,
+    -104, 31,
+    -104, 16,
+    -83, 7
+  ]
+}

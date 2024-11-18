@@ -1,0 +1,135 @@
+{
+  "hullName": "Module",
+  "hullId": "dom+ms_top_left_2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mothership+/MS Top Left Module 2.png",
+  "style": "LOW_TECH",
+  "height": 226,
+  "width": 90,
+  "center": [58, 111],
+  "collisionRadius": 116,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 113.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "automated",
+    "turretgyros",
+    "solar_shielding",
+    "supercomputer"
+  ],
+  "builtInWings": [
+    "dom+fencer_wing_Bomber_wing",
+    "dom+jouster_wing_gunship"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 0,
+      "locations": [17, 44]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 180,
+      "locations": [-18, 10]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 120,
+      "locations": [-73.5, 2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-103, 2.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 20,
+      "locations": [77, 1]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 120,
+      "locations": [-82, -20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 20,
+      "locations": [87, -21]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [107, 1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [111, -8]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-108.5, -7]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-12.5, 47]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -88, -31,
+    94, -31,
+    112, -1,
+    30.5, 55.5,
+    -31.5, 56.5,
+    -108, -2.5
+  ]
+}

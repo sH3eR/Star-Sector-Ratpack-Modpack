@@ -1,0 +1,29 @@
+{
+  "displayName": "Heavy Bomber",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "MSS_Crossbow",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Crossbow_Bomber",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "MSS_TwinSagir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "MSS_gorgon_single",
+        "WS0004": "MSS_gorgon_single"
+      }
+    }
+  ],
+  "wings": []
+}

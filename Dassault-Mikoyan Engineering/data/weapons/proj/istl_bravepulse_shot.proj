@@ -1,0 +1,18 @@
+{
+	"id":"istl_bravepulse_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_BravePulseOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":60.0,
+	"width":6.0,
+	"fadeTime":0.1,
+	"fringeColor":[25,200,135,225],
+	"coreColor":[155,255,135,255],
+	"hitGlowRadius":16,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-48.0,
+	"pixelsPerTexel":1.0,
+	#"bulletSprite":"graphics/ISTL/missiles/istl_matador_bolt.png",	
+}

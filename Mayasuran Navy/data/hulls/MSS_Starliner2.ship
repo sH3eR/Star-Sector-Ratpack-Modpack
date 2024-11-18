@@ -1,0 +1,262 @@
+{
+  "hullName": "Starliner (M)",
+  "hullId": "MSS_Starliner2",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mayasura/ships/MSS_Starliner_Elite.png",
+  "style": "MIDLINE",
+  "height": 284,
+  "width": 126,
+  "center": [63, 113],
+  "collisionRadius": 222.5,
+  "shieldCenter": [30, 0],
+  "shieldRadius": 190,
+  "viewOffset": 0,
+  "builtInMods": [
+    "MSS_Prime",
+    "MSS_LastStand",
+    "ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0008": "MSS_Starliner_Cover",
+    "WS0009": "MSS_Starliner_Howitzer"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [5, 39]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [5, -39]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 120,
+      "locations": [-53, 37]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 240,
+      "locations": [-53, -37]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [38, 1]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [38, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 55,
+      "locations": [125, 25],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -55,
+      "locations": [125, -25],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [143, -0],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        39, -0,
+        39, 2,
+        39, -2,
+        39, -4,
+        39, 4
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [156, 33],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [156, -33],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [104, 47],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [104, -47],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [60, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 120,
+      "angle": 0,
+      "locations": [112, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-108, 19],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-108, -0],
+      "length": 96,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-108, -18],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-85, 39],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MayasuranSilverFlare"
+    },
+    {
+      "location": [-85, -38],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MayasuranSilverFlare"
+    },
+    {
+      "location": [-106, 26],
+      "length": 24,
+      "width": 6,
+      "angle": 170,
+      "contrailSize": 32,
+      "style": "MayasuranSilverFlare"
+    },
+    {
+      "location": [-106, -25],
+      "length": 24,
+      "width": 6,
+      "angle": 190,
+      "contrailSize": 32,
+      "style": "MayasuranSilverFlare"
+    }
+  ],
+  "bounds": [
+    156, -0.5,
+    152, -28,
+    148, -42,
+    120, -56,
+    81, -54,
+    69.5, -45.5,
+    -37.5, -42,
+    -47, -50.5,
+    -77, -50,
+    -105, -23,
+    -105, 24,
+    -77, 51,
+    -47, 50.5,
+    -37.5, 42,
+    69.5, 45.5,
+    81, 55,
+    120, 57,
+    148, 42,
+    161, 28
+  ]
+}

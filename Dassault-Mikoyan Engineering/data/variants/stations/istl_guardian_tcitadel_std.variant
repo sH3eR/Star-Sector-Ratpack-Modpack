@@ -1,0 +1,25 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "istl_guardian_tcitadel",
+    "hullMods": [
+        "ecm",
+        "istl_bbsupport",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_guardian_tcitadel_std",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "istl_thermalmortar",
+            "WS0002": "istl_shellback",
+            "WS0003": "istl_shellback",
+            "WS0004": "istl_impulsor",
+            "WS0005": "istl_impulsor"
+        }
+    }]
+}

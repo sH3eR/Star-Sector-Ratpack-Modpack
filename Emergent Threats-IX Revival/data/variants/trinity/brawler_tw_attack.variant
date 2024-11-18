@@ -1,0 +1,37 @@
+{
+    "displayName": "Fast Attack",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "brawler_tw",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "brawler_tw_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "dawnstar_lcpb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "orthrus_s_ix",
+                "WS 004": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lightbringer_ciws_ix"}
+        }
+    ]
+}

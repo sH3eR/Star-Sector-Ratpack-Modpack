@@ -1,0 +1,12 @@
+{
+    "masterVersionFile": "https://raw.githubusercontent.com/AudaxLudos/suitable-star-systems/main/SuitableStarSystems.version",
+    "modName": "Suitable Star Systems",
+    "modVersion": {
+        "major": 2,
+        "minor": 4,
+        "patch": 0a
+    },
+    "modThreadId": 25418,
+    "directDownloadURL": "https://github.com/AudaxLudos/suitable-star-systems/releases/latest/download/SuitableStarSystems.zip",
+    "changelogURL": "https://raw.githubusercontent.com/AudaxLudos/suitable-star-systems/main/CHANGELOG.txt"
+}

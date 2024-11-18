@@ -1,0 +1,55 @@
+{
+  "variantId": "MSS_Scaramouche_HVB_CJ",
+  "hullId": "MSS_Scaramouche_HVB",
+  "displayName": "Special Operations",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "MSS_LargeLaserCannon_scaramouche",
+        "WS0008": "MSS_LargeLaserCannon_scaramouche"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

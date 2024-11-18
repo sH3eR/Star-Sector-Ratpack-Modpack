@@ -1,0 +1,29 @@
+{
+	"id":"istl_BBpulsejets",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.istl_WitchJetsStats",
+	
+	"engineGlowColor":[105,255,205,255],
+	"engineGlowContrailColor":[105,255,205,25],
+	"engineGlowLengthMult":1.2,
+	"engineGlowWidthMult":0.8,
+	"engineGlowGlowMult":1.5,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+		#"activeSpeedIncrease":0,
+		"burstMovementPotential":300,
+		"averageSpeedIncrease":35,
+	}
+}

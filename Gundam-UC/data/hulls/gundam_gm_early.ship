@@ -1,0 +1,105 @@
+{
+  "hullName": "GM Early Type",
+  "hullId": "gundam_gm_early",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/gm_early/gundam_gm_early_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 27,
+  "width": 26,
+  "center": [12.5, 13],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gm_early_gun",
+    "HEAD": "gundam_gm_early_head",
+    "L_LEG": "gundam_gm_early_leg",
+    "L_ARM": "gundam_gm_early_hand",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-7.5, -8]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-8, 0]
+    },
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [7.5, 8.5]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -81.5,
+      "locations": [-9, 8.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-11, 6]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-11, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, 6],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-11, -6.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -8, 8,
+    6, 8,
+    6, -7,
+    -8, -7
+  ]
+}

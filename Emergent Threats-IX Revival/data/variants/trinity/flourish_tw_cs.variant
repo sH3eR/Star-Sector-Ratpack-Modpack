@@ -1,0 +1,44 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "flourish_tw",
+    "hullMods": [
+        "extendedshieldemitter",
+        "pointdefenseai",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "modules": [{"WS 010": "flourish_ix_undershield"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flourish_tw_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "morningstar_ciws_ix",
+                "WS 003": "morningstar_ciws_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "orthrus_s_ix",
+                "WS 004": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "morningstar_ciws_ix",
+                "WS 006": "morningstar_ciws_ix",
+                "WS 007": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

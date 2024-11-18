@@ -1,0 +1,138 @@
+{
+  "hullName": "Bulldog Protector MKIII",
+  "hullId": "dom+bulldogmkiii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Destroyers/Bulldog Protector MKIII.png",
+  "style": "LOW_TECH",
+  "height": 200,
+  "width": 160,
+  "center": [78, 101],
+  "collisionRadius": 124,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 121,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "domIntegratedTargetingUnit",
+    "fluxdistributor",
+    "turretgyros"
+  ],
+  "builtInWings": [
+    "dom+defense_pod_Autocannon"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0.5, 0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -39.5, 0,
+        -40, -6.5,
+        -40.5, 7
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [47, -33]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [43.5, -60]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        1, -24,
+        -10, -26,
+        12, -27
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-101, -2],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, 34.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-100, 19],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-100, -19],
+      "length": 30,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89.5, -37],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    51, 17.5,
+    50.5, 64.5,
+    38.5, 78,
+    -27.5, 77.5,
+    -69, 61.5,
+    -99, 30.5,
+    -99, -30.5,
+    -69, -61.5,
+    -30.5, -61,
+    -30, -81.5,
+    24.5, -82,
+    52, -72.5,
+    52, -18.5,
+    100.5, -17,
+    100, 15.5
+  ]
+}

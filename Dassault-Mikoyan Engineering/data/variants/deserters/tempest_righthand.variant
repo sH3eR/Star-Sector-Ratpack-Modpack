@@ -1,0 +1,32 @@
+{
+    "displayName": "Right Hand",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_tempest_deserter",
+    "hullMods": [
+        "missleracks",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "tempest_righthand",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "istl_ammlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "istl_brigador"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "istl_heavylinear_autogun"}
+        }
+    ],
+    "wings": []
+}

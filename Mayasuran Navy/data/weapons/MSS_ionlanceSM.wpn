@@ -1,0 +1,59 @@
+{
+  "id": "MSS_ionlanceSM",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.MSS_IonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/mayasura/weapons/MSS_ionlance_turret_base.png",
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_ionlance_turret_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/mayasura/weapons/MSS_ionlanceSM_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    125,
+    215,
+    255,
+    255
+  ],
+  "hitGlowRadius": 75,
+  "turretOffsets": [
+    4,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    25,
+    125,
+    175,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "width": 25,
+  "textureType": LASER,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "MSS_ionlance_fire"
+}

@@ -1,0 +1,14 @@
+{
+	"id":"istl_fastloader_proto",
+	"type":"FAST_RELOAD",
+	"aiType":"FAST_RELOAD",
+	#"aiType":"CUSTOM",
+	#"aiScript":"data.shipsystems.scripts.ai.FastMissileRacksAI",
+	
+	"weaponGlowColor":[75,255,175,155],
+	"weaponTypes":[MISSILE],
+	"minFractionToReload":0.5,
+	
+	"useSound":"istl_system_fastloader",
+	"outOfUsesSound":"istl_system_unavailable",
+}

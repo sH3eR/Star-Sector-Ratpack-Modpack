@@ -1,0 +1,28 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_braw_bro",
+  "hullMods": [
+    "fluxdistributor",
+	"hardenedshieldemitter",
+    "fluxcoil",
+	"stabilizedshieldemitter"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_braw_bro_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gundam_braw_bro_bit",
+		"WS0002": "gundam_braw_bro_bit"
+      }
+    }
+  ],
+  "wings": []
+}

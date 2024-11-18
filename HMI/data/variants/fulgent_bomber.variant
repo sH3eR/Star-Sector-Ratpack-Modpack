@@ -1,0 +1,56 @@
+{
+  "variantId": "fulgent_bomber",
+  "hullId": "fulgent",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "taclaser_rem",
+        "WS 001": "gravitonbeam_rem",
+        "WS 002": "taclaser_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "messengerpod_rem",
+        "WS 004": "messengerpod_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "messenger_rem",
+        "WS 010": "messenger_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "taclaser_rem",
+        "WS 006": "taclaser_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "pdburst",
+        "WS 008": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

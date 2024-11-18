@@ -1,0 +1,52 @@
+{
+  "id": "gundam_zaku_ii_hm_leg",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_straight_missile_bullet",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/ms/zaku_ii_hm/gundam_zaku_ii_hm_leg.png",
+  "hardpointSprite": "graphics/ms/zaku_ii_hm/gundam_zaku_ii_hm_leg.png",
+  "turretOffsets": [
+    2,
+    6,
+    2.5,
+    -24
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    22,
+    5.5,
+    22.5,
+    -23.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "renderHints":[RENDER_ADDITIVE],
+  "interruptibleBurst":false,
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1.5,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackSpread": 6,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "gundam_front_missile"
+}

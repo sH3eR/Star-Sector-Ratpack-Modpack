@@ -1,0 +1,102 @@
+{
+  "variantId": "MSS_Vishnu_Elite",
+  "hullId": "MSS_Vishnu_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 39,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "autorepair",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0051": "MSS_Iowa_Turret",
+        "WS0052": "MSS_Iowa_Turret",
+        "WS0053": "MSS_Iowa_Turret"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "MSS_ArmoredBL",
+        "WS0020": "MSS_ArmoredBL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "heavyneedler",
+        "WS0017": "heavyneedler",
+        "WS0021": "heavyneedler",
+        "WS0023": "heavyneedler",
+        "WS0025": "heavyneedler",
+        "WS0031": "MSS_LaserCannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "dualflak",
+        "WS0016": "heavyneedler",
+        "WS0018": "heavyneedler",
+        "WS0022": "heavyneedler",
+        "WS0024": "heavyneedler",
+        "WS0026": "heavyneedler",
+        "WS0032": "MSS_LaserCannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0004": "dualflak",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0027": "pdlaser",
+        "WS0028": "pdlaser",
+        "WS0029": "pdlaser",
+        "WS0030": "pdlaser",
+        "WS0033": "pdlaser",
+        "WS0034": "pdlaser",
+        "WS0035": "pdlaser",
+        "WS0036": "pdlaser",
+        "WS0037": "dualflak",
+        "WS0038": "dualflak",
+        "WS0039": "pdlaser",
+        "WS0040": "pdlaser",
+        "WS0041": "vulcan",
+        "WS0042": "vulcan",
+        "WS0043": "vulcan",
+        "WS0044": "vulcan",
+        "WS0045": "vulcan",
+        "WS0046": "vulcan",
+        "WS0047": "vulcan",
+        "WS0048": "vulcan",
+        "WS0049": "vulcan",
+        "WS0050": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

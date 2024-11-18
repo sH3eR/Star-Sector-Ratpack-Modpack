@@ -1,0 +1,119 @@
+{
+
+
+    # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting":{
+        "tags":["base_bp", "midline_bp", "hightech_bp", "mayasura_bp", "mayasura_e_bp", "mayasura_w_bp", "mayasura_c_bp"],
+        "hulls":[
+            "MSS_Mokarran",
+            "MSS_Javanicus_B",
+			"MSS_Arjuna",
+			"MSS_Pelican",
+
+            "MSS_Sarissa",
+            "MSS_Winghead",
+            "MSS_Pilgrim",
+			"MSS_Patriot",
+			
+            "MSS_Hammerhead",
+			"MSS_Manta",
+            "MSS_Argentavis",
+            "MSS_Sunder",
+            "MSS_Stingray",
+
+            "MSS_Perryi_F",
+            "MSS_Mako",
+            "MSS_Nailer",
+			"MSS_vigilance_m",
+        ],
+    },
+
+    "hullFrequency":{
+		"tags":{
+            "mayasura_bp": 0.1,
+			"mayasura_e_bp": 0.1,
+			"mayasura_w_bp": 0.1,
+			"mayasura_c_bp": 0.1,
+		},
+		"hulls":{
+
+        },
+    },
+    "knownShips":{
+        "tags":["base_bp", "midline_bp", "mayasura_bp", "mayasura_e_bp", "mayasura_w_bp", "mayasura_c_bp"],
+        "hulls":[
+            "MSS_Mokarran",
+            "MSS_Javanicus_B",
+			"MSS_Arjuna",
+			"MSS_Pelican",
+			"MSS_Conquest_Elite",
+
+            "MSS_Sarissa",
+            "MSS_Winghead",
+            "MSS_Pilgrim",
+			"MSS_Patriot",
+
+            "MSS_Hammerhead",
+            "MSS_Argentavis",
+			"MSS_Manta",
+            "MSS_Sunder",
+            "MSS_Stingray",
+
+            "MSS_Perryi_F",
+            "MSS_Mako",
+            "MSS_Nailer",
+			"MSS_vigilance_m",
+        ],
+    },
+
+    # listing ships here will make the faction mostly use them even if other hulls become available
+    "priorityShips":{
+		"hulls":[
+			],
+    },
+
+    "knownFighters":{
+        "tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "persean", "mayasura_bp"],
+        "fighters":[
+		"MSS_Crow",
+		"MSS_Tachi",
+		"MSS_Sipahi",
+		"MSS_Ferox",
+		"MSS_Crossbow",
+		"MSS_Didymoi",
+        ],
+		},
+		
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "persean"],
+		"weapons":[
+			"MSS_Orchard",
+			"MSS_onocrotalus",
+			"MSS_rocketlauncher",
+			"MSS_ionlance",
+			"MSS_largeharpoonpod",
+			"MSS_LaserCannon",
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"gauss",
+			"mjolnir",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+		],
+	},
+}

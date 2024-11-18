@@ -1,0 +1,12 @@
+{
+	"id":"aotd_vok",
+	"name": "AoTD- Vaults of Knowledge ",
+	"author":"Kaysaar",
+	"utility":"false",
+	"version":"3.0.0Alpha",
+	"description":"Ashes of the Domain - Vaults of Knowledge: Adds research mechanics to game, independent from other AoTD modules ",	"gameVersion": "0.97a",
+	"jars":["jars/Vok.jar"],
+	"dependencies": [ {"id": "ashlib","name": "Ashlib"} ],
+	"modPlugin":"data.kaysaar.aotd.vok.plugins.AoTDVokModPlugin"
+
+}

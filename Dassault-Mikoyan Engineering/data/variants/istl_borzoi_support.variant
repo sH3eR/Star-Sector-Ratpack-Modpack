@@ -1,0 +1,36 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "istl_borzoi",
+    "hullMods": [
+        "high_scatter_amp",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_borzoi_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_erpulsebeam",
+                "WS0002": "istl_erpulsebeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "istl_AMMblistertube",
+                "WS0011": "istl_AMMblistertube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_6cmrailgun"}
+        }
+    ]
+}

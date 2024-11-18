@@ -1,0 +1,12 @@
+{
+  "starSystems": [
+    #"andor.json",
+    "de_askonia.json",
+    #"ryzan.json",
+    #"de_yma.json",
+    #"de_zagan.json",
+    #"de_hybrasil.json",
+    #"de_tyle.json",
+    #"de_valhalla.json"
+  ]
+}

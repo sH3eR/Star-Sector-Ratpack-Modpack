@@ -1,0 +1,39 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_naja",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_naja_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_ammpod",
+                "WS0009": "istl_ammpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_12cmrailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_multipdnode",
+                "WS0002": "istl_multipdnode",
+                "WS0003": "istl_multipdnode",
+                "WS0004": "istl_multipdnode"
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_snakeeye",
+    "hullMods": ["istl_bbassault"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_snakeeye_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_pulseripper"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "istl_lens_hdem_rack",
+                "WS0003": "istl_lens_hdem_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_impulsor",
+                "WS0005": "istl_impulsor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "istl_thermalpd"}
+        }
+    ]
+}

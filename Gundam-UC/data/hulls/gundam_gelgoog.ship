@@ -1,0 +1,107 @@
+{
+  "hullName": "Gelgoog",
+  "hullId": "gundam_gelgoog",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/gelgoog/gundam_gelgoog_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 37,
+  "width": 31,
+  "center": [20.5, 21.5],
+  "collisionRadius": 12,
+  "shieldCenter": [2.5, 3],
+  "shieldRadius": 20.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gelgoog_gun",
+    "HEAD": "gundam_gelgoog_head",
+    "MELEE": "gundam_twin_beam_sword_slash",
+    "SHIELD": "gundam_gelgoog_shield",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-9.5, -0.5]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-7.5, 12.5]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-9, -11.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [9.5, -13]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -160,
+      "locations": [-14, -7]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 160,
+      "locations": [-14, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, -7],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, 7],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -9, 6.5,
+    6, 6.5,
+    6, -10,
+    -9, -10
+  ]
+}

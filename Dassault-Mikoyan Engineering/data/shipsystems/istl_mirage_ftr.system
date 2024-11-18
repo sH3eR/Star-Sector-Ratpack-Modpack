@@ -1,0 +1,37 @@
+{
+	"id":"istl_mirage_ftr",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER_2",
+	#"statsScript":"data.shipsystems.scripts.MirageFXStatsSm",
+
+	"jitterColor":[145,175,255,155],
+	"jitterCopies":12,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0.4,
+
+	"weaponGlowColor":[145,175,255,0],
+	"weaponTypes":[ENERGY],
+
+	"engineGlowColor":[145,175,255,125],
+	"engineGlowLengthMult":0,
+	"engineGlowWidthMult":0,
+	"engineGlowGlowMult":0,
+
+	"range":500,
+	"randomRange":0,
+
+	"vulnerableChargeup":false,
+	"vulnerableChargedown":false,
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+
+	"useSound":"istl_miragesystem",
+	"outOfUsesSound":"istl_mirage_empty",
+
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":400,
+		"averageSpeedIncrease":250,
+	}
+}

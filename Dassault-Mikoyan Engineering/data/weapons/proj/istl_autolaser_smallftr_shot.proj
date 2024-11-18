@@ -1,0 +1,17 @@
+{
+	"id":"istl_autolaser_smallftr_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":60.0,
+	"width":10.0,
+	"fadeTime":0.15,
+	"fringeColor":[5,120,175,255],
+	"coreColor":[175,200,255,255],
+	"hitGlowRadius":20,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-96.0,
+	"pixelsPerTexel":1.0	
+}

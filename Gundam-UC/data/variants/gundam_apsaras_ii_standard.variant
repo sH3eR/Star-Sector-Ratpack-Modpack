@@ -1,0 +1,50 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_apsaras_ii",
+  "hullMods": [
+    "autorepair",
+    "fluxcoil",
+	"fluxdistributor",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_apsaras_ii_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "M_BEAM": "gundam_builtin_blue_mega_beam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "gundam_builtin_beam_proj",
+                "WS0003": "gundam_builtin_beam_proj",
+                "WS0004": "gundam_builtin_beam_proj",
+                "WS0005": "gundam_builtin_beam_proj"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0006": "shockrepeater",
+				"WS0007": "shockrepeater",
+				"WS0008": "shockrepeater",
+				"WS0009": "shockrepeater",
+				"WS0010": "shockrepeater",
+				"WS0011": "shockrepeater"
+            }
+        }
+    ],
+  "wings": []
+}
+

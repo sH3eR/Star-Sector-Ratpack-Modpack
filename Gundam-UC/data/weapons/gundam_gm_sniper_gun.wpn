@@ -1,0 +1,61 @@
+{
+  "id": "gundam_gm_sniper_gun",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ms/gm_sniper/gundam_gm_sniper_gun.png",
+  "turretGlowSprite": "graphics/ms/gm_sniper/gundam_gm_sniper_gun_glow.png",
+  "hardpointSprite": "graphics/ms/gm_sniper/gundam_gm_sniper_gun.png",
+  "hardpointGlowSprite": "graphics/ms/gm_sniper/gundam_gm_sniper_gun_glow.png",
+  "glowColor": [
+    165,
+    100,
+    255,
+    235
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    63.5,
+    4
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    96,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    150
+  ],
+  "width": 15,
+  "textureType": [
+    "graphics/fx/gundam_beam_fx_f4.png",
+    "graphics/fx/gundam_beam_fx_f3.png"
+  ],
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "gundam_sniper_beam"
+}

@@ -1,0 +1,67 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 3,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "aquilon_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_aquilon_fl_handler",
+        "ix_aquilon_fl",
+        "ix_dawnstar_proton",
+        "ix_dawnstar_proton_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aquilon_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "photon_hammer_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "starfall_mlrs_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_m_ix",
+                "WS 003": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "dawnstar_lcpb_ix",
+                "WS 005": "dawnstar_lcpb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "daythorn_tapb_ix",
+                "WS 008": "daythorn_tapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "diffraction_laser_ix",
+                "WS 009": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

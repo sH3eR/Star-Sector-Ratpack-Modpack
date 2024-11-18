@@ -1,0 +1,27 @@
+{
+  "variantId": "de_flurry_Bomber",
+  "hullId": "de_flurry",
+  "displayName": "Squall Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "de_squall",
+        "WS0002": "de_squall",
+        "WS0003": "de_squall",
+        "WS0004": "de_squall",
+        "WS0005": "de_squall",
+        "WS0006": "de_squall"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

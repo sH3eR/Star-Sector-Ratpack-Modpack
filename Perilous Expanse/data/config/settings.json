@@ -1,0 +1,9 @@
+{
+	"enableSpacerStart":true,
+	"industryUpkeepMult":0.6, # Vanilla default: 0.5
+	"accessibilityDistFromCOM":100, # Vanilla default: 50
+	
+	"ruleCommandPackages":[
+        "nomadic_survival.campaign.rulecmd",
+    ],
+}

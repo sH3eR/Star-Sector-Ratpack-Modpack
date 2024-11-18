@@ -1,0 +1,51 @@
+{
+  "displayName": "Limited",
+  "fluxCapacitors": 9,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "gundam_val_walo",
+  "hullMods": [
+        "advancedoptics",
+		"missleracks",
+		"fluxdistributor",
+        "fluxcoil"
+    ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_val_walo_standard",
+  "weaponGroups": [
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"M_BEAM": "gundam_builtin_yellow_mega_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0001": "gundam_builtin_yellow_beam_proj",
+		"WS0002": "gundam_builtin_yellow_beam_proj",
+		"WS0003": "gundam_builtin_yellow_beam_proj",
+		"WS0004": "gundam_builtin_yellow_beam_proj"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"L_ARM": "gundam_val_walo_lefthand"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"R_ARM": "gundam_val_walo_righthand"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,217 @@
+{
+  "hullName": "Light Attack Module",
+  "hullId": "gundam_module_lightattack_efsf",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/station/gundam_module_lightattack.png",
+  "style": "GUNDAM_EFSF_SHIELD",
+  "height": 177,
+  "width": 320,
+  "center": [160, 75],
+  "collisionRadius": 145,
+  "shieldCenter": [-131, -0],
+  "shieldRadius": 310,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    0,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "always_detaches",
+    "do_not_fire_through",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 20,
+      "locations": [29.5, 91]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -20,
+      "locations": [29.5, -91]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [29.5, 45]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [29.5, -45]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [-15.5, 111]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-15.5, -111]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [60.5, 111]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [60.5, -111]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [89.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [30, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 0,
+      "locations": [76, 88]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -0,
+      "locations": [76, -88]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 0,
+      "locations": [95, 19]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -0,
+      "locations": [95, -19]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [50, 78]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -0,
+      "locations": [50, -78]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [50, 51]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -0,
+      "locations": [50, -51]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    95, -3,
+    98.5, -10,
+    91.5, -34,
+    72.5, -117,
+    80.5, -121,
+    81.5, -128,
+    -15, -133.5,
+    -26.5, -112,
+    -14, -92,
+    -12, -49.5,
+    -4.5, -29.5,
+    13.5, -20.5,
+    0.5, -12,
+    0.5, 13,
+    13.5, 21.5,
+    -4.5, 30.5,
+    -12, 50.5,
+    -14, 93,
+    -26.5, 113,
+    -15, 134.5,
+    81.5, 129,
+    80.5, 122,
+    72.5, 118,
+    91.5, 35,
+    98.5, 11,
+    95, 4
+  ]
+}

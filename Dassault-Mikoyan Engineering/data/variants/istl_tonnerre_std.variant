@@ -1,0 +1,54 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "istl_tonnerre",
+    "hullMods": ["eccm"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_tonnerre_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_TBM_launcher"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_clusterlauncher"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_ruptureasm_med",
+                "WS0003": "istl_ruptureasm_med"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "istl_shockartillery"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_micropd",
+                "WS0009": "istl_micropd",
+                "WS0010": "istl_micropd",
+                "WS0011": "istl_micropd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_microflak",
+                "WS0007": "istl_microflak"
+            }
+        }
+    ]
+}

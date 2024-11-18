@@ -1,0 +1,73 @@
+{
+  "hullName": "Joker",
+  "hullId": "MSS_Joker",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/mayasura/ships/MSS_Joker.png",
+  "style": "MIDLINE",
+  "height": 62,
+  "width": 54,
+  "center": [27, 31],
+  "collisionRadius": 57.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 57.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "MSS_JokerProtocols",
+    "supercomputer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, 7.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-25, -7.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-22, 15.5],
+      "length": 13.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-22, -15.5],
+      "length": 13.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -25, -9,
+    -13.5, -20,
+    12, -21.5,
+    19, -11.5,
+    19, 15.5,
+    12, 25.5,
+    -13.5, 24,
+    -25, 13
+  ]
+}

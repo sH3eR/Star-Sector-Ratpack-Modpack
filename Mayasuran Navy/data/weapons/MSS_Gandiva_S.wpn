@@ -1,0 +1,59 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 1200,
+  "fireSoundTwo": "MSS_gandiva_fire",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/mayasura/weapons/MSS_Gandiva_S2_Glow.png",
+  "hardpointGunSprite": "graphics/mayasura/weapons/MSS_Gandiva_S2.png",
+  "hardpointOffsets": [
+    58.5,
+    10,
+    58.5,
+    -10
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_Gandiva_S2.png",
+  "id": "MSS_Gandiva_S",
+  "muzzleFlashSpec": {
+    "length": 100,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ],
+    "particleCount": 25,
+    "particleDuration": 0.25,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "spread": 5
+  },
+  "projectileSpecId": "gauss_shot",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_Gandiva_S2_Glow.png",
+  "turretGunSprite": "graphics/mayasura/weapons/MSS_Gandiva_S2.png",
+  "turretOffsets": [
+    36,
+    10,
+    36,
+    -10
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_Gandiva_S2.png",
+  "type": "BALLISTIC"
+}

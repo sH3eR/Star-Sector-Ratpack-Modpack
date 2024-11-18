@@ -1,0 +1,21 @@
+{
+	"baseHullId":"istl_curse",
+	"skinHullId":"istl_curse_proto",
+	"hullName":"Curse",
+	"descriptionId":"istl_curse",
+	"descriptionPrefix":"This hull is a stolen pre-production model intended for combat testing, with all the little quirks and faults that implies.",
+	"tags":["ship_can_not_scuttle", "always_recoverable", "no_sell", "no_dealer"],
+	"tech":"Deserter",
+    "fleetPoints":12,
+    "ordnancePoints":80,
+    "baseValueMult":0.9,
+    "removeHints":[UNBOARDABLE],
+	"addHints":[CARRIER, COMBAT],
+	"systemId":"istl_slammerjets",
+	"spriteName":"graphics/ISTL/ships/proto/istl_curse_proto.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+    "builtInMods":[],
+}

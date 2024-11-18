@@ -1,0 +1,2 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+elitemayasuranguard,Elite Mayasuran Guard HQ,90,60,,6,,,"military, unraidable, tactical_bombardment, structure",,graphics/icons/industry/elitemayasuraguard.png,com.fs.starfarer.api.impl.campaign.econ.impl.MayasuranGuardHQ,"The Last Defenders of Mairaath, the Elite Mayasuran Guard has cycles worth of experience from defending their homeworld from the fanatical attacks of the Luddic Sect and oppressive Hegemonic overlords.",2649

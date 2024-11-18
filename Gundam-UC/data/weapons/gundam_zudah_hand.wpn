@@ -1,0 +1,46 @@
+{
+  "id": "gundam_zudah_hand",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_straight_missile_bullet",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/ms/zudah/gundam_zudah_hand.png",
+  "hardpointSprite": "graphics/ms/zudah/gundam_zudah_hand.png",
+  "turretOffsets": [
+    11,
+    9
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    23,
+    14.5
+  ],
+  "hardpointAngleOffsets": [
+    45
+  ],
+  "barrelMode": "ALTERNATING",
+  "renderHints":[RENDER_BARREL_BELOW],
+  "interruptibleBurst":false,
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1.5,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackSpread": 6,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "gundam_front_missile"
+}

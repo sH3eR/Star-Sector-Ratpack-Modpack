@@ -1,0 +1,707 @@
+id,trigger,conditions,script,text,options,notes
+#vanilla replacement,,,,,,
+gaRH_yes2,DialogOptionSelected,$option == gaRH_yes2,"Call $global.gaRH_ref transferHamatsu
+$global.gaRH_completed = true
+Call $global.gaRH_ref updateStage
+$global.gaRH_completed = true",,cutCommLink:Cut the comm link,
+gaRH_no2,DialogOptionSelected,$option == gaRH_no2,"Call $global.gaRH_ref refusedToReturn
+$global.gaRH_failed = true
+AdjustRepActivePerson HOSTILE -40
+Call $global.gaRH_ref updateStage
+$global.gaRH_failed = true",Ibrahim is just starting to raise her voice as you shut off the comms.,cutCommLinkNoText:Continue,
+,,,,,,
+# a fistful of credit interaction,,,,,,
+cum_afoci_openDialog,PopulateSalvageOptions1,"cum_HasMissionScore afistfulofcredits 1 score:1000
+$cum_afoc_eventRef != null",SetOptionColor salExplore highlight,,,
+cum_afoci_openDialogWarning,PopulateSalvageOptions1,"!cum_HasMissionScore afistfulofcredits 1 score:1000
+$cum_afoc_eventRef != null","AddTextSmall ""It is recommended to complete A Fistful of Credits before proceeding, but you do you."" gray
+SetTextHighlights A Fistful of Credits",,,
+cum_afoci_salvage,DialogOptionSelected,"$option == salExplore
+cum_HasMissionScore afistfulofcredits 1 score:1000
+$cum_afoc_eventRef != null",,Salvage crews begin the recovery process and find a lot more than expected from a wreck like this.,cum_afoci_continue:Continue,
+cum_afoci_continueLoot,DialogOptionSelected,$option == cum_afoci_continue,"cum_afoc
+AddStoryPoints 1
+$cum_afoc_eventRef = null","Through a closer examination, the ship is miraculously in a pristine condition.  Your comms officer interrupts you to inform that this ship has been on the Diktat's wanted list. Turning this in could lead to a reward.","0:salExplore:Continue
+1:cum_afoc_diktat:Turn this over to Diktat patrols",
+cum_afoci_continueLoot2,DialogOptionSelected,$option == cum_afoc_diktat,"ActivateAbility $player.fleetId sensor_burst
+AdjustRep sindrian_diktat WELCOMING 15
+cum_afoc 1",You signal your comms officer to transmit a location of the ship to Diktat authorities. Diktat authorities responds with a token gesture of gratitude and nothing more as the ship begins to be towed away.,defaultLeave:Leave,
+,,,,,,
+#turning the table interaction,,,,,,
+cum_ttt_ibrahim,PopulateOptions,"$id == ibrahim
+!$global.gaRH_failed
+!$cum_ttt_check",FireBest cum_tt_options,,"3:cum_ttt_ibrahim_test:""I've heard your company runs a salvaging operation on Agreus.""",
+cum_ttt_ibrahim2,PopulateOptions,"$id == ibrahim
+!$global.gaRH_failed
+$cum_ttt_check",FireBest cum_DisableOptionIfNeeded,,"3:cum_ttt_ibrahim:""I'd like to buy a salvage pallet.""",
+cum_ttt_ibrahim_turnInOption,DialogOptionSelected,"$option == cum_ttt_ibrahim
+$market.ind:techmining","SetTextHighlights 40,000 100 days
+","""Here are my terms, I'll transfer the salvage pallet for 40,000 credits to your storage here. If you don't have access to your own unit, I can lend you a unit at no charge, but you will pay any fee if you keep them in the storage. They don't come free. Once the transaction has been confirmed, it'll take us about 100 days to get another pallet ready for you. Do we have a deal?""","0:cum_ttt_Agree:Agree
+100:cum_ttt_neverMind:Never mind",
+cum_ttt_ibrahim_turnInOption2_boggled,DialogOptionSelected,"$option == cum_ttt_ibrahim
+$market.ind:BOGGLED_DOMAIN_ARCHAEOLOGY","SetTextHighlights 40,000 100 days
+","""Here are my terms, I'll transfer the salvage pallet for 40,000 credits to your storage here. If you don't have access to your own unit, I can lend you a unit at no charge, but you will pay any fee if you keep them in the storage. They don't come free. Once the transaction has been confirmed, it'll take us about 100 days to get another pallet ready for you. Do we have a deal?""","0:cum_ttt_Agree:Agree
+100:cum_ttt_neverMind:Never mind",
+cum_ttt_ibrahim_turnInOption2,DialogOptionSelected,"$option == cum_ttt_ibrahim
+$market.ind:techmining
+$global.gaRH_completed","SetTextHighlights Hamatsu 40,000 100 days","Ibrahim remembers your past action. ""For returning my precious Hamatsu to me, I can offer better terms, I'll add in more to the pallet than what regular buyers usually get and I'll transfer the salvage pallet for 40,000 credits to your storage here. If you don't have access to your own unit, I can lend you a unit at no charge, but you will pay any fee if you keep them in the storage. They don't come free. Once the transaction has been confirmed, it'll take us about 100 days to get another pallet ready for you. Do we have a deal?""","0:cum_ttt_Agree:Agree
+100:cum_ttt_neverMind:Never mind",
+cum_ttt_ibrahim_turnInOption3,DialogOptionSelected,$option == cum_ttt_ibrahim,SetEnabled cum_ttt_ibrahim false,"Ibrahim smiles lightly. ""Things are rather too complicated right now with my salvaging operation considering there's no tech-mining industry here to deliver a salvage pallet to you. Maybe come back later when things lighten up?"" ",,
+cum_ttt_ibrahim2_neverMindOptionSelected,DialogOptionSelected,$option == cum_ttt_neverMind,FireAll PopulateOptions,,,
+cum_ttt_check,cum_tt_options,cum_HasMissionScore turningthetables 1 score:1000,SetOptionColor cum_ttt_ibrahim_test highlight,,,
+cum_ttt_ibrahim_disableOption,cum_DisableOptionIfNeeded,$cum_ttt_tradeagain score:2,"cum_ttt 0.5 weee
+SetTooltip cum_ttt_ibrahim ""Ibrahim can offer another salvage pallet again in $cum_ttt_tradeagain2""
+SetTooltipHighlights cum_ttt_ibrahim $cum_ttt_tradeagain2
+SetEnabled cum_ttt_ibrahim false",,,
+cum_ttt_ibrahim_disableOption2,cum_DisableOptionIfNeeded,$player.credits < 40000,"SetTooltip cum_ttt_ibrahim ""You need 40,000 credits to buy a salvage pallet.""
+SetTooltipHighlights cum_ttt_ibrahim 40,000 credits
+SetEnabled cum_ttt_ibrahim false",,,
+cum_ttt_ibrahim2_turnInOptionSelected,DialogOptionSelected,$option == cum_ttt_Agree,"AddRemoveCommodity credits -40000 true
+cum_ttt 1.25
+AddTextSmall ""Salvage pallet bought and transferred to this market's storage."" highlight
+AdjustRepActivePerson WELCOMING 2
+FireAll PopulateOptions","$personLastName thanks you. ""No refunds now, you get what you get.""",,
+cum_ttt_ibrahim2_turnInOptionSelected2,DialogOptionSelected,"$option == cum_ttt_Agree
+$global.gaRH_completed","AddRemoveCommodity credits -40000 true
+cum_ttt 1.875
+AddTextSmall ""Salvage pallet with extra goodies bought and transferred to this market's storage."" highlight
+AdjustRepActivePerson COOPERATIVE 2
+FireAll PopulateOptions","$personLastName thanks you. ""No refunds now, you get what you get.""",,
+cum_ttt_check_success,DialogOptionSelected,"$option == cum_ttt_ibrahim_test
+$id == ibrahim
+cum_HasMissionScore turningthetables 1 score:1000","$cum_ttt_check = true
+AddStoryPoints 1
+AddTextSmall ""Received the ability to purchase tech-mined pallets for 40,000 credits"" highlight
+FireAll PopulateOptions","Ibrahim smiles. ""Yes, we do, and I can offer you a pallet from the salvaging operation. If you're interested, that is.""",,
+cum_ttt_check_failed,DialogOptionSelected,"$option == cum_ttt_ibrahim_test
+$id == ibrahim
+!cum_HasMissionScore turningthetables 1 score:1000","SetEnabled cum_ttt_ibrahim_test false
+AddTextSmall ""Turning the Table must be completed to proceed."" gray
+SetTextHighlights Turning the Table","Ibrahim shakes her head in sadness. ""Yes, we do, but Pathers have recently made it difficult for anyone to transfer it over to anyone. There is too much risk and danger right now. """,,
+,,,,,,
+#for the greater ludd interaction,,,,,,
+cum_ftgl_intercept,DialogOptionSelected,"$option == marketVisitBar
+$market.id == salamanca score:100
+cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl","AddText ""A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \""Someone would like to talk with you.\"" It's almost a mutter; difficult to make out \""Set you on the right... path. If you please, follow me.\"""" highlight",,"cum_ftgl_pickUp:Follow
+cum_ftgl_ignore:Don't follow",
+cum_ftgl_intercept_warning,DialogOptionSelected,"$option == marketVisitBar
+$market.id == salamanca score:100
+!cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl","AddText ""You hear a voice. It's almost a mutter; impossible to make out."" gray
+AddTextSmall ""For the Greater Ludd must be completed to understand the mutter."" gray
+SetTextHighlights For the Greater Ludd",,cum_ftgl_ignore:Ignore,
+cum_ftgl_intercept2,DialogOptionSelected,"$option == marketVisitBar
+cum_ftgl 0 Corvus
+cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl
+RollProbability 0.2","AddText ""A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \""Someone would like to talk with you.\"" It's almost a mutter; difficult to make out \""Set you on the right... path. If you please, follow me.\"""" highlight",,"cum_ftgl_pickUp:Follow
+cum_ftgl_ignore:Don't follow",
+cum_ftgl_intercept2_warning,DialogOptionSelected,"$option == marketVisitBar
+cum_ftgl 0 Corvus
+!cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl
+RollProbability 0.2","AddText ""You hear a voice. It's almost a mutter; impossible to make out."" gray
+AddTextSmall ""For the Greater Ludd must be completed to understand the mutter."" gray
+SetTextHighlights For the Greater Ludd",,cum_ftgl_ignore:Ignore,
+cum_ftgl_intercept3,DialogOptionSelected,"$option == marketVisitBar
+cum_ftgl 0 Magec
+cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl
+RollProbability 0.2","AddText ""A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \""Someone would like to talk with you.\"" It's almost a mutter; difficult to make out \""Set you on the right... path. If you please, follow me.\"""" highlight",,"cum_ftgl_pickUp:Follow
+cum_ftgl_ignore:Don't follow",
+cum_ftgl_intercept3_warning,DialogOptionSelected,"$option == marketVisitBar
+cum_ftgl 0 Magec
+!cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl
+RollProbability 0.2","AddText ""You hear a voice. It's almost a mutter; impossible to make out."" gray
+AddTextSmall ""For the Greater Ludd must be completed to understand the mutter."" gray
+SetTextHighlights For the Greater Ludd",,cum_ftgl_ignore:Ignore,
+cum_ftgl_intercept4,DialogOptionSelected,"$option == marketVisitBar
+cum_ftgl 0 Askonia
+cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl
+RollProbability 0.2","AddText ""A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \""Someone would like to talk with you.\"" It's almost a mutter; difficult to make out \""Set you on the right... path. If you please, follow me.\"""" highlight",,"cum_ftgl_pickUp:Follow
+cum_ftgl_ignore:Don't follow",
+cum_ftgl_intercept4_warning,DialogOptionSelected,"$option == marketVisitBar
+cum_ftgl 0 Askonia
+!cum_HasMissionScore forthegreaterlud 1 score:1000
+!$global.cum_ftgl
+RollProbability 0.2","AddText ""You hear a voice. It's almost a mutter; impossible to make out."" gray
+AddTextSmall ""For the Greater Ludd must be completed to understand the mutter."" gray
+SetTextHighlights For the Greater Ludd",,cum_ftgl_ignore:Ignore,
+cum_ftgl_ignore,DialogOptionSelected,$option == cum_ftgl_ignore,"$option = marketVisitBar
+$global.cum_ftgl = true 0
+FireBest DialogOptionSelected",,,
+cum_ftgl_pickUp1,DialogOptionSelected,$option == cum_ftgl_pickUp,"$global.cum_ftgl = true
+cum_ftgl","You are led to a dark place behind the bar.
+
+Your guide has disappeared as they tap at the door. After a moment, the door opens and holds out a hand indicating that you should enter. It is a storage room. Two stools are set at a drooping table. A figure shows its face.
+
+""Captain $playerName. I know you have great potential in this sector. I must ask you a question and I will make it worth your time, As the cycles pass, there are servants who yield to technology hoping to restore the past mistakes of our ancestors in the name of restoring the so-called Domain and her technologies. However, nothing comes without a cost. What are your thoughts on this matter?""","0:cum_ftgl1:""Technology can be moderated and also used in moderation, of course.""
+1:cum_ftgl2:""Technology does not hurt people. People hurt people through any means including technology."" 
+2:cum_ftgl3:""Technology is sacred and we should do what we can to restore its advances to humanity!"" 
+3:cum_ftgl4:""Technology are nothing, but tools of the Creator's gift. It is not for us to decide what is good or bad.""",
+cum_ftgl_pickUp2,DialogOptionSelected,$option == cum_ftgl_pickUp,"$global.cum_ftgl = true
+cum_ftgl","You are led to a dark place behind the bar.
+
+Your guide has disappeared as they tap at the door. After a moment, the door opens and holds out a hand indicating that you should enter. It is a storage room. Two stools are set at a drooping table. A figure shows its face.
+
+""Captain $playerName. I know you have great potential in this sector. I must ask you a question and I will make it worth your time, As the cycles pass, there are servants who yield to technology hoping to restore the past mistakes of our ancestors in the name of restoring the so-called Domain and her technologies. However, nothing comes without a cost. What are your thoughts on this matter?""","0:cum_ftgl2:""Technology does not hurt people. People hurt people through any means including technology."" 
+1:cum_ftgl1:""Technology can be moderated and also used in moderation, of course.""
+2:cum_ftgl4:""Technology are nothing, but tools of the Creator's gift. It is not for us to decide what is good or bad.""
+3:cum_ftgl3:""Technology is sacred and we should do what we can to restore its advances to humanity!""",
+cum_ftgl_pickUp3,DialogOptionSelected,$option == cum_ftgl_pickUp,"$global.cum_ftgl = true
+cum_ftgl","You are led to a dark place behind the bar.
+
+Your guide has disappeared as they tap at the door. After a moment, the door opens and holds out a hand indicating that you should enter. It is a storage room. Two stools are set at a drooping table. A figure shows its face.
+
+""Captain $playerName. I know you have great potential in this sector. I must ask you a question and I will make it worth your time, As the cycles pass, there are servants who yield to technology hoping to restore the past mistakes of our ancestors in the name of restoring the so-called Domain and her technologies. However, nothing comes without a cost. What are your thoughts on this matter?""","0:cum_ftgl3:""Technology is sacred and we should do what we can to restore its advances to humanity!""
+1:cum_ftgl1:""Technology can be moderated and also used in moderation, of course.""
+2:cum_ftgl2:""Technology does not hurt people. People hurt people through any means including technology."" 
+3:cum_ftgl4:""Technology are nothing, but tools of the Creator's gift. It is not for us to decide what is good or bad.""",
+cum_ftgl_pickUp4,DialogOptionSelected,$option == cum_ftgl_pickUp,"$global.cum_ftgl = true
+cum_ftgl","You are led to a dark place behind the bar.
+
+Your guide has disappeared as they tap at the door. After a moment, the door opens and holds out a hand indicating that you should enter. It is a storage room. Two stools are set at a drooping table. A figure shows its face.
+
+""Captain $playerName. I know you have great potential in this sector. I must ask you a question and I will make it worth your time, As the cycles pass, there are servants who yield to technology hoping to restore the past mistakes of our ancestors in the name of restoring the so-called Domain and her technologies. However, nothing comes without a cost. What are your thoughts on this matter?""","0:cum_ftgl4:""Technology are nothing, but tools of the Creator's gift. It is not for us to decide what is good or bad.""
+1:cum_ftgl3:""Technology is sacred and we should do what we can to restore its advances to humanity!""
+2:cum_ftgl2:""Technology does not hurt people. People hurt people through any means including technology."" 
+3:cum_ftgl1:""Technology can be moderated and also used in moderation, of course.""
+
+
+",
+cum_ftgl_Option1,DialogOptionSelected,$option == cum_ftgl1,cum_ftgl 1,"""Said like a sheep from the Church; who gets to determine moderation? Do you think weapons can be used in moderation? Do not let others decide in what to be moderated and what isn't."" 
+
+You are instructed to leave as you are given a cache of weapons on your way out.",cum_ftgl_continue:Continue,
+cum_ftgl_Option2,DialogOptionSelected,$option == cum_ftgl2,AddRemoveCommodity beta_core 1,"""If I give you this device of Mammon, you will not use it to hurt people by any means, then right? You will know what to do with the device then.""
+
+You are instructed to leave as you are given a small tech-cache on your way out.",cum_ftgl_continue:Continue,
+cum_ftgl_Option3,DialogOptionSelected,$option == cum_ftgl3,AddStoryPoints 2,"""Then you will realize your attempts will be foiled by both servants of Mammon and those who fight against Mammon. May Ludd have pity on your path and you find it in your heart to learn the past mistakes of our ancestors as those on Mairaath did."" 
+
+You are instructed to leave with a message about Mairaath. What is the meaning of Mairaath?",cum_ftgl_continue:Continue,
+cum_ftgl_Option4,DialogOptionSelected,$option == cum_ftgl4,AdjustRep luddic_path NEUTRAL 100,"""Truly you understand the teachings of Ludd, I thank you for your response. I will lecture you about the true meaning of Ludd before we leave this room."" 
+
+You are instructed to leave after the lecture ends with a good understanding of what the Luddic Path stands for.",cum_ftgl_continue:Continue,
+cum_ftgl_OptionContinue,DialogOptionSelected,$option == cum_ftgl_continue,"$option = marketVisitBar
+FireBest DialogOptionSelected",You leave the room. Heading back to regular bar duties.,,
+,,,,,,
+# the wolf pack interaction,,,,,,
+cum_twp_openDialog,PopulateSalvageOptions1,"cum_HasMissionScore thewolfpack 1 score:1000
+$cum_twp_eventRef != null",SetOptionColor salExplore highlight,,,
+cum_twp_openDialogWarning,PopulateSalvageOptions1,"!cum_HasMissionScore thewolfpack 1 score:1000
+$cum_twp_eventRef != null","AddTextSmall ""It is recommended to complete The Wolf Pack before proceeding, but you do you."" gray
+SetTextHighlights The Wolf Pack",,,
+cum_twp_salvage,DialogOptionSelected,"$option == salExplore
+cum_HasMissionScore thewolfpack 1 score:1000
+$cum_twp_eventRef != null",,Salvage crews begin the recovery process and find a lot more than expected from a wreck like this. There was still fuel found. Was this part of a Hegemony transport fleet?,cum_twp_continue:Continue,
+cum_twp_continueLoot,DialogOptionSelected,$option == cum_twp_continue,"cum_twp
+AddStoryPoints 1
+$cum_twp_eventRef = null","Through a closer examination, the ships are miraculously in pristine condition.",0:salExplore:Continue,
+,,,,,,
+#ambush interaction,,,,,,
+cum_a_openDialog,PopulateSalvageOptions1,"cum_HasMissionScore ambush 1 score:1000
+$cum_a_eventRef != null
+!$defenderFleetDefeated","SetOptionColor salExplore highlight
+$hasDefenders = true",,,
+cum_a_openDialogWarning,PopulateSalvageOptions1,"!cum_HasMissionScore ambush 1 score:1000
+$cum_a_eventRef != null
+!$defenderFleetDefeated","AddTextSmall ""It is recommended to complete Ambush before proceeding, but you do you."" gray
+SetTextHighlights Ambush",,,
+cum_a_printDefaultDefenders,TriggerAutomatedDefenses,$cum_a_eventRef != null,"cum_a
+AddText ""As your $shipOrFleet moves in closer, new energy signatures are detected near the $shortName.""
+AddTextSmall ""Put these foolish ambitions to rest, Hegemony!"" gray",,,
+cum_a_continuePostDefenders,BeatDefendersContinue,$cum_a_eventRef != null,AddStoryPoints 1,"A remnant of the Second AI War put to rest, you thought most of the Tri-Tachyon phase fleet was decommissioned due to the Treaty of Crom Cruach or rendered irreparable during the war, but the fact these three were not only operational, but still in pristine condition begs a lot of questions.
+
+Your $shipOrFleet finishes its approach to the $nameInText without further incident.",0:salBeatDefendersContinue:Continue,
+,,,,,,
+#hornet's nest interaction,,,,,,
+cum_hn_ibrahim,PopulateOptions,"$id == ibrahim
+!$global.gaRH_failed
+!$cum_hn_check",FireBest cum_hn_options,,"2:cum_hn_ibrahim_test:""The great Ibrahim! The tactical genius of Maxios! I've heard stories about you!""",
+cum_hn_ibrahim2,PopulateOptions,"$id == ibrahim
+!$global.gaRH_failed
+$cum_hn_check",FireBest cum_DisableTurnInoresOptionIfNeeded,,"2:cum_hn_ibrahim:""I'd like to turn in these raw materials that I've acquired...""",
+cum_hn_ibrahim2_disableTurnInOption,cum_DisableTurnInoresOptionIfNeeded,!cum_hn playerHasOres,"SetTooltip cum_hn_ibrahim ""You do not have any ores in your possession.""
+SetEnabled cum_hn_ibrahim false",,,
+cum_hn_ibrahim2_disableTurnInOption2,cum_DisableTurnInoresOptionIfNeeded,$cum_hn_tradeagain score:2,"cum_hn playerOreTimer
+SetTooltip cum_hn_ibrahim ""Ibrahim can accept your deliveries again in $cum_hn_tradeagain2""
+SetTooltipHighlights cum_hn_ibrahim $cum_hn_tradeagain2
+SetEnabled cum_hn_ibrahim false",,,
+cum_hn_ibrahim2_turnInOption,DialogOptionSelected,"$option == cum_hn_ibrahim
+$market.ind:refining","FireAll cum_PopulateOresTurnInOptions
+SetTextHighlights 4,000 ores 1,000 transplutonic ores ","""Here are my terms, I can accept up to 4,000 ores and 1,000 transplutonic ores. Once the delivery has been confirmed, it'll take me up to a month or two for me to accept any more future deliveries to prevent any suspicion from the faction authorities here depending on how much you're offloading.""",,
+cum_hn_ibrahim2_turnInOption2,DialogOptionSelected,"$option == cum_hn_ibrahim
+$market.ind:refining
+$global.gaRH_completed","FireAll cum_PopulateOresTurnInOptions
+SetTextHighlights Hamatsu 8,000 ores 2,000 transplutonic ores ","Ibrahim remembers your past action. ""For returning my precious Hamatsu to me, I can offer better terms,  I can accept up to 8,000 ores and 2,000 transplutonic ores. Once the delivery has been confirmed, it'll take me up to a month or two for me to accept any more future deliveries to prevent any suspicion from the faction authorities here depending on how much you're offloading.""",,
+cum_hn_ibrahim2_turnInOption3,DialogOptionSelected,$option == cum_hn_ibrahim,SetEnabled cum_hn_ibrahim false,"Ibrahim smiles lightly. ""Things are rather too complicated right now with my refining operation considering there's no refining industry here to do anything with the raw materials. Maybe come back later when things lighten up?"" ",,
+cum_hn_ibrahim2_playerHasOption,cum_PopulateOresTurnInOptions,,,,0:cum_hn_selectCores:Select ores to turn in,
+cum_hn_ibrahim2_neverMindOption,cum_PopulateOresTurnInOptions,,,,"100:cum_hn_neverMind:""Never mind, I don't actually have any.""",
+cum_hn_ibrahim2_turnInResponse,cum_oresTurnedIn,,FireAll PopulateOptions,$personLastName thanks you and the conversation moves on to other matters.,,
+cum_hn_ibrahim2_neverMindOptionSelected,DialogOptionSelected,$option == cum_hn_neverMind,FireAll PopulateOptions,,,
+cum_hn_ibrahim2_turnInOptionSelected,DialogOptionSelected,$option == cum_hn_selectCores,cum_hn selectOres 1,,,
+cum_hn_ibrahim2_turnInOptionSelected2,DialogOptionSelected,"$option == cum_hn_selectCores
+$global.gaRH_completed",cum_hn selectOres 2,,,
+cum_hn_check,cum_hn_options,cum_HasMissionScore hornetsnest 1 score:1000,SetOptionColor cum_hn_ibrahim_test highlight,,,
+cum_hn_check_success,DialogOptionSelected,"$option == cum_hn_ibrahim_test
+$id == ibrahim
+cum_HasMissionScore hornetsnest 1 score:1000","$cum_hn_check = true
+AddStoryPoints 1
+AddTextSmall ""Received the ability to refine ores and rare ores here."" highlight
+FireAll PopulateOptions","Ibrahim humbled. ""My reputation seems to precede me. I like to think those stories of me are fairly over-exaggerated.""
+
+""If you're interested, I can let you in on my refining operation on Agreus. I am always looking to cut cost on transportation. Deliver me some ores and I can offer it refined in return. I don't care how you get those ores. Whether you buy it here or salvaged it somewhere else."" Ibrahim winks. ""Something the faction authorities won't notice between these transactions, it can be our little secret.""",,
+cum_hn_check_failed,DialogOptionSelected,"$option == cum_hn_ibrahim_test
+$id == ibrahim
+!cum_HasMissionScore hornetsnest 1 score:1000","SetEnabled cum_hn_ibrahim_test false
+AddTextSmall ""Hornet's Nest must be completed to proceed."" gray
+SetTextHighlights Hornet's Nest","Ibrahim looks at you, frowning. ""I can tell when someone is a bootlicker from a system away.""",,
+,,,,,,
+#the last hurrah interaction,,,,,,
+cum_tlh,PopulateOptions,"$id == mairaath_abandoned_station1
+!$cum_tlh
+cum_HasMissionScore thelasthurrah 1 score:1000","AddText ""In the past, these vast arcology-stations of Mairaath formed the keystone of the terraforming project which transformed Mairaath into a paradise-world of fantastical transgenic re-imaginings of old-Earth biomes. Now there is nothing left on this astropolis. Unless there is something the Hegemony and the League must have missed?""
+SetStoryOption cum_tlh_discover 2 historianBP ui_char_spent_story_point_industry ""Found something on the Abandoned Astropolis.""",,12:cum_tlh_discover:Conduct a deep search of the station,
+cum_tlh_warning,PopulateOptions,"$id == mairaath_abandoned_station1
+!$cum_tlh
+!cum_HasMissionScore thelasthurrah 1 score:1000","AddTextSmall ""The Last Hurrah should be completed to proceed further here on this station."" gray
+SetTextHighlights The Last Hurrah",,,
+cum_tlh_option,DialogOptionSelected,"$option == cum_tlh_discover
+cum_HasMissionScore thelasthurrah 1 score:1000","$cum_tlh = true
+cum_tlh
+FireAll PopulateOptions","During the chaos on this astropolis many cycles ago, someone must have stockpiled this special thing. Perhaps in the hopes, Mairaath can be restored to her former glory should the opportunity comes up.",,
+,,,,,,
+#dire straits interaction,,,,,,
+cum_ds_rao,PopulateOptions,"$id == rao
+!$cum_ds_check",FireBest cum_ds_options,,"0:cum_ds_rao_test:""I wanted to converse with the great Admiral Orcus Rao, the Hero of Raesvelg.""",
+cum_ds_rao2,PopulateOptions,"$id == rao
+$cum_ds_check
+!$cum_ds_checkout",,,"0:cum_ds_rao:""I'm interested in being a role model to one of your family member.""",
+cum_ds_check,cum_ds_options,cum_HasMissionScore direstraits 1 score:1000,SetOptionColor cum_ds_rao_test highlight,,,
+cum_ds_check_success,DialogOptionSelected,"$option == cum_ds_rao_test
+$id == rao
+cum_HasMissionScore direstraits 1 score:1000","$cum_ds_check = true
+AddStoryPoints 1
+FireAll PopulateOptions","Rao grins with an impressed look. ""Yes, it's amazing what you can get away in these trying times so long as you are exceptionally good at it. How about you, Captain? Got any stories to tell?""
+
+You two exchange stories of fights you've been in and Rao begins to settle down. ""Listen, I have some grandchildren in my House that's been acting rowdy and unsuited for the Hegemony Navy. If your reputation precedes you within the Hegemony records, I believe you can be an exceptional role model to them. Let me know if you're interested.""",,
+cum_ds_check_failed,DialogOptionSelected,"$option == cum_ds_rao_test
+$id == rao
+!cum_HasMissionScore direstraits 1 score:1000","SetEnabled cum_ds_rao_test false
+AddTextSmall ""Dire Straits must be completed to proceed."" gray
+SetTextHighlights Dire Straits","Rao gives a stern look. ""I'm busy with current affairs, freelancer.""",,
+cum_ds_check_success2,DialogOptionSelected,"$option == cum_ds_rao
+$id == rao
+RepGTE hegemony FRIENDLY","cum_ds
+AddTextSmall ""\""The typical length of such mentorship is $global.cum_ds_mercContractDurStr days, with some allowances for when they get back to port. Can be terminated early by either party, and so on - the standard stuff. When it's up, we can talk about extending it if both parties are agreeable.\n\nThey'll expect a salary of $global.cum_ds_salary credits per month. You have $player.creditsStr credits available.\""\n\nThis member of House Rao functions like a mercenary officer which does not count against the normal officer limit.""
+SetTextHighlightColors highlight highlight highlight highlight highlight good good
+SetTextHighlights $global.cum_ds_mercContractDurStr  $global.cum_ds_salary $player.creditsStr credits credits mercenary officer
+SetShortcut cum_ds_no ""ESCAPE""","Rao pulls up your records. ""Yes Augusta would approve of you as a role model to one of our members. Here is their Hegemony profile.""","0:cum_ds_yes:""Sounds good.""
+1:cum_ds_no:""Not at the moment.""",
+cum_ds_check_success2c,DialogOptionSelected,"$option == cum_ds_yes
+!CallEvent $ome_eventRef atLimit $cum_ds_officer_id","cum_ds 1
+HideSecondPerson
+FireAll PopulateOptions
+","""Excellent! I hope you can be a good role model to them.""",,
+cum_ds_check_success2e,DialogOptionSelected,$option == cum_ds_no,"HideSecondPerson
+FireAll PopulateOptions
+","""What a shame.""",,
+cum_ds_check_failed2,DialogOptionSelected,"$option == cum_ds_rao
+$id == rao
+!RepGTE hegemony FRIENDLY","AddTextSmall ""Your reputation with Hegemony is quite concerning. It should be friendly or higher."" gray","Rao checks your records. ""I'm sorry, you don't seem to be a potential role model according to Augusta. You could improve your standing with the Hegemony as a whole.""",,
+cum_ds_check_failed2a,DialogOptionSelected,"$option == cum_ds_rao
+$id == rao
+$player.wasJerkToMerc","AddTextSmall ""You insulted a mercenary officer in the past and you'll have to wait for your reputation to cool off."" gray","Rao checks your records. ""I'm sorry, you don't seem to be a potential role model according to Augusta. Someone gave you a bad reputation for telling them off and insulting their ancestry.""",,
+,,,,,,
+cum_ds_mercs_checkLeaving,MercsLeavingGreeting,$cum_rao score:10,"ShowPersonVisual
+FireBest MercLeavingOptions","""Greetings, mentor! Granduncle Orcus is expecting my return soon, and I'd like to think we've both benefited from the arrangement.
+
+Now, I think I'll have a go at spending all the credits I've earned - little chance to do that cooped up on a ship in the middle of nowhere, is there?""",,
+cum_ds_mercs_leavingOptions,MercLeavingOptions,$cum_rao score:10,"SetStoryOption mercs_convince 1 convinceMerc ui_char_spent_story_point_leadership ""Extended mercenary officer's contract""",,"mercs_convince:Convince $himOrHer to extend the training
+mercs_letGo:Wish $himOrHer well in $hisOrHer future endeavors
+mercs_letGoJerk:Tell $himOrHer off for $hisOrHer disloyalty",
+cum_ds_mercs_convincedOpt,DialogOptionSelected,"$option == mercs_convince
+$cum_rao score:10","MarketCMD convinceMercToStay
+ShowDefaultVisual
+EndConversation DO_NOT_FIRE","With a charismatic display of appeal to $hisOrHer ambition and ego, along with the implication - not promise - that good fortune is just around the corner, you're able to convince $himOrHer to stay longer to spread the reputation of House Rao.
+
+""I suppose granduncle Orcus wouldn't mind if I stayed a bit longer.""",mercs_leaveContinue:Continue,
+cum_ds_mercs_letGoOpt,DialogOptionSelected,"$option == mercs_letGo
+$cum_rao score:10","AdjustRep hegemony SHRINE_OFFERING
+MarketCMD mercLeaves
+ShowDefaultVisual
+EndConversation DO_NOT_FIRE","You accept $hisOrHer decision professionally and, after exchanging a few pleasantries, cut the comm link. You wonder if Admiral Rao might have someone else to let you mentor.",mercs_leaveContinue:Continue,
+cum_ds_mercs_letGoOptJerk,DialogOptionSelected,"$option == mercs_letGoJerk
+$cum_rao score:10","MarketCMD mercLeaves
+AdjustRep hegemony INHOSPITABLE -5
+$player.wasJerkToMerc = true 1000
+AdjustRep hegemony SHRINE_OFFERING
+ShowDefaultVisual
+EndConversation DO_NOT_FIRE",There is likely a bad recommendation to come out here as evidenced by $himOrHer cutting the connection while you were in the middle of insulting their entire House.,mercs_leaveContinue:Continue,
+,,,,,,
+#predator or prey interaction,,,,,,
+cum_pop,PopulateOptions,"$id == daud
+$gotHoloExperience
+!$cum_HoloExperience
+cum_HasMissionScore predatororprey 1 score:1000",SetOptionColor cum_pop_holoExperience highlight,,cum_pop_holoExperience:Download the Daud holo experience,
+cum_pop_warning,PopulateOptions,"$id == daud
+$gotHoloExperience
+!$cum_HoloExperience
+!cum_HasMissionScore predatororprey 1 score:1000","AddTextSmall ""Predator or Prey should be completed here to proceed further."" gray
+SetTextHighlights Predator or Prey
+SetEnabled cum_pop_holoExperience false",,cum_pop_holoExperience:Download the Daud holo experience,
+cum_pop_option,DialogOptionSelected,"$option == cum_pop_holoExperience
+","FireAll cum_pop_rewards
+AddStoryPoints 1
+AddTextSmall ""Received the Daud experience"" highlight
+$cum_HoloExperience = true
+FireAll PopulateOptions","As the download begins, the cadet lectures on one of the major accomplishments during the Second AI War in which a valuable Astral-class carrier was downed on its way to Raesvelg by none other than the High Hegemon back when he was just an ordinary patrol leader who was completely outgunned. You take note of his success in the Second AI War as your knowledge begins to grow about the structure of the Hegemony and the Second AI War.",,
+cum_pop_rewards,cum_pop_rewards,"
+","cum_pop auxiliarythrusters
+cum_pop ballistic_rangefinder
+cum_pop blast_doors
+cum_pop dedicated_targeting_core
+cum_pop fluxdistributor
+cum_pop heavyarmor",,,
+,,,,,,
+#Sink the Bismar interaction,,,,,,
+cum_stb_openDialog,PopulateSalvageOptions1,"cum_HasMissionScore sinkingthebismarck 1 score:1000
+$cum_stb_eventRef != null
+!$defenderFleetDefeated","SetOptionColor salExplore highlight
+$hasDefenders = true",,,
+cum_stb_openDialogWarning,PopulateSalvageOptions1,"!cum_HasMissionScore sinkingthebismarck 1 score:1000
+$cum_stb_eventRef != null
+","AddTextSmall ""It is recommended to complete Sinking the Bismar before proceeding, but you do you."" gray
+SetTextHighlights Sinking the Bismar",,,
+cum_stb_printDefaultDefenders,TriggerAutomatedDefenses,$cum_stb_eventRef != null,"cum_stb
+AddText ""As your $shipOrFleet moves in closer, new energy signatures are detected near the $shortName.""
+AddTextSmall ""Take the Bismar down! Take him down! The Butcher of Skathi shall not live this day!"" gray",,,
+cum_stb_continuePostDefenders,BeatDefendersContinue,$cum_stb_eventRef != null,AddStoryPoints 1,"A remnant of the Second AI War put to rest, you thought the Bismar was destroyed which granted the Hegemon council the capital to begin emergency measures without resistance from Hegemony worlds. Was this the real thing?
+
+Your $shipOrFleet finishes its approach to the $nameInText without further incident.",0:salBeatDefendersContinue:Continue,
+,,,,,,
+#nothing personal interaction,,,,,,
+cum_npOpenDialog,OpenInteractionDialog,"$id == abandoned_spacedock
+$cum_np_eventRef
+cum_HasMissionScore nothingpersonal 1 score:1000
+!$cum_np_discover5","ShowDefaultVisual
+PrintDescription 3
+FireAll PopulateOptions
+SetShortcut defaultLeave ""ESCAPE""",,,
+cum_npOpenDialog_warning,OpenInteractionDialog,"$id == abandoned_spacedock
+$cum_np_eventRef
+!cum_HasMissionScore nothingpersonal 1 score:1000
+!$cum_np_discover5","ShowDefaultVisual
+PrintDescription 3
+FireAll PopulateOptions
+AddTextSmall ""Nothing Personal should be completed to proceed further here on this station."" gray
+SetTextHighlights Nothing Personal
+SetEnabled cum_np_discover1 false
+SetShortcut defaultLeave ""ESCAPE""",,,
+cum_np0,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef",,,2:defaultLeave:Leave,
+cum_np1,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+!$cum_np_discover1","AddText ""However, you got a strong gut feeling this station is worth a scan even without docking.""
+SetOptionColor cum_np_discover1 highlight",,0:cum_np_discover1:Conduct a scan of the station,
+cum_np2,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover1
+!$cum_np_discover2
+!$cum_need_temp","AddText ""A recent scan by you revealed an encrypted, but corrupted data cache. Moving it from its current position might compromise its data integrity. It'll take some technology skills to attempt a decryption.""
+SetOptionColor cum_np_discover2 ""0,121,216,255""",,0:cum_np_discover2:Attempt a decryption,
+cum_np2_aicores,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover1
+!$cum_np_discover2
+$cum_need_aicore
+!$cum_need_aicore_temp",,,1:cum_np_discover2_aicores:Attempt a decryption through AI cores,
+cum_np3,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover2
+!$cum_np_discover3
+!$cum_need_temp","AddText ""A partial decryption has been successful, but there is still more that needs to be unlocked. A greater technology skill will be required than previously.""
+SetOptionColor cum_np_discover3 ""0,121,216,255""",,0:cum_np_discover3:Attempt another decryption,
+cum_np3_aicores,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover2
+!$cum_np_discover3
+$cum_need_aicore
+!$cum_need_aicore_temp",,,1:cum_np_discover3_aicores:Attempt a decryption through AI cores,
+cum_np4,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover3
+!$cum_np_discover4
+!$cum_need_temp","AddText ""A good chunk of the data cache has been decrypted, but there is still a few remaining left. A far greater technology skill will be required now.""
+SetOptionColor cum_np_discover4 ""0,121,216,255""",,0:cum_np_discover4:Attempt a complete decryption,
+cum_np4_aicores,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover3
+!$cum_np_discover4
+$cum_need_aicore
+!$cum_need_aicore_temp",,,1:cum_np_discover4_aicores:Attempt a decryption through AI cores,
+cum_np5,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover4
+!$cum_np_discover5
+!$cum_need_temp","AddText ""The data cache is almost fully decrypted, but the data integrity has been corrupted heavily at this part of the cache's databank. It'll require some reconstruction to fix this which will require a superhuman-like technology skill.""
+SetOptionColor cum_np_discover5 ""0,121,216,255""",,0:cum_np_discover5:Attempt a reconstruction of data integrity,
+cum_np5_aicores,PopulateOptions,"$id == abandoned_spacedock
+$cum_np_eventRef
+$cum_np_discover4
+!$cum_np_discover5
+$cum_need_aicore
+!$cum_need_aicore_temp",,,1:cum_np_discover5_aicores:Attempt a decryption through AI cores,
+cum_np1_option,DialogOptionSelected,"$option == cum_np_discover1
+cum_HasMissionScore nothingpersonal 1 score:1000
+cum_np 0 technology1","$cum_np_discover1 = true
+AddCommodity survey_data_1 15
+FireAll PopulateOptions","A preliminary scan should reveal something out of the ordinary here. Some survey data has been found, it is beyond usability as the data seems to not point to anything in the Persean Sector, but rather out of it. Surely it could ferry some credits regardless.
+-----------------------------------------------------------------------------",,
+cum_np2_option,DialogOptionSelected,"$option == cum_np_discover2
+cum_np 1 technology2","$cum_np_discover2 = true
+AddCommodity survey_data_2 5
+AddXP 5000
+FireAll PopulateOptions","A partial decryption could only be done at the time. There are more survey data decrypted but still beyond usability as the data still points to planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. You happen upon to find some databank that teaches you the history of the great Hyperspace Expansion before pre-Domain times.
+-----------------------------------------------------------------------------",,
+cum_np2_option_alphacore,DialogOptionSelected,"$option == cum_np_discover2_aicores
+PlayerHasCargo alpha_core score:10
+cum_np 0 ui_alpha_core_drop","$cum_np_discover2 = true
+AddCommodity survey_data_2 5
+AddXP 5000
+FireAll PopulateOptions","You assign an alpha-level core which get to working at decrypting the cache. A partial decryption could only be done at the time. There are more survey data decrypted but still beyond usability as the data still points to planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. You happen upon to find some databank that teaches you the history of the great Hyperspace Expansion before pre-Domain times.
+-----------------------------------------------------------------------------",,
+cum_np2_option_betacore,DialogOptionSelected,"$option == cum_np_discover2_aicores
+PlayerHasCargo beta_core score:5
+cum_np 0 ui_alpha_core_drop","$cum_np_discover2 = true
+AddCommodity survey_data_2 5
+AddXP 5000
+FireAll PopulateOptions","You assign a beta-level core which get to working at decrypting the cache. A partial decryption could only be done at the time. There are more survey data decrypted but still beyond usability as the data still points to planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. You happen upon to find some databank that teaches you the history of the great Hyperspace Expansion before pre-Domain times.
+-----------------------------------------------------------------------------",,
+cum_np2_option_gammacore,DialogOptionSelected,"$option == cum_np_discover2_aicores
+PlayerHasCargo gamma_core
+cum_np 0 ui_alpha_core_drop","$cum_np_discover2 = true
+AddCommodity survey_data_2 5
+AddXP 5000
+FireAll PopulateOptions","You assign a gamma-level core which get to working at decrypting the cache. A partial decryption could only be done at the time. There are more survey data decrypted but still beyond usability as the data still points to planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. You happen upon to find some databank that teaches you the history ofthe great Hyperspace Expansion before pre-Domain times.
+-----------------------------------------------------------------------------",,
+cum_np2_option_aicore_failed,DialogOptionSelected,$option == cum_np_discover2_aicores,"$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You have no AI Cores to help you with this.
+-----------------------------------------------------------------------------",,
+cum_np2_option_failed,DialogOptionSelected,"$option == cum_np_discover2
+!cum_np 1 technology2","$cum_need_aicore = true
+$cum_need_temp = true 0
+FireAll PopulateOptions
+cum_np","You attempt a decryption of the cache. No decryption progress could be made at all. You recall from your days in Galatia that an AI core could analyze the data more quickly and do a decryption or you could improve your technology skills.
+-----------------------------------------------------------------------------",,
+cum_np3_option,DialogOptionSelected,"$option == cum_np_discover3
+cum_np 3 technology3","$cum_np_discover3 = true
+AddCommodity survey_data_3 3
+AddStoryPoints 2
+FireAll PopulateOptions","There are more survey data decrypted but still beyond usability as the data still points to interestingly resourceful planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. There is data on the history of human colonizer about the second-wave and first-wave that may interest historians.
+-----------------------------------------------------------------------------",,
+cum_np3_option_alphacore,DialogOptionSelected,"$option == cum_np_discover3_aicores
+PlayerHasCargo alpha_core score:10
+cum_np 0 ui_alpha_core_drop","$cum_np_discover3 = true
+AddCommodity survey_data_3 3
+AddStoryPoints 2
+FireAll PopulateOptions","You assign an alpha-level core which get to working at decrypting the cache. There are more survey data decrypted but still beyond usability as the data still points to interestingly resourceful planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. There is data on the history of human colonizer about the second-wave and first-wave that may interest historians.
+-----------------------------------------------------------------------------",,
+cum_np3_option_betacore,DialogOptionSelected,"$option == cum_np_discover3_aicores
+PlayerHasCargo beta_core score:5
+cum_np 0 ui_alpha_core_drop","$cum_np_discover3 = true
+AddCommodity survey_data_3 3
+AddStoryPoints 2
+FireAll PopulateOptions","You assign a beta-level core which get to working at decrypting the cache. There are more survey data decrypted but still beyond usability as the data still points to interestingly resourceful planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. There is data on the history of human colonizer about the second-wave and first-wave that may interest historians.
+-----------------------------------------------------------------------------",,
+cum_np3_option_gammacore,DialogOptionSelected,"$option == cum_np_discover3_aicores
+PlayerHasCargo gamma_core
+cum_np 1 ui_alpha_core_drop","$cum_np_discover3 = true
+AddCommodity survey_data_3 3
+AddStoryPoints 2
+FireAll PopulateOptions","You assign a gamma-level core which begins to struggle, but with your assistance begins a further decryption. There are more survey data decrypted but still beyond usability as the data still points to interestingly resourceful planetary bodies outside of the Persean Sector. Surely it could ferry some credits regardless. There is data on the history of human colonizer about the second-wave and first-wave that may interest historians.
+-----------------------------------------------------------------------------",,
+cum_np3_option_gammacore_failed,DialogOptionSelected,"$option == cum_np_discover3_aicores
+PlayerHasCargo gamma_core
+!cum_np 99 ui_gamma_core_drop","$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You assign a gamma-level core which begins to struggle and made no significant progress. Perhaps you could assist it combined with your own technology skill to decrypt this or just let a beta-level or above handle the decryption by itself.
+-----------------------------------------------------------------------------",,
+cum_np3_option_aicore_failed,DialogOptionSelected,$option == cum_np_discover3_aicores,"$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You have no AI Cores to help you with this.
+-----------------------------------------------------------------------------",,
+cum_np3_option_failed,DialogOptionSelected,"$option == cum_np_discover3
+!cum_np 3 technology3","$cum_need_aicore = true
+$cum_need_temp = true 0
+FireAll PopulateOptions
+cum_np","You attempt a decryption of the cache. No further decryption progress could be made at all. Perhaps you could use an assistant of a gamma-level AI combined with your own technology skill to decrypt this or just let a beta-level or above handle the decryption by itself.
+-----------------------------------------------------------------------------",,
+cum_np4_option,DialogOptionSelected,"$option == cum_np_discover4
+cum_np 6 technology4","$cum_np_discover4 = true
+AddCommodity survey_data_4 2
+cum_np 6 technology4 2
+FireAll PopulateOptions","More survey data points to a neighboring system with habitable worlds for terraforming. Surely it could ferry some credits regardless. There is data about a First Wave sporeship traveling to the Persean Sector at sub-FTL speed, but not much data can be obtained without reconstruction. 2 cargo pods from the cache blows out of the station and you send your crew to scan them.
+-----------------------------------------------------------------------------",,
+cum_np4_option_alphacore,DialogOptionSelected,"$option == cum_np_discover4_aicores
+PlayerHasCargo alpha_core score:10
+cum_np 1 ui_alpha_core_drop","$cum_np_discover4 = true
+AddCommodity survey_data_4 2
+cum_np 1 ui_alpha_core_drop 2
+FireAll PopulateOptions","You assign an alpha-level core which get to working at decrypting the cache with a minor assistance from your part. More survey data points to a neighboring system with habitable worlds for terraforming. Surely it could ferry some credits regardless. There is data about a First Wave sporeship traveling to the Persean Sector at sub-FTL speed, but not much data can be obtained without reconstruction. 2 cargo pods from the cache blows out of the station and you send your crew to scan them.
+-----------------------------------------------------------------------------",,
+cum_np4_option_alphacore_failed,DialogOptionSelected,"$option == cum_np_discover4_aicores
+PlayerHasCargo alpha_core score:10
+!cum_np 1 ui_alpha_core_drop","$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You assign an alpha-level core which begins to struggle. You could lend your assistance with your own technology skill to help there if applicable.
+-----------------------------------------------------------------------------",,
+cum_np4_option_betacore,DialogOptionSelected,"$option == cum_np_discover4_aicores
+PlayerHasCargo beta_core score:5
+cum_np 3 ui_alpha_core_drop","$cum_np_discover4 = true
+AddCommodity survey_data_4 2
+cum_np 3 ui_alpha_core_drop 2
+FireAll PopulateOptions","You assign a beta-level core which get to working at decrypting the cache with some assistance from your part. More survey data points to a neighboring system with habitable worlds for terraforming. Surely it could ferry some credits regardless. There is data about a First Wave sporeship traveling to the Persean Sector at sub-FTL speed, but not much data can be obtained without reconstruction. 2 cargo pods from the cache blows out of the station and you send your crew to scan them.
+-----------------------------------------------------------------------------",,
+cum_np4_option_betacore_failed,DialogOptionSelected,"$option == cum_np_discover4_aicores
+PlayerHasCargo beta_core score:5
+!cum_np 3 ui_alpha_core_drop","$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You assign a beta-level core which begins to struggle. You could lend your assistance with your own technology skill to help there if applicable.
+-----------------------------------------------------------------------------",,
+cum_np4_option_gammacore_failed,DialogOptionSelected,"$option == cum_np_discover4_aicores
+PlayerHasCargo gamma_core
+!cum_np 99 ui_gamma_core_drop","$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You assign a gamma-level core which begins to struggle and made no significant progress. No assistance with your own technology skill could help here. You should let a beta-level or above handle the decryption by with your assistance.
+-----------------------------------------------------------------------------",,
+cum_np4_option_aicore_failed,DialogOptionSelected,$option == cum_np_discover4_aicores,"$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You have no AI Cores to help you with this.
+-----------------------------------------------------------------------------",,
+cum_np4_option_failed,DialogOptionSelected,"$option == cum_np_discover4
+!cum_np 6 technology4","$cum_need_aicore = true
+$cum_need_temp = true 0
+FireAll PopulateOptions
+cum_np","You attempt a decryption of the cache. No further decryption progress could be made at all. Perhaps you could use an assistant of a beta-level or above AI combined with your own technology skill to decrypt this.
+-----------------------------------------------------------------------------",,
+cum_np5_option,DialogOptionSelected,"$option == cum_np_discover5
+cum_np 9 technology5","$cum_np_discover5 = true
+AddCommodity survey_data_5 1
+cum_np 9 technology5 1
+FireAll PopulateOptions","The data reconstructed is remarkable. At first glance, the data seems to reveal the arriving destination of a First Wave sporeship into the Persean Sector, but the coordinate points to something that is not concurrent with current data entries. After adjusting for the proper trajectory and coordinates, the cache gives way. The proper answer was a decipher for a strange weapon. There is nothing left now.
+-----------------------------------------------------------------------------",,
+cum_np5_option_alphacore,DialogOptionSelected,"$option == cum_np_discover5_aicores
+PlayerHasCargo alpha_core score:10
+cum_np 6 ui_alpha_core_drop","$cum_np_discover5 = true
+AddCommodity survey_data_5 1
+cum_np 6 ui_alpha_core_drop 1
+FireAll PopulateOptions","The data reconstructed is remarkable with the help of the Alpha-level AI. At first glance, the data seems to reveal the arriving destination of a First Wave sporeship into the Persean Sector, but the coordinate points to something that is not concurrent with current data entries. After adjusting for the proper trajectory and coordinates, the cache gives way. The proper answer was a decipher for a strange weapon. There is nothing left now.
+-----------------------------------------------------------------------------",,
+cum_np5_option_alphacore_failed,DialogOptionSelected,"$option == cum_np_discover5_aicores
+PlayerHasCargo alpha_core score:10
+!cum_np 6 ui_alpha_core_drop","$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You assign an alpha-level core which begins to struggle. You could lend your assistance with your own technology skill to help there if applicable.
+-----------------------------------------------------------------------------",,
+cum_np5_option_betacore_failed,DialogOptionSelected,"$option == cum_np_discover5_aicores
+PlayerHasCargo beta_core score:5
+!cum_np 99 ui_gamma_core_drop","$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You assign a beta-level core which begins to struggle and made no significant progress. No assistance with your own technology skill could help here. You should let an alpha-level or above handle the decryption by with your assistance.
+-----------------------------------------------------------------------------",,
+cum_np5_option_gammacore_failed,DialogOptionSelected,"$option == cum_np_discover5_aicores
+PlayerHasCargo gamma_core
+!cum_np 99 ui_gamma_core_drop","$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You assign a gamma-level core which begins to struggle and made no significant progress. No assistance with your own technology skill could help here. You should let an alpha-level or above handle the decryption by with your assistance.
+-----------------------------------------------------------------------------",,
+cum_np5_option_aicore_failed,DialogOptionSelected,$option == cum_np_discover5_aicores,"$cum_need_aicore_temp = true 0
+FireAll PopulateOptions
+cum_np","You have no AI Cores to help you with this.
+-----------------------------------------------------------------------------",,
+cum_np5_option_failed,DialogOptionSelected,"$option == cum_np_discover5
+!cum_np 9 technology5","$cum_need_aicore = true
+$cum_need_temp = true 0
+FireAll PopulateOptions
+cum_np","You attempt a reconstruction of the data integrity. No reconstruction progress could be made at all. Perhaps you could use an assistant of an alpha-level AI combined with your own technology skill to decrypt this.
+-----------------------------------------------------------------------------",,
+,,,,,,
+#coral nebula interaction,,,,,,
+cum_cn_openDialog,PopulateSalvageOptions1,"cum_HasMissionScore coralnebula 1 score:1000
+$cum_cn_eventRef != null",SetOptionColor salExplore highlight,,,
+cum_cn_openDialogWarning,PopulateSalvageOptions1,"!cum_HasMissionScore coralnebula 1 score:1000
+$cum_cn_eventRef != null","AddTextSmall ""It is recommended to complete Coral Nebula before proceeding, but you do you."" gray
+SetTextHighlights Coral Nebula",,,
+cum_cn_salvage,DialogOptionSelected,"$option == salExplore
+cum_HasMissionScore coralnebula 1 score:1000
+$cum_cn_eventRef != null",,Salvage crews begin the recovery process and find a lot more than expected from a wreck like this.,cum_cn_continue:Continue,
+cum_cn_continueLoot,DialogOptionSelected,$option == cum_cn_continue,"cum_cn
+AddStoryPoints 1
+$cum_cn_eventRef = null",Salvage crews boarding the wreck discover that many essential systems are undamaged and the ship could be restored to basic functionality.,0:salExplore:Continue,
+,,,,,,
+# forlorn hope interaction,,,,,,
+cum_fh_openDialog,OpenInteractionDialog,"$tag:cum_memorial
+!IsSoughtByPatrols $faction.id","PrintDescription 3
+ShowDefaultVisual
+FireAll cum_MainOptions",,,
+cum_fh_openDialog2,OpenInteractionDialog,"$tag:cum_memorial
+IsSoughtByPatrols $faction.id",,"At least one $faction patrol is tracking your movements, making any action impossible here.",defaultLeave:Leave,
+cum_MainOptions,cum_MainOptions,,"SetShortcut cumVisit ""F""
+SetShortcut cumLeave ""ESCAPE""",,"0:cumVisit:Pay respects
+1:cumInvestigate:Order your second-in-command to search the ship
+10:cumLeave:Leave",
+cum_MainOptions2,cum_MainOptions,"!$DidNotInvestigate
+cum_HasMissionScore forlornhope 1 score:1000","SetOptionColor cumInvestigate highlight
+",,,
+cum_MainOptions2_warning,cum_MainOptions,"!$DidNotInvestigate
+!cum_HasMissionScore forlornhope 1 score:1000","AddTextSmall ""It is recommended to complete Forlorn Hope before searching, but you do you."" gray
+SetTextHighlights Forlorn Hope",,,
+cum_fh_VisitOnce,DialogOptionSelected,"$option == cumVisit
+!$VisitedOnce","$VisitedOnce = true 30
+$VisitedAtLeastOnce = true
+FireAll cum_fh_bonus
+SetShortcut cumLeave ""ESCAPE""","You signal your crew to stop as you take a moment to pay your respects to the fallen here. Although you may not have known any of these people personally, you understand the courage it must have taken to risk their lives for others.",cumLeave:Leave,
+cum_fh_VisitReward,cum_fh_bonus,cum_HasMissionScore forlornhope 1 score:1000,AdjustRep hegemony SHRINE_OFFERING,,,
+cum_fh_Visit,DialogOptionSelected,$option == cumVisit,"SetShortcut cumLeave ""ESCAPE""",You take a moment and signal your crew to do the same as you pay your respects to the fallen here again.,cumLeave:Leave,
+cum_fh_Investigate,DialogOptionSelected,"$option == cumInvestigate
+cum_HasMissionScore forlornhope 1 score:1000
+!$DidNotInvestigate","$DidNotInvestigate = true
+AddCommodity beta_core 1
+$global.cum_fh_beta_found = true 30
+cum_fh
+SetShortcut cumLeave ""ESCAPE""","Your second-in-command complies with your order and searches the memorial. Hopefully no one was around to see this.
+
+To your crew's surprise, scanners begin to pick up a bizarre, dynamic magnetic field. You signal your salvage crews to the source and find a locked case bearing a Beta-level AI core recently startled by the search.",cumLeave:Leave,
+cum_fh_InvestigateFailed,DialogOptionSelected,"$option == cumInvestigate
+!$DidNotInvestigate","SetShortcut cumLeave ""ESCAPE""","Your second-in-command complies with your order and searches the memorial. Hopefully no one was around to see this.
+
+To no one's surprise, nothing happened.",cumLeave:Leave,
+cum_fh_InvestigateLetsNot,DialogOptionSelected,"$option == cumInvestigate
+$DidNotInvestigate","SetShortcut cumLeave ""ESCAPE""","Your second-in-command politely rejects your order, fearing another encounter from someone ""off-duty.""",cumLeave:Leave,
+cum_fh_Leave,DialogOptionSelected,$option == cumLeave,DismissDialog,,,
+,,,,,,
+cum_fh_interaction,OpenCommLink,"$entity.cum_fh_interaction score:10000
+!$entity.ignorePlayerCommRequests","FireBest cum_fh_interaction_extra
+$entity.ignorePlayerCommRequests = true","""What in Ludd's name are you doing? My $cum_fh_sibling died at the Second Battle of Chicomoztoc. You're desecrating a war monument!""","0:cum_fh_interaction_a:""I'm sorry to hear, it was just a misunderstanding. I thought this was a graveyard.""
+1:cum_fh_interaction_b:""Yeah and your $cum_fh_sibling was a little bitch.""
+3:cutCommLink:Cut the comm link",
+cum_fh_interaction_extra,cum_fh_interaction_extra,$global.cum_fh_beta_found,,,"0:cum_fh_interaction_a:""I'm sorry to hear, it was just a misunderstanding. I thought this was a graveyard.""
+1:cum_fh_interaction_b:""Yeah and your $cum_fh_sibling was a bitch too.""
+2:cum_fh_interaction_c:""I found something fishy within the monument. Here.""
+3:cutCommLink:Cut the comm link
+",
+cum_fh_interaction_a,DialogOptionSelected,$option == cum_fh_interaction_a,"cum_fh true
+MakeOtherFleetNonHostile true","""I understand, but this is a monument for all of Hegemony. Imagine the reaction if they see the Hero of Galatia looting a war monument. You can't be seen digging around for buried stuff here.""",0:cutCommLink:Cut the comm link,
+cum_fh_interaction_b,DialogOptionSelected,$option == cum_fh_interaction_b,,"""What?! That's it! You're going down!""",0:cutCommLink:Cut the comm link,
+cum_fh_interaction_c,DialogOptionSelected,$option == cum_fh_interaction_c,"cum_fh true
+MakeOtherFleetNonHostile true
+AddXP 500
+AdjustRep hegemony COOPERATIVE 5
+AddRemoveCommodity credits 20000 true
+AddStoryPoints 1
+AddRemoveCommodity beta_core -1","""Within that Paragon? Huh. Interesting. I apologize for the inconvenience I may have caused. I'll take this to Coatl Headquarters as soon as possible. Have something for your trouble."" The comm link is cut.","0:cutCommLink:""No sweat!""",
+cum_fh_interaction2,DialogOptionSelected,$option == cumLeave,DismissDialog,,,

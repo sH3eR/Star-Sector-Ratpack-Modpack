@@ -1,0 +1,141 @@
+{
+  "hullName": "Wayfarer (MS)",
+  "hullId": "wayfarer_hmimax",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/wayfarer/wayfarer_hmimax.png",
+  "style": "HIGH_TECH",
+  "height": 108,
+  "width": 86,
+  "center": [44, 44],
+  "collisionRadius": 85,
+  "shieldCenter": [11, 1],
+  "shieldRadius": 73,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [44, 14]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [44, -12]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 80,
+      "locations": [15, 31]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -80,
+      "locations": [9, -29]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 140,
+      "locations": [-26, 29]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 210,
+      "locations": [-25, -27]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-32, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41, 13],
+      "length": 48,
+      "width": 18,
+      "angle": 179,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-41, -11],
+      "length": 48,
+      "width": 18,
+      "angle": 181,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, 30],
+      "length": 24,
+      "width": 8,
+      "angle": 172,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, 26],
+      "length": 24,
+      "width": 8,
+      "angle": 184,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, -28],
+      "length": 24,
+      "width": 8,
+      "angle": 188,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, -23],
+      "length": 24,
+      "width": 8,
+      "angle": 176,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    46, 35,
+    60, 19,
+    60, -16,
+    46, -34,
+    -37, -33,
+    -37, 35
+  ]
+}

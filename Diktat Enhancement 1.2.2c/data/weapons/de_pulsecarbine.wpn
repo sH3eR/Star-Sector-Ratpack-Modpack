@@ -1,0 +1,49 @@
+{
+  "id": "de_pulsecarbine",
+  "specClass": "projectile",
+  "projectileSpecId": "autopulse_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/DE/weapons/pulsecarbine.png",
+  "turretGlowSprite": "graphics/DE/weapons/pulsecarbine_glow.png",
+  "hardpointSprite": "graphics/DE/weapons/pulsecarbine.png",
+  "hardpointGlowSprite": "graphics/DE/weapons/pulsecarbine_glow.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "turretOffsets": [
+    67.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    105,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 0,
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "autopulse_laser_fire"
+}

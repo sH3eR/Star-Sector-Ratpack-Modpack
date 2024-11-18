@@ -1,0 +1,26 @@
+{
+		"flux_high_2":
+		[
+		{"file":"sounds/fx/warnings/warning_2_flux.ogg","pitch":1,"volume":1}
+		];
+        
+		"hull_low_1":
+		[
+		{"file":"sounds/fx/warnings/hull_low_1.ogg","pitch":1,"volume":1}
+		];
+        
+		"hull_low_2":
+		[
+		{"file":"sounds/fx/warnings/hull_low_2.ogg","pitch":1,"volume":1}
+		];
+        
+		"damage_hull_1":
+		[
+		{"file":"sounds/fx/warnings/damage_hull_1.ogg","pitch":1,"volume":1}
+		];
+        
+		"flameout_1":
+		[
+		{"file":"sounds/fx/warnings/flameout_1.ogg","pitch":1,"volume":1}
+		];
+}

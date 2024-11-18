@@ -1,0 +1,40 @@
+{
+	"baseHullId":"MSS_Tiburo",
+	"skinHullId":"MSS_Tiburo_Elite",
+	"hullName":"Tiburo (M)",
+	"descriptionId":"MSS_Tiburo",
+	"tech":"Mayasuran",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"Commanded under the most elite captains, the Tiburo (M) features extra turrets providing it supple point defense coverage and extra firepower.",
+	"ordnancePoints":70,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/mayasura/ships/MSS_Tiburo_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+		      "weaponSlotChanges":{
+     	"WS0005":{
+     		#"angle": 0,
+            #"arc": 150,
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+            "type": "HYBRID",
+     	 },
+		"WS0006":{
+     		#"angle": 0,
+            #"arc": 150,
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+            "type": "HYBRID",
+     	 },
+     },
+	"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		},
+}
+

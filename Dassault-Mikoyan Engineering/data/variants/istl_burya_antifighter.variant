@@ -1,0 +1,30 @@
+{
+    "displayName": "Anti-fighter",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "istl_burya",
+    "hullMods": ["auxiliarythrusters"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_burya_antifighter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_hedgehog_pod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_linearflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_linearvulcan",
+                "WS0004": "istl_linearvulcan"
+            }
+        }
+    ]
+}

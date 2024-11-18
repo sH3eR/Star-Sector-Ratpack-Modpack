@@ -1,0 +1,88 @@
+ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+#MODULES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#FRIGATE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nailer,MSS_Nailer,Light Frigate,Mayasuran,MSS_microburn,6,1200,300,2500,2500,200,40,,150,180,120,60,120,250,FRONT,,150,0.4,1,,,25,50,40,20,1,20,9,14000,8,10,300,0.25,6,6,,mayasura_bp,,0.4,2,2,207
+Mako,MSS_Mako,Heavy Bomber,Mayasuran,ammofeed,4,2000,300,2200,2200,200,40,,180,175,100,90,120,200,FRONT,,300,0.4,0.8,,,10,40,20,20,1,30,10,9500,5,10,240,0.25,4,4,,mayasura_bp,,0.4,2,2,201
+Vigilance (M),MSS_vigilance_m,Frigate,Mayasuran,fastmissileracks,5,1000,150,1900,1625,130,45,,140,120,100,45,90,100,OMNI,,90,0.4,0.8,,,10,25,40,25,1,25,10,15000,8,10,240,0.25,5,5,,"mayasura_e_bp, rare_bp",,0.5,2,2,208
+Perryi,MSS_Perryi_F,Corvette,Mayasuran,maneuveringjets,4,900,150,2000,2500,150,40,,200,150,100,100,150,120,OMNI,,150,0.5,0.8,,,6,15,15,3,0.5,34,11,6000,5,10,240,0.25,3,3,,mayasura_bp,,0.75,2,2,110
+Nightingale,MSS_Nightingale,Phase Frigate,Mayasuran,highenergyfocus,10,1200,350,2500,3750,300,50,,165,120,100,60,120,200,PHASE,phasecloak,90,,,0.05,0.05,10,15,25,50,1,50,10,24000,10,20,180,0.25,8,8,,"rare_bp, mayasura_e_bp",,0.5,2,2,211
+Tiburo,MSS_Tiburo,Heavy Frigate,Mayasuran,ammofeed,7,2250,350,2200,2188,175,50,,120,110,90,40,80,300,FRONT,,270,0.4,0.8,,,30,50,50,25,1,25,10,15000,10,10,240,0.25,5,5,,mayasura_bp,,0.4,2,2,219
+Loyalist,MSS_Loyalist,Command Frigate,Mayasuran,MSS_safeties,8,2500,400,2500,2188,200,70,,120,110,90,40,80,300,FRONT,,270,0.4,0.8,,,50,100,50,25,1,25,10,20000,10,10,420,0.25,7,7,,mayasura_bp,,0.4,2,2,219
+Carnwennan,MSS_Carnwennan,Railgun Frigate,Mayasuran,displacer,6,2500,250,4000,2500,250,50,,120,180,120,60,120,250,FRONT,,150,0.4,1,,,25,50,40,20,1,20,10,20000,8,10,300,0.25,5,5,,mayasura_bp,,0.4,2,2,207
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#DESTROYER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sunder (M),MSS_Sunder,Destroyer,Mayasuran,highenergyfocus,9,4000,250,7500,8333,500,115,,90,80,60,30,30,350,FRONT,,300,0.4,1.2,,,50,70,80,50,2,25,9,55000,5,15,300,0.25,11,11,,"mayasura_e_bp, rare_bp",,0.5,2,3,301
+Hammerhead (M),MSS_Hammerhead,Destroyer,Mayasuran,ammofeed,10,5000,500,4200,4167,250,105,,90,60,40,30,60,400,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,50000,5,12,360,0.25,10,10,,"mayasura_e_bp, rare_bp",,0.5,2,3,300
+Argentavis,MSS_Argentavis,Superheavy Destroyer,Mayasuran,MSS_dronegunship,14,6000,800,5000,5000,350,105,,65,60,40,40,60,600,FRONT,,200,0.4,0.8,,,80,160,120,80,2,30,9,50000,5,15,420,0.25,15,15,,mayasura_bp,,0.5,2,3,300
+Shikra,MSS_Shikra,Escort Carrier,Mayasuran,targetingfeed,12,5000,450,3500,3350,250,90,2,70,55,40,40,60,400,OMNI,,120,0.4,0.8,,,100,250,60,60,2,20,9,60000,5,15,360,0.25,14,14,CARRIER,mayasura_bp,,0.5,2,3,300
+Stingray,MSS_Stingray,Combat Carrier,Mayasuran,maneuveringjets,12,4000,400,5500,3350,450,95,1,70,55,30,30,60,380,OMNI,,120,0.4,1,,,100,160,30,50,2,20,9,58000,5,15,360,0.25,11,11,,mayasura_bp,,0.5,2,3,300
+Spartan,MSS_Spartan,Super Destroyer,Mayasuran,highenergyfocus,15,5000,500,7500,6969,500,125,,95,60,40,30,30,500,OMNI,,90,0.4,1.4,,,50,150,50,50,2,20,9,100000,5,15,360,0.25,16,16,,mayasura_bp,,0.5,2,3,300
+Scaramouche,MSS_Scaramouche,Interdictor,Mayasuran,MSS_microburn,10,5000,300,6000,5777,400,95,,100,75,60,40,60,450,FRONT,,120,0.4,1,,,50,100,100,60,2,30,10,52000,5,15,360,0.25,10,10,,mayasura_bp,,0.5,2,3,300
+Manta (M),MSS_Manta,Fast Destroyer,Mayasuran,MSS_microburn,9,3800,350,4500,5000,280,95,1,100,100,70,30,50,300,FRONT,,300,0.4,1,,,50,70,75,50,2,25,10,27000,5,15,300,0.25,9,9,,"mayasura_e_bp, rare_bp",,0.5,2,3,
+Mule (M),MSS_Mule,Combat Freighter,Mayasuran,maneuveringjets,9,5500,650,3000,2500,150,80,,60,40,20,20,15,500,OMNI,,120,0.4,1,,,40,100,250,80,2,40,9,34000,5,10,420,0.25,7,7,,mayasura_e_bp,,0.5,2,3,300
+#CRUISER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6,2,3,409
+Starliner (M),MSS_Starliner2,Cruiser,Mayasuran,MSS_microburn,12,6500,225,7000,6000,300,130,1,45,20,10,10,10,900,OMNI,,150,0.5,1,,,50,1000,300,120,3,40,8,78000,3,20,480,0.25,16,16,SHIP_WITH_MODULES,mayasura_w_bp,,0.5,2,3,401
+Winghead,MSS_Winghead,Heavy Cruiser,Mayasuran,ammofeed,16,8000,1000,10000,10500,550,155,,70,35,25,20,30,1400,FRONT,,300,0.4,0.8,,,150,250,150,160,3,33,8,145000,3,12,480,0.25,25,25,,mayasura_w_bp,,0.5,2,3,401
+Sarissophoroi,MSS_Sarissa,Battlecarrier,Mayasuran,maneuveringjets,15,7500,800,10000,10500,525,145,2,50,30,20,15,20,1400,FRONT,,270,0.4,0.8,,,210,310,100,75,3,33,8,120000,3,12,480,0.25,22,22,,mayasura_w_bp,,0.6,2,3,410
+Caravan,MSS_Pilgrim,Light Combat Freighter,Mayasuran,flarelauncher,8,6500,650,6000,6000,300,95,,80,40,30,30,25,650,OMNI,,150,0.4,0.8,,,100,200,600,120,3,40,8,83000,3,12,480,0.25,13,13,,mayasura_w_bp,,0.5,2,3,400
+Patriot,MSS_Patriot,Flotilla Leader,Mayasuran,highenergyfocus,12,6500,800,8000,7000,450,125,,85,50,35,35,45,650,OMNI,,150,0.4,0.7,,,100,250,120,100,3,33,9,80000,4,12,480,0.25,15,15,,mayasura_w_bp,,0.5,2,3,400
+Moa,MSS_Moa,Cruiser,Mayasuran,fortressshield,16,8000,800,12000,12000,600,190,,45,20,10,12,12,1400,FRONT,,210,0.4,0.7,,,150,250,150,100,4,32,8,140000,3,12,540,0.25,25,25,,mayasura_w_bp,,0.5,2,3,400
+Excalibur,MSS_Excalibur,Railgun Cruiser,Mayasuran,maneuveringjets,12,6500,800,8000,7000,450,105,,70,50,25,12,12,650,OMNI,,90,0.4,1,,,100,250,120,100,3,33,9,90000,4,12,480,0.25,20,20,,mayasura_w_bp,,0.5,2,3,400
+Gyrfalcon,MSS_Gyrfalcon,Medium Cruiser,Mayasuran,maneuveringjets,12,6000,900,7000,7000,500,155,,65,50,30,20,25,650,OMNI,,120,0.4,0.8,,,100,220,120,100,3,33,9,90000,4,12,480,0.25,20,20,,mayasura_w_bp,,0.5,2,3,400
+Garuda,MSS_Garuda,Ultra Cruiser,Mayasuran,MSS_microburn,16,8000,900,13500,12000,600,160,2,70,60,50,30,30,1800,OMNI,,120,0.4,1,,,100,200,100,90,3,90,8,192000,4,20,480,0.25,30,30,,mayasura_w_bp,,0.3,2,4,602
+Rhea,MSS_Rhea,Superheavy Cruiser,Mayasuran,MSS_attitude,16,9000,1200,12000,7000,900,200,,30,15,10,10,5,1500,OMNI,,150,0.4,1,,,150,400,150,160,3,33,8,170000,4,12,540,0.25,35,35,,mayasura_w_bp,,0.5,2,3,400
+Rhea (M),MSS_Rhea_Elite,Superheavy Cruiser,Mayasuran,MSS_attitude,16,9000,1200,12000,7000,900,210,,30,15,10,10,5,1500,OMNI,,150,0.4,1,,,150,400,150,160,3,33,8,255000,4,12,540,0.25,35,35,,"rare_bp, mayasura_e_bp",,0.5,2,3,400
+Crusader (M),MSS_Crusader_Elite,Superheavy Battlecarrier,Mayasuran,targetingfeed,15,9000,800,12000,11000,550,150,3,40,15,10,10,5,1500,OMNI,,150,0.4,1,,,250,450,150,150,4,38,8,245000,4,12,540,0.25,35,35,,"rare_bp, mayasura_e_bp",,0.5,2,3,1015
+Gryphon (M),MSS_Gryphon_Elite,Missile Cruiser,Mayasuran,forgevats,14,7000,800,7000,4000,450,150,,60,60,40,15,20,1200,FRONT,,270,0.5,1,,,150,250,120,80,3,27,8,165000,3,12,480,0.25,20,20,,"rare_bp, mayasura_e_bp",,0.5,2,3,400
+Paladin (M),MSS_Paladin_Elite,Heavy Battlecarrier,Mayasuran,highenergyfocus,15,9000,1200,9000,11000,500,145,2,60,40,30,15,20,1500,FRONT,,210,0.4,0.8,,,250,450,150,150,4,38,8,180000,4,12,480,0.25,25,25,,"rare_bp, mayasura_e_bp",,0.5,2,3,1015
+Aurora (M),MSS_Aurora,Cruiser,Mayasuran,plasmajets,17,8000,800,11000,16000,800,165,,80,50,25,25,25,1800,OMNI,,180,0.5,1.2,,,75,200,150,90,3,30,8,200000,4,20,420,0.25,30,30,,"rare_bp, mayasura_e_bp",,0.5,2,3,400
+Front Left Armor,MSS_RheaFL,,,,0,800,1000,0,,0,0,,50,50,50,50,50,400,NONE,,,,,,,,,,,,,,,,10,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,0.4,2,2,1013
+Front Right Armor,MSS_RheaFR,,,,0,800,1000,0,,0,0,,50,50,50,50,50,400,NONE,,,,,,,,,,,,,,,,10,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,0.4,2,2,1014
+Rear Left Armor,MSS_RheaRL,,,,0,800,1000,0,,0,0,,50,50,50,50,50,400,NONE,,,,,,,,,,,,,,,,10,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,0.4,2,2,1011
+Rear Right Armor,MSS_RheaRR,,,,0,800,1000,0,,0,0,,50,50,50,50,50,400,NONE,,,,,,,,,,,,,,,,10,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,0.4,2,2,1012
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#SPECIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dark Victory,MSS_Victory_HVB,Battleship,Mayasuran,burndrive,30,20000,1600,22000,32500,1300,345,,35,15,10,5,4,4000,FRONT,,120,0.3,0.8,,,650,1000,300,400,15,27,7,475000,3,15,660,0.25,55,55,,,,0.4,2,4,511
+Zyrith (M),MSS_Champion_HVB,Heavy Cruiser,Mayasuran,highenergyfocus,15,10000,1250,10000,11000,550,165,,60,40,30,15,20,1500,FRONT,,210,0.4,0.8,,,200,300,150,150,4,38,8,125000,4,12,480,0.25,25,25,,,,,,,
+Godsplitter (M),MSS_Skyrend_EliteVice,Battlecruiser,Mayasuran,MSS_microburn,25,12000,900,18000,,1200,280,2,60,90,55,15,20,3000,FRONT,,300,0.4,1.2,,,350,500,250,250,10,30,8,380000,3,15,660,0.25,40,40,,,,0.5,2,5,522
+Scaramouche (CJ),MSS_Scaramouche_HVB,Interdictor,Mayasuran,MSS_microburn,10,5000,300,6000,5777,400,95,,100,75,60,40,60,450,FRONT,,120,0.4,1,,,50,100,100,60,2,30,10,52000,5,15,360,0.25,10,10,,,,0.5,2,3,300
+Mokarran (K),MSS_Mokarran_HVB,Battlecruiser,Mayasuran,ammofeed,25,11000,1200,18000,,1000,315,,65,25,20,8,6,2400,FRONT,,270,0.4,1,,,480,780,280,280,10,30,8,330000,3,15,600,0.25,45,45,,,,0.5,2,5,11311
+Zygaena,MSS_Zygaena,Phase Battlecruiser,Mayasuran,mine_strike,30,10000,1250,18000,,1000,230,1,55,35,25,16,12,2400,PHASE,phasecloak,,,,0.1,0.05,400,500,200,200,10,30,8,800000,4,25,480,0.25,50,50,HIDE_IN_CODEX ,,,0.5,2,5,401
+Javanicus (SR),MSS_Javanicus_B_Warhawk,Armored Battlecarrier,Mayasuran,MSS_attitude,25,18000,1500,24000,,1300,310,1,30,15,10,10,5,3000,OMNI,,150,0.4,1,,,500,900,300,300,10,30,7,420000,3,15,720,0.25,50,50,HIDE_IN_CODEX ,"rare_bp, vayra_warhawk_modular, warhawk",,0.5,2,3,500
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#CAPITAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"mayasura_c_bp, rare_bp",,0.5,2,3,401
+Mithuna,MSS_Pelican,Exploration Battlecruiser,Mayasuran,targetingfeed,24,10000,1100,12000,20000,850,260,2,60,30,20,10,8,2200,OMNI,,90,0.5,1,,,350,700,1200,550,10,55,8,250000,3,15,600,0.25,36,36,,"mayasura_c_bp, rare_bp",,0.5,2,5,401
+Javanicus,MSS_Javanicus_B,Armored Battlecruiser,Mayasuran,MSS_attitude,25,18000,1500,24000,,1300,330,1,30,15,10,10,5,3000,OMNI,,150,0.4,1,,,500,900,300,300,10,30,7,420000,3,15,720,0.25,50,50,,"mayasura_c_bp, rare_bp",,0.5,2,3,500
+Mokarran,MSS_Mokarran,Battlecruiser,Mayasuran,ammofeed,25,11000,1200,18000,,1000,300,2,65,25,20,8,6,2400,FRONT,,270,0.4,1,,,480,780,280,280,10,30,8,330000,3,15,600,0.25,45,45,,"mayasura_c_bp, rare_bp",,0.6,2,4,501
+Arjuna,MSS_Arjuna,Heavy Battlecarrier,Mayasuran,MSS_jokerdrone,25,15000,1400,14000,,900,250,4,45,20,20,8,6,2800,OMNI,,270,0.4,0.8,,,450,1000,250,200,10,20,7,380000,3,15,600,0.25,50,50,,"mayasura_c_bp, rare_bp",,0.5,2,3,500
+Skysplitter (M),MSS_Skyrend_Elite,Battlecruiser,Mayasuran,MSS_microburn,25,12000,900,18000,,1200,280,2,60,90,55,15,20,3000,FRONT,,300,0.4,1.2,,,350,500,250,250,10,30,8,380000,3,15,660,0.25,40,40,,"mayasura_c_bp, rare_bp",,0.5,2,5,522
+Victory (M),MSS_Victory,Battleship,Mayasuran,burndrive,30,20000,1600,22000,32500,1300,345,,35,15,10,5,4,4000,FRONT,,120,0.3,0.8,,,650,1000,300,400,15,27,7,475000,3,15,660,0.25,55,55,,"mayasura_c_bp, rare_bp",,0.4,2,4,511
+Vishnu,MSS_Vishnu,Battleship,Mayasuran,MSS_attitude,80,25000,1600,25000,32500,1500,600,,30,15,10,5,4,5500,OMNI,,150,0.3,1,,,1000,2500,500,400,15,27,8,900000,3,15,660,0.25,80,80,,"mayasura_c_bp, rare_bp",,,,,
+Iapetus,MSS_Iapetus,Supertanker,Mayasuran,maneuveringjets,30,20000,1500,8000,31250,450,110,,40,20,10,10,5,5000,OMNI,,110,0.6,1.2,,,200,400,300,4000,10,500,7,160000,3,20,720,0.25,15,15,"CIVILIAN, TANKER","mayasura_c_bp, rare_bp",,0.4,2,4,511
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#INTERCEPTOR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,100
+Tachi,MSS_Tachi,,Mayasuran,,,350,50,400,,100,0,,275,400,350,120,275,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#FIGHTER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,110
+Crow,MSS_Crow,,Mayasuran,MSS_damper,,800,250,200,,40,0,,130,170,140,100,200,45,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,110
+Perryi,MSS_Perryi,,Mayasuran,maneuveringjets,,900,150,2500,2500,250,0,,200,150,100,100,150,120,OMNI,,150,0.5,0.8,,,10,10,,,,,,,,,,,,,,,,0,,,110
+Joker,MSS_Joker,,Mayasuran,,,1000,250,1500,2000,250,0,,30,100,100,80,100,150,FRONT,,270,0.4,0.6,,,0,0,,,,,,,,,,,,,,,,0,,,105
+Stormbreaker,MSS_Stormbreaker,,Mayasuran,,,400,75,700,,135,,,120,90,90,150,140,60,FRONT,,180,0.5,0.5,,,,,,,,,,,,,,,,,,,,0,,,110
+Owstoni,MSS_Owstoni,,Mayasuran,highenergyfocus,,1000,300,2500,2500,250,0,,180,320,320,145,280,100,PHASE,phasecloak,,,,0.05,0.05,5,5,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,100
+Akinci,MSS_Akinci,,Mayasuran,MSS_damper,,900,300,2000,,250,0,,150,125,75,180,180,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,104
+Viper,MSS_Viper,,Mayasuran,flarelauncher_active,,500,100,200,,50,0,,200,400,350,90,180,30,FRONT,,90,0,1,,,1,1,,,,,,,,,,,,,,,,0,,,104
+Aznable,MSS_Aznable,,Mayasuran,flarelauncher_active,,500,100,200,,50,0,,200,400,350,90,180,30,FRONT,,90,0,1,,,1,1,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#BOMBER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,106
+Crossbow,MSS_Crossbow,,Mayasuran,,,600,150,1000,,100,0,,200,250,200,75,180,80,OMNI,,180,0,1,,,3,3,,,,,,,,,,,,,,,,0,,,100
+Didymoi,MSS_Didymoi,,Mayasuran,,,400,50,200,,75,0,,175,400,300,90,180,30,FRONT,,90,0,1,,,1,1,,,,,,,,,,,,,,,,0,,,120
+Ferox,MSS_Ferox,,Mayasuran,,,500,50,500,,50,,,200,150,150,60,240,50,FRONT,,180,0,1,,,3,3,,,,,,,,,,,,,,,,0,,,113
+Khopesh (M),MSS_Khopesh,,Mayasuran,,,500,75,500,,100,0,,180,225,200,60,120,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,0,,,100
+Sipahi,MSS_Sipahi,,Mayasuran,MSS_inferniuminjector,,500,100,200,,75,0,,150,200,200,40,120,30,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,

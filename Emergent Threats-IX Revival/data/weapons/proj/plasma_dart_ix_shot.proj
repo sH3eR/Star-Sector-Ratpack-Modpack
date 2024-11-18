@@ -1,0 +1,47 @@
+{
+	"id":"plasma_dart_ix_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/am_srm.png",
+	#"onFireEffect":"data.scripts.vice.weapons.DeadeyeFlareEffect",
+	#"onHitEffect":"data.scripts.vice.weapons.DeadeyeOnHitEffect",
+	"size":[7,11],	
+	"center":[4,5],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,230,0,200],
+	"explosionRadius":20, # purely visual
+	"fizzleOnReachingWeaponRange":true,
+	"dudProbabilityOnFlameout":0,
+	"useHitGlowWhenDestroyed":true,
+	"flameoutTime":0.1, # fadeout duration
+	"armingTime":0,
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.1, # fadeout duration
+	"glowColor":[0,0,0,0],
+	"glowRadius":0,
+  	"engineSpec":{"turnAcc":200,
+				  "turnRate":100,
+				  "acc":2000,
+				  "dec":2000},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-3, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,230,0,150],
+						"glowSizeMult":1,
+						"contrailDuration":0.1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[100,230,0,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":2.0,
+				    "angle":180.0},
+				    ]
+}

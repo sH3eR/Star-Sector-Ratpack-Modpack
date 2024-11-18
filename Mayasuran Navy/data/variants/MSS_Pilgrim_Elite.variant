@@ -1,0 +1,52 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "MSS_Pilgrim",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Pilgrim_Elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "hveldriver",
+        "WS0007": "atropos"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightneedler",
+        "WS0006": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "szsp_minelayer"
+      }
+    }
+  ],
+  "wings": []
+}

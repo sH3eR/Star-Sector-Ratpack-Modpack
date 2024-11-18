@@ -1,0 +1,50 @@
+{
+  "id": "MSS_MarkIXR",
+  "specClass": "projectile",
+  "projectileSpecId": "mark9_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/mayasura/weapons/kinetic_rotary_big/MSS_MarkIXRotary_00.png",
+  "hardpointSprite": "graphics/mayasura/weapons/kinetic_rotary_big/MSS_MarkIXRotary_00.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    35,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    70,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 30,
+  "interruptibleBurst": true,
+  "requiresFullCharge": false,
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 25,
+    "particleSizeMin": 12,
+    "particleSizeRange": 22,
+    "particleDuration": 0.13,
+    "particleCount": 35,
+    "particleColor": [
+      165,
+      225,
+      185,
+      175
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "MSS_mark_Rotary_Fire"
+}

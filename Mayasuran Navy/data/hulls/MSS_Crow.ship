@@ -1,0 +1,95 @@
+{
+  "bounds": [
+    -14,
+    -23.5,
+    18.5,
+    -0.5,
+    -14,
+    23.5,
+    -14,
+    23.5,
+    -14,
+    -23.5
+  ],
+  "builtInWings": [],
+  "center": [
+    25.5,
+    20.5
+  ],
+  "collisionRadius": 29,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 18,
+      "location": [
+        -17.5,
+        8.5
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 18,
+      "location": [
+        -17.5,
+        -10
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    }
+  ],
+  "height": 41,
+  "hullId": "MSS_Crow",
+  "hullName": "Crow",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 27.5,
+  "spriteName": "graphics/mayasura/ships/MSS_Crow.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        3.5,
+        12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [
+        3.5,
+        -12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0003",
+      "locations": [
+        17,
+        -0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 51
+}

@@ -1,0 +1,248 @@
+{
+  "bounds": [
+    32.5,
+    -7.5,
+    18,
+    -12,
+    18,
+    -16,
+    56,
+    -23.5,
+    49,
+    -28,
+    56,
+    -32.5,
+    10,
+    -41,
+    2,
+    -38.5,
+    -6,
+    -40.5,
+    -24.5,
+    -32,
+    -24.5,
+    -25,
+    -20.5,
+    -24,
+    -18.5,
+    -14.5,
+    -33.5,
+    -8.5,
+    -33.5,
+    8.5,
+    -18.5,
+    14.5,
+    -20.5,
+    24,
+    -24.5,
+    25,
+    -24.5,
+    32,
+    -6,
+    40.5,
+    2,
+    38.5,
+    10,
+    41,
+    56,
+    32.5,
+    49,
+    28,
+    56,
+    23.5,
+    18,
+    16,
+    18,
+    12,
+    32.5,
+    7.5
+  ],
+  "builtInMods": [
+    "istl_bbengineering"
+  ],
+  "builtInWeapons": {
+    "WS0004": "istl_bbdecovent_sm",
+    "WS0005": "istl_bbdecovent_sm"
+  },
+  "center": [
+    43,
+    38
+  ],
+  "collisionRadius": 84,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 21.5,
+      "location": [
+        -23,
+        30
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": -180,
+      "contrailSize": 2,
+      "length": 21.5,
+      "location": [
+        -23,
+        -30
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 21.5,
+      "location": [
+        -23,
+        27
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": -180,
+      "contrailSize": 2,
+      "length": 21.5,
+      "location": [
+        -23,
+        -27
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 32.5,
+      "location": [
+        -31,
+        6
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": -180,
+      "contrailSize": 2,
+      "length": 32.5,
+      "location": [
+        -31,
+        -6
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 32.5,
+      "location": [
+        -31,
+        3
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": -180,
+      "contrailSize": 2,
+      "length": 32.5,
+      "location": [
+        -31,
+        -3
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 32.5,
+      "location": [
+        -31,
+        -0
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    }
+  ],
+  "height": 96,
+  "hullId": "istl_blackhand",
+  "hullName": "Black Hand",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    2,
+    -0
+  ],
+  "shieldRadius": 76,
+  "spriteName": "graphics/ISTL/ships/istl_blackhand.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -11,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 75,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        21,
+        28
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -75,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        21,
+        -28
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        3,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        3,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 86
+}

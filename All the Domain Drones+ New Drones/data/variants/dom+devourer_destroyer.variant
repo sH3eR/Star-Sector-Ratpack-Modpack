@@ -1,0 +1,75 @@
+{
+  "variantId": "dom+devourer_destroyer",
+  "hullId": "dom+devourer",
+  "displayName": "Destroyer of Worlds",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "autorepair",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "chaingun",
+        "WS0008": "chaingun",
+        "WS0009": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dom+triplesuperheavymortar",
+        "WS0002": "dom+triplesuperheavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "hammer",
+        "WS0016": "hammer",
+        "WS0018": "hammerrack"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0010": "dom+dev_right_1_variant"
+    },
+    {
+      "WS0012": "dom+dev_bottom_right_1_variant"
+    },
+    {
+      "WS0013": "dom+dev_bottom_left_1_variant"
+    },
+    {
+      "WS0011": "dom+dev_left_1_variant"
+    }
+  ],
+  "wings": [
+    "dom+jouster_wing_gunship",
+    "dom+jouster_wing_gunship",
+    "dom+jouster_wing_gunship",
+    "dom+fencer_wing_Fighter_wing",
+    "dom+fencer_wing_Fighter_wing",
+    "dom+fencer_wing_Fighter_wing",
+    "dom+fencer_wing_Bomber_wing",
+    "dom+fencer_wing_Bomber_wing",
+    "dom+fencer_wing_Bomber_wing",
+    "dom+defense_pod_Autocannon",
+    "dom+defense_pod_Autocannon",
+    "dom+defense_pod_Autocannon"
+  ]
+}

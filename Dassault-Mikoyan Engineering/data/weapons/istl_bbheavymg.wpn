@@ -1,0 +1,26 @@
+{
+	"id":"istl_bbheavymg",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_sm.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_bbheavymg_turret_base.png",
+	"hardpointUnderSprite":"graphics/ISTL/weapons/istl_socket_hardpoint_sm.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_bbheavymg_hardpoint_base.png",
+	"turretOffsets":[15, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"renderHints":[],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":24.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":1.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.05,
+					   "particleCount":21,
+					   "particleColor":[100,110,255,255]},
+	"projectileSpecId":"istl_bbheavymg_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_bbheavymg_fire",
+}

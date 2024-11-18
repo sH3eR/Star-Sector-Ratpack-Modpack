@@ -1,0 +1,241 @@
+{
+  "bounds": [
+    36.5,
+    -9.5,
+    32,
+    -11.5,
+    29,
+    -27.5,
+    4,
+    -31,
+    -2.5,
+    -25.5,
+    -14,
+    -25.5,
+    -18.5,
+    -31,
+    -33.5,
+    -31,
+    -39,
+    -22,
+    -39,
+    22,
+    -33.5,
+    31,
+    -18.5,
+    31,
+    -14,
+    25.5,
+    -2.5,
+    25.5,
+    4,
+    31,
+    29,
+    27.5,
+    32,
+    11.5,
+    36.5,
+    9.5
+  ],
+  "builtInWings": [
+  "istl_bravebit_wing"
+  ],
+  "builtInMods": [
+    "istl_bbengineering",
+    "ecm",
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "WS0004": "istl_bbdecovent_sm",
+    "WS0005": "istl_sensorarray",
+    "WS0006": "istl_blinkerB_blue",
+    "WS0007": "istl_blinkerB_blue",
+    "WS0008": "istl_blinkerA_blue",
+    "WS0009": "istl_blinkerA_blue"
+  },
+  "center": [
+    33,
+    42
+  ],
+  "collisionRadius": 64,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 30,
+      "location": [
+        -34,
+        -0
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 30,
+      "location": [
+        -34,
+        3
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    },
+    {
+      "angle": -180,
+      "contrailSize": 3,
+      "length": 30,
+      "location": [
+        -34,
+        -3
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 30,
+      "location": [
+        -34,
+        6
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    },
+    {
+      "angle": -180,
+      "contrailSize": 3,
+      "length": 30,
+      "location": [
+        -34,
+        -6
+      ],
+      "style": "BBHTFlare",
+      "width": 3
+    }
+  ],
+  "height": 80,
+  "hullId": "istl_bbminerunner",
+  "hullName": "Minerunner",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 62,
+  "spriteName": "graphics/ISTL/ships/istl_bbminerunner.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 10,
+      "arc": 60,
+      "id": "WS0001",
+      "locations": [
+        26,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -10,
+      "arc": 60,
+      "id": "WS0002",
+      "locations": [
+        26,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -145,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -13,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -11,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0005",
+      "locations": [
+        6,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -24.5,
+        31.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -24.5,
+        -31.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        15.5,
+        30.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        15.5,
+        -30.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 66
+}

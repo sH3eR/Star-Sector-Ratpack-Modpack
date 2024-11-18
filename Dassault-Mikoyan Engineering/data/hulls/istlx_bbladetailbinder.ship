@@ -1,0 +1,137 @@
+{
+  "bounds": [
+    6,
+    -8.5,
+    -3.5,
+    -8.5,
+    -9.5,
+    -2,
+    -15.5,
+    -2,
+    -18,
+    -4.5,
+    -37,
+    -4.5,
+    -41,
+    -2,
+    -41,
+    2,
+    -37,
+    4.5,
+    -18,
+    4.5,
+    -15.5,
+    2,
+    -9.5,
+    2,
+    -3.5,
+    8.5,
+    6,
+    8.5
+  ],
+  "builtInMods": [
+    "always_detaches",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_braveimpulsor",
+    "WS0002": "istl_braveimpulsor",
+    "WS0003": "istl_braveimpulsor",
+    "WS0004": "istl_braveimpulsor",
+    "WS0005": "istl_braveimpulsor",
+    "WS0006": "istl_braveimpulsor"
+  },
+  "center": [
+    10,
+    43
+  ],
+  "collisionRadius": 48,
+  "engineSlots": [],
+  "height": 52,
+  "hullId": "istlx_bbladetailbinder",
+  "hullName": "Tail Binder",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 48,
+  "spriteName": "graphics/ISTL/ships/istl_bbladetailbinder.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 45,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        -0.5,
+        5.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -45,
+      "arc": 120,
+      "id": "WS0002",
+      "locations": [
+        -0.5,
+        -5.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS0003",
+      "locations": [
+        -0.5,
+        5.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 120,
+      "id": "WS0004",
+      "locations": [
+        -0.5,
+        -5.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 135,
+      "arc": 120,
+      "id": "WS0005",
+      "locations": [
+        -0.5,
+        5.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -135,
+      "arc": 120,
+      "id": "WS0006",
+      "locations": [
+        -0.5,
+        -5.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 20
+}

@@ -1,0 +1,70 @@
+package niko.MCTE.stationAugments
+
+import com.fs.starfarer.api.campaign.econ.MarketAPI
+import com.fs.starfarer.api.combat.CombatEngineAPI
+import com.fs.starfarer.api.combat.ShipAPI
+import com.fs.starfarer.api.ui.TooltipMakerAPI
+import com.fs.starfarer.api.util.Misc
+import niko.MCTE.combatEffectTypes
+import niko.MCTE.scripts.everyFrames.combat.terrainEffects.baseTerrainEffectScript
+import niko.MCTE.scripts.everyFrames.combat.terrainEffects.blackHole.blackHoleEffectScript
+
+class MCTE_blackHoleAugment(market: MarketAPI?, id: String) : MCTE_terrainAugment(market, id) {
+
+    companion object {
+        const val MASS_INCREMENT = 2000f
+    }
+
+    override var classOfScript: Class<out baseTerrainEffectScript>? = blackHoleEffectScript::class.java
+    override val augmentCost: Float = 7f
+    override val name: String = "Gravity bubble"
+    override val spriteId: String = "graphics/augments/black_hole_augment_icon.png"
+
+    override fun applyInCombat(station: ShipAPI) {
+        super.applyInCombat(station)
+
+        station.mass += MASS_INCREMENT
+    }
+
+    override fun modifyScript(existingScript: baseTerrainEffectScript) {
+        /*if (existingScript !is SlipstreamEffectScript) return
+
+        val effectMult = (MCTE_settings.UNGP_EFFECT_BASE_MULT)
+
+        existingScript.peakPerformanceMult *= MCTE_settings.SLIPSTREAM_PPT_MULT / effectMult
+        existingScript.fluxDissipationMult += MCTE_settings.SLIPSTREAM_FLUX_DISSIPATION_MULT * effectMult
+        existingScript.overallSpeedMult += MCTE_settings.SLIPSTREAM_OVERALL_SPEED_MULT_INCREMENT * effectMult
+
+        existingScript.hardFluxGenerationPerFrame += MCTE_settings.SLIPSTREAM_HARDFLUX_GEN_PER_FRAME * effectMult*/
+    }
+
+    override fun createTerrainEffect(station: ShipAPI, engine: CombatEngineAPI) {
+        var movementAngle = 90f
+        val side = station.owner
+        if (side == 0) {
+            movementAngle = 270f
+        }
+
+        val script = combatEffectTypes.BLACKHOLE.createInformedEffectInstance(hashMapOf(Pair(movementAngle, 0.2f)), 1.1f)
+        script.start()
+    }
+
+    override fun getBasicDescription(tooltip: TooltipMakerAPI, expanded: Boolean) {
+        super.getBasicDescription(tooltip, expanded)
+
+        tooltip.addPara(
+            "The static drive field of a station can be modified to amplify the mass of the station enough to create a event horizon. " +
+                    "Naturally, all traffic near the station is prohibited when this modification is active - which thankfully " +
+                    "is only during a battle.",
+            5f,
+        )
+
+        tooltip.addPara(
+            "Applies the %s terrain effect to any combats including the station, which %s aboard all ships and %s.",
+            5f,
+            Misc.getHighlightColor(),
+            "black hole", "significantly increases timeflow", "pulls ships into the station"
+        )
+        tooltip.addPara("Also %s.", 5f, Misc.getHighlightColor(), "increases station mass by ${MASS_INCREMENT.toInt()}")
+    }
+}

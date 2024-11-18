@@ -1,0 +1,774 @@
+1.6a - 0.95.1a compatibility and savage mouse howls.
+
+Content:
+- Adjusted Tereshkova sprite.
+- (Deserter) Redesigned Flatmouse as Onychomys Assault Shuttle, a small landing craft with Advanced Ground Support.
+- (BB) New Imp sprite.
+- (BB) New tier-2 Acolyte.
+
+Balance:
+- Kobra Mk.3 loadout adjusted; now has 4x Linear CIWS with wider arcs.
+- Tereshkova slot layout adjusted; now carries 3x Linear CIWS.
+- Defense Field no longer uses Phase Cloak AI.
+- Phase Cloak mechanics adjusted to account for vanilla changes.
+- Howler per-shot damage increased to 275, flux increased as well.
+- Hedgehog Pod behavior changed; ammunition increased to 96.
+- Ripper RoF increased to 1200 peak DPS.
+- Revanche ammo regen improved; now has 750 sustained DPS.
+- Alauda now has Neural Interface built-in.
+- (Refit) Blaze Gun and Blaze Repeater damages adjusted.
+- (Deserter) Brave Blade and prototype Sparrowhawk now have Neural Interface built-in.
+- (Deserter) S-Mine Discharger behavior changed; projectile damage raised to 200.
+- (BB) Adjusted Degeneration Cycler to do less armor damage on average - 150 damage over time normally, with a 250 damage hit every 3-5 rounds. Should be less of an unstoppable murder hose.
+- (BB) Reduced shot damage of Shellshocker to 1000, flux cost to 1800.
+- (BB) Reduced peak DPS of Smart-Plasmid Mortar to 600.
+- (BB) Minor slot changes to the Imp; now has three Hybrids and a single Missile hardpoint.
+- (BB) Lens (Single) changed to (Double). Focuser bomber retains single-shot version. OP costs of Lens missiles adjusted.
+- (BB) Focus hullmod tooltips cleaned up.
+- (BB) Assault Focus now delivers a variable speed and maneuverability bonus based on flux level.
+
+Campaign:
+- Added more characters to DME markets.
+- Fixed Deserter starting reputation irregularities.
+- Fixed arms-dealer tags for DME weapons, ships, and subfaction skins.
+- Blade Breaker procgen spawns now use Acolyte, not Preceptor, as stations.
+
+1.54a - Minor content, fixes, polish. Will break your save.
+
+Content:
+- (Deserter) Added Lilin Minerunner frigate.
+- Minor changes to Tonnerre sprite, Grad TBM sprite.
+
+Balance:
+- Reduced Howlspear fire rate, now 150 DPS.
+- Aggressive Dard nerfs; main weapon is weaker, flux stats are worse, here's hoping it's finally in a good place.
+- Tereshkova and Kobra now have Heavy Burn as ship system and Defense Field as a right-click system. Armor increased to match.
+- Most crit scripts now scale damage and other effects based on their parent projectile (especially useful for energy weapons).
+- Added a check to keep onHit flux damage from being applied to ships with less total flux than the effect.
+- Muzzle effects and shotgun scripts converted to onFire effects. Substantial performance improvements.
+- Fixed wacky damage stats on Pulsed PD Laser.
+- Added 350 Frag damage AoE explosion to Frappeur torpedoes.
+- Reduced Jongleur ESAD damage to 325 HE/missile. In return, the large mount now fires somewhat faster, and has more ammo.
+- Adjusted Grad TBM System on the Tonnerre - now fires up to 16 missiles in a barrage, with sustained salvoes of 4.
+- (Hopefully) fixed dash systems locking ship speed at an unreasonable number if overloaded during a dash.
+- (BB) Enlarged and improved Acolyte Bastion; should be a more interesting minor boss fight, now.
+- (BB) Removed two large turrets from the Preceptor, adjusted remaining arcs; reduced OP, reduced top speed and turn rate, added Automated Ship hullmod. Minor sprite adjustments to fit.
+
+Campaign:
+- Set up basic Sigma matter turn-in interaction. It can be surrendered to any specialist Sigma matter researcher, SNRI representative, or posted scientist of any faction whose leadership takes an interest in Sigma matter research.
+- Set up barebones characters for turn-in interactions.
+- (BB) Warlock capital carrier is now recoverable using the Automated Ships skill.
+- (BB) Tweaked fleet composition slightly to ensure Warlocks show up more often. 
+- (BB) Fixed issue where autofit left some slots empty.
+
+1.5 - Updated to 0.95a, content, fixes, polish.
+
+- Now compatible with Starsector 0.95a
+
+Content:
+- (BB) Added Slicer Heavy MG.
+- (BB) Added Degeneration Cycler.
+- (BB) Added Shellshocker Magnacannon.
+- (BB) Added Black Hand drone frigate - carries three drones w/1200-range electron beams.
+- Numerous art changes, some major.
+
+Balance:
+- (BB) Imp Drone revised; turret changed to 360º, removed shield.
+- (BB) Snake Eye Gunship revised; slower, added another 270º weapon mount.
+- (BB) Black Lancer added to mainline BB roster.
+- (BB) Imp, Spearhead, and Black Lancer are now unmanned AI ships that can be recovered using the Automated Ships skill.
+- (BB/Deserter) Fighter ranges reduced.
+- (BB) Shellback/Shell Hawk ACs switched to single large projectiles from bursts. New graphics.
+- (BB) Adjusted Plasma weapon family burst timings and configs.
+= (BB) Removed, replaced, and adjusted a ton of other content.
+- Omni Blaster renamed to Snub Hybrid Blaster; core projectile damage lowered to 750 from 900, sub projectiles from 150 to 125, projectile speeds lowered.
+- Renamed Canister Flak/Twin Canister Flak to Cluster Flak/Twin Cluster Flak.
+- Removed weapons:
+  Flechette CIWS
+  7OP PD Beamer (renamed 5OP Micro Beamer to PD Beamer)
+  AMM Blister Launcher
+  (BB) Mincer
+  (BB) Plasma Erupter
+  (BB) Heavy Thermal PD
+- Removed ships and fighters:
+  Carabao Tanker
+  Chamois Utility Rig
+  Lodestar Armed Freighter
+  Oryol and Sauterelle drones
+  Nymphe bomber
+- Renamed Kentaurus to Lodestar.
+- Dard main weapon changed to Compact Microlaser, 30 energy damage @ 90DPS.
+- Redesigned Heavy Shockbeam as ER Gravitic Lance - reduced OP to 10, range to 800, damage type to Kinetic, DPS to 100.
+- Rebalanced Linear Cannon family - 1.0 efficient, no longer brokenly good.
+- Reduced Hellrider damage to 750, but added 250 bonus Energy damage on hull hits and increased blast radius of explosions. Snazzy new hit effect.
+- Redesigned Horn/Howler/Whistler/Howlspear weapon family to use listener-based additional armor damage, with lower base damage values. Sprites refreshed.
+- Changed Husky and Tereshkova slot configurations, minimal sprite alterations to match.
+- Other minor changes - so many at this point I'm sure I've missed a lot.
+
+Campaign:
+- Added Commissioned Crew compatibility; ships now get the 'Advanced Damage Control' hullmod when the player is DME-commissioned.
+- Added support for Industrial Evolution.
+- Added alternate Nexerelin starting fleets.
+- Restored Blade Breaker weapon drops via script - weapons now drop regularly and correctly in small quantities.
+- Added Sigma Matter drops via script.
+- Sigma Matter should sell for approximately reasonable prices at markets. IF not, it was gremlins.
+
+1.18a - Fixes, balance, polish. More fun stuff. Breaks saves.
+
+Content:
+- Added Nymphe light bomber (4/wing).
+- Added Reef light carrier (Deserter).
+- Added light and heavy Cargo Rigs (Deserter).
+- Added Arcite bomber (Deserter).
+- Added Bantam fighter drone (Deserter).
+- Added Phased Buster Launcher (Deserter) (Hotfix for Prism blacklist).
+
+Balance:
+- Reduced Pup to 2 fighters/wing, increased HP to 600 and armor to 200. She bricc.
+- Reduced OP costs of Canister Flaks to 12/8, improved base accuracy.
+- Reduced Calliope missile damage to 200 frag, added on-hit HE damage, swapped over to fully-guided missiles.
+- Fixed tooltip note for Voltigeur bonus damage.
+- Removed Curse-class carrier from Deserter blueprint pack, restored slot types (now more fun to fly).
+- Redesigned Bladewood-class Mothership (Deserter).
+- Added Advanced Nav Relay to Shalaika, removed High-Res Sensors.
+- Changed Zelenograd system to Focusing Lenses.
+- Reduced Brisance flux cap and hullpoints as well as top speed.
+- Replaced Itano AMM-3 with Aiguille SAM on Skink.
+
+Campaign:
+- Removed handmade Sigma constellations other than primary (Lenze), beefed up availability of Sigma Matter inside that one.
+- Majorly adjusted Lenze's surrounds, recycled two new systems from other constellations.
+- Added custom intel dialogue and intel icons for Hardened Warning Beacons.
+- Rebalanced markets across the whole faction; should fit better into the sector economy. In particular, nanoforges have been trimmed back to a reasonable one on Peremohy.
+- Integrated procgen Blade Breaker spawning with Adjusted Sector; Adjusted Sector now allows you to control the number of Blade Breaker spawns. Procgen Blade Breakers still need to be enabled in DMESettings.ini first.
+- (Hotfix for beacon dialogue error)
+
+1.1 - Fixes, content, polish and balance.
+
+Content:
+- Added Electron Rocket Family - launcher, twin rack, and single rack.
+- Added GX Phased Blaster (Deserter).
+- Added a 'lo-fi' version of trail_data.csv for low-end machines.
+- Added some... surprises... to Sixth Bureau fleets.
+- Added Bladewood-class Mothership (Deserter).
+- Numerous sound replacements and improvements.
+
+Balance:
+- Adjusted monthly/deployment costs of Mouflon to 4/8.
+- Revamped Maskirovka mines - now do 500 energy damage, smaller radius (but teleporting in closer as well).
+- Replaced IR Beamers on Deserter Sparrowhawk with simpler PD.
+- Slight addition to Blade Breaker Engineering hullmod; BB ships now do half again the explosion damage, but with only 75% of the normal explosion radius.
+- Halved damage (100>50) and doubled salvo size (3>6) of Flak Discharger.
+- Changed d'Erlon cargo/fuel value and deployment costs (now at 60/60 and 12/10), should be more reasonable. Precision Targeting damage buff reduced from +50% to +33%.
+- Changed Normandie's ship system to Strike Command, which increases fighter speed, maneuverability, and autoaim accuracy.
+- Added +10 OP to Carabao to make it a little more flexible.
+- Changed a bunch of crew, cargo, and fuel values to something approaching sanity.
+- Reduced a number of projectile velocities at the high end (rail accelerators, BB plasma weapons).
+- Reduced Heavy Linear Cannon shot damage from 160 to 120 and DPS from 480 to 400. Added a little on-hit energy damage to make up for that.
+- Reduced Hellspear DPS to 150 from 200.
+
+Campaign:
+- Tweaked a few planetary conditions to account for new colony balance and simple derp.
+- Fixed inability of random Blade Breaker systems to spawn in Nexerelin's Random Mode. (Thanks go to Morathar for suggesting a fast fix).
+- Shuffled around Deserter start options to accommodate another... surprise.
+
+1.0 - Updated for 0.9.1a, major balance and content. Breaks saves, takes names.
+
+Content:
+- Improved sprites for Linear Autogun family.
+- Improved sprite for Star Sylph.
+- Improved sprite for Snow Goose.
+- Improved sprite for Dard Interceptor Drone.
+- Improved sprite for Icax Skipfighter.
+- Improved sprites for base Vesper and Sixth Bureau Vesper.
+- Improved or replaced all custom station sprites.
+- Touchup and minor adjustments to scripts, projectiles.
+- Added Revanche Flechette Cannon.
+- Added Assault Rail Accelerator (6B).
+- Added Thermal Pulse Mortar (BB).
+- VERY REDACTED goodies. Lots of goodies.
+- Fixed missing d-hull damage overlays in hull_styles.
+- Hotfixed Ifrit case-sensitivity issues.
+
+Balance:
+- Reworked Linear Autogun family as magazine-based rotary cannons with high peak, but much lower sustained, DPS.
+- Added ammunition to flechette gun weapon family.
+- Replaced Dual Linear Chain Gun on Spirale with Linear Autogun.
+- Minor tweaks to Kobra Mk. 3; more armor, slightly more speed. Should be more common in markets.
+- Added Aiguille SAM Bay (renamed from Slapper) to Dard.
+- Improved Mouflon flux stats; added 5 OP, integral fighter bay.
+- Replaced integral ECCM with integral Expanded Missile Racks on Tonnerre.
+- Reduced TBM-10 and TBM-5 ammo to 90/60, respectively, in light of the above.
+- Swapped trails over to .csv system.
+- Increased prices of all ships destroyer-grade and higher.
+
+Campaign:
+- Added a new (empty) system, Hejaz.
+- Added custom admins to Peremohy and La Reole.
+- Adjusted tooltips on hardened warning beacons.
+- Revised most station visuals, some more than others.
+- Default setting is now no random Blade Breaker constellations. To activate, look in settings.ini.
+- Fixed a few minor system issues.
+
+0.9.9f - Balance and QoL.
+
+Content:
+- New Mystère sprite.
+- Added DME Refit blueprint package.
+- Added Targeting Optics hullmod (built-in)
+- Sound tuneups and alterations.
+- Added a few weapon FX.
+
+Balance:
+- Added 0-flux speed bonuses to Monobloc Construction and Skipspace Reaction Furnace. Monobloc ships get half-again the vanilla boost, while Reaction Furnace ships get a doubled 0-flux boost at up to 5% flux (6% with Helm 3).
+- Adjusted bomber refitting times upwards 3-5 seconds.
+- Rearranged Maskirovka slot types to better match the Harbinger; one Large Universal, two medium Hybrids. Better commit with that large!
+- Kobra, Tunguska, and Baikal now have a built-in hullmod to increase range threshold slightly and autoaim accuracy.
+- Reduced per-shot damage and flux of Obusier Shock Artillery to make it slightly less of a no-brainer/more effective in AI hands.
+- Redesigned Mystère as a better support bomber.
+- Removed Salvage Gantry on base Baikal, added it to Baikal (Brone).
+- Changed some fighter OP costs (reduced cost: Aigrette, Demoiselle, increased cost: Harridan, Mystère).
+
+Campaign:
+- Integrated refit and export DME hulls into indie and pirate fleets.
+
+0.9.9e - Fixes, QoL.
+
+Content:
+- Set Linear Chain Gun family to SYSTEM in preparation for removal.
+- Added oscillating beam effect to shockbeams, ER PD laser. Thanks to Nicke535 for his script.
+
+Balance:
+- Updated Prism Freeport and Omnifactory blacklists.
+- Blocked Safety Overrides (temp).
+- Added Vesperon whitelist, because NO FUN ALLOWED DONUT STEEL.
+
+Campaign:
+- Checked and updated Nexerelin configuration files.
+- Tweaked ship availability.
+- Added a toggle for Blade Breaker random system spawning in DMEsettings.ini, because I am a shadowy one-man cabal who actively conspires against player enjoyment.
+
+0.9.9d - Content, fixes, QoL tweaks. The usual. Will break your save.
+
+Content:
+- Added Maskirovka Phase Destroyer.
+- Added Capacitor Scatterlaser.
+- Added DME minelayer system with unique mine.
+- Added Nodal Phase Cloak hullmod for DME phase ships.
+- Modified Borzoi sprite (again).
+- Slightly redesigned Hybrid family weapon sprites.
+
+Balance:
+- Doubled up- and downtime of Shockbeam family; will make them burstier, better vs. armor.
+- Returned Quad Hybrid Blaster to charge-based firing because bursty large energy is best large energy. Renamed to Auto Hybrid Blaster.
+- Refined Omni Blaster to use random scattering, core shot at 900 dmg with four 150-dmg submunitions.
+- Fixed DME ship availability in markets.
+- Fixed some odd tags.
+
+Campaign:
+- Fixed a few missing market conditions and a duplicate industry.
+- Preceptor reworked; more modules, more hate, more exciting violence.
+- First pass on Blade Breaker overall balance - reduced some speeds, reworked Hellion autocannon. Massively reduced Mega Plasma Bolter shot damage.
+- Changed Sigma system spawning radically - systems now spawn semi-randomly.
+
+0.9.9c - Content, fixes, and QoL tweaks.
+
+Content:
+- Added custom bar and commission text to DME planets.
+- Added Focuser Bomber Wing (BB)
+- Added Plasma Rocket Pod (BB)
+- Added Warlock Carrier (BB)
+- Added Strategos LRM Battery (BB) (Warlock built-in)
+- Added Mincer Assault Cannon (BB)
+- Added Spearhead Destroyer (BB)
+
+Balance:
+- Fixed issues with Pulsed Skipjet ships suicide ramming.
+
+Campaign:
+- First pass on ship availability under the new faction system.
+- Fixed Kostroma spawning location.
+- Implemented hyperspace clearing for all DME/Sigma systems.
+- Reduced chance of Blade Breakers spawning in procgen systems vs. Remnants.
+- Added new drop items to Blade Breaker salvage. Now you get all the goodies.
+
+0.9.9b - 0.9a compatibility, fixes, and QoL tweaks. MagicLib now required.
+
+Content:
+- Added blueprint graphics.
+- Revamped faction flag.
+- Added four new selectable player flags.
+
+Balance:
+- Made Whistler Jetrifle scarier - continuous fire while ammo holds out, falling off into slower bursts. 400(100) DPS from 300(120).
+- Increased Linear Cannon and Twin Linear Cannon DPS to 180/240, respectively.
+- Fixed flux/shot for all LINKED weapon types.
+- Switched over trail code to MagicLib.
+
+Campaign:
+- ***REDACTED BY SIXTH BUREAU COMMS MONITORING***
+- Added Nexerelin Supership start. Of course, Nex is still broken...
+
+0.9.9 - Major content and campaign update, significant balance changes. Will break your saves, and you'll like it.
+
+Content:
+- Added Jongleur Barrage.
+- Added Obusier Shock Artillery.
+- Added Sauterelle Rail Drone.
+- Added Tonnerre Missile Cruiser.
+- Added Grad TBM-10 Missile System (built-in on Tonnerre).
+- Added Burya Missile Frigate.
+- Added quad trails to rail accelerator family, several other weapons. Thanks to Nicke535 for his quad-trail utility script.
+- New sounds for Focusing Lenses shipsystem.
+- New and updated UI icons for ship systems.
+- Updated Itano AMM missile and pod graphics.
+- Updated all Perforator launcher graphics.
+- Updated all Shockbeam visuals.
+- Updated Kobra Mk.3 sprite.
+(Blade Breakers):
+- Added Electron Bolt Projector.
+- Added Curse stealth carrier and Snake Eye gunship.
+- Added Deserter Star Sylph skin.
+- Added built-in hullmod: Blade Breaker Engineering.
+- ***REDACTED BY SIXTH BUREAU COMMS MONITORING***
+- Added “City of the Disturbed” by Eric Matyas (www.soundimage.org) as temporary Blade Breaker interaction music.
+
+Balance:
+- Hyperfocus shipsystem renamed to Focusing Lenses, now toggles; doubles the range of all beam weapons in addition to increasing energy weapon damage and slows acceleration and turning. Charge-up and -down times increased.
+- Split off a carrier version of Monobloc Construction; removes range penalty, adds 200 su flat bonus to ballistic and energy weapons, blocks ITU and DTC. Replaces the standard Monobloc Construction hullmod on d'Erlon, Normandie, and Jeanne d'Arc.
+- Increased Monobloc Construction's capital ship range threshold to 1000.
+- Reduced fire rate and total DPS of all rail accelerator weapons, slightly increased shot damage.
+- Decreased Katyusha Perforator burst size to 12 from 18.
+- Removed PD from Borzoi, replaced with a short-range burst rail accelerator. Small hybrid turrets changed to energy hardpoints.
+- Swapped hardpoint and turret types in redesign of Kobra Mk. 3. Kobra Mk 1 remains the same.
+- Raker changed to Flechette CIWS, range cut to 400. Flechette-gun family changed to continuous fire, DPS reduced slightly.
+- Shockbeam crit frequency increased, bonus damage type changed to Fragmentation.
+- Damselfly renamed to Demoiselle.
+- Adjusted and added a few variants.
+- Fixed some variant qualities and weapon rarity issues.
+
+Campaign:
+- Blade Breaker integration! Blade Breakers now spawn in procgen space.
+- New salvageable stations for Blade Breaker systems.
+- New commodities; three grades of Sigma Matter - turn them in like AI cores for the bounty; and Secure Data Storage, all about the cold hard cash.
+- Added derelict ships to handcrafted DME and Sigma systems.
+- Added solo frigate and light carrier options to Deserter start.
+
+0.9.8f - Balance, minor content.
+
+Content:
+- Made Hedgehog Pod purchasable, because why not. Enjoy taking a big, explosive dump on things.
+- Added Frappeur Torpedo Launcher, a 20OP large missile.
+- Added new Frappeur launch sound, fiddled with visuals.
+
+Balance:
+- Reduced Rafale II OP cost to 20.
+- Borzoi PPT reduced to 180.
+- Monobloc Construction range threshold is now graduated 600/700/800/900 by hull class. Less brutal for capitals and cruisers. Rewrote description.
+- Zelenograd speed increased to 70 from 65.
+- Jeanne d'Arc and Baikal speed increased to 45 from 40.
+- Tunguska speed increased to 85 from 80.
+- Removed Civilian-grade hullmod on Carabao, Sevastopol Mk.1 and Puddle Jumper Mk.1.
+- Changed Goalkeeper AI type to SUPPORT.
+
+Campaign:
+- Added generous namegen list to spice up vanilla, because I can.
+- Added tips, so you can not read my advice inside the game as well as on the forum and in changelogs.
+
+0.9.8e - Content, balance adjustments. Will bork saves. Please consume space kitten mlems responsibly.
+
+Content:
+- Spirale: reduced speed, increased refit time from 10 to 12. New sprite.
+- Borzoi: total rework, now a phase ship. Built-in Tomino AMM System.
+- Added Rafale II Heavy Bomber, a 24-OP wing deploying Hedgehog cluster bombs.
+
+Balance:
+- Adjusted AMM family of weapons; AMM Blister MIRV reduced to 12 submunitions (from 16), fire interval set to 6 (from 4). Itano AMM health reduced to 35, fighter AMM reload time reduced to 0.15 from 0.2.
+- Omni Blaster now fires a tight cluster of three shots rather than a double-tap burst; should be easier to land hits with.
+- Quad Hybrid Blaster DPS reduced to 640.
+- Tweaked Perforator acceleration and top speed downwards - should hit a little less often.
+	• Damselfly: health/armor reduced to 500/90, more in line with the Khopesh. Reduced rocket volley to 7/pod. Removed flares.
+- Flak Projectors reworked as Canister Flak; now fire a spread of buckshot.
+- Autolaser family reworked as charge-based Capacitor Autolasers. More interesting this way.
+	• Aigrette: removed flares, reduced Compact Autolaser charges to 12 to match the rest of the Autolaser family.
+- Jeanne d'Arc flux dissipation/capacity reduced to 640/14000, hull points reduced to 12000, ATC removed, forward medium missile upgraded to large. Costs reduced to 55/55.
+	• Target Datalink bonus reduced to 25%, uptime/downtime increased to 15/7.5
+- Zelenograd dissipation reduced from 960 to 840, flux capacity increased to 16500. Should be a bit less of a beast.
+- Added Delicate Machinery to Snow Goose.
+- Replaced Hellrider Rafale I with Hedgehog proximity bomb version. It's a nice weird sidegrade, rather than a problem.
+- Hit a bunch of stuff with minor nerfs and a very few buffs (ammo counts, +/- 50 range, etc).
+- Changed Monobloc Construction's range penalty; instead of a flat 15% cut to ballistics, it reduces all weapon range by 50% above 600 units. Same net effect, generally cleaner implementation with fewer edge cases.
+
+Campaign:
+- Moved Yod system to avoid conflict with Metelson's Rock system.
+- Made some minor system changes, expanded a few descriptions.
+- Fixed solar mirrors orbiting Tenacity (connected to market, will now change allegiance with the planet when captured).
+- Sixth Bureau ship skins now have a small chance to show up in DME markets.
+- Tweaked faction relationships; friendly to Hegemony, cool on the League.
+
+0.9.8d - Minor balance!
+- Perforator rocket damage reduced to 150 from 240, ammo and burst counts (9 for Damselfly, 18 for Katyusha) tweaked where relevant. DPS values remain the same. Missile HP reduced to 40.
+- Jeanne d'Arc costs raised to 60/60.
+- Samoyed built-in AMMs forked from fighter AMMs (more ammo).
+
+0.9.8c - Tournament balance tweaks.
+- Reduced Hybrid Scrambler shot damage (15>10).
+- Adjusted Zelenograd deployment costs to 45/45.
+- Reduced Jeanne d'Arc flux capacity to 18000, changed system to Target Datalink.
+- Removed third fighter bay on Zelenograd, swapped system back to MIRAGE Recall.
+- Increased fire time of Med Pulsed Laser by 50% - longer burst (300>450), same total DPS.
+- Improved SFX of Raker and Ripper.
+
+0.9.8b - More little stuff, some not-so-little stuff. May break saves.
+- Cut down per-burst smart flare counts to 3 for ship, 1 for fighter versions. Mostly a visual thing, but makes fighter flares less potent.
+- Added Defense Screen, a Damper Field clone that (hopefully) fixes some of the more egregious issues with the vanilla system. Used on Zelenograd and Kobra Mk. 3.
+- Added Ramming Mode system for Baikal (Brone). Slower, but allows steering, and uses charges.
+- Custom sigma nebula texture for relevant systems.
+- Reduced Frappeur torpedo damage to 1350.
+- Redid Quad Hybrid Blaster a bit - now does 800 DPS in four-round bursts of 400-dmg projectiles, no more charges.
+- Layout/design surgery on the Jeanne d'Arc; should be both better, and more interesting to fit out. Also much prettier.
+- Replaced the Sparrowhawk's Plasma Jets with Stutterwarp Jump, a fast-cycling phase skimmer.
+
+0.9.8a - Minor improvements, bugfixes. Should be non-savebreaky.
+- Tweaked some system stuff. Mostly aesthetic, some different salvage.
+- Removed steering ability from Skipjet Injector.
+- Fixed Jeanne d'Arc hull typo. How embarrassing.
+- Reduced Baikal (Brone) shield efficiency.
+- Reduced module armor health, armor rating, on all playable module ships.
+- Added Thermal Scatter PD, a workhorse energy flak shotgun. (BB)
+
+0.9.8 - Nose to the grindstone! Will break your saves.
+- Added Dalet and Yod systems. Really just there for flavor, but you do get more Sigma Worlds. I wonder what those are all about...
+- Did some polish work on the campaign layer to breadcrumb the player towards the Sigma worlds (custom icons, checked to make sure they stood out just right, etc.)
+- Included updated faction config for Nexerelin 0.8.3c.
+- Integrated mod faction relations.
+- Integrated mod faction relations into deserter start.
+
+- More visual improvements to ships, weapons. New Perforator sprite. Adjusted turret locations, artwork of all Multi-PD Node carrying ships: should look nicer, positioning is improved. Damselfly got a once-over, fresh carrier deck designs.
+- Reduced Lycosid Interceptor wing size to 5.
+- Increased extra supply cost of Sixth Bureau hullmod to 15%.
+- Increased fire rate of Heavy Linear Cannon; DPS increased slightly to 480, reduced damage per-shot to 160/50.
+- Reduced fire rate of Heavy Rail Accelerator; increased per-shot damage to 375, DPS/flux remain the same. Should be more distinct from the HVD now.
+- Increased Kormoran armor to 700.
+- Added Sigma Jaunt ship system, replaces Temporal Field on Imp.
+
+- Baikal changes:
+- New layout, sprite. She thicc.
+- Increased armor to 1200.
+- Decreased OP to 140, added Heavy Ballistics Integration hullmod.
+- Overall, should feel like a mixture of the Dominator and Apogee. It's practically a new ship.
+- Added Baikal (Brone) variant. Be afraid.
+
+- Updated, revised, and expanded many, many descriptions.
+
+- Added new missions, Heavy Iron and Devil To The Belt.
+- Enlarged Mothership Connection mission - more stuff, more bees.
+
+- Adjusted Mouflon layout. Added module armor.
+- Reduced Star Sylph deployment and recovery costs.
+- Added Jeanne d'Arc Fleet Carrier.
+- Renamed Mindanao and Leyte to Normandie and d'Erlon, respectively.
+- Normandie has lost a few slots and gained a flight deck. Also practically a new ship.
+- Zelenograd has also gained a flight deck; ship system changed to Hyperfocus pending something fancier.
+
+- Added Verdun-class defense station and Guardian-class bastion.
+
+0.9.7 - More big changes. Will break saves.
+- Added custom shield sounds.
+- Slot tweaks to Chamois.
+- Added prototype Sparrowhawk skin for player use.
+- Removed built-in Operations Center from standard Sparrowhawk: it's still present on the prototype skin.
+- Added Blade Breaker Deserter start option for Nexerelin (for experienced players only - it's a rough ride).
+- Added Sigma Disruptor ship system for the Devil Ray.
+- Added Lycosid Interceptor, a nasty little six-fighter wing.
+- Added Plasma Vulcan, built-in for the Lycosid.
+
+- Reduced fire rate of AMM-6 to 45 DPS, reduced OP cost to 3.
+- Replaced, or polished up a number of graphics, including the Linear Cannon/Chain Gun family.
+
+0.9.6c - Forward! Some big, sweeping changes.
+- Added Fletcher Bomber (a light energy-torpedo bomber).
+- Added Hedgehog Pod (a station-only grenade-throwing weapon).
+- Added Iridium Assault Fighter (BB).
+- Added Energy Mine Discharger (BB).
+- Added a new mission, Hell's Own Sun.
+
+- Redid all Blade Breaker ship variants. They're color-coded!
+- Reworked Flak Discharger to throw braking grenades, increased damage and ammo count.
+- Reworked Monobloc Construction; removed flux bonuses, now mitigates 25% EMP, halves overload time and cuts ballistic range by 15%. Incompatible with Heavy Armor, rather than Resistant Flux Conduits.
+- Adjusted flux dissipation of affected ships very slightly to compensate in light of above.
+- Increased top speed of a few combat ships slightly, as well.
+
+0.9.6b - adding stuff, fixing stuff.
+- Removed Nex battlestation variants, because I was dumb and left them in.
+- Added Blade Breaker fighters, the Hellion and the Firespray.
+- Added Jackal Burst Slicer.
+
+0.9.6a - Polish polish polish - oops, also a content update!
+- Increased ammo counts of Raker, Ripper, and Flak Discharger.
+- Various tweaks to Blade Breaker content (incl. tweaks to Storm Kestrel, renamed Sparrowhawk, layout). Tagged all weapons for salvage groups, and for exclusion generally (useful for tournaments).
+- Hellrider version of Rafale removed from campaign.
+- Adjusted Perforator damage (235->240) and DPS (150->160) slightly. Raised DPS (250->320) of Katyusha Perforator.
+- Added Marteau MLRM, a multi-warhead LRM dealing energy damage.
+- In light of the above, reworked the AMM Blister Launcher as a faster-firing close-range anti-fighter weapon.
+- Increased Microlaser projectile speed. Fighters beware.
+- Increased range of Traceur random damage slightly (was 20-200, is now 50-250). You people weren't afraid enough for your engines.
+- Improved all PD beam SFX.
+- Misc adjustments to SFX here and there.
+
+- Added a few new discoverables to existing systems. Get that Neutrino Detector powered up!
+- Added non-econ market (Cousteau Base) to Nikolaev, because why not.
+- Added two new, uninhabited systems. Mostly for flavor, some plot hooks for later.
+- Added Nex battlestation variants. Yeah, I'll probably talk myself into custom stations later...
+- Added Kormoran, Tunguska, and Vesper elite skins, which show up in the Nikolaev and Kostroma system as part of Sixth Bureau fleets.
+- Added a few 'export' skins.
+- Fixed Version Checker support.
+
+0.9.6 - The slog forward continues. Will break your saves.
+- First pass on Blade Breaker ships (not available in campaign, not remotely final).
+- Added AMM-3 launcher to Shalaika, should make it a little bit more combat-capable without being too strong.
+- Fixed Harridan Hybrid Scrambler EMP arc frequency. Should be less of an instant shutdown tool, still good.
+- Reduced size of Peremohy combined market to 6.
+- Doubled charge time of all rail accelerators.
+- Increased shot damage for Light Rail Accelerator, adjusted fire rate to retain 120/145 DPS/flux.
+- Adjustments to Lens DEM; now more of a long-range softening-up weapon.
+- Added Mouflon Assault Lander.
+- Added Bouclier Armored Courier.
+- Added Rafale Torpedo/Missile Bomber. Comes in two flavors, Frappeur and Hellrider.
+- Added Hybrid Repeater.
+- Redesigned Chamois Utility Rig. Even less combat capable!
+- Nexerelin carrier start options are now available.
+- Some minor adjustments to star systems.
+
+0.9.5f - Swinging the nerf bat.
+
+- Redistributed a few of the turret arc changes to the Kormoran.
+- Global nerfs to armor values.
+- Many shield efficiencies reduced, especially on highly mobile ships.
+- Did a quick pass on fighter health. 
+
+0.9.5e - Swinging the nerf bat.
+
+- Hullmod bonus values slashed on Monobloc Construction/Reaction Furnace. This really needs a redesign at some point.
+- Damage cuts to: Plasma Streamer.
+- Range cuts to: rail accelerators, sm/med/large linear weapons. Normalized some range values that were 50su high.
+- Jongleur ESAD fire rates reduced, sm/med DPS values are now 100/150.
+- Ripper and Raker now have lower ammo counts, higher peak fire rates.
+- Cut Kormoran shield arc to 120, cut nearly all turret arcs, some severely. Cut into accel/turn accel values by 25% or more.
+- Kobra Mk 1&3 PPT decreased to 270, typo in Mk 3 CR decay fixed.
+- Basilisk flux efficiency reduced to 4:9.
+- All flux dissipation values slashed by 20%.
+
+0.9.5d - Tournament balance, QoL.
+
+- Ultra Rail Accelerator DPS reduced to 250, projectile speed increased to 1600 from 1550, projectile damage/flux increased to 750/1500 from 600/1000, OP increased to 28.
+- Flux/sec increased on Heavy Rail Accelerator (180>200).
+- Shot damage reduced on Light Rail Accelerator (135>120).
+- Single and Dual Linear Chain Gun DPS reduced slightly (150/200 from 160/210). Largely a symbolic change.
+- Linear Cannon and Heavy Linear Autogun DPS reduced to 160.
+- Twin Linear Cannon DPS reduced to 215, flux/sec to 190.
+- Heavy Linear Cannon projectile damage reduced to 180, DPS, etc. remain constant.
+- Voltigeur ASM projectile damage reduced to 200(120 for fighter version on Mystère). DPS values and ammo have been retained.
+- Small and medium shockbeam damage/flux adjusted (100/120small and 150/200 med). Basilisk DPS reduced to 400.
+- Reverted Micro/Autolaser Clusters to constant-fire @ 156/333 DPS. Boring but reasonable.
+- Reduced Damselfly rocket salvo from 6 to 5.
+- Reduced Medium Pulsed Laser burst damage to 300, DPS to 150.
+
+- Returned Salvage Gantry to the Chamois; in return, it’s become more expensive to deploy, weaker overall, and slower/less maneuverable.
+- Slightly reduced a few shield arcs (Baikal, Kormoran, Leyte).
+- Cut Kormoran flux capacity to 13600 from 14500.
+- Clarified Raker Flechette Gun role (assault/auxiliary PD).
+
+0.9.5c - GraphicsLib integration, yet more polish.
+
+- Graphicslib integration; lights, maps, funsietimes for all.
+
+- Reduced OP to 45 for both Mk.3 and Mk.1 Kobras. Not sure how this one slipped by me.
+- In light of the above, did a once-over pass on ship OP generally. Relatively few surprises, caught some outliers.
+- Raised OP cost of: Aigrette (15>16), Icax (15>16), Damselfly (12>14).
+
+0.9.5b - Patch and polish for 0.8.1.
+
+- Added new system, Kostroma. Good for building rep through battles with Luddi and Pirates. Also, lots of scrap to gather.
+- All systems refined, added debris, tuned up appearance. All non-procgen uninhabited planets assigned fixed conditions.
+- Split name list so you can turn off the really silly ones (comment out "DASSAULT_MIKOYAN_SILLY" in the faction file). Added more silly ones, set them to be less common overall.
+
+- Kentaurus burn speed lowered to 8, cargo increased to 750. Supply costs increased.
+- Itano AMM shot damage increased to 60, AMM Blister now launches single 16-missile containers.
+- Small/fighter AMM refire speeds reduced.
+- Zelenograd speed increased to 70 from 50. Supplies/month and supplies/recover rebalanced.
+- Slammer renamed to Frappeur.
+- Spirale weapons redesigned; now uses one Dual Linear Chain Gun instead of two singles, reducing kinetic DPS from 320 to 210. Missiles now fire forward.
+- Halved fire rate of small and medium modular Voltigeur mounts. Save ‘em for when it counts.
+- PD Beamer family rebalanced for faster firing and lower per-shot damage.
+- Fixed various minor issues with EMP in scripts - should address any issues with weapons spawning EMP arcs.
+- Harridan and Aigrette refit time increased to 15.
+- Chamois brought back down into the realm of sanity, somewhat. Removed Salvage Gantry, now has Converted Hangar, supply costs increased. Should suffice until total redesign.
+- Buzz Gun DPS cut to 450.
+- Horn Attack Gun cost increased to 5OP, flux/shot increased to 90.
+- Tereshkova flux dissipation, capacity cut.
+- Hybrid weapons family visuals improved. Quad Hybrid Blaster peak DPS reduced to 1080 from 1200.
+- All fighters given an armor/hull point pass. Mostly this has meant nerfs, in a few cases (Mystère) it’s meant buffs or sidegrades.
+- Brought out the balance hacksaw on Blade Breaker weapons (again). New visuals for Electroplasma Bolter/Erupter.
+
+- Export variants of a few Dassault-Mikoyan hulls will show up in independent fleets.
+
+0.9.5a - Patch and polish.
+
+- Ripper and Raker rebalanced (again) - higher damage, slightly slower firing.
+- Autolaser and Microlaser fire rates increased, added charges; Should compete better with the Hybrid Blaster for your medium energy slots.
+- Modular Voltigeur OP costs increased to 5/12.
+- Fixed bugged missions.
+
+0.9.5 - Content, major balance. Will break saves.
+
+0.8 compatibility update; OP rebalanced, all variants changed, fighter mechanics and new campaign dialogue. New tags added to ships and weapons. Everything Has Changed.
+
+- Added Zelenograd Research Platform, a survey battlecruiser.
+- Added Vesper Tactical Frigate, a fast, powerful design with a flexible layout of universal and hybrid mounts.
+- Added Mystère Multi-role Fighter.
+- Added Foil Attack Bit, a 2OP drone fighter wing.
+- Added Linear CIWS, built-in ballistic PD with origins in industrial espionage.
+- Added Heavy Linear Autogun, a 9OP burst-fire cannon. A good slot-filler on carriers and fast frigates.
+
+- Star Sylph Hybrid slots changed to Energy (don’t cry son, it’s gonna be all right), flux capacity trimmed from 2400 to 2100. Less pure combat ship, more combat freighter.
+- Reworked Rail Accelerator, Linear Cannon and Blaze family weapons with updated/new sprites.
+- Hellrider engine stats tweaked, AoE increased; made less common. No longer a do-everything missile: they’re elite guided weapons like the Atropos.
+- ER Pulsed Laser range reduced from 900 to 850.
+- Medium Pulsed Laser range reduced from 800 to 750.
+- Monobloc Construction hullmod changed: reduced EMP resistance (50>30%) now grants bigger passive dissipation bonus (15>30%), smaller (25>10%) vent rate bonus. Icon improved.
+- Skipspace Reaction Furnace bonuses trimmed, 60/25/25 from 75/30/30. Icon improved.
+- Hellspear Cannon fire rate decreased, DPS reduced to 250.
+- Cut Kentaurus fuel capacity to 150. Retains burn 9, but has hungrier engines.
+- Flare renamed to Spirale.
+- Damselfly reduced to two/wing, turret changed to Linear CIWS, sprite slimmed down, rocket volley size doubled. Less a nerf than an adjustment; probably more lethal, overall.
+- Fighter version of Itano AMM given lower ammo (60>36), regeneration.
+- Added Precision Targeting to Mindanao and Leyte, replacing Goalkeeper Drone system.
+- All drones converted to fighter wings. Oryol Scanner Bit is available to buy as a 0-OP bay filler, armed with an ER Pulsed Laser.
+- Several ships (Chamois, Tereshkova) have been given modular single fighter bays, while others (Lodestar, Husky, Puddle Jumper) have been given their drones back as built-in wings.
+- Baikal and Chamois now have Salvage Gantries.
+- Tereshkova medium Missile slot changed to Composite.
+- Rail Accelerator family renamed to remove references to caliber.
+- Hybrid Pulser per-shot damage increased from 30 to 35. Flux to 35->40/shot.
+- Auto Hybrid Blaster renamed Quad Hybrid Blaster, fire rate, damage adjusted.
+- Whistler damage cut to 90/shot from 105, fire rate increased to maintain DPS.
+
+- Added new fighter systems: Precision Targeting and MIRAGE Recall.
+
+- Expanded Nikolaev system - bigger, new uninhabited planets to survey, added a gate, cleaned up and polished rings.
+- Added new system, Martinique, to the galactic west.
+- Lots and lots of new or expanded descriptions.
+- Mk. 1 hulls will now show up in pirate fleets and black markets across the sector.
+- New name list is *appalling*. Enjoy, HELMUT!
+
+0.9.4c - Content, minor balance. Might break saves, your heart.
+- Added 2OP single Slammer torpedo.
+- Added 2OP single Hellrider missile.
+- Added Flak Discharger, a slow-firing 2OP PD weapon of very little brain.
+- Added E-Vulcan (upcoming content).
+- Added Whistler Jetrifle, a fast, accurate 13OP mid-range HE weapon.
+- Added Jongleur ESADs, 4/10OP (sm/med) HE missiles that like to come back for a second round from behind.
+
+- Snow Goose shield efficiency reduced to 1.0, flux cap raised to 8400.
+- Chasseur Multi-ASM reload time increased from 10 to 14.
+- Heavy Linear Cannon converted to burst-firing, retains DPS of 480. Per-shot reduced to 240. Flux efficiency set to 1:1.
+- Reduced Shockbeam ablation effect damage, frequency.
+- Reduced OP costs of Hellrider racks and launchers by 1OP to 5/12.
+- Lowered Traceur ammo to 5/12 for small/med mount.
+- Lowered Howler, Hellspear projectile speed.
+- Widened Shalaika shield to 120º.
+- Increased Auto Hybrid Blaster shot damage to 225.
+- Reduced Omni Blaster charges to 32.
+- Changed Hummingbird weaponry to single Raker.
+- Increased deployment costs of Flares.
+- Perforator Pod salvo stretched from 6 to 12, renamed Katyusha Perforator.
+- Carabao changed to tanker.
+- Borzoi small turret changed to Hybrid.
+- Quad Linear Chain Gun flux value fixed. Should also be more useful as PD due to converging aimpoint.
+- Ripper and Raker Flechette Guns: peak RoF increased, sustained DPS reduced, per shot reduced to 60/40, clip size to 15, range to 600/500. Energy weapons in ballistic form.
+- Cleaned up or removed some unused/poorly-conceived weapon concepts.
+
+0.9.4b - More balance, minor content, QoL. ‘Guys, I think I screwed up.’
+- *> ElizaLib dependency removed. (Much rejoicing). <*
+- Pup Armored Assault Fighter main weapon changed to Horn Attack Gun. Now actually dangerous.
+- Defense Beamer renamed to ER PD Laser, sounds replaced; it might be a silly filler weapon, but dammit, it’s going to sound and feel right. No longer shows up in markets; has to be salvaged.
+- Added ER Pulsed Laser, a 6OP, 900-range support beam. It’s flux-inefficient but relatively high-damage, a useful alternative to the Tactical Laser. Doesn’t show up in markets; has to be salvaged.
+- Light and Heavy Pulsed Beams renamed to Small/Medium Pulsed Laser, sounds replaced, beam duration/fire time doubled (DPS remains the same; should make them more effective against large ships, less effective against small ones), range increased to 700/800, beam speed decreased to 4000 (damage will fall off with range).
+- All pulsed laser damage reduced by 1/3rd or more.
+- Increased Ripper/Raker damage to 75/45 per shot, added ammo/clip system. Better for burst/infighting, worse for sustained barrages.
+- Hybrid weapon family sounds replaced - should sound a bit less harsh.
+- Shockbeam ranges reduced to 700/1000/1200. DPS for small/med versions reduced to 100/160.
+- Howler Cannon fire rate reduced very slightly, flux raised to 1:1 efficiency.
+- Hellspear Cannon damage reduced to 650, fire rate slightly increased.
+- Tunguska top speed reduced to 70, base ordnance points reduced to 76.
+- Added unique names for DME and United Security NPCs (can’t believe I didn’t do that earlier).
+- Baikal armor, flux stats reduced, shield efficiency lowered to 0.8, shield type changed to omni. Should be less of a brick, easier to kill. Speed reduced from 40>35.
+- Linear Cannon family: accuracy sharply reduced.
+- Chasseur Multi-ASM ammo reduced to 20 from 32, MIRV submunitions reduced from 9 to 7, reload time increased to 10 from 9.
+- 20cm damage reduced to 600, fire rate increased to maintain DPS, flux slightly increased. EMP Reduced to 200/shot.
+- Hybrid Scrambler, Hybrid Pulser, Hybrid Blaster and Auto Hybrid Blaster EMP trimmed (150>120/250>240/100>90/75>60).
+- Most ships have had flux capacity, base dissipation rate, or both reduced 10-20%.
+- Most ships have had shield efficiencies, and/or widths, reduced.
+- Numerous other tiny fixes.
+
+0.9.4 - Balance, minor content, QoL.
+- Heavy Pulsed Beamer damage reduced to 250/shot. Should be less impressive for 9OP.
+- Increased Ripper/Raker damage to 60/36 per shot, lowered fire rate slightly.
+- Reduced Traceur speed to 450, base damage to 200.
+- Hellrider launcher ammo increased to 12.
+- Icax revamped, now carries two Linear Autoguns.
+- Tunguska base speed increased to 80.
+- Lens DEM, Slapper SRM removed temporarily (SYSTEM tag).
+- Adjusted variants for a few ships.
+- Adjusted ship prices. Ships should have ‘correct’, vanilla-friendly costs in campaign.
+- Adjusted prices of weapons across the board. Small weapons should be more affordable, meds and larges should be less so.
+- Aigrette redesigned - now armed with 1x autolaser and 2x multi-beam nodes. Autolaser has a 90º fire arc, making Aigrettes very effective for infighting.
+- Set hullmod blocker up - Monobloc Construction now blocks Resistant Flux Conduits, Skipspace Reaction Furnace now blocks Resistant Flux Conduits and Safety Overrides. Should make for more of a challenge.
+- Screwed around with Blade Breaker weapons yet again, as a dog returneth to its vomit. Nothing is final, all is in flux.
+
+0.9.3 - Balance, minor content.
+- Removed EMP damage from Linear Autoguns, Cannons, small and med shockbeams. Heavy Linear and Basilisk EMP reduced. Should fix ‘stun-locking’ problems and semi-broken/exploity loadouts.
+- Reduced missile EMP values across the board.
+- Micro Beamer/PD Beamer/Tribeamer damage type swapped to energy, some minor damage, etc. rebalancing.
+- Dard Interceptor weapon changed to Micro Beamer.
+- Snow Goose deployment/recovery costs increased to 20, peak time decreased to 270, armor cut to 350. Very small chance to show up in markets, fleets.
+- Further polish passes on upcoming content for United Securities, Blade Breakers. Too many little changes to mention.
+- Added Omni Blaster, a 9OP small energy weapon in the AM Blaster vein. Fires a burst of two shots for added effectiveness vs. shields.
+- Small missile slot on Tereshkova changed to universal.
+- Reduced per-shot damage/DPS of Hybrid Pulser to 30/90.
+- Auto Hybrid Blaster shot damage reduced to 200, DPS to 1600. EMP/shot reduced to 75.
+- Basilisk range increased to 1350, Heavy Shockbeam damage increased to 200, flux/second to 215.
+- Added Chamois Mining Rig, a heavily-armored, destroyer-sized civilian ship.
+- Perforator damage increased to 235, acceleration profile changed, ammo counts adjusted downwards (60>45, 120>90). Should feel clumsier, but hits more satisfying.
+- DME now considers Harvested Organs illegal goods (no more human foie gras).
+- More delightful ship names.
+
+0.9.2 - Balance, stuff, things.
+- Quad Linear Chain Gun burst increased from 12 to 24 shots, DPS reduced to 360. Should feel less like an HMG clone and more like a sawed-off Heavy Needler. Try it out on SO fits.
+- 20cm Rail Accelerator damage increased to 900, DPS decreased to 300, range increased to 1350. Should be better for spiking flux at a distance, less effective for suppression.
+- Linear Chain Guns/Buzz Guns shot speed increased, should be more effective as PD now.
+- Itano AMM timing fixed, given new sound. DPS should be more in line with vanilla.
+- Husky frigate drone changed to single Goalkeeper in anticipation of carrier changes.
+- Hyperfocal Cooling renamed Hyperfocus, reworked as HEF-style damage bonus rather than fire-rate increase.
+- Blaze Repeater redesigned; now has two barrels, damage/shot decreased to 60, DPS/flux 450
+- Raker/Ripper shot damage decreased to 30/50, fire rate increased. DPS remains the same.
+- Minor fixes - Burn speeds corrected for frigates, some freighters, some descriptions tightened up or expanded.
+- Samoyed renamed to Shalaika.
+- Heavy Linear Cannon shot damage reduced to 300, DPS reduced to 480. Still scary, less broken.
+- Howler Cannon RoF increased.
+- Added Borzoi Corvette, a shieldless frigate.
+- Added Brightheaven, a pirate station in Stendhal’s L5 trojan asteroids.
+- Fixed faction relationships.
+- Added Nexerelin compatibility.
+
+0.9.1 - Fixes, fixes errywhere
+- Reduced Linear Autogun/Cannon/Twin Cannon EMP to 15/20/20.
+- Reduced Heavy Linear Cannon EMP to 120.
+- Reduced Rail Accelerator EMP to 40/120/240.
+- Reduced Tactical Shockbeam EMP to 60/sec.
+- Hornet Cannon renamed to Horn Attack Gun.
+
+- Relocated Nikolaev system to address conflict with SCY Nation.
+- Tweaks to weapon availability - more of the low-end DME weapons should now be available in non-military markets.
+
+0.9 - Initial public release.

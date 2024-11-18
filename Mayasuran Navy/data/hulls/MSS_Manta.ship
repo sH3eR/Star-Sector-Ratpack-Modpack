@@ -1,0 +1,165 @@
+{
+  "hullName": "Manta",
+  "hullId": "MSS_Manta",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/mayasura/ships/MSS_Manta_Elite.png",
+  "style": "MIDLINE",
+  "height": 179,
+  "width": 132,
+  "center": [66, 113],
+  "collisionRadius": 139.201294,
+  "shieldCenter": [-10, -0],
+  "shieldRadius": 108.102959,
+  "viewOffset": 0,
+  "builtInMods": [
+    "MSS_LastStand",
+    "MSS_Prime"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [57, 13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [57, -13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 20,
+      "locations": [29, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -20,
+      "locations": [29, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 105,
+      "locations": [-39, 16]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -105,
+      "locations": [-39, -16]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -70, -0,
+        -72, 4.5,
+        -75.5, 7,
+        -71.5, -4,
+        -75.5, -6.5
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [45, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [0, 43],
+      "length": 64,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [0, -43],
+      "length": 64,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [3.5, -30],
+      "length": 34,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [3.5, 30],
+      "length": 34,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MayasuranFlare"
+    }
+  ],
+  "bounds": [
+    -110, 2.5,
+    -73.5, 15,
+    -58, 16,
+    -40, 23,
+    -36.5, 17,
+    6.5, 15,
+    1.5, 54.5,
+    44.5, 58,
+    51, 29,
+    62.5, 13,
+    38, 2,
+    38, -2,
+    62.5, -13,
+    51, -29,
+    44.5, -58,
+    1.5, -54.5,
+    6.5, -15,
+    -36.5, -17,
+    -40, -23,
+    -58, -16,
+    -73.5, -15,
+    -110, -2.5
+  ]
+}

@@ -1,0 +1,101 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 12,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "istl_bbsuperheavy",
+    "hullMods": [
+        "heavyarmor",
+        "istl_bbsupport",
+        "fluxdistributor",
+        "magazines"
+    ],
+    "modules": [
+        {"WS0021": "istl_bbpdmodule_std"},
+        {"WS0022": "istl_bbpdmodule_std"},
+        {"WS0023": "istl_bbmissilemodule_std"},
+        {"WS0062": "istl_bbsuperheavy_bow_std"},
+        {"WS0063": "istl_shieldplate_std"},
+        {"WS0067": "istl_shieldplate_std"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_bbsuperheavy_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_twinjack",
+                "WS0004": "istl_twinjack"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_plasmadriver",
+                "WS0002": "istl_plasmadriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_plasmadisruptor",
+                "WS0009": "istl_plasmadisruptor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_shellhead",
+                "WS0017": "istl_shellhead",
+                "WS0018": "istl_shellhead"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "istl_thermalmortar",
+                "WS0014": "istl_thermalmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "istl_shellhead",
+                "WS0011": "istl_shellhead",
+                "WS0012": "istl_shellhead"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_proxbomb_ciws",
+                "WS0015": "istl_thermalpd",
+                "WS0016": "istl_thermalpd",
+                "WS0019": "istl_thermalpd",
+                "WS0020": "istl_thermalpd",
+                "WS0043": "istl_impulsor",
+                "WS0044": "istl_impulsor",
+                "WS0045": "istl_impulsor",
+                "WS0046": "istl_impulsor",
+                "WS0047": "istl_impulsor",
+                "WS0048": "istl_impulsor",
+                "WS0049": "istl_impulsor",
+                "WS0050": "istl_impulsor",
+                "WS0051": "istl_impulsor",
+                "WS0052": "istl_impulsor",
+                "WS0061": "istl_proxbomb_ciws",
+                "WS0064": "istl_thermalpd",
+                "WS0065": "istl_thermalpd",
+                "WS0066": "istl_proxbomb_ciws"
+            }
+        }
+    ]
+}

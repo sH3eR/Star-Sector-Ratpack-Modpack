@@ -1,0 +1,227 @@
+{
+	id:"blade_breakers",
+	"displayName":"Blade Breakers",
+	"displayNameWithArticle":"the Blade Breakers",
+	"displayNameLong":"Blade Breakers",
+	"displayNameLongWithArticle":"the Blade Breakers",
+	"entityNamePrefix":"Blade Breaker",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"are",
+	
+	"logo":"graphics/ISTL/factions/blade_breakers.png",
+	"crest":"graphics/ISTL/factions/crest_blade_breakers.png",
+	"shipNamePrefix":"BCS",
+	
+	"color":[105,105,120,255],
+	"baseUIColor":[155,155,190,255],
+	"secondaryUIColor":[225,225,225,255],
+    "secondarySegments":2,
+	#"darkUIColor":[31,94,112,175],
+	#"gridUIColor":[70,200,255,75],
+	
+	"showInIntelTab":false,
+	
+	"shipNameSources":{
+		"BEASTS":3,
+		"DME_BLADEBREAKER":1,
+	},
+	"names":{
+		"future":2,
+		"slammers":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"istl_imp":2,
+			"istl_snakeeye":0.75,
+			"istl_blackhand":0.75,
+			
+			"istl_spearhead":1.5,
+			"istl_curse":0.9,
+			"istl_devilray":0.25,
+			"istl_blacklancer":1.5,
+			"istl_stormkestrel":0.6,
+			"istl_warlock":1.25,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["bladebreakers"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["bladebreakers"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["bladebreakers"],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["bladebreakers"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"istl_iridium_wing",
+			"istl_firespray_wing",
+			"istl_focuser_wing",
+			"istl_lycosid_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["bladebreakers"],
+		"weapons":[
+			"istl_erpulsebeam",
+			"istl_electronrocket",
+			"istl_electronrocket_pod",
+			"istl_hellspear",
+			"istl_marteau_esm_rack",
+			"istl_marteau_esm_pod",
+			"istl_thermalpd",
+			"istl_thermalheavy",
+			"istl_shellback",
+			"istl_shellhead",
+			"istl_electrogun",
+			"istl_jackal",
+			"istl_twinjack",
+			"istl_lens_hdem_rack",
+			"istl_proxbomb_rack",
+			"istl_plasmadisruptor",
+			"istl_pulseripper",
+			"istl_plasmadriver",
+			"istl_scatterlaser",
+		],
+	},
+	"priorityWeapons":{
+		"tags":["bladebreakers"],
+		"weapons":[
+			"istl_electronrocket",
+			"istl_electronrocket_pod",
+			"istl_thermalpd",
+			"istl_shellback",
+			"istl_shellhead",
+			"istl_electrogun",
+			"istl_jackal",
+			"istl_twinjack",
+			"istl_lens_hdem_rack",
+			"istl_proxbomb_rack",
+			"istl_plasmadisruptor",
+			"istl_plasmadriver",
+		],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+			"istl_bbassault",
+			"istl_bbsupport",
+			"istl_bbdefense",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":5,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":5,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.75,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[ # unlike other factions, can get up to 3 skills depending
+			"electronic_warfare",
+			"flux_regulation",
+			"coordinated_maneuvers",
+			"energy_weapon_mastery",
+			"phase_corps",
+		],
+	},	
+	"shipRoles":{
+		"breakerStation":{
+			"istl_guardian_turret_dmg":10,
+			"istl_guardian_turret_std":10,
+		},
+		"breakerDreadnought":{
+			"istl_bbsuperheavy_std":5,
+		},
+	},
+	"illegalCommodities":[
+	],
+	"music":{
+		"theme":"music_none",
+		"market_neutral":"music_none",
+		"market_hostile":"music_none",
+		"market_friendly":"music_none",
+		"encounter_neutral":"music_none",
+		"encounter_hostile":"music_istl_breakers_encounter_hostile",
+		"encounter_friendly":"music_none",
+	},
+	#"internalComms":"hegemony_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/ISTL/portraits/istl_BBsoundonly.png",
+		],
+		"standard_female":[
+			"graphics/ISTL/portraits/istl_BBsoundonly.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"fleetTypeNames":{
+		"patrolSmall":"Scout Group",
+		"patrolMedium":"Task Group",
+		"patrolLarge":"Battle Group",
+		"battlestation":"Bastion",
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true,
+		"postsNoBounties":true,
+		"buysAICores":false,
+		"AICoreValueMult":0.1,
+		"AICoreRepMult":0,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"patrolsHaveNoPatrolMemoryKey":true,
+		"pirateBehavior":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+},
+
+
+
+
+
+
+
+
+
+

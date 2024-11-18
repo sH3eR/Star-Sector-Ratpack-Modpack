@@ -1,0 +1,40 @@
+{
+	"baseHullId":"MSS_Skyrend_Elite",
+	"skinHullId":"MSS_Skyrend_EliteB",
+	"hullName":"Skysplitter (M)",
+	"descriptionId":"MSS_Skyrend_Elite",
+	"spriteName":"graphics/mayasura/ships/MSS_Skyrend_EliteB.png",
+	"descriptionPrefix":"The Infernium Drive Boosters were redirected to restore the Skysplitter's original extra energy capacitors, giving this purple-clad battlecruiser a fierce bite.",
+	"addHints":[HIDE_IN_CODEX],
+	"systemId":"highenergyfocus",
+	     "weaponSlotChanges":{
+	      	"WS0004":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "ENERGY",
+     	 },
+		      	"WS0003":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "ENERGY",
+     	 },
+		 	      	"WS0005":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "ENERGY",
+     	 },
+		      	"WS0006":{
+     		#"angle": 0,
+            #"arc": 360,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "ENERGY",
+     	 }
+     },
+}

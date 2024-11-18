@@ -1,0 +1,35 @@
+{
+    "displayName": "Export",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "hullId": "istl_naja_exp",
+    "hullMods": ["hardened_subsystems"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_naja_export",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0009": "istl_ammlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "istl_linearcannonlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_blazedriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_microflak",
+                "WS0004": "istl_microflak"
+            }
+        }
+    ]
+}

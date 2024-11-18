@@ -1,0 +1,218 @@
+{
+  "hullName": "Gryphon (M)",
+  "hullId": "MSS_Gryphon_Elite",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mayasura/ships/MSS_Gryphon.png",
+  "style": "MIDLINE",
+  "height": 245,
+  "width": 160,
+  "center": [85, 114],
+  "collisionRadius": 155,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 150,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks",
+    "MSS_Prime",
+    "MSS_LastStand"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [66, -10]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 45,
+      "locations": [49, 43]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 45,
+      "locations": [80, 35]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 80,
+      "locations": [42, 67]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 266,
+      "locations": [1, -39]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 140,
+      "locations": [-69, 34]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 230,
+      "locations": [-69, -24]
+    },
+    {
+      "id": "WS 008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 90,
+      "locations": [3, 43]
+    },
+    {
+      "id": "WS 009",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 90,
+      "locations": [-19, 40]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [49, -56]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [67, -43]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [116, 19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91, 52],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranSilverFlare"
+    },
+    {
+      "location": [-108, 34],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-111, 24],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-112, 13],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-112, -2],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-111, -14],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-108, -24],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranFlare"
+    },
+    {
+      "location": [-91, -41],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MayasuranSilverFlare"
+    }
+  ],
+  "bounds": [
+    50, 72,
+    38, 75,
+    28, 57,
+    -37, 41,
+    -45, 56,
+    -81, 60,
+    -105, 33,
+    -105, -25,
+    -85, -48,
+    -45, -48,
+    -37, -30,
+    -8, -36,
+    -4, -48,
+    23, -40,
+    23, -60,
+    41, -60,
+    73, -37,
+    76, 3,
+    112, 13,
+    127, 28,
+    53, 59
+  ]
+}

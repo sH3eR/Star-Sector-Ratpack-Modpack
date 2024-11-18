@@ -1,0 +1,10 @@
+{
+    "id": "all_the_domain_drones+Vanilla",
+    "name": "All the Domain Drones+ Vanilla",
+    "author": "Nathan",
+    "version": "0.1b",
+    "description": "A mod that buffs vanilla drones to make them better and more worthwhile. Additionally adds tweaks to the Derelict faction such as allowing Motherships to spawn fleets.",
+    "gameVersion": "0.97a-RC11",
+	"jars":["jars/Domain Drones+Vanilla.jar"],
+	"modPlugin":"data.DDPlusPlugin",
+}

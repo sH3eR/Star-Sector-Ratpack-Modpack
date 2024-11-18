@@ -1,0 +1,38 @@
+{
+  "variantId": "dom+bulldogmkiii_Siege",
+  "hullId": "dom+bulldogmkiii",
+  "displayName": "Siege",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dom+triplesuperheavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hammerrack"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+defense_pod_Autocannon"
+  ]
+}

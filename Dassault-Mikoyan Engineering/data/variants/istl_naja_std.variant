@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_naja",
+    "hullMods": [
+        "ecm",
+        "extendedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_naja_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_ionbeamer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_NTKcannon",
+                "WS0009": "istl_NTKcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_multipdnode",
+                "WS0002": "istl_multipdnode",
+                "WS0003": "istl_multipdnode",
+                "WS0004": "istl_multipdnode"
+            }
+        }
+    ]
+}

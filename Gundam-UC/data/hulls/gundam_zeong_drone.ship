@@ -1,0 +1,44 @@
+{
+  "hullName": "Zeong Drone",
+  "hullId": "gundam_zeong_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/empty.png",
+  "style": "GUNDAM_RED_MSSHIELD",
+  "height": 49,
+  "width": 53,
+  "center": [34, 40],
+  "collisionRadius": 9,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 8,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "gundam_zeong_hand"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-5.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7.5, -1],
+      "length": 10.606602,
+      "width": 7.071068,
+      "angle": 180,
+      "contrailSize": 7.071068,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -7, 2.5,
+    4, 2.5,
+    4, -4,
+    -7, -4
+  ]
+}

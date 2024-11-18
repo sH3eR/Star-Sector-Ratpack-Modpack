@@ -1,0 +1,125 @@
+{
+  "hullName": "Guncannon",
+  "hullId": "gundam_guncannon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/guncannon/gundam_guncannon_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 34,
+  "width": 33,
+  "center": [16.5, 14.5],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_guncannon_gun",
+    "HAND": "gundam_guncannon_hand",
+    "HEAD": "gundam_guncannon_head",
+    "L_CANNON": "gundam_guncannon_cannon",
+    "L_LEG": "gundam_guncannon_leg",
+    "R_CANNON": "gundam_guncannon_cannon",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-2, -12.5]
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-7, -0.5]
+    },
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -26.5,
+      "locations": [9.5, 7]
+    },
+    {
+      "id": "L_CANNON",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-7, -10]
+    },
+    {
+      "id": "HAND",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 26.5,
+      "locations": [-1.5, 13.5]
+    },
+    {
+      "id": "R_CANNON",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-7, 10]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-13.5, -7.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-13.5, 7.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, -7.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-13.5, 7.5],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    4, 8,
+    4, -9,
+    -11, -9,
+    -11, 8
+  ]
+}

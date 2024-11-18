@@ -1,0 +1,17 @@
+{
+	"ranks":{
+		"ranks":{
+			"PLambassadorrank":{"name":"Persean League Ambassador"},
+		},
+		"posts":{
+			"PLambassadorpost":{"name":"Ambassador"},
+		},
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "hightech_bp", "midline_bp", "persean"],
+		"weapons":[
+			"de_tacsuperlaser",
+			"de_scatter",
+		],
+	},
+},

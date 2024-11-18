@@ -1,0 +1,343 @@
+id,trigger,conditions,script,text,options,notes
+#ome_askSkillsSelVerySkillAdmin,DialogOptionSelected,"$option == ome_askSkills
+","AddText ""You ask $personName some questions to establish where $hisOrHer skills lie. It becomes apparent that $heOrShe has extremely special talents. You wonder about their past governing experience and how they are now without a job.""
+AddText ""\""I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a salary of $ome_salary credits per month. Once the initial transfer is complete, I will await my assignment at your pleasure.\""""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $ome_hiringBonus $ome_salary
+AddText ""You have $player.creditsStr credits available.""
+SetTextHighlightColors hColor
+SetTextHighlights $player.creditsStr
+FireBest HireOptionSet",,,
+ome_askStorySkills,PopulateOptionsHire,"$ome_hireable score:100
+$ome_adminTier == 0
+$ome_isAdmin","SetStoryOption ome_askStorySkills 1 hireMerc ui_char_spent_story_point_industry ""Taught an admin a new trick.""
+FireBest PopulateOptionsHirebc",,3:ome_askStorySkills:Teach $himOrHer Industry Planning.,
+ome_askStorySkillsa,PopulateOptionsHirebc,!bc_checkskill industrial_planning,"SetTooltip ome_askStorySkills ""You need to know Industry Planning to do that!""
+SetTooltipHighlights ome_askStorySkills Industry Planning
+SetEnabled ome_askStorySkills false",,,
+ome_askStorySkills2,DialogOptionSelected,"$option == ome_askStorySkills
+","$ome_adminTier++
+bc_checkskill industrial_planning true
+CallEvent $ome_eventRef printSkills $id
+FireAll PopulateOptionsHire","$HeOrShe blushes. ""That's kind of you, but we haven't agreed on anything yet! I'll expect a higher salary, but my initial hiring cost will remain the same for now. Do you still want to take me on?""",,
+,,,,,,
+bc_sleeper_intercept,DialogOptionSelected,"$option == marketVisitBar
+$market.isPlayerOwned
+!$market.bc_sleeper
+$market.ind:cryorevival
+RollProbability 0.4","AddText ""Before you hit the bar, you receive a call to connect with an unknown number.""",,"bc_sleepercontinue:Call the strange number
+bc_sleeperno:Ignore the request",
+bc_sleeperyes,DialogOptionSelected,$option == bc_sleepercontinue,"bc_sleeper
+UpdateMemory
+ShowPersonVisual
+FireAll bc_PopulateOptionsHire","After a short wait, your connection request is accepted.
+
+""Heard you might be looking to take on some help. Woke out of a pod here. Thought I might be able of great use to you either as a permanent asset or temporary asset. Otherwise, I'll just find my own path among the stars.""",,#ome_greeting's text is used here
+bc_sleeperno,DialogOptionSelected,$option == bc_sleeperno,"$option = marketVisitBar
+$market.bc_sleeper = true 180
+FireBest DialogOptionSelected",,,
+bc_askSkills,bc_PopulateOptionsHire,!$askedSkills,,,"0:bc_askSkills:""Depends. What can you do?""",
+bc_askHire,bc_PopulateOptionsHire,!bc_sleeper atLimit,,,1:bc_askHire:Offer to hire $himOrHer permanently,
+bc_askHireMerc,bc_PopulateOptionsHire,!$player.wasJerkToMerc,SetStoryColor bc_askHireMerc,,2:bc_askHireMerc:Ask $himOrHer about a temporary contract,
+bc_cantHire,bc_PopulateOptionsHire,bc_sleeper atLimit,,,"3:bc_convEnd:""I can't hire on any more officers at the moment.""",
+bc_wontHire,bc_PopulateOptionsHire,!bc_sleeper atLimit,,,3:bc_convEnd:End the conversation,
+bc_askSkillsSel,DialogOptionSelected,$option == bc_askSkills,"AddText ""You ask $personName some questions to establish where $hisOrHer skills lie.""
+bc_sleeper printSkills
+$askedSkills = true 0
+FireAll bc_PopulateOptionsHire
+unset $askedSkills",,,
+bc_askHireSel,DialogOptionSelected,$option == bc_askHire,"AddText ""\""I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a starting salary of $ome_salary credits per month. Once the initial transfer is complete, I can be ready to board within the hour.\""""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $ome_hiringBonus $ome_salary
+AddText ""You have $player.creditsStr credits available.""
+SetTextHighlightColors hColor
+SetTextHighlights $player.creditsStr
+FireBest bc_HireOptionSet",,,
+bc_askHireSelMerc,DialogOptionSelected,$option == bc_askHireMerc,"AddText ""\""The typical contract length is $mercContractDurStr days, with some allowances for when we get back to port. Can be terminated early by either party, and so on - the standard stuff. When it's up, we can talk about extending it if both parties are agreeable.\n\nI'll expect a $ome_hiringBonus credit hiring bonus, and a salary of $ome_salarymerc credits per month. Once the initial transfer is complete, I can be ready to board within the hour.\""""
+SetTextHighlightColors hColor hColor hColor
+SetTextHighlights $mercContractDurStr $ome_hiringBonus $ome_salarymerc
+AddText ""You have $player.creditsStr credits available.\n\nThis officer is a highly professional mercenary and does not count against the normal officer limit.""
+SetTextHighlightColors hColor
+SetTextHighlights $player.creditsStr
+$bc_merc = true 0
+FireBest bc_HireOptionSet",,,
+bc_hireOptionsNormal,bc_HireOptionSet,"bc_sleeper canAfford
+!$bc_merc",,,"0:bc_hireYes:""Sounds good.""
+1:bc_convEnd:""Never mind, I don't want any of this.""",
+bc_hireOptionsMerc,bc_HireOptionSet,"bc_sleeper canAfford
+$bc_merc",,,"0:bc_hireYesMerc:""Sounds good.""
+1:bc_convEnd:""Never mind, I don't want any of this.""",
+bc_hireOptionsCantAfford,bc_HireOptionSet,,,,"0:bc_convEnd:""I can't afford that at the moment.""",
+bc_hireYesSel,DialogOptionSelected,$option == bc_hireYes,"AddText ""You cut the comm link after exchanging a few pleasantries. Forgeting that you were supposed to go to the bar. You find yourself in orbit.""
+$market.bc_sleeper = true 180
+bc_sleeper hireOfficer
+ShowDefaultVisual
+UpdateMemory
+EndConversation",,,
+bc_hireYesSelMerc,DialogOptionSelected,$option == bc_hireYesMerc,"AddText ""You cut the comm link after exchanging a few pleasantries. Forgeting that you were supposed to go to the bar. You find yourself in orbit.""
+$market.bc_sleeper = true 730
+bc_sleeper hireMercOfficer
+ShowDefaultVisual
+UpdateMemory
+EndConversation",,,
+bc_hireNoSel,DialogOptionSelected,$option == bc_convEnd,"AddText ""You cut the comm link after exchanging a few pleasantries. Forgeting that you were supposed to go to the bar. You find yourself in orbit.""
+$market.bc_sleeper = true 180
+ShowDefaultVisual
+UpdateMemory
+EndConversation",,,
+,,,,,,
+#bc_luddicfaithbar_intercept,DialogOptionSelected,"$option == marketVisitBar
+$market.mc:habitable
+!$market.mc:pollution
+!$market.mc:bc_luddicfaith
+!$market.mc:pather_cells
+!$market.bc_luddicfaith
+$market.mc:comm_relay
+$market.isPlayerOwned
+RepGTE luddic_church NEUTRAL
+$market.size >= 3","AddText ""Before you enter the bar, a comm link request pings you, the request contains a topic regarding faith..""",,"bc_luddicfaith:Receive the comm link
+bc_luddic_continue:Ignore",
+#bc_luddicfaithbar_option1,DialogOptionSelected,$option == bc_luddicfaith,"bc_generateperson luddic_church
+AddText ""You accept the request.""
+AddText ""\""Greeting Captain $playerName, I am told you are the shepherd to the flock of $market.\""""
+AddText ""\""I pray for the safety of all good people who come to $market, but we can't expect Ludd to do all the work.\""""
+FireBest bc_luddicreputation",,"bc_luddicfaith2:""What are you asking?""",
+#bc_luddicfaithbar_option1a,bc_luddicreputation,RepGTE luddic_church WELCOMING,"AddText ""\""You have been a good neighbor to the Church. We all go through periods of darkness. In such times, we can turn to Ludd, but it's good to also have friends.\""""",,,
+#bc_luddicfaithbar_option1b,bc_luddicreputation,,"AddText ""\""A stranger to the Church you are. Nonetheless, I see great potential of you in the grand schemes of Ludd. I offer a way to foster relations between your flock and the Church.\""""",,,
+#bc_luddicfaithbar_option1c,bc_luddicreputation,RepLTE luddic_church INHOSPITABLE,"AddText ""\""You are a heretic to many of the Luddic faith. I offer an olive branch, a path to redemption in the light of Ludd once more.\""""",,,
+#bc_luddicfaithbar_option2,DialogOptionSelected,$option == bc_luddicfaith2,"AddTextSmall ""\""The blessing of Ludd brings wealth.\"""" gray
+AddTextSmall ""\""Be fruitful and multiply, and fill the earth.\"""" gray
+AddTextSmall ""\""Ludd gives stability to the land by redemption.\"""" gray
+AddTextSmall ""\""There is a Path that seems right to man, but its end is the way of death.\"""" gray
+AddTextSmall ""\""Love your neighbor as yourself; for the neighbor will reciprocate.\"""" gray
+AddText ""Withdrawing your pledge once honored will create some conflict."" highlight
+
+
+","""An official and permanent pledge to the good people of $market in constructing a shrine to spread the teachings of Ludd here."" You begin to listen...","bc_luddicfaith3a:""I will honor that pledge.""
+bc_luddicfaith3b:""I cannot honor that pledge.""
+bc_luddicfaith3c:""Look I don't know what you're talking about.""
+",
+#bc_luddicfaithbar_option3a,DialogOptionSelected,$option == bc_luddicfaith3a,"bc_generateperson
+FireBest bc_luddicreputationgain
+UpdateMemory","Enthusiasm follows the conversation. ""The road is a difficult one. You are the shepherd to your flock. Teach them well and virtue will follow. Sway them and vice will follow. Blessing of Ludd upon you.""","bc_luddic_continue:""Blessing upon you too.""",
+#bc_luddicfaithbar_option3a1,bc_luddicreputationgain,,AdjustRep luddic_church FRIENDLY 10,,,
+#bc_luddicfaithbar_option3a2,bc_luddicreputationgain,RepLTE luddic_church INHOSPITABLE,AdjustRep luddic_church NEUTRAL 100,,,
+#bc_luddicfaithbar_option3b,DialogOptionSelected,$option == bc_luddicfaith3b,$market.bc_luddicfaith = true 365,"Disappointment follows the conversation. ""The road is a difficult one. I cannot compel you or your flock to follow the teachings of Ludd if they do not wish so. I can only pity for the possible sufferings that will occur. Blessing of Ludd upon you.""",bc_luddic_continue:Continue,
+#bc_luddicfaithbar_option3c,DialogOptionSelected,$option == bc_luddicfaith3c,SetEnabled bc_luddicfaith3c false ,"A pause is given. ""I will simplify for your sake then. Pledging to enact a shrine will bring pilgrims who will boost the income of your market here in addition to population growth and stability. Some of the gifts the Church offers will depend on how cooperative you have been with them and in some cases we will assign a garrison here to overlook the shrine's protection."" 
+
+A serious tone presents itself. ""If you however find yourself at odds with the Church or some of the shrine's followers suspect you have been counterproductive with Ludd's teachings, let's say polluting the sweet atmosphere, being loose with border security, or installing agents of evil. There will be consequences.""",,
+#bc_luddicfaithbar_continue,DialogOptionSelected,$option == bc_luddic_continue,"$option = marketVisitBar
+$market.bc_luddicfaith = true 365
+FireBest DialogOptionSelected",You head back to regular bar duties as the meeting is concluded.,,
+,,,,,,
+# salvage operations on planets with ruins,,,,,,
+bc_salRuins_scattered,PopulateOptions,"$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_scattered
+$market.ruinsExplored",FireAll bc_DisableRuinsExploreIfNeeded2,,5:bc_salExplore:Propose to 'remove' the ruins,
+bc_salRuins_widespread,PopulateOptions,"$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_widespread
+$market.ruinsExplored",FireAll bc_DisableRuinsExploreIfNeeded2,,5:bc_salExplore:Propose to 'remove' the ruins,
+bc_salRuins_extensive,PopulateOptions,"$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_extensive
+$market.ruinsExplored",FireAll bc_DisableRuinsExploreIfNeeded2,,5:bc_salExplore:Propose to 'remove' the ruins,
+bc_salRuins_vast,PopulateOptions,"$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_vast
+$market.ruinsExplored",FireAll bc_DisableRuinsExploreIfNeeded2,,5:bc_salExplore:Propose to 'remove' the ruins,
+bc_salRuins_hostileNearby,bc_DisableRuinsExploreIfNeeded2,HostileFleetNearbyAndAware,SetEnabled bc_salExplore false,"A nearby hostile fleet is tracking your movements, making exploration of the planet impossible.",,
+bc_salRuins_scattered2,DialogOptionSelected,"$option == bc_salExplore
+$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_scattered
+$market.ruinsExplored
+!$core_techMiningMult","SetShortcut bc_salRuins_leave ""ESCAPE""
+$salvageSpecId = bc_ruins_scattered
+SetStoryOption bc_salExplore2 1 recoverOwnedShip ui_char_spent_story_point_industry ""Exploited the scattered ruins on $market""
+bc_techmine 500 160
+$bc_credits = 25,000 0
+$bc_ruins = ruins_scattered 0
+FireAll bc_DisableRuinsExploreIfNeeded
+AddText ""This procedure will require 25,000 credits.""
+SetTextHighlightColors hColor
+SetTextHighlights 25,000
+AddText ""You have $player.creditsStr credits available.""
+SetTextHighlightColors hColor
+SetTextHighlights $player.creditsStr","An order to strip search the ruins to dust can be issued. While the crew might demand hazard pay and overtime compensation and the machines be stressed to their absolute limit, it can be done in only a day. Running this operation undermanned or underequipped will result in less-than-pretty results.","5:bc_salExplore2:Issue the hazard and overtime pay.
+100:bc_salRuins_leave:Never mind",
+bc_salRuins_widespread2,DialogOptionSelected,"$option == bc_salExplore
+$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_widespread
+$market.ruinsExplored
+!$core_techMiningMult","SetShortcut bc_salRuins_leave ""ESCAPE""
+$salvageSpecId = bc_ruins_widespread
+SetStoryOption bc_salExplore2 1 recoverOwnedShip ui_char_spent_story_point_industry ""Exploited the widespread ruins on $market""
+bc_techmine 1000 330
+$bc_credits = 50,000 0
+$bc_ruins = ruins_widespread 0
+FireAll bc_DisableRuinsExploreIfNeeded
+AddText ""This procedure will require 50,000 credits.""
+SetTextHighlightColors hColor
+SetTextHighlights 50,000
+AddText ""You have $player.creditsStr credits available.""
+SetTextHighlightColors hColor
+SetTextHighlights $player.creditsStr","An order to strip search the ruins to dust can be issued. While the crew might demand hazard pay and overtime compensation and the machines be stressed to their absolute limit, it can be done in only a day. Running this operation undermanned or underequipped will result in less-than-pretty results.","5:bc_salExplore2:Issue the hazard and overtime pay.
+100:bc_salRuins_leave:Never mind",
+bc_salRuins_extensive2,DialogOptionSelected,"$option == bc_salExplore
+$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_extensive
+$market.ruinsExplored
+!$core_techMiningMult","SetShortcut bc_salRuins_leave ""ESCAPE""
+$salvageSpecId = bc_ruins_extensive
+SetStoryOption bc_salExplore2 2 recoverOwnedShip ui_char_spent_story_point_industry ""Exploited the extensive ruins on $market""
+bc_techmine 1500 500
+$bc_credits = 100,000 0
+$bc_ruins = ruins_extensive 0
+FireAll bc_DisableRuinsExploreIfNeeded
+AddText ""This procedure will require 100,000 credits.""
+SetTextHighlightColors hColor
+SetTextHighlights 100,000
+AddText ""You have $player.creditsStr credits available.""
+SetTextHighlightColors hColor
+SetTextHighlights $player.creditsStr","An order to strip search the ruins to dust can be issued. While the crew might demand hazard pay and overtime compensation and the machines be stressed to their absolute limit, it can be done in only a day. Running this operation undermanned or underequipped will result in less-than-pretty results.","5:bc_salExplore2:Issue the hazard and overtime pay.
+100:bc_salRuins_leave:Never mind",
+bc_salRuins_vast2,DialogOptionSelected,"$option == bc_salExplore
+$market.isSurveyed
+$market.isPlanetConditionMarketOnly
+$market.mc:ruins_vast
+$market.ruinsExplored
+!$core_techMiningMult","SetShortcut bc_salRuins_leave ""ESCAPE""
+$salvageSpecId = bc_ruins_vast
+SetStoryOption bc_salExplore2 3 recoverOwnedShip ui_char_spent_story_point_industry ""Exploited the vast ruins on $market""
+bc_techmine 2000 660
+$bc_credits = 200,000 0
+$bc_ruins = ruins_vast 0
+FireAll bc_DisableRuinsExploreIfNeeded
+AddText ""This procedure will require 200,000 credits.""
+SetTextHighlightColors hColor
+SetTextHighlights 200,000
+AddText ""You have $player.creditsStr credits available.""
+SetTextHighlightColors hColor
+SetTextHighlights $player.creditsStr","An order to strip search the ruins to dust can be issued. While the crew might demand hazard pay and overtime compensation and the machines be stressed to their absolute limit, it can be done in only a day. Running this operation undermanned or underequipped will result in less-than-pretty results.","5:bc_salExplore2:Issue the hazard and overtime pay.
+100:bc_salRuins_leave:Never mind",
+bc_salRuins_check3a,bc_DisableRuinsExploreIfNeeded,$player.machinery < $bc_heavymachinery,"SetTooltip bc_salExplore2 ""You need at least $bc_heavymachinery machinery.""
+SetTooltipHighlightColors bc_salExplore2 hColor
+SetTooltipHighlights bc_salExplore2 $bc_heavymachinery
+SetEnabled bc_salExplore2 false",,,
+bc_salRuins_check3b,bc_DisableRuinsExploreIfNeeded,$player.crew < $bc_crews,"SetTooltip bc_salExplore2 ""You need at least $bc_crews crews.""
+SetTooltipHighlightColors bc_salExplore2 hColor
+SetTooltipHighlights bc_salExplore2 $bc_crews
+SetEnabled bc_salExplore2 false",,,
+bc_salRuins_check,bc_DisableRuinsExploreIfNeeded,$player.credits < $bc_credits,"SetTooltip bc_salExplore2 ""You need at least $bc_credits credits.""
+SetTooltipHighlightColors bc_salExplore2 hColor
+SetTooltipHighlights bc_salExplore2 $bc_credits
+SetEnabled bc_salExplore2 false",,,
+bc_salRuins_check2,bc_DisableRuinsExploreIfNeeded,"$player.marines < $bc_marines
+$bc_marines != null","SetTooltip bc_salExplore2 ""The decivilized subpopulace will prevent this destruction, bring at least $bc_marines marines for security.""
+SetTooltipHighlightColors bc_salExplore2 hColor
+SetTooltipHighlights bc_salExplore2 $bc_marines
+SetEnabled bc_salExplore2 false",,,
+bc_salRuins_check3,bc_DisableRuinsExploreIfNeeded,"$bc_factionstring != null
+$bc_factionid != null","AddText ""$bc_factionstring has a claim on $market and continuing this order could likely make you hostile.""
+SetTextHighlightColors $bc_factioncolor bad
+SetTextHighlights $bc_factionstring hostile
+",,,
+bc_salRuins_alreadyExplored,bc_DisableRuinsExploreIfNeeded,"$market.hasRuins
+$market.isPlanetConditionMarketOnly
+$market.core_techMiningMult !=null
+$market.core_techMiningMult < 1","SetTooltip bc_salExplore2 ""Your team report that $market has been tech-mined before and 'removing' the ruins isn't possible.""
+SetEnabled bc_salExplore2 false",,,
+bc_salRuins_confirm,DialogOptionSelected,$option == bc_salExplore2,"AddRemoveCommodity credits -$bc_credits true
+AddRemoveCommodity crew -$bc_crews true
+AddRemoveCommodity heavy_machinery -$bc_heavymachinery true
+FireAll bc_RuinsExploreIfNeeded
+bc_techmine $bc_ruins
+$bc_comeagain = true 1
+$bc_comeplease = true
+UpdateMemory","Pay delivered, orders issued. A day is required before seeing the results.
+
+""Not a single ruin is to be found here.""",5:bc_salRuins_leave:Continue,
+bc_salRuins_confirm2populate,PopulateOptions,$bc_comeplease,FireAll bc_DisableRuinsExploreIfNeeded2,,5:bc_salExplore3:See the strip-mine result of the ruins.,
+bc_salRuins_no,bc_DisableRuinsExploreIfNeeded2,$bc_comeagain,"SetTooltip bc_salExplore3 ""It hasn't been a day.""
+SetEnabled bc_salExplore3 false
+",,,
+bc_salRuins_no2,bc_DisableRuinsExploreIfNeeded2,"HostileFleetNearbyAndAware
+$bc_comeagain",SetEnabled bc_salExplore3 false,"A nearby hostile fleet is tracking your movements, making exploration of the planet impossible.",,
+bc_salRuins_confirm3,DialogOptionSelected,$option == bc_salExplore3,"bc_techmine bababooey bababooey bababooey
+$salvageLeaveText = ""I wanted it gone, no loot for me."" 0",Accidents were reported. The surviving team has been sent back to your fleet.,5:bc_salExplore4:Continue,
+bc_salRuins_confirm2,DialogOptionSelected,$option == bc_salExplore4,"$bc_salvageSeed = $salvageSeed
+$salvageSeed--
+SalvageEntity showCost
+FireAll PopulateSalvageOptions2",,,
+bc_salRuins_check5,bc_RuinsExploreIfNeeded,$bc_marines != null,"AddRemoveCommodity marines -$bc_marines true
+AddTextSmall ""The marines are deployed to ensure the decivilized subpopulation of $market do not interfere.""",,,
+bc_salRuins_check4,bc_RuinsExploreIfNeeded,"$bc_factionstring != null
+$bc_factionid != null",AdjustRep $bc_factionid HOSTILE -50,,,
+bc_salRuins_leave,DialogOptionSelected,$option == bc_salRuins_leave,FireAll PopulateOptions,,,
+bc_sal_salvageOptionSelected,DialogOptionSelected,"$option == salPerform
+$bc_comeplease score:999999","unset $bc_comeplease
+SalvageEntity performSalvage
+FireBest PostSalvagePerform
+$salvageSeed = $bc_salvageSeed",,,
+,,,,,,
+#bc_convDefaultPreGreeting,PickGreeting,"$tag:bc_church
+!$bc_AlreadyContacted","ShowPersonVisual
+FireAll PopulateOptions","After a short wait, your connection request is accepted.
+
+""Greetings captain, I am the commune leader for the shrine of $market. What can I do for you?""",,
+#bc_PopLuddicOptions,PopulateOptions,"$tag:bc_church
+!$bc_AlreadyContacted",,,0:bc_PopLuddic:Inquire on increasing relations with the shrine,
+#bc_PopLuddicOptionsReply,DialogOptionSelected,"$option == bc_PopLuddic
+$tag:bc_church
+!$bc_AlreadyContacted","$bc_AlreadyContacted = true
+AddPotentialContact
+FireAll PopulateOptions","$HeOrShe smiles. ""Ludd was no stranger to the suffering and the poor. We will have work that can help this sector out of the wretchedness.""",,
+#bc_convDefaultGreeting,PickGreeting,"$tag:bc_church
+$bc_AlreadyContacted","ShowPersonVisual
+FireAll PopulateOptions","After a short wait, your connection request is accepted.
+
+""Greetings captain, I am the commune leader for the shrine of $market. What can we do for you?""",,
+#bc_PopLuddicOptions2,PopulateOptions,"$tag:bc_church
+$bc_AlreadyContacted",bc_removecontact 1,,5:bc_PurgeShrine:Cast out the shrine,
+#bc_PopLuddicOptionsReply2,DialogOptionSelected,"$option == bc_PurgeShrine
+$tag:bc_church","unset $bc_AlreadyContacted
+bc_removecontact
+AddTextSmall ""The vile acts caused upon the shrine completed. In which Ludd's followers face hardship and persecution at the hands of authorities on $market.""
+AdjustRep luddic_church VENGEFUL -100
+$option = cutCommLink 0
+FireBest DialogOptionSelected",,,
+,,,,,,
+#bc_hmdfBlurb,bc_hmdf_blurb,,,"""A recent follower of the flock have donated a ship that we simply would not use. Perhaps you would use it.""",,
+#bc_hmdfOfferOption,bc_hmdf_option,,,,bc_hmdf_start:Ask about the donated ship,
+#bc_hmdfOfferTextContact,DialogOptionSelected,$option == bc_hmdf_start,"$missionId = bc_hmdf
+SetTextHighlights $bc_hmdf_price","""This $bc_hmdf_hullClass vessel has seen some light-years, but it'll fly. I could grant this to you for $bc_hmdf_price credits.""","bc_hmdf_look:Ask for detailed info on the ship
+contact_decline:Decline",
+#bc_hmdfLookAtFreighter,DialogOptionSelected,$option == bc_hmdf_look,"Call $bc_hmdf_ref showShip
+DoCanAffordCheck $bc_hmdf_price contact_accept false","$personName taps a few buttons to pull up the freighter schematics for your examination. ""For me, it's just taking up space, which is why I'm offering a reasonable price.""","contact_accept:Buy the ship for $bc_hmdf_price credits
+contact_decline:Decline",
+#bc_hmdfPostAccept,ContactPostAccept,$missionId == bc_hmdf,"ShowPersonVisual
+RemoveCommodity credits $bc_hmdf_price
+AddShip $bc_hmdf_member
+Call $bc_hmdf_ref2 repSuccess
+Call $bc_hmdf_ref2 addContacts",,,
+,,,,,,
+#bclobBlurb,bclob_blurb,,,"""I believe I may be of service to your undesirable reputation standings from other factions.""",,
+#bclobOfferOption,bclob_option,,,,bclob_start:Ask about the reputation fix,
+#bclobLookAtFaction,DialogOptionSelected,$option == bclob_start,"$missionId = bclob
+SetTextHighlights $bclob_faction $bclob_price $bclob_faction
+DoCanAffordCheck $bclob_price contact_accept false","$personName taps a few buttons to pull up the bounty board. ""I see that the $bclob_faction have put a price on your head, yet I sense that you are a good person. If you wish, for a donation of $bclob_price, I will send a message to the leaders of the $bclob_faction and they should seek a more positive understanding of you upon my recommendation.""","contact_accept:Accept the message of recommendation for $bclob_price credits
+contact_decline:Decline",
+#bclobLookAtFaction2,DialogOptionSelected,"$option == bclob_start
+$player.atrocities > 0","$missionId = bclob
+SetTextHighlights $bclob_faction $bclob_price $bclob_faction
+DoCanAffordCheck $bclob_price contact_accept false","$personName taps a few buttons to pull up the bounty board. ""I see that the $bclob_faction have put a price on your head, yet I somewhat sense that you are a good person despite your past actions. If you wish, for a donation of $bclob_price, I will send a message to the leaders of the $bclob_faction and they should seek a more positive understanding of you upon my recommendation.""","contact_accept:Accept the message of recommendation for $bclob_price credits
+contact_decline:Decline",
+#bclobPostAccept,ContactPostAccept,$missionId == bclob,"ShowPersonVisual
+RemoveCommodity credits $bclob_price
+AdjustRep $bclob_factionid SUSPICIOUS 100
+Call $bclob_ref2 repSuccess
+Call $bclob_ref2 addContacts",,,

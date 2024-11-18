@@ -1,0 +1,33 @@
+{
+	"id":"MSS_SwappableRailgunHEProj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":75.0,
+	"hitGlowRadius":150,
+	"width":18.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,30,30,175],
+	#"coreColor":[255,225,175,225],
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,30,30,105],
+	"glowRadius":60,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png",
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+	"explosionColor":[255,100,100,255],
+	"explosionRadius":175, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":175,
+					 "coreRadius":75, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":200,
+					 "particleColor":[255,102,0,255]},
+}

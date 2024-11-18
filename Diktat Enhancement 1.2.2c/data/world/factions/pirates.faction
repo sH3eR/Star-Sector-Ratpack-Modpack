@@ -1,0 +1,23 @@
+{
+	"ranks":{
+		"ranks":{
+			"lucanusrank":{"name":"Former Grand Guard Admiral"},
+			"admiralrank":{"name":"Grand Guard Admiral"},
+		},
+		"posts":{
+			"lucanuspost":{"name":"Former Grand Admiral"},
+			"admiralpost":{"name":"Grand Admiral"},
+		},
+	},
+	"knownFighters":{
+		"tags":["pirates"],
+		"fighters":[
+			"de_langusta_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+}

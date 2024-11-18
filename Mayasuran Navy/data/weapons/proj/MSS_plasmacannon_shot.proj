@@ -1,0 +1,14 @@
+{
+	"id":"MSS_plasmacannon_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":100.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"fadeTime":0.5,
+	"fringeColor":[248,112,86,255],
+	"coreColor":[252,254,179,255],
+}

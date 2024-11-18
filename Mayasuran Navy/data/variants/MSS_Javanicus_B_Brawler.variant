@@ -1,0 +1,71 @@
+{
+  "displayName": "Brawler",
+  "fluxCapacitors": 21,
+  "fluxVents": 50,
+  "goalVariant": true,
+  "hullId": "MSS_Javanicus_B",
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Javanicus_B_Brawler",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "squall",
+        "WS0002": "harpoonpod",
+        "WS0003": "harpoonpod",
+        "WS0022": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "MSS_big_arbalest",
+        "WS0011": "MSS_big_arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun",
+        "WS0005": "railgun",
+        "WS0006": "railgun",
+        "WS0007": "railgun",
+        "WS0008": "phasebeam",
+        "WS0009": "phasebeam",
+        "WS0024": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "vulcan",
+        "WS0018": "vulcan",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

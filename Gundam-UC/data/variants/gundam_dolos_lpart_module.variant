@@ -1,0 +1,73 @@
+{
+  "displayName": "Left Module",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_dolos_lpart",
+  "hullMods": [
+    "autorepair",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_dolos_lpart_module",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_3cannon"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "gundam_mega_3cannon_m"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0003": "gundam_mega_1cannon_m"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+				"WS0005": "gundam_builtin_rear_spmissile",
+				"WS0006": "gundam_builtin_rear_farspmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0007": "gundam_pd_2mg",
+				"WS0008": "gundam_pd_2mg",
+				"WS0009": "gundam_pd_2mg",
+				"WS0010": "gundam_pd_2mg",
+				"WS0011": "gundam_pd_2mg",
+				"WS0012": "gundam_pd_2mg",
+				"WS0013": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+  "wings": []
+}

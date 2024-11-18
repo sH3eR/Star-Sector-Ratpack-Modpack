@@ -1,0 +1,62 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 10,
+    "fluxVents": 18,
+    "hullId": "tigershark_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "eccm",
+        "ix_smod_handler",
+        "extendedshieldemitter",
+        "pointdefenseai",
+        "targetingunit",
+        "frontemitter",
+        "ix_vampyr_retrofit"
+    ],
+    "permaMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "eccm",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "eccm"
+    ],
+    "variantId": "tigershark_ix_honor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "plasma_dart_ix",
+                "WS 006": "plasma_dart_ix",
+                "WS 007": "plasma_dart_ix",
+                "WS 008": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "vampyr_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "bereaver_dem_pod_ix",
+                "WS 002": "bereaver_dem_pod_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 009": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

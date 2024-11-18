@@ -1,0 +1,35 @@
+{
+	"baseHullId":"pegasus",
+	"skinHullId":"vice_proteus",
+	"descriptionId":"vice_proteus",
+	"hullName":"Proteus",
+	"ordnancePoints":355,
+	"hullDesignation":"Carrier",
+	"incompatibleWithBaseHull":true, # for the autofit dialog
+	"descriptionPrefix":"A versatile fleet carrier of the Persean League, the Proteus features a high output fighter autoforge that can quickly replace combat losses in the heat of battle. Although the system only works with lighter strike craft, the ability to overwhelm the enemy with sheer numbers can prove devastating when paired with massed missile strikes.",
+	"tags":["rare_bp", "hist3t", "persean", "merc"],
+	"tech":"Midline",
+	"builtInWings": [],
+	"fighterBays":4,
+	"spriteName":"graphics/vice/ships/proteus.png",
+	"removeWeaponSlots":[], 			# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 			# hullmod ids
+	"removeBuiltInWeapons":[], 			# weapon slot ids
+	"systemId":"vice_rapid_deployment",
+	"builtInMods":[],
+	"addHints":["CARRIER", "COMBAT", "NO_AUTO_ESCORT"],
+	"removeHints":["MISSILE_HARDPOINTS_ROTATE"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+		"WS 000":{"type": "MISSILE", "size": "LARGE"},
+		"WS 001":{"type": "MISSILE", "size": "LARGE"},
+		"WS 011":{"type": "DECORATIVE"},
+		"WS 012":{"type": "DECORATIVE",},
+		"WS 013":{"type": "DECORATIVE",},
+		"LB 1":{"type": "LAUNCH_BAY",},
+		"LB 2":{"type": "LAUNCH_BAY",},
+		"LB 3":{"type": "LAUNCH_BAY",},
+	},
+}

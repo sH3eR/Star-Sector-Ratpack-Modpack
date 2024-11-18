@@ -1,0 +1,27 @@
+{
+    "baseHullId":"istl_BBtempest",
+    "skinHullId":"istl_tempest_deserter",
+    "hullName":"Tempest (refit)",
+    "descriptionId":"tempest",  # optional
+    "descriptionPrefix":"This ship has been extensively modified and brought up to Blade Breaker specs for testing.",
+	"tags":["deserter_bp", "no_dealer"],
+	"tech":"Deserter",
+    "fleetPoints":9,
+    "ordnancePoints":45,
+	"systemId":"istl_decoyflares_main",
+    "spriteName":"graphics/ISTL/ships/istl_tempest_refit.png",
+    "baseValueMult":1,
+    "removeHints":[UNBOARDABLE],
+    "removeBuiltInWings":["terminator_wing"],
+    "builtInMods":["istl_bbengineering"],
+    "builtInWings":["istl_tempestdrone_wing"],
+	"weaponSlotChanges":{
+		"WS 002":{
+			"type":HYBRID,
+		},
+    },    
+}
+
+
+
+

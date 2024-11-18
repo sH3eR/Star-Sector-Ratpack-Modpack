@@ -1,0 +1,12 @@
+id,type,text1,text2,text3,notes
+
+
+TAR_meatshipHT,SHIP,"Structure that reproduces the characteristics of a Paragon-class hull. Equipped with an omni shield.",,,
+
+TAR_meatshipMT,SHIP,"Structure that reproduces the characteristics of a Conquest-class hull. Equipped with an  frontal shield.",,,
+
+TAR_meatshipLT,SHIP,"Structure that reproduces the characteristics of an Onslaught-class hull. Not equipped with any shield.",,,
+
+TAR_meatshipMT_H,SHIP,"Structure that reproduces the characteristics of an Conquest-class hull. Escorted by Harpoon drones.",,,
+
+TAR_droneHarpoon,SHIP_SYSTEM,"Launches four utility drones that have been jury rigged with harpoon pods for PD testing.",Drone,"Launches four utility drones that have been jury rigged with harpoon pods for PD testing.",

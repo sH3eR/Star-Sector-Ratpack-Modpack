@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Starsector Dependancie 0.96a">
+    <CLASSES>
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/starfarer.api.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/xstream-1.4.10.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/starfarer_obf.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/jinput.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/jogg-0.0.7.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/jorbis-0.0.15.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/log4j-1.2.9.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/lwjgl_util.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/lwjgl.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/janino.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/json.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/commons-compiler-jdk.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/commons-compiler.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/fs.common_obf.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/fs.sound_obf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///Applications/Starsector 0.97a.app/Contents/Resources/Java/starfarer.api.zip!/" />
+    </SOURCES>
+  </library>
+</component>

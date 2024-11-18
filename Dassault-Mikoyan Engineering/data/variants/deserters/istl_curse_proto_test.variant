@@ -1,0 +1,43 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 10,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "istl_curse_proto",
+    "hullMods": [
+        "istl_bbdefense",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_curse_proto_test",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_electronrocket_pod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_6cmrailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_linearcannonlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_matador",
+                "WS0005": "istl_matador"
+            }
+        }
+    ],
+    "wings": [
+        "istl_arcite_wing",
+        "istl_bantam_wing"
+    ]
+}

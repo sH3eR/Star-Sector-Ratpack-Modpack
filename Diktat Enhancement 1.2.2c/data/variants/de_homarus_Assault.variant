@@ -1,0 +1,29 @@
+{
+  "variantId": "de_homarus_Assault",
+  "hullId": "de_homarus",
+  "displayName": "Battlemech",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "de_homarus_clawleft"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "de_homarus_clawright"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

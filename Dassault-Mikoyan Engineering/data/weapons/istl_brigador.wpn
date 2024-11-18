@@ -1,0 +1,34 @@
+{
+	"id":"istl_brigador",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"mountTypeOverride":"HYBRID",
+	"size":"MEDIUM",
+	"displayArcRadius":800,
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_med.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_brigador_turret_base.png",
+	"turretGunSprite":"graphics/ISTL/weapons/istl_brigador_turret_recoil.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_brigador_turret_glow.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_brigador_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ISTL/weapons/istl_brigador_hardpoint_recoil.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_brigador_hardpoint_glow.png",
+	"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[75,125,200,255],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[10, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"unaffectedByProjectileSpeedBonuses":true,
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":27.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":19.0,
+					   "particleDuration":0.06,
+					   "particleCount":40,
+					   "particleColor":[75,125,200,175]},
+	"projectileSpecId":"istl_brigador_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_brigadorfire",	
+}

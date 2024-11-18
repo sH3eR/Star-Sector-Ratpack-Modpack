@@ -1,0 +1,48 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "hullId": "istl_ifrit",
+    "hullMods": ["istl_bbsupport"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_ifrit_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_phasedbuster_launcher"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0019": "istl_fragtorp_tube",
+                "WS0020": "istl_fragtorp_tube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_12cmrailgun",
+                "WS0003": "istl_12cmrailgun",
+                "WS0004": "istl_12cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_dronepd",
+                "WS0006": "istl_dronepd",
+                "WS0007": "istl_dronepd",
+                "WS0008": "istl_dronepd",
+                "WS0009": "istl_impulsor_proto",
+                "WS0010": "istl_impulsor_proto",
+                "WS0011": "istl_impulsor_proto",
+                "WS0012": "istl_impulsor_proto"
+            }
+        }
+    ]
+}

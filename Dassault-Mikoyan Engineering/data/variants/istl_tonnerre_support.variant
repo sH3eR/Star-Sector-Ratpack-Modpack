@@ -1,0 +1,59 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 4,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "istl_tonnerre",
+    "hullMods": [
+        "auxiliarythrusters",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_tonnerre_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_TBM_launcher"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_perforatorpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "istl_marteau_esm_pod",
+                "WS0003": "istl_marteau_esm_pod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "istl_perforator",
+                "WS0007": "istl_perforator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "istl_erpulsebeam",
+                "WS0011": "istl_erpulsebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_tribeamer",
+                "WS0008": "istl_micropd",
+                "WS0009": "istl_micropd"
+            }
+        }
+    ]
+}

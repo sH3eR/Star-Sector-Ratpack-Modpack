@@ -1,0 +1,67 @@
+{
+  "hullName": "Bretasinge",
+  "hullId": "de_bretasinge",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DE/ships/bretasinge.png",
+  "style": "MIDLINE",
+  "height": 90,
+  "width": 52,
+  "center": [26, 47.5],
+  "collisionRadius": 50.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-7.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47, -0],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26, 22],
+      "length": 17.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26, -22],
+      "length": 17.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -47.5, -5,
+    -26, -14,
+    -26.5, -25,
+    -9.5, -25,
+    12, -9.5,
+    35.5, -8,
+    42, 0,
+    42, -0,
+    35.5, 8,
+    12, 9.5,
+    -9.5, 25,
+    -26.5, 25,
+    -26, 14,
+    -47.5, 5
+  ]
+}

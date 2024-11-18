@@ -1,0 +1,63 @@
+{
+  "displayName": "Overdriven",
+  "fluxCapacitors": 0,
+  "fluxVents": 27,
+  "goalVariant": true,
+  "hullId": "MSS_Moa",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Moa_Overdriven",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "annihilator",
+        "WS0015": "annihilator",
+        "WS0016": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "amblaster",
+        "WS0004": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "hil",
+        "WS0010": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser",
+        "WS0007": "mininglaser",
+        "WS0008": "mininglaser",
+        "WS0011": "mininglaser",
+        "WS0012": "mininglaser",
+        "WS0013": "miningblaster"
+      }
+    }
+  ],
+  "wings": []
+}

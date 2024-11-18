@@ -1,0 +1,26 @@
+{
+	"id":"MSS_attitude",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.MSS_attitudeStats",
+	
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.5,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":50,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":25,
+	}
+}

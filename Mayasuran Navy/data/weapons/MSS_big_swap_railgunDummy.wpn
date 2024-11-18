@@ -1,0 +1,59 @@
+{
+  # NOTES: this is the weapon that actually goes on the ship and displays effects
+  # The other ones determine which projectile the various modes fire, nothing else
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "MSS_railgun_fire",
+  # NOTES: uses parts of the grenade launcher script, which has been modified to include this weapon
+  "everyFrameEffect": "data.scripts.weapons.MSS_grenadelauncherscript",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/mayasura/weapons/MSS_big_railgun_glow.png",
+  "hardpointOffsets": [
+    -35,
+    0
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_big_railgun.png",
+  "id": "MSS_big_swap_railgunDummy",
+  "muzzleFlashSpec": {
+    "length": 100,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ],
+    "particleCount": 25,
+    "particleDuration": 0.25,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "spread": 5
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  # NOTES: This projectile gets replaced (through scripting) with the appropriate one.
+  "projectileSpecId": "MSS_SwappableRailgunDummyProj",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_big_railgun_glow.png",
+  "turretOffsets": [
+    -90,
+    0
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_big_railgun_turret.png",
+  "type": "BALLISTIC"
+}

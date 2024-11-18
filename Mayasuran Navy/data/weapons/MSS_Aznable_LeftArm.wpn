@@ -1,0 +1,44 @@
+{
+  "id": "MSS_Aznable_LeftArm",
+  "specClass": "projectile",
+  "projectileSpecId": "chaingun_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/mayasura/ships/Aznable/MSS_Aznable_LeftArm00.png",
+  "hardpointSprite": "graphics/mayasura/ships/Aznable/MSS_Aznable_LeftArm00.png",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    12,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    19,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "chaingun_fire"
+}

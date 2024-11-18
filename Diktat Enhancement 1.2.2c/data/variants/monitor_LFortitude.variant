@@ -1,0 +1,35 @@
+{
+    "displayName": "Lion's Fortitude",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "monitor",
+    "hullMods": [
+    "hardenedshieldemitter",
+    "advancedshieldemitter",
+    "extendedshieldemitter",
+    "stabilizedshieldemitter",
+    "fluxbreakers"
+],
+    "permaMods": ["solar_shielding"],
+    "quality": 1,
+    "variantId": "monitor_LFortitude",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "swarmer",
+                "WS 004": "swarmer"
+            }
+        }
+    ]
+}

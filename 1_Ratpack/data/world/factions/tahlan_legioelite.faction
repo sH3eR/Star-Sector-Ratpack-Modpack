@@ -1,0 +1,11 @@
+{
+    #legio spec ops
+    "music":{
+            "market_neutral":"theme_legio_bw",
+            "market_hostile":"theme_legio_bw",
+            "market_friendly":"theme_legio_bw",
+            "encounter_neutral":"theme_legio_bw",
+            "encounter_hostile":"theme_legio_bw",
+            "encounter_friendly":"theme_legio_bw",
+    },
+},

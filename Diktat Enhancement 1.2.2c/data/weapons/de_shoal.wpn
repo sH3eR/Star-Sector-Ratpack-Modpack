@@ -1,0 +1,55 @@
+{
+  "id": "de_shoal",
+  "specClass": "projectile",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/DE/weapons/annihlator_shoal.png",
+  "hardpointSprite": "graphics/DE/weapons/annihlator_shoal.png",
+  "turretOffsets": [
+    13,
+    6,
+    13,
+    -6,
+    11,
+    -11,
+    11,
+    11
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    23.5,
+    6,
+    23.5,
+    -6,
+    21.5,
+    -11,
+    21.5,
+    11
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+	"animationType":"SMOKE",
+	"renderHints":[RENDER_LOADED_MISSILES],
+	"smokeSpec":{"particleSizeMin":10.0,
+							 "particleSizeRange":14.0,
+							 "cloudParticleCount":3,
+							 "cloudDuration":1.5,
+							 "cloudRadius":12.0;
+							 "blowbackParticleCount":3,
+							 "blowbackDuration":0.45,
+							 "blowbackLength":20.0,
+							 "blowbackSpread":6.0,
+							 "particleColor":[190,180,160,95]},
+	"projectileSpecId":"annihilator_rocket",
+	"fireSoundTwo":"annihilator_fire",
+}

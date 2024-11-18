@@ -1,0 +1,15 @@
+{
+	"id":"MSS_phasegateway",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MSS_phaseGatewayAI",
+	
+	"statsScript":"data.shipsystems.scripts.phasegatewaystats",
+	
+	"useSound":"system_recall_device",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}
+

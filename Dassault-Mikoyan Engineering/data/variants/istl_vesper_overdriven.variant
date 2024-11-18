@@ -1,0 +1,35 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "istl_vesper",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_vesper_overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_omniblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_perforatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_linearcannonlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_microflak",
+                "WS0005": "istl_microflak"
+            }
+        }
+    ]
+}

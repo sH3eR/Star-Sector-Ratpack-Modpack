@@ -1,0 +1,68 @@
+{
+  "hullName": "Jormungand",
+  "hullId": "gundam_jormungand",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/gundam_jormungand.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 344,
+  "width": 93,
+  "center": [47.5, 172.5],
+  "collisionRadius": 171.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 195.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "gundam_builtin_fusion_plasma_laser",
+    "WS0002": "gundam_jormungand_leftpart",
+    "WS0003": "gundam_jormungand_rightpart"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [168.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 134.5,
+      "locations": [-113, 47]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -134.5,
+      "locations": [-113, -47]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-171, 0.5],
+      "length": 82.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    170.5, -4.5,
+    82, -10,
+    -143, -11.5,
+    -170.5, -5,
+    -170.5, 5,
+    -143, 11.5,
+    82, 10,
+    170.5, 4.5
+  ]
+}

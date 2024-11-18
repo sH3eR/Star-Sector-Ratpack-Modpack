@@ -1,0 +1,31 @@
+{
+	"id":"istl_plasrocket",
+	"specClass":"missile",	
+	"onHitEffect":"data.scripts.weapons.istl_PlasrocketEMPOnHit",
+	"missileType":"ROCKET",
+	"sprite":"graphics/ISTL/missiles/istl_plasrocket.png",
+	"size":[4,14],	
+	"center":[2,7],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[75,255,175,155],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":30, # purely visual
+	"dudProbabilityOnFlameout":0,
+	"fizzleOnReachingWeaponRange":true,					 
+	"armingTime":0,
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.1, # fadeout duration	
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":1000,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"BBTorpedo",
+				    "width":2.5,
+				    "length":40.0,
+				    "angle":180.0},
+				    ]
+}

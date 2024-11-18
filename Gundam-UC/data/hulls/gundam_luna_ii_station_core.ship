@@ -1,0 +1,171 @@
+{
+  "hullName": "Luna II",
+  "hullId": "gundam_luna_ii_station_core",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/station/gundam_luna_ii_station_core.png",
+  "style": "GUNDAM_EFSF_SHIELD",
+  "height": 196,
+  "width": 365,
+  "center": [182.5, 98],
+  "collisionRadius": 150,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 800,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [
+    {
+      "id": "MODULE_1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [72.5, 0]
+    },
+    {
+      "id": "MODULE_2",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -136.5]
+    },
+    {
+      "id": "MODULE_3",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-72.5, 0]
+    },
+    {
+      "id": "MODULE_4",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 136.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [30.5, 94]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [24.5, -74]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-25.5, 94]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [-23.5, -83]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-40.5, 61.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -180,
+      "locations": [-35, -43.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [42, -43]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [49, 41]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        329.5, -187.5,
+        126, -113.5,
+        244.5, -43.5,
+        269, -40.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        333.5, -179.5,
+        126, -120.5,
+        260.5, -38.5,
+        252.5, -39.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -78.5, 19.5,
+    -68, 109.5,
+    16, 144.5,
+    60, 116.5,
+    69.5, 58.5,
+    74, -16.5,
+    60, -62.5,
+    33, -117.5,
+    -35, -136.5,
+    -54.5, -82.5
+  ]
+}

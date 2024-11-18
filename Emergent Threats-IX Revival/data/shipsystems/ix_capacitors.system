@@ -1,0 +1,17 @@
+{
+	"id":"ix_capacitors",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.scripts.ix.shipsystems.Ultracapacitors",
+	
+	"weaponGlowColor":[50,200,50,100],
+	"weaponTypes":[ENERGY],
+
+	"fadeActivationSoundOnChargedown":true,
+	#"useSound":"ultracapacitors_ix_activate",
+	"useSound":"immanence_engine_ix_activate",
+	"loopSound":"system_high_energy_focus_loop",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

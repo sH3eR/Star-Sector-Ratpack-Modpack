@@ -1,0 +1,57 @@
+{
+    "displayName": "Improved",
+    "fluxCapacitors": 15,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "odyssey",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "odyssey_improved",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "istl_marteau_esm_barrage",
+                "WS 005": "istl_marteau_esm_pod",
+                "WS 006": "istl_marteau_esm_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "istl_autohybridblaster",
+                "WS 003": "istl_autohybridblaster",
+                "WS 008": "istl_magpulser",
+                "WS 011": "istl_magpulser",
+                "WS 012": "istl_magpulser",
+                "WS 013": "istl_magpulser",
+                "WS 015": "istl_magpulser",
+                "WS 016": "istl_magpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "istl_gravmissilelauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "istl_micropd",
+                "WS 009": "istl_micropd",
+                "WS 010": "istl_micropd",
+                "WS 014": "istl_micropd",
+                "WS 017": "istl_micropd",
+                "WS 018": "istl_micropd"
+            }
+        }
+    ],
+    "wings": [
+        "istl_damselfly_wing",
+        "istl_harridan_wing"
+    ]
+}

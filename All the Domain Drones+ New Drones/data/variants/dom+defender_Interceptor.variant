@@ -1,0 +1,29 @@
+{
+  "variantId": "dom+defender_Interceptor",
+  "hullId": "dom+defender",
+  "displayName": "Interceptor Carrier",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightmg",
+        "WS 002": "lightmg",
+        "WS 003": "lightmg",
+        "WS 004": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+marjinot_wing"
+  ]
+}

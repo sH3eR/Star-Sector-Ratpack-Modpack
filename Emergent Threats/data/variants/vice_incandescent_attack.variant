@@ -1,0 +1,70 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "vice_incandescent",
+    "hullMods": [
+        "ecm",
+        "fluxdistributor",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_incandescent_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "vice_hmc",
+                "WS 021": "vice_hmc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "squall",
+                "WS 019": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "typhoon",
+                "WS 006": "typhoon",
+                "WS 007": "typhoon",
+                "WS 008": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "gravitonbeam",
+                "WS 004": "gravitonbeam",
+                "WS 017": "vice_siege_burst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 002": "heavyburst",
+                "WS 009": "heavyburst",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdlaser"
+            }
+        }
+    ]
+}

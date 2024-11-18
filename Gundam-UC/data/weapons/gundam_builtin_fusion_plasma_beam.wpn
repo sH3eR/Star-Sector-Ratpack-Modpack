@@ -1,0 +1,33 @@
+{
+	"id": "gundam_builtin_fusion_plasma_laser",
+	"specClass": "projectile",
+	"type": "ENERGY",
+	"size": "SMALL",
+	"displayArcRadius":800,
+	"collisionClass": "RAY",
+	"collisionClassByFighter": "RAY_FIGHTER",
+	"turretSprite": "",
+	"turretGlowSprite": "",
+	"hardpointSprite": "",
+	"hardpointGlowSprite": "",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"visualRecoil":0,
+	"renderHints":["RENDER_BARREL_BELOW", "SUSPEND_RECOIL"],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"interruptibleBurst":true,
+	"muzzleFlashSpec":{"length":75.0,
+					   "spread":15.0,
+					   "particleSizeMin":40.0,
+					   "particleSizeRange":40.0,
+					   "particleDuration":0.5,
+					   "particleCount":15,
+					   "particleColor":[65,175,255,130]},		
+	"autocharge":true,					   
+	"projectileSpecId":"gundam_blue_fusion_plasma_laser",  # projectile that will be fired
+	"fireSoundOne":"gundam_minovski_charge",
+	"fireSoundTwo":"gundam_minovski_beam",
+}

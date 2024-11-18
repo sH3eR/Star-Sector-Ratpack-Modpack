@@ -1,0 +1,107 @@
+{
+  "hullName": "Homarus",
+  "hullId": "de_homarus",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DE/ships/homarus.png",
+  "style": "MIDLINE",
+  "height": 60,
+  "width": 60,
+  "center": [30, 30],
+  "collisionRadius": 46,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 40.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 107,
+      "angle": 32.5,
+      "locations": [23, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 107,
+      "angle": -32.5,
+      "locations": [23, -21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26.5, -0],
+      "length": 17,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26.5, 0],
+      "length": 17,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8, 7],
+      "length": 17,
+      "width": 4,
+      "angle": 127,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-8, -7],
+      "length": 17,
+      "width": 4,
+      "angle": -127,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [1.5, 9],
+      "length": 17,
+      "width": 4,
+      "angle": 127,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [1.5, -9],
+      "length": 17,
+      "width": 4,
+      "angle": -127,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -25, 0,
+    -30, -9.5,
+    -21.5, -12.5,
+    -15, -4,
+    8.5, -16.5,
+    24.5, -24.5,
+    24.5, -17.5,
+    16, -6.5,
+    25.5, 0,
+    25.5, -0,
+    16, 6.5,
+    24.5, 17.5,
+    24.5, 24.5,
+    8.5, 16.5,
+    -15, 4,
+    -21.5, 12.5,
+    -30, 9.5,
+    -25, -0
+  ]
+}

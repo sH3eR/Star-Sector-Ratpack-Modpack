@@ -1,0 +1,75 @@
+{
+  "variantId": "MSS_Victory_Elite",
+  "hullId": "MSS_Victory",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+        "magazines",
+        "targetingunit",
+        "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MSS_MegaLaserCannon",
+        "WS0002": "MSS_MegaLaserCannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "harpoonpod",
+        "WS0012": "harpoonpod",
+        "WS0013": "harpoonpod",
+        "WS0014": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gauss",
+        "WS0004": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavymauler",
+        "WS0006": "heavymauler",
+        "WS0007": "heavymauler",
+        "WS0008": "heavymauler",
+        "WS0009": "heavymauler",
+        "WS0010": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "devastator",
+        "WS0016": "devastator",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "pdlaser",
+        "WS0021": "pdlaser",
+        "WS0022": "pdlaser",
+        "WS0023": "pdlaser",
+        "WS0024": "pdlaser",
+        "WS0025": "pdlaser",
+        "WS0026": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,10 @@
+{
+  "displayName": "Target",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "TAR_meatshipHT",
+  "hullMods": ["TAR_station"],
+  "variantId": "TAR_meatshipHT_target",
+  "weaponGroups": [
+  ]
+}

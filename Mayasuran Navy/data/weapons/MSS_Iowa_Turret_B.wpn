@@ -1,0 +1,50 @@
+{
+  "id": "MSS_Iowa_Turret_B",
+  "specClass": "projectile",
+  "projectileSpecId": "MSS_Iowa_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/mayasura/weapons/MSS_Iowa_gunTurret_t_bBlack.png",
+  "turretGunSprite": "graphics/mayasura/weapons/MSS_Iowa_gunTurret_t_r.png",
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_Iowa_gunTurret_t_b.png",
+  "hardpointGunSprite": "graphics/mayasura/weapons/MSS_Iowa_gunTurret_t_r.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 15,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    78,
+    0,
+    78,
+    14,
+    78,
+    -14
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "everyFrameEffect": "data.scripts.weapons.MSS_IowaTurretMuzzleFlashScript",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [163,163,163,150],
+    "particleCount": 20,
+    "particleDuration": 0.7,
+    "particleSizeMin": 15,
+    "particleSizeRange": 25,
+    "spread": 10
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "MSS_Iowa_Fire"
+}

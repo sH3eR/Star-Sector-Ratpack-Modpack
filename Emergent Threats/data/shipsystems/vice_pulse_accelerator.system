@@ -1,0 +1,13 @@
+{
+	"id":"vice_pulse_accelerator",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.scripts.vice.shipsystems.PulseAcceleratorStats",
+	
+	"weaponGlowColor":[255,0,255,150],
+	"weaponTypes":[ENERGY],
+	
+	"useSound":"immanence_engine_ix_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

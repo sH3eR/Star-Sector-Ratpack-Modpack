@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DE.jar">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="archive" name="DE.jar">
+      <element id="module-output" name="Diktat Enhancement dev version" />
+    </root>
+  </artifact>
+</component>

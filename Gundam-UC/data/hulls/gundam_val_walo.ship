@@ -1,0 +1,159 @@
+{
+  "hullName": "Val Walo",
+  "hullId": "gundam_val_walo",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ma/val_walo/gundam_val_walo_body.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 121,
+  "width": 115,
+  "center": [58, 55],
+  "collisionRadius": 66,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "L_ARM": "gundam_val_walo_lefthand",
+    "M_BEAM": "gundam_builtin_yellow_mega_beam",
+    "R_ARM": "gundam_val_walo_righthand",
+    "THRUST_1": "gundam_thruster_tiny_red",
+    "THRUST_2": "gundam_thruster_tiny_red",
+    "THRUST_3": "gundam_thruster_tiny_red",
+    "WS0001": "gundam_builtin_yellow_beam_proj",
+    "WS0002": "gundam_builtin_yellow_beam_proj"
+  },
+  "weaponSlots": [
+    {
+      "id": "M_BEAM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [57.5, -0]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 10.5,
+      "locations": [11, 22.5]
+    },
+    {
+      "id": "R_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -10.5,
+      "locations": [11, -22.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5, 27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [5, -27]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-44.5, 15]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-44.5, -19.5]
+    },
+    {
+      "id": "THRUST_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-39, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-3.5, 27]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-3.5, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-49, 16],
+      "length": 33,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-49.5, -16.5],
+      "length": 33,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44.5, 0],
+      "length": 44,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -31.5, -16.5,
+    -55, -19.5,
+    -33.5, -56.5,
+    7, -22.5,
+    66, 0.5,
+    66, 0.5,
+    7, 23.5,
+    -33.5, 57.5,
+    -55, 20.5,
+    -31.5, 17.5
+  ]
+}

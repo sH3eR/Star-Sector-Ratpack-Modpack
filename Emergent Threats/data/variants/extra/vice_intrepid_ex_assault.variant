@@ -1,0 +1,66 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 6,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_intrepid_ex",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_intrepid_ex_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "vice_neutron_autolance",
+                "WS 021": "vice_neutron_autolance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "breachpod",
+                "WS 006": "breachpod",
+                "WS 007": "breachpod",
+                "WS 008": "breachpod",
+                "WS 018": "squall",
+                "WS 019": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 017": "vice_x-ray_pulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pulselaser",
+                "WS 004": "pulselaser",
+                "WS 009": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 002": "heavyburst",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 012": "pdburst",
+                "WS 013": "pdburst",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdburst"
+            }
+        }
+    ]
+}

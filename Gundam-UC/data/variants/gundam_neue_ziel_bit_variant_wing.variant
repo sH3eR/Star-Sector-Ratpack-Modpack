@@ -1,0 +1,29 @@
+{
+  "displayName": "New-Type Weapon",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_neue_ziel_bit",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_neue_ziel_bit_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gundam_saber_yellow"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0002": "gundam_builtin_yellow_beam_proj"
+      }
+    }
+  ],
+  "wings": []
+}

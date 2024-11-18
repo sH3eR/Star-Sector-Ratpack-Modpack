@@ -1,0 +1,209 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"MSS_vigilance_m_standard":1,
+		"MSS_vigilance_m_overdriven":1,
+		"MSS_vigilance_m_elite":1,
+		"MSS_Nailer_Standard":1,
+		"MSS_Nailer_Overdriven":1,
+		"MSS_Nailer_Elite":1,
+		"MSS_Perryi_F_Escort":1,
+		"MSS_Perryi_F_Standard":1,
+		"MSS_Perryi_F_Elite":1,
+		"MSS_Tiburo_Standard":1,
+		"MSS_Tiburo_Overdriven":1,
+		"MSS_Tiburo_Elite":1,
+		"MSS_Loyalist_Standard":1,
+		"MSS_Loyalist_Pursuit":1,
+		"MSS_Loyalist_Elite":1,
+		"MSS_Carnwennan_Standard":1,
+		"MSS_Carnwennan_Elite":1,
+	},
+	"combatSmall":{
+		"MSS_Nailer_Standard":2,
+		"MSS_Nailer_Overdriven":1,
+		"MSS_Nailer_Elite":1,
+		"MSS_Mako_Standard":2,
+		"MSS_Mako_Fast":1,
+		"MSS_Mako_Elite":1,
+		"MSS_vigilance_m_standard":2,
+		"MSS_vigilance_m_overdriven":1,
+		"MSS_vigilance_m_elite":1,
+		"MSS_Perryi_F_Escort":2,
+		"MSS_Perryi_F_Standard":1,
+		"MSS_Perryi_F_Elite":1,
+		"MSS_Tiburo_Standard":1,
+		"MSS_Tiburo_Overdriven":1,
+		"MSS_Tiburo_Elite":1,
+		"MSS_Loyalist_Standard":1,
+		"MSS_Loyalist_Pursuit":1,
+		"MSS_Loyalist_Elite":1,
+		"MSS_Carnwennan_Standard":1,
+		"MSS_Carnwennan_Elite":1,
+	},
+	"combatMedium":{
+		"MSS_Spartan_Standard":1,
+		"MSS_Spartan_Elite":1,
+		"MSS_Hammerhead_Standard":1,
+		"MSS_Hammerhead_Overdriven":1,
+		"MSS_Hammerhead_Elite":1,
+		"MSS_Scaramouche_Standard":1,
+		"MSS_Scaramouche_Elite":1,
+		"MSS_Scaramouche_Pursuit":1,
+		"MSS_Sunder_Assault":1,
+		"MSS_Sunder_Beamer":1,
+		"MSS_Sunder_Elite":1,
+		"MSS_Manta_Elite":1,
+		"MSS_Manta_Plasma":1,
+		"MSS_Manta_Support":1,
+		"MSS_Stingray_Escort":1,
+		"MSS_Stingray_Overcharged":1,
+		"MSS_Stingray_Elite":1,
+		"MSS_Argentavis_Standard":1,
+		"MSS_Argentavis_Overdriven":1,
+		"MSS_Argentavis_Elite":1,
+	},
+	"combatLarge":{
+			"MSS_Winghead_Standard":5,
+			"MSS_Winghead_Overdriven":3,
+			"MSS_Winghead_Elite":1,
+			"MSS_Falcon_Attack":2,
+			"MSS_Falcon_Escort":2,
+			"MSS_Falcon_Elite":1,
+			"MSS_Champion_Elite":1,
+			"MSS_Gyrfalcon_Standard":5,
+			"MSS_Gyrfalcon_Overdriven":3,
+			"MSS_Gyrfalcon_Elite":1,
+			"MSS_Gryphon_Elite":1,
+			"MSS_Patriot_Standard":5,
+			"MSS_Patriot_Blaster":5,
+			"MSS_Patriot_Elite":1,
+			"MSS_Moa_Standard":5,
+			"MSS_Moa_Overdriven":5,
+			"MSS_Moa_Stormhawk":2,
+			"MSS_Moa_Elite":1,
+			"MSS_Excalibur_Standard":5,
+			"MSS_Excalibur_Overdriven":5,
+			"MSS_Excalibur_Beamer":5,
+			"MSS_Excalibur_Elite":5,
+			"MSS_Starliner2_Elite":1,
+			"MSS_Starliner2_Support":2,
+			"MSS_Garuda_Standard":3,
+			"MSS_Rhea_Standard":3,
+			"MSS_Rhea_Elite":3,
+
+	},
+	"combatCapital":{
+			"MSS_Mokarran_Standard":2,
+			"MSS_Mokarran_Elite":1,
+			"MSS_Skyrend_Elite":1,
+			"MSS_Conquest_Elite":1,
+			"MSS_Mokarran_Brawler":1,
+			"MSS_Javanicus_B_Stormhawk":2,
+			"MSS_Javanicus_B_Elite":1,
+			"MSS_Javanicus_B_Standard":2,
+			"MSS_Javanicus_B_Brawler":1,
+			"MSS_Pelican_Standard":3,
+			"MSS_Pelican_Elite":1,
+			"MSS_Pelican_Merchant":1,
+			"MSS_Pelican_Pursuit":2,
+			"MSS_Vishnu_Standard":1,
+			"MSS_Vishnu_Elite":1,
+			
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+			"MSS_Pilgrim_Standard":10,
+			"MSS_Pilgrim_Elite":10,
+	},
+	
+	"civilianRandom":{
+	},
+
+	# carriers
+	"carrierSmall":{
+			"MSS_Stingray_Escort":1,
+			"MSS_Stingray_Overcharged":1,
+			"MSS_Stingray_Elite":1,
+			"MSS_Shikra_Standard":1,
+			"MSS_Shikra_Overdriven":1,
+			"MSS_Shikra_Elite":1,
+	},
+	"carrierMedium":{
+			"MSS_Sarissa_Standard":5,
+			"MSS_Sarissa_Strike":5,
+			"MSS_Sarissa_Elite":1,
+			"MSS_Heron_Elite":1,
+			"MSS_Crusader_Elite":5,
+			
+	},
+	"carrierLarge":{
+			"MSS_Arjuna_Standard":2,
+			"MSS_Arjuna_Elite":1,
+	},
+
+	# phase ships
+	"phaseSmall":{
+	"MSS_Nightingale_Prototype":10,
+	"MSS_Nightingale_Strike":10,
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+	},
+	"freighterMedium":{
+	},
+	"freighterLarge":{
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+	},
+	"tankerLarge":{
+	"MSS_Iapetus_Standard":10,
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	"MSS_Starliner2_Elite":10,
+	"MSS_Starliner2_Support":10,
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+}

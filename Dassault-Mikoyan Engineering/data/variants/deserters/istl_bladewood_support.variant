@@ -1,0 +1,64 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 6,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "istl_bladewood",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_bladewood_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_marteau_esm_barrage",
+                "WS0002": "istl_marteau_esm_pod",
+                "WS0003": "istl_marteau_esm_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_12cmrailgun",
+                "WS0005": "istl_12cmrailgun",
+                "WS0006": "istl_12cmrailgun",
+                "WS0007": "istl_12cmrailgun",
+                "WS0008": "istl_NTKcannon",
+                "WS0009": "istl_NTKcannon",
+                "WS0010": "istl_NTKcannon",
+                "WS0011": "istl_NTKcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "istl_matador",
+                "WS0013": "istl_matador",
+                "WS0014": "istl_matador",
+                "WS0015": "istl_matador"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "istl_impulsor_ring",
+                "WS0017": "istl_impulsor_ring",
+                "WS0018": "istl_impulsor_ring",
+                "WS0019": "istl_impulsor_ring",
+                "WS0020": "istl_impulsor_ring",
+                "WS0021": "istl_impulsor_ring"
+            }
+        }
+    ],
+    "wings": [
+        "istl_dropper_wing",
+        "istl_firebeetle_wing",
+        "istl_firebeetle_wing",
+        "istl_skink_wing"
+    ]
+}

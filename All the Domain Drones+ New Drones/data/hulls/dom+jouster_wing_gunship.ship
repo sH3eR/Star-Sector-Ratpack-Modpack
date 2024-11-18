@@ -1,0 +1,110 @@
+{
+  "hullName": "Jouster Heavy Gunship",
+  "hullId": "dom+jouster_wing_gunship",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/Jouster Heavy Gunship.png",
+  "style": "LOW_TECH",
+  "height": 44,
+  "width": 56,
+  "center": [28, 22.5],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 34,
+  "viewOffset": 0,
+  "builtInMods": [
+    "turretgyros",
+    "targetingunit",
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [7.5, -15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [7.5, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-8, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [15.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22.5, -0],
+      "length": 20,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-21.5, -10],
+      "length": 20,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-21.5, 10],
+      "length": 20,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18, -18],
+      "length": 20,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-17.5, 18],
+      "length": 20,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    21.5, 4,
+    6.5, 28,
+    -12.5, 28,
+    -22, 15.5,
+    -22.5, -13,
+    -9.5, -28,
+    7.5, -28,
+    21.5, -4
+  ]
+}

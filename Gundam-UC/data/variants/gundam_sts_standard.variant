@@ -1,0 +1,30 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 5,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "gundam_sts",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_sts_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_pd_2mg",
+				"WS0002": "gundam_pd_2mg"
+            }
+        }
+    ],
+    "wings": [
+        "gundam_gm_early_wing",
+        "gundam_ball_typek_wing"
+    ]
+}
+
+
+
+

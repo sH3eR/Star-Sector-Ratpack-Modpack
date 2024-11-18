@@ -1,0 +1,9 @@
+id,name,cr_decay,fuel_consumption_increase,data_per_ly,ly_to_reach,description
+Unknown,Unknown,0,0,0,0,ERROR - No description for unknown anomaly stage.
+Propagation,Propagation,0,0,0,0.04,ERROR - No description for propagation anomaly stage.
+Inert,Inert,0,0,0,5,The effects of the anomaly on your %s are currently too weak to interfere with its drive field.
+Moderate,Moderate,0,1,0,10,Your %s's drive field has begun to destabilize. Fuel stored in vulnerable ships will be lost more quickly while traversing hyperspace.
+Dangerous,Dangerous,0.5,2,0,20,The stability of your %s's drive field has reached dangerous levels. Fuel stored in vulnerable ships will be lost much more quickly while traversing hyperspace.
+Severe,Severe,1,4,1,30,Your %s's drive field is severely unstable. Fuel stored in vulnerable ships will be lost rapidly while traversing hyperspace.
+Critical,Critical,2,8,2,50,Your %s's drive field is critically unstable. Vulnerable ships will hemorrhage fuel while traversing hyperspace.
+Extreme,Extreme,4,16,4,250,Your %s's drive field has reached an extreme state of instability. Vulnerable ships will lose their fuel almost instantly while traversing hyperspace.

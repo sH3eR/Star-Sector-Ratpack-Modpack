@@ -1,0 +1,68 @@
+{
+  "displayName": "Limited",
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "gundam_dolos",
+  "hullMods": [
+    "autorepair",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_dolos_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_3cannon",
+                "WS0002": "gundam_mega_3cannon"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0003": "gundam_mega_3cannon_m",
+				"WS0004": "gundam_mega_3cannon_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0018": "gundam_pd_2mg",
+				"WS0019": "gundam_pd_2mg",
+				"WS0020": "gundam_pd_2mg",
+				"WS0021": "gundam_pd_2mg",
+				"WS0022": "gundam_pd_2mg",
+				"WS0023": "gundam_pd_2mg",
+				"WS0028": "gundam_pd_2mg",
+				"WS0029": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide",
+                "GUIDE_3": "gundam_launch_bay_guide",
+                "GUIDE_4": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+  "modules": [
+		{"MODULE_1": "gundam_dolos_lpart_module"},
+		{"MODULE_2": "gundam_dolos_rpart_module"},
+	],
+    "wings": [
+		"gundam_zaku_i_wing",
+		"gundam_zaku_ii_wing",
+		"gundam_zaku_sniper_wing",
+		"gundam_gelgoog_wing",
+		"gundam_zock_wing",
+		"gundam_rick_dom_wing"
+    ]
+}

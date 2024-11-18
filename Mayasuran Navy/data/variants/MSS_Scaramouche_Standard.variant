@@ -1,0 +1,50 @@
+{
+  "variantId": "MSS_Scaramouche_Standard",
+  "hullId": "MSS_Scaramouche",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "MSS_ionlanceSM",
+        "WS0008": "MSS_ionlanceSM"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

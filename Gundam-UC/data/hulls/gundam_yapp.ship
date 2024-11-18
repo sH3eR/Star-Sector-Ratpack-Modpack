@@ -1,0 +1,197 @@
+{
+  "hullName": "Yapp",
+  "hullId": "gundam_yapp",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/gundam_yapp.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 235,
+  "width": 176,
+  "center": [88, 117.5],
+  "collisionRadius": 117.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 131,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "GUIDE_1": "gundam_launch_bay_guide",
+    "GUIDE_2": "gundam_launch_bay_guide",
+    "GUIDE_3": "gundam_launch_bay_guide",
+    "GUIDE_4": "gundam_launch_bay_guide"
+  },
+  "weaponSlots": [
+    {
+      "id": "GUIDE_1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [97.5, 30]
+    },
+    {
+      "id": "GUIDE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [97.5, -30]
+    },
+    {
+      "id": "GUIDE_3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [95, 64.5]
+    },
+    {
+      "id": "GUIDE_4",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [95, -64.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-27.5, 48.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-27.5, -48.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [-9.5, 54.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -30,
+      "locations": [-9.5, -54.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 145,
+      "locations": [-46, 54]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -145,
+      "locations": [-46, -54]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [68, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        95, 57.5,
+        96, 43.5,
+        95.5, 52.5,
+        96, 48.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        96.5, -43.5,
+        95, -58.5,
+        96, -48.5,
+        96, -53
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97.5, -1.5],
+      "length": 80.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-96, 10.5],
+      "length": 45.982094,
+      "width": 10.61075,
+      "angle": 176,
+      "contrailSize": 10.61075,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-96, -10.5],
+      "length": 45.982094,
+      "width": 10.61075,
+      "angle": -176,
+      "contrailSize": 10.61075,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -118, -12.5,
+    -97, -21,
+    -97, -69,
+    -92, -78,
+    -69, -82.5,
+    90, -76.5,
+    94.5, -71.5,
+    97.5, -22,
+    106.5, -18,
+    117, -8,
+    117, 8,
+    106.5, 18,
+    97.5, 22,
+    94.5, 71.5,
+    90, 76.5,
+    -69, 82.5,
+    -92, 78,
+    -97, 69,
+    -97, 21,
+    -118, 12.5
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "hullName": "Converted Dram",
+  "hullId": "dom+dram",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Frigates/Domain Converted Dram.png",
+  "style": "LOW_TECH",
+  "coversColor": "255,180,170,255",
+  "height": 132,
+  "width": 90,
+  "center": [47, 57.5],
+  "collisionRadius": 92.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 84,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 45,
+      "locations": [47.5, 26]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-13, -37]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-41, 1]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-12.5, 41]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": -55.5,
+      "locations": [43.5, -20]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58, -34],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57.5, -23.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57, -12.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57, 16],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57.5, 27.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-58, 38],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    44, -28,
+    71.5, -0,
+    44, 36.5,
+    -5, 26,
+    -10.5, 46,
+    -57.5, 42,
+    -56.5, -38,
+    -9.5, -41,
+    2, -24.5
+  ]
+}

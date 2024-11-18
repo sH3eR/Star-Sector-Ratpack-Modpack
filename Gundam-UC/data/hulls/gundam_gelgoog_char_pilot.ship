@@ -1,0 +1,107 @@
+{
+  "hullName": "Gelgoog",
+  "hullId": "gundam_gelgoog_char_pilot",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/gelgoog_char/gundam_gelgoog_char_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 33,
+  "width": 32,
+  "center": [20.5, 21.5],
+  "collisionRadius": 12,
+  "shieldCenter": [-4.5, 3],
+  "shieldRadius": 23.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "strikeCraft",
+    "armaa_wingCommander",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gelgoog_char_gun",
+    "HEAD": "gundam_gelgoog_char_head",
+    "MELEE": "gundam_twin_beam_sword_slash",
+    "SHIELD": "gundam_gelgoog_char_shield",
+    "THRUST_1": "gundam_thruster_tiny_red",
+    "THRUST_2": "gundam_thruster_tiny_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-13, -0]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-8, 11.5]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-7.5, -11.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [9.5, -13]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-14, -7]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-14, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, -7],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "RED_TAIL"
+    },
+    {
+      "location": [-14, 7],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "RED_TAIL"
+    }
+  ],
+  "bounds": [
+    -15.5, 8.5,
+    -0.5, 8.5,
+    -0.5, -8,
+    -15.5, -8
+  ]
+}

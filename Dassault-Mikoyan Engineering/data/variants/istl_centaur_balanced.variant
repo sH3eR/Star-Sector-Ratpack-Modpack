@@ -1,0 +1,34 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 5,
+    "fluxVents": 30,
+    "hullId": "istl_centaur",
+    "hullMods": ["autorepair"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_centaur_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_hellhoundlauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_microflak",
+                "WS0005": "istl_linearcannonlight",
+                "WS0006": "istl_linearcannonlight"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_micropd",
+                "WS0004": "istl_micropd"
+            }
+        }
+    ]
+}

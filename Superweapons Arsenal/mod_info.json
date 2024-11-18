@@ -1,0 +1,22 @@
+{
+	"id":"superweapons",
+	"name":"Superweapons Arsenal",
+	"author":"Mira",
+	"version":"2.3",
+	"description":"Adds Some powerful weapons with questionable balance into the game.",
+	"gameVersion":"0.97a-RC11",
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+        },
+		{
+            "id": "shaderLib",
+            "name": "GraphicsLib",
+        }
+    ],
+}

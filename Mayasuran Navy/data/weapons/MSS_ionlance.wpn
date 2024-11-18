@@ -1,0 +1,62 @@
+{
+  "beamEffect": "com.fs.starfarer.api.impl.combat.MSS_IonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "fireSoundTwo": "MSS_ionlance_fire",
+  "fringeColor": [
+    25,
+    125,
+    175,
+    255
+  ],
+  "glowColor": [
+    125,
+    215,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/mayasura/weapons/MSS_ionlance_hardpoint_glow.png",
+  "hardpointOffsets": [
+    26,
+    0
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_ionlance_hardpoint_base.png",
+  "hitGlowRadius": 75,
+  "id": "MSS_ionlance",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 5,
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 292,
+  "textureType": LASER,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_ionlance_turret_glow.png",
+  "turretOffsets": [
+    4,
+    0
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_ionlance_turret_base.png",
+  "type": "ENERGY",
+  "width": 25
+}

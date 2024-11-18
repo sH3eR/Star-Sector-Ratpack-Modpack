@@ -1,0 +1,110 @@
+{
+  "bounds": [
+    8.5,
+    -2,
+    5.5,
+    -2.5,
+    -4,
+    -11.5,
+    -7,
+    -11.5,
+    -5.5,
+    -3,
+    -5.5,
+    3,
+    -7,
+    11.5,
+    -4,
+    11.5,
+    5.5,
+    2.5,
+    8.5,
+    2
+  ],
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_autolaser_smallftr",
+    "WS0002": "istl_slapper_ftr"
+  },
+  "center": [
+    13,
+    9.5
+  ],
+  "collisionRadius": 18,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 24,
+      "location": [
+        -6,
+        -0
+      ],
+      "style": "DMESuperFlare",
+      "width": 5
+    },
+    {
+      "angle": 175,
+      "contrailSize": 128,
+      "length": 15,
+      "location": [
+        -6.5,
+        1.5
+      ],
+      "style": "DMEFlare",
+      "width": 1
+    },
+    {
+      "angle": -175,
+      "contrailSize": 128,
+      "length": 15,
+      "location": [
+        -6.5,
+        -1.5
+      ],
+      "style": "DMEFlare",
+      "width": 1
+    }
+  ],
+  "height": 20,
+  "hullId": "istl_dard",
+  "hullName": "Dard",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 16,
+  "spriteName": "graphics/ISTL/ships/istl_dard.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0001",
+      "locations": [
+        4.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 26
+}

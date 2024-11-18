@@ -1,0 +1,35 @@
+{
+  "variantId": "dom+prometheus_Drone",
+  "hullId": "dom+prometheus",
+  "displayName": "Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 5,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 002": "vulcan",
+        "WS 003": "dualflak",
+        "WS 004": "vulcan",
+        "WS 005": "vulcan",
+        "WS 006": "vulcan",
+        "WS 007": "vulcan",
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,25 @@
+{
+  "displayName": "Fighter Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_bantam",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "istl_bantam_Fighter",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_braveion"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "istl_multipdnode"
+      }
+    }
+  ]
+}

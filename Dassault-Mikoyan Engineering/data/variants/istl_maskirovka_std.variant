@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 11,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "istl_maskirovka",
+    "hullMods": [
+        "unstable_injector",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_maskirovka_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_scatterlaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_whistler",
+                "WS0003": "istl_whistler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_multipdnode",
+                "WS0005": "istl_multipdnode",
+                "WS0006": "istl_multipdnode"
+            }
+        }
+    ]
+}

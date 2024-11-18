@@ -1,0 +1,43 @@
+{
+    "displayName": "Fast Attack",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "flourish_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "missleracks",
+        "frontemitter"
+    ],
+    "modules": [{"WS 010": "flourish_ix_undershield"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flourish_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "daythorn_mapb_ix",
+                "WS 003": "daythorn_mapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "orthrus_s_ix",
+                "WS 004": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "morningstar_ciws_ix",
+                "WS 006": "morningstar_ciws_ix",
+                "WS 007": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

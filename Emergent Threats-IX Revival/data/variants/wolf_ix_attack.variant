@@ -1,0 +1,39 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "wolf_ix",
+    "hullMods": [
+        "advancedoptics",
+        "extendedshieldemitter",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "wolf_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "daythorn_tapb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "morningstar_ciws_ix",
+                "WS 005": "spatial_charge_launcher_ix",
+                "WS 006": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "daythorn_mapb_ix",
+                "WS 003": "daythorn_mapb_ix"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "displayName": "Limited Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_zock",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_zock_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "gundam_zock_body_beam",
+        "WS0002": "gundam_zock_body_beam",
+        "WS0003": "gundam_zock_body_beam",
+        "WS0004": "gundam_zock_body_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+	    "WS0005": "gundam_zock_body_beam",
+        "WS0006": "gundam_zock_body_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+	    "R_ARM": "gundam_zock_hand",
+        "L_ARM": "gundam_zock_hand"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "BATTERY": "gundam_battery"
+      }
+    }
+  ],
+  "wings": []
+}

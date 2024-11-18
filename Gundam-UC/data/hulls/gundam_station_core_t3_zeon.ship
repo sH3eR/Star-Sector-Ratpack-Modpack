@@ -1,0 +1,127 @@
+{
+  "hullName": "Side Fortress",
+  "hullId": "gundam_station_core_t3_zeon",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/station/gundam_station_core.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 480,
+  "width": 480,
+  "center": [240, 240],
+  "collisionRadius": 240,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 256.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [
+    {
+      "id": "SOLAR_1",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 60,
+      "locations": [114.5, 209]
+    },
+    {
+      "id": "SOLAR_2",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-240, -0]
+    },
+    {
+      "id": "SOLAR_3",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -60,
+      "locations": [119, -204.5]
+    },
+    {
+      "id": "MODULE_1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 120,
+      "locations": [-69, 121]
+    },
+    {
+      "id": "MODULE_2",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [139, -0]
+    },
+    {
+      "id": "MODULE_3",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -120,
+      "locations": [-69.5, -120]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        24.5, 52.5,
+        -55, 0.5,
+        29.5, -50.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        33, 46,
+        24.5, -54,
+        -57, 6.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    236.5, -38.5,
+    223, -85.5,
+    200, -131,
+    151.5, -186.5,
+    96, -218,
+    45, -236,
+    -29, -238,
+    -90.5, -221,
+    -156.5, -182.5,
+    -203, -127,
+    -235, -54.5,
+    -235, 54.5,
+    -203, 127,
+    -156.5, 182.5,
+    -90.5, 221,
+    -29, 238,
+    45, 236,
+    96, 218,
+    151.5, 186.5,
+    200, 131,
+    223, 85.5,
+    236.5, 38.5
+  ]
+}

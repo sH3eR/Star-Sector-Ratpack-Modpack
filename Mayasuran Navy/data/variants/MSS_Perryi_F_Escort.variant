@@ -1,0 +1,39 @@
+{
+  "displayName": "Escort",
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "goalVariant": true,
+  "hullId": "MSS_Perryi_F",
+  "hullMods": [
+    "autorepair",
+    "turretgyros"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Perryi_F_Escort",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "swarmer",
+        "WS0004": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

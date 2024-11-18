@@ -1,0 +1,20 @@
+{
+	"altMouseMoveToMassTransfer":true, #(default: false in vanilla, but I like it enough to be true)
+	#"maxColonySize":6, # maximum size to which a player colony can grow (delete the # in front of "maxColonySize" to change colony size, this is a vanilla setting and might be changed by other mods!)
+	
+	
+	"BCAutoImproveIndustry": true, #vanilla factions will auto-improve industries with SP over time (default: true)
+	"BCSPIndustryMultiplier": 2, #The exponential multiplier for auto-improvement chance based on 1/2^(# of sp industry). For example, a market with 0 SP industry gets a 1/2^0 chance of improving(default: 2, lower than 2 will increase chance, higher than 2 will decrease chance)
+	"BCAgeOfInnovation": 0.2, #chance every month to spawn an Age of Innovation that will attempt to improve industries. (default: this translates to 20%)
+	"BCInnovatedDecentralized": 0.02, #chance indies, pathers, pirates and other decentralized faction will improve. (default: this translates to 2% during an Age of Innovation chance)
+	"BCInnovatedCentralized": 0.05, #chance every faction to improve industries. (default: this translates to 5% during an Age of Innovation chance)
+	#There is something to note, all the multipliers here scale with the market's size for calculation
+	"BCIgnoreFactionWhiteflag": true, #Makes ALL alive markets be eligible for SP Improvements regardless. (default: false)
+	"BCIntelText": true, #spawns an intel when you want to know what industry got improved on NPC markets (default: true)
+	
+	"BCLoseSPImprovements": true, #Only for Nex, invasions will unimprove industries that were disrupted at the end of an invasion (default: true)
+	"BCEnableLuddicNexRebels": true, #Only for Nex, people of Luddic Shrine will stage rebellions (default: true)
+	
+	"BCChangeIndustrySize":true, #at size 9 and 10, this will increase industry size by 1. (default: true)
+	"BCCryosanctum": false, #enable this to allow cryosanctum to be constructed (default: false)
+}

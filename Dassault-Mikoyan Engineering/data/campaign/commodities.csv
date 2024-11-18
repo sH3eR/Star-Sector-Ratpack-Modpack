@@ -1,0 +1,7 @@
+name,id,demand class,base price,price variability,utility,decay,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,iconWidthMult
+Sigma Matter,istl_sigma_matter,survey_data,,,50,,,nonecon,1000,1,graphics/ISTL/icons/cargo/istl_sigma_low.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,37,,,1
+High-grade Sigma Matter,istl_sigma_matter2,survey_data,700000,,50,,,"nonecon, sigma_matter, no_loss_from_combat",1000,1,graphics/ISTL/icons/cargo/istl_sigma_high.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,37,,,1
+Low-grade Sigma Matter,istl_sigma_matter1,survey_data,425000,,25,,,"nonecon, sigma_matter, no_loss_from_combat",1000,1,graphics/ISTL/icons/cargo/istl_sigma_low.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,36,,,1
+Unstable Sigma Matter,istl_sigma_matter3,survey_data,175000,,5,,,"nonecon, sigma_matter, no_loss_from_combat",1000,1,graphics/ISTL/icons/cargo/istl_sigma_unstable.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,35,,,1
+,,,,,,,,,,,,,,,,,
+Secure Data Storage,istl_securedata,survey_data,80000,,50,,,"military, nonecon, no_loss_from_combat",1000,1,graphics/ISTL/icons/cargo/istl_securedata.png,ui_chip_pickup,ui_modspec_drop,51,,,1

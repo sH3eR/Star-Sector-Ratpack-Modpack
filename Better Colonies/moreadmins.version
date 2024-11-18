@@ -1,0 +1,13 @@
+{
+	"masterVersionFile":"https://raw.githubusercontent.com/TechpriestEnginseer/solid-winner2/master/moreadmins.version",
+	"modName":"Better Colonies",
+	"modThreadId":17103,
+	"modVersion":
+	{
+		"major":1,
+		"minor":8,
+		"patch":8,
+	},
+	"starsectorVersion":"0.97a-RC10",
+	"directDownloadURL":"https://github.com/TechpriestEnginseer/solid-winner2/releases/download/1.88/Better.Colonies.zip",
+}

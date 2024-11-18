@@ -1,0 +1,37 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "hullId": "istl_naja",
+    "hullMods": [
+        "missleracks",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "istl_naja_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_hybridblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_ruptureasm_sm",
+                "WS0009": "istl_ruptureasm_sm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_multipdnode",
+                "WS0002": "istl_multipdnode",
+                "WS0003": "istl_multipdnode",
+                "WS0004": "istl_multipdnode"
+            }
+        }
+    ]
+}

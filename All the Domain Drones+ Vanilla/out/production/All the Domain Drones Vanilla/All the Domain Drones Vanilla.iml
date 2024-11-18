@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../All the Domain Drones+ Vanilla/out/production/All the Domain Drones Vanilla" />
+    <output-test url="file://$MODULE_DIR$/../All the Domain Drones+ Vanilla/out/test/All the Domain Drones Vanilla" />
+    <content url="file://$MODULE_DIR$/../All the Domain Drones+ Vanilla/src">
+      <sourceFolder url="file://$MODULE_DIR$/../All the Domain Drones+ Vanilla/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="starfarer.api" level="project" />
+  </component>
+</module>

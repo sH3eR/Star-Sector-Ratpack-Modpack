@@ -1,0 +1,57 @@
+{
+  "id": "de_targeauto",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect":"DE.combat.TargeAutolaserBeamEffect",
+  "everyFrameEffect":"DE.combat.weapons.de_spinny",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/DE/weapons/legate_laser.png",
+  "turretGlowSprite": "graphics/DE/weapons/legate_laser_glow.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    17,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    155,
+    50,
+    50,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    100
+  ],
+  "width": 8,
+  "textureType": LASER,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 3,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundTwo": "ion_beam_loop"
+}

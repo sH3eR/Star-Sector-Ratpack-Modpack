@@ -1,0 +1,102 @@
+{
+  "hullName": "Bulldog Protector",
+  "hullId": "dom+bulldog",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Frigates/Bulldog Protector.png",
+  "style": "LOW_TECH",
+  "height": 74,
+  "width": 69,
+  "center": [35, 38.5],
+  "collisionRadius": 52,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "augmentedengines",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, -19.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, -11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [15, 18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38.5, -0],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26.5, -23],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23.5, -12],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23.5, 11.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27, 23.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -38, 6,
+    -26, 26.5,
+    -14.5, 34.5,
+    20.5, 35,
+    34.5, 7.5,
+    34.5, -7.5,
+    12.5, -33.5,
+    -15, -33.5,
+    -26, -26.5,
+    -38, -6
+  ]
+}

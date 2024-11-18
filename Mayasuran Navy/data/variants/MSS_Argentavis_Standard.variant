@@ -1,0 +1,49 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 14,
+  "fluxVents": 16,
+  "goalVariant": true,
+  "hullId": "MSS_Argentavis",
+  "hullMods": [
+    "heavyarmor",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Argentavis_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymortar",
+        "WS0002": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyac",
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lrpdlaser",
+        "WS0008": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

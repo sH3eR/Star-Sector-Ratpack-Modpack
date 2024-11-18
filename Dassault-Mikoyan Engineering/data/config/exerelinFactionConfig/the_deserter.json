@@ -1,0 +1,57 @@
+{
+    "playableFaction":false,
+	"startingFaction":true,	# allows us to start as this faction even though it's not technically playable
+	"freeStart":true,	# don't spawn markets in random mode
+	"spawnAsFactionId":"player",	# transfer to this faction at start (after new game time pass)
+	
+    "corvusCompatible":true,
+	"difficultyString":"hard",
+	"ngcTooltip":"Awake on the foreign shores of freedom. Your enemies are many, your friends are few. Having stolen an advanced prototype ship and the blueprints for more, you'll need that firepower often in your new and desperate life.",
+
+	"baseFleetCostMultiplier":1.0, # Double
+	
+    "factionsLiked":[
+    ],
+    "factionsDisliked":[
+		"luddic_path", #been there, done that, did it better. Terrorism is for dickheads.
+		"luddic_church", #maybe God's Work wouldn't need doing quite so bad if you were less of a chucklefuck.
+		"independent", #yeah so about all those outback settlements we razed...
+		"hegemony", #the Domain was bad and you're still bad.
+		"tritachyon", #'let's make a fleet of AI warships that can annihilate us all, what could go wrong?' Dicks.
+		"persean", #because your championship of freedom is somewhat undercut by getting chummy with dictators.
+		"sindrian_diktat", #aaaaaassholes also the beer on Sindria is piss.
+		"remnant", #already been brainwormed by one AI, not doing that again.
+		"dassault_mikoyan", #it turns out that when you gun for someone for a decade they take it personally.
+		"blackrock_driveyards", #we rip huge holes in the fabric of space too, fuckers.
+		"shadow_industry", #lovely folks, too bad we murdered so many of them back in the day
+		"exigency", #the biggest space assholes! Very stylish though.
+		"tiandong", #we really crossed the line, can't even do business with the wheeler-dealers themselves.
+		"diableavionics", #oooh, now it's *slaving* assholes. Bring the good old bugle, boys.
+		"SCY", #look we have too many hybrid slots too.
+		"sylphon", #that AI shit you're smoking is gonna rot your brains.
+		"nullorder", #fuck you just to be safe.
+		"fob", #soul-eating tentacles aren't an improvement over loyalty implants, dude.
+		"Coalition", #big, green, pissed off at us.
+		"neutrinocorp", #yet *more* assholes.
+		"interstellarimperium", #roman assholes.
+		"syndicate_asp", #parcel assholes.
+		"pack", #dog assholes. Wait, now the furries are turned on.
+		"crystanite", #rock assholes.
+		"vass_shipyards", #time assholes.
+		"fringe_defence_syndicate", #assholes, a long, long time ago...
+		"nomads", #travelling assholes.
+		"junk_pirates", #scrap assholes.
+		"sad", #procgen assholes. I should found a porn startup.
+		"new_galactic_order" #gaping Nazi assholes.
+    ],
+    
+    "startShipsSolo":[["istl_starsylph_deserter_test"]],
+    "startShipsCombatLarge":[["istl_stormkestrel_proto_test"]],
+    "startShipsCarrierSmall":[["istl_curse_proto_test"]],
+    "startShipsSuper":[["istlx_braveblade_std", "istl_flatmouse_std", "istl_desertersupply_sm_std"]],
+    
+    "startSpecialItems":[
+        [["istl_deserter_package", ""]],
+    ],
+    
+}

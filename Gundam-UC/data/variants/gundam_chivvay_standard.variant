@@ -1,0 +1,69 @@
+{
+  "displayName": "Limited",
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "gundam_chivvay",
+  "hullMods": [
+	"advancedoptics",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_chivvay_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_2bcannon_m",
+                "WS0002": "gundam_mega_2bcannon_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gundam_builtin_front_spmissile",
+                "WS0004": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "gundam_pd_2mg",
+				"WS0006": "gundam_pd_2mg",
+				"WS0007": "gundam_pd_2mg",
+				"WS0008": "gundam_pd_2mg",
+				"WS0009": "gundam_pd_2mg",
+				"WS0010": "gundam_pd_2mg",
+				"WS0011": "gundam_pd_2mg",
+				"WS0012": "gundam_pd_2mg",
+				"WS0013": "gundam_pd_2mg"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "gundam_builtin_rear_swamp_missile",
+                "WS0015": "gundam_builtin_rear_swamp_missile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+        "gundam_zaku_ii_wing",
+		"gundam_gelgoog_wing"
+    ]
+}
+

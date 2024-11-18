@@ -1,0 +1,65 @@
+{
+  "variantId": "MSS_Skyrend_Elite",
+  "hullId": "MSS_Skyrend_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedshieldemitter",
+    "auxiliarythrusters",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyac",
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "railgun",
+        "WS0014": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak",
+        "WS0006": "flak",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0015": "pdlaser",
+        "WS0016": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MSS_Crossbow",
+    "MSS_Ferox"
+  ]
+}

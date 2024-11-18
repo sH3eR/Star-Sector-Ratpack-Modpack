@@ -1,0 +1,22 @@
+{
+  "variantId": "dom+defensepod_Autocannon",
+  "hullId": "dom+defense_pod_Autocannon",
+  "displayName": "Autocannon Pod",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,23 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+Infernium Injector,MSS_inferniuminjector,,,,,,,,2,0.15,0.5,0.1,1.25,0.05,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Shield Wall,MSS_damper,1,,,,,,,2,0.04,0.25,5,0.25,0,,,,,,,,,TRUE,,graphics/icons/hullsys/damper_field.png
+Drone Gunship,MSS_dronegunship,,,,,,,,3,0,0,,0,0,,,,,,,,,,,graphics/mayasura/hullmods/akinci.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Joker Protocol,MSS_jokerdrone,,,,,,,,3,0,0,,0,0,,,,,,,,,,,graphics/mayasura/hullmods/joker.png
+Solar Drive,MSS_solardrive,,,,,,,,,,1.5,6,1,10,,,,,,,,,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+Speed Shredder,MSS_overdrive,,,,,,,,,,1,5,1,10,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Gateway,MSS_phasegateway,,,,,,0.5,,,,0.5,,0.5,10,,,,,,,,,,,graphics/icons/hullsys/recall_device.png
+Infernium Burn,MSS_microburn,1,,,,,,,2,0.1,0.5,1,0.5,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Infernium Jets,MSS_maneuveringjets,,,,,,,,,,1,5,1,5,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Nitro Burn,MSS_microburnLT,1,,,,,,,2,0.1,0.5,1,0.5,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Prototype Phase Cloak,MSS_phasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Capital Jets,MSS_attitude,,,,,,,,3,0.05,1,4,1,0,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Safeties Switch,MSS_safeties,,,,,,,,,,1,,1,5,TRUE,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Safeties Switch,MSS_safetiesCapital,,,,,,,,,,1,,1,10,TRUE,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Variable Ammo,MSS_variableammo,,,,,,,,3,,0.15,,,0.15,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Plasma Grenades,MSS_vibecheck,,,,,,,,2,0.05,,,,3,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Orion Device,MSS_orion_device,,,,,,,,4,0.2,0,0.001,0,1,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png

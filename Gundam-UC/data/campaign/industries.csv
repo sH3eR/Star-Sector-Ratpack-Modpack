@@ -1,0 +1,63 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+gundam_side_efsf_station,Side Station - EFSF,50,90,,3,,gundam_side_efsf_battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:gundam_station_core_t1_efsf_standard,
+fleetName:Orbital Station,
+}",graphics/illustrations/side_station_efsf_illus.png,data.scripts.industry.GundamSideEFSF,"In the Universal Century timeline, space colonies are giant artificial structures in space, designed to house large-scale human habitation. The Earth Federation was responsible for the construction of all the inhabited space colonies within the Earth Sphere, and around 10 billion people were space colony residents by the outbreak of the One Year War.",2010,
+gundam_side_efsf_battlestation,Side Battle Station - EFSF,100,120,,4,gundam_side_efsf_station,gundam_side_efsf_fortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:gundam_station_core_t2_efsf_standard,
+fleetName:Battlestation,
+}",graphics/illustrations/side_station_efsf_illus.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"In the Universal Century timeline, space colonies are giant artificial structures in space, designed to house large-scale human habitation. The Earth Federation was responsible for the construction of all the inhabited space colonies within the Earth Sphere, and around 10 billion people were space colony residents by the outbreak of the One Year War.",2020,
+,,,,,,,,,,,,,,
+gundam_side_efsf_fortress,Side Fortress - EFSF,200,180,,5,gundam_side_efsf_battlestation,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:gundam_station_core_t3_efsf_standard,
+fleetName:Star Fortress
+
+}",graphics/illustrations/side_station_efsf_illus.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"In the Universal Century timeline, space colonies are giant artificial structures in space, designed to house large-scale human habitation. The Earth Federation was responsible for the construction of all the inhabited space colonies within the Earth Sphere, and around 10 billion people were space colony residents by the outbreak of the One Year War.",2030,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+gundam_side_zeon_station,Side Station - ZEON,50,90,,3,,gundam_side_zeon_battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:gundam_station_core_t1_zeon_standard,
+fleetName:Orbital Station,
+
+}",graphics/illustrations/side_station_zeon_illus.png,data.scripts.industry.GundamSideZEON,"In the Universal Century timeline, space colonies are giant artificial structures in space, designed to house large-scale human habitation. The Earth Federation was responsible for the construction of all the inhabited space colonies within the Earth Sphere, and around 10 billion people were space colony residents by the outbreak of the One Year War.",2010,
+,,,,,,,,,,,,,,
+gundam_side_zeon_battlestation,Side Battle Station - ZEON,100,120,,4,gundam_side_zeon_station,gundam_side_zeon_fortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:gundam_station_core_t2_zeon_standard,
+fleetName:Battlestation,
+
+}",graphics/illustrations/side_station_zeon_illus.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"In the Universal Century timeline, space colonies are giant artificial structures in space, designed to house large-scale human habitation. The Earth Federation was responsible for the construction of all the inhabited space colonies within the Earth Sphere, and around 10 billion people were space colony residents by the outbreak of the One Year War.",2020,
+,,,,,,,,,,,,,,
+gundam_side_zeon_fortress,Side Fortress - ZEON,200,180,,5,gundam_side_zeon_battlestation,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:gundam_station_core_t3_zeon_standard,
+fleetName:Star Fortress
+
+}",graphics/illustrations/side_station_zeon_illus.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"In the Universal Century timeline, space colonies are giant artificial structures in space, designed to house large-scale human habitation. The Earth Federation was responsible for the construction of all the inhabited space colonies within the Earth Sphere, and around 10 billion people were space colony residents by the outbreak of the One Year War.",2030,
+,,,,,,,,,,,,,,
+gundam_solomon_fortress,Solomon Fortress,200,180,,5,,,"station, sub_item, starfortress, unraidable, structure","{
+radius:70,
+variant:gundam_solomon_station_core_standard,
+fleetName:Star Fortress
+}",graphics/illustrations/solomon_station_illus.png,data.scripts.industry.GundamSideUnbuildable,"Solomon was one of the Principality of Zeon's asteroid fortresses, which served as the frontline base of Dozle Zabi's Space Attack Force. It is from here that Zeon launched its first attacks against the Earth Federation during the opening days of the One Year War.",2030,
+gundam_abq_fortress,A Baoa Qu Fortress,200,180,,5,,,"station, sub_item, starfortress, unraidable, structure","{
+radius:70,
+variant:gundam_abq_station_core_standard,
+fleetName:Star Fortress
+}",graphics/illustrations/abq_station_illus.png,data.scripts.industry.GundamSideUnbuildable,"A Baoa Qu was the Principality of Zeon's largest and most powerful asteroid base. A Baoa Qu was a fusion of two asteroids into one, forming an ""umbrella""-like shape; its size is about 33.75km tall and 22.5km in diameter.",2030,
+gundam_luna_ii_fortress,Luna II Fortress,200,180,,5,,,"station, sub_item, starfortress, unraidable, structure","{
+radius:70,
+variant:gundam_luna_ii_station_core_standard,
+fleetName:Star Fortress
+}",graphics/illustrations/luna_ii_illus.png,data.scripts.industry.GundamSideUnbuildable,"Luna II is a former mining asteroid located in Lagrange point 3. Originally known as Juno and used for the construction of the space colonies, Luna II became the headquarters of the Earth Federal Space Force in UC 0060.",2030,
+,,,,,,,,,,,,,,
+gundam_bp,Mobile Suit Development,,,,,,,"bp_maker, parent_item, industry, important",bp_maker,graphics/icons/industry/industry_zeonic.png,data.scripts.industry.MsFactZimmad,Industries for researching bluebrints from both ZEON and the EFSF,0,
+gundam_bp_zimmad,Zimmad,65,85,,8,,,"bp_maker, sub_item, industry, industrial, tactical_bombardment, uses_blueprints",,graphics/icons/industry/zimmad.png,data.scripts.industry.MsFactZimmad,"The Zimmad Company was among the companies trying to win the military contract with the Principality of Zeon, which would be provided to whichever company developed a working prototype of a next-generation mobile weapon.",2010,HIGH
+gundam_bp_zeonic,Zeonic,65,85,,8,,,"bp_maker, sub_item, industry, industrial, tactical_bombardment, uses_blueprints",,graphics/icons/industry/zeonic.png,data.scripts.industry.MsFactZeonics,"Zeonic is a civilian company that develops the first mobile suits, and goes on to become the Principality of Zeon's main mobile suit supplier.
+Zeonic is responsible for the development of the MS-05 Zaku I and MS-06 Zaku II.",2020,EXTREME
+gundam_bp_anaheim,Anaheim Electronics,65,85,,8,,,"bp_maker, sub_item, industry, industrial, tactical_bombardment, uses_blueprints",,graphics/icons/industry/anaheim.png,data.scripts.industry.MsFactAnaheim,"Based on the Moon, Anaheim Electronics originally produced a wide range of technological applications from consumer electronics to battleships and even space colonies.
+They are now the main producer of mobile suit for Earth Federation.",2030,EXTREME

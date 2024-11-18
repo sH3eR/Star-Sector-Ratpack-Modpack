@@ -1,0 +1,30 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+EFSF Deflected Shields,gundam_efsf_chm,,,EFSF,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,MS replacement rate does not go down when MS are lost.,MS replacement rate does not go down.,graphics/hullmods/gundam_efsf_chm.png
+Sieg Zeon,gundam_zeon_chm,,,ZEON,,,,,TRUE,,0,0,0,0,data.hullmods.GundamZeonCHM,"Ship's crews are bolstered in patriotism, lowering the replacement time of fighters by %s/%s/%s/%s, depending on hull size. The morale boost also makes the ship require less crew to operate, lowering skeleton crew requirement by %s.",Improves fighter replacement rate,graphics/hullmods/gundam_zeon_chm.png
+,,,,,,,,,,,,,,,,,,
+Shield,gundam_shield_module,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.GundamShieldModule,"The Torment has an auxiliary reactor that grants an additional shield, but can be attacked and destroyed during combat, which shuts down the secondary shield and reduces flux dissipation and capacity by %s percent.
+
+The secondary shield has %s capacity, %s dissipation and has a %s efficiency.
+
+The reactor and its shield are affected by the Torment captain's skills, but not by any hullmods applied to the Torment itself.",Severe reduction in combat capability if generator is destroyed.,graphics/empty.png
+,,,,,,,,,,,,,,,,,,
+,gundam_zaku_ii_char_weaponswap,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.selector.CharZakuII,Variesties of weapons to choose from.,,graphics/empty.png
+120mm Machine Gun,gundam_selector_zaku_ii_char_gun,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.selector.charZakuII.GselectorGun,"The current weapon is the %s.
+%s",Main weapon for this MS.,graphics/hullmods/gundam_selector_zakuii_char_gun.png
+175mm Recoilless Rifle,gundam_selector_zaku_ii_char_rifle,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.selector.charZakuII.GselectorRifle,"The current weapon is the %s.
+%s",Main weapon for this MS.,graphics/hullmods/gundam_selector_zakuii_char_rifle.png
+280mmA-P Zaku Bazooka,gundam_selector_zaku_ii_char_bazooka,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.selector.charZakuII.GselectorBazooka,"The current weapon is the %s.
+%s",Main weapon for this MS.,graphics/hullmods/gundam_selector_zakuii_char_bazooka.png
+,gundam_zaku_ii_psycho_weaponswap,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.selector.ZakuIIPhycho,Variesties of weapons to choose from.,,graphics/empty.png
+120mm Machine Gun,gundam_right_subarm_mg,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.selector.zakuIIPhycho.GselectorGun,"The current weapon is the %s.
+%s",Main weapon for this MS.,graphics/hullmods/gundam_selector_zakuii_char_gun.png
+280mmA-P Zaku Bazooka,gundam_right_subarm_bazooka,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.selector.zakuIIPhycho.GselectorBazooka,"The current weapon is the %s.
+%s",Main weapon for this MS.,graphics/hullmods/gundam_selector_zakuii_char_bazooka.png
+120mm Machine Gun,gundam_left_subarm_mg,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.selector.zakuIIPhycho.GselectorGun,"The current weapon is the %s.
+%s",Main weapon for this MS.,graphics/hullmods/gundam_selector_zakuii_char_gun.png
+280mmA-P Zaku Bazooka,gundam_left_subarm_bazooka,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.selector.zakuIIPhycho.GselectorBazooka,"The current weapon is the %s.
+%s",Main weapon for this MS.,graphics/hullmods/gundam_selector_zakuii_char_bazooka.png
+,,,,,,,,,,,,,,,,,,
+AI Learning Module,gundam_ai_learn,,,EFSF,,,,,TRUE,,0,0,0,0,data.hullmods.AlexAiLearning,Every %s your maximum spread reduces by %s.,Every %s your maximum spread reduces by %s.,graphics/empty.png
+Sniper Module,gundam_sniper,,,,,,,,TRUE,,0,0,0,0,data.hullmods.MsSniper,Increases weapon range by %s. Every %s for %s you do %s more damage.,Increases weapon range by %s. Every %s for %s you do %s more damage.,graphics/empty.png
+Leg Trusters,gundam_dom_truster,,,ZEON,,,,,TRUE,,0,0,0,0,data.hullmods.DomLegTruster,Increase acceleration by %s and turn speed by %s.,Increase acceleration by %s and turn speed by %s.,graphics/empty.png

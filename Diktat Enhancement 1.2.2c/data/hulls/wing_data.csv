@@ -1,0 +1,14 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+de_flurry_bomber_wing,de_flurry_Bomber,"bomber5, bomber, mid, sindrian_diktat, diktat_bp",2,,6,17,BOX,5000,1000,300,2,BOMBER,Support Bomber,30,15000,,,,,,,,,,,,,1
+de_bretasinge_wing,de_bretasinge_Escort,"support3, fighter, auto_fighter, mid, sindrian_diktat, diktat_bp",2,0.8,10,25,BOX,0,400,,1,SUPPORT,Defense Drone,60,30000,,,,,,,,,,,,,2
+de_bretais_wing,de_bretais_Escort,"support3, fighter, auto_fighter, mid, sindrian_diktat, diktat_bp",2,,5,12,V,0,400,,3,SUPPORT,Support Drone,15,8000,,,,,,,,,,,,,3
+de_flurry_LG_bomber_wing,de_flurry_LG_Bomber,"bomber3, bomber, mid, sindrian_diktat, lions_guard, LG_bp",2,0.75,8,20,BOX,5000,1000,300,1,BOMBER,Bomber,30,17000,,,,,,,,,,,,,4
+de_bretasinge_LG_wing,de_bretasinge_LG_Escort,"support3, fighter, auto_fighter, mid, sindrian_diktat, lions_guard, LG_bp",2,0.75,15,30,BOX,0,1000,,1,SUPPORT,Heavy Corvette,60,35000,,,,,,,,,,,,,5
+de_bretais_LG_wing,de_bretais_LG_Escort,"fighter3, fighter, auto_fighter, mid, sindrian_diktat, lions_guard, LG_bp",2,0.75,7,12,V,4000,500,0,3,FIGHTER,Assault Drone,15,10000,,,,,,,,,,,,,
+de_nephrops_wing,de_nephrops_Escort,"fighter3, fighter, mid, sindrian_diktat, diktat_bp",2,0.8,5,10,V,3000,500,,1,INTERCEPTOR,Lobster Mech,15,12000,,,,,,,,,,,,,
+de_metanephrops_wing,de_metanephrops_Escort,"fighter3, fighter, mid, sindrian_diktat, diktat_bp",2,0.8,5,10,V,3000,500,,1,INTERCEPTOR,Lobster Mech,15,12000,,,,,,,,,,,,,
+de_homarus_wing,de_homarus_Assault,"fighter3, fighter, mid, sindrian_diktat, lions_guard, LG_bp",2,0.8,10,20,V,5000,600,,1,FIGHTER,Battlemech,30,20000,,,,,,,,,,,,,
+de_miningpod_wing,de_miningpod_Interceptor,"support3, fighter, no_sell, no_drop, no_bp_drop, no_dealer",,0,0,0,V,4000,400,,6,INTERCEPTOR,Support Pod,5,1,,,,,,,,,,,,,
+de_woodpecker_wing,de_woodpecker_Bomber,"bomber5, bomber, mid, sindrian_diktat, diktat_bp, lions_guard, LG_bp",2,,8,15,BOX,5000,300,,2,BOMBER,Bomber,15,16000,,,,,,,,,,,,,
+de_langusta_wing,de_langusta_Fighter,"fighter3, fighter, low, pirates",2,0.5,10,17,V,5000,700,,1,FIGHTER,Crushtacean,30,20000,,,,,,,,,,,,,
+de_babirusa_LG_wing,de_babirusa_LG_Fighter,"fighter3, fighter, mid, lions_guard, LG_bp",2,0.75,12,13,CLAW,2000,500,-400,1,FIGHTER,Heavy Fighter,10,10000,,,,,,,,,,,,,

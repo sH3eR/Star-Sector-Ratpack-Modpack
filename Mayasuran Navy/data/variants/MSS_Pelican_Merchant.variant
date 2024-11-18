@@ -1,0 +1,68 @@
+{
+  "variantId": "MSS_Pelican_Merchant",
+  "hullId": "MSS_Pelican_MM",
+  "displayName": "Merchant",
+  "goalVariant": true,
+  "fluxCapacitors": 32,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heavyac",
+        "WS0007": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "harpoonpod",
+        "WS0009": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hephag",
+		"WS0018": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "taclaser",
+        "WS0015": "taclaser",
+        "WS0016": "taclaser",
+        "WS0017": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "devastator",
+        "WS0003": "flak",
+        "WS0004": "flak",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing",
+    "mining_drone_wing"
+  ]
+}

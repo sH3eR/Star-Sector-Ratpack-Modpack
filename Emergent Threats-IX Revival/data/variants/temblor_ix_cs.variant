@@ -1,0 +1,34 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "temblor_ix",
+    "hullMods": [
+        "magazines",
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "temblor_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS DIF": "diffraction_laser_ix"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "muon_streamer_ix"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "es_projector_ix"}
+        }
+    ],
+    "wings": []
+}

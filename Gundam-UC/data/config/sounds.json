@@ -1,0 +1,438 @@
+{
+  "music": {
+    "music_efsf_theme": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "EFSF.ogg"
+      }
+    ],
+    "music_efsf_battle": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "UNICORN.ogg"
+      }
+    ],
+    "music_efsf_friendly": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "ON_YOUR_MARK.ogg"
+      }
+    ],
+    "music_efsf_neutral": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "EFSF.ogg"
+      }
+    ],
+    "music_efsf_hostile": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "Mobile_Suit.ogg"
+      }
+    ],
+    "music_zeon_theme": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "MOV1-BANSHEE.ogg"
+      }
+    ],
+    "music_zeon_battle": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "FULL-FRONTAL.ogg"
+      }
+    ],
+    "music_zeon_friendly": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "MOV4-NEO_ZEON.ogg"
+      }
+    ],
+    "music_zeon_neutral": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "MOV1-BANSHEE.ogg"
+      }
+    ],
+    "music_zeon_hostile": [
+      {
+        "source": "sounds/music",
+        "volume": 0.5,
+        "file": "BRING_ON_A_WAR.ogg"
+      }
+    ]
+  },
+  "gundam_3_missile": [
+    {
+      "file": "sounds/gundamfx/gundam_3_missile.ogg",
+      "pitch": 1.0,
+      "volume": 0.8
+    },
+    {
+      "file": "sounds/gundamfx/gundam_3_missile.ogg",
+      "pitch": 0.97,
+      "volume": 0.4
+    },
+    {
+      "file": "sounds/gundamfx/gundam_3_missile.ogg",
+      "pitch": 0.94,
+      "volume": 0.2
+    }
+  ],
+  "gundam_bit_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_bit_beam.ogg",
+      "pitch": 1.0,
+      "volume": 0.3
+    },
+    {
+      "file": "sounds/gundamfx/gundam_bit_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_bit_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.1
+    }
+  ],
+  "gundam_cannon_blast": [
+    {
+      "file": "sounds/gundamfx/gundam_cannon_blast.ogg",
+      "pitch": 1.0,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_cannon_blast.ogg",
+      "pitch": 0.97,
+      "volume": 0.1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_cannon_blast.ogg",
+      "pitch": 0.94,
+      "volume": 0.05
+    }
+  ],
+  "gundam_chaingun": [
+    {
+      "file": "sounds/gundamfx/gundam_chaingun.ogg",
+      "pitch": 1.0,
+      "volume": 1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_chaingun.ogg",
+      "pitch": 0.97,
+      "volume": 0.5
+    },
+    {
+      "file": "sounds/gundamfx/gundam_chaingun.ogg",
+      "pitch": 0.94,
+      "volume": 0.2
+    }
+  ],
+  "gundam_electromagnetic_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_electromagnetic_beam.ogg",
+      "pitch": 1.0,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_electromagnetic_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_electromagnetic_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.05
+    }
+  ],
+  "gundam_front_missile": [
+    {
+      "file": "sounds/gundamfx/gundam_front_missile.ogg",
+      "pitch": 1.0,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_front_missile.ogg",
+      "pitch": 0.97,
+      "volume": 0.1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_front_missile.ogg",
+      "pitch": 0.94,
+      "volume": 0.05
+    }
+  ],
+  "gundam_gelgoog_gun_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_gelgoog_gun_beam.ogg",
+      "pitch": 1.0,
+      "volume": 0.4
+    },
+    {
+      "file": "sounds/gundamfx/gundam_gelgoog_gun_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_gelgoog_gun_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.1
+    }
+  ],
+  "gundam_gm_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_gm_beam.ogg",
+      "pitch": 1.0,
+      "volume": 0.3
+    },
+    {
+      "file": "sounds/gundamfx/gundam_gm_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/gundamfx/gundam_gm_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.1
+    }
+  ],
+  "gundam_light_machine_gun": [
+    {
+      "file": "sounds/gundamfx/gundam_light_machine_gun.ogg",
+      "pitch": 1.0,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_light_machine_gun.ogg",
+      "pitch": 0.97,
+      "volume": 0.1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_light_machine_gun.ogg",
+      "pitch": 0.94,
+      "volume": 0.05
+    }
+  ],
+  "gundam_machine_gun": [
+    {
+      "file": "sounds/gundamfx/gundam_machine_gun.ogg",
+      "pitch": 1.0,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_machine_gun.ogg",
+      "pitch": 0.97,
+      "volume": 0.1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_machine_gun.ogg",
+      "pitch": 0.94,
+      "volume": 0.05
+    }
+  ],
+  "gundam_main_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_main_beam.ogg",
+      "pitch": 1.0,
+      "volume": 0.6
+    },
+    {
+      "file": "sounds/gundamfx/gundam_main_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.3
+    },
+    {
+      "file": "sounds/gundamfx/gundam_main_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.15
+    }
+  ],
+  "gundam_main_cannon_blast": [
+    {
+      "file": "sounds/gundamfx/gundam_main_cannon_blast.ogg",
+      "pitch": 1.0,
+      "volume": 1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_main_cannon_blast.ogg",
+      "pitch": 0.97,
+      "volume": 0.5
+    },
+    {
+      "file": "sounds/gundamfx/gundam_main_cannon_blast.ogg",
+      "pitch": 0.94,
+      "volume": 0.3
+    }
+  ],
+  "gundam_minovski_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_minovski_beam.ogg",
+      "pitch": 1.0,
+      "volume": 1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_minovski_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.5
+    },
+    {
+      "file": "sounds/gundamfx/gundam_minovski_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.3
+    }
+  ],
+  "gundam_minovski_charge": [
+    {
+      "file": "sounds/gundamfx/gundam_minovski_charge.ogg",
+      "pitch": 1.0,
+      "volume": 1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_minovski_charge.ogg",
+      "pitch": 0.97,
+      "volume": 0.5
+    },
+    {
+      "file": "sounds/gundamfx/gundam_minovski_charge.ogg",
+      "pitch": 0.94,
+      "volume": 0.3
+    }
+  ],
+  "gundam_pd_2bc": [
+    {
+      "file": "sounds/gundamfx/gundam_pd_2bc.ogg",
+      "pitch": 1.0,
+      "volume": 0.1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_pd_2bc.ogg",
+      "pitch": 0.97,
+      "volume": 0.05
+    },
+    {
+      "file": "sounds/gundamfx/gundam_pd_2bc.ogg",
+      "pitch": 0.94,
+      "volume": 0.03
+    }
+  ],
+  "gundam_pd_2mg": [
+    {
+      "file": "sounds/gundamfx/gundam_pd_2mg.ogg",
+      "pitch": 1.0,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/gundamfx/gundam_pd_2mg.ogg",
+      "pitch": 0.97,
+      "volume": 0.1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_pd_2mg.ogg",
+      "pitch": 0.94,
+      "volume": 0.05
+    }
+  ],
+  "gundam_rifle_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_rifle_beam.ogg",
+      "pitch": 1.0,
+      "volume": 0.4
+    },
+    {
+      "file": "sounds/gundamfx/gundam_rifle_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_rifle_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.1
+    }
+  ],
+  "gundam_saber_cut": [
+    {
+      "file": "sounds/gundamfx/gundam_saber_cut.ogg",
+      "pitch": 1.0,
+      "volume": 0.6
+    },
+    {
+      "file": "sounds/gundamfx/gundam_saber_cut.ogg",
+      "pitch": 0.97,
+      "volume": 0.3
+    },
+    {
+      "file": "sounds/gundamfx/gundam_saber_cut.ogg",
+      "pitch": 0.94,
+      "volume": 0.15
+    }
+  ],
+  "gundam_saber_draw": [
+    {
+      "file": "sounds/gundamfx/gundam_saber_draw.ogg",
+      "pitch": 1.0,
+      "volume": 2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_saber_draw.ogg",
+      "pitch": 0.97,
+      "volume": 1
+    },
+    {
+      "file": "sounds/gundamfx/gundam_saber_draw.ogg",
+      "pitch": 0.94,
+      "volume": 0.5
+    }
+  ],
+  "gundam_sniper_beam": [
+    {
+      "file": "sounds/gundamfx/gundam_sniper_beam.ogg",
+      "pitch": 1.0,
+      "volume": 1.2
+    },
+    {
+      "file": "sounds/gundamfx/gundam_sniper_beam.ogg",
+      "pitch": 0.97,
+      "volume": 0.6
+    },
+    {
+      "file": "sounds/gundamfx/gundam_sniper_beam.ogg",
+      "pitch": 0.94,
+      "volume": 0.3
+    }
+  ],
+  "gundam_tank_cannon": [
+    {
+      "file": "sounds/gundamfx/gundam_tank_cannon.ogg",
+      "pitch": 1.0,
+      "volume": 0.7
+    },
+    {
+      "file": "sounds/gundamfx/gundam_tank_cannon.ogg",
+      "pitch": 0.97,
+      "volume": 0.4
+    },
+    {
+      "file": "sounds/gundamfx/gundam_tank_cannon.ogg",
+      "pitch": 0.94,
+      "volume": 0.2
+    }
+  ],
+  "gundam_new_type_alert": [
+    {
+      "file": "sounds/gundamfx/gundam_new_type_alert.ogg",
+      "pitch": 1,
+      "volume": 0.1
+    }
+  ]
+}

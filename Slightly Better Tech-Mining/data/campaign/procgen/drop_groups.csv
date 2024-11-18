@@ -1,0 +1,31 @@
+commodity,group,freq
+alpha_core,yunru_techmining,1
+beta_core,yunru_techmining,2
+gamma_core,yunru_techmining,5
+"wpn_:{weaponType:BALLISTIC, tags:[!no_drop, !restricted, !no_sell]}",yunru_techmining,150
+"wpn_:{weaponType:MISSILE, tags:[!no_drop, !restricted, !no_sell]}",yunru_techmining,150
+"wpn_:{weaponType:ENERGY, tags:[!no_drop, !restricted, !no_sell]}",yunru_techmining,150
+"ftr_:{tags:[!remnant, !no_drop, !restricted]}",yunru_techmining,150
+"item_modspec:{tags:[!no_drop_salvage, !restricted]}",yunru_techmining,9
+"item_ship_bp:{tags:[rare_bp, !no_drop, !restricted]}",yunru_techmining,45
+"item_weapon_bp:{tags:[rare_bp, !no_drop, !restricted]}",yunru_techmining,45
+"item_fighter_bp:{tags:[rare_bp, !no_drop, !restricted]}",yunru_techmining,45
+"item_:{tags:[package_bp, !no_drop, !restricted]}",yunru_techmining,9
+item_synchrotron,yunru_techmining,5
+item_pristine_nanoforge,yunru_techmining,5
+item_corrupted_nanoforge,yunru_techmining,10
+item_orbital_fusion_lamp,yunru_techmining,5
+item_mantle_bore,yunru_techmining,5
+item_catalytic_core,yunru_techmining,5
+item_soil_nanites,yunru_techmining,5
+item_biofactory_embryo,yunru_techmining,5
+item_fullerene_spool,yunru_techmining,5
+item_plasma_dynamo,yunru_techmining,5
+item_cryoarithmetic_engine,yunru_techmining,5
+item_drone_replicator,yunru_techmining,5
+item_dealmaker_holosuite,yunru_techmining,5
+item_coronal_portal,yunru_techmining,5
+"wpn_:{weaponType:BALLISTIC, tags:[sw_techmining]}",yunru_techmining,5
+"wpn_:{weaponType:MISSILE, tags:[sw_techmining]}",yunru_techmining,5
+"wpn_:{weaponType:ENERGY, tags:[sw_techmining]}",yunru_techmining,5
+nothing,yunru_techmining,1000

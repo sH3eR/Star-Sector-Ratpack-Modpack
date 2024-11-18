@@ -1,0 +1,130 @@
+{
+  "bounds": [
+    -12,
+    -18,
+    20,
+    -6.5,
+    6,
+    0,
+    20,
+    6.5,
+    -12,
+    18
+  ],
+  "builtInWings": [],
+  "center": [
+    20,
+    21
+  ],
+  "collisionRadius": 28.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 25,
+      "location": [
+        -10,
+        9
+      ],
+      "style": "MayasuranFlare",
+      "width": 3
+    },
+    {
+      "angle": -180,
+      "contrailSize": 3,
+      "length": 25,
+      "location": [
+        -10,
+        -9
+      ],
+      "style": "MayasuranFlare",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 25,
+      "location": [
+        -14,
+        -0
+      ],
+      "style": "MayasuranFlare",
+      "width": 3
+    }
+  ],
+  "height": 42,
+  "hullId": "MSS_Crossbow",
+  "hullName": "Crossbow",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 28.5,
+  "spriteName": "graphics/mayasura/ships/MSS_Crossbow.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        20,
+        6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        20,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        8,
+        12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        8,
+        -12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        6,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 40
+}

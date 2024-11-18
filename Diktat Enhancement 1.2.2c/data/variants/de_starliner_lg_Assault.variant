@@ -1,0 +1,32 @@
+{
+  "variantId": "de_starliner_lg_Assault",
+  "hullId": "de_starliner_lg",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "hardenedshieldemitter",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "de_flurry_LG_bomber_wing",
+    "de_homarus_wing"
+  ]
+}

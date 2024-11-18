@@ -1,0 +1,47 @@
+{
+  "animationType":"GLOW_AND_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 250,
+  "fireSoundTwo": "MSS_autolaser_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/mayasura/weapons/MSS_Sagir_turret_barrel.png",
+  "hardpointOffsets": [
+    10,
+    -2,
+    10,
+    2
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_Sagir_turret_base.png",
+  "id": "MSS_Sagir",
+  "muzzleFlashSpec":{"length":23.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":12,
+					   "particleColor":[255,100,100,255]},	
+  "projectileSpecId": "MSS_Sagir_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_Sagir_turret_glow.png",
+  "turretGunSprite": "graphics/mayasura/weapons/MSS_Sagir_turret_barrel.png",
+  "turretOffsets": [
+    9,
+    -2,
+    9,
+    2
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_Sagir_turret_base.png",
+  "type": "ENERGY",
+  "visualRecoil": 3
+}

@@ -1,0 +1,3 @@
+command,class,tags,syntax,help
+SpawnMoons,scripts.console.commands.lout_SpawnMoons,"campaign,lights_out",spawnMoons,Runs a moon generation script as if creating  a new game with Lights Out enabled. Not recommended to run more than once!
+HideSystems,scripts.console.commands.lout_HideSystems,"campaign,lights_out",hideSystems,Hides star systems as if creating a new game with Lights Out enabled.

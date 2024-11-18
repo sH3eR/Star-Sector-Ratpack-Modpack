@@ -1,0 +1,52 @@
+{
+  "id": "gundam_light_machine_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_light_machine_gun_bullet",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "",
+  "turretGunSprite": "",
+  "hardpointSprite": "",
+  "hardpointGunSprite": "",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    12,
+    -2,
+    12,
+    2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    -2,
+    17,
+    2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 10,
+    "particleSizeMin": 3,
+    "particleSizeRange": 5,
+    "particleDuration": 0.5,
+    "particleCount": 7,
+    "particleColor": [
+      200,
+      220,
+      50,
+      150
+    ]
+  },
+  "fireSoundTwo": "gundam_pd_2mg"
+}

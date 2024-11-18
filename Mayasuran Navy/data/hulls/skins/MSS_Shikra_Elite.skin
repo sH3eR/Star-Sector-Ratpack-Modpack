@@ -1,0 +1,24 @@
+{
+	"baseHullId":"MSS_Shikra",
+	"skinHullId":"MSS_Shikra_Elite",
+	"hullName":"Shikra (M)",
+	"descriptionId":"MSS_Shikra",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"The modernized upgrade of the Shikra features advanced autofactories, keeping even the smallest hunter capable of hunting down mighty Herons. A prototype spatial displacer has taken up the room of the Shikra's once spacious barracks, leaving many pilots disgruntled when they're teleported halfway across the battlefield.",
+	"ordnancePoints":100,
+	"baseValueMult":1.75,
+	"systemId":"MSS_phasegateway",
+	"spriteName":"graphics/mayasura/ships/MSS_Shikra_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		},
+}
+

@@ -1,0 +1,184 @@
+{
+    "playableFaction": true,
+    "corvusCompatible": true,
+    "rebelFleetSuffix": "Renegade",
+    "directoryUseShortName": true,
+    "startRelationships": {
+        "hegemony": -0.2,
+        "tritachyon": -0.1,
+        "pirates": 0,
+        "independent": 0.1,
+        "luddic_church": 0.2,
+        "luddic_path": 0.6,
+        "sindrian_diktat": 0.2,
+        "persean": -0.1,
+        "lions_guard": 0,
+        "remnant": -1,
+        "gundam_efsf": -0.5,
+        "diableavionics": 0.3,
+    },
+    "morality": "evil",
+    "diplomacyTraits": [
+        "paranoid",
+        "irredentist",
+        "envious"
+    ],
+    "alignments": {
+        "corporate": 0,
+        "technocratic": 0.7,
+        "militarist": 1,
+        "diplomatic": -0.2,
+        "ideological": 1
+    },
+    "isPirateNeutral": true,
+    "vengeanceLevelNames": [
+        "Vengeance",
+        "Defenestration",
+        "Extermination"
+    ],
+    "vengeanceFleetNames": [
+        "Vengeance",
+        "Defenestration",
+        "Extermination"
+    ],
+    "vengeanceFleetNamesSingle": [
+        "a Vengeance Detachment",
+        "a Defenestration Recon",
+        "an Extermination Force"
+    ],
+    "startShipsSolo": [
+        [
+            "gundam_carry_base"
+        ],
+    ],
+    "startShipsCombatSmall": [
+        [
+            "gundam_chivvay_standard",
+            "gundam_bigro_standard"
+        ],
+        [
+            "gundam_chibe_final_standard",
+            "gundam_bigro_standard"
+        ],
+        [
+            "gundam_big_zam_standard",
+            "gundam_yapp_standard"
+        ],
+    ],
+    "startShipsCombatLarge": [
+        [
+            "gundam_musai_standard",
+            "gundam_chivvay_standard",
+            "gundam_elmeth_standard"
+        ],
+        [
+            "gundam_musai_final_standard",
+            "gundam_chibe_final_standard",
+            "gundam_yapp_standard"
+        ],
+    ],
+    "startShipsTradeSmall": [
+        [
+            "gundam_chivvay_standard",
+            "gundam_yapp_standard"
+        ],
+        [
+            "gundam_chibe_final_standard",
+            "gundam_yapp_standard"
+        ],
+    ],
+    "startShipsTradeLarge": [
+        [
+            "gundam_chibe_final_standard",
+            "gundam_papua_standard",
+            "gundam_yapp_standard"
+        ],
+    ],
+    "startShipsCarrierSmall": [
+        [
+            "gundam_papua_standard",
+            "gundam_bigro_standard"
+        ],
+    ],
+    "startShipsCarrierLarge": [
+        [
+            "gundam_papua_standard",
+            "gundam_bigro_standard",
+            "gundam_elmeth_standard"
+        ],
+    ],
+    "startShipsSuper": [
+        [
+            "gundam_musai_standard",
+            "gundam_zaku_ii_char_pilot_standard"
+        ],
+    ],
+    "defenceStations": [
+        {
+            "ids": [
+                "gundam_side_zeon_station",
+                "gundam_side_zeon_battlestation",
+                "gundam_side_zeon_fortress",
+                "gundam_solomon_fortress",
+                "gundam_abq_fortress"
+            ]
+        },
+    ],
+    "startSpecialItems": [
+        [
+            [
+                "zeon_fighter_0_package",
+                ""
+            ]
+        ],
+        [
+            [
+                "zeon_hull_0_package",
+                ""
+            ]
+        ],
+        [
+            [
+                "zeon_ms_0_package",
+                ""
+            ]
+        ],
+    ],
+    "industrySeeds": [
+        {
+            "id": "orbitalworks",
+            "mult": 0.1
+        },
+        {
+            "id": "militarybase",
+            "mult": 0.5
+        },
+        {
+            "id": "fuelprod",
+            "mult": 0.05
+        },
+    ],
+    "bonusSeeds": [
+        {
+            "id": "nanoforge_corrupted",
+            "count": 1
+        },
+        {
+            "id": "aiCore_station",
+            "count": 2,
+            "mult": 0.2
+        },
+        {
+            "id": "aiCore_military",
+            "mult": 1.5
+        },
+        {
+            "id": "aiCore_heavyindustry",
+            "count": 1
+        },
+        {
+            "id": "aiCore_any",
+            "mult": 1.5
+        },
+    ],
+}

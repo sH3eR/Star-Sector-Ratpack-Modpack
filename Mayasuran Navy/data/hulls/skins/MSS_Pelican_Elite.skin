@@ -1,0 +1,47 @@
+{
+	"baseHullId":"MSS_Pelican",
+	"skinHullId":"MSS_Pelican_Elite",
+	"hullName":"Mithuna (M)",
+	"descriptionId":"MSS_Pelican",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"The military variant of the Mithuna, this upgraded version features an extra large turret to boost its firepower.",
+	"ordnancePoints":290,
+	"baseValueMult":1.50,
+	"spriteName":"graphics/mayasura/ships/MSS_Pelican_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"builtInWeapons":{
+     },
+     "weaponSlotChanges":{
+     	"WS0018":{
+     		#"angle": 0,
+            #"arc": 240,
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+     	 }
+     },
+	 "engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranFlare"},
+		"7":{"style":"MayasuranFlare"},
+		"8":{"style":"MayasuranFlare"},
+		"9":{"style":"MayasuranFlare"},
+		"10":{"style":"MayasuranFlare"},
+		"11":{"style":"MayasuranFlare"},
+		"12":{"style":"MayasuranFlare"},
+
+
+	},
+}
+
+
+

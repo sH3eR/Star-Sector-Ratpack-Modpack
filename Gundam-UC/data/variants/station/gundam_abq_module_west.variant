@@ -1,0 +1,72 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "gundam_abq_module_west",
+    "hullMods": [always_detaches],
+    "permaMods": [],
+    "variantId": "gundam_abq_module_west_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_2cannon",
+                "WS0002": "gundam_mega_2cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gundam_mega_3cannon",
+                "WS0004": "gundam_mega_3cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "gundam_mega_2bcannon_m",
+				"WS0006": "gundam_mega_2bcannon_m",
+				"WS0007": "gundam_mega_2bcannon_m",
+                "WS0008": "gundam_mega_2bcannon_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0009": "gundam_mega_3cannon_m",
+				"WS0010": "gundam_mega_3cannon_m",
+				"WS0011": "gundam_mega_3cannon_m"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0012": "gundam_pd_2bc",
+				"WS0013": "gundam_pd_2bc",
+				"WS0014": "gundam_pd_2bc",
+                "WS0015": "gundam_pd_2bc",
+                "WS0016": "gundam_pd_2bc",
+				"WS0017": "gundam_pd_2bc",
+				"WS0018": "gundam_pd_2bc",
+                "WS0019": "gundam_pd_2bc",
+				"WS0020": "gundam_pd_2bc"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0021": "gundam_builtin_rear_apmissile",
+				"WS0022": "gundam_builtin_rear_apmissile",
+				"WS0023": "gundam_builtin_rear_apmissile",
+				"WS0024": "gundam_builtin_rear_apmissile"
+            }
+        }
+    ],
+    "wings": []
+}

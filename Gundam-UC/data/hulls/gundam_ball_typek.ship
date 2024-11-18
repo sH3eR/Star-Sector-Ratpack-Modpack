@@ -1,0 +1,92 @@
+{
+  "hullName": "Ball Type-K",
+  "hullId": "gundam_ball_typek",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/ball_typek/gundam_ball_typek_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 23,
+  "width": 24,
+  "center": [12, 13],
+  "collisionRadius": 11.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "L_ARM": "gundam_ball_typek_lefthand",
+    "R_ARM": "gundam_ball_typek_righthand",
+    "CANNON": "gundam_ball_typek_cannon",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "R_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -33.5,
+      "locations": [8, -9]
+    },
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 33.5,
+      "locations": [8, 9]
+    },
+    {
+      "id": "CANNON",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-11.5, 0.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-9, -8]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-9, 8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -8],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-9, 8],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -9, 10,
+    9, 10,
+    9, -10,
+    -9, -10
+  ]
+}

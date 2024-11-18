@@ -1,0 +1,56 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_apsaras_iii",
+  "hullMods": [
+        "advancedoptics",
+		"fluxcoil",
+		"fluxdistributor",
+		"hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_apsaras_iii_standard",
+  "weaponGroups": [
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"M_BEAM": "gundam_builtin_blue_mega_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0002": "gundam_builtin_blue_beam",
+		"WS0003": "gundam_builtin_blue_beam",
+		"WS0004": "gundam_builtin_blue_beam",
+		"WS0005": "gundam_builtin_blue_beam",
+		"WS0006": "gundam_builtin_blue_beam",
+		"WS0007": "gundam_builtin_blue_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0008": "gundam_builtin_blue_beam",
+		"WS0010": "gundam_builtin_blue_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0009": "gundam_builtin_blue_beam",
+		"WS0011": "gundam_builtin_blue_beam"
+      }
+    }
+  ],
+  "wings": []
+}

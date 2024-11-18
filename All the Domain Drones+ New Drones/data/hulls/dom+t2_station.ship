@@ -1,0 +1,256 @@
+{
+  "hullName": "Domain Defensive Battlestation",
+  "hullId": "dom+t2_station",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Stations/Tier 2 Derelict Station.png",
+  "style": "LOW_TECH",
+  "height": 331,
+  "width": 600,
+  "center": [300, 163.5],
+  "collisionRadius": 296,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 308.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "axialrotation",
+    "vastbulk",
+    "supercomputer",
+    "turretgyros",
+    "solar_shielding"
+  ],
+  "builtInWings": [
+    "dom+defense_pod_Autocannon",
+    "dom+defense_pod_Autocannon"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [51.5, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [2.5, -54.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-50.5, -1.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [2.5, 58]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-1, -283]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [160, -2.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-87, 198.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-153.5, -0.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [1.5, -127]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-119.5, 1]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [1.5, 127]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [121, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [17.5, -263]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -0,
+      "locations": [17.5, 263]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-20.5, -228]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -180,
+      "locations": [-20.5, 228]
+    },
+    {
+      "id": "WS0017",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [86.5, 198]
+    },
+    {
+      "id": "WS0019",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [86.5, -203]
+    },
+    {
+      "id": "WS0018",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-86.5, -203.5]
+    },
+    {
+      "id": "WS0020",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [1.5, 280]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53, 55,
+        54, -53,
+        56, 50,
+        -45.5, -49,
+        -55.5, 59.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    139, 11,
+    110.5, 41,
+    61, 40,
+    43.5, 56.5,
+    43, 114,
+    28.5, 218,
+    29, 273,
+    -10.5, 273,
+    -30.5, 235,
+    -28.5, 218,
+    -40, 112,
+    -41, 60,
+    -54, 43,
+    -108, 41.5,
+    -137.5, 15,
+    -137.5, -15,
+    -108, -41.5,
+    -54, -43,
+    -41, -60,
+    -40, -112,
+    -28.5, -218,
+    -30.5, -235,
+    -10.5, -273,
+    29, -273,
+    28.5, -218,
+    43, -114,
+    43.5, -56.5,
+    61, -40,
+    110.5, -41,
+    139, -11
+  ]
+}

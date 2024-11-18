@@ -1,0 +1,46 @@
+fieldID,fieldName,fieldType,defaultValue,fieldDescription,minValue,maxValue,tab
+sun_ns_enableSkillRequirements,Enable Skill Requirements,Boolean,TRUE,Controls whether specific skills are required for some planetary operations.,,,Planetary Ops
+sun_ns_showExtraInfoAboutProfitability,Show Extra Info About Profitability,Boolean,FALSE,Controls whether profitability will be shown after the description of each operation when visiting a planet.,,,Planetary Ops
+,,,,,,,
+sun_ns_HEADER_SEARCH,,Header,Intel,,,,Planetary Ops
+sun_ns_markNewOperationIntelAsNew,Mark New Operation Intel As New,Boolean,TRUE,Controls whether operation intel from newly surveyed planets will be marked as new.,,,Planetary Ops
+sun_ns_showSortOptions,Show Sorting Options,Boolean,TRUE,Controls whether the operation search intel will show buttons for sorting the list based on various criteria.,,,Planetary Ops
+sun_ns_showOperationTypeFilters,Show Operation Type Filters,Boolean,TRUE,Controls whether the operation search intel will show buttons for filtering based on specific operation types.,,,Planetary Ops
+sun_ns_showOpsWhenRequiredSkillIsUnknown,Show Operations With Unfulfilled Skill Requirement,Boolean,TRUE,Controls whether operation intel will be shown if the skill required to perform the operation is not known.,,,Planetary Ops
+sun_ns_maxIntelIconsVisibleAtOnce,Max Intel Icons Visible At Once,Int,100,Controls the number of icons visible on the intel map. Starsector normally limits this to 100 for the sake of performance.,100,1000,Planetary Ops
+,,,,,,,
+sun_ns_HEADER_GENTERAL,,Header,Drive Field Anomaly,,,,Fuel and Anomaly
+sun_ns_enableDriveFieldAnomaly,Enable Drive Field Anomaly,Boolean,TRUE,"Studying the drive field anomaly may be profitable, but it may also significantly increase your fleet's fuel consumption under certain circumstances.",,,Fuel and Anomaly
+sun_ns_allowDriveFieldAnomalyToggle,Allow Drive Field Anomaly Toggle,Boolean,FALSE,Controls whether the drive field anomaly may be toggled on or off at any time in-game.,,,Fuel and Anomaly
+sun_ns_xpPerDataEarnedFromTravel,XP Per Data Earned from Travel,Int,100,"Controls how much XP is awarded at the end of a long voyage, based on how much data was earned from travelling.",0,1000,Fuel and Anomaly
+sun_ns_maxTravelRangeForShipsWithProtectedFuel,Max Travel Range for Ships With Protected Fuel,Int,100,"Non-civilian ships with a travel range (fuel capacity / fuel per LY) higher than this value will have fuel storage that is Militarized instead of Protected.
+Note that some modded ships may override their default fuel storage type.",0,1000,Fuel and Anomaly
+,,,,,,,
+sun_ns_HEADER_SIPHONING,,Header,Fuel Economy,,,,Fuel and Anomaly
+sun_ns_fuelConsumptionMult,Fuel Consumption Multiplier,Double,2,"Scales how quickly your fleet will consume fuel while traveling through hyperspace.
+
+A value of 2.0 will double your fuel consumption and a value of 0.5 will halve it.",0.1,10,Fuel and Anomaly
+sun_ns_fuelPriceMult,Fuel Price Multiplier,Double,0.4,"Scales the base price of fuel.
+
+Fuel costs 25 credits in the base game, so, if the price of fuel is unchanged by other mods, then a value of 2 will set the price to 50 credits and a value of 0.2 will set it to 5 credits.",0.1,10,Fuel and Anomaly
+sun_ns_sensorProfileIncreasePercent,Fuel Siphoning Sensor Profile Increase Percent,Int,300,Adjusts how much the sensor range of your fleet is increased while siphoning fuel.,0,1000,Fuel and Anomaly
+sun_ns_highDensityConversionRatio,High Density Fuel Siphoning Conversion Ratio,Double,1,"Controls how much fuel you get from siphoning clouds located in nebula systems.
+
+A value of 1 means the amount of fuel you get will be worth the same amount of credits as the supplies used to get it, while a value of 0.5 means the fuel will be worth half as much.",0.1,10,Fuel and Anomaly
+sun_ns_lowDensityConversionRatio,Low Density Fuel Siphoning Conversion Ratio,Double,0.4,"Controls how much fuel you get from siphoning clouds located in normal star systems.
+
+A value of 1 means the amount of fuel you get will be worth the same amount of credits as the supplies used to get it, while a value of 0.5 means the fuel will be worth half as much.",0.1,10,Fuel and Anomaly
+sun_ns_conversionRateMult,Fuel Siphoning Conversion Rate Multiplier,Double,1,"Scales how quickly supplies are converted into fuel.
+
+Note that the fuel capacity and current burn level of your fleet also scale the conversion rate. If it seems like the ability is working too slowly, try moving quickly through nebulae before adjusting this setting.",0.1,5,Fuel and Anomaly
+,,,,,,,
+sun_ns_allowRemoteManagementOfColonyItems,Allow Remote Management of Colony Items,Boolean,TRUE,Controls whether you need to be at a colony to add or remove AI cores and other items,,,Other
+sun_ns_additionalMissionPayPerLyFromCoreWorlds,Additional Mission Pay Per LY from Core Worlds,Int,2000,Increases how much you earn from alalyze/survey missions that are far from the center of the sector,0,10000,Other
+sun_ns_surveyorBarEventFrequencyMult,Surveyor Bar Event Frequency Multiplier,Double,1,Scales how often surveyors appear in dockside bars.,0,10,Other
+sun_ns_veteranMode,Veteran Mode,Boolean,FALSE,"Changes a few things to prioritize quality of life over other considerations. Specifically:
+- New games will start with fuel conversion on by default and all anomaly tiers already known
+- The ""Drive field stabilized"" message will only appear if a significant distance was traveled",,,Other
+,,,,,,,
+sun_ns_HEADER_FOOTNOTE,,Header,Configuration Files,,,,Other
+sun_ns_FOOTNOTE,,Text,"Other things can be changed by editing the files found at ""mods/Perilous Expanse/data/config/nomadic_survival/""
+Note that any changes affecting planetary operation procedural generation will require a new game to take effect.",,,,Other

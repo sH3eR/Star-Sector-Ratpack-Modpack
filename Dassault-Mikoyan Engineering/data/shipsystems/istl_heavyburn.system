@@ -1,0 +1,30 @@
+{
+	"id":"istl_heavyburn",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"data.shipsystems.scripts.istl_HeavyBurnStats",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":1.2,
+	"engineGlowGlowMult":1.8,
+	
+	"flameoutOnImpactChance":0.25,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"istl_ramdrive_activate",
+	"loopSound":"istl_ramdrive_loop",
+	"deactivateSound":"istl_jetinjector_deactivate",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}

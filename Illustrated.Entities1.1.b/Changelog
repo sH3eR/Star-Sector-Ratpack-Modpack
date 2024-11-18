@@ -1,0 +1,31 @@
+1.2.b
+Adjusted - 0.97 compatibility
+
+1.2.a
+Added - setting specifying if the pre-set images overwrite the existing vanilla illustrations. off by default.
+Adjusted - 0.96 compatibility
+Fixed - Crash when abandoning a colony
+Fixed - Custom set images are no longer lost on save reload
+Fixed - Orbital Stations no longer have different visuals than planets until player leaves system
+Fixed - Custom images now get retained when set via orbital station
+Fixed - Custom images now immediately apply to orbital stations when leaving a planet
+
+1.1.b
+Adjusted - Now removes accidental double spaces on line breaks
+
+1.1.a
+Added - In-game overlay allowing you to change planet and colony descriptions and texts
+Added - Setting to set the "Display duplicates" button to true by default
+Fixed - Should now consistently apply illustrations to player owned planets without image
+Fixed - Removed signature from image 12
+Fixed - Added !cld tag to image 3
+
+1.0.a
+Added - Initial Release
+
+1.0.2
+Fixed - Crash with Tahlan
+
+1.0.1
+General
+Added - First beta release

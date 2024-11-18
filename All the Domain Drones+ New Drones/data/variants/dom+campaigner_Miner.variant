@@ -1,0 +1,31 @@
+{
+  "variantId": "dom+campaigner_Miner",
+  "hullId": "dom+campaigner",
+  "displayName": "Miner",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 6,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+jouster_wing_gunship"
+  ]
+}

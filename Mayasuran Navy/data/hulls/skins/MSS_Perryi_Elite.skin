@@ -1,0 +1,21 @@
+{
+	"baseHullId":"MSS_Perryi",
+	"skinHullId":"MSS_Perryi_Elite",
+	"hullName":"Perryi (M)",
+	"descriptionId":"MSS_Perryi",
+	"descriptionPrefix":"The smallest corvette in Mayasura's fleet, this Perryi is upgraded with top of the line composite armor and generators.",
+	"baseValueMult":1.75,
+	"spriteName":"graphics/mayasura/ships/MSS_Perryi2_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranSilverFlare"},
+		"2":{"style":"MayasuranSilverFlare"},
+		"3":{"style":"MayasuranSilverFlare"},
+		"4":{"style":"MayasuranSilverFlare"},
+		},
+}
+

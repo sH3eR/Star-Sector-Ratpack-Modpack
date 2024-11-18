@@ -1,0 +1,84 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_big_zam",
+  "hullMods": [
+        "advancedoptics",
+		"fluxcoil",
+		"fluxdistributor",
+		"hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_big_zam_standard",
+  "weaponGroups": [
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"M_BEAM": "gundam_builtin_yellow_mega_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0009": "gundam_builtin_yellow_beam",
+		"WS0010": "gundam_builtin_yellow_beam",
+		"WS0011": "gundam_builtin_yellow_beam",
+		"WS0012": "gundam_builtin_yellow_beam",
+		"WS0013": "gundam_builtin_yellow_beam",
+		"WS0014": "gundam_builtin_yellow_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0003": "gundam_builtin_yellow_beam",
+		"WS0005": "gundam_builtin_yellow_beam",
+		"WS0007": "gundam_builtin_yellow_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0004": "gundam_builtin_yellow_beam",
+		"WS0006": "gundam_builtin_yellow_beam",
+		"WS0008": "gundam_builtin_yellow_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0017": "gundam_builtin_yellow_beam",
+		"WS0019": "gundam_builtin_yellow_beam",
+		"WS0021": "gundam_builtin_yellow_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0018": "gundam_builtin_yellow_beam",
+		"WS0020": "gundam_builtin_yellow_beam",
+		"WS0022": "gundam_builtin_yellow_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+		"L_LEG": "gundam_big_zam_leftleg",
+		"R_LEG": "gundam_big_zam_rightleg"
+      }
+    }
+  ],
+  "wings": []
+}

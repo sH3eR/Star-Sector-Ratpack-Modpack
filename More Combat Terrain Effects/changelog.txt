@@ -1,0 +1,517 @@
+1.8.0
+Campaign objectives (Nav buoys, comm relays, sensor relays) now have in-combat effects
+    Increase coordinated maneuvers
+    Increase CP regen
+    Increase weapon range
+
+    Intensity changes based on campaign distance from these objectives
+
+Indevo integration - minefields now spawn mines in-combat
+    Lower performance than star fortress mines
+    Can target both sides at once if neutral
+        Due to engine limitations, mines targetting enemies will always be allied, so you cant shoot them down
+
+Polished some numbers into ints and gave nebula a new icon
+Fixed missions endlessly loading settings
+
+1.7.2
+Update to station augments 1.0.0
+
+1.7.1
+Tweaked some station augment stuff
+
+1.7.0
+Station augments support - rare augments that create terrain effects can now be found if both mods are enabled (NOTE ITS CURRENTLY INDEV)
+Fixed a bug where the game would fail to spawn the talon that is blamed for hyperstorm lightning
+Fixed a bug where missions were crashing
+
+1.6.0
+New lunasettings option for controlling how strong UNGP effects are
+
+1.5.2
+
+Fixed DEM lasers having reduced range in magfields and acting weirdly as a result
+
+1.5.1
+
+Meson fields now actually have extra effects in meson storms
+Removed the "release" preset, as I realzied it honestly kinda sucks and really makes magfields lame
+
+1.5.0
+Clarified that the error message toggle is in lunasettings
+
+Now has UNGP rules for applying terrain effects to all battles
+    The backend has been notably refactored to allow for this
+    Uses enums now, and a significantly different approach to instantiating effects
+
+    YOU CANNOT DISABLE MCTE IF YOU HAVE THESE RULES ENABLED! IT WILL PROBABLY CRASH
+
+By default, the slipstream PPT mult is now very forgiving
+    Its more fun this way
+
+1.4.3
+Fixed a yuri expedition crash with magfields
+
+1.4.2
+Fixed a long-standing (apparantly) bug where ECCM didnt work in magfields (ugh)
+
+1.4.1
+Hotfix for a settings crash (WHY DID THIS NEVER CRASH FOR ME WTF)
+
+1.4.0
+New effect: Meson Field (More Planetary Conditions)
+    The field moderately increases non-missile weapon range and vision range
+    The storm significantly increases all weapon range, vision range, system range, and wing engagement range
+
+Fixed terrain effects applying when fighting on a hypershunt (or a gravitational dynamo for you RAT fans)
+
+New lunasettings config
+    Block effects on terrain-blocker interaction
+    Block effects on terrain-blocker proximity
+
+Fixed lunasettings not updating after being changed
+
+Fully uncoupled terrain effects from the terrain plugins
+    Theoretically, a mission can now be ran with terrain effects
+
+Nex integration
+    Hyperstorms
+        Chance to strike a few industries with lightning
+        Does massive damage to all units and can disorganize
+        Holders of the industry receive less damage
+        Blocked by planetary shield
+    Pulsar
+        All units disorganized until the pulsar goes away
+        Does chip damage to all units slowly
+        Blocked by planetary shield
+
+LunaSettings separated into sections
+
+1.3.2:
+
+Hotfix for nexerelin crash
+
+1.3.1:
+Finally using the correct version num in changelog
+
+Now using reflection to call obfuscated functions which allows this to work on Mac and Linux
+
+1.2.5:
+
+Update to starsector 0.97
+
+Disabled nebula effects by default
+    Too annoying
+    Restore settings to default in lunasettings to see this change
+
+Added a new MCTE_settings.json preset: "Release"
+    More forgiving
+    Magnetic fields nerfed in it
+    Default
+
+    Old "standard" preset no longer the "standard"
+
+1.2.4:
+
+Migrated most lunalib settings to json
+    Allows me to change settings between versions
+        If you had any custom settings, migrate them, please
+    Some settings may have been erronously changed in this migration
+    You can now use MCTE_reloadSettings config in-combat and some things may change to config
+
+New settings
+    Hyperstorm
+        MCTE_hyperstormTimesToArc: 5
+            The amount of arcs the final damaging arc will be split into
+                Higher = more spread out damage
+                High EMP damage values spread out across many points = devastating
+    Slipstream
+        Add SO range debuffs
+            If range threshold isnt modified, SO range is mimicked
+            Not guaranteed to always work, especially if you have psuedo-SO like forced overdrive from tahlan!
+
+Pulsar
+    EMP damage of projectiles -> 70 base
+        You REALLY feel the damage, now
+Hyperstorm
+    Range of arcs -> 1200 from 1000
+    Min/Max strike timers -> 2/5 from 5/7
+    Grace period -> 3 from 5
+    Arc emp damage -> 12000
+        For such a rare effect, you'd better bet the effects are gonna be pretty significant
+
+1.2.4:
+SAVE COMPATABLE
+
+Optimized the script adder for missions to avoid unneccessary json loading
+
+Migrated most lunalib settings to json
+    Allows me to change settings between versions
+        If you had any custom settings, migrate them, please
+    Some settings may have been erronously changed in this migration
+    You can now use MCTE_reloadSettings config in-combat and some things may change to config
+
+New settings
+    Hyperstorm
+        MCTE_hyperstormTimesToArc: 5
+            The amount of arcs the final damaging arc will be split into
+                Higher = more spread out damage
+                High EMP damage values spread out across many points = devastating
+    Slipstream
+        Add SO range debuffs
+            If range threshold isnt modified, SO range is mimicked
+            Not guaranteed to always work, especially if you have psuedo-SO like forced overdrive from tahlan!
+
+Pulsar
+    EMP damage of projectiles -> 70 base
+        You REALLY feel the damage, now
+Hyperstorm
+    Range of arcs -> 1200 from 1000
+    Min/Max strike timers -> 2/5 from 5/7
+    Grace period -> 3 from 5
+    Arc emp damage -> 12000
+        For such a rare effect, you'd better bet the effects are gonna be pretty significant
+
+Slipstream
+    If fighter, missile, or already has SO, max turn rate is increased
+
+1.2.4:
+SAVE COMPATABLE
+
+Optimized the script adder for missions to avoid unneccessary json loading
+
+Migrated most lunalib settings to json
+    Allows me to change settings between versions
+        If you had any custom settings, migrate them, please
+    Some settings may have been erronously changed in this migration
+    You can now use MCTE_reloadSettings config in-combat and some things may change to config
+
+New settings
+    Hyperstorm
+        MCTE_hyperstormTimesToArc: 5
+            The amount of arcs the final damaging arc will be split into
+                Higher = more spread out damage
+                High EMP damage values spread out across many points = devastating
+    Slipstream
+        Add SO range debuffs
+            If range threshold isnt modified, SO range is mimicked
+            Not guaranteed to always work, especially if you have psuedo-SO like forced overdrive from tahlan!
+
+Pulsar
+    EMP damage of projectiles -> 70 base
+        You REALLY feel the damage, now
+Hyperstorm
+    Range of arcs -> 1200 from 1000
+    Min/Max strike timers -> 2/5 from 5/7
+    Grace period -> 3 from 5
+    Arc emp damage -> 12000
+        For such a rare effect, you'd better bet the effects are gonna be pretty significant
+
+Slipstream
+    If fighter, missile, or already has SO, max turn rate is increased
+
+1.2.4:
+SAVE COMPATABLE
+
+Optimized the script adder for missions to avoid unneccessary json loading
+
+Migrated most lunalib settings to json
+    Allows me to change settings between versions
+        If you had any custom settings, migrate them, please
+    Some settings may have been erronously changed in this migration
+    You can now use MCTE_reloadSettings config in-combat and some things may change to config
+
+New settings
+    Hyperstorm
+        MCTE_hyperstormTimesToArc: 5
+            The amount of arcs the final damaging arc will be split into
+                Higher = more spread out damage
+                High EMP damage values spread out across many points = devastating
+    Slipstream
+        Add SO range debuffs
+            If range threshold isnt modified, SO range is mimicked
+            Not guaranteed to always work, especially if you have psuedo-SO like forced overdrive from tahlan!
+
+Pulsar
+    EMP damage of projectiles -> 70 base
+        You REALLY feel the damage, now
+Hyperstorm
+    Range of arcs -> 1200 from 1000
+    Min/Max strike timers -> 2/5 from 5/7
+    Grace period -> 3 from 5
+    Arc emp damage -> 12000
+        For such a rare effect, you'd better bet the effects are gonna be pretty significant
+
+Slipstream
+    If fighter, missile, or already has SO, max turn rate is increased
+
+1.2.4:
+SAVE COMPATABLE
+
+Optimized the script adder for missions to avoid unneccessary json loading
+
+Migrated most lunalib settings to json
+    Allows me to change settings between versions
+        If you had any custom settings, migrate them, please
+    Some settings may have been erronously changed in this migration
+    You can now use MCTE_reloadSettings config in-combat and some things may change to config
+
+New settings
+    Hyperstorm
+        MCTE_hyperstormTimesToArc: 5
+            The amount of arcs the final damaging arc will be split into
+                Higher = more spread out damage
+                High EMP damage values spread out across many points = devastating
+    Slipstream
+        Add SO range debuffs
+            If range threshold isnt modified, SO range is mimicked
+            Not guaranteed to always work, especially if you have psuedo-SO like forced overdrive from tahlan!
+
+Pulsar
+    EMP damage of projectiles -> 70 base
+        You REALLY feel the damage, now
+Hyperstorm
+    Range of arcs -> 1200 from 1000
+    Min/Max strike timers -> 2/5 from 5/7
+    Grace period -> 3 from 5
+    Arc emp damage -> 12000
+        For such a rare effect, you'd better bet the effects are gonna be pretty significant
+
+Slipstream
+    If fighter, missile, or already has SO, max turn rate is increased
+
+1.2.4:
+SAVE COMPATABLE
+
+Optimized the script adder for missions to avoid unneccessary json loading
+
+Migrated most lunalib settings to json
+    Allows me to change settings between versions
+        If you had any custom settings, migrate them, please
+    Some settings may have been erronously changed in this migration
+    You can now use MCTE_reloadSettings config in-combat and some things may change to config
+
+New settings
+    Hyperstorm
+        MCTE_hyperstormTimesToArc: 5
+            The amount of arcs the final damaging arc will be split into
+                Higher = more spread out damage
+                High EMP damage values spread out across many points = devastating
+    Slipstream
+        Add SO range debuffs
+            If range threshold isnt modified, SO range is mimicked
+            Not guaranteed to always work, especially if you have psuedo-SO like forced overdrive from tahlan!
+
+Pulsar
+    EMP damage of projectiles -> 70 base
+        You REALLY feel the damage, now
+Hyperstorm
+    Range of arcs -> 1200 from 1000
+    Min/Max strike timers -> 2/5 from 5/7
+    Grace period -> 3 from 5
+    Arc emp damage -> 12000
+        For such a rare effect, you'd better bet the effects are gonna be pretty significant
+
+Slipstream
+    If fighter, missile, or already has SO, max turn rate is increased
+
+1.2.4:
+SAVE COMPATABLE
+
+Optimized the script adder for missions to avoid unneccessary json loading
+
+Migrated most lunalib settings to json
+    Allows me to change settings between versions
+        If you had any custom settings, migrate them, please
+    Some settings may have been erronously changed in this migration
+    You can now use MCTE_reloadSettings config in-combat and some things may change to config
+
+New settings
+    Hyperstorm
+        MCTE_hyperstormTimesToArc: 5
+            The amount of arcs the final damaging arc will be split into
+                Higher = more spread out damage
+                High EMP damage values spread out across many points = devastating
+    Slipstream
+        Add SO range debuffs
+            If range threshold isnt modified, SO range is mimicked
+            Not guaranteed to always work, especially if you have psuedo-SO like forced overdrive from tahlan!
+
+Pulsar
+    EMP damage of projectiles -> 70 base
+        You REALLY feel the damage, now
+Hyperstorm
+    Range of arcs -> 1200 from 1000
+    Min/Max strike timers -> 2/5 from 5/7
+    Grace period -> 3 from 5
+    Arc emp damage -> 12000
+        For such a rare effect, you'd better bet the effects are gonna be pretty significant
+
+Slipstream
+    If fighter, missile, or already has SO, max turn rate is increased
+
+1.2.3:
+
+New settings:
+
+Solar Shielding Effect Mult: Control the multipler applied to solar shielding for effects that use them
+    E.g. Black holes
+
+Updated tips.json to reflect the fact we use lunalib
+
+Default lunalib settings changed
+    Nebula no longer removes zero flux boost
+
+1.2.2:
+Fixes a long-standing bug with pulsars making weapons do infinite EMP damage (finally)
+Adjusts hyperstorm targetting math again
+
+Adjusts default lunalib settings, please reset your configs to default
+
+1.2.1:
+Update to newest version, again
+
+Hyperstorm nebula creation now works better and can even arc across clouds
+Hyperstorm targetting now lowers your speed-to-not-get-hit threshold if your mass is above the given threshold
+
+New lunalib settings:
+Untargetability mass threshold
+Targetting coefficient: Mass
+Maximum multiplier: Mass
+Targetting coefficient: Speed
+Maximum multiplier: Speed
+
+1.2.0:
+Update to Starsector 0.96a
+Updated LunaLib config, sliders now work woo
+
+Hyperstorm targetting is now far more random and less predictable
+Hyperstorm targetting now favors fighters and missiles far less
+Hyperstorm targetting now favors mass more
+Hyperstorm radius doubled (Will cause a few visual errors)
+
+Default settings to lunalib changed
+
+New lunalib settings:
+Randomness threshold for hyperstorms - Decide how "random" the targetting is
+Toggle for sidebar info - No more spam in the side of your screen
+
+Fixed a bug where slipstreams would infinitely stack speed onto SO-d ships
+Fixed a bug where slipstreams would consider tangible objects intangible and vice versa
+
+Hyperstorms are now much less likely to strike low-mass targets
+
+1.1.4:
+Once again, changed how the OS detection works to maybe fix the fucking classnotfound crash
+
+1.1.3:
+Internal:
+Replaces most timers with intervalutils
+
+Features:
+All effects now constantly re-apply their stat changes, to allow for dynamic changes, such as the slipstream change
+Slipstreams no longer affect intangible ships
+If solar shielding/ECCM/whatever changes during combat, terrain effects will now change their values to account for it
+
+Config:
+New config option: Determine if slipstreams affect intangible entities or not
+
+Bugfixes:
+Fixed a bug where pulsars kept their EMP damage increase applied even after the battle ends, and applied it to all weapons
+Please watch pulsar battles for excessive EMP damage as I realized a flaw in my implementation that may still be broke
+
+1.1.2:
+Adds lunalib headers
+Fixes hyperspace crashes for non-windows
+Some nebula adjustments
+
+1.1.1a:
+Removes magiclib dependency
+
+1.1.1:
+SAVE COMPATABLE
+Removes redundant feature that doesnt work
+Adjusts some values in settings, notably hyperstorm lightning delay
+Makes things like hardflux gen and gravity respect time dilation better
+
+1.1.0:
+MAYBE SAVE COMPATIBLE I DUNNO
+Migrated settings to data/config/LunaSettings.csv (Press F2 to configure your settings in-game)
+Added lunasettings dependency
+Made the code safer and less likely to break the game
+Made pulsars and black holes more intense
+Deep hyperspace now spawns a ton of clouds
+More changes that I do not remember! Woo!
+
+1.0.1b:
+SAVE COMPATABLE
+Brute forces a fix to the NaN crashes. Give me your log if you see an error.
+
+1.0.1a:
+SAVE COMPATABLE
+Fixes a rare crash with nebulae's cellsize being 0, causing division by zero
+
+1.0.1:
+SAVE COMPATABLE
+Fixed a pulsar bug
+Nebulae now slow you down less if you have insulated engine assembly
+Misc polish
+New config settings, adjusted config settings
+
+1.0.0: RELEASE
+SAVE COMPATABLE
+Hyperstorm lightning now launches it's target super fast
+Hyperstorms now respect mass and speed of any ship that it wants to strike
+Some adjustments to hyperstorms to make the AI less likely to vent while in danger of lightning
+Adjusted lightning values to do far less energy damage, as it's really annoying to watch my carriers keep blowing up to lightning because they don't know how to react
+Hyperstorms now properly function when their target is no longer available to be struck
+Adjusted some magfield values to make it more functional
+
+Slipstreams now double your 0 flux boost if you already have the 0 flux boost permanently active
+A few adjustments to slipstreams
+
+The next 2 effects replace or mitigate the vanilla CR penalties, this is configurable in the config
+NEW EFFECT: BLACK HOLE
+Drags all entities in combat towards itself with a rather powerful pull, missiles and projectiles will drift, and slow ships will struggle. Not affected by solar shielding
+Increases timeflow on all ships. This effect is reduced by solar shielding, making solar shielding affect your combat performance negatively
+
+NEW EFFECT: PULSAR
+Pushes all entities in combat away from itself with a modest push, the only things that will struggle are things like MIRV warheads. Affected by solar shielding
+Decreases shield efficiency and EMP arc penetration resist, increases shield upkeep
+Randomly EMPs ships that don't have a 360 degree shield
+Slowly increases hardflux on all ships that arent fighters
+Charges all projectiles with a flat bonus to EMP damage (vulkan spam is now VERY viable), NOT affected by solar shielding
+
+Some more tips
+
+0.3.3: Last update before fully release probably
+I hoenstly forgot most of the changes I made
+Hyperstorms now have a bit of variation in the area they do the telegraph strieks in
+
+0.3.2:
+GraphicsLib enhancements for lightning
+Telegraph arcs now progressively get louder to audibly warn you of your imminent demise
+Some balance tweaks
+A few fixes
+Interstellar Imperium hypercloud integration
+
+0.3.1:
+Significant hyperstorm backend rework
+Nebulae center is now approximated using a config option
+Soem hyperstorm balance changes
+Possibly fixed a crash with nebulae and hyperstorms?
+
+0.3.0:
+Deep hyperspace beta
+
+0.2.0:
+Tips
+A bit of backend work
+Full settings integration-everything is now fully configurable, check the settings
+Nebulae
+
+0.1.0:
+Slipstreams
+
+0.0.0:
+InDev release

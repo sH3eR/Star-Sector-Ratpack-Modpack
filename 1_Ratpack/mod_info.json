@@ -1,0 +1,22 @@
+{
+	"id":"Music_Switcher",
+	"name":"Rackpack",
+	"author":"Sheer",
+	"version":"2.0",
+	"description":"Ratpack, a custom mod made as a location for all heavy config changes and qol additions for features",
+	"gameVersion":"0.97a-RC11",
+	"modPlugin":"plugins.lout_ModPlugin",
+	"jars":["jars/MusicSwitcher.jar","jars/LightsOut.jar"],
+	"dependencies": 
+	[
+		{
+		"id": "lw_lazylib",
+		"name": "LazyLib",
+		},
+		{
+		"id": "lunalib",
+		"name": "LunaLib",
+		"version": "1.8.4"
+		},
+	]
+}

@@ -1,0 +1,88 @@
+{
+  "variantId": "dom+t2_station_First",
+  "hullId": "dom+t2_station",
+  "displayName": "Fortress",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "flak",
+        "WS0010": "flak",
+        "WS0011": "flak",
+        "WS0012": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "shredder",
+        "WS0014": "shredder",
+        "WS0015": "shredder",
+        "WS0016": "shredder"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0005": "dom+t1_station_north_North"
+    },
+    {
+      "WS0006": "dom+t1_station_north_North"
+    },
+    {
+      "WS0007": "dom+t2_station_north_Gunplatform"
+    },
+    {
+      "WS0008": "dom+t1_station_north_North"
+    },
+    {
+      "WS0019": "dom+t2_station_north_Gunplatform"
+    },
+    {
+      "WS0018": "dom+t2_station_north_Gunplatform"
+    },
+    {
+      "WS0017": "dom+t2_station_north_Gunplatform"
+    },
+    {
+      "WS0020": "dom+t1_station_north_North"
+    }
+  ],
+  "wings": []
+}

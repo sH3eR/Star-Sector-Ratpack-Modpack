@@ -1,0 +1,28 @@
+{
+  "variantId": "dom+ms_top_left_3_variant",
+  "hullId": "dom+ms_top_left_3",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dom+triplesuperheavymortar",
+        "WS0002": "pilum",
+        "WS0003": "vulcan",
+        "WS0005": "pilum",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

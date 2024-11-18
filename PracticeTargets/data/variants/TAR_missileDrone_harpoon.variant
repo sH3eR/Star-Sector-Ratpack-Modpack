@@ -1,0 +1,18 @@
+{
+  "displayName": "Harpoon",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "TAR_missileDrone",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "TAR_missileDrone_harpoon",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoonpod"
+      }
+    }
+  ]
+}

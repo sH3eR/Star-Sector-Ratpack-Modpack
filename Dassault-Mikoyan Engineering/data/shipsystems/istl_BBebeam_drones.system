@@ -1,0 +1,56 @@
+{
+	"id":"istl_BBebeam_drones",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"istl_ebeam_drone_std",
+	
+	"allowFreeRoam":false,
+	
+	"launchSpeed":300,
+	"launchDelay":0.5,
+	"maxDrones":3,
+	"droneBehavior":[
+		{"droneIndex":[0],
+		 "defaultFacing":"MATCH_SHIP_FACING",
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[SHIP_TARGET, SHIP, FIGHTER],
+		 "initialOrbitAngle":30,
+		 "orbitRadius":45,
+		 "orbitDir":1,
+		 "orbitSpeed":0,
+		},
+		{"droneIndex":[1],
+		 "defaultFacing":"MATCH_SHIP_FACING",
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[SHIP_TARGET, SHIP, FIGHTER],
+		 "initialOrbitAngle":-30,
+		 "orbitRadius":45,
+		 "orbitDir":1,
+		 "orbitSpeed":0,
+		},
+		{"droneIndex":[2],
+		 "defaultFacing":"MATCH_SHIP_FACING",
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[SHIP_TARGET, SHIP, FIGHTER],
+		 "initialOrbitAngle":0,
+		 "orbitRadius":30,
+		 "orbitDir":1,
+		 "orbitSpeed":0,
+		},
+	],
+	
+	"useSound":"istl_DME_dronelaunch",
+	"outOfUsesSound":"istl_midtech_arm_sm",
+	
+	"aiHints":{
+
+	}
+}
+

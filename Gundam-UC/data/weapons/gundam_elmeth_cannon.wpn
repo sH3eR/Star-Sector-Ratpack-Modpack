@@ -1,0 +1,47 @@
+{
+  "id": "gundam_elmeth_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "hellbore_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 600,
+  "turretSprite": "graphics/ma/elmeth/gundam_elmeth_cannon.png",
+  "turretGunSprite": "graphics/ma/elmeth/gundam_elmeth_cannon_recoil.png",
+  "hardpointSprite": "graphics/ma/elmeth/gundam_elmeth_cannon.png",
+  "hardpointGunSprite": "graphics/ma/elmeth/gundam_elmeth_cannon_recoil.png",
+  "visualRecoil": 5,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    29,
+    1
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    61,
+    1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 65,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 35,
+    "particleDuration": 0.75,
+    "particleCount": 50,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "gundam_main_cannon_blast"
+}

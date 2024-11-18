@@ -1,0 +1,82 @@
+{
+  "variantId": "de_ingress_lg_Beamer",
+  "hullId": "de_ingress_lg",
+  "displayName": "Beamer",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "advancedoptics",
+    "targetingunit",
+    "advancedshieldemitter",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "de_pulsecarbine"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "gravitonbeam",
+        "WS0007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "hveldriver",
+        "WS0009": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "de_incisorpod",
+        "WS0013": "de_incisorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "dualflak",
+        "WS0015": "heavyburst",
+        "WS0016": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0017": "pdlaser",
+        "WS0018": "swarmer",
+        "WS0019": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

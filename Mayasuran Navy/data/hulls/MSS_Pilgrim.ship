@@ -1,0 +1,249 @@
+{
+  "hullName": "Pilgrim",
+  "hullId": "MSS_Pilgrim",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mayasura/ships/MSS_Pilgrim.png",
+  "style": "MIDLINE",
+  "height": 211,
+  "width": 131,
+  "center": [69, 84],
+  "collisionRadius": 162,
+  "shieldCenter": [27, -0],
+  "shieldRadius": 134.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0004": "szsp_minelayer",
+    "WS0011": "szsp_caravan_lights",
+    "WS0012": "szsp_caravan_deco"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -16.5, -50,
+        -27, -50
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 60,
+      "locations": [22, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 120,
+      "locations": [-26, 35]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-66, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [22, -40]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [65, -38]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [113, 22]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-79, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 37,
+      "locations": [105, 37]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -90,
+      "locations": [30.5, -55]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-31, 3.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-36.5, -38]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [105.5, 22]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 90,
+      "locations": [65, 46]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, 30.5],
+      "length": 65,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-81, 20],
+      "length": 65,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, 10.5],
+      "length": 65,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, -10.5],
+      "length": 65,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-81, -20.5],
+      "length": 65,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80, -31],
+      "length": 65,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-76, 40],
+      "length": 24,
+      "width": 8,
+      "angle": 160,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-76, -40],
+      "length": 24,
+      "width": 8,
+      "angle": -160,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-76, 37],
+      "length": 24,
+      "width": 8,
+      "angle": 170,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-76, -37],
+      "length": 24,
+      "width": 8,
+      "angle": -170,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -78.5, -33,
+    -72.5, -41.5,
+    -31, -46,
+    -23.5, -56,
+    38, -56.5,
+    45.5, -44,
+    111, -47.5,
+    116.5, -40,
+    119.5, 24.5,
+    100.5, 49,
+    51, 48.5,
+    38, 62,
+    -32, 62.5,
+    -46, 36.5,
+    -76, 35
+  ]
+}

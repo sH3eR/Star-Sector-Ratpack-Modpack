@@ -1,0 +1,22 @@
+{
+	"baseHullId":"MSS_Nailer",
+	"skinHullId":"MSS_Nailer_Elite",
+	"hullName":"Nailer (M)",
+	"descriptionId":"MSS_Nailer",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"The Mayasuran Nailer is capable of ruinous damage with its twin Nailer Cannons, with improved flux stats to handle the monstrous flux from its built-in beams, it should surprise any of its opponents on the battlefield.",
+	"ordnancePoints":45,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/mayasura/ships/MSS_Nailer_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		},
+}
+

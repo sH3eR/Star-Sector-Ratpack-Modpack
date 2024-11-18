@@ -1,0 +1,24 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_zeong_pilot",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_zeong_pilot_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "gundam_zeong_head",
+        "WS0002": "gundam_zeong_head",
+        "WS0003": "gundam_zeong_head"
+      }
+    }
+  ],
+  "wings": []
+}

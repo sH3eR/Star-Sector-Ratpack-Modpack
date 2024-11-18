@@ -1,0 +1,39 @@
+{
+  "variantId": "omen_hmimax_std",
+  "hullId": "omen_hmimax",
+  "displayName": "EW",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

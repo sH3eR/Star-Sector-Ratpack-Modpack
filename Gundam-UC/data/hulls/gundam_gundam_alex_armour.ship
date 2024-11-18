@@ -1,0 +1,25 @@
+{
+  "hullName": "Shield",
+  "hullId": "gundam_gundam_alex_armour",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/gundam_alex/gundam_gundam_alex_armour.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 41,
+  "width": 36,
+  "center": [20.5, 23],
+  "collisionRadius": 18,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -14.5, -12.5,
+    -14.5, 16.5,
+    10.5, 16.5,
+    10.5, -12.5
+  ]
+}

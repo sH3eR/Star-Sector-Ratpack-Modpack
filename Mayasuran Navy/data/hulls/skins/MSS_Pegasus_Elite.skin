@@ -1,0 +1,48 @@
+{
+	"baseHullId":"pegasus",
+	"skinHullId":"MSS_Pegasus_Elite",
+	"hullName":"Pegasus (M)",
+	"ordnancePoints":375,
+	#"incompatibleWithBaseHull":true, # for the autofit dialog
+	#"systemId":"",
+	"descriptionPrefix":"The Mayasuran adaptation of the Pegasus epitomizes the faction's ingenuity and expertise in retrofitting and enhancing pre-existing designs. This midline battleship has been extensively modified by Mayasuran engineers from the renowned Nirvana Shipworks, incorporating synergy mounts and a fully fledged missile autoforge.",
+	"tags":["mayasura_e_bp", "rare_bp"],
+	"tech":"Mayasuran",
+	"builtInWings": [],
+	"fighterBays":0,
+	"spriteName":"graphics/mayasura/ships/MSS_Pegasus_Elite.png",
+	"baseValueMult":1.75,
+	"removeWeaponSlots":[], 			# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 			# hullmod ids
+	"removeBuiltInWeapons":[], 			# weapon slot ids
+	"systemId":"forgevats",
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+		"WS 000":{
+			"type": "SYNERGY"
+			#"angle": 0,
+            #"arc": 210,
+		},
+		"WS 001":{
+			"type": "SYNERGY"
+		},
+	},
+		"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranFlare"},
+		"7":{"style":"MayasuranFlare"},
+		"8":{"style":"MayasuranFlare"},
+		"9":{"style":"MayasuranFlare"},
+		"10":{"style":"MayasuranFlare"},
+		"11":{"style":"MayasuranFlare"},
+
+		},
+}

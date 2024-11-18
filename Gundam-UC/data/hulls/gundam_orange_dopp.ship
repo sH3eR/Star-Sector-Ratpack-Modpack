@@ -1,0 +1,77 @@
+{
+  "hullName": "Orange Dopp",
+  "hullId": "gundam_orange_dopp",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/gundam_orange_dopp.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 18,
+  "width": 28,
+  "center": [14.5, 10],
+  "collisionRadius": 7,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 8.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3, 4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5, -2.5],
+      "length": 4.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-5, 2.5],
+      "length": 4.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -5.5, -6.5,
+    -2.5, -6.5,
+    -6, -14.5,
+    -2, -14.5,
+    3, -8.5,
+    3, -6,
+    8, 0,
+    8, -0,
+    3, 6,
+    3, 8.5,
+    -2, 14.5,
+    -6, 14.5,
+    -2.5, 6.5,
+    -5.5, 6.5
+  ]
+}

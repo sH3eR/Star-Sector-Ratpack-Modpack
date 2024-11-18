@@ -1,0 +1,135 @@
+{
+  "hullName": "Regulus",
+  "hullId": "de_regulus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DE/ships/regulus.png",
+  "style": "MIDLINE",
+  "height": 137,
+  "width": 104,
+  "center": [52, 68.5],
+  "collisionRadius": 103.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [23.5, 42]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [23.5, -42]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [46.5, 28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [46.5, -28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [2.5, 35]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [2.5, -35]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 0,
+      "locations": [31.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67, -0],
+      "length": 36,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30, 40],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30, -40],
+      "length": 25,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-31, 29],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-31, -29],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -67.5, -7.5,
+    -30.5, -22.5,
+    -30.5, -44.5,
+    24, -52.5,
+    54, -36.5,
+    65.5, 0,
+    65.5, -0,
+    54, 36.5,
+    24, 52.5,
+    -30.5, 44.5,
+    -30.5, 22.5,
+    -67.5, 7.5
+  ]
+}

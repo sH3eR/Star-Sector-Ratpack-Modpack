@@ -1,0 +1,22 @@
+{	
+	"hmi_kuritaQuest":{
+		"kuritaName1":"Bob",
+		"kuritaName2":"Kurita",
+		"kuritaAlias":"Bob",
+	},
+	
+	"hmi_misc":{
+		
+		"HMI_BPSwapSelect":"Select blueprints to trade in",
+		"HMI_BPSwapMsg":"The selected blueprints are worth $points points.",
+		"HMI_BPSwapPurchaseOption":"$name ($points pts)",
+		"HMI_BPSwapPurchased":"Acquired $name blueprint",
+		"HMI_BPSwapGainedPoints":"Gained $points points",
+		"HMI_BPSwapLostPoints":"Lost $points points",
+	},
+	"HMI_txt":{
+		"HMI_sub":"Subliminal Encouragment",
+		"HMI_sub2":"AI Enforced Compliance",
+	}
+	
+}

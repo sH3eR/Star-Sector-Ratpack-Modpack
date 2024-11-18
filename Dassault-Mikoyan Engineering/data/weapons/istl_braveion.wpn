@@ -1,0 +1,28 @@
+{
+	"id":"istl_braveion",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":600,
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_bravepulse_hardpoint_glow.png",
+	"glowColor":[75,225,255,155],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":15.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.05,
+					   "particleCount":20,
+					   "particleColor":[100,110,255,255]},	
+	"projectileSpecId":"istl_braveion_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_ebolter_fire",
+}

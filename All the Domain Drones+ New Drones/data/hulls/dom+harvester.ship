@@ -1,0 +1,215 @@
+{
+  "hullName": "Harvester",
+  "hullId": "dom+harvester",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Cruisers/Scoundrel-Class_Mining_Drone.20.png",
+  "style": "LOW_TECH",
+  "height": 218,
+  "width": 148,
+  "center": [74, 113.5],
+  "collisionRadius": 155.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 143,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "auxiliarythrusters",
+    "targetingunit"
+  ],
+  "builtInWings": [
+    "dom+labourer_miner"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": 106,
+      "locations": [8.5, 60]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [85.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": -106,
+      "locations": [9.5, -60]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 167,
+      "angle": -126,
+      "locations": [-38.5, -38]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 256,
+      "angle": 155,
+      "locations": [-82.5, 33]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 256,
+      "angle": 180,
+      "locations": [-59.5, -13]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 256,
+      "angle": 180,
+      "locations": [-59.5, 13]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [98.5, -26]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [98.5, 26]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [78.5, -43]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [50.5, -68]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [79.5, 45]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [50.5, 68]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -71.5, -22,
+        -81, -22,
+        -63, -21.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-112, -40.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-107, 25],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-112.5, 1.5],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-106.5, 44.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-111.5, -21],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    104.5, 32.5,
+    75.5, 50.5,
+    41, 76,
+    6.5, 68.5,
+    -13.5, 50.5,
+    -107.5, 52.5,
+    -111, -49.5,
+    -5.5, -48,
+    8.5, -71,
+    47.5, -73.5,
+    80.5, -42,
+    102.5, -31.5,
+    103.5, -19.5,
+    94.5, -16.5,
+    94.5, 16.5,
+    104.5, 18.5
+  ]
+}

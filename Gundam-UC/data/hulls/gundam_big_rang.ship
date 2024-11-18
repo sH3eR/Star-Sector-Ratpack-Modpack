@@ -1,0 +1,291 @@
+{
+  "hullName": "Big Rang",
+  "hullId": "gundam_big_rang",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ma/big_rang/gundam_big_rang_body.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 118,
+  "width": 154,
+  "center": [76.5, 60],
+  "collisionRadius": 80,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 93.5,
+  "viewOffset": 0,
+  "builtInWings": [
+    "gundam_oggo_wing"
+  ],
+  "builtInWeapons": {
+    "L_ARM": "gundam_big_rang_lefthand",
+    "R_ARM": "gundam_big_rang_righthand",
+    "M_BEAM": "gundam_builtin_yellow_mega_beam",
+    "L_LEG": "gundam_big_rang_leftleg",
+    "R_LEG": "gundam_big_rang_rightleg",
+    "L_WING": "gundam_big_rang_leftwing",
+    "R_WING": "gundam_big_rang_rightwing",
+    "WS0003": "gundam_missile",
+    "WS0004": "gundam_missile",
+    "WS0005": "gundam_missile",
+    "WS0006": "gundam_missile",
+    "THRUST_1": "gundam_thruster_tiny_red",
+    "THRUST_2": "gundam_thruster_tiny_red",
+    "THRUST_3": "gundam_thruster_tiny_red",
+    "THRUST_4": "gundam_thruster_tiny_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "L_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 33.5,
+      "locations": [-0.5, 17.5]
+    },
+    {
+      "id": "R_ARM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -33.5,
+      "locations": [-0.5, -17.5]
+    },
+    {
+      "id": "M_BEAM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4.5, 0]
+    },
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [45, 22.5]
+    },
+    {
+      "id": "R_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [45, -22.5]
+    },
+    {
+      "id": "L_WING",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [51, 49]
+    },
+    {
+      "id": "R_WING",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [51, -49]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-3, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-2, -11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-11.5, 12]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-10.5, -13]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 0,
+      "locations": [33.5, 41.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -0,
+      "locations": [33.5, -41.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 45,
+      "locations": [-15, 32.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -45,
+      "locations": [-15, -32.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 0,
+      "locations": [-16.5, 0.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -0,
+      "locations": [-16.5, -0.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-40, 19.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-39, -19.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-46.5, 9]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-46.5, -9]
+    },
+    {
+      "id": "THRUST_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-53, 25.5]
+    },
+    {
+      "id": "THRUST_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-53, -25.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46.5, 9],
+      "length": 33,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46.5, -9],
+      "length": 33,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53, 25.5],
+      "length": 33,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53, -25.5],
+      "length": 33,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    56.5, -14.5,
+    50.5, -49.5,
+    28.5, -67.5,
+    1.5, -78,
+    -29.5, -55,
+    -52, -38,
+    -52, 38,
+    -29.5, 55,
+    1.5, 78,
+    28.5, 67.5,
+    50.5, 49.5,
+    56.5, 14.5
+  ]
+}

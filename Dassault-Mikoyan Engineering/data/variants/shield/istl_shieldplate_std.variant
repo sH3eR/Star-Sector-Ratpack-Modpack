@@ -1,0 +1,10 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "hullId": "istl_shieldplate",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "istl_shieldplate_std",
+    "weaponGroups": []
+}

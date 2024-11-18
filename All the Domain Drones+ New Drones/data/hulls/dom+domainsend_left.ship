@@ -1,0 +1,142 @@
+{
+  "hullName": "Domains End Left",
+  "hullId": "dom+domainsend_left",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Domains End/Domains End Top left.png",
+  "style": "LOW_TECH",
+  "height": 348,
+  "width": 164,
+  "center": [89.5, 166],
+  "collisionRadius": 216.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 210.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 91,
+      "locations": [15, -8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 60,
+      "locations": [113, 33.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 246,
+      "angle": 0,
+      "locations": [172, -39]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 138,
+      "angle": 90,
+      "locations": [-43.5, 39]
+    },
+    {
+      "id": "WS0016",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": 68.5,
+      "locations": [-132, 48]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": 65.5,
+      "locations": [-116, 21.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 138,
+      "angle": 103.5,
+      "locations": [81, 41]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-89.5, 35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 53.5,
+      "locations": [169, 26]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [41.5, 40.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        99, -23.5,
+        101.5, -40.5,
+        101.5, -7
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        38.5, 41,
+        46.5, 41.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -167, 86,
+    -164.5, -46,
+    100.5, -53.5,
+    140.5, -74.5,
+    182.5, -46,
+    172, 39.5,
+    142, 83.5,
+    -22, 69.5
+  ]
+}

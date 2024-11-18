@@ -1,0 +1,42 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 4,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "gundam_columbus",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_columbus_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_pd_2mg",
+				"WS0002": "gundam_pd_2mg",
+				"WS0003": "gundam_pd_2mg",
+                "WS0004": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide",
+                "GUIDE_3": "gundam_launch_bay_guide",
+                "GUIDE_4": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+        "gundam_gm_early_wing",
+        "gundam_gm_wing"
+    ]
+}
+
+
+
+

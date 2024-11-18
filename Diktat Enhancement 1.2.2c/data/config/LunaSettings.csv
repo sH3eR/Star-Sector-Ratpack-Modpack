@@ -1,0 +1,8 @@
+modID,fieldID,fieldName,fieldType,defaultValue,fieldDescription,minValue,maxValue
+,,,,,,,
+DE,de_header,,Header,DE CONFIG OPTIONS - ONLY APPLY ON NEW GAMES!,,,
+DE,DEremovenondiktatfeatures,Disable Non-Diktat DE Features,Boolean,FALSE,"When set to true, prevents non-diktat DE features from spawning on new game.",,
+DE,DEenablelitemode,Enable DE Lite Mode,Boolean,FALSE,"When set to true, activates a ""Lite"" mode of DE that will apply on new game. DE Lite Mode disables many of the buffs given to the Diktat by DE, including most notably the entirety of the Andor system. Will also override ""Disable Non-Diktat DE Features"" unfortunately.",,
+DE,DEenablefortressmode,Enable DE Fortress Mode,Boolean,FALSE,"When set to true, activates DE Fortress Mode which replaces all non-Askonia DE-added markets with Askonia-based alternatives, among others that will apply on new game. DISCLAIMER: Fortress Askonia is incredibly fortified and powerful, rivaling Rubicon and other similar fortress systems; enable at your own risk.",,
+DE,DEdisablelobers,Disable DE Lobster Content,Boolean,FALSE,"When set to true, will remove lobster-related fighters(Nephrops, Metanephrops, Homarus, Langusta) from existence(no faction spawns, or bp/chip spawns in salvage). DISCLAIMER: This will make Volturn-y and all other Volturnian Lobsters sad.",,
+DE,DEdisabledrakoncheck,Disable Drakon Lamp Check,Boolean,FALSE,"When set to true, disables a Drakon-related script that may cause crashes (initDrakonConditionCheck). Should only be used if said function is causing a crash, because it controls removal of Drakon's Unstable Lamp condition if it loses its Fusion Lamp and may make Drakon busted/useless if disabled. Works on existing saves.",,

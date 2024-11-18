@@ -1,0 +1,12 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+vice_remnantDifficulty,Adjust difficulty of NPC Remnant fleets,Radio,Challenging,"Challenging,Hard,Easy","
+• Challenging adds subsystem hullmods to all NPC Remnant fleets. 
+• Hard does not add hullmods, but NPC Remnant fits are optimized.
+• Easy replaces NPC subsystem hullmods with time slowdown penalty.
+
+(Second In Command) NPC fleets with an AI Synthesis executive officer will also gain adaptive hullmods on Challenging difficulty.",,,Expansion
+vice_synthesisEnabled,Enable Synthesis officers for enemy fleets,Boolean,true,,"(Second In Command) Enable Synthesis officers to appear in IX Battlegroup, Trinity Worlds, and Tri-Tachyon fleets. Disabling this setting will prevent such fleets from receiving AI Adaptive Subsystem hullmods. The Hard and Easy difficulties will also disable NPC subsystem hullmods without removing Synthesis officers from NPC fleets.",,,Expansion
+vice_andradaEnabled,Enable Andradanism officers for enemy fleets,Boolean,true,,(Second In Command) Enable executive officers trained in the leadership principles of the Lion of Sindria to appear in Sindrian Diktat and Lion's Guard fleets. Officers can always be hired from Sindrian Diktat and rarely from Independent colonies.,,,Expansion
+vice_abyssalEnabled,Enable Abyssal adaptive hullmod,Boolean,false,,(Random Assortment of Things) Enable Abyssal Entropy Projector hullmod for enemy Abyssal ships. Requires reload.,,,Expansion
+vice_messEnabled,Enable Remnant Mess adaptive hullmod,Boolean,true,,(Hazard Mining Incorporated) Enable Adaptive Metastatic Growth hullmod for enemy Remnant Mess Objects. Requires reload.,,,Expansion
+vice_vriEnabled,Enable Volantian adaptive hullmods,Boolean,true,,(Volantian Reclamation Initiative) Enable various adaptive hullmods for Volantian Remnant Conversion ships. Requires reload.,,,Expansion

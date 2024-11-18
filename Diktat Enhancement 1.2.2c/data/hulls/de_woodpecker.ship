@@ -1,0 +1,59 @@
+{
+  "hullName": "Woodpecker",
+  "hullId": "de_woodpecker",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DE/ships/woodpecker.png",
+  "style": "LOW_TECH",
+  "height": 39,
+  "width": 41,
+  "center": [20.5, 19.5],
+  "collisionRadius": 30,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": 45,
+      "locations": [6.5, 11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -7.5],
+      "length": 18,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-19, 7.5],
+      "length": 18,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -19.5, -12,
+    5, -19.5,
+    18.5, 0,
+    5, 19.5,
+    -19.5, 12
+  ]
+}

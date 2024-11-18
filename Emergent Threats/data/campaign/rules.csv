@@ -1,0 +1,54 @@
+id,trigger,conditions,script,text,options,notes
+# Handing in the PK - Persean League,,,,,,
+pk_giveToPL,PopulateOptions,"$isPerson
+!$player.turnedInPlanetkiller
+PlayerHasCargo planetkiller
+PK_CMD rightPostToAcceptPK
+$personFaction.id == persean",$cameToYouSecondWithPK = true,,"pk_turnInPL:""Would the league be in need of a planetkiller?""",#Bringing up this topic with the IX will make TT Arroyo unhappy
+pk_turnInPLSel,DialogOptionSelected,$option == pk_turnInPL,,"$PersonRank $personLastName stares at you in alarm.
+
+""Don't tell me you're harboring a live planetkiller in orbit.""","pk_turnInPL2:""Don't worry. It's encrypted and inert. So do you want it or not?""",
+pk_turnInPL2Sel,DialogOptionSelected,$option == pk_turnInPL2,,"""I see,"" $heOrShe nods and thinks for a moment. ""The League would happily dispose of such a dangerous device for you. I am authorized to release a suitable finder's fee of 500,000 credits in exchange for it, or...""","pk_turnInPL3:""Or?""",
+pk_turnInPL3Sel,DialogOptionSelected,$option == pk_turnInPL3,,"$personLastName takes a moment to compose $himOrHerself.
+
+""I'm in the middle of a rather delicate situation with the Navarchs,"" $heOrShe says. ""Around five cycles ago, the League and the Diktat signed a major arms deal that saw us come into possessing of several new fleet carriers. The originals were... we'll, I won't mince words. They were atrocious parade fodder. But after our forge engineers had a chance to clear out the blueprint of all its Diktat cruft, we ended up with a fine ship.""","pk_turnInPL4:""I don't see how that's a problem.""
+pk_turnInPLrude:""Stop talking. I'm not interested.""",
+pk_turnInPLrude,DialogOptionSelected,$option == pk_turnInPLrude,AdjustRepActivePerson -1,"""There's no need for that,"" $heOrShe frowns. ""I'll be going now. We can talk again once you've had a chance to learn some manners.""
+
+The line is unceremoniously cut.",cutCommLink:Attend to other business,
+pk_turnInPL4Sel,DialogOptionSelected,$option == pk_turnInPL4,,"""The problem is the Navarchs don't want to have anything to do with it. Buying carriers from the Sindrians while we were fully capable of adapting our own design from a Domain template was never a good look, and many of the Navarchs feel the ship is cursed, or beneath them, or both. That's where you come in.""
+
+$HeOrShe brings up the schematics for the Proteus-class carrier, and to $hisOrHer credit, the design looks like a capable enough warship that combines heavy missile firepower with a decent complement of strike craft for long range engagements.",pk_turnInPL5:Continue,
+pk_turnInPL5Sel,DialogOptionSelected,$option == pk_turnInPL5,,"""So here's what I propose. In exchange for the planetkiller, I will transfer a fully armed Porteus command carrier to your fleet. We'll keep quiet on the part of how you got it, avoid spooking any of our neighbors. And if you happen to put the ship to good use, the Fikenhild press will start putting out puff pieces on your exploits. Hopefully that'll be enough to shame the Navarchy into finally doing their jobs.""
+
+$PersonRank $personLastName pauses for a moment to let you think it over. ""What do you say, captain? I'll help you dispose of a rad hot piece of technology you really shouldn't have in your possession, and you'll help me give the Proteus a much needed PR boost. It's a win-win.""","pk_turnInPLmoney:""I'll take the credits if it's all the same to you.""
+pk_turnInPLship:""Sure, let's see what this ship can do.""
+pk_turnInPLnm:""I'm going to need time to think this over.""",
+pk_turnInPLmoneySel,DialogOptionSelected,$option == pk_turnInPLmoney,"AddCommodity credits 500000
+AdjustRep persean 25
+AdjustRepActivePerson 25
+AddRemoveAnyItem SPECIAL planetkiller -1
+$global.gavePKtoPL = true
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","""If that's what you want,"" $heOrShe says, clearly disappointed.
+
+The transaction is completed by the end of the day. A courier shuttle docks with your ship to retrieve the planetkiller. Once the League technicians verify it is indeed what you claim it to be, the credits are promptly deposited to your account through a series of shell companies. COMSEC would take years to untangle that financial web, if they even think to look at all. The Persean League clearly wishes to keep their newfound ownership of the planetkiller out of the news.
+
+Your part is done, and now you're richer for it.",cutCommLink:Attend to other business,
+pk_turnInPLshipSel,DialogOptionSelected,$option == pk_turnInPLship,,"""Excellent,"" $heOrShe says cheerfully. ""I'll arrange for the transfer right away. It's a pleasure doing business with you.""",pk_turnInPLship2:Continue,
+pk_turnInPLship2Sel,DialogOptionSelected,$option == pk_turnInPLship2,"AddTextSmall ""Received Proteus class carrier"" good
+SetTextHighlights ""Proteus class carrier""
+$player.receivedShipPL = true
+AdjustRep persean 25
+AdjustRepActivePerson 25
+AddRemoveAnyItem SPECIAL planetkiller -1
+$global.gavePKtoPL = true
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","The transaction is completed by the end of the day. A courier shuttle carrying a weapons handling team verifies the device is what you claim it to be, then swiftly departs with the bomb secured onboard. Soon after, your new carrier arrives with little fanfare, disguised as just another standard market purchase. The Persean League clearly wishes to keep their newfound ownership of the planetkiller out of the news.
+
+Your part is done, and the ship is yours.",cutCommLink:Attend to other business,
+pk_turnInPLnmSel,DialogOptionSelected,$option == pk_turnInPLnm,FireAll PopulateOptions,"$HeOrShe nods. ""That's fine, captain. I'll be here to discuss it when you're ready. Was there anything else?""",,

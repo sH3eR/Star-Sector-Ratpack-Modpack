@@ -1,0 +1,11 @@
+{
+	"vsync":false,
+	"fps":1000,
+	"forceNoVBO":false,
+	"useGLFlush":false,
+	"useGLFinish":false,
+	"idleWhileWindowNotVisible":false,
+	"doNotIdleWhenUndecoratedFullcreen":true,
+    "doRAMandVRAMChecksWhenRunningWithMods":false,
+    "memoryCheckVerbose":false,
+}

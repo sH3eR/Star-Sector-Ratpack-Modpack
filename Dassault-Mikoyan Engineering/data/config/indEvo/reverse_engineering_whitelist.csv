@@ -1,0 +1,39 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+istl_baikal_brone
+istl_baikal
+istl_borzoi
+istl_bouclier
+istl_burya
+istl_centaur
+istl_crasher
+istl_demon
+istl_desertersupply_lg
+istl_desertersupply_sm
+istl_flatmouse
+istl_ifrit
+istl_jeannedarc
+istl_kormoran
+istl_leyte
+istl_maskirovka
+istl_mindanao
+istl_naja
+istl_naja_mk1
+istl_puddlejumper
+istl_puddlejumper_mk1
+istl_reef
+istl_samoyed
+istl_sevastopol
+istl_sevastopol_mk1
+istl_slammer
+istl_starsylph
+istl_stoat
+istl_tereshkova
+istl_tonnerre
+istl_tunguska
+istl_vesper
+istl_wanderer
+istl_zelenograd
+

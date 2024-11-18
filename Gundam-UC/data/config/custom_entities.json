@@ -1,0 +1,338 @@
+{
+	"side1": {
+		"defaultName": "Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_1_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_1.png",
+		"spriteWidth": 120,
+		"spriteHeight": 125,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side2": {
+		"defaultName": "Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_2_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_2.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side3": {
+		"defaultName": "Side Closed",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_3_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_3.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side4": {
+		"defaultName": "Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_4_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_4.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side5": {
+		"defaultName": "Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_5_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_5.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side6": {
+		"defaultName": "Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_6_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_6.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side7": {
+		"defaultName": "Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_7_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_7.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side8": {
+		"defaultName": "Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side",
+		"interactionImage": "graphics/illustrations/side_8_illus.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_8.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side_damaged": {
+		"defaultName": "Damaged Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side_damaged",
+		"interactionImage": "graphics/illustrations/destroyed_side_1.png",
+		"icon": "graphics/icons/station_broken.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_damaged.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side_damaged_heavy": {
+		"defaultName": "Heavily Damaged Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side_damaged",
+		"interactionImage": "graphics/illustrations/destroyed_side_1.png",
+		"icon": "graphics/icons/station_broken.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_damaged_heavy.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"side_destroyed": {
+		"defaultName": "Destroyed Side",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_side_destroyed",
+		"interactionImage": "graphics/illustrations/destroyed_side_1.png",
+		"icon": "graphics/icons/station_broken.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/side_destroyed.png",
+		"spriteWidth": 120,
+		"spriteHeight": 120,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"a_baoa_qu": {
+		"defaultName": "A Baoa Qu",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_abq",
+		"interactionImage": "graphics/illustrations/abq_station_illus.png",
+		"icon": "graphics/icons/station3.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/abq_station_sprite.png",
+		"spriteWidth": 120,
+		"spriteHeight": 125,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"solomon": {
+		"defaultName": "Solomon",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_solomon",
+		"interactionImage": "graphics/illustrations/solomon_station_illus.png",
+		"icon": "graphics/icons/station3.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/solomon_station_sprite.png",
+		"spriteWidth": 120,
+		"spriteHeight": 125,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"luna_ii": {
+		"defaultName": "Luna II",
+		"defaultRadius": 110,
+		"customDescriptionId": "gundam_luna_ii",
+		"interactionImage": "graphics/illustrations/luna_ii_illus.png",
+		"icon": "graphics/icons/station3.png",
+		"iconWidth": 26,
+		"iconHeight": 26,
+		"sprite": "graphics/station/luna_ii_station_sprite.png",
+		"spriteWidth": 120,
+		"spriteHeight": 125,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	}
+}

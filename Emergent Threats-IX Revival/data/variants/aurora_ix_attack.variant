@@ -1,0 +1,62 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 3,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "aurora_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_controller",
+        "ix_dawnstar_proton",
+        "ix_dawnstar_proton_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aurora_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "dawnstar_lcpb_ix",
+                "WS 008": "dawnstar_lcpb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "orthrus_m_ix",
+                "WS 009": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "spatial_charge_launcher_ix",
+                "WS 011": "spatial_charge_launcher_ix",
+                "WS 012": "spatial_charge_launcher_ix",
+                "WS 013": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "daythorn_tapb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "morningstar_ciws_ix",
+                "WS 002": "morningstar_ciws_ix",
+                "WS 003": "morningstar_ciws_ix",
+                "WS 005": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

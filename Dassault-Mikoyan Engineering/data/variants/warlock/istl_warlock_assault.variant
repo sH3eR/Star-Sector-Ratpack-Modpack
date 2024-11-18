@@ -1,0 +1,74 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 24,
+    "fluxVents": 48,
+    "goalVariant": true,
+    "hullId": "istl_warlock",
+    "hullMods": ["istl_bbdefense"],
+    "modules": [{"WS0015": "istl_bbLRMmodule_assault"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_warlock_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_thermalmortar"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_plasrocket_pod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_shellhead"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_shellhead"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "istl_shellback",
+                "WS0012": "istl_shellback"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_proxbomb_ciws",
+                "WS0008": "istl_proxbomb_ciws"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "istl_thermalpd",
+                "WS0010": "istl_thermalpd",
+                "WS0013": "istl_thermalpd",
+                "WS0014": "istl_thermalpd",
+                "WS0037": "istl_impulsor",
+                "WS0038": "istl_impulsor",
+                "WS0039": "istl_impulsor",
+                "WS0040": "istl_impulsor",
+                "WS0041": "istl_impulsor",
+                "WS0042": "istl_impulsor",
+                "WS0043": "istl_impulsor",
+                "WS0044": "istl_impulsor"
+            }
+        }
+    ],
+    "wings": [
+        "istl_iridium_wing",
+        "istl_iridium_wing",
+        "istl_firespray_wing",
+        "istl_firespray_wing"
+    ]
+}

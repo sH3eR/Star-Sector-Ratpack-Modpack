@@ -1,0 +1,228 @@
+{
+  "hullName": "Laticlavus(LG)",
+  "hullId": "de_laticlavus_lg",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DE/ships/lg_laticlavus.png",
+  "style": "MIDLINE",
+  "height": 136,
+  "width": 132,
+  "center": [66, 68],
+  "collisionRadius": 104,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 99.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "andrada_mods",
+    "pointdefenseai",
+    "solar_shielding"
+  ],
+  "builtInWeapons": {
+    "WS0003": "de_flaregun",
+    "WS0004": "de_flaregun",
+    "WS0008": "de_flaregun",
+    "WS0009": "de_flaregun",
+    "WS0010": "de_flaregun",
+    "WS0011": "de_flaregun",
+    "WS0012": "de_flaregun",
+    "WS0013": "de_flaregun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [47, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -0,
+      "locations": [47, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 90,
+      "locations": [-22, 50]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -90,
+      "locations": [-22, -50]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 71,
+      "locations": [32, 42.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -71,
+      "locations": [32, -42.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -71,
+      "locations": [16.5, -48.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 71,
+      "locations": [16.5, 48.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -71,
+      "locations": [0, -53]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 71,
+      "locations": [0, 53]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -161,
+      "locations": [-23.5, -24]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 161,
+      "locations": [-23.5, 24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60.5, -14],
+      "length": 19,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60.5, 14],
+      "length": 19,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59.5, -24.5],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59.5, 24.5],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59.5, -37.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59.5, 37.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67.5, -0],
+      "length": 30,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67.5, 0],
+      "length": 30,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -58.5, -42,
+    -30, -63,
+    64, -37,
+    56, -28,
+    56, 28,
+    64, 37,
+    -30, 63,
+    -58.5, 42,
+    -60, 7.5,
+    -66.5, 6.5,
+    -66.5, -6.5,
+    -60, -7.5
+  ]
+}

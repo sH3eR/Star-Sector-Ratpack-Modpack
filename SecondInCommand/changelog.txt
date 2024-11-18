@@ -1,0 +1,265 @@
+Version 1.2.8
+Save Compatible
+
+- Skills like Continuous Repairs and Privateering now keep intel of their effects under the "Skills" category for 30 days.
+- The "Reconfiguration" Skill no longer negates the deployment point penalty on ships with less than 7 deployment points.
+- "Deep Dive" now provides 20% increased peak performance time for phase ships.
+- Increased both of "Well Organised" Bonuses from 25% to 33%.
+- "Command and Conquer" now provides a 5% increase to the minimum deployment points from objectives in battles.
+- Slightly increased the dmod avoidance chance from "Continuous Repairs" for frigates and destroyers.
+- Fixed "Limit Breaker" affecting Sierra, though it did not actually give her more skills.
+- Fixed yet another rare on game load crash.
+
+
+
+Version 1.2.7
+Save Compatible
+
+- The "Synchronisation" skill now applies some of its effects to nearby fighters when piloting one.
+- The "Synchronisation" skill now moves you to another nearby fighter if the piloted fighter is destroyed, but only if they are close enough.
+- Added a bunch of loading/title screen tips.
+- Added some minor vfx to the icons of a specific aptitude.
+
+
+
+Version 1.2.6
+Save Compatible
+
+- Fixed an issue which made "Increases/Reduces chance for dmods" effects not work.
+- Slightly reduced the dmod reduction from "Continuous Repairs"
+- Fixed "Point Defense" no longer mentioning its boost to fighters deployed from the ship.
+
+
+
+Version 1.2.5
+Save Compatible
+
+- The "Synchronised" skill now removes the restored ammunition if the player stops controlling the fighter.
+- Fixed a crash that occured when entering missions.
+
+
+
+Version 1.2.4
+Save Compatible
+
+- Added a Nexerelin Background that starts you off with 3 random officers, which you can never replace.
+- The Strikecraft Aptitude now allows picking two of its capstones instead of just one.
+- Added the "Synchronised" skill to Strikecraft, a skill that lets the player link to their own fighters, piloted fighters gain several boosts.
+- Fixed a crash with the Re-Entry skill
+
+
+
+Version 1.2.3
+Save Compatible
+
+- Replaced the Rare Salvage buff from "Expedition" with a normal salvage buff, and increased some of the stat increases it provides.
+- The innitial officer selection now actually shows an officers category.
+- Fixed an issue that made aptitudes not ordered correctly in the bar events panel.
+- Fixed an issue that made some custom starts not provide their full amount of skillpoints.
+- Fixed a crash with the "Overwhelming Force" skill
+
+
+
+Version 1.2.2
+Save Compatible with 1.1.x & 1.2.x
+
+- Reduced "Iron Sight"s range increase to 10%, but gave it a 25% weapon repair speed increase in exchange.
+- Reduced the Mass from "Immoveable Object" increase to be a 2x mult instead.
+- Reduced "Deflective Platings" damage reduction from 60% to 50%.
+- Reduced "Tenacity"s effective armor increase to 75/100/125/150, based on hullsize.
+- Reduced "Surefire Impacts" increase in missile speed from 30% to 20%.
+
+
+
+Version 1.2.1
+Save Compatible with 1.1.x & 1.2.x
+
+- Fixed the "Manage" button occasionaly causing the same officer to be on multiple slots at once (purely visual bug, though may cause issues if interacted with)
+
+
+
+Version 1.2.0
+Save Compatible with 1.1.x
+
+- Added the "Warfare" Aptitude, which comes with low-tech adjacent skills.
+- You can now Respecc Executive Officers at a cost of 4 story points per officer.
+  - This option mostly exists for Unique Officers, where finding a duplicate to specialise differently is impossible.
+
+- The "Manage" button is no longer blocked by the officer already being assigned or being incompatible with already assigned officers.
+- The "Automated Ships" skill now provides the 10% minimum deployment points effect from the base games version of Best of the Best.
+- "Neural Junction" now makes the player act as a 2x multiplier of automated points instead of 3x.
+- "Neural Junction" now provides automated ships piloted by the player with 15% more CR.
+- "Continous Repairs" now provides a higher chance to avoid d-mods on smaller ships.
+- "Continous Repairs" no longer repairs dmods on ships with the "Rugged Construction" hullmod.
+- Fixed the "Privateering" skills post-battle intel notification still refering to it with its old name.
+
+
+
+Version 1.1.8
+Save Compatible with 1.1.x
+
+- The "Starfaring" Capstone skills now require 3 previous skills, instead of 4.
+- Increased Privateerings base reward back to 500 credits.
+- Fixed a bug that caused the "Privateering" reward to be way worse if there was any civilian ship in the opposing fleet.
+- Decreased spawnrate of executive officers on derelict ships.
+- Fixed a crash with the Re-Entry skill.
+
+
+
+Version 1.1.7
+Save Compatible with 1.1.x
+
+- You can now press F1 on a skill added by other mods to see which mod it is from.
+- Added "ListAptitudes", "LevelExecutive", "AddExecutive" Console Commands
+- Adjusted Orders of the Aptitudes so that other mods can more easily put theirs inbetween them.
+
+
+
+Version 1.1.6
+Save Compatible with 1.1.x
+
+- The "Expedition" skill now has a +25% increase for salvage (including rare items) from stations and derelicts.
+- Reduced the executive officer xp gain by a slight amount.
+- Added a (unused) stat that can be modified to reduce or increase the automated points of a ship.
+- Added "Order" column to the SCAptitudes.csv file.
+- Fixed a rare crash on save load.
+
+
+
+Version 1.1.5
+Save Compatible with 1.1.x
+
+- Made it possible for other mods to add skills that enable automated ship recovery & penalty negation
+- Updated the tooltips of skills that provide automated ship points.
+
+
+
+Version 1.1.4
+Save Compatible with 1.1.x
+
+- Added the ability to change an executive officers portrait (Officer Picker -> Manage -> Click on Portrait)
+- You now gain an additional nexerelin operative at lv15.
+- "Continuous Repairs" now requires 240DP instead of 300DP to repair d-mods.
+- Increased "Bulk Transports" from 30% to 40%.
+- Increased "Makeshift Equipments" supply reduction from 20% to 25%.
+- Increased "Privateering"s base bounty reward from 300 to 400.
+- Added the "High Constrast Icons" config for people that have difficulities with spotting which skills are active.
+
+
+
+Version 1.1.3
+Save Compatible with 1.1.x
+
+- Increased the XP Gain of executive officers.
+- Aptitudes you already have are now a bit less likely to appear on colonies.
+- "Provisional Replacements" effect now mirrors how Derelict Operations effect works in vanilla, making it much stronger.
+- "Legitimate Salvage" now provides a 30% increase in salvage from derelict stations.
+- Neural Junction now counts the player as a 3x mult instead of 4.
+- Improved the help tooltip on the officer picker, and made it blink when you open it for the first time.
+- Made the section displaying the officers category slightly less ugly.
+- Fixed a bunch of bugs related to certain campaign related skills no longer working, mostly after the players fleets got wiped.
+
+
+
+Version 1.1.2
+Save Compatible with 1.1.x, though some stats of changed skills may remain.
+
+- Added some effects that are unlocked upon reaching certain levels, those are visible when hovering over the xp bar.
+- Replaced Officer Training & Officer Management with new effects.
+- Increased XP required for Executive officers by a small amount.
+- "Enhanced Overrides" has its range buff reduced from 150 to 100 and is now much rarer on NPC fleets.
+- Renamed "Bounty Board" to "Privateering", and reduced the base credits gained from 500 to 300.
+
+
+
+Version 1.1.1
+Save Compatible with 1.1.0
+
+- Fixed Improvisation, Smallcraft & Strikecraft Officers displaying wrong in the comm-link.
+- Added configs that make the player no longer start with abilities that are no longer provides by skills.
+
+
+
+Version 1.1.0
+NOT SAVE COMPATIBLE
+
+- Added the "Improvisation" aptitude, increasing the count of skills to 93.
+- Renamed "Support" to "Strikecraft"
+- Nerfed the "Authority" Skill from 5% to 3%.
+- Removed the "Energised" Skill and added new skills for the technical tree, also further adjusted which skills can be unlocked at which level.
+- "Flux Regulation" now improves the efficiency of vents and caps instead of increasing the maximum you can add.
+- Added a new skill to the piracy aptitude.
+- The "Improvised Raids" skill has been merged in to the "Hunting Grounds" skill.
+- "Continuous Repairs" now provides a 50% chance to not acquire d-mods on ship destruction.
+- Low-Grade-Deployment now also provides an increase in repair rate.
+- Steadfast now also boosts weapon & engine repair time and provides 5% to the combat readiness maximum.
+- Added configs for player max level, allowing an increase up to level 25.
+- Added difficulty options in the configs.
+- The "Self-Repair" skill no longer appears on NPC fleets.
+- The Executive Officer menu is now sorted based on aptitude, rather than the order you acquired them at.
+- Fixed an issue where the allies skills would apply to the player instead of their own if they joined in to a fight between two other fleets.
+- Fixed a bug related to the officer training skill leveling up certain officers multiple times.
+- Fixed skills not immediately applying on a ship that used the "Strip" option to remove all hmods and weapons
+- Fixed executive officers appearing on hidden markets.
+- Fixed a rare crash with the "Trapped Prey" Skill.
+
+
+
+Version 1.0.6
+
+- Fixed an issue that made "Limit Breaker" not apply to all cores.
+
+
+
+Version 1.0.5
+Save Compatible
+
+- Removed the +2 officer gain from the "Crew Training" skill.
+- Fixed a bug that made it possible to use two incompatible aptitudes together.
+- Fixed a bug that removed all your executive officers if your fleet got entirely defeaten. (only fixed on new saves)
+
+
+
+Version 1.0.4
+Save Compatible
+
+- Fixed accidentaly having removed a single line of the code, which made half of the skills no longer work, yup.
+- Added a LunaSettings config for lowering or inreasing the players XP gain.
+
+
+
+Version 1.0.3
+Save Compatible
+
+- Added support for aptitudes being incompatible with others, making them not pickable at the same time.
+- The Starfaring & Piracy aptitude can no longer be used both at the same time.
+- XOs in the Comm Directory now display their aptitude in the selection screen.
+- The officer slots tooltip now always mentions the keybinds for assignment and removal.
+- Rewrote the base skill and aptitude plugin to java.
+
+
+
+Version 1.0.2
+Save Compatible
+
+- Added a "Manage" button to the officer picker, allowing for renaming & dismissing officers.
+- Fixed XOs not spawning on the comm directory if the mod has been added mid-save
+- Increased the chance for XOs on Colony Comm-Links
+- There is now a chance for multiple XOs to be on the same colony.
+
+
+
+Version 1.0.1
+Save Compatible
+
+- NPC fleets should no longer spawn with vanilla admiral skills.
+- Made "Remote Survey" unlocked by default. 
+- Fixed an issue with a Lunalib configuration.
+- Made the "All-Out" skills tooltip more specific.
+- Some minor spelling fixes by "Nissa"
+
+
+
+Version 1.0.0
+
+-> Mod Release

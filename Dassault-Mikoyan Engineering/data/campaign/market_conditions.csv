@@ -1,0 +1,3 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Sigma Distorted,istl_sigmarad,,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"$market has, at some point in the distant past, been subjected to incredible dimensional stresses, the effects of which persist to the present. Human habitation is out of the question with known technology; merely surviving on the fractured, twisting surface represents a feat of advanced engineering.",graphics/ISTL/icons/markets/istl_sigmarad_wide.png,10
+,,,,,,,

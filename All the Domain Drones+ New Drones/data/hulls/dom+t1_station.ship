@@ -1,0 +1,161 @@
+{
+  "hullName": "Domain Defensive Station",
+  "hullId": "dom+t1_station",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Stations/Tier 1 Derelict Station.png",
+  "style": "LOW_TECH",
+  "height": 331,
+  "width": 340,
+  "center": [169, 164],
+  "collisionRadius": 166,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 157,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "axialrotation",
+    "vastbulk",
+    "supercomputer",
+    "turretgyros",
+    "solar_shielding"
+  ],
+  "builtInWings": [
+    "dom+defense_pod_Autocannon"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [51.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [0.5, -55.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-51, -1]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [1, 58]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [1, -160.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [159, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [1, 159]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-154, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -45.5, -50.5,
+        -41.5, -55,
+        -54, 57,
+        50.5, 52,
+        55.5, -54.5
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [1.5, -126.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-120.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [1.5, 127]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [120.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    136, 16,
+    17.5, 142,
+    -14.5, 141,
+    -135, 12.5,
+    -135, -12.5,
+    -14.5, -141,
+    17.5, -142,
+    136, -16
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "displayName": "Lion's Patience",
+    "fluxCapacitors": 2,
+    "fluxVents": 7,
+    "goalVariant": false,
+    "hullId": "heron",
+    "hullMods": [
+    "pointdefenseai",
+    "expanded_deck_crew"
+],
+    "permaMods": ["solar_shielding"],
+    "variantId": "heron_LPatience",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "dualflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "longbow_wing",
+        "longbow_wing",
+        "broadsword_wing"
+    ]
+}

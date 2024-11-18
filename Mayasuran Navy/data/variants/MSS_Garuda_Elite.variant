@@ -1,0 +1,60 @@
+{
+  "variantId": "MSS_Garuda_Elite",
+  "hullId": "MSS_Garuda_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "MSS_LargeLaserCannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "heavyneedler",
+        "WS0009": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "MSS_LaserCannon",
+        "WS0004": "MSS_LaserCannon",
+        "WS0005": "MSS_LaserCannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MSS_Viper",
+    "MSS_Tachi"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "de_bretasinge_LG_Escort",
+  "hullId": "de_bretasinge_LG",
+  "displayName": "Heavy Corvette",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "de_devestator_barrage"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

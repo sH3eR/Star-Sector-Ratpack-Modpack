@@ -1,0 +1,66 @@
+{
+	"baseHullId":"MSS_Mokarran",
+	"skinHullId":"MSS_Mokarran_Elite",
+	"hullName":"Mokarran (M)",
+	"descriptionId":"MSS_Mokarran",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"Equipped with advanced autofactories and heavier armor, this modernized Mokarran is at the peak of Mayasuran strike groups. To see a capital ship in action is a rare sight, but for the Mayasurans, fielding this Sphyrna is an easy task indeed.",
+	"ordnancePoints":325,
+	"baseValueMult":1.50,
+	"spriteName":"graphics/mayasura/ships/MSS_Mokarran_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":["WS0028", 
+    "WS0029",
+    "WS0030",
+    "WS0031",
+    "WS0032",
+    "WS0033",
+    "WS0034",
+    "WS0035",], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"builtInWeapons":{    "WS0028": "MSS_ZthrusterB",
+    "WS0029": "MSS_ZthrusterB",
+    "WS0030": "MSS_ZthrusterB",
+    "WS0031": "MSS_ZthrusterB",
+    "WS0032": "MSS_ZthrusterB",
+    "WS0033": "MSS_ZthrusterB",
+    "WS0034": "MSS_ZthrusterB",
+    "WS0035": "MSS_ZthrusterB"
+     },
+     "weaponSlotChanges":{
+     	"WS0027":{
+     		#"angle": 0,
+            #"arc": 210,
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL"
+     	 }
+     },
+	 "engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranSilverFlare"},
+		"2":{"style":"MayasuranSilverFlare"},
+		"3":{"style":"MayasuranSilverFlare"},
+		"4":{"style":"MayasuranSilverFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranFlare"},
+		"7":{"style":"MayasuranFlare"},
+		"8":{"style":"MayasuranFlare"},
+		"9":{"style":"MayasuranFlare"},
+		"10":{"style":"MayasuranFlare"},
+		"11":{"style":"MayasuranFlare"},
+		"12":{"style":"MayasuranFlare"},
+		"13":{"style":"MayasuranFlare"},
+		"14":{"style":"MayasuranFlare"},
+		"15":{"style":"MayasuranSilverFlare"},
+		"16":{"style":"MayasuranSilverFlare"},
+		"17":{"style":"MayasuranSilverFlare"},
+		"18":{"style":"MayasuranSilverFlare"},
+
+	},
+}
+
+
+

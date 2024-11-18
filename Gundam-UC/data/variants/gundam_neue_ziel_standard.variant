@@ -1,0 +1,60 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_neue_ziel",
+  "hullMods": [
+        "advancedoptics",
+		"fluxcoil",
+		"fluxdistributor",
+		"hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_neue_ziel_standard",
+  "weaponGroups": [
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"M_BEAM": "gundam_builtin_yellow_mega_beam"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+		"WS0001": "gundam_builtin_yellow_beam_proj",
+		"WS0002": "gundam_builtin_yellow_beam_proj",
+		"WS0003": "gundam_builtin_yellow_beam_proj",
+		"WS0004": "gundam_builtin_yellow_beam_proj",
+		"WS0005": "gundam_builtin_yellow_beam_proj",
+		"WS0006": "gundam_builtin_yellow_beam_proj",
+		"WS0007": "gundam_builtin_yellow_beam_proj",
+		"WS0008": "gundam_builtin_yellow_beam_proj"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0009": "gundam_builtin_rear_swamp_missile",
+		"WS0010": "gundam_builtin_rear_swamp_missile"
+      }
+    },
+    {
+	  "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"MELEE": "gundam_saber_yellow_left",
+		"MELEE_2": "gundam_saber_yellow_left",
+		"MELEE_3": "gundam_saber_yellow",
+		"MELEE_4": "gundam_saber_yellow"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,54 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "MSS_railgun_fire",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/mayasura/weapons/MSS_big_railgun_glow.png",
+  "hardpointOffsets": [
+    -35,
+    0
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_big_railgun.png",
+  "id": "MSS_big_swap_railgunCluster",
+  "muzzleFlashSpec": {
+    "length": 100,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ],
+    "particleCount": 25,
+    "particleDuration": 0.25,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "spread": 5
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "MSS_SwappableRailgunClusterShot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_big_railgun_glow.png",
+  "turretOffsets": [
+    -90,
+    0
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_big_railgun_turret.png",
+  "type": "BALLISTIC"
+}

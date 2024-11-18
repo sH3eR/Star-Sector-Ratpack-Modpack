@@ -1,0 +1,64 @@
+{
+  "id": "gundam_side_mega_cannon",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/gundam_side_mega_cannon_m_turret_recoil.png",
+  "turretGlowSprite": "",
+  "turretGunSprite": "graphics/weapons/gundam_side_mega_cannon_m_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/gundam_side_mega_cannon_m_hardpoint_recoil.png",
+  "hardpointGlowSprite": "",
+  "hardpointGunSprite": "graphics/weapons/gundam_side_mega_cannon_m_hardpoint_recoil.png",
+  "glowColor": [
+    220,
+    230,
+    120,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    20,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    24.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    100,
+    255,
+    200
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "width": 20,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "gundam_minovski_charge",
+  "fireSoundTwo": "gundam_minovski_beam"
+}

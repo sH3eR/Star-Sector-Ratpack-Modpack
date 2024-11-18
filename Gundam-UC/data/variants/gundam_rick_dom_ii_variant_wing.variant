@@ -1,0 +1,39 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_rick_dom_ii",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_rick_dom_ii_variant_wing",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_rick_dom_ii_gun",
+        "GUN_2": "gundam_bazooka_2",
+        "HEAD": "gundam_rick_dom_ii_head",
+		"L_ARM": "gundam_rick_dom_ii_hand"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_saber_cyan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "L_LEG": "gundam_rick_dom_ii_leg"
+      }
+    }
+  ],
+  "wings": []
+}

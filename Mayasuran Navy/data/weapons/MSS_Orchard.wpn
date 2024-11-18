@@ -1,0 +1,58 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 1000,
+  "fireSoundTwo": "MSS_onocrotalus_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/mayasura/weapons/MSS_Orchard_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    33.5,
+    5,
+    33.5,
+    -5
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_Orchard_hardpoint_base.png",
+  "id": "MSS_Orchard",
+  "muzzleFlashSpec": {
+    "length": 45,
+    "particleColor": [
+      159,
+      228,
+      165,
+      200
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.5,
+    "particleSizeMin": 12,
+    "particleSizeRange": 14,
+    "spread": 5
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "MSS_Orchard_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/mayasura/weapons/MSS_Orchard_turret_recoil.png",
+  "turretOffsets": [
+    21,
+    5,
+    21,
+    -5
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_Orchard_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 10
+}

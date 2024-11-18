@@ -1,0 +1,91 @@
+{
+  "designTypeColors": {
+    "ZEON": [
+      192,
+      0,
+      12,
+      255
+    ],
+    "Zeonic": [
+      192,
+      0,
+      12,
+      255
+    ],
+    "Zimmad": [
+      192,
+      0,
+      12,
+      255
+    ],
+    "EFSF": [
+      77,
+      85,
+      140,
+      255
+    ],
+    "Anaheim Electronics": [
+      77,
+      85,
+      140,
+      255
+    ],
+    "Gundam - UC": [
+      115,
+      80,
+      125,
+      255
+    ]
+  },
+  "graphics": {
+    "characters": {
+      "degwin": "graphics/portraits/characters/degwin.png",
+      "gihren": "graphics/portraits/characters/gihren.png",
+      "revil": "graphics/portraits/characters/revil.png"
+    },
+    "planets": {
+      "gundam_mercury": "graphics/planets/gundam_mercury.jpg",
+      "gundam_venus": "graphics/planets/gundam_venus.jpg",
+      "gundam_gaia": "graphics/planets/gundam_gaia.jpg",
+      "gundam_mars": "graphics/planets/gundam_mars.jpg",
+      "gundam_ceres": "graphics/planets/gundam_ceres.jpg",
+      "gundam_jupiter": "graphics/planets/gundam_jupiter.jpg",
+      "gundam_saturn": "graphics/planets/gundam_saturn.jpg",
+      "gundam_uranus": "graphics/planets/gundam_uranus.jpg",
+      "gundam_neptune": "graphics/planets/gundam_neptune.jpg",
+      "gundam_pluto": "graphics/planets/gundam_pluto.jpg"
+    },
+    "moons": {
+      "gundam_luna": "graphics/moons/gundam_luna.jpg",
+      "gundam_io": "graphics/moons/gundam_io.jpg",
+      "gundam_europa": "graphics/moons/gundam_europa.jpg",
+      "gundam_ganymede": "graphics/moons/gundam_ganymede.jpg",
+      "gundam_callisto": "graphics/moons/gundam_callisto.jpg",
+      "gundam_enceladus": "graphics/moons/gundam_enceladus.jpg",
+      "gundam_titan": "graphics/moons/gundam_titan.jpg",
+      "gundam_oberon": "graphics/moons/gundam_oberon.jpg",
+      "gundam_triton": "graphics/moons/gundam_triton.jpg",
+      "gundam_charon": "graphics/moons/gundam_triton.jpg"
+    },
+    "belts": {
+      "gundam_saturn_belt": "graphics/planets/gundam_saturn_belt.png"
+    },
+    "blueprint_packages": {
+      "efsf_fighter_0_package": "graphics/icons/cargo/efsf_fighter_0_package.png",
+      "efsf_hull_0_package": "graphics/icons/cargo/efsf_hull_0_package.png",
+      "efsf_hull_1_package": "graphics/icons/cargo/efsf_hull_1_package.png",
+      "efsf_ms_0_package": "graphics/icons/cargo/efsf_ms_0_package.png",
+      "efsf_ms_1_package": "graphics/icons/cargo/efsf_ms_1_package.png",
+      "zeon_fighter_0_package": "graphics/icons/cargo/zeon_fighter_0_package.png",
+      "zeon_hull_0_package": "graphics/icons/cargo/zeon_hull_0_package.png",
+      "zeon_hull_1_package": "graphics/icons/cargo/zeon_hull_1_package.png",
+      "zeon_ms_0_package": "graphics/icons/cargo/zeon_ms_0_package.png",
+      "zeon_ms_1_package": "graphics/icons/cargo/zeon_ms_1_package.png",
+      "zeon_ma_0_package": "graphics/icons/cargo/zeon_ma_0_package.png",
+      "zeon_ma_1_package": "graphics/icons/cargo/zeon_ma_1_package.png",
+      "gundam_ballistic_package": "graphics/icons/cargo/gundam_ballistic_package.png",
+      "gundam_beam_package": "graphics/icons/cargo/gundam_beam_package.png",
+      "gundam_missile_package": "graphics/icons/cargo/gundam_missile_package.png",
+    },
+  }
+}

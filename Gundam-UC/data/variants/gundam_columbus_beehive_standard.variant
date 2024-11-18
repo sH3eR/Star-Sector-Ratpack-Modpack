@@ -1,0 +1,59 @@
+{
+  "displayName": "Modified",
+  "fluxCapacitors": 11,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_columbus_beehive",
+  "hullMods": [
+    "expanded_cargo_holds",
+	"recovery_shuttles"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_columbus_beehive_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_pd_2mg",
+				"WS0002": "gundam_pd_2mg",
+				"WS0003": "gundam_pd_2mg",
+                "WS0004": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "gundam_builtin_front_spmissile",
+                "WS0009": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "SIDE_1": "gundam_side_mega_cannon",
+				"SIDE_2": "gundam_side_mega_cannon"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide",
+                "GUIDE_3": "gundam_launch_bay_guide",
+                "GUIDE_4": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_gm_sniper_ii_wing",
+		"gundam_gm_thunderbolt_wing",
+		"gundam_gm_cannon_wing",
+		"gundam_gm_cs_wing"
+    ]
+}

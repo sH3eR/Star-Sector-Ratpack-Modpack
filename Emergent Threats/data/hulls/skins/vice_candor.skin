@@ -1,0 +1,22 @@
+{
+	"baseHullId":"vice_candor_emp",
+	"skinHullId":"vice_candor",
+	"hullName":"Candor",
+	"hullDesignation":"Advanced Gunship",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"vice_candor",
+	"tech":"High Tech",
+	"spriteName":"graphics/vice/ships/candor.png",
+	"weaponSlotChanges":{
+		"SM 1":{
+			"type": "BUILT_IN",
+			"mount": "HARDPOINT",
+        },
+	},
+	"builtInWeapons": {
+        "SM 1": "vice_ion_micropulser",
+    },
+	"removeHints":["UNBOARDABLE", "HIDE_IN_CODEX", "SHIP_WITH_MODULES"],
+	"removeBuiltInMods":["automated", "vice_emp_emitter"],
+	"tags":["rare_bp", "hist3t", "ind", "merc", "tritachyon", "no_autofit"],
+}

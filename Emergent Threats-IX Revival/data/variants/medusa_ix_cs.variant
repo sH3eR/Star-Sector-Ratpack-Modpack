@@ -1,0 +1,44 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 1,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "medusa_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "medusa_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "plasma_dart_ix",
+                "WS 002": "plasma_dart_ix",
+                "WS 003": "plasma_dart_ix",
+                "WS 004": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "orthrus_s_ix",
+                "WS 009": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "morningstar_ciws_ix",
+                "WS 006": "lightbringer_ciws_ix",
+                "WS 007": "lightbringer_ciws_ix"
+            }
+        }
+    ]
+}

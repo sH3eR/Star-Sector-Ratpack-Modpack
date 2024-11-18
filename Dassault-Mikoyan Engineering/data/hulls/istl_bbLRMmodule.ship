@@ -1,0 +1,91 @@
+{
+  "bounds": [
+    -46,
+    39,
+    -46,
+    -11,
+    -23.5,
+    -34,
+    23.5,
+    -34,
+    47.5,
+    -11,
+    47,
+    29,
+    42,
+    29,
+    39,
+    25,
+    -27.5,
+    25,
+    -42,
+    39
+  ],
+  "builtInMods": [
+	"istl_bbengineering",
+    "advancedcore",
+    "reduced_explosion",
+    "always_detaches",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_clusterlauncher_battery"
+  },
+  "center": [
+    41,
+    49
+  ],
+  "collisionRadius": 64,
+  "engineSlots": [],
+  "height": 98,
+  "hullId": "istl_bbLRMmodule",
+  "hullName": "LRM Launcher",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 63,
+  "spriteName": "graphics/ISTL/ships/istl_bbLRMmodule.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        4.5,
+        25
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        37,
+        -7
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        -37,
+        -7
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 77
+}

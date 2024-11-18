@@ -1,0 +1,117 @@
+{
+  "hullName": "Dra C",
+  "hullId": "gundam_dra_c",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ms/dra_c/gundam_dra_c_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 54,
+  "width": 37,
+  "center": [18.5, 22.5],
+  "collisionRadius": 11.5,
+  "shieldCenter": [6, -3.5],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "reduced_explosion",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GRANADE": "gundam_sturm_faust",
+    "GUN": "gundam_dra_c_gun",
+    "HEAD": "gundam_dra_c_head",
+    "MELEE": "gundam_saber_yellow",
+    "SHIELD": "gundam_dra_c_shield",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [3, -11]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [3, 4]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [4, -20]
+    },
+    {
+      "id": "GRANADE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8.5, -16.5]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [24.5, -23]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -160,
+      "locations": [-6, -14.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 160,
+      "locations": [-6, 2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -14.5],
+      "length": 15,
+      "width": 15,
+      "angle": -160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-9, 2.5],
+      "length": 15,
+      "width": 15,
+      "angle": 160,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -8, 1,
+    7, 1,
+    7, -15.5,
+    -8, -15.5
+  ]
+}

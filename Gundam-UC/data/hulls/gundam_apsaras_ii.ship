@@ -1,0 +1,172 @@
+{
+  "hullName": "Apsaras II",
+  "hullId": "gundam_apsaras_ii",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ma/apsaras_ii/gundam_apsaras_ii_body.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 85,
+  "width": 121,
+  "center": [61, 42],
+  "collisionRadius": 60,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 68,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "L_LEG": "gundam_apsaras_ii_leftleg",
+    "M_BEAM": "gundam_builtin_blue_mega_beam",
+    "R_LEG": "gundam_apsaras_ii_rightleg"
+  },
+  "weaponSlots": [
+    {
+      "id": "M_BEAM",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [8.5, -0]
+    },
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -23,
+      "locations": [33.5, -44]
+    },
+    {
+      "id": "R_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 23,
+      "locations": [33.5, 44]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [7, 7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [14, 5.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [14, -5.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [7, -7]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [10, -25]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [10, 24.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [-3.5, -30]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-3.5, 30]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 60,
+      "locations": [-17.5, 25]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -60,
+      "locations": [-17.5, -25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 21],
+      "length": 7.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23, -21],
+      "length": 7.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    33, -24,
+    40.5, -38.5,
+    23, -53,
+    11.5, -51.5,
+    0, -44,
+    -18.5, -40.5,
+    -35.5, -27.5,
+    -35.5, 27.5,
+    -18.5, 40.5,
+    0, 44,
+    11.5, 51.5,
+    23, 53,
+    40.5, 38.5,
+    33, 24
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"baseHullId":"ionos_tw_base",
+	"skinHullId":"ionos_tw",
+	"hullName":"Ionos (TW)",
+	"hullDesignation":"Battlecruiser",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"ionos_tw",
+	"coversColor":[210,230,210,255],
+	"spriteName":"graphics/ships/trinity/ionos_tw.png",
+	"descriptionPrefix":"This warship of the Trinity Worlds combines salvaged Tri-Tachyon and transferred 9th Domain Battlegroup technology. The engines of this ship have been enhanced in a crude yet effective manner, in an effort to mimic the more advanced upgrades of the Fleet.",
+	"tags":["ix_trinity", "no_autofit"],
+	"tech":"Trinity Worlds",
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["tw_modernized_rangefinder", "tw_trinity_retrofit"],
+}

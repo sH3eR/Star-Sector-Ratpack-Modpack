@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="LunaLib">
+    <CLASSES>
+      <root url="file:///Applications/Starsector 0.97a.app/mods/LunaLib/jars/libs" />
+      <root url="jar:///Applications/Starsector 0.97a.app/mods/LunaLib/jars/LunaLib-Kotlin.jar!/" />
+      <root url="jar:///Applications/Starsector 0.97a.app/mods/LunaLib/jars/LunaLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file:///Applications/Starsector 0.97a.app/mods/LunaLib/jars/libs" recursive="false" />
+  </library>
+</component>

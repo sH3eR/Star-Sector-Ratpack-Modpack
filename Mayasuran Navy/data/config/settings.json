@@ -1,0 +1,49 @@
+{
+	"designTypeColors": {
+		"Mayasuran": [
+			0,
+			41,
+			120,
+			255
+		],
+	},
+	"misc": {
+		"MSS_laststand": "graphics/mayasura/hullmods/laststand.png",
+		"MSS_Akinci": "graphics/mayasura/hullmods/akinci.png",
+		"MSS_Shuttlepod": "graphics/mayasura/hullmods/shuttlepod.png",
+		"MSS_Joker": "graphics/mayasura/hullmods/joker.png",
+	},
+	"graphics": {
+		"blueprint_packages": {
+			"mayasura_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_e_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_w_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_c_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+			"mayasura_wp_package": "graphics/mayasura/icons/cargo/package_mayasura.png",
+		},
+		"characters": {
+			"MSS_TheKart": "graphics/mayasura/portraits/bounties/MSS_TheKart.png",
+			"MSS_Cjuicy": "graphics/mayasura/portraits/bounties/MSS_Cjuicy.png",
+			"MSS_Zyrith": "graphics/mayasura/portraits/bounties/MSS_Zyrith.png",
+			"MSS_Pyotr": "graphics/mayasura/portraits/bounties/MSS_Pyotr.png",
+			"msspyotr": "graphics/mayasura/portraits/bounties/MSS_Pyotr.png",
+			"MSS_Duke": "graphics/mayasura/portraits/bounties/MSS_Duke.png",
+			"MSS_Pirate": "graphics/mayasura/portraits/bounties/MSS_Pirate.png",
+			"MSS_Tritach": "graphics/mayasura/portraits/bounties/MSS_Tritach.png",
+			"MSS_Vice": "graphics/mayasura/portraits/bounties/MSS_Vice.png",
+		},
+		"hullmods":{
+		"MSS_variableKinetic": "graphics/mayasura/hullmods/variable_ammo/variable_kinetic.png",
+		"MSS_variableHE": "graphics/mayasura/hullmods/variable_ammo/variable_he.png",
+		"MSS_variableCluster": "graphics/mayasura/hullmods/variable_ammo/variable_cluster.png"
+		},
+				"fx":{
+			"MSS_beam_wave4":"graphics/mayasura/fx/MSS_beam_wave4.png",
+			"MSS_beam_wave2":"graphics/mayasura/fx/MSS_beam_wave2.png",
+			"MSS_beam_wave3":"graphics/mayasura/fx/MSS_beam_wave3.png",
+			"MSS_trail_rings_1":"graphics/mayasura/fx/MSS_trail_rings_1.png",
+			"MSS_trail_rings_2":"graphics/mayasura/fx/MSS_trail_rings_2.png",
+			"MSS_trail_rings_3":"graphics/mayasura/fx/MSS_trail_rings_3.png",
+		},
+	},
+}

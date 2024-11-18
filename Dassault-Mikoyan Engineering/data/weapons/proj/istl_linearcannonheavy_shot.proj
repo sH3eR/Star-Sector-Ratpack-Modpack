@@ -1,0 +1,19 @@
+{
+	"id":"istl_linearcannonheavy_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_RailSparks6cm",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":75.0,
+	"hitGlowRadius":30,
+	"width":7.5,
+	"fadeTime":0.3,
+	"fringeColor":[100,155,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[15,125,255,30],
+	"glowRadius":24,
+	"textureScrollSpeed":48.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_linearslug.png"
+}

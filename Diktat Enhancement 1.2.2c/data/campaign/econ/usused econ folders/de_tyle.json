@@ -1,0 +1,32 @@
+{
+  "starSystem": "tyle",
+  "markets": [
+    {
+      "entities": [
+        "aisoyim"
+      ],
+      "faction": "persean",
+      "size": 5,
+      "startingConditions": [
+        "no_atmosphere",
+        "very_cold",
+        "dark",
+        "volatiles_diffuse",
+        "ore_moderate",
+        "rare_ore_moderate",
+        "population_5",
+        "outpost",
+        "frontier"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "grounddefenses",
+        "orbitalstation_high",
+        "mining",
+        "commerce",
+        "militarybase"
+      ]
+    }
+  ]
+}

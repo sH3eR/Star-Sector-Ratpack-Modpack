@@ -1,0 +1,76 @@
+{
+  "starSystem": "andor",
+  "markets": [
+    {
+      "entities": [
+        "falken"
+      ],
+      "faction": "pirates",
+      "size": 3,
+      "startingConditions": [
+        "thin_atmosphere",
+        "meteor_impacts",
+        "cold",
+        "ore_sparse",
+        "rare_ore_sparse",
+        "population_3",
+        "outpost",
+        "frontier"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "grounddefenses",
+        "mining"
+      ]
+    },
+    {
+      "entities": [
+        "ravaryea"
+      ],
+      "faction": "sindrian_diktat",
+      "size": 4,
+      "startingConditions": [
+        "organics_common",
+        "farmland_adequate",
+        "ore_sparse",
+        "rare_ore_sparse",
+        "habitable",
+        "population_4"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "mining",
+        "farming",
+        "patrolhq",
+        "orbitalstation",
+        "grounddefenses"
+      ]
+    },
+    {
+      "entities": [
+        "andor_viewport"
+      ],
+      "faction": "sindrian_diktat",
+      "size": 4,
+      "startingConditions": [
+        "population_4",
+        "outpost",
+        "closed_immigration"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "grounddefenses",
+        "heavyindustry",
+        "militarybase",
+        "battlestation",
+        "lionsguard"
+      ]
+    }
+  ]
+}
+
+
+

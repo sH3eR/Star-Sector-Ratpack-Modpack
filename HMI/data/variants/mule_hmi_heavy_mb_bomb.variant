@@ -1,0 +1,43 @@
+{
+  "variantId": "mule_hmi_heavy_mb_bomb",
+  "hullId": "mule_hmi_heavy",
+  "displayName": "Facepunch",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [    
+  "bdeck",
+    "expanded_deck_crew"],
+	"hullMods": [
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "twotherac",
+        "WS 006": "twotherac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "harpoon",
+        "WS 002": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "support_bombardment_drone_wing"
+  ]
+}

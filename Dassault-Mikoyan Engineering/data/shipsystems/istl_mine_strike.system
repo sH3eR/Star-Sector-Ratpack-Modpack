@@ -1,0 +1,24 @@
+{
+	"id":"istl_mine_strike",
+	"type":"STAT_MOD",
+	"aiType":"MINE_STRIKE",
+	
+	"statsScript":"data.shipsystems.scripts.istl_MineStrikeStats",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"istl_DME_dronelaunch",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+		"threatRange":1500,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

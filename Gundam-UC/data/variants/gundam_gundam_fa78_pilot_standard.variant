@@ -1,0 +1,68 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_gundam_fa78_pilot",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_gundam_fa78_pilot_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_gundam_fa78_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"GUN_2": "gundam_gundam_fa78_pack_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "gundam_gundam_fa78_head"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "SHIELD": "gundam_gundam_fa78_shield"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MISSILE_1": "gundam_builtin_ms_missile_blue",
+		"MISSILE_2": "gundam_builtin_ms_missile_blue",
+		"PACK": "gundam_gundam_fa78_pack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MELEE": "gundam_saber_purple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+		"SHIELD_2": "gundam_efsf_ex_right_shield",
+		"SHIELD_3": "gundam_efsf_ex_left_shield"
+
+      }
+    }
+  ],
+  "wings": []
+}

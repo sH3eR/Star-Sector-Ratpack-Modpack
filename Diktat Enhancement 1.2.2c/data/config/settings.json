@@ -1,0 +1,28 @@
+{
+	"DEremovenondiktatfeatures":false, # When set to true, prevents non-diktat DE features from spawning on new game
+	"DEenablelitemode":false, # When set to true, activates a "Lite" mode of DE which removes many of its features, that will apply on new game. Will also override "DEremovenondiktatfeatures" unfortunately
+	"DEenablefortressmode":false, # When set to true, activates DE Fortress Mode which replaces all non-Askonia DE-added markets with Askonia-based alternatives. Can only apply on new game
+	"DEdisablelobers":false, # When set to true, removes lobster-related fighters from faction known bps. Will make Volturn-y sad
+	"DEdisabledrakoncheck":false, # When set to true, disables a Drakon-related script that may cause crashes (initDrakonConditionCheck)
+	"designTypeColors": {
+		"Sindrian Diktat":[180,0,120,255],
+		"Lion's Guard":[180,0,120,255],
+		"Sindrian Fuel Company":[180,0,120,255],
+	},
+	"graphics": {
+		"Diktat Enhancement":{
+			"de_lunalib_logo":"graphics/DE/icons/de_lunalib_logo.png"
+		},
+		"characters":{
+			"PLambassador":"graphics/DE/portraits/characters/PLambassador.png",
+			"lucanus":"graphics/DE/portraits/characters/lucanus.png",
+		},
+		"blueprint_packages": {
+			"diktat_package": "graphics/DE/icons/cargo/diktat_bp.png",
+			"lg_package": "graphics/DE/icons/cargo/lg_bp.png"
+		},
+	},
+	"ruleCommandPackages":[
+        "DE.campaign.rulecmd"
+    ],
+}

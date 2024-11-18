@@ -1,0 +1,59 @@
+{
+  "variantId": "MSS_Gryphon_Elite",
+  "hullId": "MSS_Gryphon_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 28,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 008": "harpoonpod",
+        "WS 009": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 010": "sabot",
+        "WS 011": "sabot",
+        "WS 012": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "heavyac",
+        "WS 003": "lightneedler",
+        "WS 004": "lightneedler",
+        "WS 005": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "vulcan",
+        "WS 007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

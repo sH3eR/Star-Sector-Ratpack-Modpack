@@ -1,0 +1,40 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "MSS_vigilance_m",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "MSS_vigilance_m_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

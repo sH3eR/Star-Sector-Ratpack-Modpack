@@ -1,0 +1,30 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "istl_burya",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_burya_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_clusterlauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_ionbeamer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_linearvulcan",
+                "WS0004": "istl_linearvulcan"
+            }
+        }
+    ]
+}

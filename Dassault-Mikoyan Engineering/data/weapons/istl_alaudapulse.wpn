@@ -1,0 +1,30 @@
+{
+	"id":"istl_alaudapulse",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"everyFrameEffect": "data.scripts.weapons.istl_AlaudaPulserFX",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":600,
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_alaudapulse_hardpoint_glow.png",
+	"glowColor":[25,175,255,155],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":24.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":9.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.08,
+					   "particleCount":24,
+					   "particleColor":[25,175,255,200]},
+	"projectileSpecId":"istl_alaudapulse_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge_small",
+	"fireSoundTwo":"istl_autolaser_fire",
+}

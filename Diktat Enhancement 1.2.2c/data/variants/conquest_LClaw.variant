@@ -1,0 +1,75 @@
+{
+    "displayName": "Lion's Claw",
+    "fluxCapacitors": 0,
+    "fluxVents": 21,
+    "goalVariant": false,
+    "hullId": "conquest",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "unstable_injector",
+        "stabilizedshieldemitter",
+        "extendedshieldemitter"
+    ],
+    "permaMods": ["solar_shielding"],
+    "sMods": [],
+    "variantId": "conquest_LClaw",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 019": "sabotpod",
+                "WS 020": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "hurricane",
+                "WS 002": "hurricane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "gauss",
+                "WS 012": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "devastator",
+                "WS 014": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser",
+                "WS 006": "pdlaser",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "flak",
+                "WS 016": "flak",
+                "WS 017": "flak",
+                "WS 018": "flak"
+            }
+        }
+    ]
+}

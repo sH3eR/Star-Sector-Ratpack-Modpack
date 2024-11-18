@@ -1,0 +1,192 @@
+=== For Starsector 0.97a ===
+
+- 1.17.1: hotfix
+fix: Crash when accessing advanced setting tab in LunaSettings
+
+- 1.17.0: Devastator Edition
+feat: improve friendly fire logic for burst weapons with recoil (such as e.g. the Devastator Cannon)
+note: this feature will likely need further refining in the future, but should be mostly functional
+feat: add PrioDense tag (by default only in complete tag list), which prioritizes target dense areas
+fix: campaign GUI options reset/copyLoadout/copyVariant should now work for all tag storage mode
+fix: NPE when using automatic suggested tags on freshly acquired ship without weapons
+fix: setting tags/modes for ship modules in the refit screen should now work properly
+feat: ported additional settings to LunaSettings. If you want specific settings ported, please let me know!
+
+- 1.16.1:
+fix: Issue where index-based tag storage wasn't working for fighters anymore
+fix: Issue that caused a CTD when using avoid phase tag against MSV ships with non-right-click phase cloak
+
+- 1.16.0:
+change: Changed default tag list to classic rather than novice in LunaSettings
+feat: Improve target prioritization for the custom AI against stations
+feat: add PrioHealthy tag (opposite of PrioWounded), available in tag list "complete" by default
+feat: add LowRoF tag, which reduces the rate of fire of a weapon, available in tag list "complete" by default
+fix: I heard you like fixes, so I fixed the fix that was supposed to fix phase ship recognition for phase tags
+
+- 1.15.1:
+fix: Issue with duplicate tags when customizing suggested tags, which would prevent removing tags once added
+fix: Issue where target/avoid phase tags would consider ships with right-click defense systems other than phase cloak as phase ships
+fix: issue where new tag storage modes didn't work during missions
+change: Charge mode now ignores PD weapons*, i.e. ships will charge until all non-PD weapons are in range
+*unless they have one of these tags: "NoPD", "NoMissiles", "PrioShips"
+
+- 1.15.0: LunaSettings
+feat: Add LunaLib integration for settings. Everything should still work without LunaLib
+feat: Add different tag storage modes, selectable via LunaSettings or settings.editme
+      Check out the Tab Tags in LunaSettings for more information!
+      WeaponComposition mode allows for storing tags based on weapons in groups rather than group index
+      WeaponCompositionGlobal allows to apply modes fleet-wide in an automated fashion
+
+- 1.14.2 (hotfix):
+fix: Issue that can cause a crash via stack overflow (log spammed with determineIfShotWillHit(AGCUtils.kt:379))
+
+- 1.14.1:
+fix: Issue with bounds detection that prevented weapons from firing
+
+- 1.14.0:
+Disclaimer: This version has been released very shortly after the new game version, so it might still contain issues
+feat: update for new game version 0.97a
+feat: add option to disable refit screen integration to Settings.editme
+feat: add option (true by default) to use exact bounds rather than circle approximations to determine if weapons should fire
+      This has not yet been tested sufficiently, so if this causes issues,
+      please disable useExactBoundsForFiringDecision in Settings.editme and let me know!
+feat: add new ship modes (KeepAway, FarAway and ShieldsUp+). FarAway is still in experimental stage
+      ShieldsUp+ needs to be enables manually in Settings.editme.
+      Depending on feedback, either KeepAway or FarAway will probably get removed, as they are different ways to achieve the same thing
+feat: ship/station modules now use their parent ship/station to determine ship target for tags such as ShipTarget
+fix: will no longer open refit screen integration GUI when typing J while naming ships
+
+=== For Starsector 0.96a ===
+
+- 1.13.1:
+fix: refit-screen integration should now also work with JRE8
+
+- 1.13.0:
+feat: refit-screen integration
+fix: screen scale mult issues
+
+- 1.12.4:
+fix: compatibility issue with VAS (AGC will no longer wrap the AIs of blacklisted weapons in an empty wrapper)
+
+- 1.12.3:
+fix: crash when merging weapon group with alternating mode and then selecting that group
+fix: slightly improved some descriptions in hover tooltips
+
+- 1.12.2:
+fix: AI-controlled ships now use their maneuver target as ship target for ShipTarget-Tag and Charge-ship-mode
+fix: AvoidArmor tag now considers residual armor
+fix: AGC-GUI now available in mission refit-screen simulations
+fix: Opening combat-GUI via command HUD now only works when in command HUD, as intended
+fix: Improve logic for PD-validity evaluation
+fix: Performance issues
+
+- 1.12.1:
+fix: removing ForceAF as the last tag no longer makes it stick around.
+fix: There should be less UI flicker now when setting all weapons to ForceAF tag. It doesn't seem possible to completely get rid of flicker.
+fix: Combat GUI won't open anymore when an invalid ship (e.g. command shuttle) is selected.
+fix: Crash when clicking suggested button on a ship with no fleet member value.
+fix: suggested tags applied to ship modules would not get stored properly if exiting GUI after only pressing that button.
+fix/feat: Selecting a ship in the command HUD (TAB-Key) now lets you open their GUI (experimental, uses reflection as this is not exposed by API).
+
+- 1.12.0: This update will reset ship modes!
+fix: possible crash when switching between advanced and simple mode
+Add BlockBeams tag (only relevant for very specific weapons, mainly a weapon from an upcoming mod release)
+Add Charge ship mode
+Internal refactoring of ship modes. The way they were previously stored was kind of stupid. The main
+effect of this is that you can now customize which ship modes will be available in the settings.
+For mod authors, it's now also possible to assign ship modes via custom ship data.
+
+- 1.11.2:
+fix: no longer requires JRE8, selecting a new tag in the combat GUI no longer deselects invisible tags.
+add settings for controlling in-combat-gui hover effects.
+Note: Added a new parameter to ButtonGroupAction::execute in combatGuiLib-part.
+
+- 1.11.1:
+Fix potential memory leak caused by weapon highlighting when hovering over buttons for an extended period.
+
+- 1.11.0: Requires 0.96a-RC10
+Merge tag (Manually control multiple weapon groups at once), Prioritization tags
+
+- 1.10.0:
+Automatic tags: Add new GUI to customize suggested tags and option to apply them automatically
+
+- 1.9.0:
+Update for Starsector version 0.96a and updated library mods
+
+=== For Starsector 0.95.1 ===
+
+- 1.7.x - 1.8.x:
+UI improvements, combat GUI lib, tag scrollbar
+
+- 1.1.x - 1.6.x:
+Reworks, lots of new tags
+
+- 1.0.0:
+Mod rework: Introduction of the in-combat GUI and the new tag system
+
+changelog archive:
+
+- 0.1.0: Initial release
+- 0.2.0: Added IgnoreFighters mode, added custom AI, added settings
+- 0.2.1: Significant improvements to custom AI, including settings for custom AI
+- 0.3.0: further improvements to custom AI (friendly fire), added weapon blacklist
+- 0.3.1: minor polish and bugfixes
+- 0.4.0: Experimental support for setting allied ship's fire modes, UI Settings
+- 0.4.1: bugfix (allied ships were still referencing the player ship weapons), setting for info hotkey
+- 0.5.0-ALPHA: fire modes are now exclusively stored on a per-ship-basis, meaning the data can be saved/loaded between combats
+- 0.5.1: fire mode settings are now saved between saving/reloading, several bugfixes.
+- 0.5.2: fixed bug where customAIFriendlyFireCaution had a much higher effect than intended
+  changed it so that pressing J-Key is no longer required to initialize other ships.
+- 0.5.3: In accordance with Wisp, removed dependency on Questgiver lib,
+  as that might cause compatibility issues with PerseanChronicles.
+  fixed issue where refitting could cause weird behaviour (hopefully)
+- 0.6.0: added 3 new fire modes, added reset function, fixed blacklist-bug, fixed several AI bugs, fixed issues with persistent storage
+- 0.7.0: automatically load fire modes for all ships on combat start (opt-out in settings),
+  no longer need to be in Command UI to set friendly modes,  added hotkey to load fire modes for all ships
+- 0.7.1: fix issue with reset key, adjusted readme
+- 0.7.2: IPDAI is now considered for PD/Missiles mode, invalid modes are now skipped (opt-out in settings)
+- 0.8.0 (pre-release): added mode suffixes, added gunnery control GUI
+- 0.8.1 (pre-release): cleaned up GUI, display weapon mode suffixes
+- 0.8.2: add ability to cycle suffixes during combat, fix issues with persistence and save game corruption
+- 0.8.3: minor polish
+- 0.8.4: pre-deployed ships (e.g. when trying to disengage) will now also automatically load firing modes
+- 0.8.5: automatically purge incompatible persistent data, changed GUI hotkey to "J" and made it rebindable
+- 0.9.0 (pre-release): Added loadouts, ship modes & additional modes/suffixes
+- 0.9.1 (pre-release): Fixed an issue that could lead to a nullptr-exception
+- 0.9.2: Fixed issues (suffixes didn't properly affect targeting priority, ship modes got occasionally reset),
+  added additional ship modes.
+- 0.10.1: Added targetShields/avoidShields modes, possibility to activate multiple ship AI modes, reworked opportunist,
+  added mode parameters to options
+- 0.10.2: Yet another Opportunist overhaul (now less conservative for weapons with unlimited ammo, new setting), minor bugfixes
+- 0.10.4: Fixed issues with friendly fire, fixed several issues with target acquisition, turrets now assume a neutral position
+- 0.11.0: Reworked Target/AvoidShields, reworked most of the custom AI to fix some issues (improved aim, friendly fire, target prio)
+- 0.12.0: Converted PD(Flux>50%) and PD(Ammo<50%) to fire modes, the latter disabled by default. GUI polish.
+  Added suggested weapon modes (prototypical). Added setting for strict/lenient BigShip/SmallShip modes.
+- 0.12.1: Add variant mode copying, help hotkey, additional settings (technically, this should have been 0.13.0)
+- 0.13.0: add noPD mode (disabled by default), polish
+- 0.13.1: refactor GUI dialogue options, add setting to disable automatic in-combat persistence.
+- 0.13.2: minor fixes and dependency upgrades
+- 1.0.0: Big rework: Replace in-combat hotkeys with a GUI, replace weapon modes and suffixes with a tag system
+- 1.1.0: Fix issues (combat GUI with screenScale, clicking noise, settings), add customizable thresholds and new tags
+- 1.1.1: Fix issues with combat UI scaling/positioning, fix issues with PD-tags
+- 1.2.0: Remove legacy mode, fix several issues related to weird weapon AI behavior, add additional tags, cleanup & polish
+- 1.3.0: Add ForceAF tag and hotloading tags, tweaked several tags for less restrictive targeting, fix issues with base AI selection
+- 1.4.0: Add option for other mods to set tags for enemy ships via custom ship data
+- 1.4.1: Fix AvoidArmor-tag; fix issue with ship modes getting stripped when transferring control (via occasionally reloading ship modes)
+- 1.5.0: Add AvoidPhased-tag; Various small weapon AI tweaks; Add Console Command tag hotloading
+- 1.6.0: Weapon charge time is now taken into consideration when computing projectile travel time. Add Range<N% and ShipTarget tags.
+         Split combat-GUI into lib and AGC-implementation. Fix issue causing crash when opening combat GUI with no flagship deployed.
+         Tuned default settings.
+- 1.6.1: Fix TargetShields+, turn jar into a pom-style library to allow for displaying javadoc in IDE
+- 1.7.0: Tag scrollbar, add new tags, add option to ignore fighter shields (special thanks to Seanra for contributing most of the new stuff!)
+- 1.7.1: Fix an issue with weapons that need to be aimed firing without aiming (special thanks to Genir!).
+         Fix an issue with PrioritizePD not ignoring flares with IPDAI.
+         (Hopefully) fix potential memory leak caused by in-combat-GUI.
+- 1.8.0: Add two new tags; ship module modes now persist; fix range tag for non-aimable weapons;
+         UI improvements (advanced/simple mode, weapon highlighting, dynamic option names);
+         Combat GUI lib: Add overrideable onHover method to group actions.
+- 1.9.0: Compatibility update for Starsector 0.96a and MagicLib 1.0.0
+- 1.10.0: Add GUI for customizing suggested tags and option to automatically apply suggested tags (accessible from campaign GUI)
+- 1.10.1: fix: catch possible out-of-bounds error for combat GUI, add SpamSystem and TgtPhase to readme, fix spamSystem logic error
+- 1.10.2: fix: improved accuracy for AvoidArmor calculations; allow hotloading tags in simple mode
+- 1.11.0: Add Merge tag, which allows manually controlling multiple weapon groups (K-Key), add prioritization tags.

@@ -1,0 +1,62 @@
+{
+  "id": "gundam_builtin_blue_mega_beam",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "glowColor": [
+    220,
+    230,
+    120,
+    255
+  ],
+  "hitGlowRadius": 10,
+  "turretOffsets": [
+    -5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 25,
+  "textureType": [
+    "graphics/fx/gundam_beam_fx_z4.png",
+    "graphics/fx/gundam_beam_fx_h1.png"
+  ],
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 3,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne":"gundam_minovski_charge",
+  "fireSoundTwo":"gundam_minovski_beam",
+}

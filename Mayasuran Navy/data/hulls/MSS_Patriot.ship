@@ -1,0 +1,284 @@
+{
+  "bounds": [
+    -98.5,
+    -30.5,
+    -91.5,
+    -37,
+    -74,
+    -42,
+    -23,
+    -44,
+    -10.5,
+    -56.5,
+    7.5,
+    -57.5,
+    36,
+    -34,
+    90,
+    -33.5,
+    103,
+    -29,
+    127.5,
+    -33,
+    157.5,
+    -16,
+    156,
+    -0,
+    157.5,
+    16,
+    127.5,
+    33,
+    103,
+    29,
+    90,
+    33.5,
+    36,
+    34,
+    7.5,
+    57.5,
+    -10.5,
+    56.5,
+    -23,
+    44,
+    -74,
+    42,
+    -91.5,
+    37,
+    -98.5,
+    30.5,
+    -97,
+    -0
+  ],
+  "builtInWings": [],
+  "center": [
+    61,
+    102
+  ],
+  "collisionRadius": 197.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 75,
+      "location": [
+        -101,
+        -28
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 75,
+      "location": [
+        -101,
+        28
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 80,
+      "location": [
+        -100,
+        -20
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 80,
+      "location": [
+        -100,
+        20
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 80,
+      "location": [
+        -98,
+        -10.5
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 80,
+      "location": [
+        -98,
+        10.5
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 85,
+      "location": [
+        -98.5,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    }
+  ],
+  "height": 272,
+  "hullId": "MSS_Patriot",
+  "hullName": "Patriot",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    34,
+    -0
+  ],
+  "shieldRadius": 162,
+  "spriteName": "graphics/mayasura/ships/MSS_Patriot.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        105,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        51,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 210,
+      "id": "WS0005",
+      "locations": [
+        3,
+        46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 210,
+      "id": "WS0006",
+      "locations": [
+        3,
+        -46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -130,
+      "arc": 210,
+      "id": "WS0007",
+      "locations": [
+        -53,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 130,
+      "arc": 210,
+      "id": "WS0008",
+      "locations": [
+        -53,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0009",
+      "locations": [
+        -47,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        30,
+        46
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        30,
+        -46
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 50,
+      "arc": 210,
+      "id": "WS0003",
+      "locations": [
+        84,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -50,
+      "arc": 210,
+      "id": "WS0012",
+      "locations": [
+        84,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 122
+}

@@ -1,0 +1,201 @@
+{
+  "bounds": [
+    46,
+    -3,
+    48,
+    -4.5,
+    45,
+    -10.5,
+    58.5,
+    -15,
+    -53,
+    -43,
+    -53,
+    -26,
+    -58.5,
+    -22.5,
+    -58.5,
+    -13.5,
+    -53,
+    -10,
+    -55,
+    1,
+    -48.5,
+    9.5,
+    -58.5,
+    13.5,
+    -58.5,
+    22.5,
+    -50,
+    26.5,
+    -50,
+    41,
+    58.5,
+    15,
+    45,
+    10.5,
+    48,
+    4.5,
+    46,
+    3
+  ],
+  "builtInMods": [
+    "istl_bbengineering",
+    "supercomputer",
+    "no_weapon_flux",
+    "shared_flux_sink",
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_megastreamer",
+    "WS0004": "istl_blinkerA_blue",
+    "WS0005": "istl_blinkerA_blue",
+    "WS0006": "istl_blinkerB_blue",
+    "WS0007": "istl_blinkerB_blue",
+    "WS0008": "istl_blinkerB_blue",
+    "WS0009": "istl_blinkerA_blue",
+    "WS0010": "istl_blinkerA_blue"
+  },
+  "center": [
+    44,
+    66.5
+  ],
+  "collisionRadius": 84,
+  "engineSlots": [],
+  "height": 127,
+  "hullId": "istl_bbsuperheavy_bow",
+  "hullName": "Bow Module",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 83,
+  "spriteName": "graphics/ISTL/ships/superheavy/istl_bbsuperheavy_bow.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        40,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 60,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        -51.5,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -60,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -51.5,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -16,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -16,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        58.5,
+        15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        58.5,
+        -15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -33,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -0.5,
+        8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -0.5,
+        -8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 88
+}

@@ -1,0 +1,64 @@
+{
+  "id": "gundam_gundam_gp02_bazooka",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ms/gundam_gp02/gundam_gundam_gp02_bazooka_00.png",
+  "turretGlowSprite": "graphics/ms/gundam_gp02/gundam_gundam_gp02_bazooka_glow.png",
+  "hardpointSprite": "graphics/ms/gundam_gp02/gundam_gundam_gp02_bazooka_00.png",
+  "hardpointGlowSprite": "graphics/ms/gundam_gp02/gundam_gundam_gp02_bazooka_glow.png",
+  "glowColor": [
+    220,
+    230,
+    120,
+    255
+  ],
+  "hitGlowRadius": 10,
+  "turretOffsets": [
+    46.5,
+    1
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    46.5,
+    1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "numFrames": 23,
+  "frameRate": 7,
+  "fringeColor": [
+    220,
+    230,
+    120,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 70,
+  "textureType": [
+    "graphics/fx/gundam_beam_fx_z3.png",
+    "graphics/fx/gundam_beam_fx_j1.png"
+  ],
+  "textureScrollSpeed": 300,
+  "pixelsPerTexel": 3,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "gundam_minovski_charge",
+  "fireSoundTwo": "gundam_minovski_beam"
+}

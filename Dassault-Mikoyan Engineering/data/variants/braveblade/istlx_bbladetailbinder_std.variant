@@ -1,0 +1,21 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "istlx_bbladetailbinder",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "istlx_bbladetailbinder_std",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "istl_braveimpulsor",
+            "WS0002": "istl_braveimpulsor",
+            "WS0003": "istl_braveimpulsor",
+            "WS0004": "istl_braveimpulsor",
+            "WS0005": "istl_braveimpulsor",
+            "WS0006": "istl_braveimpulsor"
+        }
+    }]
+}

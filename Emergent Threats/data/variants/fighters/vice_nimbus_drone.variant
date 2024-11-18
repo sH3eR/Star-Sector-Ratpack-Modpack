@@ -1,0 +1,21 @@
+{
+	"quality":1,
+	"displayName":"Combat Drone",
+	"hullId":"vice_nimbus",
+	"hullMods":["no_weapon_flux"],
+	"variantId":"vice_nimbus_drone",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"vice_ion_micropulser_fighter",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 002":"vice_pilum_fighter",
+		 		   },
+		},
+	],
+}

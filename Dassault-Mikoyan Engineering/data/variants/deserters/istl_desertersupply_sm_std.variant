@@ -1,0 +1,24 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_desertersupply_sm",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_desertersupply_sm_std",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "istl_impulsor_ring",
+            "WS0002": "istl_impulsor_ring",
+            "WS0003": "istl_impulsor_ring",
+            "WS0004": "istl_impulsor_ring"
+        }
+    }]
+}

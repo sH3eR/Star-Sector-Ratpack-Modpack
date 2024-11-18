@@ -1,0 +1,2 @@
+name,id,type,tags,activationDays,activationCooldown,durationDays,deactivationDays,deactivationCooldown,unlockedAtStart,defaultForAIFleet,musicSuppression,uiOn,uiOff,uiLoop,worldOn,worldOff,worldLoop,icon,plugin,ai,desc,sortOrder
+Siphon Fuel,sun_ns_siphon_fuel,TOGGLE,stealth-,0.2,,,0.05,,TRUE,,,ui_neutrino_detector_on,ui_neutrino_detector_off,,system_temporalshell_off,,system_temporalshell_loop,sun_pe/graphics/icons/abilities/siphon_fuel.png,nomadic_survival.campaign.abilities.SiphonFuelAbility,,Collect fuel from a nebulae at the cost of supplies.,647

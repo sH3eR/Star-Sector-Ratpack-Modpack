@@ -1,0 +1,12 @@
+{
+	"baseHullId":"MSS_Victory",
+	"skinHullId":"MSS_VictoryD",
+	"hullName":"Victory (M)",
+	"descriptionId":"MSS_Victory",
+	"spriteName":"graphics/mayasura/ships/MSS_Victory_EliteD.png",
+	"addHints":[HIDE_IN_CODEX],
+	"descriptionPrefix":"Equipped with a state-of-the-art mine strike system, this Victory (M) variant stands as a testament to the Mayasuran Navy's commitment to tactical dominance and battlefield innovation.",
+	"systemId":"mine_strike",
+	     "weaponSlotChanges":{
+     },
+}

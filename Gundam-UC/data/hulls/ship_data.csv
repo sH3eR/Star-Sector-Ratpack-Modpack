@@ -1,0 +1,167 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
+Carry Base,gundam_carry_base,Commander Transport,EFSF,burndrive,15,6000,750,5000,6000,300,155,2,80,60,40,20,25,800,FRONT,,180,0.5,0.8,,,100,200,90,60,3,30,8,120000,3,12,360,0.25,20,20,"CARRIER, COMBAT, NO_AUTO_ESCORT",efsf_hull_0_bp,,0.5,2,3,,208
+Space Transport Ship,gundam_sts,Transport,EFSF,gundam_ball_typek_drone_system,6,1500,150,1550,1000,100,50,2,60,30,25,20,10,200,NONE,,,,,,,10,25,600,100,2,15,9,15000,5,8,120,0.25,8,8,"CIVILIAN, FREIGHTER",efsf_hull_0_bp,,0.6,2,3,,225
+Columbus,gundam_columbus,Transport,EFSF,flarelauncher,8,2500,200,2250,1667,100,70,2,50,25,20,15,7,300,NONE,,,,,,,20,40,200,300,2,15,9,20000,5,10,120,0.25,10,10,"CIVILIAN, FREIGHTER",efsf_hull_0_bp,,0.6,2,3,,225
+Columbus Beehive,gundam_columbus_beehive,Modified Transport,EFSF,gundam_ball_drone_system,19,5000,200,4500,4000,200,140,4,45,20,17,12,7,900,FRONT,,120,0.5,0.8,,,100,300,800,300,4,15,8,80000,4,12,400,0.25,17,17,CARRIER,efsf_hull_0_bp,,0.6,2,3,,225
+Pizarro,gundam_pizarro,Carrier Transport,EFSF,gundam_ball_drone_system,12,6000,650,5000,6000,300,100,3,80,60,40,20,25,800,FRONT,,120,0.5,0.8,,,150,250,200,120,3,20,8,120000,3,12,360,0.25,20,20,CARRIER,efsf_hull_1_bp,,0.5,2,3,,208
+Assault Landing Ship,gundam_als,Assault Landing Ship,EFSF,gundam_ball_typek_drone_system,24,10000,750,8000,9000,800,250,5,70,45,35,25,30,1550,FRONT,,90,0.5,0.8,,,300,430,300,240,7,33,8,310000,3,12,580,0.075,40,40,CARRIER,efsf_hull_0_bp,,0.5,2,3,,212
+Lepanto,gundam_lepanto,Missile Frigate,EFSF,fastmissileracks,18,6000,750,8000,8750,350,110,,90,60,40,30,60,1000,FRONT,,90,0.5,0.8,,,250,300,200,200,10,40,9,150000,2,20,720,0.25,24,24,ALWAYS_PANIC,efsf_hull_0_bp,,0.7,2,4,,414
+Salamis,gundam_salamis,Light Assault Cruiser,EFSF,maneuveringjets,20,10000,1000,12000,10500,700,210,,60,40,30,30,25,1210,FRONT,,90,0.5,0.8,,,350,450,270,250,8,33,8,300000,3,12,550,0.075,40,40,,efsf_hull_0_bp,,0.5,2,3,,212
+Salamis Modified,gundam_salamis_modified,Light Assault Cruiser,EFSF,maneuveringjets,20,10000,950,11000,10000,650,210,,75,55,45,45,35,1210,FRONT,,90,0.5,0.8,,,300,450,250,250,8,33,8,315000,3,12,550,0.075,40,40,,efsf_hull_0_bp,,0.5,2,3,,212
+Magellan,gundam_magellan,Battleship,EFSF,plasmajets,25,14000,1250,18000,24000,1100,280,,45,25,15,7,5,2200,FRONT,,120,0.6,0.7,,,430,550,325,300,10,35,7,325000,2.5,15,660,0.075,40,40,,"efsf_hull_1_bp,rare_bp",0.1,0.6,2,4,,33
+White Base,gundam_pegasus,Assault Carrier,EFSF,acausaldisruptor,25,14000,1350,20000,25000,1100,305,2,30,15,10,5,5,3100,OMNI,,270,0.7,0.6,,,550,750,550,400,11,40,7,510000,2,25,720,0.075,45,45,,"efsf_hull_1_bp,no_bp_drop",0.01,0.75,3,5,,34
+Blanc Rival,gundam_blanc_rival,Assault Carrier,EFSF,microburn,25,14500,1350,20500,26000,1200,340,2,30,15,10,5,5,3740,OMNI,,270,0.7,0.6,,,550,750,550,400,11,40,7,520000,2,25,740,0.075,47,47,,"efsf_hull_1_bp,no_bp_drop",0.01,0.75,3,5,,34
+Spartan,gundam_spartan,Assault Carrier,EFSF,entropyamplifier,27,16000,1400,22000,27000,1150,350,3,28,15,12,5,5,3900,OMNI,,270,0.7,0.6,,,550,750,550,400,11,40,7,510000,2,25,720,0.075,50,50,,"efsf_hull_1_bp,no_bp_drop",0.01,0.75,3,5,,34
+Gray Phantom,gundam_gray_phantom,Assault Carrier,EFSF,fortressshield,28,17000,1450,24000,28000,1450,375,3,35,20,15,5,5,3100,OMNI,,270,0.8,0.6,,,500,800,600,400,10,40,7,530000,2,25,740,0.075,55,55,,"efsf_hull_1_bp,no_bp_drop",0.01,0.75,3,5,,34
+Albion,gundam_albion,Assault Carrier,EFSF,microburn_omega,30,18000,1550,25000,29000,1500,380,2,35,20,18,7,7,4890,OMNI,,270,0.8,0.6,,,450,750,550,400,10,40,7,560000,2,25,740,0.075,58,58,,"efsf_hull_1_bp,no_bp_drop",0.01,0.75,3,5,,34
+Birmingham,gundam_birmingham,Space Battleship,EFSF,plasmajets,32,20000,1600,30000,30000,1500,400,4,27,13,12,5,5,4000,OMNI,,270,0.8,0.6,,,1000,3000,2000,2000,15,27,7,600000,3,12,720,0.25,60,60,SHIP_WITH_MODULES,"efsf_hull_1_bp,no_bp_drop",0.01,0.75,3,5,,34
+Birmingham Module,gundam_birmingham_lpart,,,,5,6000,1600,5000,6000,700,100,,0,0,0,10,10,1000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,34
+Birmingham Module,gundam_birmingham_rpart,,,,5,6000,1600,5000,6000,700,100,,0,0,0,10,10,1000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,34
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yapp,gundam_yapp,Transport,ZEON,gundam_zaku_ii_drone_system,9,2700,200,3350,2000,100,70,3,50,25,20,15,7,300,FRONT,,120,0.4,0.8,,,20,40,300,100,2,15,9,20000,5,10,120,0.25,10,10,"CIVILIAN, FREIGHTER",zeon_hull_0_bp,,0.6,2,3,,225
+Jormungand,gundam_jormungand,Artillery Mobile Weapon,ZEON,highenergyfocus,12,4000,150,5000,2500,300,70,,50,30,30,20,15,100,FRONT,,30,0.4,0.8,,,10,20,100,100,2,30,9,150000,5,10,120,0.25,10,10,"CARRIER,  NO_AUTO_ESCORT",zeon_hull_0_bp,,0.6,2,3,,225
+Chivvay,gundam_chivvay,Commander Heavy Cruiser,ZEON,maneuveringjets,20,8000,900,10000,10500,700,200,2,50,30,20,15,20,1000,FRONT,,120,0.4,0.8,,,250,350,330,600,8,33,8,250000,3,12,480,0.075,25,25,"CARRIER, COMBAT, NO_AUTO_ESCORT",zeon_hull_0_bp,,0.5,2,3,,212
+Chibe (Final Production Type),gundam_chibe_final,Commander Heavy Cruiser,ZEON,maneuveringjets,21,8000,900,10500,10500,750,210,2,60,40,25,15,20,1100,FRONT,,120,0.4,0.8,,,200,400,350,650,7,33,8,270000,3,12,500,0.075,27,27,"CARRIER, COMBAT, NO_AUTO_ESCORT",zeon_hull_0_bp,,0.5,2,3,,212
+Musai,gundam_musai,Light Cruiser,ZEON,highenergyfocus,22,10000,900,10000,10500,700,235,1,60,40,30,20,25,1400,FRONT,,90,0.4,0.8,,,380,430,280,260,8,33,8,300000,3,12,550,0.075,30,30,,zeon_hull_0_bp,,0.5,2,3,,212
+Musai (Final Production Type),gundam_musai_final,Light Cruiser,ZEON,highenergyfocus,24,10500,850,11000,10500,800,240,1,70,45,35,25,30,1550,FRONT,,90,0.4,0.8,,,300,430,300,240,7,33,8,310000,3,12,580,0.075,32,32,,zeon_hull_1_bp,,0.5,2,3,,212
+Musai (Late Production Type),gundam_musai_late,Light Cruiser,ZEON,highenergyfocus,24,10500,850,11000,10500,800,240,2,70,45,35,25,30,1550,FRONT,,90,0.4,0.8,,,300,430,300,240,7,33,8,310000,3,12,580,0.075,32,32,,zeon_hull_1_bp,,0.5,2,3,,212
+Jotunheim,gundam_jotunheim,Support Space Ship,ZEON,reservewing,24,8000,600,7000,7000,650,245,4,40,12,8,8,5,2050,FRONT,,90,0.4,0.8,,,200,400,2600,700,10,40,7,230000,2,20,720,0.25,40,40,"TANKER, FREIGHTER",zeon_hull_0_bp,,0.7,2,4,,414
+Papua,gundam_papua,Supply Transport Carrier,ZEON,reservewing,28,9000,750,8000,8750,700,260,3,30,8,4,4,2,2900,FRONT,,90,0.4,0.8,,,250,500,3000,3000,10,40,7,250000,2,20,720,0.25,45,45,CARRIER,zeon_hull_0_bp,0.1,0.7,2,4,,414
+Zanzibar,gundam_zanzibar,Commander Assault Cruiser,ZEON,maneuveringjets,26,15000,1000,20000,24500,1100,300,2,27,12,10,6,5,1800,OMNI,,120,0.5,0.7,,,450,650,800,600,11,40,7,520000,2,25,720,0.075,40,40,,"zeon_hull_1_bp,rare_bp",0.01,0.75,3,5,,34
+Gwazine,gundam_gwazine,Commander Battleship,ZEON,plasmajets,28,15000,1100,18000,24000,1100,370,3,25,12,8,4,2,3810,FRONT,,120,0.4,0.8,,,550,750,850,1000,11,40,7,520000,2,25,720,0.075,55,55,,"zeon_hull_1_bp,rare_bp",0.01,0.75,3,5,,34
+Dolos,gundam_dolos,Heavy Mothership,ZEON,reservewing,32,23000,1500,28000,31250,1100,300,6,25,10,10,4,4,6000,FRONT,,150,0.4,0.8,,,1000,3000,2000,2000,15,27,7,600000,3,12,720,0.25,70,70,SHIP_WITH_MODULES,"zeon_hull_1_bp,no_bp_drop",0.01,0.75,2,4,,203
+Dolos Module,gundam_dolos_lpart,,,,10,10000,1500,10000,10500,700,150,,0,0,0,10,10,1000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,34
+Dolos Module,gundam_dolos_rpart,,,,10,10000,1500,10000,10500,700,150,,0,0,0,10,10,1000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,34
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RX-78GP03S Gundam Stamen,gundam_gundam_gp03_dendrobium_pilot,Prototype Attack-Use Space Mobile Suit,EFSF,gundam_blue_overcloak_system,18,3500,350,3500,3125,350,60,,400,310,310,220,300,70,OMNI,,35,0.3,0.5,,,1,1,20,40,1,15,10,60000,5,12,360,0.25,20,20,"RENDER_ENGINES_BELOW_HULL, SHIP_WITH_MODULES","efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+GP-03 Dendrobium,gundam_gundam_gp03_dendrobium,,EFSF,fortressshield,,3000,300,3890,,200,0,,0,0,0,10,0,453,OMNI,,360,0.8,0.6,,,0,0,0,0,1,0,0,999999,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,0,5,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Apsaras II,gundam_apsaras_ii,Heavy Assault MA,ZEON,emp,15,7000,400,6000,5000,450,70,,95,85,80,80,100,800,FRONT,,360,0.4,0.6,,,2,3,20,40,1,15,10,29000,5,12,360,0.25,15,15,RENDER_ENGINES_BELOW_HULL,"zeon_ma_0_bp,rare_bp",,0.7,2,2,,405
+Apsaras III,gundam_apsaras_iii,Heavy Assault MA,ZEON,acausaldisruptor,19,8000,500,8000,6000,550,30,,90,80,80,100,120,1100,FRONT,,120,0.4,0.6,,,2,3,50,100,1,20,10,32000,5,12,360,0.25,20,20,RENDER_ENGINES_BELOW_HULL,"zeon_ma_1_bp,rare_bp",,0.7,2,2,,405
+MA-05Ad Big-Rang,gundam_big_rang,Support MA,ZEON,microburn,17,5000,400,3000,2000,300,60,,160,130,120,100,120,230,FRONT,,180,0.4,0.5,,,2,3,10,30,1,20,10,28000,7,20,180,0.25,23,23,,"zeon_ma_1_bp,rare_bp",,0.7,2,2,,405
+MP-02A Oggo,gundam_oggo,Assault Mobile Pod,ZEON,,,150,50,200,,20,0,,400,300,300,300,300,5,PHASE,phasecloak,,,,0.05,0.05,,,,,,,,,,,,,,,,,,0.7,2,4,,52203
+MA-08 Big Zam,gundam_big_zam,Heavy Assault MA,ZEON,highenergyfocus,18,8000,500,5000,6000,450,35,,90,80,80,100,120,1000,FRONT,,360,0.4,0.6,,,2,3,20,40,1,15,10,30000,5,12,360,0.25,14,14,,"zeon_ma_1_bp,rare_bp",,0.7,2,2,,405
+MA-05 Bigro,gundam_bigro,Assault MA,ZEON,maneuveringjets,9,5000,400,3000,3000,300,40,,180,130,120,100,120,230,FRONT,,120,0.4,0.6,,,2,3,10,30,1,20,12,25000,7,20,180,0.25,8,8,,"zeon_ma_0_bp,rare_bp",,0.7,2,2,,405
+MA-06 Val Walo,gundam_val_walo,Assault MA,ZEON,maneuveringjets,11,5500,450,3500,3000,0.5,45,,200,150,130,120,150,379,FRONT,,120,0.4,0.5,,,2,3,10,30,1,20,12,25000,7,20,180,0.25,8,8,,"zeon_ma_1_bp,rare_bp",,0.7,2,2,,405
+MAN-03 Braw Bro,gundam_braw_bro,Newtype-use MA,ZEON,gundam_braw_bro_drone_system,9,2800,350,2500,3125,250,35,,115,105,105,75,100,320,OMNI,,180,0.4,0.6,,,1,2,20,40,1,20,10,29000,7,20,180,0.25,12,12,,"zeon_ma_1_bp,rare_bp",,0.7,2,2,,405
+Wired Mega Particle Gun,gundam_braw_bro_bit,,ZEON,,,300,50,300,,100,0,,300,250,200,250,250,5,PHASE,phasecloak,,,,0.05,0.05,,,,,,,,,,,,,,,,,,0.7,2,4,,52203
+MAN-08 Elmeth,gundam_elmeth,Newtype-use MA,ZEON,gundam_elmeth_drone_system,10,3000,300,2000,3125,200,30,,130,120,100,60,120,300,OMNI,,180,0.4,0.6,,,1,2,20,40,1,20,10,30000,7,20,180,0.25,10,10,,"zeon_ma_1_bp,rare_bp",,0.7,2,2,,405
+Elmeth Bits,gundam_elmeth_bit,,ZEON,,,150,50,200,,20,0,,400,300,300,300,300,5,PHASE,phasecloak,,,,0.05,0.05,,,,,,,,,,,,,,,,,,0.7,2,4,,52203
+AMX-002 Neue Ziel,gundam_neue_ziel,Attack-use MA,ZEON,gundam_neue_ziel_drone_system,19,8000,500,8000,6000,550,55,,90,80,80,100,120,1100,FRONT,,120,0.4,0.6,,,2,3,50,100,1,20,10,35000,5,12,360,0.25,20,20,RENDER_ENGINES_BELOW_HULL,"zeon_ma_1_bp,rare_bp",,0.7,2,2,,405
+Wired Claw Arm,gundam_neue_ziel_bit,,ZEON,,,800,150,400,,50,0,,300,250,200,250,250,5,PHASE,phasecloak,,,,0.05,0.05,,,,,,,,,,,,,,,,,,0.7,2,4,,52203
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FF-X7 Core Fighter,gundam_core_fighter,,EFSF,flarelauncher_fighter,,400,50,80,,10,0,,400,400,100,80,350,7,NONE,,,,,,,1,1,,,,,,,,,,,1,1,,,,0.7,1,2,,104
+FFB-7Bst Jet Core Booster II,gundam_jet_core_booster,,EFSF,flarelauncher_fighter,,450,60,80,,10,0,,380,380,90,60,300,10,NONE,,,,,,,1,1,,,,,,,,,,,1,1,,,,0.7,1,2,,104
+FF-X7-Bst Core Booster,gundam_core_booster,,EFSF,flarelauncher_fighter,,500,60,80,,10,0,,350,350,80,50,300,10,NONE,,,,,,,1,1,,,,,,,,,,,1,1,,,,0.7,1,2,,104
+Pablic,gundam_pablic,,EFSF,flarelauncher_fighter,,500,75,400,,40,0,,160,200,200,20,30,20,NONE,,,,,,,4,6,,,,,,,,,,,1,1,,,,0.7,1,3,,118
+RB-79 Ball,gundam_ball,,EFSF,,,500,75,500,,40,0,,150,150,150,100,150,48,NONE,,,,,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RB-79K Ball Type K,gundam_ball_typek,,EFSF,,,500,75,500,,40,0,,150,150,150,100,150,48,NONE,,,,,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79[E] GM Early Type,gundam_gm_early,,EFSF,,,650,125,750,,80,0,,170,180,180,90,170,59,PHASE,gundam_evasion_system,,,,0.25,0.18,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79 GM,gundam_gm,,EFSF,gundam_shield_system,,700,125,750,,80,0,,170,180,180,100,180,59,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79 GM (Thunderbolt Sector),gundam_gm_thunderbolt,,EFSF,gundam_shield_system,,700,125,750,,80,0,,210,220,220,140,220,61,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79C GM Type C,gundam_gm_typec,,EFSF,gundam_shield_system,,700,125,750,,80,0,,180,190,190,105,190,59,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79GS GM Command Space,gundam_gm_cs,,EFSF,gundam_shield_system,,900,160,950,,95,0,,180,200,200,110,195,76,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79N GM Custom,gundam_gm_custom,,EFSF,gundam_shield_system,,900,160,950,,95,0,,200,210,210,120,210,58,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79 Powered GM,gundam_gm_powered,,EFSF,gundam_shield_system,,700,160,850,,90,0,,210,230,230,140,210,64,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79Q GM Quel,gundam_gm_quel,,EFSF,gundam_shield_system,,800,140,850,,90,0,,180,200,200,110,195,57,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGC-80 GM Cannon,gundam_gm_cannon,,EFSF,gundam_shield_system,,700,125,850,,100,0,,140,170,170,100,160,59,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGC-83 GM Cannon II,gundam_gm_cannon_ii,,EFSF,gundam_shield_system,,800,150,900,,100,0,,135,165,165,100,155,67,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79/GH Gundam Head,gundam_gm_gundamhead,,EFSF,gundam_shield_system,,1000,175,950,,120,0,,200,200,200,120,200,80,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79 GM Sniper,gundam_gm_sniper,,EFSF,,,700,125,750,,80,0,,170,180,180,90,170,59,PHASE,gundam_evasion_system,,,,0.25,0.18,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RGM-79SP GM Sniper II,gundam_gm_sniper_ii,,EFSF,gundam_shield_system,,800,125,950,,95,0,,180,210,210,120,200,61,PHASE,gundam_evasion_system,,,,0.25,0.18,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RX-77-2 Guncannon,gundam_guncannon,,EFSF,,,850,150,850,,85,0,,140,150,100,100,150,70,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RX-77D Guncannon Mass Production Type,gundam_guncannon_massproduce,,EFSF,,,1000,170,900,,90,0,,140,180,180,120,180,70,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+RX-75-4 Guntank,gundam_guntank,,EFSF,,,750,125,850,,100,0,,80,80,50,50,100,80,NONE,,,,,,,2,3,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RX-78-2 Gundam,gundam_gundam_rx78_2_pilot,Close Quarters Combat Mobile Suit,EFSF,gundam_blue_overcloak_system,10,2000,200,1000,3125,110,30,,310,260,260,170,240,60,PHASE,gundam_elite_evasion_system,,,,0.15,0.13,1,1,0,20,1,20,10,20000,7,20,180,0.25,5,5,RENDER_ENGINES_BELOW_HULL,"efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+"RX-78-3 Gundam ""G3""",gundam_gundam_g3_pilot,Close Quarters Combat Mobile Suit,EFSF,gundam_blue_overcloak_system,11,2000,200,1000,3125,110,30,,330,280,280,190,260,60,OMNI,,35,0.4,0.6,,,1,1,0,20,1,20,10,23000,7,20,180,0.25,5,5,RENDER_ENGINES_BELOW_HULL,"efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+"RX-78NT-1 Gundam ""Alex""",gundam_gundam_alex_pilot,Newtype-use General-Purpose Mobile Suit,EFSF,gundam_blue_overcloak_system,12,2000,200,1100,3125,120,30,,280,230,230,150,210,90,PHASE,phasecloak,,,,0.17,0.15,1,1,0,20,1,20,10,25000,7,20,180,0.25,5,5,"SHIP_WITH_MODULES, RENDER_ENGINES_BELOW_HULL","efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+"RX-78NT-1 Gundam ""Alex"" Armour",gundam_gundam_alex_armour,,EFSF,gundam_blue_overcloak_system,,800,200,700,,70,0,,0,0,0,10,0,3,OMNI,,35,0.4,0.6,,,0,0,0,0,1,0,0,999999,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,0,5,,
+FA-78 Full Armour Gundam,gundam_gundam_fa78_pilot,Prototype Full Armor Heavy Assault Mobile Suit,EFSF,gundam_blue_overcloak_system,16,3000,300,2000,3125,200,50,,300,250,250,160,230,120,OMNI,,35,0.4,0.6,,,1,1,0,20,1,20,10,40000,7,20,180,0.25,7,7,RENDER_ENGINES_BELOW_HULL,"efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+RX-78GP01 Gundam Zephyranthes,gundam_gundam_gp01_pilot,Prototype General-Purpose Ground Mobile Suit,EFSF,gundam_blue_overcloak_system,14,3000,300,2500,3125,200,50,,320,270,270,180,250,65,OMNI,,35,0.4,0.6,,,1,1,0,20,1,20,10,27000,7,20,180,0.25,5,5,RENDER_ENGINES_BELOW_HULL,"efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+RX-78GP01-Fb Gundam Zephyranthes Full Burnern,gundam_gundam_gp01_fb_pilot,Prototype High Mobility Space Mobile Suit,EFSF,gundam_blue_overcloak_system,16,3000,300,2500,3125,200,50,,350,290,290,200,280,74,PHASE,gundam_elite_evasion_system,,,,0.15,0.13,1,1,0,20,1,20,10,30000,7,20,180,0.25,5,5,RENDER_ENGINES_BELOW_HULL,"efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+RX-78GP02A Gundam Physalis,gundam_gundam_gp02_pilot,Prototype Tactical Nuclear Assault Mobile Suit,EFSF,acausaldisruptor,17,4000,400,3000,3125,300,55,,260,220,220,150,200,83,OMNI,,45,0.4,0.6,,,1,1,0,20,1,20,10,40000,7,20,180,0.25,6,6,RENDER_ENGINES_BELOW_HULL,"zeon_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+RX-78GP03S Gundam Stamen,gundam_gundam_gp03_pilot,Prototype Attack-Use Space Mobile Suit,EFSF,gundam_blue_overcloak_system,18,3500,350,3500,3125,350,60,,400,310,310,220,300,70,OMNI,,35,0.3,0.5,,,1,1,0,20,1,20,10,45000,7,20,180,0.25,7,7,RENDER_ENGINES_BELOW_HULL,"efsf_ms_1_bp,no_bp_drop",0,0.7,2,4,,103
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DFA-03 Dopp,gundam_dopp,,ZEON,flarelauncher_fighter,,400,50,80,,10,0,,350,400,100,60,300,10,NONE,,,,,,,1,1,,,,,,,,,,,1,1,,,,0.7,1,2,,104
+DFA-03 Orange Dopp,gundam_orange_dopp,,ZEON,flarelauncher_fighter,,450,60,100,,10,0,,380,450,100,70,320,12,NONE,,,,,,,1,1,,,,,,,,,,,1,1,,,,0.7,1,2,,104
+Gattle Bomber,gundam_gattle,,ZEON,flarelauncher_fighter,,500,65,150,,15,0,,150,180,150,100,200,40,NONE,,,,,,,2,2,,,,,,,,,,,1,1,,,,0.7,2,4,,110
+MS-05B Zaku I,gundam_zaku_i,,Zeonic,ammofeed,,750,130,650,,65,0,,140,150,150,90,150,65,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-05L Zaku I Sniper Type,gundam_zaku_sniper,,Zeonic,,,600,100,750,,100,0,,140,140,140,70,140,68,NONE,,,,,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06 Zaku II,gundam_zaku_ii,,Zeonic,ammofeed,,800,135,750,,75,0,,160,180,180,100,180,74,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06 Zaku II (Thunderbolt Sector),gundam_zaku_ii_thunderbolt,,Zeonic,ammofeed,,800,135,750,,75,0,,200,220,220,140,220,74,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06 Zaku II,gundam_zaku_ii_drone,,Zeonic,gundam_zaku_ii_shield_drone_system,,800,135,750,,75,0,,160,180,180,100,180,74,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06 Zaku II,gundam_zaku_ii_shield,,Zeonic,fortressshield,,800,135,750,,120,0,,160,180,180,100,180,74,FRONT,,120,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06R-1A Zaku II High Mobility Type,gundam_zaku_ii_hm,,Zeonic,ammofeed,,800,135,750,,75,0,,185,190,190,105,190,77,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06RD-4 Zaku High Mobility Test Type,gundam_zaku_ii_rd4,,Zeonic,ammofeed,,800,135,750,,80,0,,185,200,200,110,195,78,PHASE,gundam_elite_evasion_system,,,,0.15,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06FZ Zaku II Kai,gundam_zaku_ii_fz,,Zeonic,ammofeed,,1000,160,750,,75,0,,200,220,220,120,210,75,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-06F-2 Zaku II F2 Type,gundam_zaku_ii_f2,,Zeonic,ammofeed,,800,160,750,,75,0,,160,180,180,100,180,70,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-09R Rick Dom,gundam_rick_dom,,Zimmad,,,900,150,800,,80,0,,160,180,180,100,180,79,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-09R Rick Dom (Thunderbolt Sector),gundam_rick_dom_thunderbolt,,Zimmad,,,900,150,800,,80,0,,200,220,220,140,220,79,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-09R-2 Rick Dom II,gundam_rick_dom_ii,,Zimmad,,,1100,170,850,,85,0,,180,200,200,120,200,80,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-09F/trop Dom Tropen,gundam_dom_tropen,,Zimmad,,,1050,170,900,,85,0,,170,190,190,115,190,79,PHASE,gundam_evasion_system,,,,0.2,0.13,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-14A Gelgoog,gundam_gelgoog,,Zeonic,gundam_shield_system,,900,140,800,,80,0,,180,200,200,120,200,73,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-14A Gelgoog (Thunderbolt Sector),gundam_gelgoog_thunderbolt,,Zeonic,gundam_shield_system,,900,140,800,,80,0,,220,240,240,160,240,73,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-14Jg Gelgoog Jager,gundam_gelgoog_j,,Zeonic,ammofeed,,1100,160,850,,85,0,,185,230,230,150,210,73,PHASE,gundam_evasion_system,,,,0.25,0.15,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-21C Dra-C,gundam_dra_c,,Zeonic,ammofeed,,900,150,700,,85,0,,210,230,230,180,230,49,FRONT,,270,0.5,0.5,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-18E Kampfer,gundam_kampfer,,Zeonic,ammofeed,,1200,170,900,,85,0,,200,225,225,160,215,78,PHASE,gundam_evasion_system,,,,0.25,0.15,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MS-07B Gouf,gundam_gouf,"
+",Zeonic,gundam_shield_system,,1000,150,750,,75,0,,180,200,180,120,180,75,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,
+YMS-15 Gyan,gundam_gyan,"
+",Zimmad,gundam_shield_system,,1300,200,1500,,150,0,,180,220,200,120,180,67,OMNI,,35,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,
+AGX-04 Gerbera Tetra,gundam_gerbera_tetra,,Zeonic,ammofeed,,1300,180,1000,,100,0,,250,250,250,200,230,73,PHASE,gundam_elite_evasion_system,,,,0.25,0.15,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,103
+MSM-10 Zock,gundam_zock,,Zeonic,highenergyfocus,,1700,200,2000,,200,0,,140,180,150,90,180,232,FRONT,,360,0.4,0.6,,,1,1,,,,,,,,,,,1,1,RENDER_ENGINES_BELOW_HULL,,,0.7,2,4,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MS-06S Char's Zaku II,gundam_zaku_ii_char_pilot,Custom Commander-use Mobile Suit,Zeonic,gundam_red_overcloak_system,7,1750,135,750,3000,80,25,,300,250,230,140,210,74,PHASE,phasecloak,,,,0.15,0.13,1,1,0,20,1,20,10,10000,7,20,180,0.25,3,3,RENDER_ENGINES_BELOW_HULL,"zeon_ms_0_bp,rare_bp",0,0.7,2,4,,103
+MS-06R Zaku II High Mobility Type,gundam_zaku_ii_psycho_pilot,Prototype High Mobility Space Mobile Suit,Zeonic,gundam_red_overcloak_system,9,1750,135,750,3000,80,25,,320,270,250,160,230,74,PHASE,phasecloak,,,,0.15,0.13,1,1,0,20,1,20,10,10000,7,20,180,0.25,6,6,RENDER_ENGINES_BELOW_HULL,"zeon_ms_0_bp,rare_bp",0,0.7,2,4,,103
+EMS-10 Zudah,gundam_zudah_pilot,Prototype General-Purpose Mobile Suit,Zimmad,gundam_elite_blue_speed,7,1400,135,750,3000,90,25,,300,250,230,140,210,61,PHASE,phasecloak,,,,0.15,0.13,1,1,0,20,1,20,10,8500,7,20,180,0.25,3,3,RENDER_ENGINES_BELOW_HULL,"zeon_ms_0_bp,rare_bp",0,0.7,2,4,,103
+MS-14S Char's Gelgoog,gundam_gelgoog_char_pilot,Limited Production Commander-use General-Purpose Mobile Suit,Zeonic,gundam_red_overcloak_system,8,1800,145,850,3500,95,25,,320,270,250,160,230,73,OMNI,,35,0.4,0.6,,,1,1,0,20,1,20,10,8500,7,20,180,0.25,4,4,RENDER_ENGINES_BELOW_HULL,"zeon_ms_0_bp,rare_bp",0,0.7,2,4,,103
+MSN-02 Zeong,gundam_zeong_pilot,Prototype Newtype-use Space Mobile Suit,ZEON,gundam_zeong_drone_system,10,2500,200,2000,5000,200,35,,150,200,180,100,160,232,PHASE,phasecloak,,,,0.2,0.13,1,1,0,30,1,15,8,35000,7,20,180,0.25,7,7,RENDER_ENGINES_BELOW_HULL,"zeon_ms_1_bp,rare_bp",0,0.7,2,4,,103
+Zeong Hands,gundam_zeong_drone,,ZEON,,,300,50,200,,20,0,,400,300,300,300,300,5,PHASE,phasecloak,,,,0.05,0.05,1,1,,,,,,,,,,,1,1,,,,0.7,2,4,,52203
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,gundam_shield_module,,,,,500,150,500,,50,0,,0,0,0,10,10,3,FRONT,,35,0.4,0.6,,,0,0,0,0,1,0,0,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0,1,1,,
+,gundam_shield,,,,,500,150,500,,50,0,,500,500,500,500,500,3,FRONT,,35,0.5,0.6,,,0,0,,,,,,,,,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Side Station EFSF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Side Station EFSF,gundam_station_core_t1_efsf,Side Station,Gundam - UC,,100,40000,1600,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2002.1
+Side Battlestation EFSF,gundam_station_core_t2_efsf,Side Battlestation,Gundam - UC,,200,80000,2000,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2003.5
+Side Fortress EFSF,gundam_station_core_t3_efsf,Side Fortress,Gundam - UC,,400,160000,2400,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2004
+# Compartment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,gundam_module_solar,Solar Module,Gundam - UC,,1,10000,800,0,,0,0,,0,0,0,10,10,3500,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2067
+,gundam_module_lightattack_efsf,Light Attack Module,Gundam - UC,,1,10000,950,10000,,1200,1000,,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2067
+,gundam_module_smalldefense_efsf,Small Defense Module,Gundam - UC,,1,8000,1000,8000,,600,1000,1,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_module_attack_efsf,Attack Module,Gundam - UC,gundam_guntank_drone_system,1,12000,1100,18000,,1500,1000,2,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2067
+,gundam_module_balance_efsf,Balance Module,Gundam - UC,gundam_guntank_drone_system,1,15000,1350,16000,,1000,1000,3,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_module_fighter_efsf,Fighter Support Module,Gundam - UC,gundam_guntank_drone_system,1,15000,1000,14000,,1000,1000,4,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Side Station ZEON,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Side Station ZEON,gundam_station_core_t1_zeon,Side Station,Gundam - UC,,100,35000,1600,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2002.1
+Side Battlestation ZEON,gundam_station_core_t2_zeon,Side Battlestation,Gundam - UC,,200,70000,2000,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2003.5
+Side Fortress ZEON,gundam_station_core_t3_zeon,Side Fortress,Gundam - UC,,400,150000,2400,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2004
+# Compartment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,gundam_module_smalldefense_zeon,Small Defense Module,Gundam - UC,,1,9000,1000,8000,,600,1000,1,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_module_attack_zeon,Attack Module,Gundam - UC,gundam_zaku_ii_drone_system,1,13000,1100,18000,,1500,1000,2,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2067
+,gundam_module_balance_zeon,Balance Module,Gundam - UC,gundam_zaku_ii_drone_system,1,16000,1350,16000,,1000,1000,3,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_module_fighter_zeon,Fighter Support Module,Gundam - UC,gundam_zaku_ii_drone_system,1,16000,1000,14000,,1000,1000,4,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# A Baoa Qu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A Baoa Qu Fortress,gundam_abq_station_core,Space Fortress,Gundam - UC,,400,160000,2400,10000,,1000,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2004
+,gundam_abq_module_shield,Shield Module,Gundam - UC,fortressshield,400,1000,100,20000,,1500,1000,,30,200,200,4,2,5000,OMNI,,360,0.5,1,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2004
+,gundam_abq_module_east,East Module,Gundam - UC,gundam_zaku_ii_drone_system,1,16000,1000,14000,,1200,1000,5,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_abq_module_north,North Module,Gundam - UC,gundam_zaku_ii_drone_system,1,16000,1350,16000,,1200,1000,3,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_abq_module_south,South Module,Gundam - UC,gundam_zaku_ii_drone_system,1,16000,1350,16000,,1200,1000,3,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_abq_module_west,West Module,Gundam - UC,gundam_zaku_ii_drone_system,1,13000,1100,18000,,2000,1000,,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2067
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Solomon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solomon Fortress,gundam_solomon_station_core,Space Fortress,Gundam - UC,,400,160000,2400,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2004
+,gundam_solomon_module_east,East Module,Gundam - UC,gundam_zaku_ii_drone_system,1,17000,1100,15000,,1200,1000,5,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_solomon_module_north,North Module,Gundam - UC,gundam_zaku_ii_drone_system,1,18000,1450,17000,,1200,1000,3,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_solomon_module_south,South Module,Gundam - UC,gundam_zaku_ii_drone_system,1,18000,1450,18000,,1200,1000,3,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_solomon_module_west,West Module,Gundam - UC,gundam_zaku_ii_drone_system,1,15000,1200,20000,,2000,1000,,0,0,0,10,10,3500,FRONT,,90,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2067
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Luna II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Luna II,gundam_luna_ii_station_core,Space Fortress,Gundam - UC,,400,160000,2400,1000,,100,1000,3,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2004
+,gundam_luna_ii_module_east,East Module,Gundam - UC,gundam_guntank_drone_system,1,17000,1100,15000,,1200,1000,5,0,0,0,10,10,3500,FRONT,,270,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_luna_ii_module_north,North Module,Gundam - UC,gundam_guntank_drone_system,1,18000,1450,17000,,1200,1000,3,0,0,0,10,10,3500,FRONT,,120,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_luna_ii_module_south,South Module,Gundam - UC,gundam_guntank_drone_system,1,18000,1450,18000,,1200,1000,3,0,0,0,10,10,3500,FRONT,,120,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2068
+,gundam_luna_ii_module_west,West Module,Gundam - UC,gundam_guntank_drone_system,1,15000,1200,20000,,2000,1000,,0,0,0,10,10,3500,FRONT,,270,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2067

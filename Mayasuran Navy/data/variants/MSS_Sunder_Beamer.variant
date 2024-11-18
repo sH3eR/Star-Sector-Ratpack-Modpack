@@ -1,0 +1,55 @@
+{
+  "displayName": "Beamer",
+  "fluxCapacitors": 9,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "MSS_Sunder",
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "MSS_Sunder_Beamer",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "MSS_tribeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "reaper",
+        "WS 005": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gravitonbeam",
+        "WS 004": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "railgun",
+        "WS 007": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

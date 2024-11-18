@@ -1,0 +1,20 @@
+{
+	"id":"gundam_small_purple_laser",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",	
+	"length":400.0,
+	"hitGlowRadius":40,
+	"width":5.0,
+	"fadeTime":0.12,
+	"fringeColor":[255,255,255,130],
+	"coreColor":[219,113,223,200],
+	"glowColor":[219,113,223,130],
+	"pixelsPerTexel":1.0,
+	"textureType": [
+      "graphics/fx/gundam_beam_fx_d2.png",
+      "graphics/fx/gundam_beam_fx_a1.png"
+    ],
+	"textureScrollSpeed":-256.0,
+}

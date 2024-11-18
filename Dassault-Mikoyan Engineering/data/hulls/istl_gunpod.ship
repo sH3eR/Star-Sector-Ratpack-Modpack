@@ -1,0 +1,171 @@
+{
+  "bounds": [
+    35.5,
+    -5.5,
+    -4.5,
+    -15.5,
+    -20,
+    -5,
+    -20,
+    5,
+    -4.5,
+    15.5,
+    24.5,
+    6.5,
+    20,
+    -0
+  ],
+  "builtInMods": [
+    "istl_bbengineering",
+    "advancedcore",
+    "automated"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_electrogun",
+    "WS0002": "istl_thermalpd",
+    "WS0003": "istl_impulsor",
+    "WS0004": "istl_impulsor",
+    "WS0005": "blinker_red",
+    "WS0006": "istl_blinkerB_blue",
+    "WS0007": "istl_blinkerB_blue"
+  },
+  "center": [
+    17,
+    22
+  ],
+  "collisionRadius": 48,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 22.5,
+      "location": [
+        -20,
+        -0
+      ],
+      "style": "BBHTFlare",
+      "width": 6
+    },
+    {
+      "angle": 150,
+      "contrailSize": 2,
+      "length": 12.5,
+      "location": [
+        -14.5,
+        12
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    },
+    {
+      "angle": -150,
+      "contrailSize": 2,
+      "length": 12.5,
+      "location": [
+        -14.5,
+        -13
+      ],
+      "style": "BBHTFlare",
+      "width": 2
+    }
+  ],
+  "height": 60,
+  "hullId": "istl_gunpod",
+  "hullName": "Gun Pod",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 45,
+  "spriteName": "graphics/ISTL/ships/drones/istl_gunpod.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        11,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -1,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 210,
+      "id": "WS0003",
+      "locations": [
+        3.5,
+        8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 210,
+      "id": "WS0004",
+      "locations": [
+        -0.5,
+        -9.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        30.5,
+        4.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -4,
+        15.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -5.5,
+        -15.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 34
+}

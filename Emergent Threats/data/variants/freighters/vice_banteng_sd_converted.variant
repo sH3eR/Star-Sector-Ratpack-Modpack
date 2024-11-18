@@ -1,0 +1,19 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "vice_banteng_sd",
+    "hullMods": [
+        "militarized_subsystems",
+        "vice_ground_attack_conversion"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_banteng_sd_converted",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "gravitonbeam"}
+    }]
+}

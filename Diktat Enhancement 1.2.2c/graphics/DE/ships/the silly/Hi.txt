@@ -1,0 +1,3 @@
+Hey, looks like someone went snooping around the mod files and found the sekrit sprites corner.
+
+Don't worry, most of these aren't implemented...yet.

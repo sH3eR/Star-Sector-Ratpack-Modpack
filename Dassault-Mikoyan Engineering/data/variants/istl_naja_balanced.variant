@@ -1,0 +1,34 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "hullId": "istl_naja",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "variantId": "istl_naja_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_shockartillery"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_6cmrailgun",
+                "WS0009": "istl_6cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_multipdnode",
+                "WS0002": "istl_multipdnode",
+                "WS0003": "istl_multipdnode",
+                "WS0004": "istl_multipdnode"
+            }
+        }
+    ]
+}

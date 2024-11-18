@@ -1,0 +1,11 @@
+{
+	"id":"sun_ruthless_sector",
+	"name":"Ruthless Sector",
+    "utility": "true",
+	"author":"Sundog",
+	"version":"1.6.2",
+	"description":"Offers various mechanics and settings that encourage high-risk, high-reward gameplay.",
+    "gameVersion":"0.97a-RC11",
+	"jars":["jars/RuthlessSector.jar"],
+    "modPlugin":"ruthless_sector.ModPlugin",
+}

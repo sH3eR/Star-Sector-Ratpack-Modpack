@@ -1,0 +1,36 @@
+{
+  "variantId": "MSS_Aznable_Fighter",
+  "hullId": "MSS_Aznable",
+  "displayName": "Mech",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MSS_Aznable_LeftArm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "MSS_Aznable_RightArmTBC"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "MSS_Aznable_Head"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

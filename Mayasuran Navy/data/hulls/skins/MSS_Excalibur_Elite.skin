@@ -1,0 +1,32 @@
+{
+	"baseHullId":"MSS_Excalibur",
+	"skinHullId":"MSS_Excalibur_Elite",
+	"hullName":"Excalibur (M)",
+	"descriptionId":"MSS_Excalibur",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"A temptress and ruthless, the Excalibur (M) is upgraded with a variable ammo loader; expanding it from a shield buster to breaking even the hardest of ship bunkers.",
+	"ordnancePoints":115,
+	"baseValueMult":1.50,
+	"systemId":"MSS_variableammo",
+	"spriteName":"graphics/mayasura/ships/MSS_Excalibur_Elite.png",
+	"builtInMods":["MSS_Prime", "MSS_VariableAmmo"],
+	"removeBuiltInWeapons":["WS0008"],
+	"builtInWeapons":{    "WS0008": "MSS_big_swap_railgunDummy"
+     },
+	 "engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranFlare"},
+		"7":{"style":"MayasuranFlare"},
+		"8":{"style":"MayasuranFlare"},
+		"9":{"style":"MayasuranFlare"}
+
+	},
+}
+
+
+

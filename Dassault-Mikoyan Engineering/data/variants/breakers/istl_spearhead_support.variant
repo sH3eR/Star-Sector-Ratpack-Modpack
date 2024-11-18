@@ -1,0 +1,55 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "hullId": "istl_spearhead",
+    "hullMods": [
+        "istl_bbsupport",
+        "advancedshieldemitter",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_spearhead_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_scatterlaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "istl_marteau_esm_rack",
+                "WS0005": "istl_marteau_esm_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_bbheavymg",
+                "WS0007": "istl_bbheavymg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_shellhead",
+                "WS0003": "istl_shellhead"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_impulsor",
+                "WS0009": "istl_impulsor",
+                "WS0010": "istl_impulsor",
+                "WS0011": "istl_impulsor"
+            }
+        }
+    ]
+}

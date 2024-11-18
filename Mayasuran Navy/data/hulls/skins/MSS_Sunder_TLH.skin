@@ -1,0 +1,24 @@
+{
+	"baseHullId":"MSS_Sunder",
+	"skinHullId":"MSS_Sunder_TLH",
+	"hullName":"Sunder",
+	"descriptionId":"sunder",
+	"tech":"Midline",
+	"descriptionPrefix":"An upgraded version, this up-armored Sunder is the envy of every captain. With history dating back to the Battle for Mairaath, many resources were put into giving it as much staying power as possible.",
+	"fleetPoints":10,
+	"ordnancePoints":105,
+	"baseValue":50000,
+	"addHints":[HIDE_IN_CODEX],
+	"spriteName":"graphics/mayasura/ships/MSS_Sunder.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["MSS_Prime"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"engineSlotChanges":{
+		"0":{"style":"MIDLINE"},
+		"1":{"style":"MIDLINE"},
+		"2":{"style":"MIDLINE"},
+		"3":{"style":"MIDLINE"},
+		}
+}

@@ -1,0 +1,11 @@
+{
+	"bc_church":{
+		"name":"Luddic Church",
+		"color":"Luddic Church", #this doesn't work... I think
+		#"putFirst":true,
+		"sort":10,
+	},
+}
+
+
+

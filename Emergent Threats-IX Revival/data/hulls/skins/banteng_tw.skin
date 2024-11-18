@@ -1,0 +1,19 @@
+{
+	"baseHullId":"banteng_ix_base",
+	"skinHullId":"banteng_tw",
+	"hullName":"Banteng (TW)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"banteng_base",
+	"coversColor":[210,230,210,255],
+	"descriptionPrefix":"This Trinity Worlds cargo ship has receive minor modifications to its fuel bay. Should it ever receive a full militarized subsystems overhaul, it can be further upgraded with the same precision orbital strike package used by the 9th Domain Battlegroup.",
+	"spriteName":"graphics/ships/trinity/banteng_tw.png",
+	"tags":["ix_trinity"],
+	"tech":"Trinity Worlds",
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["tw_trinity_retrofit"],
+    "engineSlotChanges":{
+		"0":{"style":"IX_TRINITY"},
+		"1":{"style":"IX_TRINITY"},
+		"2":{"style":"IX_TRINITY"},
+	},
+}

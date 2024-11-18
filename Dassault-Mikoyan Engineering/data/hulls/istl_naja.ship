@@ -1,0 +1,215 @@
+{
+  "hullName": "Naja Mk. 3",
+  "hullId": "istl_naja",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ISTL/ships/istl_naja.png",
+  "style": "DMEMain",
+  "height": 72,
+  "width": 106,
+  "center": [53, 27],
+  "collisionRadius": 68,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInMods": [
+    "istl_monobloc",
+    "istl_rangefinder"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_linearvulcan",
+    "WS0002": "istl_linearvulcan",
+    "WS0003": "istl_linearvulcan",
+    "WS0004": "istl_linearvulcan",
+    "WS0006": "istl_blinkerA_blue",
+    "WS0007": "istl_blinkerA_blue",
+    "WS0010": "istl_blinkerB_blue",
+    "WS0011": "istl_blinkerB_blue",
+    "WS0012": "istl_blinkerB_blue",
+    "WS0013": "istl_blinkerA_blue",
+    "WS0014": "istl_blinkerB_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [0, 38]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [0, -38]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 150,
+      "locations": [-9, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -150,
+      "locations": [-9, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [30, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [11, 26]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [11, -26]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [1.5, 48.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [1.5, -48.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-13.5, 48.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-13.5, -48.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [42, -13.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-19, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [41.5, 13.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 13],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "DMEFlare"
+    },
+    {
+      "location": [-26, -13],
+      "length": 40,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "DMEFlare"
+    },
+    {
+      "location": [-22, 31],
+      "length": 17.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "DMEFlare"
+    },
+    {
+      "location": [-22, -31],
+      "length": 17.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "DMEFlare"
+    }
+  ],
+  "bounds": [
+    37, -11.5,
+    42, -16.5,
+    23, -25.5,
+    -2, -51,
+    -10.5, -51,
+    -16.5, -45.5,
+    -16.5, -28,
+    -24, -24,
+    -24, -7.5,
+    -17.5, -6.5,
+    -17.5, 6.5,
+    -24, 7.5,
+    -24, 24,
+    -16.5, 28,
+    -16.5, 45.5,
+    -10.5, 51,
+    -2, 51,
+    23, 25.5,
+    42, 16.5,
+    37, 11.5
+  ]
+}

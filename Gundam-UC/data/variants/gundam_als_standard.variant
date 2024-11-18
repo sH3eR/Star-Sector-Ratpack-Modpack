@@ -1,0 +1,80 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "gundam_als",
+  "hullMods": [
+    "expanded_deck_crew",
+	"recovery_shuttles"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_als_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0001": "gundam_2mega_particle_beam",
+				"WS0002": "gundam_2mega_particle_beam"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gundam_builtin_front_spmissile",
+                "WS0004": "gundam_builtin_front_spmissile",
+                "WS0005": "gundam_builtin_front_spmissile",
+                "WS0006": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "gundam_builtin_rear_swamp_missile",
+				"WS0008": "gundam_builtin_rear_swamp_missile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0009": "gundam_pd_2mg",
+				"WS0010": "gundam_pd_2mg",
+				"WS0011": "gundam_pd_2mg",
+				"WS0012": "gundam_pd_2mg",
+				"WS0013": "gundam_pd_2mg",
+				"WS0014": "gundam_pd_2mg",
+				"WS0015": "gundam_pd_2mg",
+				"WS0016": "gundam_pd_2mg",
+				"WS0017": "gundam_pd_2mg",
+				"WS0018": "gundam_pd_2mg",
+				"WS0019": "gundam_pd_2mg",
+                "WS0020": "gundam_pd_2mg",
+                "WS0021": "gundam_pd_2mg",
+                "WS0022": "gundam_pd_2mg",
+                "WS0023": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide",
+                "GUIDE_3": "gundam_launch_bay_guide",
+                "GUIDE_4": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_gm_sniper_ii_wing",
+		"gundam_gm_thunderbolt_wing",
+		"gundam_gm_cs_wing",
+		"gundam_gm_cannon_wing"
+    ]
+}

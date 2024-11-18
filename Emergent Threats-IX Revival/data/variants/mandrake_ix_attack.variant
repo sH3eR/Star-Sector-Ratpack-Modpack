@@ -1,0 +1,42 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "mandrake_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "advancedoptics",
+        "hardenedshieldemitter",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_dawnstar_electron",
+        "ix_dawnstar_electron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "mandrake_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "dawnstar_hcpb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "orthrus_s_ix",
+                "WS 006": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "daythorn_tapb_ix",
+                "WS 003": "daythorn_tapb_ix"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "istl_imp",
+    "hullMods": ["istl_bbdefense"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_imp_picket",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_thermalpd",
+                "WS0002": "istl_thermalpd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_lens_hdem_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_bbheavymg"}
+        }
+    ]
+}

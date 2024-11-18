@@ -1,0 +1,23 @@
+{
+  "id": "presmattdamon_takenoprisoners",
+  "name": "Take No Prisoners",
+  "author": "President Matt Damon, updated by Wisp",
+  "utility": "false",
+  "version": "0.17.0",
+  "description": "Capture officers and negotiate",
+  "gameVersion": "0.97a-RC11",
+  "jars": [
+    "jars/TakeNoPrisoners.jar"
+  ],
+  "modPlugin": "takenoprisoners.TakeNoPrisonersModPlugin",
+  "dependencies": [
+    {
+      "id": "MagicLib",
+      "name": "MagicLib"
+    },
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    }
+  ]
+}

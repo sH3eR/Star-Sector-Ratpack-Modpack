@@ -1,0 +1,44 @@
+{
+  "hullName": "Elmeth Bits",
+  "hullId": "gundam_elmeth_bit",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ma/elmeth/gundam_elmeth_bit.png",
+  "style": "GUNDAM_RED_MSSHIELD",
+  "height": 80,
+  "width": 70,
+  "center": [34.5, 41],
+  "collisionRadius": 9,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 8,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "gundam_elmeth_bit_gun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [4.5, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -0],
+      "length": 7,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -10.5, 2.5,
+    0, 3.5,
+    0, -3,
+    -10.5, -2
+  ]
+}

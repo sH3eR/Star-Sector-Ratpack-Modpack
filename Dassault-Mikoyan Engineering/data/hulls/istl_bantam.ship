@@ -1,0 +1,114 @@
+{
+  "bounds": [
+    16,
+    -2,
+    4.5,
+    -5.5,
+    -1.5,
+    -11.5,
+    -12.5,
+    -5.5,
+    -4.5,
+    -4,
+    -12,
+    -0,
+    -4.5,
+    4,
+    -12.5,
+    5.5,
+    -1.5,
+    11.5,
+    4.5,
+    5.5,
+    16,
+    2
+  ],
+  "builtInMods": [
+    "fluxbreakers"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_braveion",
+    "WS0004": "istl_multipdnode"
+  },
+  "center": [
+    13,
+    15
+  ],
+  "collisionRadius": 25,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7.5,
+      "length": 24.5,
+      "location": [
+        -7.5,
+        -0
+      ],
+      "style": "BBHTQuadFlare",
+      "width": 7.5
+    }
+  ],
+  "height": 33,
+  "hullId": "istl_bantam",
+  "hullName": "Bantam",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24,
+  "spriteName": "graphics/ISTL/ships/istl_bantam.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        12,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 135,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -1.5,
+        4.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -135,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -1.5,
+        -4.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        -1.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 26
+}

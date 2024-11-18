@@ -1,0 +1,38 @@
+{
+	"id":"istl_fragtorp_sub",
+	"specClass":"missile",
+	"onHitEffect":"data.scripts.weapons.istl_FragtorpOnHit",
+	"missileType":"MISSILE",
+	"sprite":"graphics/ISTL/missiles/istl_fragtorp_sub.png",
+	"size":[7,14],	
+	"center":[3.5,7],
+	"collisionRadius":13,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,165,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"engineSpec":{"turnAcc":1500,
+				  "turnRate":500,
+				  "maxSpeed":600,
+				  "acc":1000,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,165,255,255],
+						"contrailDuration":0.6,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[100,165,255,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":24.0,
+				    "angle":180.0},
+				    ]
+}

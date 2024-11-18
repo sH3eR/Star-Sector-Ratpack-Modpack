@@ -1,0 +1,36 @@
+{
+    "displayName": "Lion's Fortitude",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": false,
+    "hullId": "centurion",
+    "hullMods": [
+    "blast_doors",
+    "reinforcedhull",
+    "heavyarmor",
+    "blast_doors",
+    "hardenedshieldemitter",
+    "pointdefenseai"
+],
+    "permaMods": ["solar_shielding"],
+    "variantId": "centurion_LFortitude",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "swarmer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 002": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 007": "vulcan"
+            }
+        },
+    ]
+}

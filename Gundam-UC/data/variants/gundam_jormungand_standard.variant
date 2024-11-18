@@ -1,0 +1,29 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "gundam_jormungand",
+  "hullMods": [
+    "fluxdistributor",
+	"hardenedshieldemitter",
+	"stabilizedshieldemitter",
+    "auxiliarythrusters",
+	"dedicated_targeting_core",
+	"advancedoptics"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_jormungand_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gundam_builtin_fusion_plasma_laser"
+      }
+    }
+  ],
+    "wings": []
+}

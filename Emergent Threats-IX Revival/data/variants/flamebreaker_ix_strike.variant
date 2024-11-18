@@ -1,0 +1,58 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "flamebreaker_ix",
+    "hullMods": [
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_point_defense_medium_handler",
+        "ix_point_defense_medium"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flamebreaker_ix_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "muon_siege_lance_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "spatial_charge_launcher_ix",
+                "WS 010": "spatial_charge_launcher_ix",
+                "WS 011": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "es_projector_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "plasma_dart_ix",
+                "WS 008": "plasma_dart_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 004": "lightbringer_ciws_ix"
+            }
+        }
+    ],
+    "wings": [
+        "maxim_ix_wing",
+        "maxim_ix_wing"
+    ]
+}

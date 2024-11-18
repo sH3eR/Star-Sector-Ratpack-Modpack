@@ -1,0 +1,5 @@
+"name","id","planetary","decivRemove","script","desc","icon","order"
+,,,,,,,
+"Artificial Organic Fields","gundam_fields_organic","TRUE",,"data.scripts.campaign.econ.GundamDeposit","$market managed to artificialy make organics easily available.","graphics/icons/markets/gundam_organic.png",38
+"Artificial Food Fields","gundam_fields_food","TRUE",,"data.scripts.campaign.econ.GundamDeposit","The fields of $market are artificialy made but are slightly better than normal ones.","graphics/icons/markets/gundam_food.png",70
+,,,,,,,

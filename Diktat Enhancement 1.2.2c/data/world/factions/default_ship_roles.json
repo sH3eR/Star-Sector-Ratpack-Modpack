@@ -1,0 +1,40 @@
+{
+	"combatSmall":{
+		"de_mynah_Support":10,
+		"de_mynah_Suppression":10,
+		"de_mynah_lg_Elite":10,
+		"de_jackdaw_Assault":10,
+		"de_jackdaw_Support":10,
+		"de_jackdaw_Overdriven":7,
+	},
+	
+	"combatMedium":{
+		"de_vanquisher_Support":10,
+		"de_vanquisher_Assault":10,
+		"de_vanquisher_Overdriven":7,
+		"de_vanquisher_lg_Elite":5,
+		"de_laticlavus_Assault":10,
+		"de_laticlavus_Support":10,
+		"de_laticlavus_Overdriven":7,
+		"de_laticlavus_lg_Elite":5,
+		"de_voyager_Support":10,
+		"de_voyager_Assault":10,
+		"de_regulus_Balanced":10,
+		"de_regulus_Support":10,
+		"de_regulus_Fast":7,
+		"de_regulus_lg_Elite":10,
+		"de_sagittarii_Support":10,
+		"de_sagittarii_Overdriven":5,
+		"de_legate_Balanced":9,
+		"de_legate_Defense":10,
+	},
+	"carrierMedium":{
+		"de_exult_Support":10,
+		"de_starliner_lg_Support":5,
+		"de_starliner_lg_Assault":5,
+	},
+	"combatCapital":{
+		"de_ingress_lg_Beamer":10,
+		"de_ingress_lg_Hammer":10,
+	},
+}

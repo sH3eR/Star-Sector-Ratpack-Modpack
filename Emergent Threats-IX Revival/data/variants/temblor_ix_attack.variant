@@ -1,0 +1,37 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "temblor_ix",
+    "hullMods": [
+        "ix_dawnstar_controller",
+        "advancedoptics",
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "frontemitter",
+        "ix_dawnstar_neutron",
+        "ix_dawnstar_neutron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "temblor_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "dawnstar_lcpb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS DIF": "diffraction_laser_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "daythorn_mapb_ix"}
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 7,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "pmm_hammerhead_p",
+    "hullMods": [
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "pmm_hammerhead_p_Raider",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "annihilatorpod",
+                "WS 001": "annihilatorpod",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "reaper",
+                "WS 003": "reaper",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "railgun",
+                "WS 005": "railgun",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightmg",
+                "WS 007": "lightmg",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

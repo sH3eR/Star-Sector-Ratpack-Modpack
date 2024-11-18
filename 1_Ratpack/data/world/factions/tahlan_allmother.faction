@@ -1,0 +1,11 @@
+{
+    #archdamen hivemind overqueen
+    "music":{
+            "market_neutral":"theme_legio_ai",
+            "market_hostile":"theme_legio_ai",
+            "market_friendly":"theme_legio_ai",
+            "encounter_neutral":"theme_legio_ai",
+            "encounter_hostile":"theme_legio_ai",
+            "encounter_friendly":"theme_legio_ai",
+    },
+},

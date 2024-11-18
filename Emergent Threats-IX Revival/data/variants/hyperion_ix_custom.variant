@@ -1,0 +1,32 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "hyperion_ix",
+    "hullMods": [
+        "ix_smod_handler",
+        "extendedshieldemitter",
+        "hardened_subsystems",
+        "ix_reactive_combat_shields",
+        "safetyoverrides"
+    ],
+    "permaMods": ["ix_smod_handler"],
+    "sMods": [],
+    "variantId": "hyperion_ix_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "muon_autolance_ix",
+                "WS 002": "es_projector_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "bereaver_dem_pod_ix"}
+        }
+    ]
+}

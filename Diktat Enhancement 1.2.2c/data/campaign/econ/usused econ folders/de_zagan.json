@@ -1,0 +1,32 @@
+{
+  "starSystem": "zagan",
+  "markets": [
+    {
+      "entities": [
+        "kukayin"
+      ],
+      "faction": "independent",
+      "size": 6,
+      "freePort": true,
+      "startingConditions": [
+        "tundra",
+        "habitable",
+        "cold",
+        "farmland_poor",
+        "population_6",
+        "outpost",
+        "frontier"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "heavybatteries",
+        "battlestation_high",
+        "mining",
+        "farming",
+        "lightindustry",
+        "militarybase"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+	"baseHullId":"champion",
+	"skinHullId":"MSS_Champion_Elite",
+	"hullName":"Champion (M)",
+	"descriptionId":"champion",
+	"tech":"Mayasuran",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"One of the latest designs to join the Mayasuran fleet, the Champion shows it prowess with its combined weapons setup.",
+	"ordnancePoints":175,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/mayasura/ships/MSS_Champion_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	"engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+		"2":{"style":"MayasuranFlare"},
+		"3":{"style":"MayasuranFlare"},
+		"4":{"style":"MayasuranFlare"},
+		"5":{"style":"MayasuranFlare"},
+		"6":{"style":"MayasuranFlare"},
+		"7":{"style":"MayasuranFlare"},
+		},
+}
+

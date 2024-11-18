@@ -1,0 +1,41 @@
+{
+  "id": "gundam_battery",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_melee",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 0,
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 1,
+    "spread": 1,
+    "particleSizeMin": 1,
+    "particleSizeRange": 1,
+    "particleDuration": 1,
+    "particleCount": 1,
+    "particleColor": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "fireSoundTwo": "gundam_pd_2mg"
+}

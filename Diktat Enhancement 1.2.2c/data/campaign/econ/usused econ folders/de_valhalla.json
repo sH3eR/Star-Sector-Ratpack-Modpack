@@ -1,0 +1,64 @@
+{
+  "starSystem": "valhalla",
+  "markets": [
+    {
+      "entities": [
+        "midgard", "station_midgard"
+      ],
+      "faction": "independent",
+      "size": 7,
+      "startingConditions": [
+        "habitable",
+        "poor_light",
+        "farmland_rich",
+        "organics_plentiful",
+        "ore_moderate",
+        "rare_ore_moderate",
+        "population_7",
+        "urbanized_polity",
+        "industrial_polity",
+        "large_refugee_population",
+        "regional_capital"
+      ],
+      "industries": [
+        "population",
+        "megaport",
+        "heavybatteries",
+        "starfortress",
+        "waystation",
+        "mining",
+        "farming",
+        "commerce",
+        "highcommand",
+        "lightindustry"
+      ]
+    },
+    {
+      "entities": [
+        "asgard1"
+      ],
+      "faction": "hegemony",
+      "size": 6,
+      "startingConditions": [
+        "population_6",
+        "outpost",
+        "urbanized_polity",
+        "industrial_polity"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "heavybatteries",
+        "battlestation",
+        "waystation",
+        "refining",
+        "fuelprod",
+        "heavyindustry",
+        "militarybase"
+      ]
+    }
+  ]
+}
+
+
+

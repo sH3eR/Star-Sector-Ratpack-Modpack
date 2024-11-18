@@ -1,0 +1,53 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "thermal_pulse_cannon_fire",
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/onslaught_thermal_glow.png",
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointSprite": "",
+  "id": "MSS_tpc_turret",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.12,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "spread": 5
+  },
+  "projectileSpecId": "MSS_micro_tpc_shot",
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGlowSprite": "graphics/mayasura/weapons/MSS_TPC_turret2_glow.png",
+  "turretOffsets": [
+    22,
+    6,
+    22,
+    -6
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_TPC_turret2.png",
+  "type": "ENERGY"
+}

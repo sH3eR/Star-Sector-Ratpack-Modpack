@@ -1,0 +1,42 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_yapp",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_yapp_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_pd_2mg",
+				"WS0002": "gundam_pd_2mg",
+				"WS0003": "gundam_pd_2mg",
+                "WS0004": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide",
+                "GUIDE_3": "gundam_launch_bay_guide",
+                "GUIDE_4": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+        "gundam_zaku_i_wing",
+        "gundam_zaku_ii_wing"
+    ]
+}
+
+
+
+

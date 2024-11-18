@@ -1,0 +1,52 @@
+{
+  "id": "gundam_2chaingun",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_heavy_machine_gun_bullet",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/2chaingun/gundam_2chaingun_turret_base00.png",
+  "turretGlowSprite": "graphics/weapons/2chaingun/gundam_2chaingun_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/2chaingun/gundam_2chaingun_hardpoint_base00.png",
+  "hardpointGlowSprite": "graphics/weapons/2chaingun/gundam_2chaingun_hardpoint_glow.png",
+  "glowColor":[255,255,255,200],
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    33,
+    -8,
+    33,
+    8
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    39.5,
+    -8,
+    39.5,
+    8
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 15,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 30,
+    "particleSizeMin": 2,
+    "particleSizeRange": 10,
+    "particleDuration": 0.75,
+    "particleCount": 5,
+    "particleColor": [
+      200,
+      100,
+      50,
+      200
+    ]
+  },
+  "fireSoundTwo": "gundam_chaingun"
+}

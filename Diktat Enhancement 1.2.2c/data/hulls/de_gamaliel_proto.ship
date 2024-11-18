@@ -1,0 +1,89 @@
+{
+  "hullName": "Gamaliel(Prototype)",
+  "hullId": "de_gamaliel_proto",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DE/ships/the silly/gamaliel_proto.png",
+  "style": "MIDLINE",
+  "height": 128,
+  "width": 84,
+  "center": [48, 61.5],
+  "collisionRadius": 95.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "qliphotharrayincomplete"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 277,
+      "angle": -54.5,
+      "locations": [34.5, -13]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [24.5, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 214,
+      "angle": -80.5,
+      "locations": [9.5, -19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": 50,
+      "locations": [-12.5, 15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44.5, -10.5],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-44.5, 14.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    60.5, -1,
+    36, -26,
+    7.5, -30.5,
+    -8.5, -22,
+    -24, -35,
+    -43, -28,
+    -45.5, -4.5,
+    -43.5, 33,
+    -6, 48,
+    20, 38.5,
+    21.5, 24.5,
+    34, 18.5,
+    35, 3.5,
+    58, 6
+  ]
+}

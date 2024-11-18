@@ -1,0 +1,29 @@
+{
+	"id":"gundam_gm_sniper_ii_sniper",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"everyFrameEffect":"data.scripts.weapons.Gundam_WeaponKnockback",
+	"turretSprite":"graphics/ms/gm_sniper_ii/gundam_gm_sniper_ii_sniper_00.png",
+	"turretGunSprite":"",
+	"hardpointSprite":"graphics/ms/gm_sniper_ii/gundam_gm_sniper_ii_sniper_00.png",	
+	"hardpointGunSprite":"",
+	#"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[34.5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[34.5, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"numFrames": 10,
+	"frameRate": 6,
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.5,
+					   "particleCount":12,
+					   "particleColor":[255,240,165,200]},	
+	"projectileSpecId":"gundam_rifle_bullet",  # projectile that will be fired
+	"fireSoundTwo":"heavy_mauler_fire",	
+}

@@ -1,0 +1,22 @@
+{
+	"baseHullId":"MSS_Garuda",
+	"skinHullId":"MSS_Garuda_Elite",
+	"hullName":"Garuda (M)",
+	"descriptionId":"MSS_Garuda",
+	"tags":["mayasura_e_bp", "rare_bp"], # The elite of the elite.
+	"descriptionPrefix":"The Garuda (M) is a relentless force of destruction, wielding its full arsenal to dominate the battlefield and send rival ships fleeing from the stars.",
+	"ordnancePoints":170,
+	"baseValueMult":1.50,
+	"spriteName":"graphics/mayasura/ships/MSS_Garuda_Elite.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"builtInMods":["MSS_Prime", "MSS_LastStand"],
+	 "engineSlotChanges":{
+		"0":{"style":"MayasuranFlare"},
+		"1":{"style":"MayasuranFlare"},
+	},
+}
+
+
+

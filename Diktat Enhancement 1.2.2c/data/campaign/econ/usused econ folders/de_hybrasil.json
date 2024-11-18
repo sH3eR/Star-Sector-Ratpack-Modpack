@@ -1,0 +1,33 @@
+{
+  "starSystem": "hybrasil",
+  "markets": [
+    {
+      "entities": [
+        "cailleach"
+      ],
+      "faction": "tritachyon",
+      "size": 5,
+      "startingConditions": [
+        "water_surface",
+        "no_atmosphere",
+        "very_cold",
+        "dark",
+        "volatiles_abundant",
+        "ore_moderate",
+        "rare_ore_moderate",
+        "population_5",
+        "outpost",
+        "frontier"
+      ],
+      "industries": [
+        "population",
+        "spaceport",
+        "grounddefenses",
+        "mining",
+        "farming",
+        "commerce",
+        "patrolhq"
+      ]
+    }
+  ]
+}

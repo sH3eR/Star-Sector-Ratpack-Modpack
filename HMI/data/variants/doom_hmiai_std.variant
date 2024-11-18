@@ -1,0 +1,52 @@
+{
+  "variantId": "doom_hmiai_std",
+  "hullId": "doom_hmiai",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightneedler",
+        "WS 004": "lightneedler",
+        "WS 005": "lightneedler",
+        "WS 006": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "typhoon",
+        "WS 002": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "phasebeam",
+        "WS 008": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "pdburst",
+        "WS 012": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

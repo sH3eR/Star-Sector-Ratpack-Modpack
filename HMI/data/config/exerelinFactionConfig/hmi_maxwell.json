@@ -1,0 +1,19 @@
+{
+    "playableFaction":false,
+    "corvusCompatible":true,
+	"noRandomizeRelations":true,
+    "noSyncRelations":true,
+    "allowAgentActions":false,
+    "allowPrisonerActions":false,
+    "rebelFleetSuffix":"Rogues",
+
+    "startRelationships":{ "remnant":0.6 },
+    "morality":"good",
+    
+    "alignments":{
+        "corporate":1,
+        "technocratic":1,
+        "militarist":-1,
+        "ideological":-1,
+    },
+}

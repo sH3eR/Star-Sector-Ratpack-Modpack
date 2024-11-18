@@ -1,0 +1,17 @@
+{
+	"id":"istl_braveion_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_EBolterEMPOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":40.0,
+	"width":10.0,
+	"fadeTime":0.1,
+	"fringeColor":[100,110,255,255],
+	"coreColor":[155,175,255,255],
+	"hitGlowRadius":10,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

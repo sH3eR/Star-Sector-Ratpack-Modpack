@@ -1,0 +1,32 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "istl_samoyed",
+    "hullMods": [
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "istl_samoyed_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0013": "istl_amm_samo"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_linearcannonlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_multipdnode",
+                "WS0006": "istl_multipdnode"
+            }
+        }
+    ]
+}

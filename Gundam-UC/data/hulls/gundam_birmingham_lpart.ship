@@ -1,0 +1,117 @@
+{
+  "hullName": "Left Module",
+  "hullId": "gundam_birmingham_lpart",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gundam_birmingham_lpart.png",
+  "style": "GUNDAM_EFSF_SHIELD",
+  "height": 195,
+  "width": 65,
+  "center": [32.5, 97.5],
+  "collisionRadius": 98,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    0,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "always_detaches",
+    "do_not_fire_through",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "GUIDE_1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-21.5, 2]
+    },
+    {
+      "id": "GUIDE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-21.5, -19]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [-73, -8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 45,
+      "locations": [60.5, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [-37, -8.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [85.5, -23]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -21, 2,
+        -28, -2
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -28.5, -15,
+        -21, -19
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    87.5, -30.5,
+    87, -21,
+    61, 12,
+    22.5, 22.5,
+    1.5, 24,
+    -13.5, 15,
+    -75, 18.5,
+    -82, 11,
+    -97.5, 11.5,
+    -89, -26.5
+  ]
+}

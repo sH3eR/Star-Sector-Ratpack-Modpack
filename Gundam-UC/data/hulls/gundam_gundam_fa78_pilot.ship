@@ -1,0 +1,194 @@
+{
+  "hullName": "Gundam FA78",
+  "hullId": "gundam_gundam_fa78_pilot",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ms/gundam_fa78/gundam_gundam_fa78_body.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 34,
+  "width": 37,
+  "center": [26, 13.5],
+  "collisionRadius": 14.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "strikeCraft",
+    "armaa_wingCommander",
+    "hardenedshieldemitter",
+    "reduced_explosion",
+	"no_weapon_flux",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "GUN": "gundam_gundam_fa78_gun",
+    "GUN_2": "gundam_gundam_fa78_pack_gun",
+    "HEAD": "gundam_gundam_fa78_head",
+    "MELEE": "gundam_saber_purple",
+    "PACK": "gundam_gundam_fa78_pack",
+    "SHIELD": "gundam_gundam_fa78_shield",
+    "SHIELD_2": "gundam_efsf_ex_right_shield",
+    "SHIELD_3": "gundam_efsf_ex_left_shield",
+    "MISSILE_1": "gundam_builtin_ms_missile_blue",
+    "MISSILE_2": "gundam_builtin_ms_missile_blue",
+    "THRUST_1": "gundam_thruster_tiny_blue",
+    "THRUST_2": "gundam_thruster_tiny_blue",
+    "THRUST_3": "gundam_thruster_aux_blue",
+    "THRUST_4": "gundam_thruster_aux_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-7.5, 2]
+    },
+    {
+      "id": "GUN_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-23, -12.5]
+    },
+    {
+      "id": "GUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-3, -11]
+    },
+    {
+      "id": "SHIELD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [-3, 13.5]
+    },
+    {
+      "id": "SHIELD_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -80,
+      "locations": [-24, -16]
+    },
+    {
+      "id": "SHIELD_3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 80,
+      "locations": [-24, 16]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [14, 5.5]
+    },
+    {
+      "id": "PACK",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14, -0.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-27, 6]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-27, -4]
+    },
+    {
+      "id": "THRUST_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-46.5, 7.5]
+    },
+    {
+      "id": "THRUST_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-46.5, -5.5]
+    },
+    {
+      "id": "MISSILE_1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 8.5]
+    },
+    {
+      "id": "MISSILE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, 6],
+      "length": 15,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    },
+    {
+      "location": [-27, -4],
+      "length": 15,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "BLUE_TAIL"
+    }
+  ],
+  "bounds": [
+    -13.5, -7,
+    -2, -9,
+    8, -8,
+    11, -4,
+    11, 4,
+    8, 8,
+    -2, 9,
+    -13.5, 7
+  ]
+}

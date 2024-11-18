@@ -1,0 +1,19 @@
+{
+	#Revenge
+    "illegalCommodities":[
+    "ai_cores",
+    "hmi_crystal",
+    "mess_nano",
+    "drugs",
+    "organs",
+    "domain_artifacts",
+	],
+		"music":{
+            "market_neutral":"music_Kudar_market_neutral",
+            "market_hostile":"music_Kudar_market_hostile",
+            "market_friendly":"music_Kudar_market_friendly",
+            "encounter_neutral":"music_Kudar_encounter_neutral",
+            "encounter_hostile":"music_Kudar_encounter_hostile",
+            "encounter_friendly":"music_Kudar_encounter_friendly",
+    },
+}

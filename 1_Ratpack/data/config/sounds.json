@@ -1,0 +1,821 @@
+{
+	"music": {
+		"center": [
+			{
+				"source": "sounds",
+				"volume": 0.75,
+				"files": [
+					"center.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"theme_mess": [
+			{
+				"source": "sounds",
+				"volume": 0.75,
+				"files": [
+					"theme_mess.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"theme_bugs": [
+			{
+				"source": "sounds",
+				"volume": 0.75,
+				"files": [
+					"theme_bugs.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"market_creep": [
+			{
+				"source": "sounds",
+				"volume": 1.2,
+				"files": [
+					"market_creep.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"encounter_creep": [
+			{
+				"source": "sounds",
+				"volume": 1,
+				"files": [
+					"encounter_creep.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_shiver": [
+			{
+				"source": "sounds",
+				"volume": 0.7,
+				"files": [
+					"music_shiver.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_DME_encounter_friendly": [
+			{
+				"source": "sounds/Factions/DME",
+				"volume": 0.7,
+				"files": [
+					"music_DME_encounter_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_DME_encounter_hostile": [
+			{
+				"source": "sounds/Factions/DME",
+				"volume": 0.7,
+				"files": [
+					"music_DME_encounter_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_DME_encounter_neutral": [
+			{
+				"source": "sounds/Factions/DME",
+				"volume": 0.7,
+				"files": [
+					"music_DME_encounter_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_DME_market_friendly": [
+			{
+				"source": "sounds/Factions/DME",
+				"volume": 0.7,
+				"files": [
+					"music_DME_market_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_DME_market_hostile": [
+			{
+				"source": "sounds/Factions/DME",
+				"volume": 0.7,
+				"files": [
+					"music_DME_market_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_DME_market_neutral": [
+			{
+				"source": "sounds/Factions/DME",
+				"volume": 0.7,
+				"files": [
+					"music_DME_market_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_Kudar_encounter_friendly": [
+			{
+				"source": "sounds/Factions/Kudar",
+				"volume": 0.85,
+				"files": [
+					"music_kudar_encounter_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_Kudar_encounter_hostile": [
+			{
+				"source": "sounds/Factions/Kudar",
+				"volume": 0.85,
+				"files": [
+					"music_kudar_encounter_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_Kudar_encounter_neutral": [
+			{
+				"source": "sounds/Factions/Kudar",
+				"volume": 0.85,
+				"files": [
+					"music_kudar_encounter_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_Kudar_market_friendly": [
+			{
+				"source": "sounds/Factions/Kudar",
+				"volume": 0.85,
+				"files": [
+					"music_kudar_market_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_Kudar_market_hostile": [
+			{
+				"source": "sounds/Factions/Kudar",
+				"volume": 0.85,
+				"files": [
+					"music_kudar_market_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_Kudar_market_neutral": [
+			{
+				"source": "sounds/Factions/Kudar",
+				"volume": 0.85,
+				"files": [
+					"music_kudar_market_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_mayasuran_encounter_friendly": [
+			{
+				"source": "sounds/Factions/Mayasuran",
+				"volume": 0.6,
+				"files": [
+					"music_mayasuran_encounter_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_mayasuran_encounter_hostile": [
+			{
+				"source": "sounds/Factions/Mayasuran",
+				"volume": 0.6,
+				"files": [
+					"music_mayasuran_encounter_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_mayasuran_encounter_neutral": [
+			{
+				"source": "sounds/Factions/Mayasuran",
+				"volume": 0.6,
+				"files": [
+					"music_mayasuran_encounter_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_mayasuran_market_friendly": [
+			{
+				"source": "sounds/Factions/Mayasuran",
+				"volume": 0.6,
+				"files": [
+					"music_mayasuran_market_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_mayasuran_market_hostile": [
+			{
+				"source": "sounds/Factions/Mayasuran",
+				"volume": 0.6,
+				"files": [
+					"music_mayasuran_market_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_mayasuran_market_neutral": [
+			{
+				"source": "sounds/Factions/Mayasuran",
+				"volume": 0.6,
+				"files": [
+					"music_mayasuran_market_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_HMI_encounter_friendly": [
+			{
+				"source": "sounds/Factions/HMI",
+				"volume": 0.50,
+				"files": [
+					"music_HMI_encounter_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_HMI_encounter_hostile": [
+			{
+				"source": "sounds/Factions/HMI",
+				"volume": 0.50,
+				"files": [
+					"music_HMI_encounter_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_HMI_encounter_neutral": [
+			{
+				"source": "sounds/Factions/HMI",
+				"volume": 0.50,
+				"files": [
+					"music_HMI_encounter_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_HMI_market_friendly": [
+			{
+				"source": "sounds/Factions/HMI",
+				"volume": 0.50,
+				"files": [
+					"music_HMI_market_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_HMI_market_hostile": [
+			{
+				"source": "sounds/Factions/HMI",
+				"volume": 0.50,
+				"files": [
+					"music_HMI_market_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_HMI_market_neutral": [
+			{
+				"source": "sounds/Factions/HMI",
+				"volume": 0.50,
+				"files": [
+					"music_HMI_market_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_trinity_encounter_friendly": [
+			{
+				"source": "sounds/Factions/Trinity",
+				"volume": 0.85,
+				"files": [
+					"music_trinity_encounter_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_trinity_encounter_hostile": [
+			{
+				"source": "sounds/Factions/Trinity",
+				"volume": 0.85,
+				"files": [
+					"music_trinity_encounter_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_trinity_encounter_neutral": [
+			{
+				"source": "sounds/Factions/Trinity",
+				"volume": 0.85,
+				"files": [
+					"music_trinity_encounter_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_trinity_market_friendly": [
+			{
+				"source": "sounds/Factions/Trinity",
+				"volume": 0.85,
+				"files": [
+					"music_trinity_market_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_trinity_market_hostile": [
+			{
+				"source": "sounds/Factions/Trinity",
+				"volume": 0.85,
+				"files": [
+					"music_trinity_market_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_trinity_market_neutral": [
+			{
+				"source": "sounds/Factions/Trinity",
+				"volume": 0.70,
+				"files": [
+					"music_trinity_market_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_FBG_encounter_friendly": [
+			{
+				"source": "sounds/Factions/FBG",
+				"volume": 0.60,
+				"files": [
+					"music_FBG_encounter_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_FBG_encounter_hostile": [
+			{
+				"source": "sounds/Factions/FBG",
+				"volume": 0.60,
+				"files": [
+					"music_FBG_encounter_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_FBG_encounter_neutral": [
+			{
+				"source": "sounds/Factions/FBG",
+				"volume": 0.70,
+				"files": [
+					"music_FBG_encounter_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_FBG_market_friendly": [
+			{
+				"source": "sounds/Factions/FBG",
+				"volume": 0.60,
+				"files": [
+					"music_FBG_market_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_FBG_market_hostile": [
+			{
+				"source": "sounds/Factions/FBG",
+				"volume": 0.60,
+				"files": [
+					"music_FBG_market_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_FBG_market_neutral": [
+			{
+				"source": "sounds/Factions/FBG",
+				"volume": 0.60,
+				"files": [
+					"music_FBG_market_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_legio_encounter_friendly": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.50,
+				"files": [
+					"music_legio_encounter_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_legio_encounter_hostile": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.50,
+				"files": [
+					"music_legio_encounter_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_legio_encounter_neutral": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.50,
+				"files": [
+					"music_legio_encounter_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_legio_market_friendly": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.60,
+				"files": [
+					"music_legio_market_friendly.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_legio_market_hostile": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.60,
+				"files": [
+					"music_legio_market_hostile.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"music_legio_market_neutral": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.60,
+				"files": [
+					"music_legio_market_neutral.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"theme_legio_ai": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.50,
+				"files": [
+					"theme_legio_ai.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"theme_legio_bw": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.50,
+				"files": [
+					"theme_legio_bw.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"theme_legio_full": [
+			{
+				"source": "sounds/Factions/Legio",
+				"volume": 0.60,
+				"files": [
+					"theme_legio_full.ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"Custom_music_campaign": [
+			{
+				"source": "sounds/Campaign",
+				"volume": 0.6,
+				"files": [
+					"exploring (1).ogg",
+					"exploring (7).ogg",
+					"exploring (9).ogg",
+					"exploring (10).ogg",
+					"exploring (11).ogg",
+					"exploring (12).ogg",
+					"exploring (13).ogg",
+					"exploring (14).ogg",
+					"exploring (16).ogg",
+					"exploring (17).ogg",
+					"exploring (21).ogg",
+					"exploring (22).ogg",
+					"exploring (24).ogg"
+				],
+			},
+		],
+		"Custom_music_campaign_non_core": [
+			{
+				"source": "sounds/Campaign",
+				"volume": 0.6,
+				"files": [
+					"exploring (2).ogg",
+					"exploring (3).ogg",
+					"exploring (4).ogg",
+					"exploring (5).ogg",
+					"exploring (6).ogg",
+					"exploring (17).ogg",
+					"exploring (19).ogg",
+					"exploring (20).ogg",
+					"exploring (23).ogg",
+					"exploring (25).ogg"
+				],
+			},
+		],
+		"Custom_music_campaign_hyperspace": [
+			{
+				"source": "sounds/Campaign",
+				"volume": 0.60,
+				"files": [
+					"exploring (8).ogg",
+					"exploring (15).ogg",
+					"exploring (17).ogg",
+					"exploring (18).ogg"
+				],
+			},
+		],
+		"Custom_music_combat": [
+			{
+				"source": "sounds/Combat",
+				"volume": 0.6,
+				"files": [
+					"combat (1).ogg",
+					"combat (2).ogg",
+					"combat (3).ogg",
+					"combat (4).ogg",
+					"combat (5).ogg",
+					"combat (6).ogg",
+					"combat (7).ogg",
+					"combat (8).ogg",
+					"combat (9).ogg",
+					"combat (10).ogg",
+					"combat (11).ogg",
+					"combat (12).ogg",
+					"combat (13).ogg",
+					"combat (14).ogg",
+					"combat (15).ogg",
+					"combat (16).ogg",
+					"combat (17).ogg"
+				],
+			},
+		],
+		"Custom_music_hegemony_combat": [],
+		"Custom_music_tritach_combat": [],
+		"Custom_music_pirates_combat": [],
+		"Custom_music_luddite_combat": [],
+		"Custom_music_luddic_path_combat": [],
+		"Custom_music_diktat_combat": [],
+		"Custom_music_persean_combat": [],
+		"Custom_music_remnant_combat": [],
+		"All_music_combat": [
+			{
+				"source": "sounds/Combat",
+				"volume": 0.6,
+				"files": [
+					"combat (1).ogg",
+					"combat (2).ogg",
+					"combat (3).ogg",
+					"combat (4).ogg",
+					"combat (5).ogg",
+					"combat (6).ogg",
+					"combat (7).ogg",
+					"combat (8).ogg",
+					"combat (9).ogg",
+					"combat (10).ogg",
+					"combat (11).ogg",
+					"combat (12).ogg",
+					"combat (13).ogg",
+					"combat (14).ogg",
+					"combat (15).ogg",
+					"combat (16).ogg",
+					"combat (17).ogg"
+				],
+			},
+		],
+		"Custom_music_title": [
+			{
+				"file": "CustomMenu.ogg",
+				"source": "sounds/Miscallenous",
+				"volume": 1.60
+			},
+		],
+		"Custom_music_survey_and_scavenge": [
+			{
+				"file": "CustomSurvey.ogg",
+				"source": "sounds/Miscallenous",
+				"volume": 1.50
+			},
+		],
+		"Custom_music_campaign_alpha_site": [
+			{
+				"file": "exploring (1).ogg",
+				"source": "sounds/Exploration",
+				"volume": 1.00
+			},
+		],
+		"Custom_music_encounter_mysterious": [],
+		"Custom_music_encounter_mysterious_non_aggressive": [],
+		"Custom_music_encounter_neutral": [],
+		"Custom_music_default_market_neutral": [],
+		"Custom_music_default_market_hostile": [],
+		"Custom_music_default_market_friendly": [],
+		"Custom_music_default_encounter_neutral": [],
+		"Custom_music_default_encounter_hostile": [],
+		"Custom_music_default_encounter_friendly": [],
+		"Custom_music_pirates_market_neutral": [],
+		"Custom_music_pirates_market_hostile": [],
+		"Custom_music_pirates_market_friendly": [],
+		"Custom_music_pirates_encounter_neutral": [],
+		"Custom_music_pirates_encounter_hostile": [],
+		"Custom_music_pirates_encounter_friendly": [],
+		"Custom_music_luddite_market_neutral": [],
+		"Custom_music_luddite_market_hostile": [],
+		"Custom_music_luddite_market_friendly": [],
+		"Custom_music_luddite_encounter_neutral": [],
+		"Custom_music_luddite_encounter_hostile": [],
+		"Custom_music_luddite_encounter_friendly": [],
+		"Custom_music_luddic_path_market_neutral": [],
+		"Custom_music_luddic_path_market_hostile": [],
+		"Custom_music_luddic_path_market_friendly": [],
+		"Custom_music_luddic_path_encounter_neutral": [],
+		"Custom_music_luddic_path_encounter_hostile": [],
+		"Custom_music_luddic_path_encounter_friendly": [],
+		"Custom_music_diktat_market_hostile": [],
+		"Custom_music_diktat_market_friendly": [],
+		"Custom_music_diktat_market_neutral": [],
+		"Custom_music_diktat_encounter_neutral": [],
+		"Custom_music_diktat_encounter_hostile": [],
+		"Custom_music_diktat_encounter_friendly": [],
+		"Custom_music_tritach_market_neutral": [],
+		"Custom_music_tritach_market_hostile": [],
+		"Custom_music_tritach_market_friendly": [],
+		"Custom_music_tritach_encounter_neutral": [],
+		"Custom_music_tritach_encounter_hostile": [],
+		"Custom_music_tritach_encounter_friendly": [],
+		"Custom_music_hegemony_market_neutral": [],
+		"Custom_music_hegemony_market_hostile": [],
+		"Custom_music_hegemony_market_friendly": [],
+		"Custom_music_hegemony_encounter_neutral": [],
+		"Custom_music_hegemony_encounter_hostile": [],
+		"Custom_music_hegemony_encounter_friendly": [],
+		"Custom_music_persean_league_market_neutral": [],
+		"Custom_music_persean_league_market_hostile": [],
+		"Custom_music_persean_league_market_friendly": [],
+		"Custom_music_persean_league_encounter_neutral": [],
+		"Custom_music_persean_league_encounter_hostile": [],
+		"Custom_music_persean_league_encounter_friendly": [],
+		"Custom_music_remnant_encounter_neutral": [],
+		"Custom_music_remnant_encounter_hostile": [],
+		"Custom_music_remnant_encounter_friendly": [],
+		"Custom_music_remnant_market_neutral": [],
+		"Custom_music_remnant_market_hostile": [],
+		"Custom_music_remnant_market_friendly": [],
+		"Custom_music_player_market_neutral": [
+			{
+				"source": "sounds/Factions/Player/Market",
+				"volume": 0.8,
+				"files": [
+					"market_player (1).ogg",
+					"market_player (2).ogg",
+					"market_player (3).ogg",
+					"market_player (4).ogg",
+					"market_player (5).ogg",
+					"market_player (6).ogg",
+					"market_player (7).ogg",
+					"market_player (8).ogg",
+					"market_player (9).ogg",
+					"market_player (10).ogg",
+					"market_player (11).ogg",
+				],
+				"randomStart": true,
+			},
+		],
+		"Custom_music_player_market_hostile": [
+			{
+				"source": "sounds/Factions/Player/Market",
+				"volume": 0.8,
+				"files": [
+					"market_player (1).ogg",
+					"market_player (2).ogg",
+					"market_player (3).ogg",
+					"market_player (4).ogg",
+					"market_player (5).ogg",
+					"market_player (6).ogg",
+					"market_player (7).ogg",
+					"market_player (8).ogg",
+					"market_player (9).ogg",
+					"market_player (10).ogg",
+					"market_player (11).ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"Custom_music_player_market_friendly": [
+			{
+				"source": "sounds/Factions/Player/Market",
+				"volume": 0.8,
+				"files": [
+					"market_player (1).ogg",
+					"market_player (2).ogg",
+					"market_player (3).ogg",
+					"market_player (4).ogg",
+					"market_player (5).ogg",
+					"market_player (6).ogg",
+					"market_player (7).ogg",
+					"market_player (8).ogg",
+					"market_player (9).ogg",
+					"market_player (10).ogg",
+					"market_player (11).ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"Custom_music_player_encounter_neutral": [
+			{
+				"source": "sounds/Factions/Player/Encounter",
+				"volume": 0.8,
+				"files": [
+					"encounter_player (1).ogg",
+					"encounter_player (2).ogg",
+					"encounter_player (3).ogg",
+					"encounter_player (4).ogg",
+					"encounter_player (5).ogg",
+					"encounter_player (6).ogg",
+					"encounter_player (7).ogg",
+					"encounter_player (8).ogg",
+					"encounter_player (9).ogg",
+					"encounter_player (10).ogg",
+					"encounter_player (11).ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"Custom_music_player_encounter_hostile": [
+			{
+				"source": "sounds/Factions/Player/Encounter",
+				"volume": 0.8,
+				"files": [
+					"encounter_player (1).ogg",
+					"encounter_player (2).ogg",
+					"encounter_player (3).ogg",
+					"encounter_player (4).ogg",
+					"encounter_player (5).ogg",
+					"encounter_player (6).ogg",
+					"encounter_player (7).ogg",
+					"encounter_player (8).ogg",
+					"encounter_player (9).ogg",
+					"encounter_player (10).ogg",
+					"encounter_player (11).ogg"
+				],
+				"randomStart": true,
+			},
+		],
+		"Custom_music_player_encounter_friendly": [
+			{
+				"source": "sounds/Factions/Player/Encounter",
+				"volume": 0.8,
+				"files": [
+					"encounter_player (1).ogg",
+					"encounter_player (2).ogg",
+					"encounter_player (3).ogg",
+					"encounter_player (4).ogg",
+					"encounter_player (5).ogg",
+					"encounter_player (6).ogg",
+					"encounter_player (7).ogg",
+					"encounter_player (8).ogg",
+					"encounter_player (9).ogg",
+					"encounter_player (10).ogg",
+					"encounter_player (11).ogg"
+				],
+				"randomStart": true,
+			},
+		],
+	},
+}

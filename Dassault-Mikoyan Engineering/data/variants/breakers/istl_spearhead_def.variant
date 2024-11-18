@@ -1,0 +1,55 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "hullId": "istl_spearhead",
+    "hullMods": [
+        "istl_bbdefense",
+        "advancedshieldemitter",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_spearhead_def",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_electronfan"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "istl_marteau_esm_rack",
+                "WS0005": "istl_marteau_esm_rack"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_jackal",
+                "WS0003": "istl_jackal"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_impulsor",
+                "WS0009": "istl_impulsor",
+                "WS0010": "istl_impulsor",
+                "WS0011": "istl_impulsor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_thermalpd",
+                "WS0007": "istl_thermalpd"
+            }
+        }
+    ]
+}

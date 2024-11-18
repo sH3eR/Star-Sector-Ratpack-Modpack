@@ -1,0 +1,53 @@
+{
+  "variantId": "dom+theseus_standard",
+  "hullId": "dom+theseus",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightmg",
+        "WS0008": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "pilum",
+        "WS0005": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dom+heavymortar",
+        "WS0002": "hellbore",
+        "WS0003": "heavymortar",
+        "WS0006": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavymortar",
+        "WS0010": "lightmortar",
+        "WS0011": "lightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+fencer_wing_Bomber_wing",
+    "dom+defense_pod_Autocannon"
+  ]
+}

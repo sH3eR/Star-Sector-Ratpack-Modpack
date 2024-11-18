@@ -1,0 +1,34 @@
+{	
+	"plugins": 
+	{	
+  		"musicPlugin":"scripts.MusicSwitcherPlugin",
+	},
+
+	"graphics":
+	{
+		"Music_Switcher":{
+			"preload":"graphics/icons/Music_Switcher_icon.png",
+		},
+		"ui_icons_tech_tree":{
+			"pet":"graphics/icons/ind_tech/pet.png",
+			"intel":"graphics/icons/ind_tech/intel.png",
+			"comms":"graphics/icons/ind_tech/comms.png",
+		},	
+	},
+	#spawn moons during sector generation
+	"lout_DoMoonSpawning":false,
+
+	#body sizes for generation
+	"lout_MinimumPlanetRadiusForMoonSpawning":150, #minimum radius a planet must have before the generator tries to put moons around it
+	"lout_PlanetRadiusDivisor":105, #higher number means lower max moon count per planet
+	"lout_HabitableProbability":8, #higher is lower chance for habitable planets
+
+	#hide systems outside the core worlds upon sector generation
+	"lout_HideSystems":false,
+
+	#number of wormhole bridges (unused)
+	#"lout_NumBridges":50,
+	#"lout_DoBridgeSpawning":false,
+
+	"lout_MoonPopCap":4
+}

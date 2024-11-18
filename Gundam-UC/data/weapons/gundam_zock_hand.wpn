@@ -1,0 +1,50 @@
+{
+  "id": "gundam_zock_hand",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_yellow_small_laser",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/ms/zock/gundam_zock_hand_00.png",
+  "hardpointSprite": "graphics/ms/zock/gundam_zock_hand_00.png",
+  "glowColor": [
+    255,
+    200,
+    100,
+    200
+  ],
+  "turretOffsets": [
+    19,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    40,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 20,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.75,
+    "particleCount": 20,
+    "particleColor": [
+      255,
+      220,
+      50,
+      175
+    ]
+  },
+  "numFrames": 10,
+  "frameRate": 10,
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "fireSoundTwo": "gundam_bit_beam"
+}

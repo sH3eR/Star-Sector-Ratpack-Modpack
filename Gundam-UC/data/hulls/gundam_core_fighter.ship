@@ -1,0 +1,71 @@
+{
+  "hullName": "Core Fighter",
+  "hullId": "gundam_core_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/gundam_core_fighter.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 26,
+  "width": 21,
+  "center": [10.5, 13],
+  "collisionRadius": 13.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 10.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, 3],
+      "length": 6.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-8, -3],
+      "length": 6.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -8, -9.5,
+    1, -9.5,
+    3, -3,
+    13, -1.5,
+    13, 1.5,
+    3, 3,
+    1, 9.5,
+    -8, 9.5
+  ]
+}

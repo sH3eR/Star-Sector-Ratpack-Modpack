@@ -1,0 +1,116 @@
+{
+  "hullName": "Omen (MS)",
+  "hullId": "omen_hmimax",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/omen/omen_hmimax.png",
+  "style": "HIGH_TECH",
+  "height": 84,
+  "width": 66,
+  "center": [32, 31],
+  "collisionRadius": 64,
+  "shieldCenter": [11, 1],
+  "shieldRadius": 53,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "ecm",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -30,
+      "locations": [22, 16]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 240,
+      "locations": [-11, -15]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 110,
+      "locations": [-6, 20]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [35, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, 15],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27, 8],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, 1],
+      "length": 50,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27, -6],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-29, -13],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    49, 11,
+    24, 27,
+    -9, 28,
+    -25, 17,
+    -26, -14,
+    -5, -29,
+    24, -28,
+    35, -18,
+    8, -8,
+    27, -4,
+    38, -9,
+    47, -3,
+    37, 5,
+    27, 1,
+    10, 8
+  ]
+}

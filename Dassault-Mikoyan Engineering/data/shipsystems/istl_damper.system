@@ -1,0 +1,40 @@
+{
+	"id":"istl_damper",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.istl_DamperStats",
+	
+	"jitterUnderColor":[75,115,255,225],
+	"jitterUnderCopies":16,
+	"jitterUnderMinRange":2,
+	"jitterUnderRange":4,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[75,115,255,75],
+	"jitterCopies":8,
+	"jitterMinRange":1,
+	"jitterRange":2,
+	"jitterRangeRadiusFraction":0,
+	
+	#"weaponGlowColor":[75,115,255,0],
+	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	"engineGlowColor":[75,115,255,225],
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+	}
+}
+
+
+

@@ -1,0 +1,20 @@
+{
+    "playableFaction":false,
+    "corvusCompatible":true,
+    "rebelFleetSuffix":"Deserters",
+    "dropPrisoners":false,
+    "hostileToAll":2,
+    "raidsFromBases":true,
+        
+    "responseFleetName":"Active Service Unit",
+	"invasionSupportFleetName": "Excision Fleet",
+    
+        "startRelationships":{
+    		"player": -1.0,
+    		 "diableavionics": -1.0, },
+    "maxRelationships":{
+    		"player": -0.75,
+    		"diableavionics": -0.9, },
+    "morality":"evil",
+
+}

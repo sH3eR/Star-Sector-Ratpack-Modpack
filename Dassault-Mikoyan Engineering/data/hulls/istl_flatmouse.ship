@@ -1,0 +1,162 @@
+{
+  "hullName": "Flatmouse",
+  "hullId": "istl_flatmouse",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ISTL/ships/istl_flatmouse.png",
+  "style": "DMEBlade",
+  "height": 92,
+  "width": 68,
+  "center": [34, 34],
+  "collisionRadius": 68,
+  "shieldCenter": [4, -0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "istl_bbengineering",
+    "advanced_ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0002": "istl_blinkerB_blue",
+    "WS0003": "istl_blinkerB_blue",
+    "WS0006": "istl_blinkerA_blue",
+    "WS0007": "istl_blinkerA_blue",
+    "WS0008": "istl_blinkerB_blue"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-6.5, 32.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-6.5, -32.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [51.5, 13.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [51.5, -13.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [55.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 105,
+      "locations": [-4, 19]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -105,
+      "locations": [-4, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 8],
+      "length": 25,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "BBHTFlare"
+    },
+    {
+      "location": [-26, -8],
+      "length": 25,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "BBHTFlare"
+    },
+    {
+      "location": [-26, 11],
+      "length": 25,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "BBHTQuadFlare"
+    },
+    {
+      "location": [-26, -11],
+      "length": 25,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "BBHTQuadFlare"
+    },
+    {
+      "location": [-26, 14],
+      "length": 25,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "BBHTFlare"
+    },
+    {
+      "location": [-26, -14],
+      "length": 25,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "BBHTFlare"
+    }
+  ],
+  "bounds": [
+    52, -13.5,
+    -1.5, -31.5,
+    -15.5, -31.5,
+    -28.5, -19,
+    -28.5, 19,
+    -15.5, 31.5,
+    -1.5, 31.5,
+    52, 13.5,
+    56.5, 5.5,
+    54.5, 0,
+    56.5, -5.5
+  ]
+}

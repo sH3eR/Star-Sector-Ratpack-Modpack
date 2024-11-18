@@ -1,0 +1,40 @@
+{
+  "animationType": "GLOW",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "gundam_saber_cut",
+  "frameRate": 10,
+  "glowColor": [
+    155,
+    255,
+    155,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    5,
+    0
+  ],
+  "hardpointSprite": "graphics/ms/gyan/gundam_gyan_saber_00.png",
+  "id": "gundam_gyan_sword",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "numFrames": 4,
+  "projectileSpecId": "gundam_saber_purple_slash",
+  "renderAboveAllWeapons": 1,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    23,
+    1.5
+  ],
+  "turretSprite": "graphics/ms/gyan/gundam_gyan_saber_00.png",
+  "type": "ENERGY"
+}

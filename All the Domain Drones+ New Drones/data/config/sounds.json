@@ -1,0 +1,13 @@
+{
+		# HEAVY MORTAR
+	"ddheavy_mortar_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/heavy_mortar_fire_01.ogg","pitch":0.8,"volume":1.0},
+	],
+	
+		# HELLBORE
+	"ddhellbore_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/hellbore_fire_01.ogg","pitch":0.8,"volume":1.2},
+	]
+}

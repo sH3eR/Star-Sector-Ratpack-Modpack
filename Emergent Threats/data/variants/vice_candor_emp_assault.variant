@@ -1,0 +1,35 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "vice_candor_emp",
+    "hullMods": [
+        "vice_module_handler",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "vice_adaptive_pulse_resonator"
+    ],
+    "modules": [{"SM 1": "vice_emp_module"}],
+    "permaMods": ["vice_module_handler"],
+    "sMods": [],
+    "variantId": "vice_candor_emp_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pulselaser",
+                "WS 002": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst"
+            }
+        }
+    ]
+}

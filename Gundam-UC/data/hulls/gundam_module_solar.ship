@@ -1,0 +1,32 @@
+{
+  "hullName": "Solar Module",
+  "hullId": "gundam_module_solar",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/station/gundam_station_solar.png",
+  "style": "HIGH_TECH",
+  "height": 183,
+  "width": 150,
+  "center": [74.5, 20.5],
+  "collisionRadius": 186.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 199.5,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -5,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    161.5, -68,
+    140.5, -78,
+    -15, -35.5,
+    -15, 33.5,
+    140.5, 76,
+    161.5, 66
+  ]
+}

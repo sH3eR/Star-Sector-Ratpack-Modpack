@@ -1,0 +1,12 @@
+id,name,faction,desc,script,icon,order
+hmi_exec_market,"Gendo
+Market",hmi_exec,"The main concentration the Company's saleable assets, the Gendo Market is also the focus of arms dealers and mercenaries all willing to offload particularly 'hot' weapons and ships. Requires good standing with the Company to enter (and look the other way for particularly egregious criminal activity).",data.campaign.submarkets.HMI_ExecMarketPlugin,,800.02
+hmi_scrap_market,"Aida Flea 
+Market",HMI,"Excess material harvested from Opuntia is sold here on an informal basis. This market is also used by less reputable individuals to sell ships and goods 'acquired' from out of system as 'Opuntia Junk'. Notorious for shockingly low quality, but also reasonable prices as well.",data.campaign.submarkets.HMI_ScrapMarketPlugin,,800.02
+hmi_maxwell_open,Directory,hmi_maxwell,Utilized to access other Maxwell Markets. You can check your number of Relationshares by mousing over the Directory button.,data.campaign.submarkets.HMI_MaxwellOpenMarketPlugin,,800.02
+hmi_maxwell_low,"Explorer 
+Market",hmi_maxwell,"For all your surveying needs, the Maxwell Explorer Market provides ships for the discerning captain with an eye for budgetary efficiency. Ship stock includes Maxwell derivatives of the Remora, the Wayfarer, the Cerberus, Condor, Mule, Hippocampus and Apogee. Also includes access to cheap weaponry to outfit your new vessels. Access is only a reasonable 5 Relationshares!",data.campaign.submarkets.HMI_MaxwellLowMarketPlugin,,800.02
+hmi_maxwell_med,"Defense 
+Market",hmi_maxwell,"Exploring the ruins of the Collapse often means dangerous encounters with pirates, scavengers and luddics. Thus, the Maxwell Defense Market to provide you with all the necessary weaponry, fighters and ships to protect yourself against these base threats, and allow you to investigate the outer reaches at your leisure. Stock includes the Wolf, the Vigilance, the Omen, the Shrike, the Hippocampus, the Fury, the Apogee and the Odyssey. Access is a premium 35 Relationshares!",data.campaign.submarkets.HMI_MaxwellMedMarketPlugin,,800.02
+hmi_maxwell_high,"Executive 
+Market",hmi_maxwell,"For the more refined, loyal and discerning spacer, the Maxwell Executive Exchange promises to greatly enhance your combat experience. With a glorious range of automated defense systems available for purchase, the Executive Exchange guarantees to satisfy even the most uncompromising military analyst. Access is an exclusive 60 Relationshares!",data.campaign.submarkets.HMI_MaxwellHiMarketPlugin,,800.02

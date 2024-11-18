@@ -1,0 +1,37 @@
+{
+	"id":"istl_phasedbuster_launcher",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"everyFrameEffect": "data.scripts.weapons.istl_PhasedBusterLauncherFX",
+	#"everyFrameEffect": "data.scripts.weapons.MagicGuidance.istl_PhasedBusterLauncherGuidedFX", #need to add some flight time for this to work right
+	"type":"ENERGY",
+	"mountTypeOverride":"SYNERGY",
+	"size":"LARGE",
+	"displayArcRadius":1000,
+	"turretSprite":"graphics/ISTL/weapons/istl_phasebusterlauncher_turret_base.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_phasebusterlauncher_turret_glow.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_phasebusterlauncher_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_phasebusterlauncher_hardpoint_glow.png",
+	"glowColor":[25,200,125,215],
+	"turretOffsets":[13, 11, 13, -11,
+					 -1, 14, -1, -14],
+	"turretAngleOffsets":[30, -30,
+						  60, -60],
+	"hardpointOffsets":[20, 11, 20, -11,
+					 	4, 14, 4, -14],
+	"hardpointAngleOffsets":[30, -30,
+						  	 60, -60],
+	"barrelMode":"LINKED", # or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":12.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":4.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.05,
+					   "particleCount":24,
+					   "particleColor":[25,200,125,215]},
+	"projectileSpecId":"istl_phasedbuster_shot",  # projectile that will be fired
+	#"projectileSpecId":"istl_phasedbuster_nm_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge",
+	"fireSoundTwo":"istl_phaserail_fire",
+}

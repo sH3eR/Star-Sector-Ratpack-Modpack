@@ -1,0 +1,99 @@
+{
+  "hullName": "Core Booster",
+  "hullId": "gundam_core_booster",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/gundam_core_booster.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 47,
+  "width": 41,
+  "center": [20.5, 24],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [17, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, -10],
+      "length": 13.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-20, -3],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18, 9.5],
+      "length": 13.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-20, 3.5],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19.5, 0],
+      "length": 12.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -19, -12,
+    -1.5, -14.5,
+    2.5, -7,
+    11, -5.5,
+    12.5, -2,
+    22.5, 0,
+    22.5, -0,
+    12.5, 2,
+    11, 5.5,
+    2.5, 7,
+    -1.5, 14.5,
+    -19, 12
+  ]
+}

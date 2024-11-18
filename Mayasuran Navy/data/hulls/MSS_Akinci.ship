@@ -1,0 +1,112 @@
+{
+  "bounds": [
+    5,
+    27.5,
+    18,
+    -0,
+    5,
+    -27.5,
+    -2,
+    -27.5,
+    -14,
+    -7.5,
+    -28,
+    0,
+    -14,
+    7.5,
+    -2,
+    27.5
+  ],
+  "builtInWings": [],
+  "center": [
+    29,
+    29
+  ],
+  "collisionRadius": 32.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 17.5,
+      "location": [
+        -12.5,
+        9.5
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 17.5,
+      "location": [
+        -13,
+        -9.5
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 22.5,
+      "location": [
+        -28.5,
+        0
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    }
+  ],
+  "height": 50,
+  "hullId": "MSS_Akinci",
+  "hullName": "Akinci",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 32.5,
+  "spriteName": "graphics/mayasura/ships/MSS_Akinci.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        7,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -1,
+        13.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        -1,
+        -13.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 58
+}

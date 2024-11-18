@@ -1,0 +1,34 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "hullId": "istl_centaur",
+    "hullMods": ["stabilizedshieldemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_centaur_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_perforatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_linearcannon",
+                "WS0006": "istl_linearcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_micropd",
+                "WS0003": "istl_micropd",
+                "WS0004": "istl_micropd"
+            }
+        }
+    ]
+}

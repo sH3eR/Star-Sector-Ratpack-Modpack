@@ -1,0 +1,48 @@
+{
+  "id": "gundam_elmeth_bit",
+  "specClass": "projectile",
+  "projectileSpecId": "gundam_small_purple_laser",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/ma/elmeth/gundam_elmeth_bit.png",
+  "hardpointSprite": "graphics/ma/elmeth/gundam_elmeth_bit.png",
+  "glowColor": [
+    255,
+    200,
+    100,
+    200
+  ],
+  "turretOffsets": [
+    8.5,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    29,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 10,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.75,
+    "particleCount": 20,
+    "particleColor": [
+      219,
+      113,
+      223,
+      200
+    ]
+  },
+  "fireSoundTwo": "gundam_beam"
+}

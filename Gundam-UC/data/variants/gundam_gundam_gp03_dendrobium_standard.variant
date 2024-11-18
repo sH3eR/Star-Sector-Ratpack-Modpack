@@ -1,0 +1,52 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_gundam_gp03_dendrobium",
+  "hullMods": [
+    "fluxdistributor",
+	"hardenedshieldemitter",
+    "fluxcoil",
+	"stabilizedshieldemitter",
+	"always_detaches"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_gundam_gp03_dendrobium_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "GUN": "gundam_gundam_gp03_dendrobium_mega_cannon",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "MELEE": "gundam_saber_purple",
+        "MELEE_2": "gundam_saber_purple_left"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "gundam_missile_pod",
+        "WS0002": "gundam_missile_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "gundam_builtin_rear_apmissile",
+        "WS0004": "gundam_builtin_rear_apmissile"
+      }
+    }
+  ],
+  "wings": []
+}

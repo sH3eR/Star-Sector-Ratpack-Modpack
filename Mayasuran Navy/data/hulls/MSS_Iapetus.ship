@@ -1,0 +1,206 @@
+{
+  "hullName": "Iapetus",
+  "hullId": "MSS_Iapetus",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/mayasura/ships/MSS_Iapetus.png",
+  "style": "MIDLINE",
+  "height": 460,
+  "width": 260,
+  "center": [130, 232],
+  "collisionRadius": 310,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 269.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-132, -81]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-132, 81]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-88, 80],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-88, -80],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-5, 83],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-5, -83],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [129, 93.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [129, -93.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [127, -22],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [127, 22],
+      "renderOrderMod": 100
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [84, 105],
+      "length": 20,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [84, -105],
+      "length": 20,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-167, -81],
+      "length": 45,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-167, 81],
+      "length": 45,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-216, -33],
+      "length": 20,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-216, 33],
+      "length": 20,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-221, 12.5],
+      "length": 65,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-221, -12.5],
+      "length": 65,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    174.5, -17.5,
+    214, -20.5,
+    214.5, -60,
+    158, -122.5,
+    91, -124,
+    78, -90.5,
+    16.5, -90.5,
+    -27.5, -106,
+    -126, -108,
+    -161, -96.5,
+    -162, -65.5,
+    -213, -43,
+    -213, 43,
+    -162, 65.5,
+    -161, 96.5,
+    -126, 108,
+    -27.5, 106,
+    16.5, 90.5,
+    78, 90.5,
+    91, 124,
+    158, 122.5,
+    214.5, 60,
+    214, 20.5,
+    174.5, 17.5
+  ]
+}

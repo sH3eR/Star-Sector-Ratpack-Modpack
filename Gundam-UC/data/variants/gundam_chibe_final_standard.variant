@@ -1,0 +1,84 @@
+{
+  "displayName": "Limited",
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "gundam_chibe_final",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_chibe_final_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_2cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "gundam_mega_2bcannon_m",
+                "WS0003": "gundam_mega_1cannon_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "gundam_builtin_front_spmissile",
+				"WS0005": "gundam_builtin_front_spmissile"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+				"WS0006": "gundam_builtin_rear_apmissile",
+				"WS0007": "gundam_builtin_rear_apmissile"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+				"WS0008": "gundam_builtin_rear_swamp_missile",
+				"WS0009": "gundam_builtin_rear_swamp_missile"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0010": "gundam_pd_2mg",
+				"WS0011": "gundam_pd_2mg",
+				"WS0012": "gundam_pd_2mg",
+				"WS0013": "gundam_pd_2mg",
+				"WS0014": "gundam_pd_2mg",
+                "WS0015": "gundam_pd_2mg",
+                "WS0016": "gundam_pd_2mg",
+				"WS0017": "gundam_pd_2mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUIDE_1": "gundam_launch_bay_guide",
+                "GUIDE_2": "gundam_launch_bay_guide",
+                "GUIDE_3": "gundam_launch_bay_guide",
+                "GUIDE_4": "gundam_launch_bay_guide"
+            }
+        }
+    ],
+    "wings": [
+        "gundam_gelgoog_j_wing",
+		"gundam_rick_dom_ii_wing"
+    ]
+}
+

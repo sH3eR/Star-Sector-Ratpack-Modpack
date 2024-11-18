@@ -1,0 +1,205 @@
+{
+  "bounds": [
+    -40.5,
+    -25.5,
+    -32,
+    -27.5,
+    -20.5,
+    -48,
+    5.5,
+    -45,
+    8.5,
+    -49.5,
+    33.5,
+    -23.5,
+    24,
+    -14,
+    24,
+    14,
+    33.5,
+    23.5,
+    8.5,
+    49.5,
+    5.5,
+    45,
+    -20.5,
+    48,
+    -32,
+    27.5,
+    -40.5,
+    25.5
+  ],
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "high_maintenance"
+  ],
+  "center": [
+    52,
+    46
+  ],
+  "collisionRadius": 90,
+  "engineSlots": [
+    {
+      "angle": 170,
+      "contrailSize": 6,
+      "length": 20,
+      "location": [
+        -29,
+        36
+      ],
+      "style": "MayasuranFlare",
+      "width": 6
+    },
+    {
+      "angle": -170,
+      "contrailSize": 6,
+      "length": 20,
+      "location": [
+        -29,
+        -36
+      ],
+      "style": "MayasuranFlare",
+      "width": 6
+    },
+    {
+      "angle": 165,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -26,
+        42
+      ],
+      "style": "MayasuranFlare",
+      "width": 6
+    },
+    {
+      "angle": -165,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -27,
+        -41
+      ],
+      "style": "MayasuranFlare",
+      "width": 6
+    },
+    {
+      "angle": 160,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -24,
+        46
+      ],
+      "style": "MayasuranFlare",
+      "width": 6
+    },
+    {
+      "angle": -160,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -24,
+        -46
+      ],
+      "style": "MayasuranFlare",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -41.5,
+        22
+      ],
+      "style": "MayasuranFlare",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -41.5,
+        -22
+      ],
+      "style": "MayasuranFlare",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -41.5,
+        12
+      ],
+      "style": "MayasuranFlare",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -41.5,
+        -12
+      ],
+      "style": "MayasuranFlare",
+      "width": 16
+    }
+  ],
+  "height": 92,
+  "hullId": "MSS_Nightingale",
+  "hullName": "Nightingale",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 75,
+  "spriteName": "graphics/mayasura/ships/MSS_Nightingale.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        30,
+        25
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        30,
+        -25
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        27,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 104
+}

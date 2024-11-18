@@ -1,0 +1,46 @@
+{
+	"HullMod":{
+		"istl_DMEAllIncomp":"This ship cannot install the following hullmods:",
+		
+		"istl_MonoblocDesc1":"EMP damage reduced by %s.",
+		"istl_MonoblocDesc2":"Overload duration is reduced by %s.",
+		"istl_MonoblocDesc3":"Increases the 0-flux speed boost by %s.",
+		
+		"istl_MonoblocDescRThresh":"Weapon range reduced by %s above %s/%s/%s/%s units, depending on hull size.",
+		
+		"istl_ReactionFurnaceDesc1":"EMP damage reduced by %s.",
+		"istl_ReactionFurnaceDesc2":"Flux vent rate increased by %s.",
+		"istl_ReactionFurnaceDesc3":"Sensor profile reduced by %s.",
+		"istl_ReactionFurnaceDesc4":"Increases the 0-flux speed boost by %s at up to %s of the ship's flux.",
+		"istl_ReactionFurnaceDesc5":"Reduces damage taken from solar coronas and hyperspace storms by %s.",
+		
+		"istl_RefurbDesc1":"Improves the repair rate of this ship by %s.",
+		"istl_RefurbDesc2":"Improves CR recovery by %s.",
+		
+		"istl_ComCrewDesc1":"Reduces crew and fighter casualties by %s percent, and engine and weapon repair times by %s.",
+		"istl_ComCrewDesc2":"Reduces the rate at which fighter replacement rate decreases by %s.",
+	
+		"istl_BBEngDesc1":"All non-missile small/medium/large weapons receive a %s/%s/%s discount.",
+		"istl_BBEngDesc2":"Supply use is increased by %s.",
+		"istl_BBEngDesc3":"Overload duration is increased by %s.",
+		"istl_BBEngDesc4":"Damage taken from solar coronas and hyperspace storms reduced by %s.",
+		
+		"istl_BBAssaultDesc1":"Increases top speed by %s/%s/%s/%s, depending on hull size, and further increases as the ship builds hard flux.",
+		"istl_BBAssaultDesc2":"Reduces weapon flux cost by %s.",
+		"istl_BBAssaultDesc3":"Flux dissipation is increased by a factor of %s.",
+		"istl_BBAssaultDesc4":"Prevents active venting, and reduces weapon range past %s units.",
+		"istl_BBAssaultDesc5":"Peak operating time reduced by %s.",
+		"istl_BBAssaultDescFtr":"Fighter speed increased by %s.",
+		
+		"istl_BBDefenseDesc1":"Increases shield efficiency by %s, and reduces penetration by shield-piercing weapons.",
+		"istl_BBDefenseDesc2":"Reduces incoming HE and Energy damage by %s.",
+		"istl_BBDefenseDesc3":"Increases weapon and engine health by %s.",
+		"istl_BBDefenseDescFtr":"Fighters take %s less armor and hull damage.",
+		
+		"istl_BBSupportDesc1":"Increases weapon range by a flat %s/%s/%s/%s units, depending on hull size.",
+		"istl_BBSupportDesc2":"Increases turret turn rate by %s.",
+		"istl_BBSupportDesc3":"Increases sight radius by %s.",
+		"istl_BBSupportDescFtr":"Fighter weapon range increased by %s units.",
+
+	},
+}

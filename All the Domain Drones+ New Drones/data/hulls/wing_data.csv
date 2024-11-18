@@ -1,0 +1,8 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+dom+fencer_wing_Fighter_wing,dom+fencer_wing_Fighter,"no_sell, fighter3, fighter, drone, low, derelict, auto_fighter, rare_bp",1,,4,4,BOX,5000,600,0,2,FIGHTER,Heavy Drone Fighter,15,3000,,,,,,,,,,,,,
+dom+fencer_wing_Bomber_wing,dom+fencer_wing_Bomber,"no_sell, bomber4, bomber, drone, low, derelict, auto_fighter, rare_bp",2,,5,8,BOX,5000,700,0,1,BOMBER,Heavy Drone Bomber,25,5000,,,,,,,,,,,,,
+dom+defense_pod_Autocannon,dom+defensepod_Autocannon,"no_sell, fighter1, fighter, drone, low, derelict, auto_fighter, rare_bp",0,,2,0,BOX,3000,500,0,4,FIGHTER,Light Drone Defense Pod,8,2000,,,,,,,,,,,,,
+dom+jouster_wing_gunship,dom+jouster_wing_Gunship,"no_sell, fighter4, fighter, drone, low, derelict, auto_fighter, rare_bp",3,,12,10,BOX,5000,700,0,2,FIGHTER,Heavy Drone Gunship,30,6000,,,,,,,,,,,,,
+dom+labourer_miner,dom+labourer_Miner,"no_drop, no_sell, fighter2, fighter, drone, low, derelict, auto_fighter",0,,5,0,BOX,3000,500,0,2,FIGHTER,Heavy Drone Miner,25,5000,,,,,,,,,,,,,
+dom+labourer_miner_2,dom+labourer_Miner_2,"fighter2, fighter, drone, low, derelict, auto_fighter, rare_bp",0,,3,0,BOX,3000,500,0,2,FIGHTER,Medium Drone Miner,20,3500,,,,,,,,,,,,,
+dom+marjinot_wing,dom+marjinot_wing,"no_sell, intercetpr3, interceptor, drone, low, derelict, auto_fighter, rare_bp",1,,4,4,BOX,5000,600,0,3,INTERCEPTOR,Heavy Drone Interceptor,15,3000,,,,,,,,,,,,,

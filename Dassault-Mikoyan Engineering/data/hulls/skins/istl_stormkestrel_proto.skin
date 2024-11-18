@@ -1,0 +1,41 @@
+{
+	"baseHullId":"istl_stormkestrel",
+	"skinHullId":"istl_stormkestrel_proto",
+	"hullName":"Sparrowhawk",
+	"descriptionId":"istl_stormkestrel",
+	"descriptionPrefix":"This hull is a stolen pre-production model intended for combat testing, with all the little quirks and faults that implies.",
+	"tags":["ship_can_not_scuttle", "always_recoverable", "no_sell", "no_dealer"],
+	"tech":"Deserter",
+    "fleetPoints":25,
+    "ordnancePoints":140,
+    "baseValueMult":0.9,
+    "removeHints":[UNBOARDABLE],
+    "removeBuiltInWings":["istl_hellion_wing"],
+	"systemId":"istl_bravejets",
+	"spriteName":"graphics/ISTL/ships/proto/istl_stormkestrel_proto.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[
+		"WS0011",
+    	"WS0012",
+    	"WS0013",
+    	"WS0014",
+    	"WS0015",
+    	"WS0016",
+    						], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS0001":{
+      		"type": "HYBRID",
+    	},
+    },
+    "builtInMods":["neural_interface"],
+	"builtInWeapons":{
+		"WS0011": "istl_impulsor_proto",
+    	"WS0012": "istl_impulsor_proto",
+    	"WS0013": "istl_impulsor_proto",
+    	"WS0014": "istl_impulsor_proto",
+    	"WS0015": "istl_impulsor_proto",
+    	"WS0016": "istl_impulsor_proto",
+    },
+}

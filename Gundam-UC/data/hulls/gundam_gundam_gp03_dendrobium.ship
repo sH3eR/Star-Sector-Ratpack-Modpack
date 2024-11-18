@@ -1,0 +1,180 @@
+{
+  "hullName": "GP-03 Dendrobium",
+  "hullId": "gundam_gundam_gp03_dendrobium",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ma/gundam_gp03_dendrobium/gundam_gundam_gp03_dendrobium_body.png",
+  "style": "GUNDAM_EFSF_SHIELD",
+  "height": 105,
+  "width": 135,
+  "center": [67.5, 52.5],
+  "collisionRadius": 67.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "GUN": "gundam_gundam_gp03_dendrobium_mega_cannon",
+    "L_LEG": "gundam_gundam_gp03_dendrobium_leftleg",
+    "MELEE": "gundam_saber_purple",
+    "MELEE_2": "gundam_saber_purple_left",
+    "R_LEG": "gundam_gundam_gp03_dendrobium_rightleg",
+    "WS0001": "gundam_missile_pod",
+    "WS0002": "gundam_missile_pod"
+  },
+  "weaponSlots": [
+    {
+      "id": "GUN",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [14, -31]
+    },
+    {
+      "id": "MELEE_2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [65, 21]
+    },
+    {
+      "id": "MELEE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [65, -21]
+    },
+    {
+      "id": "L_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 174,
+      "locations": [-43, 14]
+    },
+    {
+      "id": "R_LEG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -174,
+      "locations": [-43, -14]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4, -22.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4, 22.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5.5, -52.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [5.5, 52.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, 25.5],
+      "length": 19,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31, -25.5],
+      "length": 19,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-38, 12],
+      "length": 19,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-38, -12],
+      "length": 19,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-49, 14.5],
+      "length": 19,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-49, -14.5],
+      "length": 19,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -39, -4.5,
+    -42.5, -6.5,
+    -42.5, -15,
+    -38.5, -23.5,
+    -33, -35.5,
+    -20, -61.5,
+    10.5, -67,
+    16.5, -52.5,
+    12, -43,
+    17.5, -42.5,
+    23.5, -18.5,
+    23.5, 18.5,
+    17.5, 42.5,
+    12, 43,
+    16.5, 52.5,
+    10.5, 67,
+    -20, 61.5,
+    -33, 35.5,
+    -38.5, 23.5,
+    -42.5, 15,
+    -42.5, 6.5,
+    -39, 4.5
+  ]
+}

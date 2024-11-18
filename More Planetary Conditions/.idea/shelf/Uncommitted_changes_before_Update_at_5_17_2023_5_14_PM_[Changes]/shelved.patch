@@ -1,0 +1,1919 @@
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeIntel.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeIntel.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeIntel.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeIntel.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeIntel.kt	
+@@ -1,29 +1,179 @@
+ package data.scripts.campaign.econ.conditions.overgrownNanoforge.intel
+ 
+-import com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin
++import com.fs.starfarer.api.Global
++import com.fs.starfarer.api.campaign.comm.IntelInfoPlugin.ListInfoMode
++import com.fs.starfarer.api.campaign.econ.MarketAPI
++import com.fs.starfarer.api.impl.campaign.ids.Factions
++import com.fs.starfarer.api.impl.campaign.intel.events.BaseFactorTooltip
++import com.fs.starfarer.api.ui.CustomPanelAPI
+ import com.fs.starfarer.api.ui.SectorMapAPI
++import com.fs.starfarer.api.ui.TooltipMakerAPI
++import com.fs.starfarer.api.util.IntervalUtil
++import com.fs.starfarer.api.util.Misc
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.handler.overgrownNanoforgeIndustryHandler
++import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.effects.overgrownNanoforgeRandomizedSourceParams
++import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.overgrownNanoforgeSourceTypes
+ import data.scripts.campaign.intel.baseNikoEventIntelPlugin
+ import data.utilities.niko_MPC_ids.INTEL_OVERGROWN_NANOFORGES
++import data.utilities.niko_MPC_settings
++import data.utilities.niko_MPC_settings.OVERGROWN_NANOFORGE_MAX_INTEL_PROGRESS
++import data.utilities.niko_MPC_settings.OVERGROWN_NANOFORGE_NOT_SPREADING_PROGRESS
+ 
+ class overgrownNanoforgeIntel(
+-    val ourNanoforgeHandler: overgrownNanoforgeIndustryHandler
++    val ourNanoforgeHandler: overgrownNanoforgeIndustryHandler,
++    hidden: Boolean = true
+ ): baseNikoEventIntelPlugin() {
+ 
++    var spreading: Boolean = false
++    var paramsToUse: overgrownNanoforgeRandomizedSourceParams? = null
++    fun generateSourceParams(): overgrownNanoforgeRandomizedSourceParams {
++        val chosenSourceType = getSourceType()
++        return overgrownNanoforgeRandomizedSourceParams(ourNanoforgeHandler, chosenSourceType)
++    }
++    private fun getSourceType(): overgrownNanoforgeSourceTypes {
++        return overgrownNanoforgeSourceTypes.adjustedPick() ?: overgrownNanoforgeSourceTypes.STRUCTURE
++    }
++
++    val spreadIntervalTimer = IntervalUtil(niko_MPC_settings.OVERGROWN_NANOFORGE_MIN_TIME_BETWEEN_SPREADS, niko_MPC_settings.OVERGROWN_NANOFORGE_MAX_TIME_BETWEEN_SPREADS)
++
++    var baseFactor: overgrownNanoforgeBaseIntelFactor? = null
++        get() {
++            if (field == null) field = createBaseFactor()
++            return field
++        }
++
++    private fun createBaseFactor(): overgrownNanoforgeBaseIntelFactor {
++        return overgrownNanoforgeBaseIntelFactor(getBaseProgress(), this)
++    }
++
++    private fun getBaseProgress(): Int {
++        return 1
++    }
++
++    enum class overgrownStages {
++        START,
++        JUNK_SPAWNED,
++    }
++
+     init {
+-        hidden = true
++        isHidden = hidden
++        Global.getSector().intelManager.addIntel(this, false)
++
++        stopSpreading() //TODO: this WILL fucking explode.
++    }
++
++    override fun advanceImpl(amount: Float) {
++        if (!spreading) {
++            val days = Misc.getDays(amount)
++            spreadIntervalTimer.advance(days)
++            if (spreadIntervalTimer.intervalElapsed()) {
++                startSpreading()
++            }
++        }
++        super.advanceImpl(amount)
++    }
++
++    fun startSpreading() {
++        setMaxProgress(OVERGROWN_NANOFORGE_MAX_INTEL_PROGRESS)
++        setProgress(getStartingProgress())
++
++        addStage(overgrownStages.START, 0, false)
++        addStage(overgrownStages.JUNK_SPAWNED, OVERGROWN_NANOFORGE_MAX_INTEL_PROGRESS, true, StageIconSize.LARGE)
++
++        addFactor(baseFactor)
++        addFactor(overgrownNanoforgeIntelFactorUndiscovered(this))
++        addFactor(overgrownNanoforgeIntelFactorTooManyStructures(this))
++
++        paramsToUse = generateSourceParams()
++
++        Global.getSector().listenerManager.addListener(this)
++        spreading = true
+     }
++
++    fun stopSpreading() {
++        setMaxProgress(OVERGROWN_NANOFORGE_NOT_SPREADING_PROGRESS)
++        setProgress(0)
++
++        stages.clear() // TODO: bad idea?
++
++        val iterator = factors.iterator()
++        while (iterator.hasNext()) {
++            val castedFactor = iterator.next() as? baseOvergrownNanoforgeEventFactor ?: continue
++            if (castedFactor.shouldBeRemovedWhenSpreadingStops()) iterator.remove()
++        }
++
++        Global.getSector().listenerManager.removeListener(this)
++        paramsToUse = null
++        spreading = false
++    }
++
++    private fun getStartingProgress(): Int = 10
+ 
+     fun init() {
+ 
+     }
+ 
+-    override fun advance(amount: Float) {
+-        super.advance(amount)
++    override fun getSmallDescriptionTitle(): String {
++        return super.getSmallDescriptionTitle()
++    }
++
++    override fun hasLargeDescription(): Boolean {
++        return super.hasLargeDescription()
++    }
++
++    override fun createLargeDescription(panel: CustomPanelAPI?, width: Float, height: Float) {
++        super.createLargeDescription(panel, width, height)
++    }
++
++    override fun addStageDescriptionText(info: TooltipMakerAPI?, width: Float, stageId: Any?) {
++        if (isStageActiveAndLast(stageId)) {
++            info?.addPara("blah blah blah If progress is reverted to 0, the growth will be " +
++                    "removed and the process will begin again.", 0f)
++        }
+     }
+ 
+     override fun getName(): String {
+-        return "Overgrown Nanoforge on {$ourNanoforgeHandler.market.name}"
++        return "Overgrown Nanoforge on ${ourNanoforgeHandler.market.name}"
++    }
++
++    override fun getIcon(): String? {
++        return super.getIcon()
++    }
++
++    override fun getStageIconImpl(stageId: Any?): String {
++        return Global.getSector().getFaction(Factions.PIRATES).crest;
++    }
++
++    override fun getStageTooltipImpl(stageId: Any?): TooltipMakerAPI.TooltipCreator? {
++        if (stageId == null) return null
++        val data = getDataFor(stageId) ?: return null
++
++        when (data.id) {
++            overgrownStages.START -> {
++                return object : BaseFactorTooltip() {
++                    override fun createTooltip(tooltip: TooltipMakerAPI?, expanded: Boolean, tooltipParam: Any?) {
++                        val opad: Float = 10f
++                        if (tooltip == null) return
++                        tooltip.addTitle("Cull growth")
++                        tooltip.addPara("When progress is reduced to this level, the growth will be removed and restart" +
++                                    " the growing process.", opad)
++                        data.addProgressReq(tooltip, opad)
++                    }
++                }
++            }
++            overgrownStages.JUNK_SPAWNED -> {
++                return object : BaseFactorTooltip() {
++                    override fun createTooltip(tooltip: TooltipMakerAPI?, expanded: Boolean, tooltipParam: Any?) {
++                        val opad: Float = 10f
++                        if (tooltip == null) return
++                        tooltip.addTitle("Growth settlement")
++                        tooltip.addPara("The growing structure will become permanent, and begin applying all it's effects.", opad)
++                        data.addProgressReq(tooltip, opad)
++                    }
++                }
++            }
++        }
++        return null
+     }
+ 
+     override fun getIntelTags(map: SectorMapAPI?): MutableSet<String> {
+@@ -32,12 +182,47 @@
+         return tags
+     }
+ 
++    override fun createIntelInfo(info: TooltipMakerAPI, mode: ListInfoMode?) {
++        val c = getTitleColor(mode)
++        // i would love to do this modularly, alex, but youve fucking. forced my hand with a LOCAL VARIABLE
++        info.addPara(name, c, 0f)
++        addBulletPoints(info, mode)
++    }
++
++    override fun getStages(): MutableList<EventStageData> {
++        return super.getStages()
++    }
++
+     override fun isImportant(): Boolean {
+         return true
+     }
+ 
+-    override fun isHidden(): Boolean {
+-        return hidden
++    override fun setProgress(progress: Int) {
++        super.setProgress(progress)
++    }
++
++   /* fun getSpreader(): overgrownNanoforgeJunkSpreader {
++        return ourNanoforgeHandler.junkSpreader
++    } */
++
++    private fun toggleVisibility(hidden: Boolean?) {
++        if (hidden == false) {
++            Global.getSector().intelManager.addIntel(this, false)
++        } else {
++            Global.getSector().intelManager.removeIntel(this)
++        }
++    }
++
++    // ALEX WHY THE FUCK DO YOU DETERMINE SOMETHING NOT BEING HIDDEN AS THE BOOLEAN HIDDEN FIELD BEING NOT NULL
++    // ITS A BOOLEAN
++    // A BOOLEAN
++    override fun setHidden(hidden: Boolean) {
++        super.setHidden(hidden)
++  //      toggleVisibility(isHidden)
++    }
++
++    fun getMarket(): MarketAPI {
++        return ourNanoforgeHandler.market
+     }
+ 
+ }
+\ No newline at end of file
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/listeners/overgrownNanoforgeDiscoveryListener.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/listeners/overgrownNanoforgeDiscoveryListener.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/listeners/overgrownNanoforgeDiscoveryListener.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/listeners/overgrownNanoforgeDiscoveryListener.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/listeners/overgrownNanoforgeDiscoveryListener.kt	
+@@ -3,6 +3,7 @@
+ import com.fs.starfarer.api.campaign.PlanetAPI
+ import com.fs.starfarer.api.campaign.listeners.SurveyPlanetListener
+ import data.utilities.niko_MPC_marketUtils.getOvergrownNanoforge
++import data.utilities.niko_MPC_marketUtils.getOvergrownNanoforgeIndustryHandler
+ 
+ class overgrownNanoforgeDiscoveryListener(): SurveyPlanetListener {
+ 
+@@ -10,9 +11,8 @@
+         if (planet == null) return
+ 
+         val surveyedMarket = planet.market ?: return
+-        val nanoforge = surveyedMarket.getOvergrownNanoforge() ?: return
++        val handler = surveyedMarket.getOvergrownNanoforgeIndustryHandler() ?: return
+ 
+-        val handler = nanoforge.getHandlerWithUpdate()
+         handler.discovered = true
+     }
+ 
+Index: src/data/hullmods/niko_MPC_graviticSupercomputer.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/hullmods/niko_MPC_graviticSupercomputer.kt b/src/data/hullmods/niko_MPC_graviticSupercomputer.kt
+--- a/src/data/hullmods/niko_MPC_graviticSupercomputer.kt	
++++ b/src/data/hullmods/niko_MPC_graviticSupercomputer.kt	
+@@ -5,8 +5,8 @@
+ import com.fs.starfarer.api.combat.ShipAPI.HullSize
+ 
+ class niko_MPC_graviticSupercomputer : BaseHullMod() {
+-    val rangeMult = 18f
+-    val pdRangeMult = 0.6f
++    val rangeMult = 50f
++    val pdRangeMult = 1f
+     val missileRangeMalice = 0.7f
+     val visionIncrement = 9000f
+     val recoilMult = 0.3f
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeJunkHandler.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeJunkHandler.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeJunkHandler.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeJunkHandler.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeJunkHandler.kt	
+@@ -6,6 +6,7 @@
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.overgrownNanoforgeEffectSource
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.overgrownNanoforgeRandomizedSource
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.overgrownNanoforgeSourceTypes
++import data.utilities.niko_MPC_ids.overgrownNanoforgeJunkHandlerMemoryId
+ import data.utilities.niko_MPC_marketUtils.getNextOvergrownJunkId
+ import data.utilities.niko_MPC_marketUtils.getOvergrownNanoforgeIndustryHandler
+ 
+@@ -17,11 +18,11 @@
+ class overgrownNanoforgeJunkHandler(
+     initMarket: MarketAPI,
+     val masterHandler: overgrownNanoforgeIndustryHandler,
+-    initBuildingId: String?
++    junkDesignation: Int? = null
+ ): overgrownNanoforgeHandler(initMarket) {
+ 
+     /* Should be the String ID of the building we currently have active, or will instantiate later. */
+-    var cachedBuildingId: String? = initBuildingId ?: getNewStructureId()
++    var cachedBuildingId: String? = if (junkDesignation == null) { market.getNextOvergrownJunkId() } else { overgrownNanoforgeJunkHandlerMemoryId + junkDesignation }
+         set(value: String?) {
+             if (value == null) {
+                 handleNullBuildingId()
+@@ -41,7 +42,7 @@
+     // Shouldn't cause issues, since this is only called during the building's instantiation, right? Riiiiiight?
+     // No we still need to keep a copy of our structure ID so we can actually grab it huhgh
+     override fun getNewStructureId(): String? {
+-        return market.getNextOvergrownJunkId()
++        return cachedBuildingId
+     }
+ 
+     override fun getCoreHandler(): overgrownNanoforgeIndustryHandler {
+Index: data/weapons/weapon_data.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/weapons/weapon_data.csv b/data/weapons/weapon_data.csv
+--- a/data/weapons/weapon_data.csv	
++++ b/data/weapons/weapon_data.csv	
+@@ -5,4 +5,5 @@
+ LR Burst PD Laser,niko_MPC_LR_pdburst,,,,500,350,,,0,100,7,3,0.5,,ENERGY,,200,0.1,0.1,0.3,0.1,,,,,90000,,,,,,,"PD,ANTI_FTR","pd9, beam6, no_drop, no_drop_salvage, no_sell, niko_MPC_derelictSatellite",,,,Point Defense,,,,,,,,,,19.6
+ LR Tactical Laser,niko_MPC_LR_taclaser,,,,1000,75,,,0,20,4,,,,ENERGY,,75,0.1,0.1,,,,,,,75000,,,,,,,,"beam9, LR, no_drop, no_drop_salvage, no_sell, niko_MPC_derelictSatellite",,,,General,,,,,,,,,,18
+ LR High Intensity Laser,niko_MPC_LR_hil,,,,1000,500,,,0,5,20,,,,HIGH_EXPLOSIVE,,500,0.1,0.1,,,,,,,88000,,,,,,,,"beam20, LR, no_drop, no_drop_salvage, no_sell, niko_MPC_derelictSatellite",,,,Anti Armor,,,,,,,,,,24
+-LR Heavy Burst Laser,niko_MPC_LR_heavyburst,,,,600,400,,,0,40,11,5,0.5,,ENERGY,,300,0.1,0.1,0.3,0.1,,,,,90000,,,,,,,"PD,ANTI_FTR,IGNORES_FLARES","pd15, beam10, no_drop, no_drop_salvage, no_sell, niko_MPC_derelictSatellite",,,,Point Defense,,,,,Advanced built-in targeting sensors enable the weapon to identify decoy flares and not fire on them.,decoy flares,,,,22.5
+\ No newline at end of file
++LR Heavy Burst Laser,niko_MPC_LR_heavyburst,,,,600,400,,,0,40,11,5,0.5,,ENERGY,,300,0.1,0.1,0.3,0.1,,,,,90000,,,,,,,"PD,ANTI_FTR,IGNORES_FLARES","pd15, beam10, no_drop, no_drop_salvage, no_sell, niko_MPC_derelictSatellite",,,,Point Defense,,,,,Advanced built-in targeting sensors enable the weapon to identify decoy flares and not fire on them.,decoy flares,,,,22.5
++LR Mining Laser,niko_MPC_LR_mininglaser,,,,600,30,,,0,80,1,,,,ENERGY,,10,0,0.25,,,,,,,90000,,,,,,,PD,"beam0, energy0, pd0, no_drop, no_drop_salvage, no_sell, niko_MPC_derelictSatellite",,,,Point Defense,,,,,,,,,,16.5
+\ No newline at end of file
+Index: src/todo.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/todo.txt b/src/todo.txt
+--- a/src/todo.txt	
++++ b/src/todo.txt	
+@@ -4,6 +4,7 @@
+ 
+ }
+ 
++improve satellite overclock ai, its too eager to attack at close range and too hesitant to use at long
+ 
+ please fucking improve the advancement alteration shit thats wacky as fuck
+ 
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeIndustry.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeIndustry.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeIndustry.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeIndustry.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeIndustry.kt	
+@@ -16,19 +16,6 @@
+ 
+ class overgrownNanoforgeIndustry: baseOvergrownNanoforgeStructure() {
+ 
+-    //use this one
+-    override fun apply(withIncomeUpdate: Boolean) {
+-        super.apply(withIncomeUpdate)
+-
+-        applyConditions()
+-    }
+-
+-    private fun applyConditions() { // learned it the hard way, you can add multiple versions of the same condition in a infinite loop :)
+-        if (market.hasCondition(Conditions.HABITABLE) && !market.hasCondition(Conditions.POLLUTION)) {
+-            market.addCondition(Conditions.POLLUTION)
+-        }
+-    }
+-
+     override fun unapply() {
+         super.unapply()
+         val condition = market.getOvergrownNanoforgeCondition()
+@@ -90,4 +77,12 @@
+             return MathUtils.getRandomNumberInRange(OVERGROWN_NANOFORGE_BASE_SCORE_MIN, OVERGROWN_NANOFORGE_BASE_SCORE_MAX)
+         }
+     }
++
++    override fun isAvailableToBuild(): Boolean {
++        return false
++    }
++
++    override fun showWhenUnavailable(): Boolean {
++        return false
++    }
+ }
+Index: data/hullmods/hull_mods.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/hullmods/hull_mods.csv b/data/hullmods/hull_mods.csv
+--- a/data/hullmods/hull_mods.csv	
++++ b/data/hullmods/hull_mods.csv	
+@@ -13,4 +13,5 @@
+ No explosion damage,niko_MPC_noExplosionDamage,,,,,,,,TRUE,,0,0,0,0,data.hullmods.niko_MPC_noExplosionDamage,Makes explosions do no damage.,,graphics/hullmods/targeting_supercomputer.png
+ Supportive Presence,niko_MPC_cheapDeployment,,,,,,,,TRUE,,0,0,0,0,data.hullmods.niko_MPC_cheapDeployment,Removes DP.,,graphics/hullmods/integrated_point_defense_ai.png
+ Accelerated Particle Drivers,niko_MPC_acceleratedParticleDrivers,,,,,,,,TRUE,,0,0,0,0,data.hullmods.niko_MPC_acceleratedParticleDrivers,awfawdawd,,graphics/hullmods/integrated_point_defense_ai.png
+-Fighter Focus,niko_MPC_fighterFocus,,,,,,,,TRUE,,0,0,0,0,data.hullmods.niko_MPC_fighterFocus,awfawdawd,,graphics/hullmods/integrated_point_defense_ai.png
+\ No newline at end of file
++Fighter Focus,niko_MPC_fighterFocus,,,,,,,,TRUE,,0,0,0,0,data.hullmods.niko_MPC_fighterFocus,awfawdawd,,graphics/hullmods/integrated_point_defense_ai.png
++Minor Fighter Focus,niko_MPC_minorFighterFocus,,,,,,,,TRUE,,0,0,0,0,data.hullmods.niko_MPC_minorFighterFocus,awfawdawd,,graphics/hullmods/integrated_point_defense_ai.png
+\ No newline at end of file
+Index: More Planetary Conditions.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/More Planetary Conditions.iml b/More Planetary Conditions.iml
+--- a/More Planetary Conditions.iml	
++++ b/More Planetary Conditions.iml	
+@@ -24,5 +24,6 @@
+     <orderEntry type="library" name="javadoc" level="project" />
+     <orderEntry type="library" name="LunaLib" level="project" />
+     <orderEntry type="library" name="src" level="project" />
++    <orderEntry type="library" name="More Combat Terrain Effects" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeHandler.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeHandler.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeHandler.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeHandler.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/handler/overgrownNanoforgeHandler.kt	
+@@ -12,6 +12,8 @@
+ ) {
+     var currentStructureId: String? = null
+     lateinit var baseSource: overgrownNanoforgeEffectSource
++    var unapplying: Boolean = false
++    var deleting: Boolean = false
+ 
+     abstract fun createBaseSource(): overgrownNanoforgeEffectSource
+ 
+@@ -36,10 +38,13 @@
+     }
+ 
+     open fun delete() {
++        if (deleted || deleting) return
++        deleting = true
+         removeSelfFromMarket(market)
+ 
+         for (source in getAllSources()) source.delete() // TODO: this will cause issues if delete calls unapply since this callchain calls source.unapply
+         deleted = true
++        deleting = false
+     }
+ 
+     open fun apply() {
+@@ -50,9 +55,12 @@
+     }
+ 
+     open fun unapply() {
++        if (unapplying) return
++        unapplying = true
+         removeStructure()
+ 
+         for (source in getAllSources()) source.unapply()
++        unapplying = false
+     }
+ 
+     open fun addSelfToMarket(market: MarketAPI) {
+Index: src/data/utilities/niko_MPC_settings.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/utilities/niko_MPC_settings.kt b/src/data/utilities/niko_MPC_settings.kt
+--- a/src/data/utilities/niko_MPC_settings.kt	
++++ b/src/data/utilities/niko_MPC_settings.kt	
+@@ -10,8 +10,9 @@
+ import java.io.IOException
+ 
+ object niko_MPC_settings {
+-
+     const val overgrownNanoforgeBaseJunkSpreadTargettingChance = 500f
++    const val OVERGROWN_NANOFORGE_MAX_INTEL_PROGRESS = 500
++    const val OVERGROWN_NANOFORGE_NOT_SPREADING_PROGRESS = 10
+ 
+     @JvmStatic
+     @Throws(JSONException::class, IOException::class)
+@@ -88,6 +89,8 @@
+     @JvmField
+     var SATELLITE_FLEET_FP_BONUS_MULT = 0.0
+ 
++    var USE_SATELLITE_INTERACTION_PLUGIN: Boolean = true
++
+     var OVERGROWN_NANOFORGE_IS_INDUSTRY = true
+ 
+     var OVERGROWN_NANOFORGE_CARES_ABOUT_PLAYER_PROXIMITY_FOR_DECON = true
+@@ -117,4 +120,6 @@
+ 
+     var OVERGROWN_NANOFORGE_BASE_SCORE_MIN = randomizedSourceBudgets.HIGH.value*OVERGROWN_NANOFORGE_OVERALL_BUDGET_MULT
+     var OVERGROWN_NANOFORGE_BASE_SCORE_MAX = randomizedSourceBudgets.EXTREMELY_HIGH.value*OVERGROWN_NANOFORGE_OVERALL_BUDGET_MULT
++
++    var OVERGROWN_NANOFORGE_PROGRESS_WHILE_UNDISCOVERED: Boolean = false
+ }
+\ No newline at end of file
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreadingScript.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreadingScript.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreadingScript.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreadingScript.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreadingScript.kt	
+@@ -1,4 +1,5 @@
+ package data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.spreading
++/*
+ 
+ import com.fs.starfarer.api.Global
+ import com.fs.starfarer.api.campaign.econ.Industry
+@@ -8,12 +9,15 @@
+ import com.fs.starfarer.api.util.Misc
+ import com.fs.starfarer.api.util.WeightedRandomPicker
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.handler.overgrownNanoforgeIndustryHandler
++import data.scripts.campaign.econ.conditions.overgrownNanoforge.handler.overgrownNanoforgeJunkHandler
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.effects.overgrownNanoforgeRandomizedSourceParams
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.overgrownNanoforgeRandomizedSource
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.overgrownNanoforgeSourceTypes
+-import data.scripts.campaign.econ.conditions.overgrownNanoforge.industries.overgrownNanoforgeIndustry
++import data.scripts.campaign.econ.conditions.overgrownNanoforge.intel.overgrownNanoforgeIntel
+ import data.scripts.everyFrames.niko_MPC_baseNikoScript
+ import data.utilities.niko_MPC_marketUtils.exceedsMaxStructures
++import data.utilities.niko_MPC_marketUtils.getNextOvergrownJunkDesignation
++import data.utilities.niko_MPC_marketUtils.getNextOvergrownJunkId
+ import data.utilities.niko_MPC_marketUtils.hasMaxStructures
+ import data.utilities.niko_MPC_marketUtils.isApplied
+ import data.utilities.niko_MPC_marketUtils.isJunkStructure
+@@ -33,9 +37,8 @@
+ 
+     class junkSpreadScriptTimer(minInterval: Float, maxInterval: Float, val script: overgrownNanoforgeJunkSpreadingScript): IntervalUtil(minInterval, maxInterval) {
+         override fun advance(amount: Float) {
+-            val days = Misc.getDays(amount)
+             updateAdvancementAlterations()
+-            val finalAmount = getAdvancement(days)
++            val finalAmount = getAdvancement(amount)
+             super.advance(finalAmount)
+         }
+ 
+@@ -55,7 +58,8 @@
+ 
+     override fun advance(amount: Float) {
+         updateTarget()
+-        timer.advance(amount)
++        val days = Misc.getDays(amount)
++        timer.advance(days)
+         if (timer.intervalElapsed()) {
+             spreadJunk()
+         } else if (areWeReverted()) { // negative means it was reverted
+@@ -68,8 +72,13 @@
+         return (timer.elapsed < 0f)
+     }
+ 
+-    private fun culled() {
+-        TODO("Not yet implemented")
++    fun culled() {
++        nanoforgeHandler.junkCulledBeforeCreation(this)
++        delete()
++    }
++
++    fun getIntel(): overgrownNanoforgeIntel {
++        return nanoforgeHandler.intel
+     }
+ 
+     fun updateTarget() {
+@@ -117,18 +126,28 @@
+             delete()
+             return null
+         }
++        reportJunkSpreadedBeforeCreation()
+ 
+         val source = createSource()
+-        source.init()
++        val handler = createHandler()
++        handler.init(source)
+ 
+-        reportJunkSpreaded()
++        reportJunkSpreadedAfterCreation(source)
+ 
+         delete()
+         return source
+     }
+ 
+-    private fun reportJunkSpreaded() {
+-        TODO("Not yet implemented")
++    fun createHandler(): overgrownNanoforgeJunkHandler {
++        return overgrownNanoforgeJunkHandler(getMarket(), nanoforgeHandler, getMarket().getNextOvergrownJunkDesignation())
++    }
++
++    fun reportJunkSpreadedBeforeCreation() {
++        nanoforgeHandler.junkSpreadedBeforeCreation(this)
++    }
++
++    fun reportJunkSpreadedAfterCreation(source: overgrownNanoforgeRandomizedSource) {
++        nanoforgeHandler.junkSpreadedAfterCreation(this, source)
+     }
+ 
+     fun marketExceedsMaxStructuresAndDoWeCare(): Boolean {
+@@ -155,3 +174,4 @@
+         Global.getSector().removeScript(this)
+     }
+ }
++*/
+\ No newline at end of file
+Index: data/variants/niko_MPC_defenseSatelliteCore_barrage.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_defenseSatelliteCore_barrage.variant b/data/variants/niko_MPC_defenseSatelliteCore_barrage.variant
+--- a/data/variants/niko_MPC_defenseSatelliteCore_barrage.variant	
++++ b/data/variants/niko_MPC_defenseSatelliteCore_barrage.variant	
+@@ -3,7 +3,7 @@
+   "hullId": "niko_MPC_defenseSatelliteCore",
+   "displayName": "Barrage",
+   "goalVariant": false,
+-  "fluxCapacitors": 13,
++  "fluxCapacitors": 15,
+   "fluxVents": 25,
+   "quality": 1,
+   "permaMods": [],
+@@ -16,16 +16,15 @@
+       "mode": "LINKED",
+       "weapons": {
+         "WS0001": "chaingun",
+-        "WS0002": "chaingun"
++        "WS0002": "chaingun",
++        "WS0003": "lightmg",
++        "WS0004": "lightmg"
+       }
+     },
+     {
+       "autofire": true,
+       "mode": "LINKED",
+-      "weapons": {
+-        "WS0003": "vulcan",
+-        "WS0004": "vulcan"
+-      }
++      "weapons": {}
+     },
+     {
+       "autofire": true,
+Index: changelog.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/changelog.txt b/changelog.txt
+--- a/changelog.txt	
++++ b/changelog.txt	
+@@ -26,7 +26,7 @@
+ Re-introduced interaction plugin to make fleets always fight back
+ 
+ Ships
+-    Overclocked targetting (Frontal plate system) now 1. Has a lower threshold for activation 2. Overloads for far longer 3. Lasts for far less
++    Overclocked targetting (Frontal plate system) now 1. Overloads for far longer 2. Lasts for far less
+     Harpoon MRM small removed from most variants, as it was way too spammy
+     Variants
+         Ordnance
+Index: data/variants/niko_MPC_connectorModule_standard.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_connectorModule_standard.variant b/data/variants/niko_MPC_connectorModule_standard.variant
+--- a/data/variants/niko_MPC_connectorModule_standard.variant	
++++ b/data/variants/niko_MPC_connectorModule_standard.variant	
+@@ -13,16 +13,15 @@
+       "autofire": false,
+       "mode": "LINKED",
+       "weapons": {
+-        "WS0001": "hellbore"
+-      }
+-    },
+-    {
+-      "autofire": true,
+-      "mode": "LINKED",
+-      "weapons": {
++        "WS0001": "hellbore",
+         "WS0002": "lightdualmg",
+         "WS0003": "lightdualmg"
+       }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
+     }
+   ],
+   "modules": [],
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseOvergrownNanoforgeEventFactor.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseOvergrownNanoforgeEventFactor.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseOvergrownNanoforgeEventFactor.kt
+new file mode 100644
+--- /dev/null	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseOvergrownNanoforgeEventFactor.kt	
+@@ -0,0 +1,15 @@
++package data.scripts.campaign.econ.conditions.overgrownNanoforge.intel
++
++import com.fs.starfarer.api.campaign.econ.MarketAPI
++
++abstract class baseOvergrownNanoforgeEventFactor(
++    val overgrownIntel: overgrownNanoforgeIntel
++): baseNikoEventFactor() {
++    open fun shouldBeRemovedWhenSpreadingStops(): Boolean {
++        return true
++    }
++
++    fun getMarket(): MarketAPI {
++        return overgrownIntel.getMarket()
++    }
++}
+\ No newline at end of file
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeEventFactors.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeEventFactors.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeEventFactors.kt
+new file mode 100644
+--- /dev/null	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/overgrownNanoforgeEventFactors.kt	
+@@ -0,0 +1,49 @@
++package data.scripts.campaign.econ.conditions.overgrownNanoforge.intel
++
++import com.fs.starfarer.api.impl.campaign.intel.events.BaseEventIntel
++import com.fs.starfarer.api.impl.campaign.intel.events.EventFactor
++import com.fs.starfarer.api.ui.TooltipMakerAPI
++import data.utilities.niko_MPC_marketUtils.exceedsMaxStructures
++import data.utilities.niko_MPC_settings.OVERGROWN_NANOFORGE_PROGRESS_WHILE_UNDISCOVERED
++import kotlin.math.roundToInt
++
++class overgrownNanoforgeBaseIntelFactor(
++    val baseProgress: Int, overgrownIntel: overgrownNanoforgeIntel
++): baseOvergrownNanoforgeEventFactor(overgrownIntel) {
++    override fun getProgress(intel: BaseEventIntel?): Int {
++        return baseProgress
++    }
++
++    override fun getDesc(intel: BaseEventIntel?): String {
++        return "a"
++    }
++
++    override fun addExtraRows(info: TooltipMakerAPI?, intel: BaseEventIntel?) {
++        super.addExtraRows(info, intel)
++    }
++}
++
++class overgrownNanoforgeIntelFactorUndiscovered(overgrownIntel: overgrownNanoforgeIntel) :
++    baseOvergrownNanoforgeEventFactor(overgrownIntel), EventFactor {
++    override fun getProgress(intel: BaseEventIntel?): Int {
++        if (!OVERGROWN_NANOFORGE_PROGRESS_WHILE_UNDISCOVERED) return 0
++        if (!overgrownIntel.isHidden) return 0
++        return -(overgrownIntel.baseFactor!!.baseProgress * 0.9).roundToInt()
++    }
++
++    override fun getDesc(intel: BaseEventIntel?): String {
++        return "You shouldn't see this"
++    }
++}
++
++class overgrownNanoforgeIntelFactorTooManyStructures(overgrownIntel: overgrownNanoforgeIntel) : baseOvergrownNanoforgeEventFactor(
++    overgrownIntel
++) {
++    override fun getProgress(intel: BaseEventIntel?): Int {
++        return if (overgrownIntel.getMarket().exceedsMaxStructures()) -overgrownIntel.baseFactor!!.baseProgress else 0
++    }
++
++    override fun getDesc(intel: BaseEventIntel?): String {
++        return "${getMarket().name} has too many structures, making the overgrown nanoforge unable to expand."
++    }
++}
+\ No newline at end of file
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeJunk.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeJunk.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeJunk.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeJunk.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/industries/overgrownNanoforgeJunk.kt	
+@@ -5,31 +5,38 @@
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.handler.overgrownNanoforgeJunkHandler
+ import data.utilities.niko_MPC_debugUtils.displayError
+ import data.utilities.niko_MPC_debugUtils.logDataOf
++import data.utilities.niko_MPC_ids
++import data.utilities.niko_MPC_marketUtils.getOvergrownJunkHandler
+ import data.utilities.niko_MPC_marketUtils.getOvergrownNanoforge
++import data.utilities.niko_MPC_marketUtils.getOvergrownNanoforgeIndustryHandler
+ 
+ class overgrownNanoforgeJunk: baseOvergrownNanoforgeStructure() {
+ 
+-    lateinit var ourHandler: overgrownNanoforgeJunkHandler
+-
+     override fun init(id: String?, market: MarketAPI?) {
+         super.init(id, market)
+         if (id == null || market == null) return
+ 
+         val nanoforge = market.getOvergrownNanoforge()
+-        if (nanoforge == null) {
+-            displayError("$this instantiated on market with no nanoforge")
+-            logDataOf(market)
++        val masterHandler = market.getOvergrownNanoforgeIndustryHandler()
++        if (nanoforge == null || masterHandler == null) {
++            //displayError("$this instantiated on market with no nanoforge")
++            //logDataOf(market)
+             market.removeIndustry(id, null, false)
+             return
+         }
++        val handler = instantiateNewHandler()
+     }
+ 
+     override fun createNewHandlerInstance(): overgrownNanoforgeJunkHandler {
+-        TODO("Not yet implemented")
++        return overgrownNanoforgeJunkHandler(market, market.getOvergrownNanoforgeIndustryHandler()!!, getDesignation())
+     }
+ 
+     override fun getHandler(): overgrownNanoforgeJunkHandler? {
+-        TODO("Not yet implemented")
++        return market.getOvergrownJunkHandler(getDesignation())
++    }
++
++    fun getDesignation(): Int {
++        return (id.filter { it.isDigit() }.toInt())
+     }
+ 
+     override fun isAvailableToBuild(): Boolean {
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreader.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreader.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreader.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreader.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/sources/spreading/overgrownNanoforgeJunkSpreader.kt	
+@@ -1,16 +1,15 @@
+-package data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.spreading
++/*package data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.spreading
++
+ 
+ import com.fs.starfarer.api.Global
+ import com.fs.starfarer.api.campaign.econ.MarketAPI
+ import com.fs.starfarer.api.util.IntervalUtil
+ import com.fs.starfarer.api.util.Misc
+-import com.fs.starfarer.api.util.WeightedRandomPicker
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.handler.overgrownNanoforgeIndustryHandler
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.handler.overgrownNanoforgeJunkHandler
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.effects.overgrownNanoforgeRandomizedSourceParams
+ import data.scripts.campaign.econ.conditions.overgrownNanoforge.sources.overgrownNanoforgeSourceTypes
+-import data.scripts.campaign.econ.conditions.overgrownNanoforge.industries.overgrownNanoforgeIndustry
+-import data.scripts.campaign.econ.conditions.overgrownNanoforge.industries.overgrownNanoforgeJunk
++import data.utilities.niko_MPC_debugUtils.displayError
+ import data.utilities.niko_MPC_marketUtils
+ import data.utilities.niko_MPC_marketUtils.exceedsMaxStructures
+ import data.utilities.niko_MPC_marketUtils.getVisibleIndustries
+@@ -18,14 +17,14 @@
+ import data.utilities.niko_MPC_settings.OVERGROWN_NANOFORGE_MAX_TIME_BETWEEN_SPREADS
+ import data.utilities.niko_MPC_settings.OVERGROWN_NANOFORGE_MIN_SPREADING_DAYS
+ import data.utilities.niko_MPC_settings.OVERGROWN_NANOFORGE_MIN_TIME_BETWEEN_SPREADS
+-import data.utilities.niko_MPC_settings.OVERGROWN_NANOFORGE_USE_JUNK_STRUCTURES
+ import org.lazywizard.lazylib.MathUtils
+ 
+ class overgrownNanoforgeJunkSpreader(
+     val nanoforgeHandler: overgrownNanoforgeIndustryHandler
+ ) {
+ 
+-    val timeTilSpread = spreadTimer(OVERGROWN_NANOFORGE_MIN_TIME_BETWEEN_SPREADS, OVERGROWN_NANOFORGE_MAX_TIME_BETWEEN_SPREADS)
++    var deleted: Boolean = false
++    val spreadTimer = IntervalUtil(OVERGROWN_NANOFORGE_MIN_TIME_BETWEEN_SPREADS, OVERGROWN_NANOFORGE_MAX_TIME_BETWEEN_SPREADS)
+     var spreadingScript: overgrownNanoforgeJunkSpreadingScript? = null
+     val baseSpreadRate = 1f
+ 
+@@ -36,8 +35,7 @@
+                 return "${market.name} has exceeded the structure limit by ${market.getVisibleIndustries().size - niko_MPC_marketUtils.maxStructureAmount}"
+             }
+             override fun shouldApply(nanoforgeHandler: overgrownNanoforgeIndustryHandler): Boolean {
+-                val spreadingScript = nanoforgeHandler.junkSpreader.spreadingScript ?: return false
+-                return spreadingScript.marketExceedsMaxStructuresAndDoWeCare()
++                return false
+             }
+             override fun getMult(nanoforgeHandler: overgrownNanoforgeIndustryHandler): Float = -1f //halt all growth but not recession
+         };
+@@ -70,19 +68,23 @@
+         for (entry in advancementAlteration.alterations) if (entry.shouldApply(nanoforgeHandler)) advancementAlterations += entry
+     }
+ 
+-    class spreadTimer(minInterval: Float, maxInterval: Float): IntervalUtil(minInterval, maxInterval) {
+-    }
+-
+     fun advance(amount: Float) {
++        if (deleted) {
++            displayError("junk spreader on ${getMarket()?.name} advance called while deleted")
++            return
++        }
++        if (!shouldSpreadJunk()) {
++            return
++        }
+         val dayAmount = Misc.getDays(amount)
+-        if (shouldSpreadJunk()) {
+-            tryToSpreadJunk(dayAmount) //only increment the timer if we should even try
++        spreadTimer.advance(dayAmount)
++        if (spreadTimer.intervalElapsed()) {
++            tryToSpreadJunk(dayAmount)
+         }
+     }
+ 
+     fun shouldSpreadJunk(): Boolean {
+         if (spreadingScript != null || spreadingSuppressed() || getMarket().exceedsMaxStructures()) {
+-            timeTilSpread.elapsed = 0f
+             return false
+         }
+         return true
+@@ -93,8 +95,8 @@
+     }
+ 
+     fun tryToSpreadJunk(dayAmount: Float) {
+-        timeTilSpread.advance(dayAmount)
+-        if (timeTilSpread.intervalElapsed()) {
++        spreadTimer.advance(dayAmount)
++        if (spreadTimer.intervalElapsed()) {
+             Global.getSector().campaignUI.addMessage("spreaded!")
+             //spreadJunk()
+         }
+@@ -103,6 +105,9 @@
+     fun spreadJunk(): overgrownNanoforgeJunkSpreadingScript? {
+         val script = createSpreadingScript()
+         script?.start()
++        if (script != null) {
++            nanoforgeHandler.spreadingStarted(script)
++        }
+         return script
+     }
+ 
+@@ -118,12 +123,12 @@
+     }
+ 
+     fun getProgress(days: Float = 1f): Float {
+-        return (getPositiveIncrement()*days) * (days * getMult())
++        return (getPositiveIncrement()*days) * (days * getMultIncrement())
+     }
+     fun getRegression(days: Float = 1f): Float {
+-        return ((getNegativeIncrement()*days) * getNegativeMult())
++        return ((getNegativeIncrement()*days) * getNegativeMultIncrement())
+     }
+-    fun getMult(): Float {
++    fun getMultIncrement(): Float {
+         var mult = 1f
+         for (entry in advancementAlterations) mult += entry.getMult(nanoforgeHandler)
+         return mult
+@@ -138,7 +143,7 @@
+         for (entry in advancementAlterations) decrement += entry.getNegativeIncrement(nanoforgeHandler)
+         return decrement
+     }
+-    fun getNegativeMult(): Float {
++    fun getNegativeMultIncrement(): Float {
+         var negativeMult = 1f
+         for (entry in advancementAlterations) negativeMult += entry.getNegativeMult(nanoforgeHandler)
+         return negativeMult
+@@ -179,36 +184,18 @@
+         return overgrownNanoforgeJunkSpreadingScript(nanoforgeHandler, timeTilSpread, this, sourceParams)
+     }
+ 
+-    private fun getAdjustedTypeChances(): MutableList<overgrownNanoforgeSourceTypes> {
+-        val types = overgrownNanoforgeSourceTypes.values().toMutableList()
+-        val iterator = types.iterator()
+-        while (iterator.hasNext()) {
+-            if (types.size <= 1) break
+-            val type = iterator.next()
+-            when (type) {
+-                overgrownNanoforgeSourceTypes.STRUCTURE -> {
+-                    if (!OVERGROWN_NANOFORGE_USE_JUNK_STRUCTURES) {
+-                        iterator.remove()
+-                        continue
+-                    }
+-                }
+-                overgrownNanoforgeSourceTypes.INTERNAL -> {
+-                    iterator.remove() // TODO return to this
+-                }
+-            }
+-        }
+-        return types
+-    }
+-
+     fun getMarket(): MarketAPI {
+         return nanoforgeHandler.market
+     }
+ 
+     fun delete() {
+-        TODO()
++        spreadingScript?.delete()
++        deleted = true
+     }
+ 
+     fun getExistingJunk(): MutableSet<overgrownNanoforgeJunkHandler> {
+         return nanoforgeHandler.junkHandlers
+     }
+ }
++
++******/
+\ No newline at end of file
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/overgrownNanoforgeCondition.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/overgrownNanoforgeCondition.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/overgrownNanoforgeCondition.kt
+--- a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/overgrownNanoforgeCondition.kt	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/overgrownNanoforgeCondition.kt	
+@@ -4,6 +4,7 @@
+ import com.fs.starfarer.api.Global
+ import com.fs.starfarer.api.campaign.SectorEntityToken
+ import com.fs.starfarer.api.campaign.econ.MarketAPI
++import com.fs.starfarer.api.impl.campaign.ids.Conditions
+ import com.fs.starfarer.api.ui.TooltipMakerAPI
+ import com.thoughtworks.xstream.mapper.Mapper.Null
+ import data.scripts.campaign.econ.conditions.hasDeletionScript
+@@ -33,13 +34,18 @@
+ 
+         val ourMarket = getMarket() ?: return
+         if (ourMarket.isDeserializing()) return
+-
++        applyConditions()
+ 
+         if (ourMarket.shouldHaveOvergrownNanoforgeIndustry()) {
+             ourMarket.addIndustry(niko_MPC_industryIds.overgrownNanoforgeIndustryId)
+         }
+         updateHandlerValues()
++    }
+ 
++    private fun applyConditions() { // learned it the hard way, you can add multiple versions of the same condition in a infinite loop :)
++        if (market.hasCondition(Conditions.HABITABLE) && !market.hasCondition(Conditions.POLLUTION)) {
++            market.addCondition(Conditions.POLLUTION)
++        }
+     }
+ 
+     private fun updateHandlerValues() {
+Index: data/variants/niko_MPC_defenseSatelliteCore_blaster.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_defenseSatelliteCore_blaster.variant b/data/variants/niko_MPC_defenseSatelliteCore_blaster.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_defenseSatelliteCore_blaster.variant	
+@@ -0,0 +1,68 @@
++{
++  "variantId": "niko_MPC_defenseSatelliteCore_blaster",
++  "hullId": "niko_MPC_defenseSatelliteCore",
++  "displayName": "Blaster",
++  "goalVariant": false,
++  "fluxCapacitors": 9,
++  "fluxVents": 32,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [
++    "magazines"
++  ],
++  "weaponGroups": [
++    {
++      "autofire": false,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0001": "heavyblaster",
++        "WS0002": "heavyblaster",
++        "WS0003": "amblaster",
++        "WS0004": "amblaster",
++        "WS0005": "niko_MPC_LR_heavyburst",
++        "WS0006": "niko_MPC_LR_heavyburst"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    }
++  ],
++  "modules": [
++    {
++      "WS0007": "niko_MPC_connectorModule_blaster"
++    },
++    {
++      "WS0008": "niko_MPC_strut_standard"
++    },
++    {
++      "WS0009": "niko_MPC_defenseSatelliteLeftStrut_standard"
++    },
++    {
++      "WS0010": "niko_MPC_defenseSatelliteRightStrut_standard"
++    },
++    {
++      "WS0011": "niko_MPC_defenseSatelliteRightPlate_blaster"
++    },
++    {
++      "WS0012": "niko_MPC_defenseSatelliteLeftPlate_blaster"
++    },
++    {
++      "WS0013": "niko_MPC_right_module_armour1_Standard"
++    },
++    {
++      "WS0014": "niko_MPC_left_module_armour1_Standard"
++    }
++  ],
++  "wings": [
++    "wasp_wing",
++    "wasp_wing",
++    "wasp_wing"
++  ]
++}
+\ No newline at end of file
+Index: data/variants/niko_MPC_connectorModule_blaster.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_connectorModule_blaster.variant b/data/variants/niko_MPC_connectorModule_blaster.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_connectorModule_blaster.variant	
+@@ -0,0 +1,29 @@
++{
++  "variantId": "niko_MPC_connectorModule_blaster",
++  "hullId": "niko_MPC_connectorModule",
++  "displayName": "Blaster",
++  "goalVariant": false,
++  "fluxCapacitors": 22,
++  "fluxVents": 20,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [],
++  "weaponGroups": [
++    {
++      "autofire": false,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0001": "plasma",
++        "WS0002": "niko_MPC_LR_taclaser",
++        "WS0003": "niko_MPC_LR_taclaser"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    }
++  ],
++  "modules": [],
++  "wings": []
++}
+\ No newline at end of file
+Index: data/weapons/niko_MPC_LR_mininglaser.wpn
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/weapons/niko_MPC_LR_mininglaser.wpn b/data/weapons/niko_MPC_LR_mininglaser.wpn
+new file mode 100644
+--- /dev/null	
++++ b/data/weapons/niko_MPC_LR_mininglaser.wpn	
+@@ -0,0 +1,32 @@
++{
++	"specClass":"beam",
++	"id":"niko_MPC_LR_mininglaser",
++	"type":"ENERGY",
++	"mountTypeOverride":"HYBRID",
++	"size":"SMALL",
++	"collisionClass":"RAY",
++	"collisionClassByFighter":"RAY_FIGHTER",
++	"displayArcRadius":500,
++	"turretSprite":"graphics/weapons/mining_laser_turret_base.png",
++	"turretGlowSprite":"graphics/weapons/mining_laser_turret_glow.png",
++	"hardpointSprite":"graphics/weapons/mining_laser_hardpoint_base.png",
++	"hardpointGlowSprite":"graphics/weapons/mining_laser_hardpoint_glow.png",
++	"turretOffsets":[10, 0],
++	"turretAngleOffsets":[0],
++	"hardpointOffsets":[15, 0],
++	"hardpointAngleOffsets":[0],
++	"fringeColor":[255,0,0,175],
++	"coreColor":[255,155,155,255],
++	"glowColor":[255,155,155,255],
++	#"fringeColor":[155,0,0,255],
++	#"coreColor":[255,255,255,255],
++	#"glowColor":[255,100,100,255],	
++	"width":17.0,
++	"textureType":ROUGH,
++	#"textureType":["graphics/fx/beam_chunky_fringe.png","graphics/fx/beam_chunky_core.png"],
++	"textureScrollSpeed":72.0,
++	"pixelsPerTexel":5.0,
++	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
++	"fireSoundOne":"laser_intro",
++	"fireSoundTwo":"laser_loop",	
++}
+\ No newline at end of file
+Index: src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseNikoEventFactor.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseNikoEventFactor.kt b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseNikoEventFactor.kt
+new file mode 100644
+--- /dev/null	
++++ b/src/data/scripts/campaign/econ/conditions/overgrownNanoforge/intel/baseNikoEventFactor.kt	
+@@ -0,0 +1,10 @@
++package data.scripts.campaign.econ.conditions.overgrownNanoforge.intel
++
++import com.fs.starfarer.api.impl.campaign.intel.events.BaseEventFactor
++import com.fs.starfarer.api.impl.campaign.intel.events.BaseEventIntel
++
++abstract class baseNikoEventFactor: BaseEventFactor() {
++
++
++
++}
+\ No newline at end of file
+Index: data/variants/niko_MPC_defenseSatelliteRightPlate_blaster.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_defenseSatelliteRightPlate_blaster.variant b/data/variants/niko_MPC_defenseSatelliteRightPlate_blaster.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_defenseSatelliteRightPlate_blaster.variant	
+@@ -0,0 +1,81 @@
++{
++  "variantId": "niko_MPC_defenseSatelliteRightPlate_blaster",
++  "hullId": "niko_MPC_defenseSatelliteRightPlate",
++  "displayName": "Blaster",
++  "goalVariant": false,
++  "fluxCapacitors": 42,
++  "fluxVents": 34,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [
++    "missleracks",
++    "reinforcedhull",
++    "autorepair",
++    "armoredweapons",
++    "comp_armor",
++    "comp_storage",
++    "magazines"
++  ],
++  "weaponGroups": [
++    {
++      "autofire": false,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0001": "amblaster",
++        "WS0002": "amblaster",
++        "WS0003": "miningblaster",
++        "WS0005": "swarmer",
++        "WS0006": "niko_MPC_LR_heavyburst",
++        "WS0008": "niko_MPC_LR_pdburst",
++        "WS0009": "niko_MPC_LR_heavyburst",
++        "WS0012": "amblaster",
++        "WS0013": "niko_MPC_LR_heavyburst",
++        "WS0014": "heavyblaster",
++        "WS0015": "miningblaster",
++        "WS0016": "plasma",
++        "WS0017": "niko_MPC_LR_pdburst",
++        "WS0018": "niko_MPC_LR_pdburst",
++        "WS0019": "amblaster"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {}
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0004": "niko_MPC_LR_pdburst"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0007": "swarmer",
++        "WS0010": "swarmer",
++        "WS0011": "swarmer",
++        "WS0020": "swarmer"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {}
++    }
++  ],
++  "modules": [],
++  "wings": []
++}
+\ No newline at end of file
+Index: data/variants/niko_MPC_defenseSatelliteLeftPlate_blaster.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_defenseSatelliteLeftPlate_blaster.variant b/data/variants/niko_MPC_defenseSatelliteLeftPlate_blaster.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_defenseSatelliteLeftPlate_blaster.variant	
+@@ -0,0 +1,85 @@
++{
++  "variantId": "niko_MPC_defenseSatelliteLeftPlate_blaster",
++  "hullId": "niko_MPC_defenseSatelliteLeftPlate",
++  "displayName": "Blaster",
++  "goalVariant": false,
++  "fluxCapacitors": 44,
++  "fluxVents": 36,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [
++    "armoredweapons",
++    "autorepair",
++    "missleracks",
++    "magazines",
++    "comp_armor",
++    "comp_storage",
++    "reinforcedhull"
++  ],
++  "weaponGroups": [
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0014": "plasma"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0015": "heavyblaster",
++        "WS0016": "heavyblaster",
++        "WS0017": "heavyblaster"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0012": "swarmer",
++        "WS0013": "swarmer",
++        "WS0018": "swarmer",
++        "WS0019": "swarmer_fighter",
++        "WS0020": "swarmer"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0009": "miningblaster"
++      }
++    },
++    {
++      "autofire": false,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0001": "amblaster",
++        "WS0002": "amblaster",
++        "WS0008": "amblaster"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0003": "irpulse",
++        "WS0006": "irpulse"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0004": "niko_MPC_LR_pdburst",
++        "WS0005": "niko_MPC_LR_pdburst",
++        "WS0007": "irpulse",
++        "WS0010": "niko_MPC_LR_heavyburst",
++        "WS0011": "niko_MPC_LR_heavyburst"
++      }
++    }
++  ],
++  "modules": [],
++  "wings": []
++}
+\ No newline at end of file
+Index: data/variants/niko_MPC_defenseSatelliteCore_mining.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_defenseSatelliteCore_mining.variant b/data/variants/niko_MPC_defenseSatelliteCore_mining.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_defenseSatelliteCore_mining.variant	
+@@ -0,0 +1,68 @@
++{
++  "variantId": "niko_MPC_defenseSatelliteCore_mining",
++  "hullId": "niko_MPC_defenseSatelliteCore",
++  "displayName": "Miner",
++  "goalVariant": false,
++  "fluxCapacitors": 32,
++  "fluxVents": 29,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [
++    "magazines"
++  ],
++  "weaponGroups": [
++    {
++      "autofire": false,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0001": "miningblaster",
++        "WS0002": "miningblaster",
++        "WS0003": "niko_MPC_LR_mininglaser",
++        "WS0004": "niko_MPC_LR_mininglaser",
++        "WS0005": "niko_MPC_LR_heavyburst",
++        "WS0006": "niko_MPC_LR_heavyburst"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    }
++  ],
++  "modules": [
++    {
++      "WS0007": "niko_MPC_connectorModule_mining"
++    },
++    {
++      "WS0008": "niko_MPC_strut_standard"
++    },
++    {
++      "WS0009": "niko_MPC_defenseSatelliteLeftStrut_standard"
++    },
++    {
++      "WS0010": "niko_MPC_defenseSatelliteRightStrut_standard"
++    },
++    {
++      "WS0011": "niko_MPC_defenseSatelliteRightPlate_mining"
++    },
++    {
++      "WS0012": "niko_MPC_defenseSatelliteLeftPlate_mining"
++    },
++    {
++      "WS0013": "niko_MPC_right_module_armour1_Standard"
++    },
++    {
++      "WS0014": "niko_MPC_left_module_armour1_Standard"
++    }
++  ],
++  "wings": [
++    "wasp_wing",
++    "wasp_wing",
++    "wasp_wing"
++  ]
++}
+\ No newline at end of file
+Index: data/variants/niko_MPC_connectorModule_barrage.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_connectorModule_barrage.variant b/data/variants/niko_MPC_connectorModule_barrage.variant
+--- a/data/variants/niko_MPC_connectorModule_barrage.variant	
++++ b/data/variants/niko_MPC_connectorModule_barrage.variant	
+@@ -3,8 +3,8 @@
+   "hullId": "niko_MPC_connectorModule",
+   "displayName": "Barrage",
+   "goalVariant": false,
+-  "fluxCapacitors": 30,
+-  "fluxVents": 20,
++  "fluxCapacitors": 32,
++  "fluxVents": 22,
+   "quality": 1,
+   "permaMods": [],
+   "hullMods": [],
+@@ -13,16 +13,15 @@
+       "autofire": false,
+       "mode": "LINKED",
+       "weapons": {
+-        "WS0001": "hephag"
++        "WS0001": "hephag",
++        "WS0002": "lightmg",
++        "WS0003": "lightmg"
+       }
+     },
+     {
+       "autofire": true,
+       "mode": "LINKED",
+-      "weapons": {
+-        "WS0002": "lightdualmg",
+-        "WS0003": "lightdualmg"
+-      }
++      "weapons": {}
+     }
+   ],
+   "modules": [],
+Index: .idea/libraries/More_Combat_Terrain_Effects.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/More_Combat_Terrain_Effects.xml b/.idea/libraries/More_Combat_Terrain_Effects.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/More_Combat_Terrain_Effects.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="More Combat Terrain Effects">
++    <CLASSES>
++      <root url="file://$PROJECT_DIR$/../More Combat Terrain Effects" />
++      <root url="jar://$PROJECT_DIR$/../More Combat Terrain Effects/jars/niko_MCTE.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="file://$PROJECT_DIR$/../More Combat Terrain Effects" />
++      <root url="file://$PROJECT_DIR$/../More Combat Terrain Effects/jars/src" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: data/world/factions/default_ship_roles.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/world/factions/default_ship_roles.json b/data/world/factions/default_ship_roles.json
+--- a/data/world/factions/default_ship_roles.json	
++++ b/data/world/factions/default_ship_roles.json	
+@@ -1,34 +1,43 @@
+ {
+ 	"combatSmall":{
+-		"niko_MPC_defenseSatelliteCore_barrage":60,
++		"niko_MPC_defenseSatelliteCore_barrage":30,
+ 		"niko_MPC_defenseSatelliteCore_standard":80,
+ 		"niko_MPC_defenseSatelliteCore_shielded":30,
+ 		"niko_MPC_defenseSatelliteCore_ordnance":5,
+ 		"niko_MPC_defenseSatelliteCore_beamer":3,
+ 		"niko_MPC_defenseSatelliteCore_swarm":0.5,
++		"niko_MPC_defenseSatelliteCore_mining":0.5,
++		"niko_MPC_defenseSatelliteCore_blaster":0.5,
+ 	},
+ 	"combatMedium":{
+-		"niko_MPC_defenseSatelliteCore_barrage":60,
++		"niko_MPC_defenseSatelliteCore_barrage":30,
+ 		"niko_MPC_defenseSatelliteCore_standard":80,
+ 		"niko_MPC_defenseSatelliteCore_shielded":30,
+ 		"niko_MPC_defenseSatelliteCore_ordnance":5,
+ 		"niko_MPC_defenseSatelliteCore_beamer":3,
+ 		"niko_MPC_defenseSatelliteCore_swarm":0.5,
++		"niko_MPC_defenseSatelliteCore_mining":0.5,
++		"niko_MPC_defenseSatelliteCore_blaster":0.5,
++
+ 	},
+ 	"combatLarge":{
+-		"niko_MPC_defenseSatelliteCore_barrage":60,
++		"niko_MPC_defenseSatelliteCore_barrage":30,
+ 		"niko_MPC_defenseSatelliteCore_standard":80,
+ 		"niko_MPC_defenseSatelliteCore_shielded":30,
+ 		"niko_MPC_defenseSatelliteCore_ordnance":5,
+ 		"niko_MPC_defenseSatelliteCore_beamer":3,
+ 		"niko_MPC_defenseSatelliteCore_swarm":0.5,
++		"niko_MPC_defenseSatelliteCore_mining":0.5,
++		"niko_MPC_defenseSatelliteCore_blaster":0.5,
+ 	},
+ 	"combatCapital":{
+-		"niko_MPC_defenseSatelliteCore_barrage":60,
++		"niko_MPC_defenseSatelliteCore_barrage":30,
+ 		"niko_MPC_defenseSatelliteCore_standard":80,
+ 		"niko_MPC_defenseSatelliteCore_shielded":30,
+ 		"niko_MPC_defenseSatelliteCore_ordnance":5,
+ 		"niko_MPC_defenseSatelliteCore_beamer":3,
+ 		"niko_MPC_defenseSatelliteCore_swarm":0.5,
++		"niko_MPC_defenseSatelliteCore_mining":0.5,
++		"niko_MPC_defenseSatelliteCore_blaster":0.5,
+ 	},
+ }
+Index: data/variants/niko_MPC_defenseSatelliteRightPlate_mining.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_defenseSatelliteRightPlate_mining.variant b/data/variants/niko_MPC_defenseSatelliteRightPlate_mining.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_defenseSatelliteRightPlate_mining.variant	
+@@ -0,0 +1,84 @@
++{
++  "variantId": "niko_MPC_defenseSatelliteRightPlate_mining",
++  "hullId": "niko_MPC_defenseSatelliteRightPlate",
++  "displayName": "Miner",
++  "goalVariant": false,
++  "fluxCapacitors": 40,
++  "fluxVents": 39,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [
++    "heavyarmor",
++    "missleracks",
++    "reinforcedhull",
++    "autorepair",
++    "armoredweapons",
++    "magazines"
++  ],
++  "weaponGroups": [
++    {
++      "autofire": false,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0001": "niko_MPC_LR_mininglaser",
++        "WS0004": "niko_MPC_LR_mininglaser",
++        "WS0009": "miningblaster",
++        "WS0013": "miningblaster",
++        "WS0014": "miningblaster",
++        "WS0018": "niko_MPC_LR_mininglaser"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0015": "gravitonbeam"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0002": "lightag",
++        "WS0008": "lightag",
++        "WS0010": "harpoonpod",
++        "WS0017": "lightag"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0003": "jackhammer"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0005": "swarmer",
++        "WS0007": "swarmer",
++        "WS0011": "swarmer",
++        "WS0020": "swarmer"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0006": "dualflak",
++        "WS0012": "niko_MPC_LR_pdburst",
++        "WS0019": "niko_MPC_LR_pdburst"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0016": "guardian"
++      }
++    }
++  ],
++  "modules": [],
++  "wings": []
++}
+\ No newline at end of file
+Index: data/variants/niko_MPC_defenseSatelliteLeftPlate_mining.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_defenseSatelliteLeftPlate_mining.variant b/data/variants/niko_MPC_defenseSatelliteLeftPlate_mining.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_defenseSatelliteLeftPlate_mining.variant	
+@@ -0,0 +1,84 @@
++{
++  "variantId": "niko_MPC_defenseSatelliteLeftPlate_mining",
++  "hullId": "niko_MPC_defenseSatelliteLeftPlate",
++  "displayName": "Miner",
++  "goalVariant": false,
++  "fluxCapacitors": 39,
++  "fluxVents": 35,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [
++    "armoredweapons",
++    "autorepair",
++    "heavyarmor",
++    "missleracks",
++    "reinforcedhull",
++    "magazines"
++  ],
++  "weaponGroups": [
++    {
++      "autofire": false,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0006": "niko_MPC_LR_mininglaser",
++        "WS0007": "niko_MPC_LR_mininglaser",
++        "WS0010": "miningblaster",
++        "WS0015": "miningblaster",
++        "WS0016": "miningblaster",
++        "WS0017": "miningblaster"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0001": "lightag",
++        "WS0002": "lightag",
++        "WS0014": "hellbore"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0012": "harpoonpod"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0013": "swarmer",
++        "WS0018": "swarmer",
++        "WS0019": "swarmer_fighter",
++        "WS0020": "swarmer"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0009": "jackhammer"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0008": "lightdualmg"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "ALTERNATING",
++      "weapons": {
++        "WS0003": "pdburst",
++        "WS0004": "niko_MPC_LR_pdburst",
++        "WS0005": "niko_MPC_LR_pdburst",
++        "WS0011": "dualflak"
++      }
++    }
++  ],
++  "modules": [],
++  "wings": []
++}
+\ No newline at end of file
+Index: data/variants/niko_MPC_connectorModule_mining.variant
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/variants/niko_MPC_connectorModule_mining.variant b/data/variants/niko_MPC_connectorModule_mining.variant
+new file mode 100644
+--- /dev/null	
++++ b/data/variants/niko_MPC_connectorModule_mining.variant	
+@@ -0,0 +1,37 @@
++{
++  "variantId": "niko_MPC_connectorModule_mining",
++  "hullId": "niko_MPC_connectorModule",
++  "displayName": "Miner",
++  "goalVariant": false,
++  "fluxCapacitors": 38,
++  "fluxVents": 20,
++  "quality": 1,
++  "permaMods": [],
++  "hullMods": [
++    "niko_MPC_minorFighterFocus"
++  ],
++  "weaponGroups": [
++    {
++      "autofire": false,
++      "mode": "LINKED",
++      "weapons": {
++        "WS0001": "niko_MPC_LR_hil",
++        "WS0002": "niko_MPC_LR_mininglaser",
++        "WS0003": "niko_MPC_LR_mininglaser"
++      }
++    },
++    {
++      "autofire": true,
++      "mode": "LINKED",
++      "weapons": {}
++    }
++  ],
++  "modules": [],
++  "wings": [
++    "borer_wing",
++    "borer_wing",
++    "borer_wing",
++    "borer_wing",
++    "borer_wing"
++  ]
++}
+\ No newline at end of file
+Index: src/data/hullmods/niko_MPC_minorFighterFocus.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/hullmods/niko_MPC_minorFighterFocus.kt b/src/data/hullmods/niko_MPC_minorFighterFocus.kt
+new file mode 100644
+--- /dev/null	
++++ b/src/data/hullmods/niko_MPC_minorFighterFocus.kt	
+@@ -0,0 +1,19 @@
++package data.hullmods
++
++import com.fs.starfarer.api.combat.BaseHullMod
++import com.fs.starfarer.api.combat.MutableShipStatsAPI
++import com.fs.starfarer.api.combat.ShipAPI
++
++class niko_MPC_minorFighterFocus: BaseHullMod() {
++
++    val fighterBayBuff = 5f
++
++    override fun applyEffectsBeforeShipCreation(hullSize: ShipAPI.HullSize?, stats: MutableShipStatsAPI?, id: String?) {
++
++        if (stats == null || id == null) return
++        stats.numFighterBays.modifyFlat(id, fighterBayBuff)
++
++        super.applyEffectsBeforeShipCreation(hullSize, stats, id)
++    }
++
++}
+\ No newline at end of file
+Index: src/data/scripts/campaign/plugins/niko_MPC_satelliteInteractionDialogPlugin.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/data/scripts/campaign/plugins/niko_MPC_satelliteInteractionDialogPlugin.kt b/src/data/scripts/campaign/plugins/niko_MPC_satelliteFleetInteractionDialogPlugin.kt
+rename from src/data/scripts/campaign/plugins/niko_MPC_satelliteInteractionDialogPlugin.kt
+rename to src/data/scripts/campaign/plugins/niko_MPC_satelliteFleetInteractionDialogPlugin.kt
+--- a/src/data/scripts/campaign/plugins/niko_MPC_satelliteInteractionDialogPlugin.kt	
++++ b/src/data/scripts/campaign/plugins/niko_MPC_satelliteFleetInteractionDialogPlugin.kt	
+@@ -4,8 +4,9 @@
+ import com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl
+ import data.utilities.niko_MPC_fleetUtils.isSatelliteFleet
+ 
+-//todo: consider removing, now that i have it so that satellites flip to the other side of the map on pursuits
+-class niko_MPC_satelliteInteractionDialogPlugin : FleetInteractionDialogPluginImpl() {
++// cant be used as for some godforsaken reason we cant just implement goddamn fleet interacton dialogs
++// wed need to override marketcmd
++class niko_MPC_satelliteFleetInteractionDialogPlugin : FleetInteractionDialogPluginImpl() {
+     override fun fleetWantsToDisengage(fleet: CampaignFleetAPI, other: CampaignFleetAPI): Boolean {
+         val result = super.fleetWantsToDisengage(fleet, other)
+         val battle = context.battle

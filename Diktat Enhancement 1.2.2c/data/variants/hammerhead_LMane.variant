@@ -1,0 +1,49 @@
+{
+    "displayName": "Lion's Mane",
+    "fluxCapacitors": 0,
+    "fluxVents": 18,
+    "goalVariant": false,
+    "hullId": "hammerhead",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "reinforcedhull"
+    ],
+    "permaMods": ["solar_shielding"],
+    "sMods": [],
+    "variantId": "hammerhead_LMane",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hveldriver",
+                "WS 002": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "harpoon",
+                "WS 004": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vulcan",
+                "WS 006": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "vulcan",
+                "WS 008": "vulcan"
+            }
+        }
+    ]
+}

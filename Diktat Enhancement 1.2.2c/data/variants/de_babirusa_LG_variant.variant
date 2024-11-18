@@ -1,0 +1,24 @@
+{
+  "variantId": "de_babirusa_LG_variant",
+  "hullId": "de_babirusa_LG",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "cryoblaster",
+        "WS0002": "swarmer",
+        "WS0003": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

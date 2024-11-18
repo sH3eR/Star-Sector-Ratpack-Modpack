@@ -1,0 +1,63 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "flamebreaker_ix",
+    "hullMods": [
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_point_defense_medium_handler",
+        "ix_point_defense_medium",
+        "ix_dawnstar_controller",
+        "ix_dawnstar_neutron",
+        "ix_dawnstar_neutron_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flamebreaker_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "photon_hammer_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "spatial_charge_launcher_ix",
+                "WS 010": "spatial_charge_launcher_ix",
+                "WS 011": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "dawnstar_lcpb_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "daythorn_mapb_ix",
+                "WS 013": "daythorn_mapb_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 005": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": [
+        "dictum_ix_wing",
+        "dictum_ix_wing"
+    ]
+}

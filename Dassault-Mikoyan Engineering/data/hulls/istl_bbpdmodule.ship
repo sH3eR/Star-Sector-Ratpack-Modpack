@@ -1,0 +1,92 @@
+{
+  "bounds": [
+    18.5,
+    -30,
+    9,
+    -40.5,
+    3,
+    -39.5,
+    3,
+    -19.5,
+    -3,
+    -13.5,
+    -3,
+    13.5,
+    3,
+    19.5,
+    3,
+    39.5,
+    9,
+    40.5,
+    18.5,
+    30
+  ],
+  "builtInMods": [
+    "istl_bbengineering",
+    "supercomputer",
+    "no_weapon_flux",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_proxbomb_ciws"
+  },
+  "center": [
+    42,
+    4.5
+  ],
+  "collisionRadius": 120,
+  "engineSlots": [],
+  "height": 25,
+  "hullId": "istl_bbpdmodule",
+  "hullName": "PD Module",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0.5,
+    -0
+  ],
+  "shieldRadius": 115.5,
+  "spriteName": "graphics/ISTL/ships/superheavy/istl_bbpdmodule.png",
+  "style": "DMEBlade",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 150,
+      "id": "WS0001",
+      "locations": [
+        5.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 10,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        10.5,
+        25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -10,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        10.5,
+        -25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 84
+}

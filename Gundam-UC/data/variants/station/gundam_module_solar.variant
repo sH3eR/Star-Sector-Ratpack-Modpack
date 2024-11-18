@@ -1,0 +1,21 @@
+{
+  "displayName": "Mass Production",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_module_solar",
+  "hullMods": [always_detaches],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_module_solar_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+      }
+    }
+  ],
+  "wings": []
+}

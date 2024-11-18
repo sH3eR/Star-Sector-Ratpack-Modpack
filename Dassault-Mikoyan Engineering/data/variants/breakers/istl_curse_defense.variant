@@ -1,0 +1,31 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 17,
+    "fluxVents": 20,
+    "hullId": "istl_curse",
+    "hullMods": ["istl_bbdefense"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_curse_defense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_plasrocket_pod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_thermalpd",
+                "WS0003": "istl_thermalpd",
+                "WS0004": "istl_thermalpd",
+                "WS0005": "istl_thermalpd"
+            }
+        }
+    ],
+    "wings": [
+        "istl_iridium_wing",
+        "istl_lycosid_wing"
+    ]
+}

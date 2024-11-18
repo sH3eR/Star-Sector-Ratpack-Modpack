@@ -1,0 +1,55 @@
+{
+    "displayName": "Short-Range",
+    "fluxCapacitors": 15,
+    "fluxVents": 20,
+    "hullId": "istl_grand_union",
+    "hullMods": [
+        "unstable_injector",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_grand_union_cqb",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_heavylrpd"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "istl_mirvtorpedo_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_linearcannonlight",
+                "WS0007": "istl_linearcannonlight"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_impaler_rapid",
+                "WS0005": "istl_impaler_rapid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_linearflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_microflak",
+                "WS0008": "istl_microflak",
+                "WS0009": "istl_microflak"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+	"id":"gundam_builtin_rear_flare_bullet",
+	"specClass":"missile",	
+	"missileType":"FLARE",
+	"sprite":"graphics/missiles/gundam_ms_missile_bullet.png",
+	"size":[3,7],	
+	"center":[1.5,3.5],
+	#"size":[10,21],	
+	#"center":[5,10.5],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[200,130,175,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"flameoutTime":0.3, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.3, # time spent without the engine glow being rendered
+	"fadeTime":0.3, # fadeout duration	
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":500,
+					"effectChance":0.1,
+				   },	
+	"engineSpec":{
+                "turnAcc":800,
+                "turnRate":800,
+                "acc":400,
+                "dec":400},		
+	"engineSlots":[{"id":"ES1",
+					"loc":[-3.5, 0],
+				    #"style":"ROCKET_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,125,25,255],
+						"contrailDuration":.5,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[75,75,75,0],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":3.0,
+				    "length":10.0,
+				    "angle":180.0}]
+}
+
+			

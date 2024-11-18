@@ -1,0 +1,68 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 14,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "istl_bladewood",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_bladewood_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_20cmrailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_calliope",
+                "WS0003": "istl_calliope"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_heavylinear_autogun",
+                "WS0005": "istl_heavylinear_autogun",
+                "WS0006": "istl_heavylinear_autogun",
+                "WS0007": "istl_heavylinear_autogun",
+                "WS0008": "istl_6cmrailgun",
+                "WS0009": "istl_6cmrailgun",
+                "WS0010": "istl_6cmrailgun",
+                "WS0011": "istl_6cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "istl_matador",
+                "WS0013": "istl_matador",
+                "WS0014": "istl_matador",
+                "WS0015": "istl_matador"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "istl_impulsor_ring",
+                "WS0017": "istl_impulsor_ring",
+                "WS0018": "istl_impulsor_ring",
+                "WS0019": "istl_impulsor_ring",
+                "WS0020": "istl_impulsor_ring",
+                "WS0021": "istl_impulsor_ring"
+            }
+        }
+    ],
+    "wings": [
+        "istl_dropper_wing",
+        "istl_dropper_wing",
+        "istl_firebeetle_wing",
+        "istl_bantam_wing"
+    ]
+}

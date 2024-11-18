@@ -1,0 +1,17 @@
+id,rating,detection_range,type,autoXP,xpDiscover,xpSalvage,tags,drop_value,drop_random,defFaction,defQuality,probDefenders,minStr,maxStr,minSize,maxSize,probStation,stationRole
+station_research,1,2200,DISCOVERABLE,2200,1000,3000,,basic:8000,"weapons2:20,
+any_hullmod_high:5,
+blueprints_low:10,
+rare_tech_low:2,
+package_bp:2",derelict,0.5,0.25,13,20,,2,,
+station_mining,0.75,2200,DISCOVERABLE,1700,1000,3000,,basic:5000,"mining_station:5x3000,
+mining_bulk:1x150000,
+any_hullmod_medium:3,
+rare_tech_low:4,
+package_bp:2",derelict,0,0.25,9,15,,2,,
+derelict_probe,0.25,1700,DISCOVERABLE,700,500,1500,,basic:5000,"ai_cores1:3,
+extended:1x3000",derelict,0,0.5,9,15,,1,1,derelictSurveyprobe5
+derelict_survey_ship,0.5,2700,DISCOVERABLE,1200,2000,6000,,basic:15000,"ai_cores2:5,
+ai_cores3:1,
+extended:3x5000,
+rare_tech_low:2",derelict,0.5,0.5,21,30,,3,1,derelictSurveyship5

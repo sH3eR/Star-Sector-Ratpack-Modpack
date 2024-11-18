@@ -1,0 +1,90 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "gundam_birmingham",
+  "hullMods": [
+    "autorepair",
+    "fluxcoil",
+	"hardenedshieldemitter",
+	"fluxdistributor",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_birmingham_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_blaster_cannon"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0002": "gundam_mega_3cannon",
+                "WS0003": "gundam_mega_3cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"SIDE_1": "gundam_side_mega_cannon",
+				"SIDE_2": "gundam_side_mega_cannon"
+            }
+        },
+        {
+		    "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "gundam_builtin_front_spmissile",
+                "WS0010": "gundam_builtin_front_spmissile"
+            }
+        },
+        {
+			"autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "gundam_builtin_rear_swamp_missile",
+                "WS0012": "gundam_builtin_rear_swamp_missile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS0013": "gundam_pd_2bc",
+				"WS0014": "gundam_pd_2bc",
+				"WS0015": "gundam_pd_2bc",
+				"WS0016": "gundam_pd_2bc",
+				"WS0017": "gundam_pd_2bc",
+				"WS0018": "gundam_pd_2bc",
+				"WS0019": "gundam_pd_2bc",
+				"WS0020": "gundam_pd_2bc",
+				"WS0021": "gundam_pd_2bc",
+				"WS0022": "gundam_pd_2bc",
+				"WS0023": "gundam_pd_2bc",
+				"WS0024": "gundam_pd_2bc",
+				"WS0025": "gundam_pd_2bc",
+				"WS0026": "gundam_pd_2bc",
+				"WS0027": "gundam_pd_2bc",
+				"WS0028": "gundam_pd_2bc"
+            }
+        }
+    ],
+  "modules": [
+		{"MODULE_1": "gundam_birmingham_lpart_module"},
+		{"MODULE_2": "gundam_birmingham_rpart_module"},
+	],
+    "wings": [
+		"gundam_gm_custom_wing",
+		"gundam_gm_powered_wing",
+		"gundam_gm_quel_wing",
+		"gundam_gm_cannon_ii_wing"
+    ]
+}

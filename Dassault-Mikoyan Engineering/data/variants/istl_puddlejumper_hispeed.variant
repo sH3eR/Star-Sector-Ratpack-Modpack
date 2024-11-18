@@ -1,0 +1,26 @@
+{
+    "displayName": "High Speed",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "istl_puddlejumper",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_puddlejumper_hispeed",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_erpulsebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_microflak",
+                "WS0003": "istl_micropd"
+            }
+        }
+    ],
+    "wings": []
+}

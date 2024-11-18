@@ -1,0 +1,46 @@
+{
+  "variantId": "scintilla_bomber",
+  "hullId": "scintilla",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "messengerpod_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "messenger_rem",
+        "WS 008": "messenger_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "taclaser_rem",
+        "WS 001": "taclaser_rem",
+        "WS 002": "taclaser_rem",
+        "WS 003": "taclaser_rem"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_auctor_wing",
+    "hmi_auctor_wing"
+  ]
+}

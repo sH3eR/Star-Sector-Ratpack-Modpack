@@ -1,0 +1,4 @@
+id,commodity_inputs
+EQUIPMENT,"heavy_machinery, hand_weapons, ship_weapons"
+BIOLOGICAL,"food, domestic_goods, luxury_goods, lobster, drugs, organs"
+MASS_FOR_THE_MESS,"hmi_crystal, red_water, volatiles, organics, rare_ore, rare_metals, metals, ore, heavy_machinery, hand_weapons, supplies, organs, drugs, domestic_goods, luxury_goods, lobster, food, ship_weapons"

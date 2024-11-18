@@ -1,0 +1,52 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "MSS_obliterator_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    0,
+    11,
+    9,
+    11,
+    -9
+  ],
+  "hardpointSprite": "graphics/mayasura/weapons/MSS_blank_sprite00.png",
+  "id": "MSS_obliterator_fighter",
+  "projectileSpecId": "MSS_obliterator_rocket",
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 6,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 3,
+    "cloudRadius": 12,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 14
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    8,
+    0,
+    11,
+    9,
+    11,
+    -9
+  ],
+  "turretSprite": "graphics/mayasura/weapons/MSS_blank_sprite00.png",
+  "type": "MISSILE"
+}

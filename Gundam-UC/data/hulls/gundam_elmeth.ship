@@ -1,0 +1,104 @@
+{
+  "hullName": "Elmeth",
+  "hullId": "gundam_elmeth",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ma/elmeth/gundam_elmeth_body.png",
+  "style": "GUNDAM_ZEON_SHIELD",
+  "height": 128,
+  "width": 133,
+  "center": [66.5, 66],
+  "collisionRadius": 60,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 69.5,
+  "viewOffset": 0,
+  "builtInWings": [
+    "gundam_elmeth_bit_wing"
+  ],
+  "builtInWeapons": {
+    "L_CANNON": "gundam_elmeth_cannon",
+    "R_CANNON": "gundam_elmeth_cannon",
+    "THRUST_1": "gundam_thruster_tiny_red",
+    "THRUST_2": "gundam_thruster_tiny_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "L_CANNON",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, 19]
+    },
+    {
+      "id": "R_CANNON",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, -19]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-30.5, 13.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-31.5, -11.5]
+    },
+    {
+      "id": "THRUST_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-27.5, 15.5]
+    },
+    {
+      "id": "THRUST_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-27, -14.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, 15.5],
+      "length": 26.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27, -14.5],
+      "length": 26.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    25.5, 31,
+    61.5, -0,
+    25.5, -31,
+    -28.5, -22,
+    -28.5, 22.5
+  ]
+}

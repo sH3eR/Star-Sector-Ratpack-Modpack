@@ -1,0 +1,3 @@
+id,name,categories,spawnWeight,color,tags,order,plugin
+xo_andrada,Andradanism,,1.0,"200,0,125,255","startingOption,",910,data.scripts.xo.andradanism.AptitudeAndrada
+xo_synthesis,Synthesis,,1.0,"100,160,170,255","startingOption,",920,data.scripts.xo.synthesis.AptitudeSynthesis

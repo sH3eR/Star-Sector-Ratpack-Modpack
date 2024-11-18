@@ -1,0 +1,67 @@
+{
+  "variantId": "MSS_Mokarran_HVB_Angry",
+  "hullId": "MSS_Mokarran_HVB",
+  "displayName": "Angry",
+  "goalVariant": false,
+  "fluxCapacitors": 41,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "hephag",
+        "WS0019": "hephag",
+        "WS0022": "multineedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0020": "typhoon",
+        "WS0021": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "MSS_onocrotalus"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0010": "dualflak",
+        "WS0011": "dualflak",
+        "WS0012": "lrpdlaser",
+        "WS0013": "lrpdlaser",
+        "WS0014": "lrpdlaser",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

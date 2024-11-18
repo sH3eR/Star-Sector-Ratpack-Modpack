@@ -1,0 +1,43 @@
+{
+	"id":"istl_bravemissile",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"everyFrameEffect": "data.scripts.weapons.istl_SigmaBusterLaunchFX",
+	"type":"ENERGY",
+	"mountTypeOverride":"SYNERGY",
+	"size":"MEDIUM",
+	"displayArcRadius":600,
+	"turretSprite":"",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_bravemissile_glow.png",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"glowColor":[25,200,125,215],
+	"turretOffsets":[4, 6, 4, -6,
+					 2, 4, 2, -4,
+					 -2, 4, -2, -4,
+					 -4, 6, -4, -6],
+	"turretAngleOffsets":[45, -45,
+						  60, -60,
+						  75, -75,
+						  90, -90],
+	"hardpointOffsets":[4, 6, 4, -6,
+					 	2, 4, 2, -4,
+					 	-2, 4, -2, -4,
+					 	-4, 6, -4, -6,],
+	"hardpointAngleOffsets":[45, -45,
+						  	 60, -60,
+						  	 75, -75,
+						  	 90, -90],
+	"barrelMode":"LINKED", # or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":9.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":4.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.1,
+					   "particleCount":18,
+					   "particleColor":[25,200,125,215]},
+	"projectileSpecId":"istl_bravemissile_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge",
+	"fireSoundTwo":"istl_phaserail_fire",
+}

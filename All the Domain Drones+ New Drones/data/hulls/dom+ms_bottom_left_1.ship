@@ -1,0 +1,69 @@
+{
+  "hullName": "Module",
+  "hullId": "dom+ms_bottom_left_1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mothership+/MS Bottom Left Module.png",
+  "style": "LOW_TECH",
+  "height": 243,
+  "width": 213,
+  "center": [114, 126],
+  "collisionRadius": 131.5,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 126.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "automated",
+    "turretgyros",
+    "solar_shielding",
+    "supercomputer"
+  ],
+  "builtInWings": [
+    "dom+defense_pod_Autocannon",
+    "dom+fencer_wing_Fighter_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        58.5, 58,
+        70, 47.5,
+        48.5, 72.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 45,
+      "locations": [55, -30]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 45,
+      "locations": [-25.5, 55]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -20, -94.5,
+    53.5, -87.5,
+    115, -25.5,
+    91, 51,
+    57, 93.5,
+    -19.5, 114,
+    -71.5, 82.5,
+    -121, 20.5
+  ]
+}

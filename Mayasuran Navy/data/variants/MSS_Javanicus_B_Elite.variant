@@ -1,0 +1,67 @@
+{
+  "variantId": "MSS_Javanicus_B_Elite",
+  "hullId": "MSS_Javanicus_B_Elite",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 33,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightneedler",
+        "WS0007": "lightneedler",
+        "WS0009": "heavyblaster",
+        "WS0011": "mjolnir",
+        "WS0013": "lightag",
+        "WS0015": "lightag",
+        "WS0017": "lightag",
+        "WS0019": "lightag",
+        "WS0021": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightneedler",
+        "WS0006": "lightneedler",
+        "WS0008": "heavyblaster",
+        "WS0010": "mjolnir",
+        "WS0012": "lightag",
+        "WS0014": "lightag",
+        "WS0016": "lightag",
+        "WS0018": "lightag",
+        "WS0020": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "locust",
+        "WS0002": "sabotpod",
+        "WS0003": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

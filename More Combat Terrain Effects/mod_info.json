@@ -1,0 +1,23 @@
+{
+    "id":"niko_moreCombatTerrainEffects", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+	"name":"More Combat Terrain Effects", # Displayed to the player
+	"author":"Niko",
+    "utility":"false",
+	"version":"1.8.0",
+	"description":"Adds combat effects to magnetic fields, slipstreams, nebulae, hyperstorms, pulsars, and black holes.",
+    "gameVersion": "0.97a-RC11",
+  	"jars":["jars/niko_MCTE.jar"],
+  	"modPlugin":"niko.MCTE.niko_MCTE_modPlugin",
+	  	"dependencies": [
+        {
+			"id": "lw_lazylib",
+            "name": "LazyLib",
+			"version": "2.7b"
+        },
+		{
+			"id": "lunalib",
+			"name": "LunaLib",
+			"version": "1.8.4"
+		},
+    ],
+}

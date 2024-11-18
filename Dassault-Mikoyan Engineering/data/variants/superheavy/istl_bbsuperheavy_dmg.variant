@@ -1,0 +1,98 @@
+{
+    "displayName": "Damaged",
+    "fluxCapacitors": 25,
+    "fluxVents": 50,
+    "hullId": "istl_bbsuperheavy",
+    "hullMods": [
+        "heavyarmor",
+        "surveying_equipment",
+        "magazines",
+        "istl_bbdefense"
+    ],
+    "modules": [
+        {"WS0021": "istl_bbpdmodule_std"},
+        {"WS0022": "istl_bbpdmodule_std"},
+        {"WS0023": "istl_bbmissilemodule_std"},
+        {"WS0063": "istl_shieldplate_std"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_bbsuperheavy_dmg",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_plasmadriver",
+                "WS0004": "istl_plasmadriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "istl_electronfan",
+                "WS0002": "istl_electronfan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_shellback",
+                "WS0009": "istl_shellback"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_pulseripper",
+                "WS0010": "istl_pulseripper",
+                "WS0011": "istl_pulseripper",
+                "WS0012": "istl_pulseripper"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "istl_electrogun",
+                "WS0014": "istl_electrogun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "istl_jackal",
+                "WS0018": "istl_jackal"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_proxbomb_ciws",
+                "WS0015": "istl_thermalpd",
+                "WS0016": "istl_thermalpd",
+                "WS0019": "istl_thermalpd",
+                "WS0020": "istl_thermalpd",
+                "WS0043": "istl_impulsor",
+                "WS0044": "istl_impulsor",
+                "WS0045": "istl_impulsor",
+                "WS0046": "istl_impulsor",
+                "WS0047": "istl_impulsor",
+                "WS0048": "istl_impulsor",
+                "WS0049": "istl_impulsor",
+                "WS0050": "istl_impulsor",
+                "WS0051": "istl_impulsor",
+                "WS0052": "istl_impulsor",
+                "WS0061": "istl_proxbomb_ciws",
+                "WS0064": "istl_thermalpd",
+                "WS0065": "istl_thermalpd",
+                "WS0066": "istl_proxbomb_ciws"
+            }
+        }
+    ]
+}

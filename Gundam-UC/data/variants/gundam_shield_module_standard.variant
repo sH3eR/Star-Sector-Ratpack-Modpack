@@ -1,0 +1,21 @@
+{
+  "displayName": "Shield",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "gundam_shield_module",
+  "hullMods": [always_detaches],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "gundam_shield_module_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+      }
+    }
+  ],
+  "wings": []
+}

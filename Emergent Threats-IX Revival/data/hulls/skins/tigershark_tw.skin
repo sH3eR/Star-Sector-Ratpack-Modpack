@@ -1,0 +1,31 @@
+{
+	"baseHullId":"tigershark_ix_base",
+	"skinHullId":"tigershark_tw",
+	"hullName":"Tigershark (TW)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"tigershark_tw",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"This warship of the Trinity Worlds combines salvaged Tri-Tachyon and transferred 9th Domain Battlegroup technology. The engines of this ship have been enhanced in a crude yet effective manner, in an effort to mimic the more advanced upgrades of the Fleet.",
+	"spriteName":"graphics/ships/trinity/tigershark_tw.png",
+	"tags":["no_autofit", "ix_trinity"],
+	"tech":"Trinity Worlds",
+	"ordnancePoints":135,
+	"builtInMods":["tw_plasma_ramjet", "tw_trinity_retrofit"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"engineSlotChanges":{
+		"0":{"style": "IX_TRINITY"},
+		"1":{"style": "IX_TRINITY"},
+		"2":{"style": "IX_TRINITY"},
+		"3":{"style": "IX_TRINITY"},
+		"4":{"style": "IX_TRINITY"},
+	}, 
+	"builtInWeapons": {
+        "WS 004": "abolisher_built_in_tw",
+    },
+	"weaponSlotChanges":{
+		"WS 001":{"type": "UNIVERSAL"},
+		"WS 002":{"type": "UNIVERSAL"},
+		"WS 004":{"type": "BUILT_IN"},
+		},
+	},
+}

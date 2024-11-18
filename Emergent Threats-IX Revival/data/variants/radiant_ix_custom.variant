@@ -1,0 +1,58 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 0,
+    "fluxVents": 48,
+    "goalVariant": true,
+    "hullId": "radiant_ix",
+    "hullMods": [
+        "ix_smod_handler",
+        "targetingunit",
+        "ix_reactive_combat_shields",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": ["ix_smod_handler"],
+    "sMods": [],
+    "variantId": "radiant_ix_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS SBE": "sbe_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "bereaver_dem_launcher_ix",
+                "WS 004": "bereaver_dem_launcher_ix",
+                "WS 005": "bereaver_dem_pod_ix",
+                "WS 006": "bereaver_dem_pod_ix",
+                "WS 007": "bereaver_dem_pod_ix",
+                "WS 008": "bereaver_dem_pod_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "conversion_lance_ix",
+                "WS 001": "conversion_lance_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "morningstar_ciws_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix",
+                "WS 016": "morningstar_ciws_ix",
+                "WS 018": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

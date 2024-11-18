@@ -1,0 +1,39 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "MSS_Mako_Elite",
+  "hullMods": [
+    "targetingunit",
+	"fluxbreakers"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Mako_Elite",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "MSS_bomb_frigate",
+        "WS0003": "MSS_bomb_frigate"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

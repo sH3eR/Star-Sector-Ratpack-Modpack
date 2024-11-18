@@ -1,0 +1,20 @@
+{
+	"id":"gundam_blue_rapid_laser",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",	
+	"length":50.0,
+	"hitGlowRadius":30,
+	"width":5.0,
+	"fadeTime":0.25,
+	"fringeColor":[255,255,255,120],
+	"coreColor":[65,175,255,70],
+	"glowColor":[65,175,255,70],
+	"pixelsPerTexel":1.0,
+	"textureType": [
+      "graphics/fx/gundam_beam_fx_d2.png",
+      "graphics/fx/gundam_beam_fx_a1.png"
+    ],
+	"textureScrollSpeed": 50.0,
+}

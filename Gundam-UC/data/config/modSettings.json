@@ -1,0 +1,65 @@
+{   
+
+    "gundam":{
+
+        "wings": [
+			"gundam_core_fighter_variant_wing",
+			"gundam_jet_core_booster_variant_wing",
+			"gundam_core_booster_variant_wing",
+			"gundam_pablic_variant_wing",
+			"gundam_ball_variant_wing",
+			"gundam_ball_typek_variant_wing",
+			"gundam_gm_early_variant_wing",
+			"gundam_gm_variant_wing",
+			"gundam_gm_thunderbolt_variant_wing",
+			"gundam_gm_typec_variant_wing",
+			"gundam_gm_cs_variant_wing",
+			"gundam_gm_cannon_variant_wing",
+			"gundam_gm_gundamhead_variant_wing",
+			"gundam_gm_sniper_variant_wing",
+			"gundam_gm_sniper_ii_variant_wing",
+			"gundam_guncannon_variant_wing",
+			"gundam_guncannon_massproduce_variant_wing",
+			"gundam_guntank_variant_wing",
+
+			"gundam_dopp_variant_wing",
+			"gundam_orange_dopp_variant_wing",
+			"gundam_gattle_variant_wing",
+			"gundam_zaku_ii_variant_wing",
+			"gundam_zaku_ii_thunderbolt_variant_wing",
+			"gundam_zaku_ii_rifle_variant_wing",
+			"gundam_zaku_ii_hm_variant_wing",
+			"gundam_zaku_ii_rd4_variant_wing",
+			"gundam_zaku_ii_fz_variant_wing",
+			"gundam_zaku_sniper_variant_wing",
+			"gundam_rick_dom_variant_wing",
+			"gundam_rick_dom_thunderbolt_variant_wing",
+			"gundam_rick_dom_ii_variant_wing",
+			"gundam_gelgoog_variant_wing",
+			"gundam_gelgoog_thunderbolt_variant_wing",
+			"gundam_gelgoog_j_variant_wing",
+			"gundam_kampfer_variant_wing",
+			"gundam_gouf_variant_wing",
+			"gundam_gyan_variant_wing",
+			"gundam_zock_variant_wing",
+        ],
+    },
+	
+    #MODS INTEGRATION
+
+    "fleetTester":{
+        "stationAndBosses": [
+            # Lists stations and other "bosses" that will face fleets of enemy ships
+			"gundam_station_core_t1",
+			"gundam_station_core_t2",
+			"gundam_station_core_t3",
+			"gundam_solomon_fortress",
+			"gundam_abq_fortress",
+			"gundam_luna_ii_fortress",
+        ],
+        "testedFactionFleets": [
+            # Lists faction fleets that will be sent against the tested station/boss
+            "gundam",
+        ],
+    },
+}

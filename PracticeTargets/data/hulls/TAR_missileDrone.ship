@@ -1,0 +1,114 @@
+{
+  "bounds": [
+    24,
+    6.5,
+    19,
+    15.5,
+    13,
+    15.5,
+    -9,
+    22.5,
+    -25,
+    19.5,
+    -25,
+    9.5,
+    -20,
+    7.5,
+    -20,
+    -7.5,
+    -25,
+    -9.5,
+    -25,
+    -19.5,
+    -9,
+    -22.5,
+    13,
+    -15.5,
+    19,
+    -15.5,
+    24,
+    -6.5
+  ],
+  "builtInMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "center": [
+    25,
+    26.5
+  ],
+  "collisionRadius": 50,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 27,
+      "location": [
+        -26.5,
+        17.5
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 27,
+      "location": [
+        -26.5,
+        -17.5
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -26.5,
+        11.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -26.5,
+        -11.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    }
+  ],
+  "height": 53,
+  "hullId": "TAR_missileDrone",
+  "hullName": "Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    10.5,
+    -0
+  ],
+  "shieldRadius": 47.042534,
+  "spriteName": "graphics/TAR/ships/TAR_missileDrone.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        16.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 50
+}

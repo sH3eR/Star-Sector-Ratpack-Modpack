@@ -1,0 +1,11 @@
+{
+	#fragments of domain forces
+	"music":{
+		"market_neutral":"market_creep", 
+		"market_hostile":"market_creep",
+		"market_friendly":"market_creep",
+		"encounter_neutral":"encounter_creep",
+		"encounter_hostile":"encounter_creep",
+		"encounter_friendly":"encounter_creep",
+	},
+},

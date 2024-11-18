@@ -1,0 +1,60 @@
+0{
+    "playableFaction":false,
+    #"startingFaction":true,
+    "corvusCompatible":true,
+    "spawnAsFactionId":"mayasura",
+    "ngcTooltip":"Mayasuran start, but with AHHHHHHHHHHHHHHHHHHHHHHHHH REPORT THIS BUG",
+    "rebelFleetSuffix":"Rogues",
+    "startRelationships":{ "mayasura":1 },
+    
+    "responseFleetName":"Guardian Fleet",
+    
+    "morality":"amoral",
+    
+    "startShipsSolo":[
+	["MSS_Perryi_F_Standard"],
+	["MSS_Mako_Standard"],
+	["MSS_Nailer_Standard"],
+	["MSS_vigilance_m_elite"],
+	],
+    "startShipsCombatSmall":[
+	["MSS_Hammerhead_TLH", "MSS_Nailer_Standard", "brawler_Starting"],
+	["MSS_Argentavis_Standard", "MSS_Nailer_Standard", "MSS_Perryi_F_Standard"],
+	["MSS_Hammerhead_Elite", "MSS_Nailer_Elite", "MSS_vigilance_m_elite"],
+	["MSS_Sunder_Elite", "MSS_Mako_Elite", "MSS_Nailer_Elite"],
+    ],
+    "startShipsTradeSmall":["gemini_Standard", "wayfarer_Standard", "mercury_PD"],
+    "startShipsCombatLarge":[
+	["MSS_Winghead_Standard", "MSS_Sunder_TLH", "MSS_Nailer_Standard"],
+	["MSS_Patriot_Standard", "MSS_Argentavis_Standard", "brawler_Elite"],
+	["MSS_Moa_Standard", "MSS_Stingray_Escort", "centurion_Starting"],
+	["MSS_Excalibur_Standard", "MSS_Stingray_Escort", "centurion_Starting"],
+	["MSS_Winghead_Standard", "MSS_Stingray_Escort", "centurion_Starting"],
+	["MSS_Falcon_Elite", "MSS_Sunder_Elite", "MSS_vigilance_m_elite"],
+	],
+    "startShipsTradeLarge":["MSS_Pilgrim_Standard", "gemini_Standard", "wayfarer_Standard"],
+    "startShipsCarrierSmall":[
+	["MSS_Stingray_Elite", "MSS_Nailer_Standard", "MSS_Nailer_Standard"],
+	["drover_Starting", "MSS_Nailer_Standard", "MSS_Mako_Standard"],
+	],
+    "startShipsCarrierLarge":[
+	["MSS_Sarissa_Standard", "hammerhead_Balanced", "vigilance_Starting"],
+	["MSS_Sarissa_Elite", "MSS_Argentavis_Elite", "MSS_vigilance_m_elite"],
+	],
+	"startShipsSuper":[
+	["MSS_Nightingale_Prototype"],
+	["MSS_Moa_Elite"],
+    ],
+	"startShipsGrandFleet":[
+	["conquest_Standard", "eagle_Assault", "falcon_CS", "falcon_CS", "heron_Strike", "heron_Strike", "hammerhead_Balanced", "sunder_CS", "gemini_Standard", "vigilance_FS", "vigilance_FS", "vigilance_FS"],
+	["MSS_Pelican_Standard", "MSS_Pilgrim_Standard", "gemini_Standard", "wayfarer_Standard"],
+	],
+    
+	"startSpecialItems":[
+        [["mayasura_package", ""]],
+    ],
+	
+		#rarely colonize and only nearby systems
+	"colonyExpeditionChance":1,
+    "maxColonyDistance": 25,
+}

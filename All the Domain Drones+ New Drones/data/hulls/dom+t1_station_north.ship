@@ -1,0 +1,142 @@
+{
+  "hullName": "Derelict Station North",
+  "hullId": "dom+t1_station_north",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Stations/Tier 1 Derelict Station north.png",
+  "style": "LOW_TECH",
+  "height": 130,
+  "width": 217,
+  "center": [108.5, 65],
+  "collisionRadius": 136.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 127.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "automated",
+    "turretgyros",
+    "solar_shielding",
+    "supercomputer"
+  ],
+  "builtInWings": [
+    "dom+fencer_wing_Fighter_wing",
+    "dom+fencer_wing_Bomber_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [15, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [23.5, -71]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [21.5, 72.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [10, -80]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [9, 79.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17.5, -97.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [2.5, 97.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        38.5, 0.5,
+        38, -10.5,
+        38, 13,
+        41, 23,
+        42, -23
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [33, -43.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31.5, 48.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    55, 15,
+    64, 29,
+    34, 39,
+    32, 73,
+    23.5, 79,
+    24.5, 107.5,
+    -16, 107,
+    -62, 55,
+    -62, -55,
+    -16, -107,
+    24.5, -107.5,
+    23.5, -79,
+    32, -73,
+    34, -39,
+    64, -29,
+    55, -15
+  ]
+}

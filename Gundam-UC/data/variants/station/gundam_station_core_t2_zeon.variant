@@ -1,0 +1,26 @@
+{
+  "variantId": "gundam_station_core_t2_zeon_standard",
+  "hullId": "gundam_station_core_t2_zeon",
+  "displayName": "Side Battlestation",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+		{"SOLAR_1": "gundam_module_solar_standard"},
+		{"SOLAR_2": "gundam_module_solar_standard"},
+		{"SOLAR_3": "gundam_module_solar_standard"},
+  
+		{"MODULE_1": "gundam_module_attack_zeon_standard"},
+		{"MODULE_2": "gundam_module_smalldefense_zeon_standard"},
+		{"MODULE_3": "gundam_module_fighter_zeon_standard"},
+	],
+    "wings": [
+		"gundam_gelgoog_wing",
+		"gundam_zaku_sniper_wing",
+		"gundam_rick_dom_wing"
+    ]
+}

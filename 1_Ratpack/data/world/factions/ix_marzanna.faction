@@ -1,0 +1,17 @@
+{
+	#Starfleet's Death squad
+    "illegalCommodities":[
+    "red_water",
+    "drugs",
+    "organs",
+    "hand_weapons",
+	],
+	"music":{
+            "market_neutral":"music_FBG_market_neutral",
+            "market_hostile":"music_FBG_market_hostile",
+            "market_friendly":"music_FBG_market_friendly",
+            "encounter_neutral":"music_FBG_encounter_neutral",
+            "encounter_hostile":"music_FBG_encounter_hostile",
+            "encounter_friendly":"music_FBG_encounter_friendly",
+    },
+},

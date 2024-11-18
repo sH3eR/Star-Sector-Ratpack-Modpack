@@ -1,0 +1,40 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "iris_tw",
+    "hullMods": [
+        "advancedoptics",
+        "tw_drone_control_node",
+        "pointdefenseai",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "iris_tw_escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS ARR": "interceptor_pd_tw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "spatial_charge_launcher_ix",
+                "WS 004": "spatial_charge_launcher_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "morningstar_ciws_ix",
+                "WS 002": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": ["nimbus_tw_wing_s"]
+}

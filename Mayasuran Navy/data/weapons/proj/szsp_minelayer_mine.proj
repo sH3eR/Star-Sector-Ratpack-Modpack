@@ -1,0 +1,48 @@
+{
+	"id":"szsp_minelayer_mine",
+	"specClass":"missile",	
+	"missileType":"PHASE_CHARGE",
+	"sprite":"graphics/mayasura/missiles/MSS_cluster_mine.png",
+	"glowSprite":"graphics/mayasura/missiles/MSS_cluster_mine_glow.png",
+	"glowColor":[250,200,110,150],
+	"size":[14,20],	
+	"center":[7,7],	
+	"collisionRadius":10,
+	
+	"collisionClass":"MISSILE_NO_FF",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"explosionColor":[148,100,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual	
+	"engineSpec":{"turnAcc":10,
+				  "turnRate":25,
+				  "acc":0,
+				  "dec":0},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":175,
+					"slowToMaxSpeed":true,
+					"delay":0.5,
+					"pingSound":"mine_ping",
+					"pingColor":[250,200,110,255],
+					"pingRadius":300,
+					"pingDuration":0.5,
+					"windupSound":"mine_windup_heavy",
+					"windupDelay":0.25,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":250,
+									 "coreRadius":175, # full damage within core radius
+									 "collisionClass":MISSILE_FF,
+									 "collisionClassByFighter":MISSILE_FF,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":1,
+									 "particleCount":25,
+									 "particleColor":[250,200,110,225],
+									 "explosionColor":[250,200,110,245],
+									 "useDetailedExplosion":false,
+									 "sound":"mine_explosion"},
+					}	
+}
+
+

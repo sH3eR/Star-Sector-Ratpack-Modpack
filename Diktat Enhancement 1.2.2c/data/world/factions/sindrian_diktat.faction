@@ -1,0 +1,158 @@
+{
+	"ranks":{
+		"ranks":{
+			"vicestarmarshal":{"name":"Vice Star Marshal"},
+		},
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"conquest_Standard":10,
+		"conquest_Elite":5,
+		"de_ingress_lg_Beamer":10,
+	},
+	"knownShips":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "sindrian_diktat"],
+		"hulls":[
+			"fury",
+			"doom",
+			"harbinger",
+			"afflictor",
+			"shade",
+			"atlas",
+			"kite_original",
+			"monitor",
+			"odyssey",
+			"prometheus",
+			"conquest",
+			"gryphon",
+			"eagle",
+			"valkyrie",
+			"centurion",
+			"hammerhead",
+			"dominator",
+			"enforcer",
+			"medusa",
+			"shrike",
+			"tempest",
+			"de_mynah",
+			"de_laticlavus",
+			"de_vanquisher",
+			"de_exult",
+			"de_voyager",
+			"de_mynah_lg",
+			"de_laticlavus_lg",
+			"de_vanquisher_lg",
+			"de_ingress_lg",
+			"de_jackdaw",
+			"de_regulus",
+			"de_legate",
+			"de_sagittarii",
+		],
+	},
+	"hullFrequency":{
+		"hulls":{
+#			"monitor":1.5,
+#			"centurion":1.5,
+			"kite_original":0.01, # LG joyride???
+			"dominator":0.5, # low tech bad tech(andrada's words not mine)
+			"enforcer":0.5, # low tech bad tech(andrada's words not mine)
+			"fury":0.75, # high tech is expensive
+			"medusa":0.75, # high tech is expensive
+			"shrike":0.75, # high tech is expensive
+			"tempest":0.75, # high tech is expensive
+			"odyssey":0.75, # high tech is expensive
+			#"conquest":0.5, # rarity
+			"de_mynah_lg":0.5, # LG hulls are rare in normie navy
+			"de_laticlavus_lg":0.5, # LG hulls are rare in normie navy
+			"de_vanquisher_lg":0.5, # LG hulls are rare in normie navy
+			"de_ingress_lg":0.5, # LG hulls are rare in normie navy
+			"de_jackdaw":0.75, # 2nd gen are rarer
+			"de_regulus":0.75, # 2nd gen are rarer
+			"de_legate":0.75, # 2nd gen are rarer
+			"de_sagittarii":0.75, # 2nd gen are rarer
+		},
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["sindrian_diktat"],
+		"hulls":[
+#			#"drover",
+#			#"heron",
+#			"odyssey",
+#			#"dominator",
+#			"conquest",
+#			"monitor",
+#			"centurion",
+#			"fury",
+#			"shade",
+#			"afflictor",
+#			"eagle",
+#			"gryphon",
+#			"de_mynah",
+#			"de_laticlavus",
+#			"de_vanquisher",
+#			"de_exult",
+#			"de_voyager",
+#			"de_mynah_lg",
+#			"de_laticlavus_lg",
+#			"de_vanquisher_lg",
+		],
+	},
+	# Tight fighter regulations due to alleged excessive freedom of fighter jocks; either constrained to support fighters or disposable interceptors(weed out rebellious elements)
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "sindrian_diktat"],
+		"fighters":[
+			"xyphos_wing",
+			"thunder_wing",
+			"claw_wing",
+			"longbow_wing",
+			"talon_wing",
+			"wasp_wing",
+			"de_flurry_bomber_wing",
+			"de_bretasinge_wing",
+			"de_bretais_wing",
+			"de_flurry_LG_bomber_wing",
+			"de_bretasinge_LG_wing",
+			"de_bretais_LG_wing",
+			"de_woodpecker_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "sindrian_diktat"],
+		"fighters":[
+		"talon_wing",
+		"wasp_wing",
+		"xyphos_wing",
+		"thunder_wing",
+		"de_flurry_bomber_wing",
+		"de_bretasinge_wing",
+		"de_bretais_wing",
+		"de_flurry_LG_bomber_wing",
+		"de_bretasinge_LG_wing",
+		"de_bretais_LG_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "sindrian_diktat"],
+		"weapons":[
+			"de_incisor",
+			"de_incisorpod",
+			"de_incisormaw",
+			"de_cruordriver",
+			"de_tacsuperlaser",
+			"de_scatter",
+			"de_shoal",
+		],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+			"lobsterpods",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":1,		# "the individualism often displayed by the so-called "fighter jocks" detracts from all working together to fulfill the Supreme Executor's Great Plan, so only the most trusted or the most disloyal get to use fighters; the rest are drone-manned"
+		"phaseShips":0,
+	},
+},

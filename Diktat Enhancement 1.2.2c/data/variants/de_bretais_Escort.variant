@@ -1,0 +1,24 @@
+{
+  "variantId": "de_bretais_Escort",
+  "hullId": "de_bretais",
+  "displayName": "Vulcan Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [
+        "pointdefenseai"
+],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    }
+],
+  "modules": [],
+  "wings": []
+}

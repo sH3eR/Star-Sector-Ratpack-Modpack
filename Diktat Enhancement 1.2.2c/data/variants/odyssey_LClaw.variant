@@ -1,0 +1,57 @@
+{
+    "displayName": "Lion's Claw",
+    "fluxCapacitors": 0,
+    "fluxVents": 32,
+    "goalVariant": false,
+    "hullId": "odyssey",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "unstable_injector"
+    ],
+    "permaMods": ["solar_shielding"],
+    "variantId": "odyssey_LClaw",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "hurricane"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "sabotpod",
+                "WS 005": "sabotpod",
+                "WS 006": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "xyphos_wing",
+        "xyphos_wing"
+    ]
+}

@@ -1,0 +1,142 @@
+{
+  "hullName": "Converted Phaeton",
+  "hullId": "dom+phaeton",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Destroyers/converted Phaeton.png",
+  "style": "LOW_TECH",
+  "coversColor": "255,180,170,255",
+  "height": 244,
+  "width": 159,
+  "center": [78.5, 115],
+  "collisionRadius": 182,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -163,
+      "locations": [-89.5, -64]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [26.5, 35]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [24, -35]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [113.5, 12]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -51,
+      "locations": [-73, -70.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 51,
+      "locations": [-74.5, 68.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 168.5,
+      "locations": [-91, 61.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-114.5, 18.5],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-115, -23],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-103, -38],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-101.5, 34.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-114, -2.5],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    113, 23,
+    102, 65,
+    1, 65,
+    -44.5, 57,
+    -83, 77.5,
+    -114, 31,
+    -114, -31,
+    -83, -77.5,
+    -44.5, -57,
+    1, -65,
+    100, -65,
+    117, -18,
+    127, 13
+  ]
+}

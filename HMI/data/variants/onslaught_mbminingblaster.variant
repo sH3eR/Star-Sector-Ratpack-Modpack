@@ -1,0 +1,82 @@
+{
+  "variantId": "onslaught_mbminingblaster",
+  "hullId": "onslaught",
+  "displayName": "Blaster",
+  "goalVariant": false,
+  "fluxCapacitors": 24,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [
+  "heavyarmor",
+  ],
+  "sMods": ["armoredweapons", "magazines"],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "tpc",
+        "WS 017": "tpc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 021": "sabotpod",
+        "WS 022": "sabotpod",
+        "WS 023": "sabotpod",
+        "WS 024": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 018": "tpc_hmi",
+        "WS 019": "tpc_hmi",
+        "WS 020": "tpc_hmi"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "miningblaster",
+        "WS 003": "miningblaster",
+        "WS 007": "miningblaster",
+      }
+    },
+	    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 012": "shredder",
+        "WS 013": "shredder"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "vulcan",
+        "WS 004": "vulcan",
+        "WS 005": "vulcan",
+        "WS 006": "vulcan",
+        "WS 008": "vulcan",
+        "WS 009": "vulcan",
+        "WS 010": "flak",
+        "WS 011": "flak",
+        "WS 014": "flak",
+        "WS 015": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

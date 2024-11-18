@@ -1,0 +1,29 @@
+{
+	"id":"istl_phaseblaster",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"everyFrameEffect": "data.scripts.weapons.istl_PhaseBlasterFX",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/ISTL/weapons/istl_phaseblaster_turret_base.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_phaseblaster_turret_glow.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_phaseblaster_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_phaseblaster_hardpoint_glow.png",
+	"glowColor":[25,200,125,215],
+	"turretOffsets":[1, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[2, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":32.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.125,
+					   "particleCount":27,
+					   "particleColor":[25,200,125,215]},
+	"projectileSpecId":"istl_phaseblaster_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge",
+	"fireSoundTwo":"istl_phaseblaster_fire",
+}

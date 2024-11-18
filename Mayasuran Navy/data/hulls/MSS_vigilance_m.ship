@@ -1,0 +1,110 @@
+{
+  "bounds": [
+    16.5,
+    31.5,
+    53,
+    18,
+    37.5,
+    -31.5,
+    -54.5,
+    -13.5,
+    -54.5,
+    12
+  ],
+  "builtInMods": [
+    "MSS_Prime",
+    "MSS_LastStand"
+  ],
+  "builtInWings": [],
+  "center": [
+    31.5,
+    57
+  ],
+  "collisionRadius": 80,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -54.5,
+        -0.5
+      ],
+      "style": "MayasuranFlare",
+      "width": 16
+    },
+    {
+      "angle": 172.5,
+      "contrailSize": 7.744668,
+      "length": 32.78727,
+      "location": [
+        -54.5,
+        3
+      ],
+      "style": "MayasuranFlare",
+      "width": 7.744668
+    },
+    {
+      "angle": -172.5,
+      "contrailSize": 7.744668,
+      "length": 32.78727,
+      "location": [
+        -54.5,
+        -4
+      ],
+      "style": "MayasuranFlare",
+      "width": 7.744668
+    }
+  ],
+  "height": 110,
+  "hullId": "MSS_vigilance_m",
+  "hullName": "Vigilance (M)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 80,
+  "spriteName": "graphics/mayasura/ships/MSS_vigilance.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 60,
+      "arc": 270,
+      "id": "WS 001",
+      "locations": [
+        13,
+        12.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 002",
+      "locations": [
+        43,
+        -14.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -33.5,
+        -0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 63
+}

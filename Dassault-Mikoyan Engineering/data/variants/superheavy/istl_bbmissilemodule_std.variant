@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_bbmissilemodule",
+    "hullMods": [
+        "eccm",
+        "pointdefenseai",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_bbmissilemodule_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003t": "istl_thermalpd",
+                "WS0004": "istl_thermalpd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "istl_marteau_esm_barrage",
+                "WS0002": "istl_marteau_esm_barrage"
+            }
+        }
+    ]
+}

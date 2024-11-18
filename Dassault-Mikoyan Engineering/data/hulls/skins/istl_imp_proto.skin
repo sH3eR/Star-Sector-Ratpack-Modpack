@@ -1,0 +1,21 @@
+{
+	"baseHullId":"istl_imp",
+	"skinHullId":"istl_imp_proto",
+	"hullName":"Imp",
+	"descriptionId":"istl_imp",
+	"descriptionPrefix":"This hull is a stolen pre-production model intended for combat testing, with all the little quirks and faults that implies.",
+	"tags":["auto_rec", "deserter_bp"],
+	"tech":"Deserter",
+    "fleetPoints":3,
+    "baseValueMult":0.9,
+    "removeHints":[],
+	"systemId":"istl_bravejets",
+	"spriteName":"graphics/ISTL/ships/proto/istl_imp_proto.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+    "builtInMods":[],
+	"builtInWeapons":{
+    },
+}

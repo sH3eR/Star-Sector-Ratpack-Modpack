@@ -1,0 +1,151 @@
+{
+  "hullName": "Argentavis",
+  "hullId": "MSS_Argentavis",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/mayasura/ships/MSS_Argentavis.png",
+  "style": "MIDLINE",
+  "height": 91,
+  "width": 240,
+  "center": [120, 54.5],
+  "collisionRadius": 141,
+  "shieldCenter": [-8.5, -0],
+  "shieldRadius": 132,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [27.5, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [27.5, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [-3.5, 52]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -0,
+      "locations": [-3.5, -52]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [1.5, 16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [1.5, -16]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 40,
+      "locations": [-9.5, 89.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -40,
+      "locations": [-9.5, -90.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, 29.5],
+      "length": 40,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45, -30.5],
+      "length": 40,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30, -0],
+      "length": 65,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26.5, 101],
+      "length": 23,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26.5, -101],
+      "length": 23,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    3.5, -112,
+    23, -46.5,
+    32.5, -31,
+    21.5, -9,
+    21.5, 9,
+    32.5, 31,
+    23, 45.5,
+    3.5, 111,
+    -17.5, 109,
+    -48, 49.5,
+    -40, 41,
+    -27.5, 39,
+    -44.5, 33,
+    -29, 0,
+    -44.5, -33,
+    -27.5, -39,
+    -40, -41,
+    -48, -49.5,
+    -17.5, -109
+  ]
+}

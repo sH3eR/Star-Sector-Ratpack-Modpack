@@ -1,0 +1,41 @@
+{
+  "variantId": "de_jackdaw_Overdriven",
+  "hullId": "de_jackdaw",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "reinforcedhull",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,12 @@
+{
+	"id":"animated_items",
+	"name": "Animated Colony Items",
+	"author":"Kaysaar",
+	"utility":"false",
+	"version":"1.0.0",
+	"description":"Simple mod making colony items even more special",
+    "gameVersion": "0.97a-RC6",
+	"jars":["jars/AniamtedItems.jar"],
+	"modPlugin":"kaysaar.data.plugins.AnimatedItemsModPlugin"
+
+}

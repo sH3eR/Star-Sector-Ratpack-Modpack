@@ -1,0 +1,12 @@
+{
+	"ranks":{
+		#Sigma matter researcher 
+		"istl_smatterresearch":{"name":"Sigma Matter Researcher"},
+	},
+	
+	"posts":{
+		#SNRI Rep
+		"istl_SNRIrep":{"name":"SNRI Representative"},
+		"istl_armsengineer":{"name":"Weapons Engineer"},
+	},
+}

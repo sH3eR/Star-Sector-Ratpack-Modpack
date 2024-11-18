@@ -1,0 +1,1 @@
+better combat settings was moved to better_combat/data/config

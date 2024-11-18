@@ -1,0 +1,53 @@
+{
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"vice_odyssey_tt", #needed due to astral/paragon being in priority by default
+			"vice_equalizer_ex",
+			"vice_intrepid_ex",
+			"vice_aquilon"
+		],
+	},
+	"knownShips":{
+		"tags":["vice_ex_bp", "tritachyon"],
+		"hulls":[
+		],
+	},
+	"knownWeapons":{
+		"weapons":[
+			"vice_x-ray_pulse",
+			"vice_lrburstpd",
+			"vice_siege_burst",
+			"vice_atropos_mirv",
+			"vice_ionstreamer",
+			"vice_deadeye_plasma",
+			"vice_siege_burst",
+			"vice_lrburstpd",
+		],
+	},
+	"knownHullMods":{
+		"hullMods":[
+			"vice_attuned_emitter_diodes",
+			"vice_advanced_terminator_core",
+			"vice_apotheosis_protocol",
+			"vice_interdiction_array",
+		],
+	},
+	"hullFrequency":{
+		"tags":{
+			"vice_ex_bp":0.35,
+		},
+		"hulls":{
+			"odyssey":0,
+			"vice_odyssey_tt":1,
+			"vice_equalizer_ex":0.35,
+			"vice_intrepid_ex":0.35,
+			"vice_aquilon":1,
+		},
+	},
+	"factionDoctrine":{
+		"warships":2,
+		"carriers":2,
+		"phaseShips":2,
+	}
+}

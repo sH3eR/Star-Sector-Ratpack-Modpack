@@ -1,0 +1,50 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 6,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "istl_slammer",
+    "hullMods": ["istl_bbsupport"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_slammer_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_phaserail"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "istl_perforator",
+                "WS0005": "istl_perforator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_6cmrailgun",
+                "WS0007": "istl_6cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_brigador",
+                "WS0003": "istl_brigador"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_matador",
+                "WS0009": "istl_matador"
+            }
+        }
+    ]
+}

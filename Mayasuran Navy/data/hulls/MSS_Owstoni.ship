@@ -1,0 +1,153 @@
+{
+  "bounds": [
+    -22.5,
+    -20.5,
+    -7,
+    -20,
+    6.5,
+    -9,
+    9,
+    -17,
+    26.5,
+    -0,
+    9,
+    17,
+    6.5,
+    9,
+    -7,
+    20,
+    -22.5,
+    20.5,
+    -18,
+    0.5
+  ],
+  "builtInMods": [
+    "pointdefenseai"
+  ],
+  "center": [
+    21,
+    27.5
+  ],
+  "collisionRadius": 40.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 14.5,
+      "location": [
+        -22.5,
+        15.5
+      ],
+      "style": "MayasuranFlare",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 14.5,
+      "location": [
+        -22.5,
+        -15.5
+      ],
+      "style": "MayasuranFlare",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 13.5,
+      "location": [
+        -22.5,
+        8.5
+      ],
+      "style": "MayasuranFlare",
+      "width": 3
+    },
+    {
+      "angle": -180,
+      "contrailSize": 3,
+      "length": 13.5,
+      "location": [
+        -22.5,
+        -8.5
+      ],
+      "style": "MayasuranFlare",
+      "width": 3
+    }
+  ],
+  "height": 55,
+  "hullId": "MSS_Owstoni",
+  "hullName": "Owstoni",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 37.5,
+  "spriteName": "graphics/mayasura/ships/MSS_Owstoni.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        18.5,
+        10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [
+        18.5,
+        -10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 70,
+      "arc": 210,
+      "id": "WS0003",
+      "locations": [
+        -3.5,
+        9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -70,
+      "arc": 210,
+      "id": "WS0004",
+      "locations": [
+        -3.5,
+        -9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0005",
+      "locations": [
+        25,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 42
+}

@@ -1,0 +1,35 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "istl_feeder",
+    "hullMods": ["autorepair"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_feeder_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_clusterlauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_linearcannonlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "istl_impaler",
+                "WS0012": "istl_impaler"
+            }
+        }
+    ],
+    "wings": [
+        "istl_fletcher_wing",
+        "istl_hummingbird_wing"
+    ]
+}

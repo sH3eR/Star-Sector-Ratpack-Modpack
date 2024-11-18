@@ -1,0 +1,30 @@
+{
+  "variantId": "istl_flatmouse_std",
+  "hullId": "istl_flatmouse",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_linearcannonlight"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "istl_matador",
+        "WS0005": "istl_matador"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

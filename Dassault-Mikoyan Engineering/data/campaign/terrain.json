@@ -1,0 +1,15 @@
+{
+	#
+	# terrain with gameplay effects
+	#
+
+	"corona_sigma":{
+		"plugin":"data.campaign.terrain.istl_StarCoronaSigmaTerrainPlugin",
+		"musicSuppression":1,
+		# inside corona but not inside flare
+		"loopOne":"istl_terrain_sigma",
+		# inside flare
+		"loopTwo":"istl_terrain_sigma_flare",
+	},
+}
+

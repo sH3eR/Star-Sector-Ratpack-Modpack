@@ -1,0 +1,51 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "goalVariant": true,
+  "hullId": "MSS_Heron_Elite",
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Heron_Elite",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "ioncannon",
+        "WS 004": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "taclaser",
+        "WS 002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "pdburst",
+        "WS 010": "pdburst"
+      }
+    }
+  ],
+  "wings": [
+    "MSS_Khopesh",
+    "MSS_Khopesh",
+    "MSS_Khopesh"
+  ]
+}

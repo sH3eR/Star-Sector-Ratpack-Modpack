@@ -1,0 +1,97 @@
+{
+  "variantId": "dom+station_derelict_mothership_Standard",
+  "hullId": "dom+station_derelict_mothership",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "lightmg",
+        "WS0015": "lightmg",
+        "WS0016": "lightmg",
+        "WS0017": "lightmg",
+        "WS0018": "lightmg",
+        "WS0019": "lightmg",
+        "WS0020": "lightmg",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan",
+        "WS0025": "vulcan",
+        "WS0026": "vulcan",
+        "WS0031": "flak",
+        "WS0032": "flak",
+        "WS0033": "flak",
+        "WS0034": "flak",
+        "WS0036": "lightmg",
+        "WS0037": "lightmg",
+        "WS0038": "lightmg",
+        "WS0039": "lightmg",
+        "WS0040": "lightmg",
+        "WS0041": "lightmg",
+        "WS0042": "lightmg",
+        "WS0043": "vulcan",
+        "WS0044": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "miningblaster",
+        "WS0023": "shredder",
+        "WS0024": "shredder",
+        "WS0027": "heavymortar",
+        "WS0028": "heavymortar",
+        "WS0029": "heavymortar",
+        "WS0030": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightdualac",
+        "WS0010": "mininglaser",
+        "WS0012": "lightdualac",
+        "WS0035": "miningblaster"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "dom+ms_bottom_right_1_module"
+    },
+    {
+      "WS0007": "dom+ms_top_right_2_variant"
+    },
+    {
+      "WS0002": "dom+ms_top_right_1_variant"
+    },
+    {
+      "WS0003": "dom+ms_bottom_left_1_module"
+    },
+    {
+      "WS0005": "dom+ms_top_left_3_variant"
+    },
+    {
+      "WS0006": "dom+ms_top_left_1_module"
+    },
+    {
+      "WS0004": "dom+ms_top_left_2_module"
+    }
+  ],
+  "wings": []
+}

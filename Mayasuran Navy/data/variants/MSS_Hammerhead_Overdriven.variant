@@ -1,0 +1,53 @@
+{
+  "displayName": "Overdriven",
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "MSS_Hammerhead",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Hammerhead_Overdriven",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "chaingun",
+        "WS 002": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "hammer",
+        "WS 004": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "lightdualmg",
+        "WS 006": "lightdualmg",
+        "WS0002": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

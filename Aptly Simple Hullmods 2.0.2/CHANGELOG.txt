@@ -1,0 +1,517 @@
+### 2.0.2
+- Release 2.0.2
+- Fix crash with convicted crewmates when checking for PPT gain values on target death
+- Hidden forging ability (Replaced with new implementation)
+- Add option to disable/enable production hullmods separately
+- Add supplies recycler sprite
+- Add supplies recycler settings data
+- Add supplies recycler hullmod
+
+### 2.0.0a
+- Release 2.0.0a
+- Fix crash with forging ability during the tutorial
+
+### 2.0.0
+- Release 2.0.0
+- Update sprite names to match hullmod ids
+- Fix crash issue regarding bounty from arma armatura
+- Add toggle ui sounds for forging ability
+- Update forging ability description
+- Add ability to disable or enable hullmods that produce commodities
+- Update .faction files
+- Update hull_mods.csv hullmod ids
+- Update lunaSettings.csv and hullmod_stats.ini
+- Update front loaded armor positive armor buff to 1.5x from 2x
+- Update fighter targeting uplink to not connect with fighters
+- Update targeting transceiver to not connect with fighters
+- Add new settings options for temporal flux reactor
+- Add peak performance time multiplier penalty of 40% to temporal flux reaction when s-modded
+
+### 1.9.5
+- Release 1.9.5
+- Update circuit breakers tags and ui tags to defenses
+- Add lunalib integration
+- Add lunalib settings file
+
+### 1.9.4
+- Release 1.9.4
+- Update hullmod stats to reflect settings file
+- Add hullmod settings file
+
+### 1.9.3a
+- Release 1.9.3a
+- Update GitHub action script
+- Fix crash when hovering over invasion package part 2
+
+### 1.9.3
+- Release 1.9.3
+- Fix crash when viewing invasion package outside of campaign
+- Buff missile bay missile ammo bonus to 60% from 25%
+- Fix issue where marine training facility ui message triggers when training 0 marines
+
+### 1.9.0
+- Update invasion package added to factions known hullmods
+- Update re-enabled targeting transceiver
+- Fix issue where fighter targeting uplink also links with enemies
+- Fix bug where fighter targeting uplink and targeting transceiver buff ui not appearing properly
+- Fix crash when using fighter targeting uplink and targeting transceiver on a ship
+- Update invasion package hullmod implementation
+- Fix bug where fuel ramscoop is active when it should not
+- Fix bug where marine training facility script is active when it should not be
+- Update optimized marine training facility script for campaign
+- Update optimized mineral refinery script for campaign
+- Update optimized fuel ramscoop for campaign
+- Update optimized industrial machine forge script in campaign
+- Update optimized fuel ramscoop script for campaign
+- Update invasion package script structure and code
+- Update all non-hidden hullmod descriptions
+- Add invasion package hullmod
+- Update flux limiters to be always unlocked
+- Hidden subverted shields
+- Hidden compact shields hullmod
+- Add condensed shields hullmod
+- Update temporal flux reactor remove peak performance time penalty
+- Update temporal flux reactor op cost to 6/12/18/30 from 5/10/15/25
+- Update package structure
+
+### 1.8.6
+- Release 1.8.6
+- Update directDownloadURL link in version file
+
+### 1.8.5
+- Release 1.8.5
+- Add MineralRefinery sprite
+- Remove IndustrialMachineForge survey cost smod effect
+- Add IndustrialMachineForge smod effect increase heavy machinery production by 25%
+- Update IndustrialMachineForge description
+- Update script plugins code structure
+- Remove MineralRefinery heavy machinery requirement
+- Remove IndustrialMachineForge heavy machinery requirement
+- Decrease SwiftRetreatProtocol ordnance points to 3/6/9/15 from 4/8/12/20
+- Decrease SwiftRetreatProtocol speed and manoeuvrability buffs to 25% from 50%
+- Decrease SwiftRetreatProtocol engine damage taken penalty to 25% from 50%
+- Update SwiftRetreatProtocol description
+- Add mineral refinery hullmod
+
+### 1.8.0
+- Remove ConvictedCrewmates peak performance time penalty
+- Increase ConvictedCrewmates ordnance points to 5/10/15/20 from 4/8/12/20
+- Increase GravitonAttunementDrive ordnance cost to 6/12/18/30 from 5/10/15/25
+- Update GravitonAttunementDrive sensor profile scaling to a 3x multiplier from 100/200/300/400 flat modifier
+- Decrease FrontLoadedArmor ordnance points to 3/6/9/15 from 4/8/12/20
+- Decrease ReactiveSubsystems ordnance points to 3/6/9/15 from 4/8/12/20
+- Update ReactiveSubsystems deployment points penalty to 1/2/3/5 from 1/2/3/4
+- Remove ReactiveSubsystems cr degradation rate penalty
+- Remove ReactiveSubsystems peak performance smod bonus
+- Add ReactiveSubsystems deployment points penalty of 1/2/3/4
+- Update ReactiveSubsystems descriptions
+- Update CircuitBreakers overload time to 33% from 25%
+- Update CircuitBreakers emp damage taken to 50% from 25%
+- Remove AdvanceRadarSystems autoaim accuracy smod bonus
+- Add AdvanceRadarSystems weapon range bonus smod bonus to 5% from none
+- Hidden shock absorbers hullmod
+- Hidden deflective shields hullmod
+- Hidden elastic shields hullmod
+- Hidden hull conversion hullmod
+- Hidden conduction armor hullmod
+- Add sprites to new hullmods
+- Add swift retreat protocol hullmod
+- Add fighter targeting uplink hullmod
+- Add elastic shields hullmod
+- Update TargetingTransceiver calculations
+- Add deflective shields hullmod
+- Add shock absorbers hullmod
+- Add automated racks hullmod
+- Update master version file link
+
+### 1.7.2
+- Release version 1.7.2
+- Forgot to push updates before releasing 1.7.1
+
+### 1.7.1
+- Release version 1.7.1
+- Fix version file name typo
+
+### 1.7.0
+- Release version 1.7.0
+- Update game version to 0.97a
+- Reformat entire code base
+
+### 1.6.3
+- Fix github action script issue
+
+### 1.6.2
+- Fix bug periodic sudden consumption and generation of all materials for industrial machine forge
+
+### 1.6.1
+- Fix crash when using reactive shields without a system
+
+### 1.6.0
+- Update hullmod smod check to use built-in vanilla functions
+- Update ASH_AdvanceRadarSystems increase sight radius buff to 25% from 20%
+- Update ASH_AdvanceRadarSystems increase auto aim accuracy buff to 50% from 20%
+- Update ASH_TargetingTransceiver change detection to any friendly ships from capital/cruiser ships only
+- Update ASH_TargetingTransceiver decrease overall OP cost to 2/4/6/10 from 3/6/9/15
+- Remove s-mod effect for convicted crewmates
+- Fix crash when s-modding reactor bay and missile bay
+
+### 1.5.5
+- Update CHANGELOG from md to txt
+- Update LICENSE from md to txt
+- Remove settings.json
+- Update files that has old version numbers
+- Fix missile bay and reactor bay description
+- Update missile bay missile ammo increase to 25% from 50%
+- Update convicted crewmates ppt gain to 5/10/15/25 from 10/20/30/50
+
+### 1.5.0
+- Update circuit breakers now unlocked at the start
+- Add hullmod sprites for new hullmods
+- Update subverted shields stats reduced shield up keep and shield strength to 15% and reduced shield pierce chance to 25%
+- Fix flux conduction armor description
+- Remove s-mod effect for temporal flux reactor
+- Fix fighter hullmods install requirements
+- Update hullmod descriptions to match vanilla starsector
+- Change industrial machine forge s-mod effect to decrease heavy machinery survey cost instead of increase heavy machinery production
+- Fix missile bay s-mod description
+- Add convicted crewmates hullmod
+- Add reactor bay and missile bay to vanilla factions
+- Fix missile bay and reactor bay to only work for built-in fighter bays
+- Add hullmods missile bay & reactor bay
+
+### 1.3.5
+- Add s-mod effect Industrial Machine Forge
+    - Generates 15/30/40/75 machinery every 3 days when s-modded
+- Add s-mod effect for Marine Training Facility
+    - Levels up 3/6/9/15 marines every week when s-modded
+- Add s-mod for Fuel Ramscoop
+    - Generates 2/3/5/6 fuel every 3 days when s-modded
+- Add s-mod effect for Temporal Flux reactor
+    - Reduces the peak performance time debuff to 1.5 seconds
+- Update ASH_ExternalCargoHolds, ASH_ExternalCryoPods, ASH_ExternalFuelTanks, ASH_ExternalCargoHolds
+    - Lower stat modifiers to 10% from 20%
+    - Remove speed and turn rate ship modifiers
+    - Add increase sensor profile modifier by 10%
+    - Update flat cargo modifiers to 60/120/180/300 from 200/400/600/1000
+
+### 1.3.2
+- Fix marin training facility crash when getting accessed outside of combat
+- Fix fuel ramscoop crash when getting accessed outside of combat
+
+### 1.3.0
+- Update mod_info.json lazylib dependency to any version
+- Update mod_info.json game version to latest
+
+### 1.2.9
+- Fix Reactive Shields Hullmod crash when shield color changes
+- Fix ASH_ExternalCargoHolds to be installable on ships that support 2 or more logistics hullmod
+- Fix ASH_ExternalCryoPods to be installable on ships that support 2 or more logistics hullmod
+- Fix ASH_ExternalFuelTanks to be installable on ships that support 2 or more logistics hullmod
+- Update ASH_MarineTrainingFacility marines trained to 2/4/6/10 from 5/10/15/25
+
+### 1.2.4
+- Fix venting overdrive unmodified all the modifiers from the stats it uses
+
+### 1.2.3
+- Fix makeshift missile autoforge crash when viewing as blueprint/mod spec
+
+### 1.2.2
+- Fix hullmod ui when hovering in the market
+- Fix crash when hovering mod spec in market
+
+### 1.2.0
+- Add settings for disabling or enabling mod and compatibility with BDSM
+- Add flux conduction armor s-mod effects
+    - Increase flux capacity to 20% when s-modded
+    - Decrease energy damage taken to 10% when s-modded
+- Add beam combiners s-mod effects
+    - Decrease flux cost usage to 10% when s-modded
+- Add hull conversion s-mod effects
+    - Add decrease armor damage taken by 5% when s-modded
+- Add makeshift missile autoforge s-mod effects
+    - Change reload to start of combat when s-modded
+- Add subverted shields s-mod effects
+    - Remove shield pierce penalty when s-modded
+- Add targeting transceiver s-mod effects
+    - Increase range to 2000 from 1000 when s-modded
+- Add reactive shields s-mod effects
+    - Change hard flux usage to soft flux usage for shield strength when s-modded
+- Add volatile warheads s-mod effects
+    - Remove fire rate debuff when s-modded
+- Add reactive subsystems s-mod effects
+    - Add increase peak performance time by 60 seconds when s-modded
+- Add front loaded armor s-mod effects
+    - Remove penalty when s-modded
+- Add advance radar systems s-mod effects
+    - Add 20% autofire aim accuracy when s-modded
+- Add circuit breakers s-mod effects
+    - Add 25% decrease emp damage taken when s-modded
+- Add flux amplifiers s-mod effect
+    - Remove fire rate debuff when s-modded
+- Add flux limiters s-mod effects
+    - Remove fire rate debuff when s-modded
+- Add LICENSE.md
+
+### 1.0.0
+- Update reactive shields & subverted shields visuals
+- Remove unused hullmod sprites
+- Update hullmods base value
+    - Update ASH_BeamCombiners base value to 8000 from 10000
+    - Update ASH_CircuitBreakers base value to 3000 from 4000
+    - Update ASH_ExternalCargoHolds base value to 2000 from 4000
+    - Update ASH_ExternalCryoPods base value to 2000 from 4000
+    - Update ASH_ExternalFuelTanks base value to 2000 from 4000
+    - Update ASH_FluxAmplifiers base value to 8000 from 15000
+    - Update ASH_FluxConductionArmor base value to 7000 from 8000
+    - Update ASH_FluxLimiters base value to 8000 from 15000
+    - Update ASH_FrontLoadedArmor base value to 6000 from 10000
+    - Update ASH_FuelRamscoop base value to 4000 from 10000
+    - Update ASH_HullConversion base value to 6000 from 10000
+    - Update ASH_IndustrialMachineForge base value to 4000 from 8000
+    - Update ASH_MakeshiftMissileAutoforge base value to 4000 from 15000
+    - Update ASH_ReactiveSubsystems base value to 12000 from 15000
+    - Update ASH_SubvertedShields base value to 7000 from 10000
+    - Update ASH_VolatileWarheads base value to 8000 from 5000
+- Update hullmods tiers
+    - Update circuit breakers tier to 0 from 1
+    - Update flux amplifiers tier to 2 from 3
+    - Update flux limiters tier to 2 from 3
+    - Update hull conversion tier to 1 from 2
+    - Update industrial machine forge tier to 2 from 1
+    - Update makeshift missile autoforge tier to 2 from 3
+- Add hullmods to factions
+- Update hullmods
+    - Add ASH_AdvanceRadarSystems sprite
+    - Add ASH_CircuitBreakers sprite
+    - Remove ASH_RedundantMachinery
+    - Update ASH_TargetingTransceiver descriptions
+    - Update ASH_TargetingTransceiver OP cost to 3/6/9/15 from 4/6/10/12
+- Update descriptions
+    - Update ASH_AdvanceRadarSystems
+    - Update ASH_BeamCombiners
+    - Update ASH_CircuitBreakers
+    - Update ASH_FluxAmplifiers
+    - Update ASH_FluxConductionArmor
+    - Update ASH_FluxLimiters
+    - Update ASH_FrontLoadedArmor
+    - Update ASH_FuelRamscoop
+    - Update ASH_GravitonAttunementDrive
+    - Update ASH_HullConversion
+    - Update ASH_VentingOverdrive
+- Add hullmod circuit breakers
+- Add hullmod advance radar systems
+- Update hullmods
+    - Rename ASH_WeaponAmplifiers to ASH_FluxAmplifiers
+    - Rename ASH_WeaponLimiters to ASH_FluxLimiters
+    - Add ASH_FluxAmplifiers sprite
+    - Add ASH_FluxLimiters sprite
+- Add version checker
+- Remove hullmods
+    - Remove ASH_EnergizedCapacitors
+    - Remove ASH_EnergyFluxRegulators
+    - Remove ASH_EnhancedAutoloaders
+    - Remove ASH_OverloadedCapacitors
+    - Remove ASH_VolatileAmmunition
+- Add hullmods
+    - Add ASH_WeaponAmplifiers
+    - Add ASH_WeaponLimiters
+- Update ASH_MakeshiftMissileAutoforge
+    - Update description
+    - Update OP cost to 3/6/9/15 from 6/9/12/15
+    - Update sprite
+- Remove hullmods
+    - Remove ASH_ExtendedBarrels
+    - Remove ASH_MaximizedDriveField
+    - Remove ASH_OverloadedDriveField
+    - Remove ASH_SubatomicAccelerator
+- Update ASH_BeamCombiners
+    - Update description
+    - Update OP cost to 4/8/12/20 from 4/8/12/16
+    - Update base value to 10000 from 8000
+    - Update modifiers to multipliers
+- Update ASH_IndustrialMachineForge
+    - Update description
+    - Update OP cost to 3/6/9/15 from 4/8/12/16
+    - Add sprite
+- Update ASH_FuelRamscoop
+    - Update description
+    - Update OP cost to 3/6/9/15 from 2/4/6/8
+    - Update base value to 10000 from 15000
+    - Update tier to 2 from 3
+- Update ASH_FluxConductionArmor
+    - Update description
+    - Update OP cost to 3/6/9/15 from 6/9/12/15
+    - Update base value to 8000 from 7000
+    - Update modifiers to multipliers
+    - Add ui tag merc & special
+    - Add tag special
+    - Add energy damage taken modifier to 15% from 0%
+    - Remove ui tag defenses
+    - Remove tag defensive
+    - Remove EMP damage taken modifier
+    - Remove armor value modifier
+- Update ASH_VolatileWarheads
+    - Update description
+    - Update OP cost to 4/8/12/20 from 6/12/18/24
+    - Update missile damage increase to 20% from 25%
+    - Update missile health reduction to 10% from 50%
+    - Update modifiers to multipliers
+Add missile speed reduction to 10% from 0%
+- Update ASH_HullConversion
+    - Update description
+    - Update OP cost to 4/8/12/20 from 5/10/15/20
+    - Update base value to 10000 from 9000
+- Update ASH_GravitonAttunementDrive
+    - Update description
+    - Update OP cost to 5/10/15/25 from 10/20/30/40
+    - Update supplies use per month to 200% from 100%/150%/200%/250%
+- Update ASH_VentingOverdrive
+    - Add sprite
+    - Update description
+    - Update OP cost to 5/10/15/25 from 10/16/22/28
+    - Update calculation for damage received when venting
+    - Remove offensive tag
+- Update ASH_MarineTrainingFacility
+    - Update description
+    - Update OP cost to 3/6/9/15 from 6/12/18/24
+    - Update marines generated to 10/20/30/50 from 5/10/20/40
+    - Add level up marines to 5/10/15/25 from none
+    - Add max marines generated to 50/100/150/250 from none
+- Update ASH_FrontLoadedArmor
+    - Add sprite
+    - Add merc tag
+    - Update description
+    - Update OP cost to 4/8/12/20 from  6/12/18/24
+    - Update base value to 10000 from 8000
+    - Update tier to 1 from 2
+- Update ASH_ReactiveSubsystems
+    - Add merc tag
+    - Update description
+    - Update OP cost to 4/8/12/20 from 6/8/12/24
+    - Update base value to 15000 from 8000
+    - Update cr loss per second to 25% from 50%
+- Update ASH_ExternalFuelTanks
+    - Update description
+    - Update OP cost to 2/4/6/10 from 6/12/18/24
+    - Update crew capacity increase to 200/400/600/1000 from 250/500/750/1000
+- Update ASH_ExternalCryoPods
+    - Update description
+    - Update modifiers to multipliers
+    - Update OP cost to 2/4/6/10 from 6/12/18/24
+- Update ASH_ExternalCargoHolds
+    - Update description
+    - Update OP cost to 2/4/6/10 from 6/12/18/24
+    - Update cargo capacity increase to 200/400/600/1000 from 250/500/750/1000
+- Update ASH_SubvertedShields
+    - Add visual effects
+    - Add special tag and ui tag
+    - Remove offensive tag
+    - Update description
+    - Update OP cost to 3/6/9/15 from 6/9/12/15
+- Update ASH_ReactiveShields
+    - Update description
+    - Update OP cost to 3/6/9/15 from 4/8/12/16
+- Update ASH_TemporalFluxReactor
+    - Add sprite
+    - Add tag merc
+    - Update description
+    - Update OP cost to 5/10/15/25 from 5/10/15/20
+    - Update compatibility to incompatible with phase ships from none
+    - Fix crash when ship has no shields
+
+### 0.8.3
+- Updated message from hullmods that generate goods
+- Fixed Industrial Machine Forge not working
+- Updated hullmods descriptions
+- Changed Beam Combiners flux cost modifier to 20% from 40%
+- Updated hullmods tags
+- Fixed Front Loaded Armor tags
+- Fixed External Cryo Pods not affecting max crew value
+
+### 0.7.6
+- Added Front Loaded Armor Hullmod
+- Fixed logistical hullmods not getting properly checked if installable
+- Added Industrial Machine Forge Hullmod
+- Removed Conductive Rails
+- Updated Gravtion Attunement Drive to be less restrictive
+- Updated tags and uiTags for hullmods
+- MarineTF - removed maximum marines trainable
+- MarineTF - decreased number of marines generated to 5/10/20/40 from 10/20/40/50
+- MarineTF - Decreased days needed to generate marines to 7 from 30
+- Increase fuel ramscoop fuel generation to 1/2/3/4 from 1/1/2/2
+
+### 0.6.7
+- Updated temporal flux reactor to be color compatible with reactive shields
+- Fixed temporal flux reactor affecting other ships with the hullmod
+- Fixed reactive shields affecting other ships with the hullmod
+- Fixed marine training facility not giving marines every month
+- Fixed fuel ramscoop not giving fuel every 3 days
+
+### 0.6.2
+- Added visual indicator for Reactive Shields
+- Added Aligned Thrust Variants
+- Added Temporal Flux Reactor
+- Updated Excessive Venting Protocol to Venting Overdrive
+- Updated mods with default sprites to available game sprites
+
+### 0.5.6
+- Added Targeting Transceiver Sprite by Vildrian
+- Added Marine Training Facility Sprite by Vildrian
+- Added Hull Conversion Sprite by Vildrian
+- Added Fuel Ramscoop Sprite by Vildrian
+- Added External Fuel Tanks Sprite by Vildrian
+- Added External Cryo pods Sprite by Vildrian
+- Added Enhanced Autoloader Sprite by Vildrian
+- Added Beam Combiner Sprite by Vildrian
+- Added Excessive Venting Protocol Hullmod
+- Added Redundant Machinery Hullmod
+
+### 0.4.5
+- Added Hull Conversion Hullmod
+- Added Beam Combiners Hullmod
+- Added Marine Training Facility Hullmod
+- Added Fuel Ramscoop Hullmod
+- Added Targeting Receiver Hullmod
+
+### 0.4.0
+- Added External Cryo Pods Hullmod
+- Added External Fuel Tanks Hullmod
+- Added Makeshift Missile Autoforge Sprite
+- Added Volatile Ammunition Sprite
+- Added Overloaded Capacitors Sprite
+- Added Energized Capacitors Sprite
+- Added Subatomic Accelerator Sprite
+- Added Extended Barrels Sprite
+- Added Reactive Subsystems Sprite
+- Added External Cargo Holds Sprite
+- Added Overloaded Drive Field Sprite
+- Added Maximized Drive Field Sprite
+- Added Overloaded Drive Field Hullmod
+- Added Maximized Drive Field Hullmod
+- Added External Cargo Holds Hullmod
+- Added Reactive Subsystems Hullmod
+- Added Overloaded Capacitors Hullmod
+- Added Volatile Ammunition Hullmod
+
+### 0.1.8
+- Added Enhanced Autoloader Hullmod
+- Added Energized Capacitors Hullmod
+- Added Extended Barrels Hullmod
+- Added Subatomic Accelerator Hullmod
+- Change Base values and Tiers of certain Hullmods
+
+### 0.1.1
+- Added 3 new sprites for hullmods
+- Added Subverted Shields sprite
+- Added 3 sprites for existing hullmods
+- Added Makeshift Missile Autoforge
+
+### 0.0.7
+- Added Flux Conduction Armor Hullmod
+- Added Graviton Attunement Drive Hullmod
+- Added Conductive Rails Hullmod
+- Added Subverted Shields Hullmod
+- Added Volatile Warheads Hullmod
+- Added Energy Flux Regulators Hullmod
+- Added Reactive Shields Hullmod
+- Initial project files

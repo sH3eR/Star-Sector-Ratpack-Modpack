@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+de_LGmarket,Lion's Guard Exchange,lions_guard,"An internal market operated by the Lion's Guard, for the Lion's Guard, selling only their unique ships and weapons. Access is nominally barred for strangers and Degenerates, but with enough courting of favour, you may be able to procure the credentials necessary to get in.",DE.campaign.submarkets.DE_LGMarketPlugin,,800

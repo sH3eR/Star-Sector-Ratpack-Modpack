@@ -1,0 +1,54 @@
+{
+  "variantId": "shrike_hmimax_std2",
+  "hullId": "shrike_hmimax",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "phasecl_bomber"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "taclaser",
+        "WS 002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "pdlaser",
+        "WS 007": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

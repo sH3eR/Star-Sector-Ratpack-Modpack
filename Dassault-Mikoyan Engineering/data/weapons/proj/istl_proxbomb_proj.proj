@@ -1,0 +1,53 @@
+{
+	"id":"istl_proxbomb_proj",
+	"specClass":"missile",
+	"onFireEffect":"data.scripts.weapons.istl_GrenadeBehaviorPlugin",
+	"onHitEffect":"data.scripts.weapons.istl_PlasrocketEMPOnHit",
+	"missileType":"BOMB_WITH_SLOW",
+	"sprite":"graphics/ISTL/missiles/istl_proxbomb_sm.png",
+	"size":[7,10],	
+	"center":[3.5,5],
+	"collisionRadius":9,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[50,255,200,225],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"flameoutTime":0.05, # total time from flameout to full fadeout
+	"fizzleOnReachingWeaponRange":true,
+	"dudProbabilityOnFlameout":0,
+	"armingTime":0.15,
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"fadeTime":0.05, # fadeout duration		
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":50,
+					 "coreRadius":30, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"slowToMaxSpeed":true,
+					"range":0,
+					"vsMissileRange": 25,
+					"explosionSpec":{"duration":0.2f,
+									 "radius":60,
+									 "coreRadius":40, # full damage within core radius
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":5.0,
+									 "particleDuration":1.0,
+									 "particleCount":8,
+									 "particleColor":[75,255,175,255],
+									 "explosionColor":[50,255,200,225],
+									 "useDetailedExplosion":true,
+									 "useDetailedExplosionColorAlpha":true,
+									 "detailedExplosionRadius":40,
+									 "detailedExplosionFlashRadius":120,
+									 "detailedExplosionFlashDuration":0.3,
+									 "detailedExplosionFlashColorFringe":[50,255,200,225],
+									 "detailedExplosionFlashColorCore":[75,255,175,255],
+									 "sound":"istl_energy_crit_sm"},
+					},
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":10,
+				  "acc":100,
+				  "dec":50}
+}

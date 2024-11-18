@@ -1,0 +1,61 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 8,
+    "fluxVents": 50,
+    "hullId": "istl_bladewood",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "istl_bladewood_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_phasedbuster_launcher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_clusterlauncher",
+                "WS0003": "istl_clusterlauncher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_9cmrailgun",
+                "WS0005": "istl_9cmrailgun",
+                "WS0006": "istl_9cmrailgun",
+                "WS0007": "istl_9cmrailgun",
+                "WS0008": "istl_linearcannonlight",
+                "WS0009": "istl_linearcannonlight",
+                "WS0010": "istl_linearcannonlight",
+                "WS0011": "istl_linearcannonlight"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "istl_matador",
+                "WS0013": "istl_matador",
+                "WS0014": "istl_matador",
+                "WS0015": "istl_matador",
+                "WS0016": "istl_impulsor_ring",
+                "WS0017": "istl_impulsor_ring",
+                "WS0018": "istl_impulsor_ring",
+                "WS0019": "istl_impulsor_ring",
+                "WS0020": "istl_impulsor_ring",
+                "WS0021": "istl_impulsor_ring"
+            }
+        }
+    ],
+    "wings": [
+        "istl_dropper_wing",
+        "istl_arcite_wing",
+        "istl_arcite_wing",
+        "istl_bantam_wing"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "displayName": "Plasma",
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "MSS_Manta",
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "MSS_Manta_Plasma",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0002": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "wings": [
+    "MSS_Ferox"
+  ]
+}

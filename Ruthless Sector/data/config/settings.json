@@ -1,0 +1,9 @@
+{
+	# DO NOT EDIT BELOW THIS LINE
+	"ruleCommandPackages":[
+        "ruthless_sector.campaign.rulecmd",
+    ],
+	"plugins":{
+		"ruthlessSectorCombatPlugin":"ruthless_sector.CombatPlugin",
+	},
+}

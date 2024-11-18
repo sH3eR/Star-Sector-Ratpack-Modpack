@@ -1,0 +1,219 @@
+{
+  "hullName": "Shikra",
+  "hullId": "MSS_Shikra",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/mayasura/ships/MSS_Shikra.png",
+  "style": "MIDLINE",
+  "height": 209,
+  "width": 120,
+  "center": [61, 83],
+  "collisionRadius": 163.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 163.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [113, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [113, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [87, 20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [87, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [69, 27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [69, -27]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [6, 32]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [6, -32]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 150,
+      "locations": [-45, 21]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -150,
+      "locations": [-45, -21]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -11, 37.5,
+        -9, 37.5,
+        -6.5, 37.5,
+        -3, 41.5,
+        0, 43.5,
+        -14.5, 37.5,
+        -17, 37.5,
+        -21, 41,
+        -23.5, 44,
+        0.5, -44,
+        -2.5, -42,
+        -7, -37.5,
+        -10, -37.5,
+        -8.5, -37.5,
+        -13.5, -37.5,
+        -16, -37,
+        -17.5, -37.5,
+        -21.5, -41,
+        -23.5, -43.5,
+        -25, -45
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        27.5, 11.5,
+        31.5, 12,
+        43, 12,
+        47.5, 12,
+        47, -11.5,
+        42.5, -11.5,
+        32.5, -11.5,
+        27.5, -11.5,
+        13.5, 11,
+        81, 5.5,
+        78, 3,
+        78.5, -3,
+        81.5, -5.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, -29],
+      "length": 65,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, 29],
+      "length": 65,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-78.5, 18.5],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-78.5, -18.5],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    110, -17,
+    119.5, -25.5,
+    109.5, -33,
+    95, -31.5,
+    69.5, -40.5,
+    12.5, -40,
+    3, -55,
+    -25.5, -57,
+    -32, -44,
+    -65, -43,
+    -82, -34,
+    -76.5, -10,
+    -76.5, 10,
+    -82, 34,
+    -65, 43,
+    -32, 44,
+    -25.5, 57,
+    3, 55,
+    12.5, 40,
+    69.5, 40.5,
+    95, 31.5,
+    109.5, 33,
+    119.5, 25.5,
+    110, 17
+  ]
+}

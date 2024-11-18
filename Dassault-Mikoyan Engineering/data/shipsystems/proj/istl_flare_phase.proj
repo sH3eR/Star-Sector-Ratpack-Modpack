@@ -1,0 +1,43 @@
+{
+	"id":"istl_flare_phase",
+	"specClass":"missile",	
+	"missileType":"FLARE_JAMMER",
+	"sprite":"graphics/ISTL/missiles/istl_proxbomb_sm.png",
+	"size":[7,10],	
+	"center":[3.5,5],
+	"collisionRadius":9,
+	"collisionClass":"FIGHTER",
+	"explosionColor":[255,235,135,155],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.15, # time spent without the engine glow being rendered
+	"fadeTime":0.35, # fadeout duration
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":300,
+					"effectChance":0.3,
+				   },	
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":400,
+				  #"maxSpeed":150,
+				  "acc":750,
+				  "dec":0},
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"engineColor":[255,235,135,155],
+						"contrailParticleSizeMult":5,
+						"contrailParticleDuration":0.12,
+						"contrailParticleFinalSizeMult":3,
+						"contrailMaxSpeedMult":0.33f,
+						"contrailAngularVelocityMult":0.33f,
+						"contrailColor":[255,235,135,90],
+						
+						"type":"GLOW" # GLOW or SMOKE
+					},
+				    "width":12.0,
+				    "length":12.0,
+				    "angle":180.0},
+				   ]
+}

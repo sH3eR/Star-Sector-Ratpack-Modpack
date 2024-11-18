@@ -1,0 +1,30 @@
+{
+	"baseHullId":"brawler",
+	"skinHullId":"brawler_tw",
+	"hullName":"Brawler (TW)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"brawler_tw",
+	"coversColor":[210,230,210,255],
+	"spriteName":"graphics/ships/trinity/brawler_tw.png",
+    "ordnancePoints":60,
+    "baseValueMult":1.5,
+    "systemId":"microburn",
+	"descriptionPrefix":"This warship of the Trinity Worlds combines salvaged Tri-Tachyon and transferred 9th Domain Battlegroup technology. The engines of this ship have been enhanced in a crude yet effective manner, in an effort to mimic the more advanced upgrades of the Fleet.",
+	"removeHints":["HIDE_IN_CODEX"],
+	"tags":["ix_trinity"],
+	"tech":"Trinity Worlds",
+	"builtInMods":["tw_trinity_retrofit"],
+    "weaponSlotChanges":{
+	   "WS 001":{"type":"ENERGY"},
+	   "WS 002":{"type":"ENERGY"},
+	   "WS 003":{"type":"SYNERGY"},
+	   "WS 004":{"type":"SYNERGY"},
+    },
+	"engineSlotChanges":{
+		"0":{"style":"IX_TRINITY"},
+		"1":{"style":"IX_TRINITY"},
+		"2":{"style":"IX_TRINITY"},
+		"3":{"style":"IX_TRINITY"},
+	}, 
+	"removeEngineSlots":[4, 5, 6, 7]
+}

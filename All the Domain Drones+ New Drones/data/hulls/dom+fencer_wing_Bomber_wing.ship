@@ -1,0 +1,61 @@
+{
+  "hullName": "Fencer",
+  "hullId": "dom+fencer_wing_Bomber_wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/Fencer (Bomber).png",
+  "style": "LOW_TECH",
+  "height": 40,
+  "width": 40,
+  "center": [20.5, 18],
+  "collisionRadius": 42,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 50,
+      "angle": 0,
+      "locations": [13.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, -7],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-16.5, 1.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-17, 10.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    17, 19.5,
+    -15.5, 19,
+    -15.5, -16,
+    16.5, -15.5
+  ]
+}

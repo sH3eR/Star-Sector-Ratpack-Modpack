@@ -1,0 +1,48 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "gundam_module_fighter_zeon",
+    "hullMods": [always_detaches],
+    "permaMods": [],
+    "variantId": "gundam_module_fighter_zeon_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_mega_2bcannon_m",
+                "WS0002": "gundam_mega_2bcannon_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gundam_pd_2mg",
+				"WS0004": "gundam_pd_2mg",
+				"WS0005": "gundam_pd_2mg",
+				"WS0006": "gundam_pd_2mg",
+				"WS0007": "gundam_pd_2bc",
+                "WS0008": "gundam_pd_2bc",
+				"WS0009": "gundam_pd_2bc",
+				"WS0010": "gundam_pd_2bc",
+				"WS0011": "gundam_pd_2bc"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "gundam_builtin_rear_swamp_missile",
+                "WS0013": "gundam_builtin_rear_swamp_missile"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_zaku_ii_rifle_wing",
+		"gundam_zaku_ii_rd4_wing",
+		"gundam_rick_dom_ii_wing",
+		"gundam_gelgoog_j_wing"
+    ]
+}

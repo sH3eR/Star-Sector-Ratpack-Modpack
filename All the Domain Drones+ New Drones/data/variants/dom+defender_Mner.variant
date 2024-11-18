@@ -1,0 +1,29 @@
+{
+  "variantId": "dom+defender_Mner",
+  "hullId": "dom+defender",
+  "displayName": "Mining Carrier",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 2,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "dom+duallightmortar",
+        "WS 002": "dom+duallightmortar",
+        "WS 003": "dom+duallightmortar",
+        "WS 004": "dom+duallightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dom+labourer_miner_2"
+  ]
+}

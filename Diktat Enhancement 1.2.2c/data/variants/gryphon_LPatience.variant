@@ -1,0 +1,55 @@
+{
+    "displayName": "Lion's Patience",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "gryphon",
+    "hullMods": [
+    "eccm",
+    "hardenedshieldemitter",
+    "unstable_injector"
+],
+    "permaMods": ["solar_shielding"],
+    "sMods": [],
+    "variantId": "gryphon_LPatience",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "hurricane"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "harpoon",
+                "WS 011": "harpoon",
+                "WS 012": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "harpoonpod",
+                "WS 009": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "dualflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 007": "vulcan"
+            }
+        }
+    ]
+}

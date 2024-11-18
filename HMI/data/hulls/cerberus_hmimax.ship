@@ -1,0 +1,99 @@
+{
+  "hullName": "Cerberus (MS)",
+  "hullId": "cerberus_hmimax",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/cerberus/cerberus_hmimax.png",
+  "style": "HIGH_TECH",
+  "height": 100,
+  "width": 80,
+  "center": [40, 50],
+  "collisionRadius": 73.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 71,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": -47.5,
+      "locations": [26, -15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": 0,
+      "locations": [31.5, 11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": 88.5,
+      "locations": [-21, 20.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": -88.5,
+      "locations": [-21, -20.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48, 31],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48, -31],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-47, 22.5],
+      "length": 16.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-47, -22.5],
+      "length": 16.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    49, -12.5,
+    34.5, 36,
+    -50, 39,
+    -50, -36.5,
+    -9, -38.5,
+    4.5, -28.5,
+    29.5, -34.5
+  ]
+}

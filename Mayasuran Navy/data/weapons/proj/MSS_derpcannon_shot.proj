@@ -1,0 +1,14 @@
+{
+	"id":"MSS_derpcannon_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":100.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"fadeTime":0.5,
+	"fringeColor":[146,255,255,255],
+	"coreColor":[0,228,255,255],
+}

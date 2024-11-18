@@ -1,0 +1,30 @@
+{
+	"id":"istl_matador_ftr",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"mountTypeOverride":"HYBRID",
+	"size":"SMALL",
+	"displayArcRadius":200,
+	"turretSprite":"graphics/ISTL/weapons/istl_bbciws_turret_base.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_bbciws_turret_glow.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_bbciws_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_bbciws_hardpoint_glow.png",
+	"glowColor":[75,125,200,255],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"unaffectedByProjectileSpeedBonuses":true,
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":9.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.05,
+					   "particleCount":18,
+					   "particleColor":[75,125,200,175]},
+	"projectileSpecId":"istl_matador_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_matadorfire",	
+}

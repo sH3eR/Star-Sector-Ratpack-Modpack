@@ -1,0 +1,98 @@
+{
+	"GUNDAM_EFSF_SHIELD":{
+		"hyperspaceJitterColor":[30,40,105,200],
+		"baseCampaignExplosionColor":[200,130,175,55],
+		"baseCombatExplosionColor":[200,130,175,255],
+		"fighterRepairFlickerColor":[30,40,105,255],
+		"fighterChipIconColor":[30,40,105,255],
+		"weaponDisabledExplosionColor":[200,130,175,255],
+		"shieldRingColor":[10,13,30,75],
+		"shieldInnerColor":[30,40,105,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"fluxVentTextureSheet":"graphics/fx/nebula_colorless.png", # optional, this is the default value
+		"fluxVentRadialTexture":"graphics/fx/radial_fx.png", # optional, this is the default value
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+	},	
+	"GUNDAM_ZEON_SHIELD":{
+		"hyperspaceJitterColor":[110,0,0,200],
+		"baseCampaignExplosionColor":[200,130,175,55],
+		"baseCombatExplosionColor":[200,130,175,255],
+		"fighterRepairFlickerColor":[110,0,0,255],
+		"fighterChipIconColor":[110,0,0,255],
+		"weaponDisabledExplosionColor":[200,130,175,255],
+		"shieldRingColor":[33,0,0,75],
+		"shieldInnerColor":[110,0,0,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+	},
+	"GUNDAM_RED_MSSHIELD":{
+		"hyperspaceJitterColor":[255,125,45,200],
+		"baseCampaignExplosionColor":[200,130,175,255],
+		"baseCombatExplosionColor":[200,130,175,255],
+		"fighterRepairFlickerColor":[255,125,25,255],
+		"fighterChipIconColor":[255,200,150,255],
+		"weaponDisabledExplosionColor":[200,130,175,255],
+		"shieldRingColor":[0,0,0,1],
+		"shieldInnerColor":[255,125,125,0],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"fluxVentTextureSheet":"graphics/fx/nebula_colorless.png", # optional, this is the default value
+		"fluxVentRadialTexture":"graphics/fx/radial_fx.png", # optional, this is the default value
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+	},	
+	"GUNDAM_BLUE_MSSHIELD":{
+		"hyperspaceJitterColor":[100,165,255,200],
+		"baseCampaignExplosionColor":[200,130,175,255],
+		"baseCombatExplosionColor":[200,130,175,255],
+		"fighterRepairFlickerColor":[100,165,255,255],
+		"fighterChipIconColor":[100,165,255,255],
+		"weaponDisabledExplosionColor":[200,130,175,255],
+		"shieldRingColor":[0,0,0,1],
+		"shieldInnerColor":[125,125,255,0],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+	},
+}

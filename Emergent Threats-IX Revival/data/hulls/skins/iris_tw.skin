@@ -1,0 +1,23 @@
+{
+	"baseHullId":"iris_ix_base",
+	"skinHullId":"iris_tw",
+	"hullName":"Iris (TW)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"iris_tw",
+	"coversColor":[210,230,210,255],
+	"spriteName":"graphics/ships/trinity/iris_tw.png",
+	"descriptionPrefix":"This warship of the Trinity Worlds combines salvaged Tri-Tachyon and transferred 9th Domain Battlegroup technology. The engines of this ship have been enhanced in a crude yet effective manner, in an effort to mimic the more advanced upgrades of the Fleet.",
+	"builtInWeapons": {
+        "WS ARR": "interceptor_pd_tw",
+    },	
+	"tags":["ix_trinity"],
+	"tech":"Trinity Worlds",
+	"builtInMods":["escort_package", "tw_trinity_retrofit"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"engineSlotChanges":{
+		"0":{"style": "IX_TRINITY"},
+		"1":{"style": "IX_TRINITY"},
+		"2":{"style": "IX_TRINITY"},
+		"3":{"style": "IX_TRINITY"},
+	}, 
+}

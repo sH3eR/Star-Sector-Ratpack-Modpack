@@ -1,0 +1,23 @@
+{
+  "hullName": "Shield",
+  "hullId": "gundam_shield",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/empty.png",
+  "style": "GUNDAM_BLUE_MSSHIELD",
+  "height": 20,
+  "width": 20,
+  "center": [10, 10],
+  "collisionRadius": 20.5,
+  "shieldCenter": [-44, -0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -5, -17,
+    -5, 17,
+    2.5, 17,
+    5.5, -0,
+    2.5, -17
+  ]
+}

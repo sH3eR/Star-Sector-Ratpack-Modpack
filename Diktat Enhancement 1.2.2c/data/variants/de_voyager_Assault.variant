@@ -1,0 +1,54 @@
+{
+  "variantId": "de_voyager_Assault",
+  "hullId": "de_voyager",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 29,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "hardenedshieldemitter",
+    "high_scatter_amp",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "de_scatter",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0008": "de_gravitonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyblaster",
+        "WS0006": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "plasma"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "de_woodpecker_wing"
+  ]
+}

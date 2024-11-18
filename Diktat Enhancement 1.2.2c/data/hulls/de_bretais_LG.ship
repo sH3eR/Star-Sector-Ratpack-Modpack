@@ -1,0 +1,46 @@
+{
+  "hullName": "Bretais(LG)",
+  "hullId": "de_bretais_LG",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DE/ships/bretais_LG.png",
+  "style": "MIDLINE",
+  "height": 33,
+  "width": 36,
+  "center": [18, 14.5],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding",
+    "dedicated_targeting_core"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, -0],
+      "length": 15,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -14.5, -4.5,
+    5.5, -13,
+    20, 0,
+    5.5, 13,
+    -14.5, 4.5
+  ]
+}

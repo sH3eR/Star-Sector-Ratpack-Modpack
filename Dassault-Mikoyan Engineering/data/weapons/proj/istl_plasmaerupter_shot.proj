@@ -1,0 +1,30 @@
+{
+	"id":"istl_plasmaerupter_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.istl_PlasmaOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":35.0,
+	#"length":145.0,
+	"width":6.0,
+	"fadeTime":0.15,
+	"fringeColor":[155,100,255,235],
+	"coreColor":[175,125,255,255],
+	"hitGlowRadius":20,	
+	"passThroughMissiles":true,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-750.0,
+	"pixelsPerTexel":1.0,
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":15,
+					 "coreRadius":10, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":2.0,
+					 "particleDuration":1.2,
+					 "particleCount":24,
+					 "particleColor":[175,125,255,255]},
+					}	
+}

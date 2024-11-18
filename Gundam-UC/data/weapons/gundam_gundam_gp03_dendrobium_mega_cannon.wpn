@@ -1,0 +1,60 @@
+{
+  "id": "gundam_gundam_gp03_dendrobium_mega_cannon",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ma/gundam_gp03_dendrobium/gundam_gundam_gp03_dendrobium_cannon.png",
+  "hardpointSprite": "graphics/ma/gundam_gp03_dendrobium/gundam_gundam_gp03_dendrobium_cannon.png",
+  "glowColor": [
+    220,
+    230,
+    120,
+    255
+  ],
+  "hitGlowRadius": 10,
+  "turretOffsets": [
+    105,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    169.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 35,
+  "textureType": [
+    "graphics/fx/gundam_beam_fx_j1.png",
+    "graphics/fx/gundam_beam_fx_z3.png"
+  ],
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 3,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "gundam_minovski_charge",
+  "fireSoundTwo": "gundam_minovski_beam"
+}

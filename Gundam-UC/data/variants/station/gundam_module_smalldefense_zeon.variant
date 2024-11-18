@@ -1,0 +1,57 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "gundam_module_smalldefense_zeon",
+    "hullMods": [always_detaches],
+    "permaMods": [],
+    "variantId": "gundam_module_smalldefense_zeon_standard",
+    "weaponGroups": [
+        {
+
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gundam_antims_1cannon_pd_m",
+                "WS0002": "gundam_antims_1cannon_pd_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gundam_mega_3cannon_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "gundam_pd_2bc",
+				"WS0005": "gundam_pd_2bc",
+				"WS0006": "gundam_pd_2bc",
+                "WS0007": "gundam_pd_2bc",
+				"WS0008": "gundam_pd_2bc",
+				"WS0009": "gundam_pd_2bc",
+				"WS0010": "gundam_pd_2mg",
+				"WS0011": "gundam_pd_2mg",
+				"WS0012": "gundam_pd_2mg",
+				"WS0013": "gundam_pd_2mg",
+				"WS0014": "gundam_pd_2mg"
+			 }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "gundam_builtin_rear_spmissile",
+				"WS0016": "gundam_builtin_rear_spmissile",
+				"WS0017": "gundam_builtin_rear_farspmissile",
+                "WS0018": "gundam_builtin_rear_farspmissile"
+            }
+        }
+    ],
+    "wings": [
+		"gundam_zaku_i_wing"
+    ]
+}
